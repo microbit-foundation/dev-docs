@@ -38,7 +38,7 @@ plugged into the edge connector.
 System LED will not light up when powered from battery)
 
 * All key facts can be independently verified and understood further by looking
-at the [schematic](./schematic.md) and refering to the appropriate chip data
+at the [schematic](/hardware/schematic/) and refering to the appropriate chip data
 sheets also listed on that page.
 
 
@@ -112,7 +112,7 @@ of over voltage protection, or proper regulation.
 
 ## Power Supply Architecture
 
-The [schematic](./schematic.md) shows the architecture of the power supply.
+The [schematic](/hardware/schematic/) shows the architecture of the power supply.
 Key points to note are that there are two BAT60A diodes, one from the 3.3V
 supply from the KL26 interface chip, and one from the external battery connector.
 Note that the 3V ring on the edge connector is V_TGT, which is the raw
