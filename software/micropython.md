@@ -214,8 +214,6 @@ A couple of Python modules provide code and command line commands for
 Many people in the international Python community have contributed free-to-use
 resources via the [MicroPython / BBC micro:bit World Tour](https://microworldtour.github.io/).
 
-[MicroPi](https://github.com/Bottersnike/Micro-Pi)
-
 [Online python simulator](https://create.withcode.uk/)
 
 ## Documentation
