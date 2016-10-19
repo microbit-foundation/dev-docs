@@ -99,7 +99,7 @@ your board to flash it for you
 
 ## KL26 software
 
-As described on the [interface firmware](/software/interface) page, there is
+As described on the [interface firmware](/software/daplink-interface) page, there is
 a bootloader and a main interface program that needs to be flashed to the KL26Z.
 
 The hex file/image that contains both of these together can be found
