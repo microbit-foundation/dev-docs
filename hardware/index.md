@@ -316,7 +316,7 @@ manufacture of attachments e.g. via 3D printing.
 
 [Schematic](./schematic)
 
-[Reference Design](./referencedesign)
+[Reference Design](./reference-design)
 
 [Nordic NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
 

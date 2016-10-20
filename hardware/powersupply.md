@@ -83,7 +83,7 @@ this might look like the micro:bit is not working, but it is.
 Because the nRF51822 is powered almost directly (there is only one BAT60 diode
 between the supply and the nRF51 power rails), a fully charged **LiPoly battery**
 that is specced to reach 4.2V **will be give greater than the 3.9V maximum that
-the nRF51822 can withstand** [see below](#Key Voltages)
+the nRF51822 can withstand** [see below](#key-voltages)
 
 Different types of batteries will provide different peak currents and behave
 differently when accidentally shorted. Because of this, the BBC
