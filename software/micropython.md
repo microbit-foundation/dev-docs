@@ -216,6 +216,10 @@ resources via the [MicroPython / BBC micro:bit World Tour](https://microworldtou
 
 [Online python simulator](https://create.withcode.uk/)
 
+## Teaching Resources
+
+[Grok Learning](https://groklearning.com/microbit/) provides an online MicroPython code editor, Blockly visual programming, full micro:bit simulator, curriculum-aligned teaching material and auto-marked problems.
+
 ## Documentation
 
 Tutorials and API documentation for developers can be
