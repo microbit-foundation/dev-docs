@@ -66,7 +66,7 @@ via an off-chip aerial.
 
 ## Bluetooth Wireless Communication
 
-The on board 2.4GHz transciever supports Bluetooth communications via the Nordic S100 SoftDevice,
+The on board 2.4GHz transciever supports Bluetooth communications via the Nordic S110 SoftDevice,
 which provides a fully qualified Bluetooth low energy stack.
 This allows the micro:bit to communicate with a wide range of Bluetooth devices,
 including smartphones and tablets.
