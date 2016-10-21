@@ -34,7 +34,7 @@ The 'high level' programming languages for the micro:bit break down into
 two broad categories
 
 * Compiled languages: your program is compiled to ARM assembler or some other kind of bytecode before being copied onto the micro:bit.
-* Interpreted Languages: both your script and an interpreter for it are copied onto the micro:bit. Because the interpreter is on the micro:bit itself, these langauges typically also allow you to program the micro:bit 'live' over USB by typing commands.
+* Interpreted Languages: both your script and an interpreter for it are copied onto the micro:bit. Because the interpreter is on the micro:bit itself, these languages typically also allow you to program the micro:bit 'live' over USB by typing commands.
 
 ## Compiled Languages
 
@@ -55,11 +55,11 @@ handled by the micro:bit runtime and mbed. A pre-compiled runtime image is
 included in the browser and concatenated with the compiled script before
 being presented for download.
 
-## Interpreted Langauges
+## Interpreted Languages
 
 In the official micro:bit editors at microbit.co.uk, only Python is interpreted. This is done by the use of the MicroPython interpreter.
 
-The details of this are documented in the [MicroPython](/software/micropython).
+The details of this are documented in the [MicroPython](/software/micropython) page.
 
 There is also a [port of the Javascript interpreter Espruino](http://www.espruino.com/MicroBit) that runs on the micro:bit.
 
@@ -68,7 +68,7 @@ There is also a [port of the Javascript interpreter Espruino](http://www.espruin
 There are a huge number of possible coding environments that you can use
 to program the micro:bit.
 
-Among the most popular are the official ones listed at [microbit.org/code], as well as the offline Mu editor.
+Among the most popular are the official ones listed at [http://microbit.org/code], as well as the offline Mu editor.
 
 Here's a non-exhaustive list of possible code editors for use with the micro:bit. *please add any you know about that are not here*
 
@@ -95,8 +95,8 @@ USB memory stick to your computer (the flash drive is actually emulated
 It is also possible to 'flash' code to your micro:bit by using a mobile app,
 and using the Bluetooth communications interface from your mobile phone.
 
-You can read more about bluetooth flashing [here](/bluetooth/profile)
-You can read more about bluetooth apps [here](/bluetooth/apps-and-examples)
+You can read more about [bluetooth flashing](/bluetooth/profile) or
+[bluetooth apps](/bluetooth/apps-and-examples) by following these links.
 
 
 # micro:bit Low Level (C/C++) Software Stack
@@ -105,7 +105,7 @@ When you write an application for your micro:bit, other pieces of software are
 joined together with your application to make up the final .hex file that is
 flashed. This code consists of various lower level software components, such as:
 
-* [the micro:bit Runtime](./runtime-mbed/) (Sometimes called the device abstraction layer), written in C++ by Lancaster University. The DAL abstracts the
+* [the micro:bit Runtime](./runtime-mbed/) (sometimes called the device abstraction layer), written in C++ by Lancaster University. The DAL abstracts the
 facilities of the micro:bit into a common set of functions that can be used
 by all coding languages, though some languages, like Python, make less use of the DAL than the Microsoft-based languages, such as Blocks, pxt and TouchDevelop, where the high level block functions map almost directly onto equivalent C/C++ calls in the runtime
 
