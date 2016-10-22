@@ -1,7 +1,7 @@
 ---
 layout: page
 order:
-title: Bluetooth Progile
+title: Bluetooth Profile
 heading: micro:bit Bluetooth Profile
 description: The micro:bit can be interacted with in an open way using the standard Bluetooth Low Energy protocol. This page outlines the details of the micro:bit protocol
 permalink: /bluetooth/profile/
@@ -34,7 +34,7 @@ the
 [GAP Perhipheral Role](http://bluetooth-mdw.blogspot.co.uk/2016/07/microbit-and-bluetooth-roles.html)
 
 As per all all Bluetooth, it operates in the ISM (Industrial Scientific Medical) band
-and this starts at 2.4GHz and ends and 2.41GHz Bluetooth low energy divides the frequency
+and this starts at 2.4GHz and ends at 2.41GHz. Bluetooth low energy divides the frequency
 band into 50 x 2MHz bands of which 40 are used.
 These are called “channels” and numbered 0 to 39.
 Channels 37, 38 and 39 are used for “advertising”.
