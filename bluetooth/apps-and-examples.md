@@ -21,7 +21,7 @@ about and try for yourself with your micro:bit
 
 ## Applications
 
-[bitty software apps](www.bittysoftware.com)
+[bitty software apps](http://www.bittysoftware.com)
 
 [Martins App](http://bluetooth-mdw.blogspot.co.uk/p/bbc-microbit.html)
 
