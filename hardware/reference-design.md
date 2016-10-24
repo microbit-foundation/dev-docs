@@ -41,7 +41,7 @@ programmer to program all your micro:bit based designs!
 features: 3xbuttons, 5x5 display, accelerometer, magnetometer)**
 * Released under the [SolderPad License 0.51](http://solderpad.org/licenses/SHL-0.51/) (based on Apache-2.0, but tailored
   towards Open Hardware)
-* Based on an [nRF5188 module](#Module Choice) for ease of use
+* Based on an [nRF5188 module](#module-choice) for ease of use
 * Separate programmer and debugger circuits so that you can strip back
 things that you don't need
 * Standard 2.54mm pitch connector for
@@ -99,7 +99,7 @@ your board to flash it for you
 
 ## KL26 software
 
-As described on the [interface firmware](/software/interface) page, there is
+As described on the [interface firmware](/software/daplink-interface) page, there is
 a bootloader and a main interface program that needs to be flashed to the KL26Z.
 
 The hex file/image that contains both of these together can be found

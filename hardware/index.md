@@ -227,7 +227,7 @@ mode at any one time.
 | Edge Connector| [mechanical data](./mechanical.md)
 | Pitch | 1.27mm, 80 way double sided.
 | Pads| 5 pads, with 4mm holes
-| More Info | [here](../edgeconnector)
+| More Info | [here](/hardware/edgeconnector/)
 
 
 ## Power Supply
@@ -262,7 +262,7 @@ main computer.
 | RAM           | 4KB
 | Speed         | 16MHz
 | Debug capabilities | SWD
-| More Info | [here](../software/interface)
+| More Info | [here](/software/daplink-interface/)
 
 
 ## USB Communications
@@ -281,7 +281,7 @@ of application programs.
 | Speed         | 12Mbit/sec
 | USB classes supported | [Mass Storage Class (MSC)](https://en.wikipedia.org/wiki/USB_mass_storage_device_class)
 |    | [Communications Device Class (CDC)](https://en.wikipedia.org/wiki/USB_communications_device_class)
-| More Info | [here](../software/interface)
+| More Info | [here](/software/daplink-interface/)
 
 
 ## Debugging
@@ -316,7 +316,7 @@ manufacture of attachments e.g. via 3D printing.
 
 [Schematic](./schematic)
 
-[Reference Design](./referencedesign)
+[Reference Design](./reference-design)
 
 [Nordic NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
 
