@@ -224,7 +224,7 @@ mode at any one time.
 ||        3 may be assigned to an optional SPI communications interface
 ||        3 may be assigned for up to 3 simultaneous touch sensing inputs
 |ADC resolution | 10 bit (0..1023)
-| Edge Connector| [mechanical data](./mechanical.md)
+| Edge Connector| [Edge connector data sheet](/hardware/edgeconnector_ds/)
 | Pitch | 1.27mm, 80 way double sided.
 | Pads| 5 pads, with 4mm holes
 | More Info | [here](/hardware/edgeconnector/)
