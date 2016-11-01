@@ -258,8 +258,8 @@ main computer.
 | ---           | ---
 | Model         |[Freescale MKL26Z128VFM4](http://www.nxp.com/webapp/search.partparamdetail.framework?PART_NUMBER=MKL26Z128VFM4)
 | Core variant: | [ARM Cortex-M0+](https://www.arm.com/products/processors/cortex-m/cortex-m0plus.php)
-| Flash ROM     | 32KB
-| RAM           | 4KB
+| Flash ROM     | 128KB
+| RAM           | 16KB
 | Speed         | 16MHz
 | Debug capabilities | SWD
 | More Info | [here](/software/daplink-interface/)
