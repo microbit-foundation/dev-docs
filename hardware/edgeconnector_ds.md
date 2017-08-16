@@ -117,7 +117,7 @@ pull down resistors when the pins are configured by the DAL.
 of the device may become unstable, degraded or non operational, if their
 normal use is not disabled in the software first.
 
-6. The source file for [the pinout table](./pinmap.csv) is held in CSV format.
+6. The source file for [the pinout table](../pinmap.csv) is held in CSV format.
 You can load this into a spreadsheet and sort and filter it in any way that
 makes sense to you. There is also a [zipped Python script](./csv2md.zip) in this folder 
 that you can download to re-generate the markdown table version of the pinmap
