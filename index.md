@@ -4,6 +4,7 @@ lang: en
 title: micro:bit developer community and technical resources
 heading: Welcome to the micro:bit developer community
 layout: homepage
+permalink: /
 post_filter: featured
 ---
 # Half wiki, half datasheet
