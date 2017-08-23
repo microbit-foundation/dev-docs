@@ -73,7 +73,7 @@ If you think you've found a bug in the DAL, please report the issue on GitHub: [
 
 The micro:bit hardware is based on the mbed HDK, and the software on the mbed SDK. Any program that runs on an mbed platform will run on the micro:bit provided the required peripherals and memory are present. This means that developers using the micro:bit already have access to a huge [library of components](https://developer.mbed.org/components/) that they can use with the micro:bit. Furthermore, it means that things developed on the micro:bit can be used on other mbed platforms.
 
-Of particular interest are the mbed BLE projects, many of which were developed on nRF51-based hardware very similar to the micro:bit. The mbed [Blueooth Low Energy Team](https://developer.mbed.org/teams/Bluetooth-Low-Energy/) has many useful links and examples.
+Of particular interest are the mbed BLE projects, many of which were developed on nRF51-based hardware very similar to the micro:bit. The mbed [Bluetooth Low Energy Team](https://developer.mbed.org/teams/Bluetooth-Low-Energy/) has many useful links and examples.
 
 ## Online IDE
 
