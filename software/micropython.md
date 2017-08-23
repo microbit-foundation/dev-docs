@@ -42,7 +42,7 @@ laptop). Alternatively, download a zipped up version of the editor and
 launch it from your local file system. This is still something experimental,
 so if you have any issues with it please [report issues](https://github.com/bbcmicrobit/PythonEditor/issues). If you'd like to try that, please use this file:
 
-* [Python 'web' editor for offline use, v0.1](/software/assets/python-editor-mbf0.1.zip)
+* [Python 'web' editor for offline use, v0.1](/docs/software/assets/python-editor-mbf0.1.zip)
 
 Write code in the web editor, press the `Download` button and drag the
 resulting `.hex` file onto your micro:bit.

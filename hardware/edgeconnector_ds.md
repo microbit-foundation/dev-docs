@@ -117,9 +117,9 @@ pull down resistors when the pins are configured by the DAL.
 of the device may become unstable, degraded or non operational, if their
 normal use is not disabled in the software first.
 
-6. The source file for [the pinout table](./pinmap.csv) is held in CSV format.
+6. The source file for [the pinout table](/docs/hardware/pinmap.csv) is held in CSV format.
 You can load this into a spreadsheet and sort and filter it in any way that
-makes sense to you. There is also a [zipped Python script](./csv2md.zip) in this folder 
+makes sense to you. There is also a [zipped Python script](/docs/hardware/csv2md.zip) in this folder
 that you can download to re-generate the markdown table version of the pinmap
 used on this page, from the .csv file.
 
@@ -198,7 +198,7 @@ and provided here as a handy reference.
 | VOH    | Voltage Output High                                |  8.23   | VDD-0.3  | VDD     |
 | VIL    | Input voltage for logic low                        |  8.23   | VSS      | 0.3*VDD |
 | VIH    | Input voltage for logic high                       |  8.23   | 0.7*VDD  | VDD     |
-| xxx    | Max source current from IO pin                     |  8.23   | --       | 5mA     |    
+| xxx    | Max source current from IO pin                     |  8.23   | --       | 5mA     |
 | xxx    | Max sink current into IO pin                       |  8.23   | --       | 5mA     |
 | VIO    | Tolerable pin voltages for IO pin                  |  6      | -0.3V    | VDD+0.3 |
 | xxx    | Pin impedance when an input                        |  ?      | TBD      |         |

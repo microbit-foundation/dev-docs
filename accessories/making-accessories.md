@@ -21,7 +21,7 @@ and a 'datasheet' for it [here](/hardware/edgeconnector_ds)
 
 There are two lozenge shaped pads on the back of the micro:bit. These allow you to connect a battery holder via a mechanism other than the JST connector.
 
-![Picture of the two lozenges](../assets/making-accessories-d7c25.png)
+![Picture of the two lozenges](/docs/accessories/assets/making-accessories-d7c25.png)
 
 
 

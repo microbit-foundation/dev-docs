@@ -11,8 +11,8 @@ assigned-to: jonnya
 review-with: jonnya
 ---
 
-*Please note, this site is recently created, and should be considered closer to a community wiki than a data-sheet. 
-We've done our best to start with a correct set of information. 
+*Please note, this site is recently created, and should be considered closer to a community wiki than a data-sheet.
+We've done our best to start with a correct set of information.
 If you find mistakes, please report them as bugs on [GitHub here](https://github.com/microbit-foundation/dev-docs/issues)*
 
 # Overview
@@ -21,7 +21,7 @@ If you find mistakes, please report them as bugs on [GitHub here](https://github
 * TOC
 {:toc}
 
-![img](assets/microbit-overview.png)
+![img](/docs/hardware/assets/microbit-overview.png)
 
 # Getting Started With the micro:bit Hardware
 

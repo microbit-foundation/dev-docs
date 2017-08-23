@@ -40,7 +40,7 @@ version.
 
 # How it Works
 
-![img](/software/assets/browser-build-pipeline.png)
+![img](/docs/software/assets/browser-build-pipeline.png)
 
 The above diagram shows an example of how blocks code is converted into a
 .hex file that can be loaded onto your micro:bit

@@ -18,7 +18,7 @@ we want to enable people to build their own hardware products and projects based
 on the micro:bit. This means taking all the hardware that you've connected
 to your micro:bit and putting down on one circuit board.
 
-![micro:bit plant monitor](../assets/referencedesign-57055.png){:width="40%"}
+![micro:bit plant monitor](/docs/hardware/assets/referencedesign-57055.png){:width="40%"}
 
 *Turn all these cables into a single board!*
 
@@ -57,15 +57,15 @@ things that you don't need
 Any code that you write for your micro:bit can be run on the reference design
 without modification.
 
-![micro:bit reference design back](../assets/referencedesign-76a11.png){:width="40%"}
-![micro:bit reference design front](../assets/referencedesign-2988d.png){:width="37%"}
+![micro:bit reference design back](/docs/hardware/assets/referencedesign-76a11.png){:width="40%"}
+![micro:bit reference design front](/docs/hardware/assets/referencedesign-2988d.png){:width="37%"}
 
 # Modularity
 
 The reference design is laid out in a very modular way, so that someone working
 with it can easily customise the board to include only the parts they need.
 
-![the reference design is modular](../assets/referencedesign-9cfb5.png).
+![the reference design is modular](/docs/hardware/assets/referencedesign-9cfb5.png).
 
 For example, if you want to make something really tiny that doesn't make use
 of all the expansion or the LEDs, you could make use of the 'bare minimum subset'
@@ -103,16 +103,16 @@ As described on the [interface firmware](/software/daplink-interface) page, ther
 a bootloader and a main interface program that needs to be flashed to the KL26Z.
 
 The hex file/image that contains both of these together can be found
-here: [hex file](../assets/kl26z_bl_if_BL0233_IF0234.hex.zip)
+here: [hex file](/docs/hardware/assets/kl26z_bl_if_BL0233_IF0234.hex.zip)
 
 You should flash this onto your KL26Z using the header labelled MKL26 prog:
 
-![KL26 program header](../assets/referencedesign-7eaaa.png)
+![KL26 program header](/docs/hardware/assets/referencedesign-7eaaa.png)
 
 If you don't have a debugger, the nRF51-DK board can be used as a J-link
 debugger with the following configuration.
 
-![Using an nRF51-DK as a debugger](../assets/referencedesign-609b1.png){:width="40%"}
+![Using an nRF51-DK as a debugger](/docs/hardware/assets/referencedesign-609b1.png){:width="40%"}
 
 Please see [this page](https://developer.mbed.org/users/MarceloSalazar/notebook/programming-a-minibeacon-bluetooth-module-nordic-n/) for more information
 
@@ -126,7 +126,7 @@ device.
 If you have chosen not to include a KL26Z circuit then you can use an external
 programmer and the nRF51prog header:
 
-![nRF51 prog header](../assets/referencedesign-d1599.png)
+![nRF51 prog header](/docs/hardware/assets/referencedesign-d1599.png)
 
 # Design and BOM
 
