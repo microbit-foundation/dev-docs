@@ -1,7 +1,7 @@
 ---
 layout: page
 order:
-title: Edge Connecgtor
+title: Edge Connector
 heading: Edge Connector
 description: The edge connector provides a set of pads and pins to allow interfacing to other circuits and components.
 permalink: /hardware/edgeconnector/
