@@ -1,7 +1,7 @@
 ---
 layout: page
-order: 
-title: Bluetooth Apps and Examples 
+order:
+title: Bluetooth Apps and Examples
 heading: Bluetooth Apps and Examples
 description: There are a lot of great apps and examples that allow the micro:bit to talk to a smartphone over BLE
 permalink: /bluetooth/apps-and-examples/
@@ -27,7 +27,7 @@ about and try for yourself with your micro:bit
 
 [Android App on Google Play](https://play.google.com/store/apps/details?id=com.samsung.microbit&hl=en_GB)
 
-[Samsung and micro:bit](http://www.samsung.com/uk/microbit/)
+<a href="http://www.samsung.com/uk/microbit/" data-proofer-ignore>Samsung and micro:bit</a>
 
 [iOS App on iTunes](https://itunes.apple.com/gb/app/micro-bit/id1092687276?mt=8)
 

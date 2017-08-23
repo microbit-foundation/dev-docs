@@ -97,13 +97,13 @@ sits inside the frame of the website, but it gains access to the
 save and import functionality for saving and loading scripts
 to local files, and to and from a cloud store.
 
-Read more about how MicroPython works: [MicroPython on micro:bit](./micropython)
+Read more about how MicroPython works: [MicroPython on micro:bit](/software/micropython)
 
 
 # Contributions
 
 The PXT editor is open source. You can log issues with the dev team here:
-[PXT issues](https://github.com/Microsoft/pxt-microbit/issues/new)
+[PXT issues](https://github.com/Microsoft/PXT/issues/new)
 
 Why not take part, and add your own features to the PXT editor?
 Here is the source code for the whole site:

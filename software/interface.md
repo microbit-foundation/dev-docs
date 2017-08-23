@@ -15,7 +15,7 @@ review-with: davidw, jamesd
 
 One of the coolest features of the micro:bit is the way that it presents itself as a USB disk when it is connected over USB, and can be programmed through this interface without the need to install any drivers. Furthermore, no matter what code you run on your micro:bit, or how you manage to crash the device, you can always still put a new program on using the USB connection.
 
-This is made possible by having a separate 'interface chip' or 'interface MCU' on the micro:bit dedicated to USB connections, programming and debugging. On the micro:bit, that chip is a Freescale KL26Z. The chip that developers' code runs on, and that all the peripherals are connected to (the nRF51822) is called the 'target MCU'. See the [Hardware](../hardware) page and the schematic for more details about how these two devices are connected.
+This is made possible by having a separate 'interface chip' or 'interface MCU' on the micro:bit dedicated to USB connections, programming and debugging. On the micro:bit, that chip is a Freescale KL26Z. The chip that developers' code runs on, and that all the peripherals are connected to (the nRF51822) is called the 'target MCU'. See the [Hardware](/hardware) page and the schematic for more details about how these two devices are connected.
 
          PC
           ^                                                    +----------------------------+

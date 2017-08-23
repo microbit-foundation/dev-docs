@@ -184,7 +184,7 @@ purposes.
 ## Power Supply Capabilities
 
 The power supply capabilities and parameters, which better define how you
-can use the GND and 3V rings, are detailed here: [psu](./powersupply)
+can use the GND and 3V rings, are detailed here: [psu](/hardware/powersupply)
 
 
 ## GPIO Capabilities

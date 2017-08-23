@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 
+order:
 title: Bluetooth
 heading: Heading
 description: Description for the page
@@ -37,7 +37,7 @@ PXT and MicroPython, as well as mbed C++.
 Bluetooth features available on the micro:bit are defined in a
 Bluetooth profile. The micro:bit supports one profile, which was
 custom developed for the micro:bit. Read about it
-[here](./profile.md)
+[here](/bluetooth/profile/)
 
 
 # Links

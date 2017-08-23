@@ -88,7 +88,7 @@ contributions to this pinmap document for other popular modules are welcome.
 There is a [list of nRF51882 modules maintained by Nordic Semiconductor](https://www.nordicsemi.com/eng/Products/3rd-Party-Bluetooth-low-energy-Modules),
 from which you could choose any module that has all 31GPIOs broken out. If your
 design doesn't use all of the pins on the edge connector and you are able to
-recompile your software for your custom design ([for example using mbed](../software/dal/))
+recompile your software for your custom design ([for example using mbed](/software/runtime-mbed/))
 then you could choose a range of other modules.
 
 # Software bringup
@@ -143,7 +143,7 @@ duplication, please refer to the [hardware page](../../hardware/)
 The reference design can be loaded and used in:
 
 * [Altium](http://www.altium.com/)
-* [Eagle Express/Maker/Educational](https://cadsoft.io/pricing/)
+* [Eagle Express/Maker/Educational](http://cadsoft.io/pricing/)
 * [KiCad EDA](http://kicad-pcb.org/)
 
 Currently, the design is 'Altium First' and we would appreciate any support or

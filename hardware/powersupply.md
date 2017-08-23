@@ -96,7 +96,7 @@ The micro:bit may be powered from the 3V/GND rings on the edge connector.
 There are also two losenge shaped pads on the far right of the back of the PCB
 that can be used to supply power (e.g. solderable pads for a 2xAAA holder that
 has wires or pins at one edge). [The topmost losenge is 0V and the bottom most
-losenge is 3V](../../accessories/making-accessories/#battery pads).
+losenge is 3V](../../accessories/making-accessories/#battery-pads).
 
 When powering from the 3V ring or the losenge on the PCB, you should take
 appropriate best practice precautions:

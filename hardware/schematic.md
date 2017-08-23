@@ -126,7 +126,7 @@ Both the front and the back of each of the 5 round ring pads are electrically co
 A number of pins have alternate assigned functions for use by the micro:bit, many of these
 can be disabled in software to gain more general purpose IO pins.
 
-![img](https://developer.mbed.org/media/uploads/JonnyA/600xNxmicrobit_platform_image_2.png.pagespeed.ic.uXq2rT5rpA.png)
+![edge connector](/docs/hardware/assets/edge_connector.svg)
 
 
 # Other Links
@@ -139,7 +139,7 @@ can be disabled in software to gain more general purpose IO pins.
 
 [MMA8653FC datasheet](http://www.nxp.com/products/sensors/accelerometers/3-axis-accelerometers/2g-4g-8g-low-g-10-bit-digital-accelerometer:MMA8653FC)
 
-[PRT5xx datasheet](http://cache.nxp.com/documents/data_sheet/PRTR5V0U2F_PRTR5V0U2K.pdf?pspll=1)
+[PRT5xx datasheet](https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2F_PRTR5V0U2K.pdf)
 
 [BAT60A datasheet](http://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9)
 

@@ -47,7 +47,7 @@ In order to ensure that the micro:bit online code editors could scale to support
 * CodeKingdoms Javascript (at microbit.co.uk)
 * Blocks and Javascript as part of [pxt](http://pxt.io) (at pxt.microbit.org)
 
-This process is explained in full in the [In browser compiler](/software/in-browser-compiler) page, and in fantastic detail at [TouchDevelop in 208 bits](https://www.touchdevelop.com/docs/touch-develop-in-208-bits).
+This process is explained in full in the [In browser compiler](/software/in_browser_compiler) page, and in fantastic detail at [TouchDevelop in 208 bits](https://www.touchdevelop.com/docs/touch-develop-in-208-bits).
 
 These in-browser-compilers do not compile the whole of the software stack,
 but just the user's script. Function calls and low level functions are

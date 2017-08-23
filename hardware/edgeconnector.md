@@ -28,7 +28,7 @@ front rings, but the back small strips are unconnected.
 
 ## Edge Connector Pins
 
-![img](https://developer.mbed.org/media/uploads/JonnyA/microbit_platform_image_2.png)
+![edge connector](/docs/hardware/assets/edge_connector.svg)
 
 
 ## PCB Connector
