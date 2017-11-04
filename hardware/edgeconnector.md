@@ -48,7 +48,9 @@ There is a good mechanical data-sheet for the right angle PCB edge connector
 
 [Technical Data sheet](../edgeconnector_ds/)
 
-[micro:bit CAD resources](https://www.kitronik.co.uk/blog/bbc-microbit-cad-resources/)
+[micro:bit CAD resources (Kitronik)](https://www.kitronik.co.uk/blog/bbc-microbit-cad-resources/)
+
+[Edge connector CAD resources (Proto-Pic)](https://www.proto-pic.co.uk/micro-bit-resources.html)
 
 [2D CAD drawing](https://www.kitronik.co.uk/pdf/bbc_microbit_mechanical_datasheet_V2.pdf)
 This drawing has all the key micro:bit dimensions, including the pin spacing of the
