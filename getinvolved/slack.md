@@ -19,6 +19,8 @@ in the hardware side of things too.
 If you'd like to be part of the world-wide micro:bit community, then join us on
 the microbit-community slack channel!
 
+<a href="https://slack.com">Slack</a> is a messaging service that allows teams and communities to connect online. It's a brilliant tool for live collaboration and the place to be for current micro:bit chatter! Please note that Slack does not replace our <a href="http://support.microbit.org/">online forum</a>, where you can search for help and ask the support team questions.
+
 Thursday afternoons from 3pm UK time, especially, is a micro:bit party.
 This will help us have a critical mass of people around while the micro:bit community is still small.
 
