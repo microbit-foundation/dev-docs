@@ -339,3 +339,5 @@ manufacture of attachments e.g. via 3D printing.
 [SPI 'specification'](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
 
 [ARM mbed overview](https://www.mbed.com/en/about-mbed/what-mbed/)
+
+[Fritzing diagram, contributed by Kok Ho Huen](/assets/Microbit.fzpz.zip)
