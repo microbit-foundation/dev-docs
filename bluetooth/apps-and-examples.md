@@ -31,6 +31,8 @@ about and try for yourself with your micro:bit
 
 [iOS App on iTunes](https://itunes.apple.com/gb/app/micro-bit/id1092687276?mt=8)
 
+[micro:bit Blue App for Android](https://github.com/microbit-foundation/microbit-blue)
+
 [evothings](https://evothings.com/evothings-and-the-bbc-microbit/)
 
 [droidscript microbit](http://www.microbit-js.org/controlling-microbit-with-droidscript/)
