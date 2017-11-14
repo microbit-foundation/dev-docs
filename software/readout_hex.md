@@ -33,6 +33,7 @@ The method described here has been tested on Mac OS  using [Homebrew as a packag
 2. Open two terminal windows/tabs
 3. In the first terminal start a GDB server by running ```pyocd-gdbserver --persist -t nrf51 -bh -r```
 4. In the second terminal window/tab run ```arm-none-eabi-gdb``` to open gdb
-5. Run ```dump ihex memory out.hex 0x000 0x3E800``` to write 'out.hex' to your working directory
+5. In the same terminal run ```target remote :3333``` to connect to the GDB server
+6. Now run ```dump ihex memory out.hex 0x000 0x3E800``` to write 'out.hex' to your working directory
 
 For any issues or advice contact [micro:bit Support](http://support.microbit.org)
