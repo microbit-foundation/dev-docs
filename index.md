@@ -21,7 +21,7 @@ You can edit any of the pages here by clicking the 'edit' icon in the header bar
 
 If you'd rather just 'report an issue' you can do that with the same link.
 
-# The micro:bit Education Foundation and upstream communities
+# The micro:bit Educational Foundation and upstream communities
 
 This site is run by the micro:bit Educational Foundation in order to document the
 hardware and software that make the micro:bit work the way it does. By doing so,

@@ -88,7 +88,7 @@ This table shows various data about each of the pins on the micro:bit edge conne
 | MCU       | the actual pin name of the nRF51822 MCU chip
 | s/w       | the name that is used in the DAL runtime software
 | functions | all possible functions, **BOLD** for default. brackets indicate use with caution
-| startup   | the startup conditions when the micro:bit boots: Input or Output
+| dir       | the startup conditions (direction) when the micro:bit boots: Input or Output
 | pull?     | pull up or down resistors. e10Mu means an external 10Mohm pullup, i12Kd means an internal 12K pull down.
 
 
