@@ -340,4 +340,4 @@ manufacture of attachments e.g. via 3D printing.
 
 [ARM mbed overview](https://www.mbed.com/en/about-mbed/what-mbed/)
 
-[Fritzing diagram, contributed by Kok Ho Huen](/assets/Microbit.fzpz.zip)
+[Fritzing diagram, contributed by Kok Ho Huen](/docs/hardware/assets/Microbit.fzpz.zip)
