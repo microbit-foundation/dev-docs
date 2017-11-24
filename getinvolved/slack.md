@@ -19,10 +19,7 @@ in the hardware side of things too.
 If you'd like to be part of the world-wide micro:bit community, then join us on
 the microbit-community slack channel!
 
-<a href="https://slack.com">Slack</a> is a messaging service that allows teams and communities to connect online. It's a brilliant tool for live collaboration and the place to be for current micro:bit chatter! Please note that Slack does not replace our <a href="http://support.microbit.org/">online forum</a>, where you can search for help and ask the support team questions.
-
-Thursday afternoons from 3pm UK time, especially, is a micro:bit party.
-This will help us have a critical mass of people around while the micro:bit community is still small.
+<a href="https://slack.com">Slack</a> is a messaging service that allows teams and communities to connect online. It's a brilliant tool for live collaboration and the place to be for current micro:bit chatter! Please note that Slack compliments, but does not replace our <a href="http://support.microbit.org/"> Support Site</a>, where you can search for help and ask the team questions.
 
 If you'd like to join the slack channel, please fill in the form below
 
@@ -39,5 +36,5 @@ If you'd like to join the slack channel, please fill in the form below
 Other projects have other homes. You might be interested in
 
 * MicroPython [documentation](https://microbit-micropython.readthedocs.io/en/latest/) and [mailing list](https://mail.python.org/mailman/listinfo/microbit)
-* [pxt GitHub](https://github.com/Microsoft/pxt) for issues, suggestions and hacking on pxt
+* [Javascript Blocks Editor/Makecode/pxt GitHub](https://github.com/Microsoft/pxt) for issues, suggestions and hacking on pxt
 * [micro:bit runtime GitHub](https://github.com/lancaster-university/microbit-dal/)
