@@ -3,7 +3,7 @@ layout: page
 order:
 title: Get Involved
 heading: Get Involved with micro:bit
-description: Join us on Slack, especially on Thursdays
+description: Join us on Slack
 permalink: /get-involved/where-to-find/
 ref: get-involved
 lang: en
@@ -19,7 +19,7 @@ in the hardware side of things too.
 If you'd like to be part of the world-wide micro:bit community, then join us on
 the microbit-community slack channel!
 
-<a href="https://slack.com">Slack</a> is a messaging service that allows teams and communities to connect online. It's a brilliant tool for live collaboration and the place to be for current micro:bit chatter! Please note that Slack compliments, but does not replace our <a href="http://support.microbit.org/"> Support Site</a>, where you can search for help and ask the team questions.
+<a href="https://slack.com">Slack</a> is a messaging service that allows teams and communities to connect online. It's a brilliant tool for live collaboration and the place to be for current micro:bit chatter! Please note that Slack complements, but does not replace our <a href="http://support.microbit.org/"> Support Site</a>, where you can search for help and ask the team questions.
 
 If you'd like to join the slack channel, please fill in the form below
 
