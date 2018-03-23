@@ -123,6 +123,11 @@ makes sense to you. There is also a [zipped Python script](/docs/hardware/csv2md
 that you can download to re-generate the markdown table version of the pinmap
 used on this page, from the .csv file.
 
+7. The pin marked 'ACCESSIBILITY' is used to enable/disable an on-board 
+accessibility mode, and should not be used for anything else (even though it
+can be used as a GPIO for testing). Future versions of the official micro:bit
+editors may remove the ability to write to this pin.
+
 
 ## Uncoupling Default Functionality
 
