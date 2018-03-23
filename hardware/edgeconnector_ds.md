@@ -53,7 +53,7 @@ This table shows various data about each of the pins on the micro:bit edge conne
 |          | 28      | COL7R    | P0.10 | P9  | (GPIO), **LEDCOL(7)**, (PWM), (UART)              | O      | --             |
 |          | 23      | COL3R    | P0.06 | P10 | (GPIO), **LEDCOL(3)**, (ANALOG), (PWM), (UART)    | O      | --             |
 |          | 9       | BTN_B    | P0.26 | P11 | (GPIO), **BUTTON(B)**, (PWM), (UART)              | I      | e10Ku, i12Kd?  |
-|          | 40      | P0.20    | P0.20 | P12 | **ACCESSIBILITY**, (PWM), (UART)                   | I      | i12Kd          |
+|          | 40      | P0.20    | P0.20 | P12 | (GPIO),**ACCESSIBILITY**, (PWM), (UART)                   | I      | i12Kd          |
 |          |         | PAD3     |       | P2  | }                                                 |        |                |
 |          |         | PAD3     |       | P2  | }                                                 |        |                |
 | 2        | 20      | PAD3     | P0.01 | P2  | } **GPIO**, ANALOG, TOUCH, PWM, UART              | I      | e10Mu, i12Kd   |
