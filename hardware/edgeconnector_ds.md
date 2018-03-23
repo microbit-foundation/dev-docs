@@ -53,7 +53,7 @@ This table shows various data about each of the pins on the micro:bit edge conne
 |          | 28      | COL7R    | P0.10 | P9  | (GPIO), **LEDCOL(7)**, (PWM), (UART)              | O      | --             |
 |          | 23      | COL3R    | P0.06 | P10 | (GPIO), **LEDCOL(3)**, (ANALOG), (PWM), (UART)    | O      | --             |
 |          | 9       | BTN_B    | P0.26 | P11 | (GPIO), **BUTTON(B)**, (PWM), (UART)              | I      | e10Ku, i12Kd?  |
-|          | 40      | P0.20    | P0.20 | P12 | **GPIO**, ACCESS, (PWM), (UART)                   | I      | i12Kd          |
+|          | 40      | P0.20    | P0.20 | P12 | (GPIO),**ACCESSIBILITY**, (PWM), (UART)                   | I      | i12Kd          |
 |          |         | PAD3     |       | P2  | }                                                 |        |                |
 |          |         | PAD3     |       | P2  | }                                                 |        |                |
 | 2        | 20      | PAD3     | P0.01 | P2  | } **GPIO**, ANALOG, TOUCH, PWM, UART              | I      | e10Mu, i12Kd   |
@@ -122,6 +122,11 @@ You can load this into a spreadsheet and sort and filter it in any way that
 makes sense to you. There is also a [zipped Python script](/docs/hardware/csv2md.zip) in this folder
 that you can download to re-generate the markdown table version of the pinmap
 used on this page, from the .csv file.
+
+7. The pin marked 'ACCESSIBILITY' is used to enable/disable an on-board 
+accessibility mode, and should not be used for anything else (even though it
+can be used as a GPIO for testing). Future versions of the official micro:bit
+editors may remove the ability to write to this pin.
 
 
 ## Uncoupling Default Functionality
@@ -218,10 +223,10 @@ directly to the pin. These devices often have significant back-EMF
 when energised, and will generate voltages that exceed the maximum
 specifications of the GPIO pins, and may cause premature device failure.
 
-NOTE 3: The pin marked 'reserved for accessibility' is not presently
-used, and may be used as a general purpose input/output pin.
-It may be used in future releases of the software runtime, to enable
-and disable an on-board accessibility mode.
+NOTE 3: The pin marked 'ACCESSIBILITY' is used to enable/disable an on-board 
+accessibility mode, and should not be used for anything else (even though it
+can be used as a GPIO for testing). Future versions of the official micro:bit
+editors may remove the ability to write to this pin.
 
 NOTE 4: The BBC suggest in the safety guide, that the maximum current
 you can draw from the whole edge connector at any one time is
