@@ -20,7 +20,7 @@ There may be occasions when you want to take a look at the programming that is r
 
 In order to complete this task you will require some additional tools and libraries:
 
-  - Unix like OS
+  - Linux/Mac OS
   - Python 2 (pyOCD is not supported in Python3)
   - [GNU Project Debugger](https://www.gnu.org/software/gdb/) included as part of [armDeveloper GNU Embedded Toolchain](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads) [How to Install](https://gnu-mcu-eclipse.github.io/toolchain/arm/install/)
   - [pyOCD Python library](https://github.com/mbedmicro/pyOCD)
