@@ -2,12 +2,12 @@
 layout: page
 order:
 title: Bluetooth
-heading: Heading
-description: Description for the page
+heading: Bluetooth
+description: Bluetooth implementation on the micro:bit
 permalink: /bluetooth/
 ref: bluetooth
 lang: en
-assigned-to: davidw
+assigned-to: markw
 review-with: jonnya
 ---
 
