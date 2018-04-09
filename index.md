@@ -42,7 +42,7 @@ If you'd like to help us make the micro:bit better, then there are a number of
 ways that you can get involved
 
 * Contribute features and fixes to one of the upstream projects that the micro:bit relies upon,
-such as the micro:bit Runtime, pxt, the Python editor, or mbed. These projects are
+such as the micro:bit Runtime, Makecode, the Python editor, or mbed. These projects are
 explained in this site.
 * Help us build a brilliant hardware ecosystem around micro:bit - derivative boards,
 cool accessories and add ons, or even suggestions for future versions of the micro:bit.

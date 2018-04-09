@@ -40,12 +40,7 @@ two broad categories
 
 *C/C++, while certainly compiled, is not considered a high-level language in this context*
 
-In order to ensure that the micro:bit online code editors could scale to support 1M deployed boards, Microsoft built an in-browser-compiler, written in TypeScript. This is the technology used for the following online editors:
-
-* Blocks (at microbit.co.uk)
-* TouchDevelop
-* CodeKingdoms Javascript (at microbit.co.uk)
-* Blocks and Javascript as part of [pxt](http://pxt.io) (at pxt.microbit.org)
+In order to ensure that the micro:bit online code editors could scale to support 1M deployed boards, Microsoft built [Makecode, an in-browser-compiler](makecode.microbit.org), written in TypeScript.
 
 This process is explained in full in the [In browser compiler](/software/in_browser_compiler) page, and in fantastic detail at [TouchDevelop in 208 bits](https://www.touchdevelop.com/docs/touch-develop-in-208-bits).
 
@@ -72,14 +67,10 @@ Among the most popular are the official ones listed at http://microbit.org/code 
 
 Here's a non-exhaustive list of possible code editors for use with the micro:bit. *please add any you know about that are not here*
 
-* microbit.co.uk editors based on TouchDevelop backend:
-  * [Code Kingdoms Javascript](https://www.microbit.co.uk/create-code/#code-kingdom)
-  * [Microsoft Blocks](https://www.microbit.co.uk/create-code/#blocks)
-  * [Microsoft TouchDevelop](https://www.microbit.co.uk/create-code/#touchdevelop)
-  * [Python](https://www.microbit.co.uk/create-code/#python)
+* [Javascript Blocks(powered by Makecode)](https://makecode.microbit.org)
+* [Python](https://python.microbit.org)
 * [mbed Online Compiler](http://developer.mbed.org/platforms/Microbit)
 * [Mu offline Python editor](http://codewith.mu/)
-* [PXT for micro:bit](http://pxt.microbit.org) (successor to the TouchDevelop-based editors above)
 
 
 # From Coding Environment to micro:bit
@@ -107,7 +98,7 @@ flashed. This code consists of various lower level software components, such as:
 
 * [the micro:bit Runtime](./runtime-mbed/) (sometimes called the device abstraction layer), written in C++ by Lancaster University. The DAL abstracts the
 facilities of the micro:bit into a common set of functions that can be used
-by all coding languages, though some languages, like Python, make less use of the DAL than the Microsoft-based languages, such as Blocks, pxt and TouchDevelop, where the high level block functions map almost directly onto equivalent C/C++ calls in the runtime
+by all coding languages, though some languages, like Python, make less use of the DAL than Makecode, where the high level block functions map almost directly onto equivalent C/C++ calls in the runtime
 
 * [ARM mbed](./runtime-mbed/#arm-mbed) The runtime builds on top of the ARM mbed SDK, which provides standardised drivers for MCU peripherals and abstracts most of the low level hardware details of different MCUs, meaning that micro:bit software can be easily run on other hardware. This
 includes an abstraction for BLE, the mbed BLE api.
