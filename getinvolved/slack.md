@@ -36,5 +36,5 @@ If you'd like to join the slack channel, please fill in the form below
 Other projects have other homes. You might be interested in
 
 * MicroPython [documentation](https://microbit-micropython.readthedocs.io/en/latest/) and [mailing list](https://mail.python.org/mailman/listinfo/microbit)
-* [Javascript Blocks Editor/Makecode/pxt GitHub](https://github.com/Microsoft/pxt) for issues, suggestions and hacking on pxt
+* [Javascript Blocks Editor/Makecode/pxt GitHub](https://github.com/Microsoft/pxt-microbit) for issues, suggestions and hacking on Makecode
 * [micro:bit runtime GitHub](https://github.com/lancaster-university/microbit-dal/)

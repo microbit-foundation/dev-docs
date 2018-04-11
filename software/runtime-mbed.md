@@ -22,7 +22,7 @@ This page provides an overview of the micro:bit runtime - software that runs on 
 
 ![Architectural Diagram](/docs/software/assets/dal-4032c.png)
 
-There are a number of important software layers that run on the micro:bit to enable easy to use languages such as the Microsoft Block Editor, Code Kingdom’s JavaScript, TouchDevelop and PXT to be used. Some of these, like ARM mbed and MicroPython existed before the BBC micro:bit project started, and others, such as the micro:bit runtime were written specifically for the micro:bit.
+There are a number of important software layers that run on the micro:bit to enable easy to use languages such as Javascript and Makecode to be used. Some of these, like ARM mbed and MicroPython existed before the BBC micro:bit project started, and others, such as the micro:bit runtime were written specifically for the micro:bit.
 
 ARM mbed provides something called a Hardware Abstraction Layer (HAL) for chips using ARM Cortex processors. This abstraction layer presents a uniform layer that developers can use to write software for any ARM based processor - including the Nordic nRF51822 used on the micro:bit. It provides easy access to peripheral interfaces such as SPI, I2C and serial for user by higher level environments.
 
@@ -30,7 +30,7 @@ ARM mbed provides something called a Hardware Abstraction Layer (HAL) for chips 
 
 ## Purpose - What Does the micro:bit Runtime Do?
 
-The micro:bit runtime provides a Device Abstraction Layer (often called the DAL, but 'Runtime' is the term we want to standardise on), that is built using ARM mbed. Lancaster University has written this runtime for the micro:bit as part of its ongoing efforts to support the adoption of Computer Science in schools. It is designed to provide a useful set of functions for higher level languages to consume, and make programming the micro:bit in C or C++ easier. Many of the 'blocks' you use in Microsoft Blocks or PXT are directly calling functions provided by the DAL. The micro:bit runtime DAL is written in C/C++ and builds on the ARM mbed HAL.
+The micro:bit runtime provides a Device Abstraction Layer (often called the DAL, but 'Runtime' is the term we want to standardise on), that is built using ARM mbed. Lancaster University has written this runtime for the micro:bit as part of its ongoing efforts to support the adoption of Computer Science in schools. It is designed to provide a useful set of functions for higher level languages to consume, and make programming the micro:bit in C or C++ easier. Many of the 'blocks' you use in Makecode are directly calling functions provided by the DAL. The micro:bit runtime DAL is written in C/C++ and builds on the ARM mbed HAL.
 
 Key components of the micro:bit runtime are:
 
@@ -49,7 +49,7 @@ https://lancaster-university.github.io/microbit-docs/
 
 ## Contributing to the micro:bit Runtime
 
-The micro:bit runtime is an open source project, distributed under the MIT license, and contributions and collaborations are very much welcomed from the micro:bit community. There are still many things that could be merged into the micro:bit runtime, and with PXT moving forward and adding new features, things that go into the runtime can also be exposed to the higher level languages if they work well and prove useful for coding in education.
+The micro:bit runtime is an open source project, distributed under the MIT license, and contributions and collaborations are very much welcomed from the micro:bit community. There are still many things that could be merged into the micro:bit runtime, and with Makecode moving forward and adding new features, things that go into the runtime can also be exposed to the higher level languages if they work well and prove useful for coding in education.
 
 Firstly, you should get yourself into a situation where you can build the micro:bit runtime DAL. You can choose either an online build environment inside your web browser through mbed.org, or an downloadable compiler. The [getting started docs] (https://lancaster-university.github.io/microbit-docs/#getting-started) guide you through this process.
 
