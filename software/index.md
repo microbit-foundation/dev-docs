@@ -40,7 +40,7 @@ two broad categories
 
 *C/C++, while certainly compiled, is not considered a high-level language in this context*
 
-In order to ensure that the micro:bit online code editors could scale to support 1M deployed boards, Microsoft built [Makecode, an in-browser-compiler](makecode.microbit.org), written in TypeScript.
+In order to ensure that the micro:bit online code editors could scale to support 1M deployed boards, Microsoft built [Makecode, an in-browser-compiler](https://makecode.microbit.org), written in TypeScript.
 
 This process is explained in full in the [In browser compiler](/software/in_browser_compiler) page, and in fantastic detail at [TouchDevelop in 208 bits](https://www.touchdevelop.com/docs/touch-develop-in-208-bits).
 

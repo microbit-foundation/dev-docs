@@ -15,7 +15,7 @@ review-with: jonnya
 # Overview
 
 There are a number of different code editors for the micro:bit.
-Of the available editors; [Makecode](makecode.microbit.org) and [Python](python.microbit.org) have an
+Of the available editors; [Makecode](https://makecode.microbit.org) and [Python](https://python.microbit.org) have an
 in-browser compiler. This means that when you hit the 'compile' button
 to translate your code into a language supported by the micro:bit, all of the
 hard work takes place inside your web browser.
