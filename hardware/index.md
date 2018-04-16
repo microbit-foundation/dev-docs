@@ -301,7 +301,8 @@ recover a lost bootloader.
 
 ## Mechanical
 
-We have some [nice 2D and 3D CAD drawings and models of the micro:bit](https://github.com/microbit-foundation/microbit-reference-design) including all the important dimensions. These models can be used as a basis for generating
+We have some nice 2D and 3D CAD drawings and models of the micro:bit
+including all the important dimensions. These models can be used as a basis for generating
 really nice marketing and project images of the micro:bit, but also as a basis for accurate
 manufacture of attachments e.g. via 3D printing.
 
