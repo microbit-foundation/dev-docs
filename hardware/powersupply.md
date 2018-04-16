@@ -85,6 +85,8 @@ between the supply and the nRF51 power rails), a fully charged **LiPoly battery*
 that is specced to reach 4.2V **will be give greater than the 3.9V maximum that
 the nRF51822 can withstand** [see below](#key-voltages)
 
+There is further information about the [battery connection and use](https://support.microbit.org/solution/articles/19000013982-how-do-i-power-my-micro-bit-/en) in our knowledgebase
+
 ## 3V Ring Powering
 
 The micro:bit may be powered from the 3V/GND rings on the edge connector.
