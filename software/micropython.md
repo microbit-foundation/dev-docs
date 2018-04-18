@@ -261,6 +261,8 @@ represents, supports and coordinates the wider Python community.
 Learn how to [embed assembly language](http://docs.micropython.org/en/latest/pyboard/pyboard/tutorial/assembler.html) in
 your Python scripts (this feature is enabled for MicroPython on the micro:bit).
 
+Pycomic's [micro:bit image maker](https://pycomic.github.io/microbit.html) allows you to create images to use in documentation.
+
 Lots of MicroPython / BBC micro:bit videos can be found on [this YouTube playlist](https://www.youtube.com/playlist?list=PLzCYc445IVNQimtxAlPpaFMtvv8qKSncK).
 
 The Python Software Foundation's description of their involvement in the project can be found in [this blog post](https://pyfound.blogspot.co.uk/2016/03/a-million-children.html).

@@ -15,12 +15,11 @@ review-with: jonnya
 # Overview
 
 There are a number of different code editors for the micro:bit.
-Of the available editors, Blocks, Touch Develop and Code Kindgoms and PXT have an
+Of the available editors; [Makecode](https://makecode.microbit.org) and [Python](https://python.microbit.org) have an
 in-browser compiler. This means that when you hit the 'compile' button
 to translate your code into a language supported by the micro:bit, all of the
 hard work takes place inside your web browser.
 
-MicroPython has an online web editor version, but it doesn't use an in-browser compiler.
 You can also use MicroPython offline by installing the Mu editor on your computer.
 
 The in-browser build process is useful, because you are not dependent
@@ -32,11 +31,6 @@ By being web based, these editors allow you to write code for the
 micro:bit without needing to install any special software on your
 computer, which is especially important if working in a previously
 unused classroom, or on a public computer.
-
-PXT will be the foundations official editor, and this can be found at
-[PXT editor](http://pxt.microbit.org). It is currently released as a beta
-version.
-
 
 # How it Works
 
@@ -72,25 +66,12 @@ when you first load the editor.
 
 # Other Features
 
-PXT supports two-way conversion of code, so you can write code in the visual blocks and
+Makecode supports two-way conversion of code, so you can write code in the visual blocks and
 see what the generated code looks like. You can also write code, and if
-possible, PXT will convert this back into blocks automatically.
+possible, Makecode will convert this back into blocks automatically.
 
-Because PXT uses the same underlying format as Touch Develop, it means
-that you can import scripts written in Touch Develop, Blocks and Code
-Kingdoms, and they will be converted into PXT visual blocks.
-
-PXT also allows you to write your own block types and publish them
-as packages, read about it here: [PXT Packages](https://www.pxt.io/packages)
-
-Touch Develop has a built in ARM assembler - it is possible to write
-ARM assembly language directly in your code, and this will be included
-in the final binary image. The NeoPixel library is an example
-of where the Touch Develop assembler has been used to good effect
-[TD NeoPixel Library](http://www.microbit.co.uk/taxtmq). The timing
-requirements for driving NeoPixels are very critical, and this ARM
-assembly code controls the GPIO pin of the micro:bit very quickly
-within the necessary timing restrictions.
+Makecode also allows you to [write your own block types and publish them
+as packages](https://makecode.com/packages)
 
 The Python web editor does not use the in-browser compiler. It only
 sits inside the frame of the website, but it gains access to the
@@ -102,23 +83,11 @@ Read more about how MicroPython works: [MicroPython on micro:bit](/software/micr
 
 # Contributions
 
-The PXT editor is open source. You can log issues with the dev team here:
-[PXT issues](https://github.com/Microsoft/PXT/issues/new)
-
-Why not take part, and add your own features to the PXT editor?
-Here is the source code for the whole site:
-
-[PXT source code](https://github.com/Microsoft/pxt-microbit)
+The Makecode editor is [open source](https://github.com/Microsoft/pxt-microbit), so you can develop your own feature and you can [log issues](https://github.com/Microsoft/PXT-microbit/issues/new) for the dev team to look into.
 
 
 # Links
 
 [The Microsoft Offering](https://www.microsoft.com/en-us/research/project/the-bbc-microbit-and-microsoft/)
 
-[Touch Develop](https://github.com/Microsoft/microbit-touchdevelop)
-
 [Design of the in-browser compiler](https://www.touchdevelop.com/docs/touch-develop-in-208-bits)
-
-[PXT](https://github.com/Microsoft/pxt-microbit)
-
-[TypeScript](https://github.com/Microsoft/TypeScript)

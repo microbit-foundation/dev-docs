@@ -85,10 +85,7 @@ between the supply and the nRF51 power rails), a fully charged **LiPoly battery*
 that is specced to reach 4.2V **will be give greater than the 3.9V maximum that
 the nRF51822 can withstand** [see below](#key-voltages)
 
-Different types of batteries will provide different peak currents and behave
-differently when accidentally shorted. Because of this, the BBC
-provide some advice on the types of batteries that are approved for use
-with the micro:bit [battery advice](https://www.microbit.co.uk/help#batteries)
+There is further information about the [battery connection and use](https://support.microbit.org/solution/articles/19000013982-how-do-i-power-my-micro-bit-/en) in our knowledgebase
 
 ## 3V Ring Powering
 

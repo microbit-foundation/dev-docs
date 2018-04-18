@@ -7,7 +7,7 @@ description: micro:bit Circuit Schematics
 permalink: /hardware/schematic/
 ref: hardware
 lang: en
-assigned-to: davidw
+assigned-to: markw
 review-with: jonnya
 ---
 
@@ -16,12 +16,11 @@ review-with: jonnya
 This page discusses the micro:bit schematic and Bill of Materials (BOM),
 which shows the electrical connections of the micro:bit and the components used in it.
 
+The schematic is available from the BBC's [micro:bit hardware repository](https://github.com/bbcmicrobit/hardware)
+
 **If you're looking to make something of your own based on the micro:bit, you might prefer to
 use our ['Reference Design'](/hardware/reference-design/) which is based on a radio module and has space on the layout
 for you to add your own components.**
-
-The schematic will be kept in version control in the micro:bit GitHub account. It will be released
-by the BBC once final sign-off around license terms has completed.
 
 # Key Features
 
