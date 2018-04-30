@@ -48,7 +48,7 @@ explained in this site.
 cool accessories and add ons, or even suggestions for future versions of the micro:bit.
 The micro:bit schematic is available [here](/hardware/schematic/) and for making
 your own project the [reference design](/hardware/reference-design) is a good place to start
-* Improve the documentation and this site, which is hosted on GitHub, either reporting issues
+* Improve the documentation and this site, which is [hosted on GitHub](https://github.com/microbit-foundation/dev-docs), either reporting issues
 or adding documentation will be extremely helpful
 * Help build a community around micro:bit - join the [slack channel](/get-involved/where-to-find/),
 share the things you've created on twitter, blog about them!
