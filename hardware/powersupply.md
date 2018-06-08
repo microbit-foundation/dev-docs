@@ -37,6 +37,8 @@ plugged into the edge connector.
 * When powered from a battery, the KL26 is not powered up (and note that the
 System LED will not light up when powered from battery)
 
+* A low-Vf diode is used to switch between sources. The diode prevents back-powering of any source from any other source and means you can have a USB cable and battery pack connected simultaneously.
+
 * All key facts can be independently verified and understood further by looking
 at the [schematic](/hardware/schematic/) and refering to the appropriate chip data
 sheets also listed on that page.
