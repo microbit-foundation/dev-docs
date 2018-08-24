@@ -11,10 +11,6 @@ assigned-to: jonnya
 review-with: jonnya
 ---
 
-*Please note, this site is recently created, and should be considered closer to a community wiki than a data-sheet.
-We've done our best to start with a correct set of information.
-If you find mistakes, please report them as bugs on [GitHub here](https://github.com/microbit-foundation/dev-docs/issues)*
-
 # Overview
 {:notoc}
 
@@ -151,8 +147,25 @@ which is roughly proportional to ambient light levels.
 | Sensing Range | TBC, 10 levels from off to full on
 | Colour sensitivity | red centric, red is 700nm
 
+## Motion sensor
 
-## Accelerometer
+The 1.5 micro:bit variant has a combined accelerometer and magnetometer chip  that provides 3-axis sensing and magnetic field strength sensing.
+It also includes some on board gesture detection (such as fall detection) in hardware,
+and additional gesture sensing (e.g. logo-up, logo-down, shake) via software algorithms.
+A software algorithm in the standard runtime uses the on board accelerometer
+to turn readings into a board orientation independent compass reading.
+The compass must be calibrated before use, and the calibration process is automatically initiated by the runtime software.
+This device is connected to the application processor via the I2C bus.
+
+| item          | details
+| ---           | ---
+| Model         | [ LSM303GR](https://www.st.com/en/mems-and-sensors/lsm303agr.html)
+| Features      | 3 magnetic field and 3 acceleration axis , 2/4/8/16g ranges
+| Resolution    | 8/10/12 bits
+| On board gestures | 'freefall'
+| Other gestures | Other gestures are implemented by software algorithms in the runtime.
+
+## Accelerometer (prior to v1.5)
 
 The accelerometer is a separate chip that provides 3-axis sensing.
 It also includes some on board gesture detection (such as fall detection) in hardware,
@@ -169,7 +182,7 @@ It is connected to the application processor via the I2C bus.
 | Other gestures | Other gestures are implemented by software algorithms in the runtime.
 
 
-## Magnetometer
+## Magnetometer (prior to v1.5)
 
 The magnetometer is a separate chip that provides magnetic field strength sensing.
 A software algorithm in the standard runtime uses the on board accelerometer
