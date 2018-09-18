@@ -19,7 +19,9 @@ review-with: jonnya
 
 ![img](/docs/hardware/assets/microbit-overview-1-5.png)
 
-  We also have [details of the previous micro:bit revision](/hardware/previous-revision)
+
+See [details of the previous micro:bit revision](/hardware/previous-revision)
+
 
 # Getting Started With the micro:bit Hardware
 
