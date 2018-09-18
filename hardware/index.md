@@ -11,17 +11,15 @@ assigned-to: jonnya
 review-with: jonnya
 ---
 
-*Please note, this site is recently created, and should be considered closer to a community wiki than a data-sheet.
-We've done our best to start with a correct set of information.
-If you find mistakes, please report them as bugs on [GitHub here](https://github.com/microbit-foundation/dev-docs/issues)*
-
 # Overview
 {:notoc}
 
 * TOC
 {:toc}
 
-![img](/docs/hardware/assets/microbit-overview.png)
+![img](/docs/hardware/assets/microbit-overview-1-5.png)
+
+  We also have [details of the previous micro:bit revision](/hardware/previous-revision)
 
 # Getting Started With the micro:bit Hardware
 
@@ -151,40 +149,23 @@ which is roughly proportional to ambient light levels.
 | Sensing Range | TBC, 10 levels from off to full on
 | Colour sensitivity | red centric, red is 700nm
 
+## Motion sensor
 
-## Accelerometer
-
-The accelerometer is a separate chip that provides 3-axis sensing.
+The 1.5 micro:bit variant has a combined accelerometer and magnetometer chip  that provides 3-axis sensing and magnetic field strength sensing.
 It also includes some on board gesture detection (such as fall detection) in hardware,
 and additional gesture sensing (e.g. logo-up, logo-down, shake) via software algorithms.
-It is connected to the application processor via the I2C bus.
-
-| item          | details
-| ---           | ---
-| Model         | [Freescale MMA8653FC](http://www.nxp.com/products/sensors/accelerometers/3-axis-accelerometers/2g-4g-8g-low-g-10-bit-digital-accelerometer:MMA8653FC)
-| Features      | 3 axis, 2/4/8g ranges
-| Resolution    | 10 bits (0..1023)
-| Max output data rate | 800Hz
-| On board gestures | 'freefall'
-| Other gestures | Other gestures are implemented by software algorithms in the runtime.
-
-
-## Magnetometer
-
-The magnetometer is a separate chip that provides magnetic field strength sensing.
 A software algorithm in the standard runtime uses the on board accelerometer
-to turn these readings into a board orientation independent compass reading.
-The compass must be calibrated before use, and the calibration process is automatically
-initiated by the runtime software.
+to turn readings into a board orientation independent compass reading.
+The compass must be calibrated before use, and the calibration process is automatically initiated by the runtime software.
 This device is connected to the application processor via the I2C bus.
 
 | item          | details
 | ---           | ---
-| Model         | [Freescale MAG3110](http://www.nxp.com/products/sensors/magnetometers/sample-data-sets-for-inertial-and-magnetic-sensors/high-accuracy-3d-magnetometer:MAG3110)
-| Max update rate | 80Hz
-| Full Scale range | 1000uT
-| Sensitivity | 0.10uT
-
+| Model         | [ LSM303GR](https://www.st.com/en/mems-and-sensors/lsm303agr.html)
+| Features      | 3 magnetic field and 3 acceleration axis , 2/4/8/16g ranges
+| Resolution    | 8/10/12 bits
+| On board gestures | 'freefall'
+| Other gestures | Other gestures are implemented by software algorithms in the runtime.
 
 ## Temperature Sensing
 

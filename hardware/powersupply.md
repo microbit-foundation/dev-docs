@@ -54,8 +54,7 @@ to provide 3.3V to the rest of the board.
 The [data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
 section 3.8.2, Table 30. "USB VREG electrical specifications" indicates the maximum
 current from the regulated supply is 120mA. Some of this current is required to
-run on-board devices, such as the KL26 itself, the nRF51 application processor, the magnetometer
-and accelerometer, and the LED display. When Bluetooth is enabled, the current
+run on-board devices, such as the KL26 itself, the nRF51 application processor, the motion sensor, and the LED display. When Bluetooth is enabled, the current
 consumption of the nRF51 increases slightly. You should budget your current
 requirements for anything you attach to the micro:bit to not exceed about
 90mA to give enough safe headroom for worst case with all on board peripherals
@@ -137,5 +136,5 @@ the operating voltage range of any of the devices.
 | MAG3110    | 1.95V | 3.6V | 3.6Vabs
 
 This table implies an operating voltage range of the micro:bit device as a whole
-as being 1.95Vmin (dictated by the accelerometer and magnetometer) and
+as being 1.95Vmin (dictated by the motion sensor) and
 3.6V max (dictated by all devices).

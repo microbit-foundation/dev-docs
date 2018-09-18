@@ -38,7 +38,7 @@ programmer to program all your micro:bit based designs!
 # Reference Design Features
 
 * **100% binary compatible with the micro:bit, including all the same hardware
-features: 3xbuttons, 5x5 display, accelerometer, magnetometer)**
+features: 3xbuttons, 5x5 display, motion sensor)**
 * Released under the [SolderPad License 0.51](http://solderpad.org/licenses/SHL-0.51/) (based on Apache-2.0, but tailored
   towards Open Hardware)
 * Based on an [nRF5188 module](#module-choice) for ease of use
