@@ -18,6 +18,7 @@ This page details the hardware details of the previous micro:bit revision, showi
 ![img](/docs/hardware/assets/microbit-overview.png)
 
 
+
 ## Accelerometer (prior to v1.5)
 
 The accelerometer is a separate chip that provides 3-axis sensing.
