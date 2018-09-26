@@ -19,7 +19,7 @@ This page details the hardware details of the previous micro:bit revision, showi
 
 
 
-## Accelerometer (prior to v1.5)
+## Accelerometer
 
 The accelerometer is a separate chip that provides 3-axis sensing.
 It also includes some on board gesture detection (such as fall detection) in hardware,
@@ -36,7 +36,7 @@ It is connected to the application processor via the I2C bus.
 | Other gestures | Other gestures are implemented by software algorithms in the runtime.
 
 
-## Magnetometer (prior to v1.5)
+## Magnetometer
 
 The magnetometer is a separate chip that provides magnetic field strength sensing.
 A software algorithm in the standard runtime uses the on board accelerometer
