@@ -123,7 +123,7 @@ makes sense to you. There is also a [zipped Python script](/docs/hardware/csv2md
 that you can download to re-generate the markdown table version of the pinmap
 used on this page, from the .csv file.
 
-7. The pin marked 'ACCESSIBILITY' is used to enable/disable an on-board 
+7. The pin marked 'ACCESSIBILITY' is used to enable/disable an on-board
 accessibility mode, and should not be used for anything else (even though it
 can be used as a GPIO for testing). Future versions of the official micro:bit
 editors may remove the ability to write to this pin.
@@ -170,11 +170,11 @@ fitted to the micro:bit board.
 pins: P19, P20
 
 These pins are allocated to the I2C bus, which is used by both the
-onboard accelerometer and magnetometer devices. It is strongly suggested
+onboard motion sensor. It is strongly suggested
 that you avoid using these pins for any function other than I2C.
 
 It is possible to disable the DAL services that use these pins as the I2C bus,
-but the accelerometer and magnetometer device will still be connected
+but the motion sensor device will still be connected
 to the bus, and may try to interpret the signals as data payloads,
 which could create some undesirable side effects on the SDA and interrupt
 pins. There are 4K7 pullups fitted to both pins on the board, so the
@@ -223,7 +223,7 @@ directly to the pin. These devices often have significant back-EMF
 when energised, and will generate voltages that exceed the maximum
 specifications of the GPIO pins, and may cause premature device failure.
 
-NOTE 3: The pin marked 'ACCESSIBILITY' is used to enable/disable an on-board 
+NOTE 3: The pin marked 'ACCESSIBILITY' is used to enable/disable an on-board
 accessibility mode, and should not be used for anything else (even though it
 can be used as a GPIO for testing). Future versions of the official micro:bit
 editors may remove the ability to write to this pin.

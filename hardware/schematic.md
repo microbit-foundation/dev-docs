@@ -59,17 +59,15 @@ This processor does not have any connection to the GPIO pins on the micro:bit.
 
 ## Sensors
 
-There are two sensor IC's on the micro:bit, an accelerometer and a magnetometer. The accelerometer
-measures acceleration in 3 axies, and the magnetometer can be used as a compass, as well as
-a magnetic field detector.
+There is one combined motion sensor IC on the micro:bit, that contains an accelerometer and a magnetometer. The accelerometer
+measures acceleration in 3 axies, and the magnetometer can be used as a compass, as well as a magnetic field detector.
 
-Both devices are connected to the application processor I2C bus, and this bus is also
-connected to two pins on the edge connector. I2C pullup resistors are pre-fitted on the board.
+The device is connected to the application processor I2C bus, and this bus is also connected to two pins on the edge connector. I2C pullup resistors are pre-fitted on the board.
 
 The magnetometer can generate one processor interrupt for the application processor, and the
 accelerometer can generate two different processor interrupts for the application processor.
 
-Note, the physical orientation of these two IC's is important for binary compat with the driver
+Note, the physical orientation of this IC is important for binary compatibility with the driver
 code in the application processor, which assumes a particular physical orientation in it's calculations.
 
 
