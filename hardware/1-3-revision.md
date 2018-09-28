@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: hardware
 order:
 title: Previous micro:bit revision
 heading: Previous micro:bit revision
