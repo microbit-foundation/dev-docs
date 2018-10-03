@@ -27,7 +27,7 @@ the micro:bit is complicated - you need to tune the antenna, add the right
 resonance circuit and then certify the board, if you'd like to build more than
 just a few of them. Therefore, in order to make it easier to build things based
 on the micro:bit, we've made this version of the board that uses a pre-certified nRF51-based
-module (details in [Module Choice](#module-choice) below). This way you can leave your mind off the gritty RF details and just need to worry about adding your own components to the board.
+module (details in [Module Choice](#module-choice) below). This way you can take your mind off the gritty RF details and just concentrate on adding your own components to the board.
 
 Furthermore, the micro:bit has a built in programmer and debugger, which is
 important for a development board, but might not be worth the cost if you're
