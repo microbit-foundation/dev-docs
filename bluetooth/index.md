@@ -44,7 +44,7 @@ custom developed for the micro:bit. Read about it
 
 [What is bluetooth](http://blog.bluetooth.com/a-developers-guide-to-bluetooth/)
 
-[Pairing your Bluetooth device](https://codethemicrobit.com/--docs#doc:reference/bluetooth/bluetooth-pairing)
+[Pairing your Bluetooth device](https://support.microbit.org/solution/articles/19000051025-pairing-and-flashing-code-via-bluetooth/en)
 
 [Bluetooth Developer Studio](https://www.bluetooth.com/download-developer-studio)
 
