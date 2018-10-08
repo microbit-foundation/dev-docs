@@ -20,9 +20,6 @@ review-with: jonnya
 ![img](/docs/hardware/assets/microbit-overview-1-5.png)
 
 
-See [details of the previous micro:bit revision](/hardware/previous-revision)
-
-
 # Getting Started With the micro:bit Hardware
 
 The micro:bit hardware is based on the ARM-mbed platform.
@@ -305,10 +302,6 @@ manufacture of attachments e.g. via 3D printing.
 [Freescale KL26 reference manual](http://cache.freescale.com/files/microcontrollers/doc/ref_manual/KL26P121M48SF4RM.pdf)
 
 [Freescale KL26Z data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
-
-[Freescale MMA8652 accelerometer datasheet](http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8652FC.pdf)
-
-[Freescale MAG3110 magnetometer datasheet](http://cache.freescale.com/files/sensors/doc/data_sheet/MAG3110.pdf)
 
 [Technical Specifications 1](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/specs)
 
