@@ -20,9 +20,6 @@ review-with: jonnya
 ![img](/docs/hardware/assets/microbit-overview-1-5.png)
 
 
-See [details of the previous micro:bit revision](/hardware/previous-revision)
-
-
 # Getting Started With the micro:bit Hardware
 
 The micro:bit hardware is based on the ARM-mbed platform.
