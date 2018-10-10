@@ -158,6 +158,8 @@ to turn readings into a board orientation independent compass reading.
 The compass must be calibrated before use, and the calibration process is automatically initiated by the runtime software.
 This device is connected to the application processor via the I2C bus.
 
+The v1.5 micro:bit has a footprint for two different motion sensors: one made by ST (the LSM303AGR) and one by NXP (FXOS8700CQ). The micro:bit DAL supports both of these sensors, detecting them at runtime. To date, all v1.5 boards have been manufactured with the LSM303AGR, however we may switch to the NXP part. Before doing so we will perform a round of testing and notify the [DAL and Devices mailing list.](http://eepurl.com/dyRx-v)
+
 | item          | details
 | ---           | ---
 | Model         | [ LSM303GR](https://www.st.com/en/mems-and-sensors/lsm303agr.html)
