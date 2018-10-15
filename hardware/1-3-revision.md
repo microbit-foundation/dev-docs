@@ -13,7 +13,6 @@ review-with: jonnya
 
 # Overview
 {:notoc}
-This page details the hardware details of the previous micro:bit revision, showing the layout of the individual accelerometer and magnetometer components.
 
 * TOC
 {:toc}
