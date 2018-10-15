@@ -1,10 +1,9 @@
 ---
 layout: hardware
 order:
-title: Previous micro:bit revision
-heading: Previous micro:bit revision
-description: Details of the previous micro:bit revision, containing individual
-accelerometer and magnetometers
+title: 1.3x micro:bit revision
+heading: 1.3x micro:bit revision
+description: Details of the previous 1.3x micro:bit revision, containing individual accelerometer and magnetometers
 permalink: /hardware/previous-revision/
 ref: 1-3
 lang: en
