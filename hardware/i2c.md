@@ -1,10 +1,10 @@
 ---
 layout: page
 order:
-title: i2c
-heading: Schematics
-description: micro:bit i2c pins
-permalink: /hardware/schematic/
+title: I2c addresses and the BBC micro:bit
+heading: I2c addresses and the BBC micro:bit
+description: I2c addresses and the BBC micro:bit
+permalink: /hardware/i2c/
 ref: i2c
 lang: en
 assigned-to: markw
@@ -15,24 +15,22 @@ If you make an accessory for the micro:bit, please help us by editing the page a
 
 ## Use of the shared I2C bus
 
-The motion sensors on the board are on the same I2C bus as the edge connector I2C pins. This means that if you have an accessory that uses I2C on this bus, you need to check it won’t clash with the new sensors.
+The motion sensors on the board are on the same I2C bus as the edge connector I2C pins. This means that if you have an accessory that uses I2C on this bus, you need to check it won’t clash with any of the possible on-board sensors.
 
-Because we want to avoid having to do another revision in the future, we are designing in two possible sensor devices, but all micro:bits will ship with only one combined magnetometer and accelerometer. The DAL will automatically select which driver to instantiate (and hence this will work in MicroPython and MakeCode without any issues).
+The v1.5 micro:bit has a footprint for two different motion sensors: one made by ST (the LSM303AGR) and one by NXP (FXOS8700CQ). The micro:bit DAL supports both of these sensors, detecting them at runtime. To date, all v1.5 boards have been manufactured with the LSM303AGR, however we may switch to the NXP part. Before doing so we will perform a round of testing and notify the [DAL and Devices mailing list.](http://eepurl.com/dyRx-v)
 
 ## Table of addresses used
 
 |                     | accelerometer    | magnetometer (compass) |
 |---------------------|------------------|------------------------|
-| micro:bit v1.3      | 0x1D (0x3A/0x3B) | 0x0E (0x1C/0x1D)       |
-| micro:bit variant 1 | 0x19 (0x32/0x33) | 0x1E (0x3C/0x3D)       |
-| micro:bit variant 2 | 0x1E (0x3C/0x3D) | 0x1E (0x3C/0x3D)       |
+| micro:bit v1.3 (MMA8653+MAG3110) | 0x1D (0x3A/0x3B) | 0x0E (0x1C/0x1D)       |
+| micro:bit variant 1 (LSM303AGR) | 0x19 (0x32/0x33) | 0x1E (0x3C/0x3D)       |
+| micro:bit variant 2 (FXOS8700CQ) | 0x1E (0x3C/0x3D) | 0x1E (0x3C/0x3D)       |
 
 
 Overall, this means 0x1D, 0x0E (from v1.3), 0x1E and 0x19 (for the revision) are reserved for onboard use.
 
-We have checked all the micro:bit ‘approved packages’ to ensure that the new addresses do not clash with existing accessories, and have not found any accessories that clash.
-
-## Limitations
+## Acceptable capacitance for I2C accessories
 
 In our recent testing for the motion sensor change, we found that a 10nF cap connected SCL-GND slowed down the i2c bus, but it continued to operate. Separately, capacitance was added to SDA until it ceased operation:
 - 100KHz continued with 1nF but failed with 2nF.
