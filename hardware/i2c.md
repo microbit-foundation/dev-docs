@@ -33,7 +33,7 @@ Overall, this means 0x1D, 0x0E (from v1.3), 0x1E and 0x19 (for the revision) are
 
 | accessory name | organisation | i2c address(es) used | 
 |----------------|--------------|-----------------------|
-| eg [banana-bit](http://#)|eg Banana enterprises | eg 0x76, 0x29 |
+| eg [banana-bit]()|eg Banana enterprises | eg 0x76, 0x29 |
 
 
 # Acceptable capacitance for I2C accessories
