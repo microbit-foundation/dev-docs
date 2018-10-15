@@ -29,7 +29,7 @@ The v1.5 micro:bit has a footprint for two different motion sensors: one made by
 
 ## Table of address used by micro:bit accessories (please edit)
 
-| accessory name | organisation | i2c address(es) used) | 
+| accessory name | organisation | i2c address(es) used | 
 |----------------|--------------|-----------------------|
 | eg [banana-bit](http://#)|eg Banana enterprises | eg 0x76, 0x29 |
 
