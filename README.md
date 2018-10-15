@@ -1,4 +1,4 @@
-#Microbit Developer Community Docs
+# Microbit Developer Community Docs
 
 These docs are rendered into the [micro:bit Developer Commmunity site](http://tech.microbit.org) (also known as the micro:bit tech site).
 
