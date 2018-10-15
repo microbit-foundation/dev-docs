@@ -59,7 +59,7 @@ via an off-chip aerial.
 | RAM           | 16KB
 | Speed         | 16MHz
 | Debug         | SWD, jlink/OB
-| More Info     | [here](../software)
+| More Info     | [here](/software)
 
 
 ## Bluetooth Wireless Communication
@@ -79,7 +79,7 @@ including smartphones and tablets.
 | Role          | [GAP Peripheral](http://bluetooth-mdw.blogspot.co.uk/2016/07/microbit-and-bluetooth-roles.html)
 | Congestion avoidance | Adaptive Frequency Hopping
 | Profiles      | 1 [BBC micro:bit profile](https://lancaster-university.github.io/microbit-docs/ble/profile/)
-| More Info     | [here](../bluetooth)
+| More Info     | [here](/bluetooth)
 
 
 ## Low Level Radio Communications
