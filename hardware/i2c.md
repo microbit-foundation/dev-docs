@@ -11,7 +11,7 @@ assigned-to: markw
 review-with: jonnya
 ---
 
-If you make an accessory for the micro:bit, please help us by editing the page and sharing the details of the i2c addresses you use.
+If you make an accessory for the micro:bit, please help us by editing the table below and sharing the details of the i2c addresses you use.
 
 ## Use of the shared I2C bus
 
@@ -23,10 +23,15 @@ The v1.5 micro:bit has a footprint for two different motion sensors: one made by
 
 |                     | accelerometer    | magnetometer (compass) |
 |---------------------|------------------|------------------------|
-| micro:bit v1.3 (MMA8653+MAG3110) | 0x1D (0x3A/0x3B) | 0x0E (0x1C/0x1D)       |
-| micro:bit variant 1 (LSM303AGR) | 0x19 (0x32/0x33) | 0x1E (0x3C/0x3D)       |
-| micro:bit variant 2 (FXOS8700CQ) | 0x1E (0x3C/0x3D) | 0x1E (0x3C/0x3D)       |
+| micro:bit v1.3 (MMA8653+MAG3110) | 0x1D (0x3A/0x3B) | 0x0E (0x1C/0x1D) |
+| micro:bit variant 1 (LSM303AGR) | 0x19 (0x32/0x33) | 0x1E (0x3C/0x3D)  |
+| micro:bit variant 2 (FXOS8700CQ) | 0x1E (0x3C/0x3D) | 0x1E (0x3C/0x3D) |
 
+## Table of address used by micro:bit accessories (please edit)
+
+| accessory name | organisation | i2c address(es) used | 
+|----------------|--------------|-----------------------|
+| eg [banana-bit](http://#)|eg Banana enterprises | eg 0x76, 0x29 |
 
 Overall, this means 0x1D, 0x0E (from v1.3), 0x1E and 0x19 (for the revision) are reserved for onboard use.
 
