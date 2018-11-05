@@ -6,4 +6,4 @@ Contributions are welcomed and encouraged, either by filing issues that you'd li
 
 Documentation development tools
  - [microbit image maker](https://pycomic.github.io/microbit.html)
- - The docs are mostly writtn in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
+ - The docs are mostly written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
