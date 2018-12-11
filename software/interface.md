@@ -17,20 +17,7 @@ One of the coolest features of the micro:bit is the way that it presents itself 
 
 This is made possible by having a separate 'interface chip' or 'interface MCU' on the micro:bit dedicated to USB connections, programming and debugging. On the micro:bit, that chip is a Freescale KL26Z. The chip that developers' code runs on, and that all the peripherals are connected to (the nRF51822) is called the 'target MCU'. See the [Hardware](/hardware) page and the schematic for more details about how these two devices are connected.
 
-         PC
-          ^                                                    +----------------------------+
-          |        +---------------------+                     |       TARGET MCU           |
-          |        |   INTERFACE MCU     |                     | +------------------------+ |
-          |        |                     |                     | |      Application       | |
-          |        | +-----------------+ |     SWD             | +------------------------+ |
-          |  USB   | |                 | +---------------------+ | micro:bit runtime DAL  | |
-          +--------+ |    DAPLink      | <----------+          | +------------------------+ |
-            * Mass | +-----------------+ |     UART |          | |          | |           | |
-            Storage| +-----------------+ |          |          | |   mbed   | | SoftDevice| |
-                   | |   Bootloader    | |          +------------>          | |           | |
-            * UART | +-----------------+ |                     | +----------+ +-----------+ |
-                   +---------------------+                     +----------------------------+
-            * CMSIS-DAP
+![Interface](./assets/Interface.svg)
 
 The target and interface MCUs are connected by two interfaces:
 
