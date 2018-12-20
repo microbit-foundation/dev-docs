@@ -7,8 +7,6 @@ description: The edge connector provides a set of pads and pins to allow interfa
 permalink: /hardware/edgeconnector/
 ref: hardware
 lang: en
-assigned-to: davidw
-review-with: jonnya
 ---
 
 
@@ -16,8 +14,7 @@ review-with: jonnya
 
 The edge connector on the micro:bit is used to connect to external circuits and components.
 
-It has 5 rings for using with 4mm banana plugs or crocodile clips. 3 of these are for
-general purpose input and output, and two are connected to the micro:bit power supply.
+There are 25 strips/pins including 5 rings for using with 4mm banana plugs or crocodile clips. 3 of these rings are for general purpose input and output (GPIO), and two are connected to the micro:bit power supply.
 
 The small strips in between are also connected to various signals, and with the right connector
 you can get access to quite a few different signals.
@@ -40,8 +37,8 @@ You can buy this connector from a number of sources.
 At a pinch, it is also possible to use an old PCI edge connector from a PC motherboard,
 as the pitch is the same (but it is slightly wider).
 
-There is a good mechanical data-sheet for the right angle PCB edge connector
-[here](http://resources.coolcomponents.co.uk/CONNECTORS/10156.pdf)
+There is a good [mechanical data-sheet](http://resources.coolcomponents.co.uk/CONNECTORS/10156.pdf) for the right angle PCB edge connector available from Cool Components.
+
 
 
 ## Edge Connector Data-Sheet
@@ -61,14 +58,13 @@ This drawing has all the key micro:bit dimensions, including the pin spacing of 
 various pins of the edge connector on the micro:bit board.
 
 [STP file](https://www.kitronik.co.uk/zip/Microbit_STEP.zip) This file is a 3D CAD
-file for use with 3D modelling software.
+file for use with [3D modelling software](http://3d-viewers.com/step-viewer.html).
 
 [STL file](https://www.kitronik.co.uk/zip/Microbit_STL.zip) This file can be used
 with 3D printers.
 
 [SAT file](https://www.kitronik.co.uk/zip/Microbit_SAT.zip) This file can be used
-with ACIS modeller.
-
+with [ACIS Modeller](http://www.spatial.com/products/3d-acis-modeling).
 
 ## Can You Find a Better Connector?
 
@@ -83,9 +79,30 @@ the right size of countersunk or cheese-head bolt, or even 3D printed inserts.
 Can you help to find or design a better connection solution to the micro:bit
 edge connector? Share your designs and discoveries with us!
 
+<div>
+     <h2>
+      <span>Third Party Connectors</span>
+      <a href="http://github.com/microbit-foundation/dev-docs/edit/master/hardware/edgeconnector.md" class="btn btn-info" role="button">Add your connector to our list</a>
+    </h2>
+</div>
 
-# Links
-
-[STP viewers](http://3d-viewers.com/step-viewer.html)
-
-[ACIS Modeller](http://www.spatial.com/products/3d-acis-modeling)
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="col-md-6">
+				<h3>Supplier</h3>
+			</div>
+			<div class="col-md-6">
+				<h3>Product</h3>
+			</div>
+		<div class="col-md-12">
+			<div class="col-md-6">
+        <a href="http://www.dgyuliang.net"><img src="/docs/hardware/assets/cylconn-logo.png" alt="cylconn-logo" style="width: 50%;"></a>
+			</div>
+			<div class="col-md-6">
+        <p> <a href="http://www.dgyuliang.net/d/file/Produtcs/Customized%20Connector/MICRO%20BIT%20Connector/84a0fe06b4296135d64139b5b4297ef3.pdf">Cylconn 90 degree connector</a></p>
+        <p> <a href="http://www.dgyuliang.net/d/file/Produtcs/Customized%20Connector/MICRO%20BIT%20Connector/0d43030af84ade6fc3f00e242079c055.pdf">Cylconn 180 degree connector</a></p>
+			</div>
+		</div>
+	</div>
+</div>
