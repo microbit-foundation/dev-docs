@@ -82,8 +82,7 @@ edge connector? Share your designs and discoveries with us!
 ## Third Party Connectors
 
 <div class="container">
-<button type="button" class="btn btn-default"><a href="http://github.com/microbit-foundation/dev-docs/edit/master/hardware/edgeconnector.md">Add your connector to our list</a></button>
-
+<a href="http://github.com/microbit-foundation/dev-docs/edit/master/hardware/edgeconnector.md" class="btn btn-info" role="button">Add your connector to our list</a>
 </div>
 
 <div class="container-fluid">
