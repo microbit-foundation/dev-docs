@@ -79,10 +79,11 @@ the right size of countersunk or cheese-head bolt, or even 3D printed inserts.
 Can you help to find or design a better connection solution to the micro:bit
 edge connector? Share your designs and discoveries with us!
 
-## Third Party Connectors
-
 <div class="container">
-<a href="http://github.com/microbit-foundation/dev-docs/edit/master/hardware/edgeconnector.md" class="btn btn-info" role="button">Add your connector to our list</a>
+     <h2>
+      <span>Third Party Connectors</span>
+      <a href="http://github.com/microbit-foundation/dev-docs/edit/master/hardware/edgeconnector.md" class="btn btn-info" role="button">Add your connector to our list</a>
+    </h2>
 </div>
 
 <div class="container-fluid">
