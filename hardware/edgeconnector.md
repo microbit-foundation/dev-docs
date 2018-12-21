@@ -79,30 +79,8 @@ the right size of countersunk or cheese-head bolt, or even 3D printed inserts.
 Can you help to find or design a better connection solution to the micro:bit
 edge connector? Share your designs and discoveries with us!
 
-<div>
-     <h2>
-      <span>Third Party Connectors</span>
-      <a href="http://github.com/microbit-foundation/dev-docs/edit/master/hardware/edgeconnector.md" class="btn btn-info" role="button">Add your connector to our list</a>
-    </h2>
-</div>
+## Third Party Connnectors [Add your connector to our list](http://github.com/microbit-foundation/dev-docs/edit/master/hardware/edgeconnector.md){: .btn.btn-info}
 
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-12">
-			<div class="col-md-6">
-				<h3>Supplier</h3>
-			</div>
-			<div class="col-md-6">
-				<h3>Product</h3>
-			</div>
-		<div class="col-md-12">
-			<div class="col-md-6">
-        <a href="http://www.dgyuliang.net"><img src="/docs/hardware/assets/cylconn-logo.png" alt="cylconn-logo" style="width: 50%;"></a>
-			</div>
-			<div class="col-md-6">
-        <p> <a href="http://www.dgyuliang.net/d/file/Produtcs/Customized%20Connector/MICRO%20BIT%20Connector/84a0fe06b4296135d64139b5b4297ef3.pdf">Cylconn 90 degree connector</a></p>
-        <p> <a href="http://www.dgyuliang.net/d/file/Produtcs/Customized%20Connector/MICRO%20BIT%20Connector/0d43030af84ade6fc3f00e242079c055.pdf">Cylconn 180 degree connector</a></p>
-			</div>
-		</div>
-	</div>
-</div>
+| Supplier | Product 
+| -------- | -------
+|[Cyclonn](http://www.dgyuliang.net)| [Cylconn 90 degree connector](http://www.dgyuliang.net/d/file/Produtcs/Customized%20Connector/MICRO%20BIT%20Connector/84a0fe06b4296135d64139b5b4297ef3.pdf), [Cylconn 180 degree connector](http://www.dgyuliang.net/d/file/Produtcs/Customized%20Connector/MICRO%20BIT%20Connector/0d43030af84ade6fc3f00e242079c055.pdf)
