@@ -7,15 +7,13 @@ description: the DAPLink software running on the USB interface chip for the micr
 permalink: /software/daplink-interface/
 ref: software
 lang: en
-assigned-to: jonnya
-review-with: davidw, jamesd
 ---
 
 # Target and Interface MCUs
 
 One of the coolest features of the micro:bit is the way that it presents itself as a USB disk when it is connected over USB, and can be programmed through this interface without the need to install any drivers. Furthermore, no matter what code you run on your micro:bit, or how you manage to crash the device, you can always still put a new program on using the USB connection.
 
-This is made possible by having a separate 'interface chip' or 'interface MCU' on the micro:bit dedicated to USB connections, programming and debugging. On the micro:bit, that chip is a Freescale KL26Z. The chip that developers' code runs on, and that all the peripherals are connected to (the nRF51822) is called the 'target MCU'. See the [Hardware](/hardware) page and the schematic for more details about how these two devices are connected.
+This is made possible by having a separate 'interface chip' or 'interface MCU' on the micro:bit dedicated to USB connections, programming and debugging. On the micro:bit, that chip is a **Freescale KL26Z**. The chip that developers' code runs on, and that all the peripherals are connected to (the nRF51822) is called the 'target MCU'. See the [Hardware](/hardware) page and the schematic for more details about how these two devices are connected.
 
 <img src="/docs/software/assets/Interface.svg" alt="DAPlink interface" style="background:#eeeeff; padding:20px;">
 
@@ -49,8 +47,13 @@ This software provides three USB endpoints that have specific purposes:
 The DAPLink software and interface chip are part of the [ARM mbed HDK](https://developer.mbed.org/handbook/mbed-HDK)
 and the [mbed Enabled program](https://www.mbed.com/en/about-mbed/mbed-enabled/)
 
-The micro:bit ships with DAPLink at version 0234
-[which can be found at this tag](https://github.com/mbedmicro/DAPLink/releases/tag/microbit-0234)
+The micro:bit currently ships with DAPLink bootloader at version 0243 and [interface at version 0249](https://github.com/ARMmbed/DAPLink/releases/tag/v0249).
+
+The following versions of the device have previously been shipped with the following DAPLink versions
+
+ - v1.3: bl:0234 if:0234
+ - v1.3B: bl:0234 if:0241 (built by Farnell for micro:bit commercial sales)
+ - v1.5: bl:0243 if:0249
 
 ## The DAPLink Boot Loader
 
@@ -62,7 +65,7 @@ It is possible to update the version of DAPLink running on your micro:bit. This 
 
 ## Updating Your Version of DAPLink
 
-There are detailed instructions for how to update 'interface' version of DAPLink [here](https://www.mbed.com/en/development/hardware/prototyping-production/daplink/daplink-on-kl26z/)
+There are detailed instructions for how to [update the firmware version on the micro:bit website](https://microbit.org/guide/firmware/).
 
 **You should never update your micro:bit with firmware from untrusted sources, as these could damage your micro:bit, or make it impossible to re-flash**
 
@@ -72,9 +75,9 @@ The flash file system presented on the micro:bit drive is entirely virtual. It i
 
 The following virtual files exist on the file-system
 * `DETAILS.TXT`: This file tells you about the build of DAPLink currently installed on the interface chip. In later versions of DAPLink it also includes more diagnostic information
-* `MICROBIT.HTM`: This is a link to microbit.co.uk to help you get started.
+* `MICROBIT.HTM`: This is a link to [microbit.org](https://microbit.org) to help you get started.
 
-After flashing occurs, there might also be a `fail.txt` file, that gives a cause for failure.
+After flashing occurs, there might also be a `FAIL.TXT` file, that gives a cause for failure.
 
 The file [error.c](https://github.com/mbedmicro/DAPLink/blob/master/source/daplink/error.c) in the DAPLink source can help in diagnosing what these errors mean.
 
