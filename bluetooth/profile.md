@@ -16,7 +16,7 @@ which was custom developed for the device. This profile
 allows it to communicate with other BLE capable devices.
 
 If you are looking for information about the 'radio' feature, it is a [proprietary protocol from Nordic
-called Gazell](https://developer.nordicsemi.com/nRF5_SDK/nRF51_SDK_v4.x.x/doc/html/group__gzll__02__user__guide.html). This is not Bluetooth.
+and Lancaster University](https://lancaster-university.github.io/microbit-docs/ubit/radio/). This is not Bluetooth.
 
 
 ## BBC micro:bit Bluetooth Profile
