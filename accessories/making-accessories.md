@@ -11,10 +11,8 @@ assigned-to: jonnya
 
 The micro:bit card edge connector, commonly referred to as the 'edge connector' or the pins is designed to make accessory design easy. Many common micro:bit accessories work by placing a female edge connector on the board. However, there are limitations to the current that can be drawn from the micro:bit, and accessories must be designed carefully to ensure they do not damage the micro:bit, or that the micro:bit cannot damage them.
 
-* You can find details of the [edge connector here](/hardware/edgeconnector)
-and a 'datasheet' for it [here](/hardware/edgeconnector_ds)
-* The details about powering things from the board can be found
-[on the power supply page](/hardware/powersupply)
+* Details of the [edge connector and pinout](/hardware/edgeconnector)
+* Details about [powering things from the board](/hardware/powersupply)
 
 
 # Battery Pads

@@ -7,8 +7,8 @@ description: What is the format of the .hex file created by the micro:bit editor
 permalink: /software/hex-format/
 ref: hex-format
 lang: en
-assigned-to: jonnya
-review-with: davidw
+assigned-to: markw
+review-with: carlospa
 ---
 
 The .hex file is in [intel-hex format](https://en.wikipedia.org/wiki/Intel_HEX). Intel hex consists of records of data, with the address in memory to store the data at the start. All data is hex-ascii encoded. All lines start with a : character. All lines end with a checksum byte that can be used to verify the integrity of the data.
@@ -18,6 +18,8 @@ A micro:bit .hex file usually starts writing data to the same fixed location in 
 :020000040000FA
 
 ## Micropython
+
+See the [Micropythonn Hex file reference](https://microbit-micropython.readthedocs.io/en/latest/devguide/hexformat.html) for up to date information.
 
 MicroPython builds take a firmware.hex image (the MicroPython pre-compiled image) and appends your script to the end of it, in a fixed 8K region at a known address. When MicroPythons starts to run on the micro:bit, it looks for a signature at this fixed location, and uses that to determine whether to run the script, or drop directly to the REPL prompt.
 
