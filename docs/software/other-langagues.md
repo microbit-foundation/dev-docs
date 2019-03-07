@@ -19,6 +19,25 @@ languages that include support for the micro:bit.
 This resource aims to compile a list of these programming languages with a link
 to the documentation, plus an example program.
 
+# Submissions
+To add a new language to the page, [edit the page on  Github](http://github.com/microbit-foundation/dev-docs/edit/master/software/other-languages.md). For a language to be accepted it's implementation must be complete enough to display a heart on the display!
+
+Please format the addition using this template:
+
+## Language Name
+
+[Project homepage](link_to_homepage)
+
+[Example](link_to_example)
+
+### micro:bit heart
+
+`
+    example code to show a heart on the display
+`
+
+
+
 # Alternate Languages
 
 ## Ada
@@ -40,9 +59,3 @@ begin
    end loop;
 end Main;
 ```
-
-
-# Contributions
-
-This page can be edited in our [Github Repository](https://github.com/microbit-foundation/dev-docs/tree/master/software), with submission guidelines [found in our community issue tracker](https://github.com/microbit-foundation/microbit-community/issues/17).
-
