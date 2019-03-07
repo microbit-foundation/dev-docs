@@ -26,9 +26,9 @@ Please format the addition using this template:
 
 ## Language Name
 
-[Project homepage](link_to_homepage)
+[Project homepage](https://example.com)
 
-[Example](link_to_example)
+[Example](https://example.com)
 
 ### micro:bit heart
 
