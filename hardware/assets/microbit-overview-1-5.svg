@@ -8720,6 +8720,19 @@
        y1="0"
        x2="1"
        y2="0" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter19031"
+       x="-0.010809887"
+       width="1.0216198"
+       y="-0.037679377"
+       height="1.0753588">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.18153782"
+         id="feGaussianBlur19033" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -8728,9 +8741,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.6"
-     inkscape:cx="271.10944"
-     inkscape:cy="305.51678"
+     inkscape:zoom="0.91923882"
+     inkscape:cx="344.96998"
+     inkscape:cy="380.03763"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -8741,10 +8754,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1986"
-     inkscape:window-height="1170"
-     inkscape:window-x="230"
-     inkscape:window-y="87"
+     inkscape:window-width="1440"
+     inkscape:window-height="855"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
      inkscape:window-maximized="0"
      inkscape:snap-page="true">
     <sodipodi:guide
@@ -10482,6 +10495,7 @@
    y="188.97701"
    x="125.13"
    style="stroke-width:1.53951073">A</tspan>
+
 SS</text>
         </g>
         <g
@@ -10497,6 +10511,7 @@ SS</text>
    y="188.97701"
    x="96.089996"
    style="stroke-width:1.53951073">C</tspan>
+
 CELEROMETER</text>
         </g>
         <g
@@ -10552,6 +10567,7 @@ CELEROMETER</text>
    y="188.97701 188.97701"
    x="95.706001 102.726"
    style="stroke-width:1.53951073">AT</tspan>
+
 TER<tspan
    id="tspan11492"
    y="188.97701"
@@ -13455,7 +13471,7 @@ TER<tspan
        height="100%"
        transform="matrix(0.35277778,0,0,0.35277778,-29.205748,167.15101)" />
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45567"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13464,17 +13480,19 @@ TER<tspan
          xlink:href="#glyph1-1-7"
          x="524.4483"
          y="146.47211"
-         id="use45569" />
+         id="use45569"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-2-45"
          x="537.19232"
          y="146.47211"
-         id="use45571" />
+         id="use45571"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45573"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13483,24 +13501,27 @@ TER<tspan
          xlink:href="#glyph1-3-8"
          x="544.11871"
          y="146.47211"
-         id="use45575" />
+         id="use45575"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-4-03"
          x="552.74072"
          y="146.47211"
-         id="use45577" />
+         id="use45577"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-5-3"
          x="559.86871"
          y="146.47211"
-         id="use45579" />
+         id="use45579"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45581"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13509,38 +13530,43 @@ TER<tspan
          xlink:href="#glyph1-6-4"
          x="564.86908"
          y="146.47211"
-         id="use45583" />
+         id="use45583"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-7-1"
          x="573.86908"
          y="146.47211"
-         id="use45585" />
+         id="use45585"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-8-5"
          x="582.86908"
          y="146.47211"
-         id="use45587" />
+         id="use45587"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-8-5"
          x="588.8631"
          y="146.47211"
-         id="use45589" />
+         id="use45589"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-9-31"
          x="594.85712"
          y="146.47211"
-         id="use45591" />
+         id="use45591"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45593"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13549,14 +13575,16 @@ TER<tspan
          xlink:href="#glyph1-10-4"
          x="604.78949"
          y="146.47211"
-         id="use45595" />
+         id="use45595"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-2-45"
          x="613.78949"
          y="146.47211"
-         id="use45597" />
+         id="use45597"
+         style="fill:#4d4d4d" />
     </g>
     <g
        style="fill:#4f5454;fill-opacity:1"
@@ -13571,7 +13599,7 @@ TER<tspan
          id="use45601" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45603"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13580,52 +13608,59 @@ TER<tspan
          xlink:href="#glyph1-11-55"
          x="528.60437"
          y="216.4382"
-         id="use45605" />
+         id="use45605"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-12-3"
          x="537.60437"
          y="216.4382"
-         id="use45607" />
+         id="use45607"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-8-5"
          x="546.60437"
          y="216.4382"
-         id="use45609" />
+         id="use45609"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-3-8"
          x="552.59839"
          y="216.4382"
-         id="use45611" />
+         id="use45611"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-4-03"
          x="561.2204"
          y="216.4382"
-         id="use45613" />
+         id="use45613"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-10-4"
          x="568.34839"
          y="216.4382"
-         id="use45615" />
+         id="use45615"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-13-9"
          x="577.34839"
          y="216.4382"
-         id="use45617" />
+         id="use45617"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45619"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13634,7 +13669,8 @@ TER<tspan
          xlink:href="#glyph1-14-9"
          x="585.03082"
          y="216.4382"
-         id="use45621" />
+         id="use45621"
+         style="fill:#4d4d4d" />
     </g>
     <g
        style="fill:#4f5454;fill-opacity:1"
@@ -13649,7 +13685,7 @@ TER<tspan
          id="use45625" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45627"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13658,10 +13694,11 @@ TER<tspan
          xlink:href="#glyph1-2-45"
          x="593.97681"
          y="216.4382"
-         id="use45629" />
+         id="use45629"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45631"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13670,31 +13707,35 @@ TER<tspan
          xlink:href="#glyph1-7-1"
          x="600.9032"
          y="216.4382"
-         id="use45633" />
+         id="use45633"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-15-2"
          x="609.9032"
          y="216.4382"
-         id="use45635" />
+         id="use45635"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-15-2"
          x="618.9032"
          y="216.4382"
-         id="use45637" />
+         id="use45637"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-14-9"
          x="627.9032"
          y="216.4382"
-         id="use45639" />
+         id="use45639"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45641"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13703,17 +13744,19 @@ TER<tspan
          xlink:href="#glyph1-16-3"
          x="631.84882"
          y="216.4382"
-         id="use45643" />
+         id="use45643"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-5-3"
          x="639.73279"
          y="216.4382"
-         id="use45645" />
+         id="use45645"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45647"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13722,10 +13765,11 @@ TER<tspan
          xlink:href="#glyph2-1-0"
          x="528.60437"
          y="230.4381"
-         id="use45649" />
+         id="use45649"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45651"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13734,17 +13778,19 @@ TER<tspan
          xlink:href="#glyph2-2-0"
          x="535.24841"
          y="230.4381"
-         id="use45653" />
+         id="use45653"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-3-53"
          x="540.51746"
          y="230.4381"
-         id="use45655" />
+         id="use45655"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45657"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13753,17 +13799,19 @@ TER<tspan
          xlink:href="#glyph2-4-1"
          x="545.21222"
          y="230.4381"
-         id="use45659" />
+         id="use45659"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-5-06"
          x="550.71222"
          y="230.4381"
-         id="use45661" />
+         id="use45661"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45663"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13772,10 +13820,11 @@ TER<tspan
          xlink:href="#glyph2-6-1"
          x="553.12341"
          y="230.4381"
-         id="use45665" />
+         id="use45665"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45667"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13784,21 +13833,24 @@ TER<tspan
          xlink:href="#glyph2-7-2"
          x="557.81824"
          y="230.4381"
-         id="use45669" />
+         id="use45669"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-2-0"
          x="561.48126"
          y="230.4381"
-         id="use45671" />
+         id="use45671"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-8-6"
          x="566.75024"
          y="230.4381"
-         id="use45673" />
+         id="use45673"
+         style="fill:#4d4d4d" />
     </g>
     <g
        style="fill:#000000;fill-opacity:1"
@@ -13813,7 +13865,7 @@ TER<tspan
          id="use45677" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45679"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13822,17 +13874,19 @@ TER<tspan
          xlink:href="#glyph2-10-1"
          x="575.41345"
          y="230.4381"
-         id="use45681" />
+         id="use45681"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-11-4"
          x="580.91345"
          y="230.4381"
-         id="use45683" />
+         id="use45683"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45685"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13841,24 +13895,27 @@ TER<tspan
          xlink:href="#glyph2-10-1"
          x="583.32471"
          y="230.4381"
-         id="use45687" />
+         id="use45687"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-12-85"
          x="588.82471"
          y="230.4381"
-         id="use45689" />
+         id="use45689"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-9-4"
          x="595.46869"
          y="230.4381"
-         id="use45691" />
+         id="use45691"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45693"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13867,10 +13924,11 @@ TER<tspan
          xlink:href="#glyph2-13-0"
          x="598.52448"
          y="230.4381"
-         id="use45695" />
+         id="use45695"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45697"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13879,17 +13937,19 @@ TER<tspan
          xlink:href="#glyph2-14-9"
          x="600.93567"
          y="230.4381"
-         id="use45699" />
+         id="use45699"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-9-4"
          x="606.43567"
          y="230.4381"
-         id="use45701" />
+         id="use45701"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45703"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13898,10 +13958,11 @@ TER<tspan
          xlink:href="#glyph2-15-8"
          x="609.49146"
          y="230.4381"
-         id="use45705" />
+         id="use45705"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45707"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13910,17 +13971,19 @@ TER<tspan
          xlink:href="#glyph2-16-6"
          x="615.56128"
          y="230.4381"
-         id="use45709" />
+         id="use45709"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-9-4"
          x="619.9173"
          y="230.4381"
-         id="use45711" />
+         id="use45711"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45713"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13929,17 +13992,19 @@ TER<tspan
          xlink:href="#glyph2-17-3"
          x="622.97308"
          y="230.4381"
-         id="use45715" />
+         id="use45715"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-6-1"
          x="628.47308"
          y="230.4381"
-         id="use45717" />
+         id="use45717"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45719"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13948,45 +14013,51 @@ TER<tspan
          xlink:href="#glyph2-7-2"
          x="633.16791"
          y="230.4381"
-         id="use45721" />
+         id="use45721"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-7-2"
          x="636.83087"
          y="230.4381"
-         id="use45723" />
+         id="use45723"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-2-0"
          x="640.4939"
          y="230.4381"
-         id="use45725" />
+         id="use45725"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-16-6"
          x="645.76288"
          y="230.4381"
-         id="use45727" />
+         id="use45727"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-18-5"
          x="650.1189"
          y="230.4381"
-         id="use45729" />
+         id="use45729"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-9-4"
          x="654.93689"
          y="230.4381"
-         id="use45731" />
+         id="use45731"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45733"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -13995,10 +14066,11 @@ TER<tspan
          xlink:href="#glyph2-15-8"
          x="657.99268"
          y="230.4381"
-         id="use45735" />
+         id="use45735"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45737"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14007,24 +14079,27 @@ TER<tspan
          xlink:href="#glyph2-4-1"
          x="664.0625"
          y="230.4381"
-         id="use45739" />
+         id="use45739"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-7-2"
          x="669.5625"
          y="230.4381"
-         id="use45741" />
+         id="use45741"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-9-4"
          x="673.22546"
          y="230.4381"
-         id="use45743" />
+         id="use45743"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45745"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14033,17 +14108,19 @@ TER<tspan
          xlink:href="#glyph1-17-9"
          x="82.119987"
          y="197.2381"
-         id="use45747" />
+         id="use45747"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-18-5"
          x="95.619987"
          y="197.2381"
-         id="use45749" />
+         id="use45749"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45751"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14052,10 +14129,11 @@ TER<tspan
          xlink:href="#glyph1-19-3"
          x="99.56559"
          y="197.2381"
-         id="use45753" />
+         id="use45753"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45755"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14064,10 +14142,11 @@ TER<tspan
          xlink:href="#glyph1-18-5"
          x="107.24799"
          y="197.2381"
-         id="use45757" />
+         id="use45757"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45759"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14076,17 +14155,19 @@ TER<tspan
          xlink:href="#glyph1-8-5"
          x="111.19359"
          y="197.2381"
-         id="use45761" />
+         id="use45761"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-13-9"
          x="117.18759"
          y="197.2381"
-         id="use45763" />
+         id="use45763"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45765"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14095,10 +14176,11 @@ TER<tspan
          xlink:href="#glyph1-14-9"
          x="124.86999"
          y="197.2381"
-         id="use45767" />
+         id="use45767"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45769"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14107,10 +14189,11 @@ TER<tspan
          xlink:href="#glyph1-20-2"
          x="128.8156"
          y="197.2381"
-         id="use45771" />
+         id="use45771"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45773"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14119,10 +14202,11 @@ TER<tspan
          xlink:href="#glyph1-13-9"
          x="133.87"
          y="197.2381"
-         id="use45775" />
+         id="use45775"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45777"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14131,17 +14215,19 @@ TER<tspan
          xlink:href="#glyph1-10-4"
          x="141.55238"
          y="197.2381"
-         id="use45779" />
+         id="use45779"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-13-9"
          x="150.55238"
          y="197.2381"
-         id="use45781" />
+         id="use45781"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45783"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14150,10 +14236,11 @@ TER<tspan
          xlink:href="#glyph1-14-9"
          x="158.23479"
          y="197.2381"
-         id="use45785" />
+         id="use45785"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45787"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14162,10 +14249,11 @@ TER<tspan
          xlink:href="#glyph1-9-31"
          x="162.18039"
          y="197.2381"
-         id="use45789" />
+         id="use45789"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45791"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14174,7 +14262,8 @@ TER<tspan
          xlink:href="#glyph1-19-3"
          x="172.11279"
          y="197.2381"
-         id="use45793" />
+         id="use45793"
+         style="fill:#333333" />
     </g>
     <g
        style="fill:#4f5454;fill-opacity:1"
@@ -14189,7 +14278,7 @@ TER<tspan
          id="use45797" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45799"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14198,14 +14287,16 @@ TER<tspan
          xlink:href="#glyph1-21-2"
          x="184.79559"
          y="197.2381"
-         id="use45801" />
+         id="use45801"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-22-4"
          x="189.29559"
          y="197.2381"
-         id="use45803" />
+         id="use45803"
+         style="fill:#333333" />
     </g>
     <g
        style="fill:#4f5454;fill-opacity:1"
@@ -14220,7 +14311,7 @@ TER<tspan
          id="use45807" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45809"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14229,10 +14320,11 @@ TER<tspan
          xlink:href="#glyph2-19-6"
          x="82.119987"
          y="211.2381"
-         id="use45811" />
+         id="use45811"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45813"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14241,24 +14333,27 @@ TER<tspan
          xlink:href="#glyph2-4-1"
          x="90.708794"
          y="211.2381"
-         id="use45815" />
+         id="use45815"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-20-6"
          x="96.208794"
          y="211.2381"
-         id="use45817" />
+         id="use45817"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-6-1"
          x="101.70879"
          y="211.2381"
-         id="use45819" />
+         id="use45819"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45821"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14267,17 +14362,19 @@ TER<tspan
          xlink:href="#glyph2-17-3"
          x="106.40359"
          y="211.2381"
-         id="use45823" />
+         id="use45823"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-5-06"
          x="111.90359"
          y="211.2381"
-         id="use45825" />
+         id="use45825"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45827"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14287,7 +14384,7 @@ TER<tspan
          x="114.31479"
          y="211.2381"
          id="use45829"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
       <use
          height="100%"
          width="100%"
@@ -14295,10 +14392,10 @@ TER<tspan
          x="119.58379"
          y="211.2381"
          id="use45831"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45833"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14307,14 +14404,16 @@ TER<tspan
          xlink:href="#glyph2-7-2"
          x="122.63959"
          y="211.2381"
-         id="use45835" />
+         id="use45835"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-15-8"
          x="126.30259"
          y="211.2381"
-         id="use45837" />
+         id="use45837"
+         style="fill:#333333" />
     </g>
     <g
        style="fill:#000000;fill-opacity:1"
@@ -14329,7 +14428,7 @@ TER<tspan
          id="use45841" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45843"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14338,17 +14437,19 @@ TER<tspan
          xlink:href="#glyph2-21-9"
          x="135.42819"
          y="211.2381"
-         id="use45845" />
+         id="use45845"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-22-4"
          x="140.46619"
          y="211.2381"
-         id="use45847" />
+         id="use45847"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45849"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14357,14 +14458,16 @@ TER<tspan
          xlink:href="#glyph2-23-0"
          x="146.07399"
          y="211.2381"
-         id="use45851" />
+         id="use45851"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-24-7"
          x="148.82399"
          y="211.2381"
-         id="use45853" />
+         id="use45853"
+         style="fill:#333333" />
     </g>
     <g
        style="fill:#000000;fill-opacity:1"
@@ -14379,7 +14482,7 @@ TER<tspan
          id="use45857" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45859"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14388,35 +14491,40 @@ TER<tspan
          xlink:href="#glyph2-25-8"
          x="154.29099"
          y="211.2381"
-         id="use45861" />
+         id="use45861"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-26-5"
          x="162.07899"
          y="211.2381"
-         id="use45863" />
+         id="use45863"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-1-0"
          x="169.41599"
          y="211.2381"
-         id="use45865" />
+         id="use45865"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-27-6"
          x="176.06"
          y="211.2381"
-         id="use45867" />
+         id="use45867"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-24-7"
          x="182.70399"
          y="211.2381"
-         id="use45869" />
+         id="use45869"
+         style="fill:#333333" />
     </g>
     <g
        style="fill:#000000;fill-opacity:1"
@@ -14431,7 +14539,7 @@ TER<tspan
          id="use45873" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45875"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14440,31 +14548,35 @@ TER<tspan
          xlink:href="#glyph2-23-0"
          x="188.17099"
          y="211.2381"
-         id="use45877" />
+         id="use45877"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-28-0"
          x="190.92099"
          y="211.2381"
-         id="use45879" />
+         id="use45879"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-29-7"
          x="196.42099"
          y="211.2381"
-         id="use45881" />
+         id="use45881"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-9-4"
          x="204.20898"
          y="211.2381"
-         id="use45883" />
+         id="use45883"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45885"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14473,31 +14585,35 @@ TER<tspan
          xlink:href="#glyph1-23-6"
          x="88.584793"
          y="158.23599"
-         id="use45887" />
+         id="use45887"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-12-3"
          x="97.584793"
          y="158.23599"
-         id="use45889" />
+         id="use45889"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-23-6"
          x="106.58479"
          y="158.23599"
-         id="use45891" />
+         id="use45891"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-5-3"
          x="115.58479"
          y="158.23599"
-         id="use45893" />
+         id="use45893"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45895"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14506,10 +14622,11 @@ TER<tspan
          xlink:href="#glyph1-24-2"
          x="120.58519"
          y="158.23599"
-         id="use45897" />
+         id="use45897"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45899"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14518,24 +14635,27 @@ TER<tspan
          xlink:href="#glyph1-11-55"
          x="129.40878"
          y="158.23599"
-         id="use45901" />
+         id="use45901"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-17-9"
          x="138.40878"
          y="158.23599"
-         id="use45903" />
+         id="use45903"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-5-3"
          x="151.90878"
          y="158.23599"
-         id="use45905" />
+         id="use45905"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45907"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14544,10 +14664,11 @@ TER<tspan
          xlink:href="#glyph1-25-1"
          x="156.90919"
          y="158.23599"
-         id="use45909" />
+         id="use45909"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45911"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14556,10 +14677,11 @@ TER<tspan
          xlink:href="#glyph1-13-9"
          x="170.96359"
          y="158.23599"
-         id="use45913" />
+         id="use45913"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45915"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14568,24 +14690,27 @@ TER<tspan
          xlink:href="#glyph1-8-5"
          x="178.646"
          y="158.23599"
-         id="use45917" />
+         id="use45917"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-4-03"
          x="184.63998"
          y="158.23599"
-         id="use45919" />
+         id="use45919"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-18-5"
          x="191.76799"
          y="158.23599"
-         id="use45921" />
+         id="use45921"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45923"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14594,17 +14719,19 @@ TER<tspan
          xlink:href="#glyph1-12-3"
          x="195.71359"
          y="158.23599"
-         id="use45925" />
+         id="use45925"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-5-3"
          x="204.71359"
          y="158.23599"
-         id="use45927" />
+         id="use45927"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45929"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14613,17 +14740,19 @@ TER<tspan
          xlink:href="#glyph1-11-55"
          x="527.19812"
          y="262.06769"
-         id="use45931" />
+         id="use45931"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-26-4"
          x="536.19812"
          y="262.06769"
-         id="use45933" />
+         id="use45933"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45935"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14632,10 +14761,11 @@ TER<tspan
          xlink:href="#glyph1-19-3"
          x="545.37451"
          y="262.06769"
-         id="use45937" />
+         id="use45937"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45939"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14644,17 +14774,19 @@ TER<tspan
          xlink:href="#glyph1-3-8"
          x="553.05688"
          y="262.06769"
-         id="use45941" />
+         id="use45941"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-5-3"
          x="561.67889"
          y="262.06769"
-         id="use45943" />
+         id="use45943"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45945"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14663,17 +14795,19 @@ TER<tspan
          xlink:href="#glyph1-27-10"
          x="566.67932"
          y="262.06769"
-         id="use45947" />
+         id="use45947"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-9-31"
          x="579.42328"
          y="262.06769"
-         id="use45949" />
+         id="use45949"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45951"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14682,45 +14816,51 @@ TER<tspan
          xlink:href="#glyph1-10-4"
          x="589.35571"
          y="262.06769"
-         id="use45953" />
+         id="use45953"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-10-4"
          x="598.35571"
          y="262.06769"
-         id="use45955" />
+         id="use45955"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-3-8"
          x="607.35571"
          y="262.06769"
-         id="use45957" />
+         id="use45957"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-28-3"
          x="615.97772"
          y="262.06769"
-         id="use45959" />
+         id="use45959"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-8-5"
          x="623.86169"
          y="262.06769"
-         id="use45961" />
+         id="use45961"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-9-31"
          x="629.85571"
          y="262.06769"
-         id="use45963" />
+         id="use45963"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g45965"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14729,17 +14869,19 @@ TER<tspan
          xlink:href="#glyph1-4-03"
          x="639.78809"
          y="262.06769"
-         id="use45967" />
+         id="use45967"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-5-3"
          x="646.91608"
          y="262.06769"
-         id="use45969" />
+         id="use45969"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45971"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14748,17 +14890,19 @@ TER<tspan
          xlink:href="#glyph3-1-8"
          x="93.851242"
          y="251.81931"
-         id="use45973" />
+         id="use45973"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-2-1"
          x="102.59924"
          y="251.81931"
-         id="use45975" />
+         id="use45975"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45977"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14767,10 +14911,11 @@ TER<tspan
          xlink:href="#glyph3-3-0"
          x="109.22084"
          y="251.81931"
-         id="use45979" />
+         id="use45979"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45981"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14779,14 +14924,16 @@ TER<tspan
          xlink:href="#glyph3-4-2"
          x="111.85124"
          y="251.81931"
-         id="use45983" />
+         id="use45983"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-5-6"
          x="117.59924"
          y="251.81931"
-         id="use45985" />
+         id="use45985"
+         style="fill:#333333" />
     </g>
     <g
        style="fill:#000000;fill-opacity:1"
@@ -14801,7 +14948,7 @@ TER<tspan
          id="use45989" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45991"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14810,17 +14957,19 @@ TER<tspan
          xlink:href="#glyph3-7-36"
          x="125.55044"
          y="251.81931"
-         id="use45993" />
+         id="use45993"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-2-1"
          x="128.55045"
          y="251.81931"
-         id="use45995" />
+         id="use45995"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g45997"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14829,17 +14978,19 @@ TER<tspan
          xlink:href="#glyph3-8-2"
          x="135.17204"
          y="251.81931"
-         id="use45999" />
+         id="use45999"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-6-8"
          x="139.92404"
          y="251.81931"
-         id="use46001" />
+         id="use46001"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46003"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14848,17 +14999,19 @@ TER<tspan
          xlink:href="#glyph3-9-4"
          x="143.25764"
          y="251.81931"
-         id="use46005" />
+         id="use46005"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-10-7"
          x="149.25764"
          y="251.81931"
-         id="use46007" />
+         id="use46007"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46009"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14867,17 +15020,19 @@ TER<tspan
          xlink:href="#glyph3-11-6"
          x="154.37924"
          y="251.81931"
-         id="use46011" />
+         id="use46011"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-10-7"
          x="160.37924"
          y="251.81931"
-         id="use46013" />
+         id="use46013"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46015"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14886,14 +15041,16 @@ TER<tspan
          xlink:href="#glyph3-11-6"
          x="165.50084"
          y="251.81931"
-         id="use46017" />
+         id="use46017"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-10-7"
          x="171.50084"
          y="251.81931"
-         id="use46019" />
+         id="use46019"
+         style="fill:#333333" />
     </g>
     <g
        style="fill:#000000;fill-opacity:1"
@@ -14908,7 +15065,7 @@ TER<tspan
          id="use46023" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46025"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14917,17 +15074,19 @@ TER<tspan
          xlink:href="#glyph3-12-19"
          x="179.95604"
          y="251.81931"
-         id="use46027" />
+         id="use46027"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-3-0"
          x="185.95604"
          y="251.81931"
-         id="use46029" />
+         id="use46029"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46031"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14936,17 +15095,19 @@ TER<tspan
          xlink:href="#glyph3-13-5"
          x="188.58644"
          y="251.81931"
-         id="use46033" />
+         id="use46033"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-14-6"
          x="194.58644"
          y="251.81931"
-         id="use46035" />
+         id="use46035"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46037"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14955,7 +15116,8 @@ TER<tspan
          xlink:href="#glyph3-5-6"
          x="199.70804"
          y="251.81931"
-         id="use46039" />
+         id="use46039"
+         style="fill:#333333" />
     </g>
     <g
        style="fill:#000000;fill-opacity:1"
@@ -14970,7 +15132,7 @@ TER<tspan
          id="use46043" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46045"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14979,10 +15141,11 @@ TER<tspan
          xlink:href="#glyph3-15-1"
          x="91.182823"
          y="231.4248"
-         id="use46047" />
+         id="use46047"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46049"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -14991,10 +15154,11 @@ TER<tspan
          xlink:href="#glyph3-10-7"
          x="97.300423"
          y="231.4248"
-         id="use46051" />
+         id="use46051"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46053"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -15003,10 +15167,11 @@ TER<tspan
          xlink:href="#glyph3-16-5"
          x="102.42202"
          y="231.4248"
-         id="use46055" />
+         id="use46055"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46057"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -15015,7 +15180,8 @@ TER<tspan
          xlink:href="#glyph3-5-6"
          x="108.53962"
          y="231.4248"
-         id="use46059" />
+         id="use46059"
+         style="fill:#333333" />
     </g>
     <g
        style="fill:#000000;fill-opacity:1"
@@ -15030,7 +15196,7 @@ TER<tspan
          id="use46063" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46065"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -15039,17 +15205,19 @@ TER<tspan
          xlink:href="#glyph3-7-36"
          x="116.49082"
          y="231.4248"
-         id="use46067" />
+         id="use46067"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-2-1"
          x="119.49082"
          y="231.4248"
-         id="use46069" />
+         id="use46069"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46071"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -15058,17 +15226,19 @@ TER<tspan
          xlink:href="#glyph3-8-2"
          x="126.11242"
          y="231.4248"
-         id="use46073" />
+         id="use46073"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-6-8"
          x="130.86443"
          y="231.4248"
-         id="use46075" />
+         id="use46075"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46077"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -15077,24 +15247,27 @@ TER<tspan
          xlink:href="#glyph3-17-7"
          x="134.19801"
          y="231.4248"
-         id="use46079" />
+         id="use46079"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-8-2"
          x="139.45403"
          y="231.4248"
-         id="use46081" />
+         id="use46081"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-2-1"
          x="144.20602"
          y="231.4248"
-         id="use46083" />
+         id="use46083"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46085"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -15103,17 +15276,19 @@ TER<tspan
          xlink:href="#glyph3-17-7"
          x="150.82762"
          y="231.4248"
-         id="use46087" />
+         id="use46087"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-2-1"
          x="156.08362"
          y="231.4248"
-         id="use46089" />
+         id="use46089"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46091"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -15122,10 +15297,11 @@ TER<tspan
          xlink:href="#glyph3-16-5"
          x="162.70522"
          y="231.4248"
-         id="use46093" />
+         id="use46093"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46095"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -15134,10 +15310,11 @@ TER<tspan
          xlink:href="#glyph3-18-8"
          x="168.82281"
          y="231.4248"
-         id="use46097" />
+         id="use46097"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46099"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -15146,10 +15323,11 @@ TER<tspan
          xlink:href="#glyph3-3-0"
          x="171.45322"
          y="231.4248"
-         id="use46101" />
+         id="use46101"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46103"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -15158,17 +15336,19 @@ TER<tspan
          xlink:href="#glyph3-4-2"
          x="174.08362"
          y="231.4248"
-         id="use46105" />
+         id="use46105"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-6-8"
          x="179.83162"
          y="231.4248"
-         id="use46107" />
+         id="use46107"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46109"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -15177,17 +15357,19 @@ TER<tspan
          xlink:href="#glyph3-17-7"
          x="183.16522"
          y="231.4248"
-         id="use46111" />
+         id="use46111"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-3-0"
          x="188.42122"
          y="231.4248"
-         id="use46113" />
+         id="use46113"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46115"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -15196,10 +15378,11 @@ TER<tspan
          xlink:href="#glyph3-18-8"
          x="191.05162"
          y="231.4248"
-         id="use46117" />
+         id="use46117"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46119"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -15208,14 +15391,16 @@ TER<tspan
          xlink:href="#glyph3-12-19"
          x="193.68202"
          y="231.4248"
-         id="use46121" />
+         id="use46121"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-5-6"
          x="199.68202"
          y="231.4248"
-         id="use46123" />
+         id="use46123"
+         style="fill:#333333" />
     </g>
     <g
        style="fill:#000000;fill-opacity:1"
@@ -15328,7 +15513,7 @@ TER<tspan
        d="m 55.676286,59.256955 32.594722,0"
        id="path46155" />
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46157"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -15337,10 +15522,11 @@ TER<tspan
          xlink:href="#glyph1-25-1"
          x="129.2457"
          y="72.734001"
-         id="use46159" />
+         id="use46159"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46161"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -15349,10 +15535,11 @@ TER<tspan
          xlink:href="#glyph1-18-5"
          x="143.30009"
          y="72.734001"
-         id="use46163" />
+         id="use46163"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46165"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -15361,21 +15548,24 @@ TER<tspan
          xlink:href="#glyph1-28-3"
          x="147.2457"
          y="72.734001"
-         id="use46167" />
+         id="use46167"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-4-03"
          x="155.1297"
          y="72.734001"
-         id="use46169" />
+         id="use46169"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-9-31"
          x="162.25771"
          y="72.734001"
-         id="use46171" />
+         id="use46171"
+         style="fill:#333333" />
     </g>
     <g
        style="fill:#4f5454;fill-opacity:1"
@@ -15390,7 +15580,7 @@ TER<tspan
          id="use46175" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46177"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
       <use
@@ -15399,21 +15589,24 @@ TER<tspan
          xlink:href="#glyph1-1-7"
          x="177.19051"
          y="72.734001"
-         id="use46179" />
+         id="use46179"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-29-9"
          x="189.93449"
          y="72.734001"
-         id="use46181" />
+         id="use46181"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-30-3"
          x="198.1785"
          y="72.734001"
-         id="use46183" />
+         id="use46183"
+         style="fill:#333333" />
     </g>
     <g
        style="fill:#4f5454;fill-opacity:1"
@@ -15428,37 +15621,6 @@ TER<tspan
          id="use46187" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
-       id="g46189"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph3-19-3"
-         x="82.245743"
-         y="87.734001"
-         id="use46191"
-         style="fill:#4f5454;fill-opacity:1" />
-    </g>
-    <use
-       style="fill:#4f5454;fill-opacity:1"
-       id="use46195"
-       y="87.734001"
-       x="91.615341"
-       xlink:href="#glyph3-20-1"
-       width="100%"
-       height="100%"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)" />
-    <use
-       style="fill:#4f5454;fill-opacity:1"
-       id="use46199"
-       y="87.734001"
-       x="106.11134"
-       xlink:href="#glyph3-22-1"
-       width="100%"
-       height="100%"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)" />
-    <g
        style="fill:#000000;fill-opacity:1"
        id="g46201"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,7.8482135)">
@@ -15471,51 +15633,6 @@ TER<tspan
          id="use46203" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
-       id="g46205"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph3-23-3"
-         x="112.07534"
-         y="87.734001"
-         id="use46207"
-         style="fill:#4f5454;fill-opacity:1" />
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph3-24-26"
-         x="120.57134"
-         y="87.734001"
-         id="use46209"
-         style="fill:#4f5454;fill-opacity:1" />
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph3-25-2"
-         x="128.57533"
-         y="87.734001"
-         id="use46211"
-         style="fill:#4f5454;fill-opacity:1" />
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph3-26-60"
-         x="135.82333"
-         y="87.734001"
-         id="use46213"
-         style="fill:#4f5454;fill-opacity:1" />
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph3-22-1"
-         x="143.07133"
-         y="87.734001"
-         id="use46215"
-         style="fill:#4f5454;fill-opacity:1" />
-    </g>
-    <g
        style="fill:#000000;fill-opacity:1"
        id="g46217"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,7.8482135)">
@@ -15526,90 +15643,6 @@ TER<tspan
          x="145.70174"
          y="87.734001"
          id="use46219" />
-    </g>
-    <use
-       style="fill:#4f5454;fill-opacity:1"
-       id="use46223"
-       y="87.734001"
-       x="149.03534"
-       xlink:href="#glyph3-27-6"
-       width="100%"
-       height="100%"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)" />
-    <use
-       style="fill:#4f5454;fill-opacity:1"
-       id="use46225"
-       y="87.734001"
-       x="157.53134"
-       xlink:href="#glyph3-19-3"
-       width="100%"
-       height="100%"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)" />
-    <g
-       style="fill:#4f5454;fill-opacity:1"
-       id="g46227"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph3-20-1"
-         x="166.90094"
-         y="87.734001"
-         id="use46229"
-         style="fill:#4f5454;fill-opacity:1" />
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph3-28-4"
-         x="172.39694"
-         y="87.734001"
-         id="use46231"
-         style="fill:#4f5454;fill-opacity:1" />
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph3-20-1"
-         x="175.39694"
-         y="87.734001"
-         id="use46233"
-         style="fill:#4f5454;fill-opacity:1" />
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph3-29-0"
-         x="180.89294"
-         y="87.734001"
-         id="use46235"
-         style="fill:#4f5454;fill-opacity:1" />
-    </g>
-    <g
-       style="fill:#4f5454;fill-opacity:1"
-       id="g46237"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph3-21-4"
-         x="184.77135"
-         y="87.734001"
-         id="use46239"
-         style="fill:#4f5454;fill-opacity:1" />
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph3-24-26"
-         x="193.77135"
-         y="87.734001"
-         id="use46241"
-         style="fill:#4f5454;fill-opacity:1" />
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph3-15-1"
-         x="201.77534"
-         y="87.734001"
-         id="use46243"
-         style="fill:#4f5454;fill-opacity:1" />
     </g>
     <g
        style="fill:#000000;fill-opacity:1"
@@ -15624,9 +15657,9 @@ TER<tspan
          id="use46247" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46249"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
+       transform="matrix(0.35277778,0,0,0.35277778,-20.266801,-1.0255241)">
       <use
          height="100%"
          width="100%"
@@ -15634,7 +15667,7 @@ TER<tspan
          x="68.245743"
          y="102.734"
          id="use46251"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
       <use
          height="100%"
          width="100%"
@@ -15642,7 +15675,7 @@ TER<tspan
          x="77.245743"
          y="102.734"
          id="use46253"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
       <use
          height="100%"
          width="100%"
@@ -15650,12 +15683,12 @@ TER<tspan
          x="81.997742"
          y="102.734"
          id="use46255"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46257"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
+       transform="matrix(0.35277778,0,0,0.35277778,-20.266801,-1.0255241)">
       <use
          height="100%"
          width="100%"
@@ -15663,12 +15696,12 @@ TER<tspan
          x="87.119339"
          y="102.734"
          id="use46259"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46261"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
+       transform="matrix(0.35277778,0,0,0.35277778,-20.266801,-1.0255241)">
       <use
          height="100%"
          width="100%"
@@ -15676,12 +15709,12 @@ TER<tspan
          x="92.240936"
          y="102.734"
          id="use46263"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46265"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
+       transform="matrix(0.35277778,0,0,0.35277778,-20.266801,-1.0255241)">
       <use
          height="100%"
          width="100%"
@@ -15689,12 +15722,12 @@ TER<tspan
          x="96.119339"
          y="102.734"
          id="use46267"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46269"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
+       transform="matrix(0.35277778,0,0,0.35277778,-20.266801,-1.0255241)">
       <use
          height="100%"
          width="100%"
@@ -15702,7 +15735,7 @@ TER<tspan
          x="101.24094"
          y="102.734"
          id="use46271"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
       <use
          height="100%"
          width="100%"
@@ -15710,12 +15743,12 @@ TER<tspan
          x="107.24094"
          y="102.734"
          id="use46273"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46275"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
+       transform="matrix(0.35277778,0,0,0.35277778,-20.266801,-1.0255241)">
       <use
          height="100%"
          width="100%"
@@ -15723,12 +15756,12 @@ TER<tspan
          x="113.35854"
          y="102.734"
          id="use46277"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46279"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
+       transform="matrix(0.35277778,0,0,0.35277778,-20.266801,-1.0255241)">
       <use
          height="100%"
          width="100%"
@@ -15736,12 +15769,12 @@ TER<tspan
          x="117.23694"
          y="102.734"
          id="use46281"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46283"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
+       transform="matrix(0.35277778,0,0,0.35277778,-20.266801,-1.0255241)">
       <use
          height="100%"
          width="100%"
@@ -15749,7 +15782,7 @@ TER<tspan
          x="123.35454"
          y="102.734"
          id="use46285"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
       <use
          height="100%"
          width="100%"
@@ -15757,12 +15790,12 @@ TER<tspan
          x="128.10654"
          y="102.734"
          id="use46287"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46289"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
+       transform="matrix(0.35277778,0,0,0.35277778,-20.266801,-1.0255241)">
       <use
          height="100%"
          width="100%"
@@ -15770,7 +15803,7 @@ TER<tspan
          x="134.72813"
          y="102.734"
          id="use46291"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
       <use
          height="100%"
          width="100%"
@@ -15778,12 +15811,12 @@ TER<tspan
          x="140.72813"
          y="102.734"
          id="use46293"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46295"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
+       transform="matrix(0.35277778,0,0,0.35277778,-20.266801,-1.0255241)">
       <use
          height="100%"
          width="100%"
@@ -15791,7 +15824,7 @@ TER<tspan
          x="144.06174"
          y="102.734"
          id="use46297"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
       <use
          height="100%"
          width="100%"
@@ -15799,7 +15832,7 @@ TER<tspan
          x="150.06174"
          y="102.734"
          id="use46299"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
       <use
          height="100%"
          width="100%"
@@ -15807,12 +15840,12 @@ TER<tspan
          x="154.81374"
          y="102.734"
          id="use46301"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46303"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
+       transform="matrix(0.35277778,0,0,0.35277778,-20.266801,-1.0255241)">
       <use
          height="100%"
          width="100%"
@@ -15820,12 +15853,12 @@ TER<tspan
          x="161.43533"
          y="102.734"
          id="use46305"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46307"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
+       transform="matrix(0.35277778,0,0,0.35277778,-20.266801,-1.0255241)">
       <use
          height="100%"
          width="100%"
@@ -15833,7 +15866,7 @@ TER<tspan
          x="166.55695"
          y="102.734"
          id="use46309"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
       <use
          height="100%"
          width="100%"
@@ -15841,12 +15874,12 @@ TER<tspan
          x="171.30894"
          y="102.734"
          id="use46311"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46313"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
+       transform="matrix(0.35277778,0,0,0.35277778,-20.266801,-1.0255241)">
       <use
          height="100%"
          width="100%"
@@ -15854,7 +15887,7 @@ TER<tspan
          x="176.43054"
          y="102.734"
          id="use46315"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
       <use
          height="100%"
          width="100%"
@@ -15862,7 +15895,7 @@ TER<tspan
          x="185.68254"
          y="102.734"
          id="use46317"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
       <use
          height="100%"
          width="100%"
@@ -15870,12 +15903,12 @@ TER<tspan
          x="194.93454"
          y="102.734"
          id="use46319"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g46321"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,5.2557749)">
+       transform="matrix(0.35277778,0,0,0.35277778,-20.266801,-1.0255241)">
       <use
          height="100%"
          width="100%"
@@ -15883,7 +15916,7 @@ TER<tspan
          x="197.56494"
          y="102.734"
          id="use46323"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
       <use
          height="100%"
          width="100%"
@@ -15891,7 +15924,7 @@ TER<tspan
          x="203.56494"
          y="102.734"
          id="use46325"
-         style="fill:#4f5454;fill-opacity:1" />
+         style="fill:#333333;fill-opacity:1" />
     </g>
     <g
        style="fill:#000000;fill-opacity:1"
@@ -15920,662 +15953,569 @@ TER<tspan
        d="m 106.65954,31.46744 0,-3.38722 -52.211086,0"
        id="path46333" />
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47444"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-21.56203,85.388333)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-1-75"
          x="526.60541"
          y="125.3785"
-         id="use47446" />
+         id="use47446"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-2-8"
          x="536.73938"
          y="125.3785"
-         id="use47448" />
+         id="use47448"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47450"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-21.56203,85.388333)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-3-7"
          x="544.42181"
          y="125.3785"
-         id="use47452" />
+         id="use47452"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-3-7"
          x="550.41577"
          y="125.3785"
-         id="use47454" />
+         id="use47454"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-4-5"
          x="556.40979"
          y="125.3785"
-         id="use47456" />
+         id="use47456"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-5-0"
          x="565.0318"
          y="125.3785"
-         id="use47458" />
+         id="use47458"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-6-1"
          x="572.15979"
          y="125.3785"
-         id="use47460" />
+         id="use47460"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-7-2"
          x="580.04382"
          y="125.3785"
-         id="use47462" />
+         id="use47462"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47464"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-21.56203,85.388333)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-8-0"
          x="585.04419"
          y="125.3785"
-         id="use47466" />
+         id="use47466"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-9-2"
          x="592.92822"
          y="125.3785"
-         id="use47468" />
+         id="use47468"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47470"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-21.56203,85.388333)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-10-3"
          x="602.8606"
          y="125.3785"
-         id="use47472" />
+         id="use47472"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-10-3"
          x="611.8606"
          y="125.3785"
-         id="use47474" />
+         id="use47474"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-4-5"
          x="620.8606"
          y="125.3785"
-         id="use47476" />
+         id="use47476"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-8-0"
          x="629.4826"
          y="125.3785"
-         id="use47478" />
+         id="use47478"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-3-7"
          x="637.36658"
          y="125.3785"
-         id="use47480" />
+         id="use47480"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-9-2"
          x="643.3606"
          y="125.3785"
-         id="use47482" />
+         id="use47482"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47484"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-21.56203,85.388333)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-5-0"
          x="653.29303"
          y="125.3785"
-         id="use47486" />
+         id="use47486"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-7-2"
          x="660.42102"
          y="125.3785"
-         id="use47488" />
+         id="use47488"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47490"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-21.130287,84.524847)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-1-3"
          x="526.60541"
          y="140.37849"
-         id="use47492" />
+         id="use47492"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-2-2"
          x="529.60541"
          y="140.37849"
-         id="use47494" />
+         id="use47494"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-3-3"
          x="535.10138"
          y="140.37849"
-         id="use47496" />
+         id="use47496"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-4-9"
          x="542.34943"
          y="140.37849"
-         id="use47498" />
+         id="use47498"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47500"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-21.130287,84.524847)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-5-6"
          x="545.68298"
          y="140.37849"
-         id="use47502" />
+         id="use47502"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-6-5"
          x="550.93903"
          y="140.37849"
-         id="use47504" />
+         id="use47504"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47506"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-21.130287,84.524847)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-7-8"
          x="557.56061"
          y="140.37849"
-         id="use47508" />
+         id="use47508"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-7-8"
          x="563.56061"
          y="140.37849"
-         id="use47510" />
+         id="use47510"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-8-8"
          x="569.56061"
          y="140.37849"
-         id="use47512" />
+         id="use47512"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-5-6"
          x="575.30859"
          y="140.37849"
-         id="use47514" />
+         id="use47514"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-9-1"
          x="580.56458"
          y="140.37849"
-         id="use47516" />
+         id="use47516"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-10-8"
          x="584.56061"
          y="140.37849"
-         id="use47518" />
+         id="use47518"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47520"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-21.130287,84.524847)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-6-5"
          x="587.19098"
          y="140.37849"
-         id="use47522" />
+         id="use47522"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47524"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-21.130287,84.524847)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-7-8"
          x="593.81262"
          y="140.37849"
-         id="use47526" />
+         id="use47526"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-4-9"
          x="599.81262"
          y="140.37849"
-         id="use47528" />
+         id="use47528"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47530"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-21.130287,84.524847)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-11-42"
          x="603.14618"
          y="140.37849"
-         id="use47532" />
+         id="use47532"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-6-5"
          x="606.14618"
          y="140.37849"
-         id="use47534" />
+         id="use47534"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47536"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-21.130287,84.524847)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-12-4"
          x="612.76782"
          y="140.37849"
-         id="use47538" />
+         id="use47538"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-4-9"
          x="617.51978"
          y="140.37849"
-         id="use47540" />
+         id="use47540"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47542"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-21.130287,84.524847)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-13-4"
          x="620.85339"
          y="140.37849"
-         id="use47544" />
+         id="use47544"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-14-95"
          x="626.85339"
          y="140.37849"
-         id="use47546" />
+         id="use47546"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph2-4-9"
          x="634.10138"
          y="140.37849"
-         id="use47548" />
+         id="use47548"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
-       id="g47550"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph1-11-9"
-         x="526.60541"
-         y="220.26781"
-         id="use47552" />
-    </g>
-    <g
-       style="fill:#4f5454;fill-opacity:1"
-       id="g47554"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph1-5-0"
-         x="535.05103"
-         y="220.26781"
-         id="use47556" />
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph1-4-5"
-         x="542.17902"
-         y="220.26781"
-         id="use47558" />
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph1-4-5"
-         x="550.80103"
-         y="220.26781"
-         id="use47560" />
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph1-12-7"
-         x="559.42297"
-         y="220.26781"
-         id="use47562" />
-    </g>
-    <g
-       style="fill:#4f5454;fill-opacity:1"
-       id="g47564"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph1-8-0"
-         x="566.34943"
-         y="220.26781"
-         id="use47566" />
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph1-2-8"
-         x="574.2334"
-         y="220.26781"
-         id="use47568" />
-    </g>
-    <g
-       style="fill:#4f5454;fill-opacity:1"
-       id="g47570"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph1-13-4"
-         x="581.91577"
-         y="220.26781"
-         id="use47572" />
-    </g>
-    <g
-       style="fill:#4f5454;fill-opacity:1"
-       id="g47574"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph1-4-5"
-         x="585.86139"
-         y="220.26781"
-         id="use47576" />
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph1-7-2"
-         x="594.4834"
-         y="220.26781"
-         id="use47578" />
-    </g>
-    <g
-       style="fill:#4f5454;fill-opacity:1"
-       id="g47580"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph1-14-8"
-         x="599.48383"
-         y="220.26781"
-         id="use47582" />
-    </g>
-    <g
-       style="fill:#4f5454;fill-opacity:1"
-       id="g47584"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph1-15-0"
-         x="611.28821"
-         y="220.26781"
-         id="use47586" />
-    </g>
-    <g
-       style="fill:#4f5454;fill-opacity:1"
-       id="g47588"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph1-16-9"
-         x="620.11182"
-         y="220.26781"
-         id="use47590" />
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph1-17-74"
-         x="629.11182"
-         y="220.26781"
-         id="use47592" />
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph1-18-95"
-         x="638.11182"
-         y="220.26781"
-         id="use47594" />
-      <use
-         height="100%"
-         width="100%"
-         xlink:href="#glyph1-7-2"
-         x="649.73981"
-         y="220.26781"
-         id="use47596" />
-    </g>
-    <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47598"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-19.978972,84.740719)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-1-13"
          x="526.60541"
          y="234.26781"
-         id="use47600" />
+         id="use47600"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-2-3"
          x="534.39337"
          y="234.26781"
-         id="use47602" />
+         id="use47602"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-3-05"
          x="539.4314"
          y="234.26781"
-         id="use47604" />
+         id="use47604"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-4-9"
          x="545.62439"
          y="234.26781"
-         id="use47606" />
+         id="use47606"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47608"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-19.978972,84.740719)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-5-4"
          x="548.68018"
          y="234.26781"
-         id="use47610" />
+         id="use47610"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-6-29"
          x="551.43018"
          y="234.26781"
-         id="use47612" />
+         id="use47612"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-7-2"
          x="556.93018"
          y="234.26781"
-         id="use47614" />
+         id="use47614"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-8-0"
          x="560.5932"
          y="234.26781"
-         id="use47616" />
+         id="use47616"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-9-42"
          x="565.86218"
          y="234.26781"
-         id="use47618" />
+         id="use47618"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-10-6"
          x="570.2182"
          y="234.26781"
-         id="use47620" />
+         id="use47620"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-11-8"
          x="572.9682"
          y="234.26781"
-         id="use47622" />
+         id="use47622"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47624"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-19.978972,84.740719)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-12-8"
          x="577.66302"
          y="234.26781"
-         id="use47626" />
+         id="use47626"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-8-0"
          x="582.48102"
          y="234.26781"
-         id="use47628" />
+         id="use47628"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-4-9"
          x="587.75"
          y="234.26781"
-         id="use47630" />
+         id="use47630"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47632"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-19.978972,84.740719)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-12-8"
          x="590.80579"
          y="234.26781"
-         id="use47634" />
+         id="use47634"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-13-8"
          x="595.62378"
          y="234.26781"
-         id="use47636" />
+         id="use47636"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-14-7"
          x="601.12378"
          y="234.26781"
-         id="use47638" />
+         id="use47638"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#000000;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47640"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-19.978972,84.740719)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-15-19"
          x="603.53497"
          y="234.26781"
-         id="use47642" />
+         id="use47642"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-4-9"
          x="609.03497"
          y="234.26781"
-         id="use47644" />
+         id="use47644"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g47734"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
       <use
@@ -16584,10 +16524,11 @@ TER<tspan
          xlink:href="#glyph1-22-9"
          x="75.814873"
          y="168.9996"
-         id="use47736" />
+         id="use47736"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g47738"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
       <use
@@ -16596,10 +16537,11 @@ TER<tspan
          xlink:href="#glyph1-9-2"
          x="89.86927"
          y="168.9996"
-         id="use47740" />
+         id="use47740"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g47742"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
       <use
@@ -16608,17 +16550,19 @@ TER<tspan
          xlink:href="#glyph1-5-0"
          x="99.801666"
          y="168.9996"
-         id="use47744" />
+         id="use47744"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-23-0"
          x="106.92967"
          y="168.9996"
-         id="use47746" />
+         id="use47746"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g47748"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
       <use
@@ -16627,10 +16571,11 @@ TER<tspan
          xlink:href="#glyph1-24-6"
          x="116.10607"
          y="168.9996"
-         id="use47750" />
+         id="use47750"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g47752"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
       <use
@@ -16639,17 +16584,19 @@ TER<tspan
          xlink:href="#glyph1-8-0"
          x="120.05167"
          y="168.9996"
-         id="use47754" />
+         id="use47754"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-7-2"
          x="127.93567"
          y="168.9996"
-         id="use47756" />
+         id="use47756"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g47758"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
       <use
@@ -16658,24 +16605,27 @@ TER<tspan
          xlink:href="#glyph1-10-3"
          x="132.93607"
          y="168.9996"
-         id="use47760" />
+         id="use47760"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-25-6"
          x="141.93607"
          y="168.9996"
-         id="use47762" />
+         id="use47762"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-11-9"
          x="152.80807"
          y="168.9996"
-         id="use47764" />
+         id="use47764"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g47766"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
       <use
@@ -16684,42 +16634,48 @@ TER<tspan
          xlink:href="#glyph1-26-13"
          x="161.25368"
          y="168.9996"
-         id="use47768" />
+         id="use47768"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-27-0"
          x="170.25368"
          y="168.9996"
-         id="use47770" />
+         id="use47770"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-28-4"
          x="179.25368"
          y="168.9996"
-         id="use47772" />
+         id="use47772"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-16-9"
          x="188.25368"
          y="168.9996"
-         id="use47774" />
+         id="use47774"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-16-9"
          x="197.25368"
          y="168.9996"
-         id="use47776" />
+         id="use47776"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-7-2"
          x="206.25368"
          y="168.9996"
-         id="use47778" />
+         id="use47778"
+         style="fill:#333333" />
     </g>
     <use
        height="100%"
@@ -16742,12 +16698,12 @@ TER<tspan
        x="0"
        xlink:href="#image2552646"
        mask="url(#mask5-26)"
-       transform="matrix(0.11545464,0,0,0.11545464,143.76564,126.74144)"
+       transform="matrix(0.11545464,0,0,0.11545464,143.76564,120.92057)"
        id="use47784" />
     <path
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#ba2670;stroke-width:0.70555508;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
-       d="m 163.31622,132.77096 -8.55899,0 0,-4.91959 -9.68209,0"
+       d="m 163.31622,127.47926 -8.55899,0 0,-4.91959 -9.68209,0"
        id="path47786" />
     <use
        height="100%"
@@ -16770,123 +16726,136 @@ TER<tspan
        x="0"
        xlink:href="#image2552658"
        mask="url(#mask7-22)"
-       transform="matrix(0.11545464,0,0,0.11545464,129.21836,149.60146)"
+       transform="matrix(0.11545464,0,0,0.11545464,129.21836,143.25142)"
        id="use47792" />
     <path
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#ba2670;stroke-width:0.70555508;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
-       d="m 164.7976,165.97616 -33.90248,0 0,-15.6173"
+       d="m 164.7976,160.15529 -33.90248,0 0,-15.6173"
        id="path47794" />
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47796"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-21.56203,83.229618)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-25-6"
          x="526.60541"
          y="168.11909"
-         id="use47798" />
+         id="use47798"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-4-5"
          x="537.47742"
          y="168.11909"
-         id="use47800" />
+         id="use47800"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-12-7"
          x="546.09943"
          y="168.11909"
-         id="use47802" />
+         id="use47802"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47804"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-21.56203,83.229618)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-4-5"
          x="553.02582"
          y="168.11909"
-         id="use47806" />
+         id="use47806"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-3-7"
          x="561.64783"
          y="168.11909"
-         id="use47808" />
+         id="use47808"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-7-2"
          x="567.64178"
          y="168.11909"
-         id="use47810" />
+         id="use47810"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47812"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-21.56203,83.229618)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-1-75"
          x="572.64221"
          y="168.11909"
-         id="use47814" />
+         id="use47814"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-29-0"
          x="582.77618"
          y="168.11909"
-         id="use47816" />
+         id="use47816"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-3-7"
          x="591.77618"
          y="168.11909"
-         id="use47818" />
+         id="use47818"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-3-7"
          x="597.7702"
          y="168.11909"
-         id="use47820" />
+         id="use47820"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-9-2"
          x="603.76422"
          y="168.11909"
-         id="use47822" />
+         id="use47822"
+         style="fill:#4d4d4d" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#4d4d4d;fill-opacity:1"
        id="g47824"
-       transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
+       transform="matrix(0.35277778,0,0,0.35277778,-21.56203,83.229618)">
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-10-3"
          x="613.69659"
          y="168.11909"
-         id="use47826" />
+         id="use47826"
+         style="fill:#4d4d4d" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-7-2"
          x="622.69659"
          y="168.11909"
-         id="use47828" />
+         id="use47828"
+         style="fill:#4d4d4d" />
     </g>
     <use
        style="fill:#4f5454;fill-opacity:1"
@@ -16897,22 +16866,20 @@ TER<tspan
        width="100%"
        height="100%"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)" />
-    <use
-       height="100%"
-       width="100%"
-       y="0"
-       x="0"
-       xlink:href="#image2552670"
-       mask="url(#mask9-5)"
-       transform="matrix(0.11545464,0,0,0.11545464,121.36746,128.24237)"
-       id="use47922" />
+    <path
+       sodipodi:nodetypes="ccc"
+       id="path18973"
+       d="m 163.33274,139.96292 -40.30484,0 0,-11.56311"
+       style="fill:none;stroke:#333333;stroke-width:0.70555508;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;filter:url(#filter19031)"
+       inkscape:connector-curvature="0" />
     <path
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#ba2670;stroke-width:0.70555508;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
-       d="m 163.33274,143.66711 -40.30484,0 0,-14.73811"
-       id="path47924" />
+       d="m 163.33274,139.96292 -40.30484,0 0,-11.56311"
+       id="path47924"
+       sodipodi:nodetypes="ccc" />
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g47926"
        transform="matrix(0.35277778,0,0,0.35277778,-20.410715,88.410535)">
       <use
@@ -16921,49 +16888,56 @@ TER<tspan
          xlink:href="#glyph1-30-5"
          x="141.90089"
          y="118.7996"
-         id="use47928" />
+         id="use47928"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-10-3"
          x="153.90691"
          y="118.7996"
-         id="use47930" />
+         id="use47930"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-3-7"
          x="162.90691"
          y="118.7996"
-         id="use47932" />
+         id="use47932"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-4-5"
          x="168.90089"
          y="118.7996"
-         id="use47934" />
+         id="use47934"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-10-3"
          x="177.5229"
          y="118.7996"
-         id="use47936" />
+         id="use47936"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-10-3"
          x="186.5229"
          y="118.7996"
-         id="use47938" />
+         id="use47938"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph1-2-8"
          x="195.5229"
          y="118.7996"
-         id="use47940" />
+         id="use47940"
+         style="fill:#333333" />
     </g>
     <g
        style="fill:#4f5454;fill-opacity:1"
@@ -16978,7 +16952,7 @@ TER<tspan
          id="use47944" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g47946"
        transform="matrix(0.35277778,0,0,0.35277778,10.59255,87.881365)">
       <use
@@ -16987,17 +16961,19 @@ TER<tspan
          xlink:href="#glyph3-3-05"
          x="19.90094"
          y="132.79961"
-         id="use47948" />
+         id="use47948"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-18-5"
          x="26.093941"
          y="132.79961"
-         id="use47950" />
+         id="use47950"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g47952"
        transform="matrix(0.35277778,0,0,0.35277778,10.59255,87.881365)">
       <use
@@ -17006,31 +16982,35 @@ TER<tspan
          xlink:href="#glyph3-29-8"
          x="28.50514"
          y="132.79961"
-         id="use47954" />
+         id="use47954"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-8-0"
          x="34.005138"
          y="132.79961"
-         id="use47956" />
+         id="use47956"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-7-2"
          x="39.274139"
          y="132.79961"
-         id="use47958" />
+         id="use47958"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-30-5"
          x="42.937141"
          y="132.79961"
-         id="use47960" />
+         id="use47960"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g47962"
        transform="matrix(0.35277778,0,0,0.35277778,10.59255,87.881365)">
       <use
@@ -17039,10 +17019,11 @@ TER<tspan
          xlink:href="#glyph3-30-5"
          x="49.006939"
          y="132.79961"
-         id="use47964" />
+         id="use47964"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g47966"
        transform="matrix(0.35277778,0,0,0.35277778,10.59255,87.881365)">
       <use
@@ -17051,24 +17032,27 @@ TER<tspan
          xlink:href="#glyph3-7-2"
          x="55.07674"
          y="132.79961"
-         id="use47968" />
+         id="use47968"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-13-8"
          x="58.739738"
          y="132.79961"
-         id="use47970" />
+         id="use47970"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-4-9"
          x="64.239738"
          y="132.79961"
-         id="use47972" />
+         id="use47972"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g47974"
        transform="matrix(0.35277778,0,0,0.35277778,10.59255,87.881365)">
       <use
@@ -17077,10 +17061,11 @@ TER<tspan
          xlink:href="#glyph3-18-5"
          x="67.29554"
          y="132.79961"
-         id="use47976" />
+         id="use47976"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g47978"
        transform="matrix(0.35277778,0,0,0.35277778,10.59255,87.881365)">
       <use
@@ -17089,10 +17074,11 @@ TER<tspan
          xlink:href="#glyph3-30-5"
          x="69.706741"
          y="132.79961"
-         id="use47980" />
+         id="use47980"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g47982"
        transform="matrix(0.35277778,0,0,0.35277778,10.59255,87.881365)">
       <use
@@ -17101,7 +17087,8 @@ TER<tspan
          xlink:href="#glyph3-31-4"
          x="75.776543"
          y="132.79961"
-         id="use47984" />
+         id="use47984"
+         style="fill:#333333" />
     </g>
     <g
        style="fill:#4f5454;fill-opacity:1"
@@ -17116,7 +17103,7 @@ TER<tspan
          id="use47988" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g47990"
        transform="matrix(0.35277778,0,0,0.35277778,10.59255,87.881365)">
       <use
@@ -17125,38 +17112,43 @@ TER<tspan
          xlink:href="#glyph3-8-0"
          x="86.743538"
          y="132.79961"
-         id="use47992" />
+         id="use47992"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-6-29"
          x="92.012543"
          y="132.79961"
-         id="use47994" />
+         id="use47994"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-8-0"
          x="97.512543"
          y="132.79961"
-         id="use47996" />
+         id="use47996"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-9-42"
          x="102.78154"
          y="132.79961"
-         id="use47998" />
+         id="use47998"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-32-0"
          x="107.13754"
          y="132.79961"
-         id="use48000" />
+         id="use48000"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g48002"
        transform="matrix(0.35277778,0,0,0.35277778,10.59255,87.881365)">
       <use
@@ -17165,14 +17157,16 @@ TER<tspan
          xlink:href="#glyph3-33-7"
          x="111.83234"
          y="132.79961"
-         id="use48004" />
+         id="use48004"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-4-9"
          x="116.65034"
          y="132.79961"
-         id="use48006" />
+         id="use48006"
+         style="fill:#333333" />
     </g>
     <g
        style="fill:#4f5454;fill-opacity:1"
@@ -17187,7 +17181,7 @@ TER<tspan
          id="use48020" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g48022"
        transform="matrix(0.55820665,0,0,0.55820665,-69.33221,56.337538)">
       <use
@@ -17196,17 +17190,19 @@ TER<tspan
          xlink:href="#glyph3-24-1"
          x="138.56454"
          y="132.79961"
-         id="use48024" />
+         id="use48024"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-35-1"
          x="144.06454"
          y="132.79961"
-         id="use48026" />
+         id="use48026"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g48028"
        transform="matrix(0.55820665,0,0,0.55820665,-69.33221,56.337538)">
       <use
@@ -17215,17 +17211,19 @@ TER<tspan
          xlink:href="#glyph3-36-2"
          x="146.47574"
          y="132.79961"
-         id="use48030" />
+         id="use48030"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-25-3"
          x="151.97574"
          y="132.79961"
-         id="use48032" />
+         id="use48032"
+         style="fill:#333333" />
     </g>
     <g
-       style="fill:#4f5454;fill-opacity:1"
+       style="fill:#333333;fill-opacity:1"
        id="g48034"
        transform="matrix(0.55820665,0,0,0.55820665,-69.33221,56.337538)">
       <use
@@ -17234,21 +17232,24 @@ TER<tspan
          xlink:href="#glyph3-37-3"
          x="160.11794"
          y="132.79961"
-         id="use48036" />
+         id="use48036"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-38-0"
          x="168.13693"
          y="132.79961"
-         id="use48038" />
+         id="use48038"
+         style="fill:#333333" />
       <use
          height="100%"
          width="100%"
          xlink:href="#glyph3-4-9"
          x="175.24294"
          y="132.79961"
-         id="use48040" />
+         id="use48040"
+         style="fill:#333333" />
     </g>
     <g
        style="fill:#4f5454;fill-opacity:1"
@@ -17276,15 +17277,6 @@ TER<tspan
        style="fill:none;stroke:#ba2670;stroke-width:0.70555508;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
        d="m 52.732797,129.95425 7.40833,0 0,-7.9375 8.009154,0"
        id="path48064" />
-    <use
-       transform="matrix(0.35277778,0,0,0.35277778,-38.789808,5.2557749)"
-       height="100%"
-       width="100%"
-       xlink:href="#glyph3-27-6"
-       x="149.03534"
-       y="87.734001"
-       id="use65299"
-       style="fill:#4f5454;fill-opacity:1" />
     <g
        id="g6307"
        transform="matrix(0.3507414,0,0,0.3507414,28.044341,198.57357)">
@@ -17901,19 +17893,19 @@ TER<tspan
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.85190821px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09629769px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="121.96323"
-       y="36.277576"
+       x="128.0136"
+       y="31.964401"
        id="text5235-3"
        sodipodi:linespacing="125%"
        transform="scale(1.0596148,0.94373918)"><tspan
          sodipodi:role="line"
          id="tspan5237-0"
-         x="121.96323"
-         y="36.277576"
+         x="128.0136"
+         y="31.964401"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Geneva;-inkscape-font-specification:Geneva;stroke-width:0.09629769px">FRONT</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.11706638px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4f5454;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:4.11706638px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="17.428608"
        y="139.14885"
        id="text12450"
@@ -17922,10 +17914,10 @@ TER<tspan
          id="tspan12452"
          x="17.428608"
          y="139.14885"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans';fill:#4f5454;fill-opacity:1;stroke-width:0.26458332px">Broadcast radio</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans';fill:#333333;fill-opacity:1;stroke-width:0.26458332px;">Broadcast radio</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.5054245px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4f5454;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       style="font-style:normal;font-weight:normal;font-size:6.5054245px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        x="11.770922"
        y="161.8194"
        id="text12446"
@@ -17934,19 +17926,43 @@ TER<tspan
          id="tspan12448"
          x="11.770922"
          y="161.8194"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans';stroke-width:0.26458332px;fill:#4f5454;fill-opacity:1;">Motion Sensor</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans';stroke-width:0.26458332px;fill:#333333;fill-opacity:1;">Motion Sensor</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text12451"
        y="165.60718"
        x="23.025562"
-       style="font-style:normal;font-weight:normal;font-size:4.11706638px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4f5454;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:4.11706638px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
        xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans';fill:#4f5454;fill-opacity:1;stroke-width:0.26458332px"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans';fill:#333333;fill-opacity:1;stroke-width:0.26458332px;"
          y="165.60718"
          x="23.025562"
          id="tspan12453"
          sodipodi:role="line">ST LSM303AGR</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.87595415px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:0.17189884px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+       x="165.27341"
+       y="162.67833"
+       id="text19035"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan19037"
+         x="165.27341"
+         y="162.67833"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans';fill:#4d4d4d;fill-opacity:1;stroke-width:0.17189884px;">NXP KL26Z</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:3.64805841px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.23444253px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="3.9475589"
+       y="39.777058"
+       id="text19039"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan19041"
+         x="3.9475589"
+         y="39.777058"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Gill Sans';-inkscape-font-specification:'Gill Sans';fill:#333333;fill-opacity:1;stroke-width:0.23444253px">MSC, UART, CMSIS-DAP, webUSB</tspan></text>
   </g>
   <style
      id="style35404"
