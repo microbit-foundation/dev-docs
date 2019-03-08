@@ -4,7 +4,7 @@ order:
 title: Other Programming Languages
 heading: Other Programming Languages
 description: Using other programming languages that support the BBC micro:bit
-permalink: /software/other_languages/
+permalink: /software/other-languages/
 ref: software
 lang: en
 ---
