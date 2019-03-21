@@ -3,21 +3,26 @@ layout: page
 order:
 title: Get Involved
 heading: Get Involved with micro:bit
-description: Join us on Slack
+description: Sign up for the latest news and join us on Slack
 permalink: /get-involved/where-to-find/
 ref: get-involved
 lang: en
 ---
 
-# Get Involved
-
 The micro:bit community is already spread across the world, building cool things
-with micro:bits and building the software that runs on them. With the release of the
-micro:bit reference design, we hope to see a range of new contributors interested
-in the hardware side of things too.
+with micro:bits and building the software that runs on them. Many micro:bit hardware and software resources are openly licensed, and we want to encourage and support
+contributions from anyone interested. 
 
-If you'd like to be part of the world-wide micro:bit community, then join us on
-the microbit-community slack channel!
+If you'd like to be part of the world-wide micro:bit developer community, then there are a couple of ways you can do this.
+
+<h2>Subscribe to the DAL, Editors and Devices newsletter</h2> 
+<p>In addition to our <a href="https://mailchi.mp/microbit/newsletter">regular Micro:bit Educational Foundation newsletter</a>, our DAL, Editors and devices newsletter is a low volume digest on the technical aspects of micro:bit. The details you provide are processed in accorfdance with The Foundation's <a href="https://microbit.org/privacy/">privacy policy</a>.</p>
+
+<div style="text-align: center;">
+<a href="http://eepurl.com/dyRx-v" class="btn btn-info" role="button" style="margin-bottom: 2rem;">Subscribe to DAL, Editors and Devices</a>
+</div>
+
+<h2>Join us on the microbit-community slack channel!</h2>
 
 <a href="https://slack.com">Slack</a> is a messaging service that allows teams and communities to connect online. It's a brilliant tool for live collaboration and the place to be for current micro:bit chatter! Please note that Slack complements, but does not replace our <a href="http://support.microbit.org/"> Support Site</a>, where you can search for help and ask the team questions.
 
