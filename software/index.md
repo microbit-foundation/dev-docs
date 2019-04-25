@@ -71,6 +71,7 @@ Here's a non-exhaustive list of possible code editors for use with the micro:bit
 * [Python](https://python.microbit.org)
 * [mbed Online Compiler](http://developer.mbed.org/platforms/Microbit)
 * [Mu offline Python editor](http://codewith.mu/)
+* [Edublocks (Python with blocks)](https://app.edublocks.org/#MicroBit)
 
 
 # From Coding Environment to micro:bit
