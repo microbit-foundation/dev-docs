@@ -7,8 +7,6 @@ description: Power Supply
 permalink: /hardware/powersupply/
 ref: hardware
 lang: en
-assigned-to: NONE
-review-with: jonnya
 ---
 
 
@@ -83,8 +81,8 @@ this might look like the micro:bit is not working, but it is.
 
 Because the nRF51822 is powered almost directly (there is only one BAT60 diode
 between the supply and the nRF51 power rails), a fully charged **LiPoly battery**
-that is specced to reach 4.2V **will be give greater than the 3.9V maximum that
-the nRF51822 can withstand** [see below](#key-voltages)
+that is specced to reach 4.2V **will be give greater than the [3.6V maximum that
+the nRF51822 can withstand**](#key-voltages)
 
 There is further information about the [battery connection and use](https://support.microbit.org/solution/articles/19000013982-how-do-i-power-my-micro-bit-/en) in our knowledgebase
 
@@ -132,9 +130,10 @@ the operating voltage range of any of the devices.
 | Device     | min   | max  | absolutemax
 | NRF51      | 1.8V  | 3.6V | 3.9Vabs
 | KL26       | 1.7V  | 3.6V | 3.8Vabs
+| LSM303     | 1.71V | 3.6V | 3.6Vabs
 | MMA8653FC  | 1.95V | 3.6V | 3.6Vabs
 | MAG3110    | 1.95V | 3.6V | 3.6Vabs
 
 This table implies an operating voltage range of the micro:bit device as a whole
-as being 1.95Vmin (dictated by the motion sensor) and
+as being 1.8V min (for 1.5 variants) or 1.95V min (for 1.3* variants dictated by the motion sensor) and
 3.6V max (dictated by all devices).
