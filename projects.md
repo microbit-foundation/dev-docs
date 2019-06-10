@@ -4,7 +4,7 @@ order:
 title: micro:bit labs
 heading: micro:bit labs
 description: Current, historic and work in progress research and development projects relating to technical aspects of the micro:bit.
-permalink: /projects/
+permalink: /labs/
 ref: projects
 lang: en
 ---
