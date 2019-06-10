@@ -1,8 +1,8 @@
 ---
 layout: page
 order:
-title: Research & Development
-heading: Research & Development
+title: micro:bit labs
+heading: micro:bit labs
 description: Current, historic and work in progress research and development projects relating to technical aspects of the micro:bit.
 permalink: /projects/
 ref: projects
@@ -15,7 +15,7 @@ If you’d like to see [research about the impact of micro:bit, head over to our
 
 ---  
 
-[Add your research/project to the list](https://github.com/microbit-foundation/dev-docs/issues/new?template=research.md){: .btn.btn-info}
+[Add your research/project to the lab](https://github.com/microbit-foundation/dev-docs/issues/new?template=research.md){: .btn.btn-info}
 
 {% for projects in site.projects %}
   {% if projects.post_filter contains 'projects' %}
