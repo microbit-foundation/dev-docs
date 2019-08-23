@@ -1,9 +1,9 @@
 ---
 
-name: New research or project
+name: New micro:bit labs project
 
 
-about: Create a github issue to add your research or project to tech.microbit.org/projects
+about: Create a github issue to add your research or project to tech.microbit.org/labs
 
 ---
 
