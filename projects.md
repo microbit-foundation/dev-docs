@@ -26,6 +26,7 @@ If you’d like to see [research about the impact of micro:bit, head over to our
     </a>
   </h2>
   <p>{{ projects.description | markdownify }}</p>
+  </div>
   <div class="categories">
     {% assign sortedCategories = projects.categories | sort %}
     {% for category in sortedCategories %}
@@ -33,7 +34,6 @@ If you’d like to see [research about the impact of micro:bit, head over to our
             <a href="/projects/category/{{ category }}" class="btn btn-info">{{ category }}</a>
         </span>
     {% endfor %}
-  </div>
   </div>
 
   {% endif %}
