@@ -23,7 +23,7 @@ There are many ways to use MicroPython on the micro:bit. You can use:
 
 1. The browser based [Python Editor](https://python.microbit.org).
 2. The offline [Mu editor](https://codewith.mu)
-3. The [Chrome webs store app](https://chrome.google.com/webstore/detail/micropython/lhdjeebhcalhgnbigbngiaglmladclbo?hl=en-GB)
+3. The [Chrome web store app](https://chrome.google.com/webstore/detail/micropython/lhdjeebhcalhgnbigbngiaglmladclbo?hl=en-GB)
 4. Your regular editor to create Python files and a suite of command line
 tools to interact with the device (for advanced users only).
 5. One of the [third party editors](https://microbit.org/code-alternative-editors/) listed on the website.
