@@ -19,39 +19,30 @@ devices like the micro:bit. It's free software: creating, maintaining and
 documenting MicroPython is the work of an international team of
 volunteers.
 
-There are four ways to use MicroPython on the micro:bit.
+There are many ways to use MicroPython on the micro:bit. You can use:
 
-1. Use the browser based editor on the microbit.org website (the original editor at microbit.co.uk still exists but is very out of date).
-2. Use the beginner friendly editor called Mu (it works on Windows, Mac OSX,
-Linux and Raspberry Pi).
-3. If you're on a ChromeBook use the MicroPython application found on the Google
-Play store.
-4. Use your regular editor to create Python files and a suite of command line
+1. The browser based [Python Editor](https://python.microbit.org).
+2. The offline [Mu editor](https://codewith.mu)
+3. The [Chrome webs store app](https://chrome.google.com/webstore/detail/micropython/lhdjeebhcalhgnbigbngiaglmladclbo?hl=en-GB)
+4. Your regular editor to create Python files and a suite of command line
 tools to interact with the device (for advanced users only).
+5. One of the [third party editors](https://microbit.org/code-alternative-editors/) listed on the website.
 
 # Getting Started
 
 MicroPython on the micro:bit is easy.
 
-If you want a no-install experience, start with the
-[browser based editor](http://python.microbit.org/)
+If you want a no-install experience, start with the [browser based editor](http://python.microbit.org/)
 
 It's perfect if you don't have control over the setup of your computer (for
 example, you're in a classroom you don't normally teach in, or have a shared
-laptop). Alternatively, download a zipped up version of the editor and
-launch it from your local file system. This is still something experimental,
-so if you have any issues with it please [report issues](https://github.com/bbcmicrobit/PythonEditor/issues). If you'd like to try that, please use this file:
-
-* [Python 'web' editor for offline use, v0.1](/docs/software/assets/python-editor-mbf0.1.zip)
+laptop). 
 
 Write code in the web editor, press the `Download` button and drag the
 resulting `.hex` file onto your micro:bit.
 
 Use the "Snippets" button to easily re-use common blocks of code in your own
-program. This saves on typing! If you're not running the editor from your local
-file system, use the "Share" button to create a link to retrieve your code. Let
-others see your work by sharing the link on social media. A blocks based
-interface and micro:bit emulator are coming soon!
+program. This saves on typing! 
 
 The most powerful yet easy to use editor is [Mu](http://codewith.mu/). It comes
 as a pre-built package: just download it and run!
@@ -193,13 +184,9 @@ with different processors.
 
 ## Code Editors and Tools
 
-The BBC micro:bit website hosts a [very old version](https://www.microbit.co.uk/app/#create:xyelfe) of the browser based Python code editor.
-
-A new [Python in Education](http://pyedu.io/) website will contain lots of
+The [Python in Education](http://pyedu.io/) website contains lots of
 [micro:bit related resources](http://pythonineducation.org/en/microbit/) and
-an online editor as well as general Python in education related resources - all
-of which will be released under an open license so you'll be free to use, adapt
-and share them.
+an online editor as well as general Python in education related resources.
 
 You can [download Mu](http://codewith.mu/) from its website and also get
 involved with [its development](https://github.com/mu-editor/). In addition,
@@ -271,4 +258,4 @@ One of the contributors to the project [gave a keynote address](https://www.yout
 
 A [CAS Chat](https://www.youtube.com/watch?v=zEqQq8K89Y4) about the micro:bit and MicroPython gives an interesting perspective of the wider project.
 
-[CAS.TV micropython demo](https://www.youtube.com/watch?v=hUIObK3MHL8)   media offset 23:53
+[CAS.TV MicroPython demo](https://www.youtube.com/watch?v=hUIObK3MHL8)   media offset 23:53

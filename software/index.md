@@ -52,7 +52,7 @@ being presented for download.
 
 ## Interpreted Languages
 
-In the official micro:bit editors at microbit.co.uk, only Python is interpreted. This is done by the use of the MicroPython interpreter.
+In the [official micro:bit editors](https://microbit.org/code), only Python is interpreted. This is done by the use of the MicroPython interpreter.
 
 The details of this are documented in the [MicroPython](/software/micropython) page.
 
