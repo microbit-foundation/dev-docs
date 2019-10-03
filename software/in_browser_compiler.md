@@ -65,7 +65,7 @@ when you first load the editor.
 
 MakeCode supports two-way conversion of code, so you can write code as blocks and
 see what the generated code looks like in Javascript. You can also write Javascript code, and if
-possible, MakecCde will convert this back into blocks automatically.
+possible, MakeCode will convert this back into blocks automatically.
 
 Makecode also allows you to [write your own block types](https://makecode.com/extensions) and [publish them as Extensions](https://makecode.microbit.org/extensions).
 
