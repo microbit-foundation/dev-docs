@@ -81,7 +81,7 @@ mbed also provides an online C/C++ IDE with which you can program the micro:bit.
 
 ## mbed Source Code and Versions Used
 
-The main mbed repository is at [https://github.com/ARMmbed/mbed-os](https://github.com/ARMmbed/mbed-os). For official builds of the micro:bit (IE when using the online editors on microbit.co.uk and microbit.org) a branch of mbed with some micro:bit specific bugfixes and changes specific to micro:bit is used. This can be found here [https://github.com/lancaster-university/mbed-classic](https://github.com/lancaster-university/mbed-classic). This branch is currently being merged back into mbed.
+The main mbed repository is at [https://github.com/ARMmbed/mbed-os](https://github.com/ARMmbed/mbed-os). For official builds of the micro:bit, ie. when using the [online editors on microbit.org](https://microbit.org/code), a branch of mbed with some micro:bit specific bugfixes and changes specific to micro:bit is used. This can be found in [https://github.com/lancaster-university/mbed-classic](https://github.com/lancaster-university/mbed-classic). This branch is currently being merged back into mbed.
 
 micro:bit was based on the well-established mbed 2.0 SDK, with which mbed 5 is compatible. Work is ongoing to bring the micro:bit runtime onto mbed 5. If you're interested in this project, jump into the microbit-community slack channel or follow [this issue](https://github.com/lancaster-university/microbit-dal/issues/224)
 
