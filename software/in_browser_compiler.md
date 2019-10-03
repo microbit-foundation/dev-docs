@@ -45,7 +45,7 @@ converted into javascript. The in-browser-compiler then converts it into ARM mac
 
 1c. The ARM machine code instructions are 'linked' with the Lancaster University
 runtime code, [the DAL](/software/runtime-mbed) and converted into an [Intel-HEX file
-format](/software/hex-format.md). This is done by ensuring that the in-browser-compiler knows the entry points
+format](/software/hex-format). This is done by ensuring that the in-browser-compiler knows the entry points
 of key functions that it needs to be able to call out into.
 
 2. You accept the download of the .hex file, which is stored in the filing system
