@@ -7,20 +7,18 @@ description: The in-browser compilers allow you to compile code even when not co
 permalink: /software/in_browser_compiler/
 ref: software
 lang: en
-assigned-to: davidw
-review-with: jonnya
 ---
 
 
 # Overview
 
 There are a number of different code editors for the micro:bit.
-Of the available editors; [Makecode](https://makecode.microbit.org) and [Python](https://python.microbit.org) have an
-in-browser compiler. This means that when you hit the 'compile' button
+Of the available editors; [MakeCode](https://makecode.microbit.org) and [Python](https://python.microbit.org) have an
+in-browser compiler. This means that when you hit the **Download** button
 to translate your code into a language supported by the micro:bit, all of the
 hard work takes place inside your web browser.
 
-You can also use MicroPython offline by installing the Mu editor on your computer.
+You can also use MicroPython offline by installing the [Mu editor](https://codewith.mu) on your computer.
 
 The in-browser build process is useful, because you are not dependent
 on an internet connection in order to code and innovate with your
@@ -42,19 +40,18 @@ The above diagram shows an example of how blocks code is converted into a
 1a. Edit your script; this is automatically saved inside the web browser cache on your
 computer.
 
-1b. Press the COMPILE button, and this blocks script is first
-converted into touch develop code (for the microbit.co.uk editors) or javascript.
-The in-browser-compiler then converts it into ARM machine code instructions.
+1b. Press the **Download** button, and the script is first
+converted into javascript. The in-browser-compiler then converts it into ARM machine code instructions.
 
 1c. The ARM machine code instructions are 'linked' with the Lancaster University
-runtime code [The DAL](/software/runtime-mbed) and converted into an Intel-HEX file
-format. This is done by ensuring that the in-browser-compiler knows the entry points
+runtime code, [the DAL](/software/runtime-mbed) and converted into an [Intel-HEX file
+format](/software/hex-format.md). This is done by ensuring that the in-browser-compiler knows the entry points
 of key functions that it needs to be able to call out into.
 
 2. You accept the download of the .hex file, which is stored in the filing system
 on your computer.
 
-3. Drag and drop the .hex file onto the MICROBIT drive, and the interface
+3. Download/Flash the .hex file onto the MICROBIT drive, and the interface
 processor on the micro:bit copies it into the flash memory inside the application
 processor. Your code now runs.
 
@@ -66,12 +63,11 @@ when you first load the editor.
 
 # Other Features
 
-Makecode supports two-way conversion of code, so you can write code in the visual blocks and
-see what the generated code looks like. You can also write code, and if
-possible, Makecode will convert this back into blocks automatically.
+MakeCode supports two-way conversion of code, so you can write code as blocks and
+see what the generated code looks like in Javascript. You can also write Javascript code, and if
+possible, MakeCode will convert this back into blocks automatically.
 
-Makecode also allows you to [write your own block types and publish them
-as packages](https://makecode.com/packages)
+Makecode also allows you to [write your own block types](https://makecode.com/extensions) and [publish them as Extensions](https://makecode.microbit.org/extensions).
 
 The Python web editor does not use the in-browser compiler. It only
 sits inside the frame of the website, but it gains access to the
@@ -83,11 +79,5 @@ Read more about how MicroPython works: [MicroPython on micro:bit](/software/micr
 
 # Contributions
 
-The Makecode editor is [open source](https://github.com/Microsoft/pxt-microbit), so you can develop your own feature and you can [log issues](https://github.com/Microsoft/PXT-microbit/issues/new) for the dev team to look into.
+The MakeCode editor is [open source](https://github.com/Microsoft/pxt-microbit), so you can develop your own feature and you can [log issues](https://github.com/Microsoft/PXT-microbit/issues/new) for the dev team to look into.
 
-
-# Links
-
-[The Microsoft Offering](https://www.microsoft.com/en-us/research/project/the-bbc-microbit-and-microsoft/)
-
-[Design of the in-browser compiler](https://www.touchdevelop.com/docs/touch-develop-in-208-bits)

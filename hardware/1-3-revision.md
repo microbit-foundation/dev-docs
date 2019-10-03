@@ -327,7 +327,7 @@ manufacture of attachments e.g. via 3D printing.
 
 [Technical Specifications 2](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/thebbcmicrobit)
 
-[Safety Advice](https://www.microbit.co.uk/safety-advice)
+[Safety Advice](https://www.microbit.org/safety-advice)
 
 [I2C specification](http://cache.nxp.com/documents/user_manual/UM10204.pdf)
 
