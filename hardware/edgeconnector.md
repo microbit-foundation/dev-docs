@@ -262,6 +262,7 @@ edge connector? Share your designs and discoveries with us!
 
 | Supplier | Product 
 | -------- | -------
+|[4UCon](http://www.4uconnector.com/online/index.asp)| [4UCon connector](https://cdn.shopify.com/s/files/1/2311/3697/files/1944_Drawing.pdf?3325)
 |[Cyclonn](http://www.dgyuliang.net)| [Cylconn 90 degree connector](http://www.dgyuliang.net/d/file/Produtcs/Customized%20Connector/MICRO%20BIT%20Connector/84a0fe06b4296135d64139b5b4297ef3.pdf), [Cylconn 180 degree connector](http://www.dgyuliang.net/d/file/Produtcs/Customized%20Connector/MICRO%20BIT%20Connector/0d43030af84ade6fc3f00e242079c055.pdf)
 
 
