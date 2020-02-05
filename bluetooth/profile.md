@@ -28,7 +28,7 @@ There are [pre-compiled Hex files available](https://lancaster-university.github
 The micro:bit has a Bluetooth 4.1 stack with Bluetooth Low Energy (BLE) and supports
 the [GAP Perhipheral Role](http://bluetooth-mdw.blogspot.co.uk/2016/07/microbit-and-bluetooth-roles.html).
 
-As per all all Bluetooth, it operates in the ISM (Industrial Scientific Medical) band
+As per all Bluetooth, it operates in the ISM (Industrial Scientific Medical) band
 and this starts at **2.4GHz and ends at 2.41GHz**. BLE divides the frequency
 band into 50 x 2MHz bands of which 40 are used.
 These are called **channels** and numbered **0 to 39**.

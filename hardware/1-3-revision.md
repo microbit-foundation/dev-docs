@@ -131,7 +131,7 @@ Both A and B buttons are connected to GPIO pins that are also accessible on the 
 
 The display is a 5x5 array of LEDs.
 It is connected to the micro:bit as a 3x9 matrix.
-Runtime software repeatedly refreshes this matrix at a high speed,
+runtime software repeatedly refreshes this matrix at a high speed,
 such that it is within the user persistence of vision range, and no flicker is detected.
 This LED matrix is also used to sense ambient light,
 by repeatedly switching some of the LED drive pins into inputs and sampling the voltage decay time,
@@ -158,7 +158,7 @@ It is connected to the application processor via the I2C bus.
 | item          | details
 | ---           | ---
 | Model         | [Freescale MMA8653FC](http://www.nxp.com/products/sensors/accelerometers/3-axis-accelerometers/2g-4g-8g-low-g-10-bit-digital-accelerometer:MMA8653FC)
-| Features      | 3 axis, 2/4/8g ranges
+| Features      | 3 axes, 2/4/8g ranges
 | Resolution    | 10 bits (0..1023)
 | Max output data rate | 800Hz
 | On board gestures | 'freefall'

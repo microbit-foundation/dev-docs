@@ -3,7 +3,7 @@ layout: page
 order:
 title: Power Supply
 heading: Power Supply
-description: Power Supply
+description: Powering the micro:bit via USB, 3V ring and battery
 permalink: /hardware/powersupply/
 ref: hardware
 lang: en
