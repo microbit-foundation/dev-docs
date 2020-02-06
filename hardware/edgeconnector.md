@@ -258,7 +258,7 @@ Can you help to find or design a better connection solution to the micro:bit
 edge connector? Share your designs and discoveries with us!
 
 ## Edge Connnectors for the BBC micro:bit
-[Add your connector to our list](http://github.com/microbit-foundation/dev-docs/edit/master/hardware/edgeconnector.md){: .btn.btn-info}
+[Add your connector to our list](http://github.com/microbit-foundation/dev-docs/edit/master/hardware/edgeconnector.md){: .btn.sm-btn}
 
 | Supplier | Product 
 | -------- | -------

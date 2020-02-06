@@ -19,7 +19,7 @@ If you'd like to be part of the world-wide micro:bit developer community, then t
 <p>In addition to our <a href="https://mailchi.mp/microbit/newsletter">regular Micro:bit Educational Foundation newsletter</a>, our DAL, Editors and Devices newsletter is a low volume digest on the technical aspects of micro:bit. The details you provide are processed in accordance with The Foundation's <a href="https://microbit.org/privacy/">privacy policy</a>.</p>
 
 <div style="text-align: center;">
-<a href="https://microbit.us14.list-manage.com/subscribe?u=e1c30f24b90ff3d70275cfff2&id=25403c7650" class="btn btn-info" role="button" style="margin-bottom: 2rem;">Subscribe to DAL, Editors and Devices</a>
+<a href="https://microbit.us14.list-manage.com/subscribe?u=e1c30f24b90ff3d70275cfff2&id=25403c7650" class="btn sm-btn" role="button" style="margin-bottom: 2rem;">Subscribe to DAL, Editors and Devices</a>
 </div>
 
 <h2>Join us on the microbit-community slack channel!</h2>
