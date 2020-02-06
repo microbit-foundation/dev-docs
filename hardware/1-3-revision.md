@@ -131,7 +131,7 @@ Both A and B buttons are connected to GPIO pins that are also accessible on the 
 
 The display is a 5x5 array of LEDs.
 It is connected to the micro:bit as a 3x9 matrix.
-runtime software repeatedly refreshes this matrix at a high speed,
+Runtime software repeatedly refreshes this matrix at a high speed,
 such that it is within the user persistence of vision range, and no flicker is detected.
 This LED matrix is also used to sense ambient light,
 by repeatedly switching some of the LED drive pins into inputs and sampling the voltage decay time,
