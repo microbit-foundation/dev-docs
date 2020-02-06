@@ -20,7 +20,7 @@ review-with: davidw, joef
 
 This page provides an overview of the micro:bit runtime - software that runs on a micro:bit to support the majority of the micro:bit programming languages. It can help you understand how the micro:bit works, and also will help you understand where to start if you want to dive deeper into the micro:bit, write support software for your own micro:bit hardware extensions, and tailor or improve something on the micro:bit.
 
-![Architectural Diagram](/docs/software/assets/software-overview.png)
+![Architectural Diagram](/docs/software/assets/software-overview.png){: style="max-width:50%;"}
 
 There are a number of important software layers that run on the micro:bit to enable easy to use languages such as Javascript and Makecode to be used. Some of these, like ARM mbed and MicroPython existed before the BBC micro:bit project started, and others, such as the micro:bit runtime were written specifically for the micro:bit.
 
