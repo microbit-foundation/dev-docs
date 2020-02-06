@@ -34,7 +34,7 @@ ways that you can get involved
 
 ## Code
 Contribute features and fixes to one of the upstream projects that the micro:bit relies upon:
-  * the micro:bit [Device Abstraction Layer(DAL/runtime)](https://lancaster-university.github.io/microbit-docs/)
+  * The micro:bit [Device Abstraction Layer (DAL/runtime)](https://lancaster-university.github.io/microbit-docs/)
   * The [MakeCode Editor](https://github.com/microsoft/pxt-microbit)
   * The [Python Editor](https://github.com/bbcmicrobit/PythonEditor)
   * [DAPlink](https://github.com/ARMmbed/DAPLink)
