@@ -158,7 +158,7 @@ It is connected to the application processor via the I2C bus.
 | item          | details
 | ---           | ---
 | Model         | [Freescale MMA8653FC](http://www.nxp.com/products/sensors/accelerometers/3-axis-accelerometers/2g-4g-8g-low-g-10-bit-digital-accelerometer:MMA8653FC)
-| Features      | 3 axis, 2/4/8g ranges
+| Features      | 3 axes, 2/4/8g ranges
 | Resolution    | 10 bits (0..1023)
 | Max output data rate | 800Hz
 | On board gestures | 'freefall'

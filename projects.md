@@ -15,7 +15,7 @@ If you’d like to see [research about the impact of micro:bit, head over to our
 
 ---  
 
-[Add your research/project to the lab](https://github.com/microbit-foundation/dev-docs/issues/new?template=labs.md){: .btn.btn-info}
+[Add your research/project to the lab](https://github.com/microbit-foundation/dev-docs/issues/new?template=labs.md){: .btn.sm-btn}
 
 {% for projects in site.projects %}
   {% if projects.post_filter contains 'projects' %}
@@ -30,7 +30,7 @@ If you’d like to see [research about the impact of micro:bit, head over to our
     {% assign sortedCategories = projects.categories | sort %}
     {% for category in sortedCategories %}
         <span class="category">
-            <a href="/projects/category/{{ category }}" class="btn btn-info">{{ category }}</a>
+            <a href="/projects/category/{{ category }}" class="btn sm-btn">{{ category }}</a>
         </span>
     {% endfor %}
   </div>
