@@ -65,7 +65,7 @@ It is possible to update the version of DAPLink running on your micro:bit. This 
 
 ## Updating Your Version of DAPLink
 
-There are detailed instructions for how to [update the firmware version on the micro:bit website](https://microbit.org/guide/firmware/).
+There are detailed instructions for how to [update the firmware version on the micro:bit website](https://microbit.org/get-started/user-guide/firmware/).
 
 **You should never update your micro:bit with firmware from untrusted sources, as these could damage your micro:bit, or make it impossible to re-flash**
 
