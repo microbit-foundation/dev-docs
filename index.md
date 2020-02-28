@@ -7,13 +7,13 @@ layout: homepage
 permalink: /
 post_filter: featured
 ---
-# Half wiki, half datasheet
+
+## The micro:bit developer community site
+
 This site aims to sit between a community wiki and a technical data sheet for the micro:bit.
 The content is available to [edit on Github](http://github.com/microbit-foundation/dev-docs) and is [openly licensed through Creative Commons](https://github.com/microbit-foundation/dev-docs/blob/master/LICENSE.MD). 
 
-# The Micro:bit Educational Foundation and upstream communities
-
-This site is maintained by the Micro:bit Educational Foundation in order to document the
+The site is maintained by the Micro:bit Educational Foundation in order to document the
 hardware and software that make the micro:bit work the way it does. 
 
 We hope to encourage contributions into these projects in order
@@ -27,24 +27,24 @@ many diverse open source packages, the micro:bit Educational Foundation and the
 micro:bit community present micro:bit users with a stable, tested release of all
 the things you need to make the magical 'end-to-end' micro:bit experience.
 
-# Help us build it
+## Help us build it
 
 If you'd like to help us make the micro:bit better, then there are a number of
 ways that you can get involved
 
-## Code
+### Code
 Contribute features and fixes to one of the upstream projects that the micro:bit relies upon:
   * The micro:bit [Device Abstraction Layer (DAL/runtime)](https://lancaster-university.github.io/microbit-docs/)
   * The [MakeCode Editor](https://github.com/microsoft/pxt-microbit)
   * The [Python Editor](https://github.com/bbcmicrobit/PythonEditor)
   * [DAPlink](https://github.com/ARMmbed/DAPLink)
   
-## Build
+### Build
 Help us build a brilliant hardware ecosystem around micro:bit - derivative boards,
 cool accessories and add ons, or even suggestions for future versions of the micro:bit.
   * The [micro:bit schematic](/hardware/schematic/) and [reference design](/hardware/reference-design) are good places to start for making your own projects
 
-## Write
+### Write
   * [Improve the documentation and this site](https://github.com/microbit-foundation/dev-docs), either reporting issues
 or adding documentation will be extremely helpful.
   * Help build a community around micro:bit - join the [slack channel and Email list](/get-involved/where-to-find/),
