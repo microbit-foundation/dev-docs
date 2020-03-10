@@ -240,23 +240,16 @@ and the fact that the on board regulator of the KL26 when powered
 from USB is rated at a maximum of 120mA.
 
 
-## PCB Connector
+## Connectors and Breakouts
 
-The PCB connector is an 80 way * 1.27mm pitch double sided connector.
+There are a number of suppliers of edge connector for the BBC micro:bit, in various forms,
+such as a right angle through-hole, a stand-up through-hole and a stand-up surface
+mount. 
 
-You can buy this connector from a number of sources.
+There is an 80 way * 1.27mm pitch double sided PCB connector, which you can buy from a number of sources.
 
 At a pinch, it is also possible to use an old PCI edge connector from a PC motherboard,
 as the pitch is the same (but it is slightly wider).
-
-There is a good [mechanical data-sheet](http://resources.coolcomponents.co.uk/CONNECTORS/10156.pdf) for the right angle PCB edge connector available from Cool Components.
-
-## Can You Find a Better Connector?
-
-There are a number of suppliers of edge connector for the micro:bit, in various forms,
-such as a right angle through-hole, a stand-up through-hole and a stand-up surface
-mount. There are a wide range of connector manufacturers that sell thousands of
-different types of connectors.
 
 There are also some nice ideas that have surfaced in the community such as using just
 the right size of countersunk or cheese-head bolt, or even 3D printed inserts.
@@ -264,11 +257,12 @@ the right size of countersunk or cheese-head bolt, or even 3D printed inserts.
 Can you help to find or design a better connection solution to the micro:bit
 edge connector? Share your designs and discoveries with us!
 
-## Third Party Connnectors
-[Add your connector to our list](http://github.com/microbit-foundation/dev-docs/edit/master/hardware/edgeconnector.md){: .btn.btn-info}
+## Edge Connnectors for the BBC micro:bit
+[Add your connector to our list](http://github.com/microbit-foundation/dev-docs/edit/master/hardware/edgeconnector.md){: .btn.sm-btn}
 
 | Supplier | Product 
 | -------- | -------
+|[4UCon](http://www.4uconnector.com/online/index.asp)| [4UCon connector](https://cdn.shopify.com/s/files/1/2311/3697/files/1944_Drawing.pdf?3325)
 |[Cyclonn](http://www.dgyuliang.net)| [Cylconn 90 degree connector](http://www.dgyuliang.net/d/file/Produtcs/Customized%20Connector/MICRO%20BIT%20Connector/84a0fe06b4296135d64139b5b4297ef3.pdf), [Cylconn 180 degree connector](http://www.dgyuliang.net/d/file/Produtcs/Customized%20Connector/MICRO%20BIT%20Connector/0d43030af84ade6fc3f00e242079c055.pdf)
 
 

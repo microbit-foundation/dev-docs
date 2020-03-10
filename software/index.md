@@ -98,7 +98,7 @@ When you write an application for your micro:bit, other pieces of software are
 joined together with your application to make up the final .hex file that is
 flashed. This code consists of various lower level software components, such as:
 
-* [the micro:bit Runtime](./runtime-mbed/) (sometimes called the device abstraction layer), written in C++ by Lancaster University. The DAL abstracts the
+* [the micro:bit runtime](./runtime-mbed/) (sometimes called the device abstraction layer), written in C++ by Lancaster University. The DAL abstracts the
 facilities of the micro:bit into a common set of functions that can be used
 by all coding languages, though some languages, like Python, make less use of the DAL than Makecode, where the high level block functions map almost directly onto equivalent C/C++ calls in the runtime
 
