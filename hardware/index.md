@@ -58,7 +58,7 @@ via an off-chip aerial.
 | RAM           | 16KB
 | Speed         | 16MHz
 | Debug         | SWD, jlink/OB
-| More Info     | [here](../software)
+| More Info     | [Software](../software) [NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
 
 
 ## Bluetooth Wireless Communication
@@ -102,7 +102,7 @@ allowing for simple user managed device addressing and filtering to take place.
 | Group codes   | 255
 | Tx power      | Eight user configurable settings from 0(-30dbm) to 7 (+4dbm)
 | Payload size  | 32 (standard) 255 (if reconfigured)
-| More Info     | [here](https://lancaster-university.github.io/microbit-docs/ubit/radio/)
+| More Info     | [DAL Radio](https://lancaster-university.github.io/microbit-docs/ubit/radio/)
 
 
 ## Buttons
@@ -162,7 +162,7 @@ The v1.5 micro:bit has a footprint for two different motion sensors: one made by
 
 | item          | details
 | ---           | ---
-| Model         | [ LSM303GR](https://www.st.com/en/mems-and-sensors/lsm303agr.html)
+| Model         | [LSM303GR](https://www.st.com/en/mems-and-sensors/lsm303agr.html)
 | Features      | 3 magnetic field and 3 acceleration axis , 2/4/8/16g ranges
 | Resolution    | 8/10/12 bits
 | On board gestures | 'freefall'
@@ -180,7 +180,7 @@ temperature.
 | Sensing range | -25C .. 75C
 | Resolution    | 0.25C steps
 | Accuracy      | +/-4C (uncalibrated)
-| More Info     | [here](https://lancaster-university.github.io/microbit-docs/ubit/thermometer/)
+| More Info     | [DAL Thermometer](https://lancaster-university.github.io/microbit-docs/ubit/thermometer/)
 
 ## General Purpose Input/Output Pins
 
@@ -209,7 +209,6 @@ mode at any one time.
 | Edge Connector| [Edge connector](/hardware/edgeconnector/)
 | Pitch | 1.27mm, 80 way double sided.
 | Pads| 5 pads, with 4mm holes
-| More Info | [here](/hardware/edgeconnector/)
 
 
 ## Power Supply
@@ -227,7 +226,7 @@ bottom. The 3V pad at the bottom can be used to supply a small amount of power e
 | Battery connector | JST X2B-PH-SM4-TB
 | Battery current | TBC
 | Max current provided via edge connector | 90mA
-| More Info | [here](./powersupply)
+| More Info | [Power supply](./powersupply)
 
 
 ## Interface
@@ -242,9 +241,9 @@ main computer.
 | Core variant: | [ARM Cortex-M0+](https://www.arm.com/products/processors/cortex-m/cortex-m0plus.php)
 | Flash ROM     | 128KB
 | RAM           | 16KB
-| Speed         | 16MHz
+| Speed         | [16Mhz (crystal)](https://github.com/ARMmbed/DAPLink/blob/master/source/hic_hal/freescale/kl26z/MKL26Z4/system_MKL26Z4.c#L69) 48MHz (max)
 | Debug capabilities | SWD
-| More Info | [here](/software/daplink-interface/)
+| More Info | [DAPLink](/software/daplink-interface/) [KL26 reference manual](http://cache.freescale.com/files/microcontrollers/doc/ref_manual/KL26P121M48SF4RM.pdf) [KL26Z data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
 
 
 ## USB Communications
@@ -263,7 +262,7 @@ of application programs.
 | Speed         | 12Mbit/sec
 | USB classes supported | [Mass Storage Class (MSC)](https://en.wikipedia.org/wiki/USB_mass_storage_device_class)
 |    | [Communications Device Class (CDC)](https://en.wikipedia.org/wiki/USB_communications_device_class)
-| More Info | [here](/software/daplink-interface/)
+| More Info | [DAPLink](/software/daplink-interface/)
 
 
 ## Debugging
@@ -279,7 +278,7 @@ recover a lost bootloader.
 | ---           | ---
 | Protocol      | CMSIS-DAP
 | Options       | JLink/OB (via different firmware)
-| More Info     | [here](https://docs.mbed.com/docs/mbed-os-handbook/en/latest/debugging/debugging_microbit/)
+| More Info     | [MBED debugging micro:bit](https://docs.mbed.com/docs/mbed-os-handbook/en/latest/debugging/debugging_microbit/)
 
 ## Mechanical
 
@@ -295,26 +294,10 @@ manufacture of attachments e.g. via 3D printing.
 
 # Links
 
-[Schematic](./schematic)
-
-[Reference Design](./reference-design)
-
-[Nordic NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
-
-[Freescale KL26 reference manual](http://cache.freescale.com/files/microcontrollers/doc/ref_manual/KL26P121M48SF4RM.pdf)
-
-[Freescale KL26Z data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
-
-[Technical Specifications 1](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/specs)
-
-[Technical Specifications 2](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/thebbcmicrobit)
-
-[Safety Advice](https://www.microbit.org/safety-advice)
+[BBC Technical Specifications](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/specs)
 
 [I2C specification](http://cache.nxp.com/documents/user_manual/UM10204.pdf)
 
 [SPI 'specification'](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
-
-[ARM mbed overview](https://www.mbed.com/en/about-mbed/what-mbed/)
 
 [Fritzing diagram, contributed by Kok Ho Huen](/docs/hardware/assets/Microbit.fzpz.zip)
