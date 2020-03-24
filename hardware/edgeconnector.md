@@ -199,7 +199,7 @@ can use the GND and 3V rings, are detailed here: [psu](/hardware/powersupply)
 
 ## GPIO Capabilities
 
-These key GPIO parameters are transcribed directly from Section 6, 7 and 8 of the nRF51822 Datasheet,
+These key GPIO parameters are transcribed directly from Section 6, 7 and 8 of the [nRF51822 Datasheet](https://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf),
 and provided here as a handy reference.
 
 | KEY    | Description                                        | section | Min      | Max     |
