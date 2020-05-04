@@ -58,7 +58,7 @@ via an off-chip aerial.
 | RAM           | 16KB
 | Speed         | 16MHz
 | Debug         | SWD, jlink/OB
-| More Info     | [Software](../software) [NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
+| More Info     | [Software](../software), [NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
 
 
 ## Bluetooth Wireless Communication
@@ -77,8 +77,8 @@ including smartphones and tablets.
 | Tx Power      | -20dBM to 4dBm in 4 dB steps
 | Role          | [GAP Peripheral](http://bluetooth-mdw.blogspot.co.uk/2016/07/microbit-and-bluetooth-roles.html)
 | Congestion avoidance | Adaptive Frequency Hopping
-| Profiles      | 1 [BBC micro:bit profile](https://lancaster-university.github.io/microbit-docs/ble/profile/)
-| More Info     | [here](../bluetooth)
+| Profiles      | [BBC micro:bit profile](https://lancaster-university.github.io/microbit-docs/ble/profile/)
+| More Info     | [Bluetooth](../bluetooth)
 
 
 ## Low Level Radio Communications
@@ -241,9 +241,9 @@ main computer.
 | Core variant: | [ARM Cortex-M0+](https://www.arm.com/products/processors/cortex-m/cortex-m0plus.php)
 | Flash ROM     | 128KB
 | RAM           | 16KB
-| Speed         | [16Mhz (crystal)](https://github.com/ARMmbed/DAPLink/blob/master/source/hic_hal/freescale/kl26z/MKL26Z4/system_MKL26Z4.c#L69) 48MHz (max)
+| Speed         | [16Mhz (crystal)](https://github.com/ARMmbed/DAPLink/blob/f499eb6ec4a847a2b78831fe1acc856fd8eb2f28/source/hic_hal/freescale/kl26z/MKL26Z4/system_MKL26Z4.c#L69) 48MHz (max)
 | Debug capabilities | SWD
-| More Info | [DAPLink](/software/daplink-interface/) [KL26 reference manual](http://cache.freescale.com/files/microcontrollers/doc/ref_manual/KL26P121M48SF4RM.pdf) [KL26Z data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
+| More Info | [DAPLink](/software/daplink-interface/), [KL26 reference manual](https://www.nxp.com/docs/en/reference-manual/KL26P121M48SF4RM.pdf) [KL26Z data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
 
 
 ## USB Communications
