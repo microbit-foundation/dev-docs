@@ -1,5 +1,5 @@
 ---
-layout: hardware
+layout: page
 order:
 title: 1.3x micro:bit revision
 heading: 1.3x micro:bit revision
