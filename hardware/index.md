@@ -278,7 +278,7 @@ recover a lost bootloader.
 | ---           | ---
 | Protocol      | CMSIS-DAP
 | Options       | JLink/OB (via different firmware)
-| More Info     | [MBED debugging micro:bit](https://docs.mbed.com/docs/mbed-os-handbook/en/latest/debugging/debugging_microbit/)
+| More Info     | [MBED debugging micro:bit](https://os.mbed.com/docs/mbed-os/v5.11/tutorials/debug-microbit.html)
 
 ## Mechanical
 
