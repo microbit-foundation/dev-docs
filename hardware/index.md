@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: hardware
 order:
 title: Hardware
 heading: Hardware
