@@ -90,7 +90,7 @@ This table shows various data about each of the pins on the micro:bit edge conne
 | m:b ring  | the micro:bit basic interface (the 5 rings on the front)
 | mod       | the pin number on the module:bit
 | schem     | the symbol name in the micro:bit schematics
-| MCU       | the actual pin name of the nRF51822 MCU chip
+| MCU       | the actual pin name of the Nordic MCU chip
 | s/w       | the name that is used in the DAL runtime software
 | functions | all possible functions, **BOLD** for default. brackets indicate use with caution
 | dir       | the startup conditions (direction) when the micro:bit boots: Input or Output
@@ -110,7 +110,7 @@ some slight interference with the pattern currently displayed on
 the LED matrix, or introduce some innaccuracies in the light sensing
 readings.
 
-3. The DAL DynamicPWM driver (and the underlying nrF51 timer peripherals)
+3. The DAL DynamicPWM driver (and the underlying Nordic timer peripherals)
 dictate that PWM can only be active on 3 pins simultaneously.
 Any attempt to allocate a 4th pin for PWM use, will disable one of the
 existing PWM pins.
@@ -199,6 +199,7 @@ can use the GND and 3V rings, are detailed here: [psu](/hardware/powersupply)
 
 ## GPIO Capabilities
 
+### NRF51
 These key GPIO parameters are transcribed directly from Section 6, 7 and 8 of the [nRF51822 Datasheet](https://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf),
 and provided here as a handy reference.
 
@@ -239,6 +240,25 @@ you can draw from the whole edge connector at any one time is
 and the fact that the on board regulator of the KL26 when powered
 from USB is rated at a maximum of 120mA.
 
+### NRF52
+These key GPIO parameters are transcribed directly from Section 6, 7 and 8 of the [nRF52833 Datasheet](https://infocenter.nordicsemi.com/pdf/nRF52833_PS_v1.2.pdf),
+and provided here as a handy reference.
+
+| KEY    | Description                                        | section | Min      | Max     |
+| ---    | -------------------------------------------------- | ------- | ----     | ----    |
+| VOL    | Voltage Output Low                                 |  6.8.3  | VSS      | 0.3V    |
+| VOH    | Voltage Output High                                |  6.8.3  | VDD-0.3  | VDD     |
+| VIL    | Input voltage for logic low                        |  6.8.3  | VSS      | 0.3*VDD |
+| VIH    | Input voltage for logic high                       |  6.8.3  | 0.7*VDD  | VDD     |
+| xxx    | Max source current from IO pin                     |  6.8.3  | --       | 5mA     |
+| xxx    | Max sink current into IO pin                       |  6.8.3  | --       | 5mA     |
+| VIO    | Tolerable pin voltages for IO pin                  |  6      | -0.3V    | VDD+0.3 |
+| xxx    | Pin impedance when an input                        |  ?      | TBD      |         |
+| VDD(o) | Operating voltage range (LDO)                      |  7      | 1.8V     | 3.6V    |
+| VDD(a) | Absolute voltage range                             |  6      | -0.3V    | +3.9V   |
+| VSS    | Ground reference                                   |  6      | 0V       | 0V      |
+| RPU    | Pull up resistance                                 |  8.23   | 11K      | 16K     |
+| RPD    | Pull down resistance                               |  8.23   | 11K      | 16K     |
 
 ## Connectors and Breakouts
 

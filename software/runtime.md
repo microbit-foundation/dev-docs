@@ -3,12 +3,10 @@ layout: page
 order:
 title: The micro:bit runtime and mbed programming
 heading: The micro:bit runtime and mbed programming
-description: The micro:bit runtime and ARM mbed are the foundations on which much the rest of the micro:bit software world are built. This page helps you get started developing with these low level C/C++ tools for the micro:bit
-permalink: /software/runtime-mbed/
+description: Information on developing with the micro:bit runtime, the low level C/C++ tool on which much of the software ecosystem for the micro:bit is built.
+permalink: /software/runtime/
 ref: software
 lang: en
-assigned-to: jonnya
-review-with: davidw, joef
 ---
 
 

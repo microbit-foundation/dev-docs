@@ -1,10 +1,9 @@
 ---
 layout: page
 heading: Making accessories for the micro:bit
-description: If you'd like to make accessories for the micro:bit, pay attention to the details on this page.
+description: Information on making accessories and peripherals for the  micro:bit
 permalink: /accessories/making-accessories/
 lang: en
-assigned-to: jonnya
 ---
 
 # Using the Edge Connector
@@ -14,6 +13,8 @@ The micro:bit card edge connector, commonly referred to as the 'edge connector' 
 * Details of the [edge connector and pinout](/hardware/edgeconnector)
 * Details about [powering things from the board](/hardware/powersupply)
 
+# Accessory compatibility
+TBC Information on compatibility with the latest micro:bit revision 
 
 # Battery Pads
 
