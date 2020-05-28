@@ -14,7 +14,7 @@ review-with: jonnya
 
 # Overview
 
-The micro:bit uses a Nordic nRF51822 processor, which has an on board
+The micro:bit processor has an on board
 Bluetooth transceiver. Combined with a PCB trace aerial and other minor
 components, and the Nordic S100 SoftDevice Bluetooth stack, this gives
 the micro:bit a certified and credible Bluetooth capability.
@@ -25,7 +25,7 @@ including Makecode and mbed C++, as well
 as their being micro:bit compatible applications for Android and iOS
 devices (phones and tablets).
 
-The Nordic nRF51 also has a number of non-bluetooth proprietary
+The processor also has a number of non-bluetooth proprietary
 modes of operation, one of which is called Gazell. The Gazell
 protocol only works between micro:bits (or other Nordic enabled
 devices), and this surfaces as the 'radio' feature in

@@ -1,7 +1,7 @@
 ---
 layout: page
 order:
-title: Python on the micro:bit
+title: MicroPython on the micro:bit
 heading: MicroPython
 description: MicroPython is a reimplemation of Python 3 that can be used with the BBC micro:bit
 permalink: /software/micropython/
@@ -25,18 +25,7 @@ There are many ways to use MicroPython on the micro:bit. You can use:
 tools to interact with the device (for advanced users only).
 5. One of the [third party editors](https://microbit.org/code/#other-editors) listed on the website.
 
-# The Python Editor
 
-If you want a no-install experience, start with the [browser based editor](http://python.microbit.org/)
-
-It's perfect if you don't have control over the setup of your computer (for
-example, you're in a classroom you don't normally teach in, or have a shared
-laptop).
-
-# Mu
-
-The most powerful yet easy to use editor is [Mu](http://codewith.mu/). It comes
-as a pre-built package: just download it and run!
 
 # MicroPython Tools
 [uflash](https://uflash.readthedocs.io/en/latest/) and

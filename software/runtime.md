@@ -45,6 +45,8 @@ The micro:bit runtime has extensive documentation, which can be found here:
 
 https://lancaster-university.github.io/microbit-docs/
 
+## Building CODAL
+
 ## Contributing to the micro:bit Runtime
 
 The micro:bit runtime is an open source project, distributed under the MIT license, and contributions and collaborations are very much welcomed from the micro:bit community. There are still many things that could be merged into the micro:bit runtime, and with Makecode moving forward and adding new features, things that go into the runtime can also be exposed to the higher level languages if they work well and prove useful for coding in education.
