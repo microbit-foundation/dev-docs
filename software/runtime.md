@@ -85,13 +85,13 @@ The main mbed repository is at [https://github.com/ARMmbed/mbed-os](https://gith
 
 micro:bit was based on the well-established mbed 2.0 SDK, with which mbed 5 is compatible. Work is ongoing to bring the micro:bit runtime onto mbed 5. If you're interested in this project, jump into the microbit-community slack channel or follow [this issue](https://github.com/lancaster-university/microbit-dal/issues/224)
 
-# Nordic nRF51 SDK
+# Nordic nRF5 SDK
 
-The mbed abstraction for the nRF51 is built on top of the Nordic nRF51 SDK
+The mbed abstraction for the Nordic chip is built on top of the Nordic nRF5 SDK
 https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF5-SDK
 
-Crucially, this includes [Nordic's SoftDevice](https://devzone.nordicsemi.com/documentation/nrf51/4.2.0/html/group__nrf518__lib__ble__s110__intro.html), a binary object that gets included into any hex file for the micro:bit that manages control of the radio to allow the micro:bit to use the industry standard Bluetooth Low Energy protocols.
+Crucially, this includes Nordic's [Soft Device 110](https://www.nordicsemi.com/Software-and-Tools/Software/S110) v1{:.v1} / [Soft Device 140](https://www.nordicsemi.com/Software-and-tools/Software/S140) v2{:.v2}, a binary object that gets included into any hex file for the micro:bit that manages control of the radio to allow the micro:bit to use the industry standard Bluetooth Low Energy protocols.
 
 The SoftDevice runs on the same MCU as the user's code, and when using the mbed BLE APIs (that the micro:bit runtime also uses), calls are made into SoftDevice. SoftDevice also occupies the highest priority interrupts, so that user code can be pre-empted by SoftDevice when this is required for the radio to function properly.
 
-By default, all micro:bit programs use SoftDevice S110, which only allows the device to be a GAP Peripheral. It is possible to use S130 with the micro:bit by compiling offline with mbed, though that is beyond the scope of this documentation.
+v1{:.v1} only. Micro:bit programs use SoftDevice S110 by default, which only allows the device to be a [GAP Peripheral](http://bluetooth-mdw.blogspot.co.uk/2016/07/microbit-and-bluetooth-roles.html). It is possible to use [Soft Device S130](https://www.nordicsemi.com/Software-and-tools/Software/S130) with the micro:bit by compiling offline with mbed, though that is beyond the scope of this documentation.

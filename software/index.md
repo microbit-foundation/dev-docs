@@ -98,14 +98,14 @@ When you write an application for your micro:bit, other pieces of software are
 joined together with your application to make up the final .hex file that is
 flashed. This code consists of various lower level software components, such as:
 
-* [the micro:bit runtime](./runtime-mbed/) (sometimes called the device abstraction layer), written in C++ by Lancaster University. The DAL abstracts the
+* [DAL/CODAL](./runtime/) (sometimes called the runtime), written in C++ by Lancaster University. The DAL abstracts the
 facilities of the micro:bit into a common set of functions that can be used
-by all coding languages, though some languages, like Python, make less use of the DAL than Makecode, where the high level block functions map almost directly onto equivalent C/C++ calls in the runtime
+by all coding languages. The high level block functions in MakeCode map almost directly onto equivalent C/C++ calls in the runtime. MicroPython requires less use of the DAL.
 
-* [ARM mbed](./runtime-mbed/#arm-mbed) The runtime builds on top of the ARM mbed SDK, which provides standardised drivers for MCU peripherals and abstracts most of the low level hardware details of different MCUs, meaning that micro:bit software can be easily run on other hardware. This
+* [ARM mbed](./runtime/#arm-mbed) v1{:.v1} only. The runtime builds on top of the ARM mbed SDK, which provides standardised drivers for MCU peripherals and abstracts most of the low level hardware details of different MCUs, meaning that micro:bit software can be easily run on other hardware. This
 includes an abstraction for BLE, the mbed BLE api.
 
-* [Nordic nRF51-SDK](./runtime-mbed/#nordic-nrf51-sdk) mbed itself builds on top of the
-Nordic nRF51-SDK, the component provided by Nordic to assist programmers in using their hardware.
+* [Nordic nRF5 SDK](./runtime/#nordic-nrf5-sdk) mbed itself builds on top of the
+Nordic nRF5 SDK, the component provided by Nordic to assist programmers in using their hardware.
 
 * [MicroPython interpreter](./micropython) If you are using Python, then the whole MicroPython language interpreter is joined to your application to make up the .hex file. MicroPython on the micro:bit uses mbed underneath, though MicroPython also runs on a wide range of other hardware platforms.
