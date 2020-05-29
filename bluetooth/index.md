@@ -7,21 +7,25 @@ description: Bluetooth implementation on the micro:bit
 permalink: /bluetooth/
 ref: bluetooth
 lang: en
-assigned-to: markw
-review-with: jonnya
 ---
-
-
-# Overview
 
 The micro:bit processor has an on board
 Bluetooth transceiver. Combined with a PCB trace aerial and other minor
-components, and the Nordic S100 SoftDevice Bluetooth stack, this gives
+components, and the Nordic [Soft Device 110](https://www.nordicsemi.com/Software-and-Tools/Software/S110) v1{:.v1} / [Soft Device 140](https://www.nordicsemi.com/Software-and-tools/Software/S140) v2{:.v2} stack, this gives
 the micro:bit a certified and credible Bluetooth capability.
 
-With Bluetooth, you can connect to other devices and send and receive
-data. Bluetooth software features appear in many of the languages,
-including Makecode and mbed C++, as well
+Using Bluetooth, you can connect to other devices and send and receive
+data from and to the micro:bit.
+
+## micro:bit Bluetooth Features
+
+Bluetooth features available on the micro:bit are defined in a
+[Bluetooth profile](/bluetooth/profile). The micro:bit supports one, custom developed profile.
+
+## Bluetooth and the micro:bit software
+
+Bluetooth software features appear in many of the languages,
+including MakeCode and C++, as well
 as their being micro:bit compatible applications for Android and iOS
 devices (phones and tablets).
 
@@ -30,15 +34,6 @@ modes of operation, one of which is called Gazell. The Gazell
 protocol only works between micro:bits (or other Nordic enabled
 devices), and this surfaces as the 'radio' feature in
 Makecode and MicroPython, as well as mbed C++.
-
-
-## micro:bit Bluetooth Features
-
-Bluetooth features available on the micro:bit are defined in a
-Bluetooth profile. The micro:bit supports one profile, which was
-custom developed for the micro:bit. Read about it
-[here](/bluetooth/profile/)
-
 
 # Links
 

@@ -1,36 +1,30 @@
 ---
 layout: page
 order:
-title: The micro:bit runtime and mbed programming
-heading: The micro:bit runtime and mbed programming
+title: The micro:bit runtime DAL/CODAL
+heading: The micro:bit runtime DAL/CODAL
 description: Information on developing with the micro:bit runtime, the low level C/C++ tool on which much of the software ecosystem for the micro:bit is built.
 permalink: /software/runtime/
 ref: software
 lang: en
 ---
 
-
-# Overview
-{:.no_toc}
-
 * TOC
 {:toc}
 
-This page provides an overview of the micro:bit runtime - software that runs on a micro:bit to support the majority of the micro:bit programming languages. It can help you understand how the micro:bit works, and also will help you understand where to start if you want to dive deeper into the micro:bit, write support software for your own micro:bit hardware extensions, and tailor or improve something on the micro:bit.
+The micro:bit runtime, also known as the DAL/CODAL is software that runs on a micro:bit to support the majority of the micro:bit programming languages. It can help you understand how the micro:bit works, and also will help you understand where to start if you want to dive deeper into the micro:bit, write support software for your own micro:bit hardware extensions, and tailor or improve something on the micro:bit.
 
 ![Architectural Diagram](/docs/software/assets/software-overview.png){: style="max-width:50%;"}
 
-There are a number of important software layers that run on the micro:bit to enable easy to use languages such as Javascript and Makecode to be used. Some of these, like ARM mbed and MicroPython existed before the BBC micro:bit project started, and others, such as the micro:bit runtime were written specifically for the micro:bit.
+There are a number of important software layers that run on the micro:bit to enable easy to use languages such as Javascript and MakeCode to be used. Some of these, like ARM mbed and MicroPython existed before the BBC micro:bit project started, and others, such as the micro:bit runtime were written specifically for the micro:bit.
 
-ARM mbed provides something called a Hardware Abstraction Layer (HAL) for chips using ARM Cortex processors. This abstraction layer presents a uniform layer that developers can use to write software for any ARM based processor - including the Nordic nRF51822 used on the micro:bit. It provides easy access to peripheral interfaces such as SPI, I2C and serial for user by higher level environments.
+ARM mbed provides a Hardware Abstraction Layer (HAL) for chips using ARM Cortex processors. This abstraction layer presents a uniform layer that developers can use to write software for any ARM based processor - including the Nordic chip used on the micro:bit. It provides easy access to peripheral interfaces such as SPI, I2C and serial for user by higher level environments.
 
-# The micro:bit runtime Device Abstraction Layer
+## The micro:bit runtime Device Abstraction Layer (DAL)
 
-## Purpose - What Does the micro:bit Runtime Do?
+The micro:bit runtime provides a [Device Abstraction Layer (DAL)](https://lancaster-university.github.io/microbit-docs/), that is built using ARM mbed. Lancaster University has written this runtime for the micro:bit as part of its ongoing efforts to support the adoption of Computer Science in schools. It is designed to provide a useful set of functions for higher level languages to consume, and make programming the micro:bit in C or C++ easier. Many of the 'blocks' you use in Makecode are directly calling functions provided by the DAL. The micro:bit runtime DAL is written in C/C++ and builds on the ARM mbed HAL.
 
-The micro:bit runtime provides a Device Abstraction Layer (often called the DAL, but 'Runtime' is the term we want to standardise on), that is built using ARM mbed. Lancaster University has written this runtime for the micro:bit as part of its ongoing efforts to support the adoption of Computer Science in schools. It is designed to provide a useful set of functions for higher level languages to consume, and make programming the micro:bit in C or C++ easier. Many of the 'blocks' you use in Makecode are directly calling functions provided by the DAL. The micro:bit runtime DAL is written in C/C++ and builds on the ARM mbed HAL.
-
-Key components of the micro:bit runtime are:
+Key components of the micro:bit DAL are:
 
 * a scheduler, that lets your micro:bit do more than one task at a time.
 * an eventing system called the message bus, that lets you write reactive code. It can inform your program when things happen on your micro:bit - everything from a button click to a message being received on the radio.
@@ -39,13 +33,22 @@ Key components of the micro:bit runtime are:
 
 When writing C/C++ code for the micro:bit, use of the micro:bit runtime is highly recommended. It provides an easy to use API for C/C++ programs, and is written in a componentised manner so that you can use only the parts you need (for example, just the MicroBitDisplay). The micro:bit can also be programmed using the mbed HAL directly, for those developers seeking more low level access to the hardware.
 
-## micro:bit runtime Documentation
+## Component Oriented Device Abstraction Layer (CODAL)
+The [Component Oriented Device Abstraction Layer (CODAL)](https://lancaster-university.github.io/codal/) is an evolution of the DAL runtime that abstracts each hardware component of the micro:bit as a software component. CODAL supports a range of devices and processors.
 
-The micro:bit runtime has extensive documentation, which can be found here:
+Key components of micro:bit CODAL are:
 
-https://lancaster-university.github.io/microbit-docs/
+* A unified eventing subsystem (common to all components) that provides a mechanism to map asynchronous hardware and software events to event handlers;
+* A non-preemptive fiber scheduler that enables concurrency while minimizing the need for resource locking primitives.
+* A simple memory management system based on reference counting to provide a basis for managed types.
+* A set of drivers, that abstract microcontroller hardware components into higher level software components,each represented by a C++ class.
+* A parameterized object model composed from these components that represents a physical device.
+
+(Source: [MakeCode and CODAL - intuitive and efficient embedded systems programming for education](https://tech.microbit.org/projects/MakeCode-and-CODAL/)
 
 ## Building CODAL
+
+Instructions for building CODAL
 
 ## Contributing to the micro:bit Runtime
 
