@@ -15,8 +15,10 @@ lang: en
 * TOC
 {:toc}
 
-![img](/docs/hardware/assets/microbit-overview-1-5.png)
+![2.0 image](/docs/hardware/assets/microbit-overview-2.0.png)
 
+## Hardware block diagram
+![2.0 block](/docs/hardware/assets/v2-block.svg)
 
 # Getting Started With the micro:bit Hardware
 
@@ -77,18 +79,16 @@ including smartphones and tablets.
 
 ## Low Level Radio Communications
 
-The on board 2.4GHz transciever supports a number of other radio communications standards,
-including the proprietary Nordic Gazell protocol.
+The on board 2.4GHz transciever supports a number of other radio communications standards, on which we build the microbit-radio protocol
 This protocol provides a very simple small-packet broadcast radio interface between other devices
-that support this proprietary protocol, such as other micro:bit devices.
+that support it, such as other micro:bit devices.
 The 'radio' interface that appears in a number of the languages on the micro:bit
-is built on top of this Gazell protocol.
+is built on top of this protocol.
 Additionally, the micro:bit runtime software adds a 'group code' to each data payload,
 allowing for simple user managed device addressing and filtering to take place.
 
 | item          | details
 | ---           | ---
-| Protocol      | [Nordic Gazell](https://devzone.nordicsemi.com/documentation/NRF52/4.3.0/html/group__gzll__02__user__guide.html)
 | Freq band     | 2.4GHz
 | Channel rate  | 1Mbps or 2Mbps
 | Encryption    | None

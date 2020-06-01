@@ -212,9 +212,9 @@ and provided here as a handy reference.
 | xxx    | Max source current from IO pin                     |  8.23   | --       | 5mA     |
 | xxx    | Max sink current into IO pin                       |  8.23   | --       | 5mA     |
 | VIO    | Tolerable pin voltages for IO pin                  |  6      | -0.3V    | VDD+0.3 |
-| xxx    | Pin impedance when an input                        |  ?      | TBD      |         |
-| VDD(o) | Operating voltage range (LDO)                      |  7      | 1.8V     | 3.6V    |
-| VDD(a) | Absolute voltage range                             |  6      | -0.3V    | +3.9V   |
+| xxx    | Pin impedance when an input                        |  ?      | TBC      |         |
+| VDD(o) | Operating voltage range (LDO)                      |  9      | 1.8V     | 3.6V    |
+| VDD(a) | Absolute voltage range                             |  9      | -0.3V    | +3.9V   |
 | VSS    | Ground reference                                   |  6      | 0V       | 0V      |
 | RPU    | Pull up resistance                                 |  8.23   | 11K      | 16K     |
 | RPD    | Pull down resistance                               |  8.23   | 11K      | 16K     |
@@ -244,21 +244,26 @@ from USB is rated at a maximum of 120mA.
 These key GPIO parameters are transcribed directly from Section 6, 7 and 8 of the [nRF52833 Datasheet](https://infocenter.nordicsemi.com/pdf/nRF52833_PS_v1.2.pdf),
 and provided here as a handy reference.
 
-| KEY    | Description                                        | section | Min      | Max     |
-| ---    | -------------------------------------------------- | ------- | ----     | ----    |
-| VOL    | Voltage Output Low                                 |  6.8.3  | VSS      | 0.3V    |
-| VOH    | Voltage Output High                                |  6.8.3  | VDD-0.3  | VDD     |
-| VIL    | Input voltage for logic low                        |  6.8.3  | VSS      | 0.3*VDD |
-| VIH    | Input voltage for logic high                       |  6.8.3  | 0.7*VDD  | VDD     |
-| xxx    | Max source current from IO pin                     |  6.8.3  | --       | 5mA     |
-| xxx    | Max sink current into IO pin                       |  6.8.3  | --       | 5mA     |
-| VIO    | Tolerable pin voltages for IO pin                  |  6      | -0.3V    | VDD+0.3 |
-| xxx    | Pin impedance when an input                        |  ?      | TBD      |         |
-| VDD(o) | Operating voltage range (LDO)                      |  7      | 1.8V     | 3.6V    |
-| VDD(a) | Absolute voltage range                             |  6      | -0.3V    | +3.9V   |
-| VSS    | Ground reference                                   |  6      | 0V       | 0V      |
-| RPU    | Pull up resistance                                 |  8.23   | 11K      | 16K     |
-| RPD    | Pull down resistance                               |  8.23   | 11K      | 16K     |
+| KEY     | Description                                           | section | Min      | Max      |
+| ---     | ----------------------------------------------------- | ------- | ----     | ----     |
+| VOL,SD  | Voltage Output Low, standard drive, 0.5 mA, VDD ≥ 1.7 |  6.8.3  | VSS      | VSS +0.4 |
+| VOL,HDH | Voltage Output Low, high drive, 5 mA, VDD ≥ 2.7       |  6.8.3  | VSS      | VSS +0.4 |
+| VOL,HDL | Voltage Output Low, high drive, 3mA, VDD ≥ 1.7        |  6.8.3  | VSS      | VSS +0.4 |
+| VOH,SD  | Voltage Output High, standard drive,0.5 mA, VDD ≥ 1.7 |  6.8.3  | VDD -0.4 | VDD      |
+| VOL,HDH | Voltage Output How, high drive, 5 mA, VDD ≥ 2.7       |  6.8.3  | VDD -0.4 | VDD      |
+| VOL,HDL | Voltage Output How, high drive, 3mA, VDD ≥ 1.7        |  6.8.3  | VDD -0.4 | VDD      |
+| VIL     | Input voltage for logic low                           |  6.8.3  | VSS      | 0.3*VDD  |
+| VIH     | Input voltage for logic high                          |  6.8.3  | 0.7*VDD  | VDD      |
+| xxx     | Max source current from IO pin                        |  TBC    | --       | TBC      |
+| xxx     | Max sink current into IO pin                          |  TBC    | --       | TBC      |
+| VIO≤3.6 | Tolerable pin voltages for IO pin with VDD ≤3.6       |  9      | -0.3V    | VDD+0.3  |
+| VIO>3.6 | Tolerable pin voltages for IO pin with VDD >3.6       |  9      | -0.3V    | 3.9      |
+| xxx     | Pin impedance when an input                           |  ?      | TBC      |          |
+| VDD     | Operating voltage range (LDO)                         |  7      | -0.3V    | 3.9V     |
+| VDDH    | Absolute voltage range                                |  6      | -0.3V    | 5.8V     |
+| VSS     | Ground reference                                      |  9      | 0V       | 0V       |
+| RPU     | Pull up resistance                                    |  6.8.3  | 11K      | 16K      |
+| RPD     | Pull down resistance                                  |  6.8.3  | 11K      | 16K      |
 
 ## Connectors and Breakouts
 

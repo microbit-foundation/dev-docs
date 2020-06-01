@@ -13,6 +13,9 @@ review-with: jonnya
 
 If you make an accessory for the micro:bit, please help us by editing the table below and sharing the details of the i2c addresses you use.
 
+## i2c block diagram
+![i2c block](/docs/hardware/assets/i2c-block.svg)
+
 # Use of the shared I2C bus
 
 The motion sensors on the board are on the same I2C bus as the edge connector I2C pins. This means that if you have an accessory that uses I2C on this bus, you need to check it won’t clash with any of the possible on-board sensors.
