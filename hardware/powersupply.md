@@ -12,17 +12,16 @@ lang: en
 
 # Overview
 
-Power to the micro:bit may be provided via the USB connection via the
-interface chip (which has an on-board regulator), or via a battery plugged into the top
-connector. It is also possible (with care) to power the micro:bit from the 3V pad at the
-bottom. The 3V pad at the bottom can be used to provide power to small external circuits.
+Power to the micro:bit may be provided via:
 
-It runs from battery, USB, or from the pads on the bottom,
-so it's quite a flexible device - but beware to stay within
-the design parameters of the device so you don't cause any
-damage to it.
+- USB connection via the interface chip (which has an on-board regulator)
+- A battery plugged into the JST connector. 
+- The 3V and GND pins on the Edge Connector
+- The two losenge shaped pads on the rear right of the board
 
-* The nRF51 datasheet states that the operating range of the chip is 1.8V to 3.6V.
+Power from the micro:bit can be provided by the 3V and GND pins to small external circuits.
+
+It's is important to stay within the design parameters of the board:
 
 * When powered from USB, the on board interface chip (KL26) uses it's on chip
 regulator to provide power, and this chip is rated at a maximum of 120mA.
@@ -37,10 +36,38 @@ System LED will not light up when powered from battery)
 
 * A low-Vf diode is used to switch between sources. The diode prevents back-powering of any source from any other source and means you can have a USB cable and battery pack connected simultaneously.
 
-* All key facts can be independently verified and understood further by looking
-at the [schematic](/hardware/schematic/) and refering to the appropriate chip data
-sheets also listed on that page.
+## Key Voltages
 
+As taken from each of the chip data sheets, it can be seen that different
+devices have slightly different operating voltage ranges and absolute
+maximum voltages. Manufacturers state the operating voltage range as well
+as the absolute maximum tolerable by the device. You should never exceed
+the operating voltage range of any of the devices.
+
+### v1 revision
+
+| Device     | min   | max  | absolutemax
+|------------|-------|------|------------
+| NRF51      | 1.8V  | 3.6V | 3.9Vabs
+| KL26       | 1.7V  | 3.6V | 3.8Vabs
+| LSM303     | 1.71V | 3.6V | 3.6Vabs
+| MMA8653FC  | 1.95V | 3.6V | 3.6Vabs
+| MAG3110    | 1.95V | 3.6V | 3.6Vabs
+
+This table implies an operating voltage range of the micro:bit device as a whole
+as being 1.8V min (for 1.5 variants) or 1.95V min (for 1.3* variants dictated by the motion sensor) and
+3.6V max (dictated by all devices).
+
+### v2 revision
+
+| Device     | min   | max  | absolutemax
+|------------|-------|------|------------
+| NRF52      | 1.8V  | 3.6V | 5.8Vabs
+| KL27       | 1.7V  | 3.6V | 3.8Vabs
+| LSM303     | 1.71V | 3.6V | 3.6Vabs
+
+This table implies an operating voltage range of the micro:bit device as a whole
+as being 1.8V min and 3.6V max.
 
 # Practicalities
 
@@ -118,22 +145,3 @@ should be taken when connecting directly to the 3V ring or the 3V losenge.
 The BAT60A devices have a low Vf rating, you can read about this in the
 [BAT60A datasheet](http://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9)
 
-
-## Key Voltages
-
-As taken from each of the chip data sheets, it can be seen that different
-devices have slightly different operating voltage ranges and absolute
-maximum voltages. Manufacturers state the operating voltage range as well
-as the absolute maximum tolerable by the device. You should never exceed
-the operating voltage range of any of the devices.
-
-| Device     | min   | max  | absolutemax
-| NRF51      | 1.8V  | 3.6V | 3.9Vabs
-| KL26       | 1.7V  | 3.6V | 3.8Vabs
-| LSM303     | 1.71V | 3.6V | 3.6Vabs
-| MMA8653FC  | 1.95V | 3.6V | 3.6Vabs
-| MAG3110    | 1.95V | 3.6V | 3.6Vabs
-
-This table implies an operating voltage range of the micro:bit device as a whole
-as being 1.8V min (for 1.5 variants) or 1.95V min (for 1.3* variants dictated by the motion sensor) and
-3.6V max (dictated by all devices).

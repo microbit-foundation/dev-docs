@@ -5,7 +5,7 @@ title: python.microbit.org
 heading: python.microbit.org
 description: Information about the micro:bit Python Editor
 permalink: /software/python-editor/
-ref: software
+ref: python-editor
 lang: en
 ---
 

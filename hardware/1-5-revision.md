@@ -5,7 +5,7 @@ title: 1.5 micro:bit revision
 heading: Hardware
 description: Details of the 1.5 micro:bit revision, featuring a combined motion sensor
 permalink: /hardware/1-5-revision/
-ref: hardware
+ref: 1-5
 lang: en
 ---
 

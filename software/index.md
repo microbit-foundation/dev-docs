@@ -102,7 +102,7 @@ flashed. This code consists of various lower level software components, such as:
 facilities of the micro:bit into a common set of functions that can be used
 by all coding languages. The high level block functions in MakeCode map almost directly onto equivalent C/C++ calls in the runtime. MicroPython requires less use of the DAL.
 
-* [ARM mbed](./runtime/#arm-mbed) v1{:.v1} only. The runtime builds on top of the ARM mbed SDK, which provides standardised drivers for MCU peripherals and abstracts most of the low level hardware details of different MCUs, meaning that micro:bit software can be easily run on other hardware. This
+* [ARM mbed](./runtime/#arm-mbed) The ARM mbed SDK  provides standardised drivers for MCU peripherals and abstracts most of the low level hardware details of different MCUs, meaning that micro:bit software can be easily run on other hardware. This
 includes an abstraction for BLE, the mbed BLE api.
 
 * [Nordic nRF5 SDK](./runtime/#nordic-nrf5-sdk) mbed itself builds on top of the

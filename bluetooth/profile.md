@@ -23,9 +23,20 @@ and Lancaster University](https://lancaster-university.github.io/microbit-docs/u
 
 The BBC micro:bit [Bluetooth profile is defined in the DAL](https://lancaster-university.github.io/microbit-docs/ble/profile/)
 
-There are [pre-compiled Hex files available](https://lancaster-university.github.io/microbit-docs/ble/profile/#all-services-enabled-hex-file) that enable bluetooth services available on the micro:bit and some [example programs in the microbit-samples repository](https://github.com/lancaster-university/microbit-samples)
+You can flash a pre-compiled Hex files, to the micro:bit that enables bluetooth services.As Bluetooth is memory intensive, these are supplied as either 'without Magnetometer Service' or 'without DFU Service':
 
-The micro:bit has a Bluetooth 4.1 stack with Bluetooth Low Energy (BLE) and supports
+[Without magnetometer](bluetooth/assets/BLE_All_Services_DAL_2-1-1-No-Mag.hex)
+[Without DFU](bluetooth/assets/BLE_All_Services_DAL_2-1-1-No-DFU.hex)
+
+The DAL contains the [C++ source for the BLE service files](https://github.com/lancaster-university/microbit-samples/blob/master/source/examples/bluetooth-services/main.cpp)
+
+There are also some example programs in the [microbit-samples](https://github.com/lancaster-university/microbit-samples) repository:
+
+[bluetooth-eddystone-uid]https://github.com/lancaster-university/microbit-samples/tree/master/source/examples/bluetooth-eddystone-uid
+[bluetooth-eddystone-url]https://github.com/lancaster-university/microbit-samples/tree/master/source/examples/bluetooth-eddystone-url
+[bluetooth-uart]https://github.com/lancaster-university/microbit-samples/tree/master/source/examples/bluetooth-uart
+
+The micro:bit has a Bluetooth 4.1+ stack with Bluetooth Low Energy (BLE) and supports
 the [GAP Perhipheral Role](http://bluetooth-mdw.blogspot.co.uk/2016/07/microbit-and-bluetooth-roles.html).
 
 As per all Bluetooth, it operates in the ISM (Industrial Scientific Medical) band
