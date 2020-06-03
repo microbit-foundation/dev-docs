@@ -10,7 +10,7 @@ If you are here, you will have been added to this PRIVATE repository by a member
 
 The docs are continuously evolving in line with the development of the latest revision of the micro:bit board and we are aiming to create a release at the time of public announcement.
 
-As such, they may not be fully up-to-datebut comments, issues and Pull Requests are welcomed and encouraged. Please review the [Foundation community and brand guidelines](https://microbit.org/community/) and the [tech.microbit.org](http://tech.microbit.org) homepage for further details about contribution.
+As such, they may not be fully up-to-date but comments, issues and Pull Requests are welcomed and encouraged. Please review the [Foundation community and brand guidelines](https://microbit.org/community/) and the [tech.microbit.org](http://tech.microbit.org) homepage for further details about contribution.
 
 Documentation development tools
  - [microbit image maker](https://pycomic.github.io/microbit.html)
