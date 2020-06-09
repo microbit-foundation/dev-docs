@@ -1,18 +1,13 @@
 ---
 layout: page
 order:
-title: I2c addresses and the BBC micro:bit
-heading: I2c information for the latest revision of the BBC micro:bit
-description: I2c information for the latest revision of the BBC micro:bit
+title: I2c int/ext bus
+heading: I2c information for internal and external bus
+description: I2c information for internal and external bus
 permalink: /hardware/i2c/
 ref: i2c
 lang: en
 ---
-
-If you make an accessory for the micro:bit, please help us by editing the table below and sharing the details of the i2c addresses you use.
-
-## I2c block diagram
-![i2c block](/docs/hardware/assets/i2c-block.svg)
 
 # Use of the  I2c bus
 
@@ -24,6 +19,9 @@ I2C_EXT_SCL and I2C_EXT_SDA run to the edge connector and can be used for access
 
 The v2 micro:bit has a footprint for two different motion sensors: one made by ST (the LSM303AGR) and one by NXP (FXOS8700CQ). The micro:bit DAL supports both of these sensors, detecting them at runtime. To date, all v2 boards have been manufactured with the LSM303AGR, however we may switch to the NXP part. Before doing so we will perform a round of testing and notify the [DAL and Devices mailing list.](http://eepurl.com/dyRx-v)
 
+## I2c block diagram
+![i2c block](/docs/hardware/assets/i2c-block.svg)
+
 # Table of addresses used
 
 |                     | accelerometer    | magnetometer (compass) |
@@ -34,6 +32,7 @@ The v2 micro:bit has a footprint for two different motion sensors: one made by S
 This means 0x1E and 0x19 are reserved for onboard use.
 
 # Table of address used by micro:bit accessories (please edit)
+If you make an accessory for the micro:bit, please help us by editing the table below and sharing the details of the i2c addresses you use.
 
 | accessory name | organisation | i2c address(es) used | 
 |----------------|--------------|-----------------------|
