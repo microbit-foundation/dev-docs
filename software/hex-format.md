@@ -17,6 +17,10 @@ A micro:bit .hex file usually starts writing data to the same fixed location in 
 
 :020000040000FA
 
+## Universal Hex files
+The latest board revision introduces an extension of the Intel-Hex format that enables compatibility across processor variants. A **Universal Hex** hex file will work on a v1 or v2 board. 
+A clear indication that you are working with this format is that a compiled .hex file will be ~1.8Mb as opposed to ~700Kb in size.
+
 ## Micropython
 
 See the [Micropython Hex file reference](https://microbit-micropython.readthedocs.io/en/latest/devguide/hexformat.html) for up to date information.

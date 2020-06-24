@@ -12,6 +12,13 @@ The docs are continuously evolving in line with the development of the latest re
 
 As such, they may not be fully up-to-date but comments, issues and Pull Requests are welcomed and encouraged. Please review the [Foundation community and brand guidelines](https://microbit.org/community/) and the [tech.microbit.org](http://tech.microbit.org) homepage for further details about contribution.
 
+## Key changes
+These are the key pages that contain information about the latest revision
+[Hardware overview](hardware/index.md)
+[CODAL Runtime](software/runtime.md)
+[HEX Format](software/hex-format.md)
+[Using the latest variant with the apps and editors](software/testing.md)
+
 Documentation development tools
  - [microbit image maker](https://pycomic.github.io/microbit.html)
  - The docs are mostly written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 

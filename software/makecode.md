@@ -23,6 +23,12 @@ This target depends on several other repositories
 - https://github.com/lancaster-university/microbit basic wrapper around the DAL
 - https://github.com/lancaster-university/microbit-dal
 
+### App
+An app is available for [Windows 10](https://www.microsoft.com/en-gb/p/makecode-for-micro-bit/9pjc7sv48lcx?rtc=1&activetab=pivot:overviewtab)
+
+### Offline
+ An [offline version of the MakeCode editor](https://makecode.microbit.org/offline) is available for use in situations where there is limited or no internet connectivity.
+
 ### Documentation
 - [MakeCode for micro:bit reference](https://makecode.microbit.org/reference) provides information and examples on using the blocks
 - [MakeCode Technical Docs](https://makecode.com/docs) for general development
@@ -38,3 +44,4 @@ There are a variety of ways to get involved and interact
 - Join the [micro:bit developer community on Slack](./get-involved/slack/)
 - Raise a [MakeCode issue or feature request](https://github.com/Microsoft/pxt-microbit/issues)
 - Ask the MakeCode development team on [MakeCode forum for micro:bit](https://forum.makecode.com/c/microbit/11)
+- Help [Translate MakeCode](https://makecode.com/translate) into your own language.

@@ -15,7 +15,9 @@ lang: en
 * TOC
 {:toc}
 
-![2.0 image](/docs/hardware/assets/microbit-overview-2.0.png)
+![2.0 front](/docs/hardware/assets/microbit-overview-front-2.svg)
+![2.0 back](/docs/hardware/assets/microbit-overview-back-2.svg)
+
 
 ## Hardware block diagram
 ![2.0 block](/docs/hardware/assets/v2-block.svg)
