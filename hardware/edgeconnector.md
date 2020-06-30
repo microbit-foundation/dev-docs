@@ -272,8 +272,6 @@ edge connector? Share your designs and discoveries with us!
 
 [micro:bit CAD resources (Kitronik)](https://www.kitronik.co.uk/blog/bbc-microbit-cad-resources/)
 
-[Edge connector CAD resources (Proto-Pic)](https://www.proto-pic.co.uk/micro-bit-resources.html)
-
 [Eagle libraries for the micro:bit edge connector](https://github.com/proto-pic/micro-bit-eagle-libraries)
 
 [KiCad component and footprint library](https://github.com/anthonykirby/kicad_microbit_connector)
@@ -281,12 +279,3 @@ edge connector? Share your designs and discoveries with us!
 [2D CAD drawing](https://www.kitronik.co.uk/pdf/bbc_microbit_mechanical_datasheet_V2.pdf)
 This drawing has all the key micro:bit dimensions, including the pin spacing of the
 various pins of the edge connector on the micro:bit board.
-
-[STP file](https://www.kitronik.co.uk/zip/Microbit_STEP.zip) This file is a 3D CAD
-file for use with [3D modelling software](http://3d-viewers.com/step-viewer.html).
-
-[STL file](https://www.kitronik.co.uk/zip/Microbit_STL.zip) This file can be used
-with 3D printers.
-
-[SAT file](https://www.kitronik.co.uk/zip/Microbit_SAT.zip) This file can be used
-with [ACIS Modeller](http://www.spatial.com/products/3d-acis-modeling).
