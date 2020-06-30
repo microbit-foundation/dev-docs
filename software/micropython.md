@@ -212,14 +212,11 @@ resources via the [MicroPython / BBC micro:bit World Tour](https://microworldtou
 Tutorials and API documentation for developers can be
 [found here](https://microbit-micropython.readthedocs.io/en/latest/).
 
-
 ## Logging an Issue with the Development Team
 
 [Show open issues](https://github.com/bbcmicrobit/micropython/issues)
 
 [Log a new issue](https://github.com/bbcmicrobit/micropython/issues/new)
-
-[Ask a question on the mailing list](https://mail.python.org/mailman/listinfo/microbit) (you must be a member of the mailing list before you can post to it).
 
 ## Source Code
 
