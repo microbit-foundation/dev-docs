@@ -14,10 +14,11 @@ As such, they may not be fully up-to-date but comments, issues and Pull Requests
 
 ## Key changes
 These are the key pages that contain information about the latest revision
-[Hardware overview](hardware/index.md)
-[CODAL Runtime](software/runtime.md)
-[HEX Format](software/hex-format.md)
-[Using the latest variant with the apps and editors](software/testing.md)
+
+- [Hardware overview](hardware/index.md)
+- [CODAL Runtime](software/runtime.md)
+- [HEX Format](software/hex-format.md)
+- [Using the latest variant with the apps and editors](software/testing.md)
 
 Documentation development tools
  - [microbit image maker](https://pycomic.github.io/microbit.html)
