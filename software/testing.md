@@ -9,6 +9,9 @@ ref: software
 lang: en
 ---
 
+* TOC
+{:toc}
+
 This page details the ways in which you can test the micro:bit hardware with the various software environments.
 The information applies to all board revisions, but specifics for the latest (v2) revision are noted here.
 
@@ -63,7 +66,7 @@ You can force the beta editor into multivariant mode with this bookmark:
 
 ## Python Editor
 
-TBC with @Carlos P
+TBC
 
 ## Mu
 
@@ -152,7 +155,7 @@ If this fails, for example because you're using GH 2FA and https, then you need 
     git checkout nrf52833-mbedos
     cd ../
     cd codal-mbedos/
-    git checkout nrf52833-bringup-includes #NOTE THIS IS DIFFERENT TO JOE'S INSTRUCTIONS on 29th OCT as it fixes a Mac build issue found since
+    git checkout nrf52833-bringup-includes 
     cd ../
     cd codal-nrf52/
     git checkout nrf52833-mbedos
@@ -162,10 +165,10 @@ If this fails, for example because you're using GH 2FA and https, then you need 
     cd ../../
 
 If your build failed the first time
-rm -rf ./build
+    rm -rf ./build
 Verify you are where you think you are and everything's at the right branch
-python build.py -s #s is for status
-python build.py
+    python build.py -s #s is for status
+    python build.py
 
 **Troubleshooting**
 If your build fails with missing toolchain, remove the build dir and try again. This usually happens if the first attempt to run build.py fails and we don't check out all the relevant libraries (often due to GH permissions)

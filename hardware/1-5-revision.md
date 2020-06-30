@@ -2,7 +2,7 @@
 layout: hardware
 order:
 title: 1.5 micro:bit revision
-heading: Hardware
+heading: 1.5 micro:bit revision
 description: Details of the 1.5 micro:bit revision, featuring a combined motion sensor
 permalink: /hardware/1-5-revision/
 ref: 1-5

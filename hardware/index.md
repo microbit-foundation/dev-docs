@@ -79,7 +79,7 @@ including smartphones and tablets.
 | More Info     | [Bluetooth](../bluetooth)
 
 
-## Low Level Radio Communications
+## Low level radio communications
 
 The on board 2.4GHz transciever supports a number of other radio communications standards, on which we build the microbit-radio protocol
 This protocol provides a very simple small-packet broadcast radio interface between other devices
@@ -164,7 +164,7 @@ The micro:bit has a footprint for two different motion sensors: one made by ST (
 | On board gestures | 'freefall'
 | Other gestures | Other gestures are implemented by software algorithms in the runtime.
 
-## Temperature Sensing
+## Temperature sensing
 
 The NRF52 application processor has an on board core temperature sensor.
 This is exposed via the standard runtime software, and provides an estimate of ambient
@@ -178,14 +178,39 @@ temperature.
 | Accuracy      | +/-5C (uncalibrated)
 | More Info     | [DAL Thermometer](https://lancaster-university.github.io/microbit-docs/ubit/thermometer/)
 
+## Speaker
+
+In addition to outputing sound via PWM on the pins, the micro:bit has a PCB mounted magnetic speaker
+to which sound output is mirrored. 
+
+| item          | details
+| ---           | ---
+| Type          | JIANGSU HUANENG MLT-8530
+| SPL           | 80dB @ 5V, 10cm 
+| Self-resonant frequency | 2700Hz 
+| More Info     | [Datasheet](https://datasheet.lcsc.com/szlcsc/1811151451_Jiangsu-Huaneng-Elec-MLT-8530_C94599.pdf)
+
+## Microphone
+
+An on board MEMs microphone provides a sound input to the micro:bit and a built in LED
+indicator on the front of the board shows the user when this is live.
+
+| item          | details
+| ---           | ---
+| Type          | Knowles SPU0410LR5H-QB-7 MEMS
+| Sensitvity    | -38dB ±3dB @ 94dB SPL
+| SNR           | 63dB
+| AOP           | 118db SPL
+| Frequency range | 100Hz ~ 80kHz 
+| Polar pattern | Omnidirectional
+| More Info     | [Datsheet](https://www.knowles.com/docs/default-source/model-downloads/spu0410lr5h-qb-revh32421a731dff6ddbb37cff0000940c19.pdf?Status=Master&sfvrsn=cebd77b1_4)
+
 ## General Purpose Input/Output Pins
 
 The edge connector brings out many of the GPIO circuits of the application
 processor. Some of these circuits are shared with other functions of the micro:bit, but
 many of these extra circuits can be re-allocated to general purpose use if some software
-features are turned off. Note: the NRF52 data sheet states that GPIO pins may be
-in std-drive (0.5mA) and high-drive (5mA) mode, with a maximum of 3 pins in high-drive
-mode at any one time.
+features are turned off. 
 
 | item          | details
 | ---           | ---
@@ -207,7 +232,7 @@ mode at any one time.
 | Pads| 5 pads, with 4mm holes
 
 
-## Power Supply
+## Power supply
 
 Power to the micro:bit may be provided via the USB connection, via the
 interface chip (which has an on-board regulator), or via a battery plugged into the top
@@ -242,7 +267,7 @@ main computer.
 | More Info | [DAPLink](/software/daplink-interface/), [KL27 reference manual](https://www.nxp.com/docs/en/reference-manual/KL27P64M48SF6RM.pdf) [KL27Z data sheet](https://www.nxp.com/docs/en/data-sheet/KL27P64M48SF6.pdf)
 
 
-## USB Communications
+## USB communications
 
 The micro:bit has an on board USB communications stack, that is built into the firmware
 of the interface chip. This stack provides the ability to drag and drop files onto the
@@ -285,7 +310,7 @@ manufacture of attachments e.g. via 3D printing.
 | item          | details
 | ---           | ---
 | Dimensions    | 5cm(w) 4cm(h)
-| Weight        | 5g??
+| Weight        | TBC
 
 
 # Links

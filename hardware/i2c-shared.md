@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: i2c
 order:
 title: I2c shared bus
 heading: I2c information for shared bus
