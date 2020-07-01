@@ -12,11 +12,11 @@ review-with: jonnya
 ---
 
 
-# Overview
+## Overview
 
 There may be occasions when you want to take a look at the programming that is running on the micro:bit or if you have misplaced the original program. This method reads out the .hex file on the micro:bit to a file in your working directory.
 
-# Pre-requisites
+## Pre-requisites
 
 In order to complete this task you will require some additional tools and libraries:
 
@@ -27,7 +27,7 @@ In order to complete this task you will require some additional tools and librar
 
 The method described here has been tested on Mac OS  using [Homebrew as a package manager](https://brew.sh/), but should work on Linux. Additional steps are linked to, but it is outside the scope of this article to go through setup.
 
-# Procedure
+## Procedure
 
 1. Attach micro:bit via USB
 2. Open two terminal windows/tabs

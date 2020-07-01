@@ -40,7 +40,7 @@ in MakeCode and MicroPython, as well as mbed C++.
 [Swift Playgrounds](https://github.com/microbit-foundation/microbit-swift-playgrounds) contains a Playground Book available in the Swift app and a micro:bit Swift API to develop further resources
 Scratch.
 
-# Links
+## Links
 
 [Bluetooth Developer Studio](https://www.bluetooth.com/download-developer-studio)
 

@@ -21,5 +21,4 @@ These are the key pages that contain information about the latest revision
 - [Using the latest variant with the apps and editors](software/testing.md)
 
 Documentation development tools
- - [microbit image maker](https://pycomic.github.io/microbit.html)
  - The docs are mostly written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 

@@ -10,7 +10,7 @@ ref: hardware
 lang: en
 ---
 
-# Overview
+## Overview
 {:notoc}
 
 * TOC
@@ -34,10 +34,10 @@ front rings, but the back small strips are unconnected.
 
 ![edge connector](/docs/hardware/assets/edge_connector.svg)
 
-## microbit.pinout.xyz
+### microbit.pinout.xyz
 [microbit.pinout.xyz](https://microbit.pinout.xyz) is a fantastic resource for further information on the micro:bit pins and how they are used by some popular accessories
 
-## Pins and Signals
+### Pins and Signals
 
 This table shows various data about each of the pins on the micro:bit edge connector.
 

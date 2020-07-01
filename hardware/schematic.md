@@ -11,7 +11,7 @@ assigned-to: markw
 review-with: jonnya
 ---
 
-# Overview
+## Overview
 
 This page discusses the micro:bit schematic and Bill of Materials (BOM),
 which shows the electrical connections of the micro:bit and the components used in it.
@@ -22,14 +22,14 @@ The schematic is available from the BBC's [micro:bit hardware repository](https:
 use our ['Reference Design'](/hardware/reference-design/) which is based on a radio module and has space on the layout
 for you to add your own components.**
 
-# Key Features
+## Key Features
 
 Below, we've extracted some useful details about the hardware that anyone implementing
 software for the micro:bit, interfacing to it, or designing an add-on board for it
 should find useful.
 
 
-## LEDS 9 x 3
+### LEDS 9 x 3
 
 The LED matrix is physically layed out as a 5x5, but it is implemented in hardware as a
 scanned matrix of 9x3 (i.e. 9 colums by 3 rows). Row 2 Col 8, and Row 2 Col 9 are not used.
@@ -40,7 +40,7 @@ Some of the Columns appear on the edge connector, so if you want to use extra GP
 you have to disable the display in software.
 
 
-## Interface
+### Interface
 
 The Interface sheet shows the KL26 processor, which is an ARM processor that implements
 the USB protocol for the USB connector. This provides a method for loading code onto the application
@@ -57,7 +57,7 @@ that could be present on the USB connector.
 
 This processor does not have any connection to the GPIO pins on the micro:bit.
 
-## Sensors
+### Sensors
 
 There is one combined motion sensor IC on the micro:bit, that contains an accelerometer and a magnetometer. The accelerometer
 measures acceleration in 3 axies, and the magnetometer can be used as a compass, as well as a magnetic field detector.
@@ -72,7 +72,7 @@ code in the application processor, which assumes a particular physical orientati
 
 
 
-## Power Supply
+### Power Supply
 
 Power to the micro:bit can be provided by 3 sources: The USB, the battery connector, and the 3V pad
 on the edge connector.
@@ -89,7 +89,7 @@ appropriate IC's for their maximum tolerable voltages.
 
 
 
-## Application Processor
+### Application Processor
 
 The main application processor runs both the runtime code and user code, as a single binary image.
 
@@ -102,7 +102,7 @@ All GPIO pins on the edge connector are serviced by this application processor.
 All bluetooth features are provided by a SoftDevice stack loaded into this processor.
 
 
-## Edge Connector
+### Edge Connector
 
 
 The edge connector is the main interface to external components attached to the micro:bit.
@@ -126,7 +126,7 @@ can be disabled in software to gain more general purpose IO pins.
 ![edge connector](/docs/hardware/assets/edge_connector.svg)
 
 
-# Other Links
+### Other Links
 
 [KL26 datasheet](http://www.nxp.com/webapp/search.partparamdetail.framework?PART_NUMBER=MKL26Z128VFM4)
 

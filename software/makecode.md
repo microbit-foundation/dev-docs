@@ -8,7 +8,7 @@ permalink: /software/makecode/
 ref: makecode
 lang: en
 ---
-
+## Overview
 [Microsoft MakeCode for micro:bit](htps://makecode.microbit.org) is a free, open source platform for creating projects with the BBC micro:bit.
 
 Connect colour-coded blocks that relate to hardware features and Computer Science fundamentals and switch between blocks, JavaScript and MakeCode Python views. A device simulator shows you what will happen on the physical device before you download your program.

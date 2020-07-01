@@ -9,7 +9,7 @@ ref: software
 lang: en
 ---
 
-# Target and Interface MCUs
+## Target and Interface MCUs
 
 One of the coolest features of the micro:bit is the way that it presents itself as a USB disk when it is connected over USB, and can be programmed through this interface without the need to install any drivers. Furthermore, no matter what code you run on your micro:bit, or how you manage to crash the device, you can always still put a new program on using the USB connection.
 
@@ -22,7 +22,7 @@ The target and interface MCUs are connected by two interfaces:
 * Serial Wire Debug (SWD) for programming the target MCU
 * UART for sending messages between the two devices. In practice, the UART from the target MCU is passed through directly to the PC over USB.
 
-## Reference Design
+### Reference Design
 
 On the [reference design](/hardware/reference-design) the interface circuit is clearly separated from the main micro:bit circuits so that you can do the following things:
 
@@ -30,7 +30,7 @@ On the [reference design](/hardware/reference-design) the interface circuit is c
 * Build a board with *just* the interface circuitry and use that to flash other hardware that you have built that might be too small to contain its own interface chip.
 
 
-# DAPLink software
+## DAPLink software
 
 
 This interface chip is running software from ARM mbed called `DAPLink`.
@@ -55,7 +55,7 @@ The following versions of the device have previously been shipped with the follo
  - v1.3B: bl:0234 if:0241 (built by Farnell for micro:bit commercial sales)
  - v1.5: bl:0243 if:0249
 
-## The DAPLink Boot Loader
+### The DAPLink Boot Loader
 
 It is possible to update the version of DAPLink running on your micro:bit. This is done using the DAPLink bootloader. This means that in fact, DAPLink is built twice for the micro:bit.
 
@@ -63,13 +63,13 @@ It is possible to update the version of DAPLink running on your micro:bit. This 
 * Secondly in `interface mode` to target the nRF51822. In this mode the disk is called `MICROBIT` and the hex files dropped onto the micro:bit are written to the flash of the target MCU.
 
 
-## Updating Your Version of DAPLink
+### Updating Your Version of DAPLink
 
 There are detailed instructions for how to [update the firmware version on the micro:bit website](https://microbit.org/get-started/user-guide/firmware/).
 
 **You should never update your micro:bit with firmware from untrusted sources, as these could damage your micro:bit, or make it impossible to re-flash**
 
-## Files on the MICROBIT Drive
+### Files on the MICROBIT Drive
 
 The flash file system presented on the micro:bit drive is entirely virtual. It is not backed by real memory, and this is why the drive ejects itself after new files are written. When a file is dropped onto the MICROBIT drive, instead of being written into flash memory (like a normal USB memory stick), it is streamed to the target MCU.
 
@@ -81,10 +81,10 @@ After flashing occurs, there might also be a `FAIL.TXT` file, that gives a cause
 
 The file [error.c](https://github.com/mbedmicro/DAPLink/blob/master/source/daplink/error.c) in the DAPLink source can help in diagnosing what these errors mean.
 
-# UART Connection
+## UART Connection
 
 Due to the number of pins on the nRF51822, only the uart TX and RX lines are connected between the interface MCU and the target MCU. This means that there is no hardware flow control possible. This means that at higher serial speeds (baud rates above 9600), the micro:bit may drop characters being sent to it.
 
-# HID and CMSIS-DAP
+## HID and CMSIS-DAP
 
 The HID endpoint is for a CMSIS-DAP channel. This can most easily be used [with pyOCD](https://github.com/mbedmicro/pyOCD), an open source python library for programming and debugging ARM Cortex-M microcontrollers using CMSIS-DAP

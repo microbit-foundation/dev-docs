@@ -8,7 +8,7 @@ permalink: /software/python-editor/
 ref: python-editor
 lang: en
 ---
-
+## Overview
 The [Python Editor](htps://python.microbit.org) is a free, browser based coding environment for creating [MicroPython](./micropython/) projects with the BBC micro:bit.
 
 Use common snippets of code, add/remove files and modules, and upload/download .Hex or .py files.

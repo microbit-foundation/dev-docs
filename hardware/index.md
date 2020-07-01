@@ -9,7 +9,7 @@ ref: hardware
 lang: en
 ---
 
-# Overview
+## Overview
 {:notoc}
 
 * TOC
@@ -19,10 +19,10 @@ lang: en
 ![2.0 back](/docs/hardware/assets/microbit-overview-back-2.svg)
 
 
-## Hardware block diagram
+### Hardware block diagram
 ![2.0 block](/docs/hardware/assets/v2-block.svg)
 
-# Getting Started With the micro:bit Hardware
+## Getting Started With the micro:bit Hardware
 
 The micro:bit is an ARM based, Single Board Computer (SBC) that contains an application processor with a variety of on-chip perhipherals.Other peripherals are connected to this chip.
 
@@ -37,9 +37,9 @@ Two key pieces of information to help understand the internals of the micro:bit 
 * The [reference design](./reference-design), which is a complete module design of a compatible micro:bit, and is designed to be a starting point for anyone interested in understanding the micro:bit or designing their own variant.
 
 
-# Hardware Description
+## Hardware Description
 
-## nRF52 Application Processor
+### nRF52 Application Processor
 
 The nRF52 application processor is where user programs run.
 A single, complete application including user code, runtime code and bluetooth stack
@@ -59,7 +59,7 @@ via an off-chip aerial.
 | More Info     | [Software](../software), [NRF52 datasheet](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52833.html&cp=3_1)
 
 
-## Bluetooth Wireless Communication
+### Bluetooth Wireless Communication
 
 The on board 2.4GHz transciever supports Bluetooth communications via the [Nordic S113 SoftDevice](https://www.nordicsemi.com/Software-and-tools/Software/S113),
 which provides a fully qualified Bluetooth low energy stack.
@@ -79,7 +79,7 @@ including smartphones and tablets.
 | More Info     | [Bluetooth](../bluetooth)
 
 
-## Low level radio communications
+### Low level radio communications
 
 The on board 2.4GHz transciever supports a number of other radio communications standards, on which we build the microbit-radio protocol
 This protocol provides a very simple small-packet broadcast radio interface between other devices
@@ -101,7 +101,7 @@ allowing for simple user managed device addressing and filtering to take place.
 | More Info     | [DAL Radio](https://lancaster-university.github.io/microbit-docs/ubit/radio/)
 
 
-## Buttons
+### Buttons
 
 The two buttons on the front of the micro:bit, and the 1 button on the back,
 are tact momentary push to make buttons. The back button is connected to the KL27
@@ -123,7 +123,7 @@ Both A and B buttons are connected to GPIO pins that are also accessible on the 
 | Pullup        | (A & B) external 4K7, (System) 10K
 
 
-## Display
+### Display
 
 The display is a 5x5 array of LEDs.
 It is connected to the micro:bit as a 3x9 matrix.
@@ -144,7 +144,7 @@ which is roughly proportional to ambient light levels.
 | Sensing Range | TBC, 10 levels from off to full on
 | Colour sensitivity | red centric, red is 700nm
 
-## Motion sensor
+### Motion sensor
 
 The micro:bit has a combined accelerometer and magnetometer chip that provides 3-axis sensing and magnetic field strength sensing.
 It also includes some on board gesture detection (such as fall detection) in hardware,
@@ -164,7 +164,7 @@ The micro:bit has a footprint for two different motion sensors: one made by ST (
 | On board gestures | 'freefall'
 | Other gestures | Other gestures are implemented by software algorithms in the runtime.
 
-## Temperature sensing
+### Temperature sensing
 
 The NRF52 application processor has an on board core temperature sensor.
 This is exposed via the standard runtime software, and provides an estimate of ambient
@@ -178,7 +178,7 @@ temperature.
 | Accuracy      | +/-5C (uncalibrated)
 | More Info     | [DAL Thermometer](https://lancaster-university.github.io/microbit-docs/ubit/thermometer/)
 
-## Speaker
+### Speaker
 
 In addition to outputing sound via PWM on the pins, the micro:bit has a PCB mounted magnetic speaker
 to which sound output is mirrored. 
@@ -190,7 +190,7 @@ to which sound output is mirrored.
 | Self-resonant frequency | 2700Hz 
 | More Info     | [Datasheet](https://datasheet.lcsc.com/szlcsc/1811151451_Jiangsu-Huaneng-Elec-MLT-8530_C94599.pdf)
 
-## Microphone
+### Microphone
 
 An on board MEMs microphone provides a sound input to the micro:bit and a built in LED
 indicator on the front of the board shows the user when this is live.
@@ -205,7 +205,7 @@ indicator on the front of the board shows the user when this is live.
 | Polar pattern | Omnidirectional
 | More Info     | [Datsheet](https://www.knowles.com/docs/default-source/model-downloads/spu0410lr5h-qb-revh32421a731dff6ddbb37cff0000940c19.pdf?Status=Master&sfvrsn=cebd77b1_4)
 
-## General Purpose Input/Output Pins
+### General Purpose Input/Output Pins
 
 The edge connector brings out many of the GPIO circuits of the application
 processor. Some of these circuits are shared with other functions of the micro:bit, but
@@ -232,7 +232,7 @@ features are turned off.
 | Pads| 5 pads, with 4mm holes
 
 
-## Power supply
+### Power supply
 
 Power to the micro:bit may be provided via the USB connection, via the
 interface chip (which has an on-board regulator), or via a battery plugged into the top
@@ -250,7 +250,7 @@ bottom. The 3V pad at the bottom can be used to supply a small amount of power e
 | More Info | [Power supply](./powersupply)
 
 
-## Interface
+### Interface
 
 The interface chip handles the USB connection, and is used for flashing
 new code to the micro:bit, sending and receiving serial data back and forth to your
@@ -267,7 +267,7 @@ main computer.
 | More Info | [DAPLink](/software/daplink-interface/), [KL27 reference manual](https://www.nxp.com/docs/en/reference-manual/KL27P64M48SF6RM.pdf) [KL27Z data sheet](https://www.nxp.com/docs/en/data-sheet/KL27P64M48SF6.pdf)
 
 
-## USB communications
+### USB communications
 
 The micro:bit has an on board USB communications stack, that is built into the firmware
 of the interface chip. This stack provides the ability to drag and drop files onto the
@@ -286,7 +286,7 @@ of application programs.
 | More Info | [DAPLink](/software/daplink-interface/)
 
 
-## Debugging
+### Debugging
 
 The interface processor can be used with special host tools to debug
 code that is running on the application processor. It connects to the application
@@ -301,7 +301,7 @@ recover a lost bootloader.
 | Options       | JLink/OB (via different firmware)
 | More Info     | ??
 
-## Mechanical
+### Mechanical
 
 We have some [nice 2D and 3D CAD drawings and models of the micro:bit](https://github.com/microbit-foundation/microbit-reference-design) including all the important dimensions. These models can be used as a basis for generating
 really nice marketing and project images of the micro:bit, but also as a basis for accurate
@@ -313,7 +313,7 @@ manufacture of attachments e.g. via 3D printing.
 | Weight        | TBC
 
 
-# Links
+### Links
 
 [BBC Technical Specifications](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/specs)
 

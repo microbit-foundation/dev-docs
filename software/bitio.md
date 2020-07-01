@@ -15,7 +15,7 @@ review-with: jonnya
 ## Overview
 bitio (pronounced bitty-o) is a micro:bit I/O library for Python. It allows you to run code in Python on a PC/Mac/Linux/Raspberry Pi and interact directly with the micro:bit. It works with both Python 2 and with Python 3 on Mac, PC, Raspberry Pi and Linux.
 
-## Why would you use bitio?
+### Why would you use bitio?
 The library is useful if you want to use the micro:bit as an input or an output device for other programs, e.g. for Minecraft. Tilt your micro:bit, and something happens in the Minecraft world. It can be used for anything though, where you want to use the input and output devices on the micro:bit inside a Python program on a bigger computer.
 
 ## Getting Started

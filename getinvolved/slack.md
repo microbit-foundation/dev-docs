@@ -40,7 +40,7 @@ If you'd like to join the slack channel, please fill in the form below. This for
 <iframe title="Feedback Form" class="freshwidget-embedded-form" id="freshwidget-embedded-form" src="https://support.microbit.org/widgets/feedback_widget/new?&widgetType=embedded&formTitle=Join+Slack&submitTitle=Request+to+join&submitThanks=Thanks.+This+is+a+manual+process+so+you+should+get+your+invitation+shortly.&screenshot=no&attachFile=no&searchArea=no&captcha=yes&helpdesk_ticket[description]=Please+could+I+join+the+slack+channel%3F&helpdesk_ticket[subject]=Request+to+join+Slack&helpdesk_ticket[type]=Question" scrolling="no" height="500px" width="100%" frameborder="0" >
 </iframe>
 
-<h2>Other channels and communities</h2>
+## Other channels and communities
 In addition to the Foundation's own channels of communication, there are many other online communities of support.
 
 - [MakeCode micro:bit forum](https://forum.makecode.com/c/microbit/11)

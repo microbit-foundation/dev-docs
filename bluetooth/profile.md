@@ -9,7 +9,7 @@ ref: bluetooth
 lang: en
 ---
 
-# Overview
+## Overview
 
 The micro:bit supports Bluetooth via a single profile BBC micro:bit profile 
 which was custom developed for the device. This profile
@@ -64,7 +64,7 @@ implement other Bluetooth profiles. You would need to use the mbed C/C++ environ
 to do this.
 
 
-# Further information
+## Further information
 
 [Martin Woolley's Bluetooth Blog](http://bluetooth-mdw.blogspot.co.uk/p/bbc-microbit.html) has a range of information on using Bluetooth with micro:bit
 

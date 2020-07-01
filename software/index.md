@@ -11,7 +11,7 @@ assigned-to: jonnya/davidw
 review-with: jonnya
 ---
 
-# Overview
+## Overview
 {:.no_toc}
 
 * TOC
@@ -28,7 +28,7 @@ micro:bit, one that is running software entirely to facilitate the flashing (the
 ![Software flow](/docs/software/assets/overview.png)
 
 
-# High Level Programming Languages
+## High Level Programming Languages
 
 The 'high level' programming languages for the micro:bit break down into
 two broad categories
@@ -36,7 +36,7 @@ two broad categories
 * Compiled languages: your program is compiled to ARM assembler or some other kind of bytecode before being copied onto the micro:bit.
 * Interpreted Languages: both your script and an interpreter for it are copied onto the micro:bit. Because the interpreter is on the micro:bit itself, these languages typically also allow you to program the micro:bit 'live' over USB by typing commands.
 
-## Compiled Languages
+### Compiled Languages
 
 *C/C++, while certainly compiled, is not considered a high-level language in this context*
 
@@ -50,7 +50,7 @@ handled by the micro:bit runtime and mbed. A pre-compiled runtime image is
 included in the browser and concatenated with the compiled script before
 being presented for download.
 
-## Interpreted Languages
+### Interpreted Languages
 
 In the [official micro:bit editors](https://microbit.org/code), only Python is interpreted. This is done by the use of the MicroPython interpreter.
 
@@ -58,7 +58,7 @@ The details of this are documented in the [MicroPython](/software/micropython) p
 
 There is also a [port of the Javascript interpreter Espruino](http://www.espruino.com/MicroBit) that runs on the micro:bit.
 
-# Coding environments and IDEs
+## Coding environments and IDEs
 
 There are a huge number of possible coding environments that you can use
 to program the micro:bit.
@@ -75,7 +75,7 @@ Here's a non-exhaustive list of possible code editors for use with the micro:bit
 * [Edublocks (Python with blocks)](https://app.edublocks.org/#MicroBit)
 
 
-# From Coding Environment to micro:bit
+## From Coding Environment to micro:bit
 
 Each of the coding environments generates a special file called a .hex file, which
 contains code for your micro:bit, written in a format it can understand.
@@ -92,7 +92,7 @@ You can read more about [bluetooth flashing](/bluetooth/profile) or
 [bluetooth apps](/bluetooth/apps-and-examples) by following these links.
 
 
-# micro:bit Low Level (C/C++) Software Stack
+## micro:bit Low Level (C/C++) Software Stack
 
 When you write an application for your micro:bit, other pieces of software are
 joined together with your application to make up the final .hex file that is

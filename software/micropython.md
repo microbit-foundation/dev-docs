@@ -10,7 +10,7 @@ lang: en
 ---
 
 
-# Overview
+## Overview
 
 MicroPython is a version of the popular Python programming language for
 devices like the micro:bit. It's free software: creating, maintaining and
@@ -27,13 +27,13 @@ tools to interact with the device (for advanced users only).
 
 
 
-# MicroPython Tools
+## MicroPython Tools
 [uflash](https://uflash.readthedocs.io/en/latest/) and
 [microfs](https://microfs.readthedocs.io/en/latest/).
 Finally, there are great [tutorials](https://microbit-micropython.readthedocs.io/en/latest/tutorials/introduction.html) for MicroPython on the micro:bit.
 T
 
-# What is MicroPython?
+## What is MicroPython?
 
 MicroPython is just as easy to learn as the other programming languages but
 differs from them in several important respects:
@@ -59,7 +59,7 @@ languages. You inadvertantly use Python *every day* when you use YouTube,
 Google, Facebook, Instagram, DropBox and a plethora of other online services.
 These skills are valuable: Python programmers are in demand.
 
-## The MicroPython Software
+### The MicroPython Software
 
 MicroPython is itself written in C++. The MicroPython "runtime" is built using
 a set of offline tools. The output from this build process is a `.hex` file
@@ -81,7 +81,7 @@ contain some of your code, it's still possible to connect with the REPL and
 interact with your program. This is very useful for debugging purposes.
 
 
-## Adding a User Application to MicroPython
+### Adding a User Application to MicroPython
 
 Both the web hosted and the offline editor (Mu) have a copy of this MicroPython
 .hex file inside them, as a plain text file.
@@ -107,7 +107,7 @@ or until an error occurs (at which time the program will stop and scroll a
 helpful error message on the device).
 
 
-## Is MicroPython Compiled or Interpreted? It's Both!
+### Is MicroPython Compiled or Interpreted? It's Both!
 
 Compilation is when code is turned into instructions the computer understands.
 As a result, these instructions are evaluated very quickly. Interpretation is
@@ -145,9 +145,7 @@ hardware, but they are implemented in software. This is what allows
 MicroPython to be easily 'ported' onto different computer systems
 with different processors.
 
-# Links
-
-## Code Editors and Tools
+### Code Editors and Tools
 
 The [Python in Education](http://pyedu.io/) website contains lots of
 [micro:bit related resources](http://pythonineducation.org/en/microbit/) and
@@ -161,24 +159,24 @@ A couple of Python modules provide code and command line commands for
 [flashing your micro:bit](https://uflash.readthedocs.io/en/latest/) and
 [interacting with the filesystem](https://microfs.readthedocs.io/en/latest/).
 
-## Community Contributions
+### Community Contributions
 
 Many people in the international Python community have contributed free-to-use
 resources via the [MicroPython / BBC micro:bit World Tour](https://microworldtour.github.io/).
 
 [Online python simulator](https://create.withcode.uk/)
 
-## Teaching Resources
+### Teaching Resources
 
 [Grok Learning](https://groklearning.com/microbit/) provides an online MicroPython code editor, Blockly visual programming, full micro:bit simulator, curriculum-aligned teaching material and auto-marked problems.
 
-## Documentation
+### Documentation
 
 Tutorials and API documentation for developers can be
 [found here](https://microbit-micropython.readthedocs.io/en/latest/).
 
 
-## Logging an Issue with the Development Team
+### Logging an Issue with the Development Team
 
 [Show open issues](https://github.com/bbcmicrobit/micropython/issues)
 
@@ -186,7 +184,7 @@ Tutorials and API documentation for developers can be
 
 [Ask a question on the mailing list](https://mail.python.org/mailman/listinfo/microbit) (you must be a member of the mailing list before you can post to it).
 
-## Source Code
+### Source Code
 
 [MicroPython on the micro:bit source code](https://github.com/bbcmicrobit/micropython)
 
@@ -202,7 +200,7 @@ Tutorials and API documentation for developers can be
 
 [microfs](https://github.com/ntoll/microfs)
 
-## Other Links
+### Other Links
 
 All development is covered by the Python Software Foundation's
 [code of conduct](https://www.python.org/psf/codeofconduct/).
