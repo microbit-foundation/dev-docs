@@ -23,7 +23,7 @@ Power from the micro:bit can be provided by the 3V and GND pins to small externa
 
 It's is important to stay within the design parameters of the board:
 
-* When powered from USB, the on board interface chip (KL26) uses it's on chip
+* When powered from USB, the on board interface chip (KL26<span class="v1">v1</span>/KL27<span class="v2">v2</span>) uses it's on chip
 regulator to provide power, and this chip is rated at a maximum of 120mA.
 
 * The on-board current budget will vary depending on the use of the display,
@@ -31,8 +31,7 @@ the Bluetooth, and other peripherals. You should allow a worst case budget
 of 30mA for when all on board peripherals are in use, leaving 90mA for circuits
 plugged into the edge connector.
 
-* When powered from a battery, the KL26 is not powered up (and note that the
-System LED will not light up when powered from battery)
+* When powered from a battery, the KL chip is not powered up and the system LED will not light up.
 
 * A low-Vf diode is used to switch between sources. The diode prevents back-powering of any source from any other source and means you can have a USB cable and battery pack connected simultaneously.
 

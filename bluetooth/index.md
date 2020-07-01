@@ -8,7 +8,7 @@ permalink: /bluetooth/
 ref: bluetooth
 lang: en
 ---
-
+# Overview
 The micro:bit processor has an on board
 [Bluetooth](http://blog.bluetooth.com/a-developers-guide-to-bluetooth/) transceiver. Combined with a PCB trace aerial and other minor
 components, and the Nordic [Soft Device 110](https://www.nordicsemi.com/Software-and-Tools/Software/S110) <span class="v1">v1</span> / [Soft Device 140](https://www.nordicsemi.com/Software-and-tools/Software/S140) <span class="v2">v2</span> stack, this gives
