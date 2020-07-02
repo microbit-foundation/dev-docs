@@ -13,7 +13,7 @@ jobs:
     - uses: peter-evans/link-checker@v1
       with:
         # Only check external links 
-        args: -v -x "^[^:]+$" -d . -t 30 -r *
+        args: -v -x "^[^:]+$|(?=https://uk.farnell.com/*)|(https://www.kitronik.co.uk/pdf/bbc_microbit_mechanical_datasheet_V2.pdf)" -d . -t 30 -r *
     - name: Create Issue From File
       uses: peter-evans/create-issue-from-file@v2
       with:
