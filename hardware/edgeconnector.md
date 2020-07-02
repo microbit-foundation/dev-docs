@@ -279,3 +279,6 @@ edge connector? Share your designs and discoveries with us!
 [2D CAD drawing](https://www.kitronik.co.uk/pdf/bbc_microbit_mechanical_datasheet_V2.pdf)
 This drawing has all the key micro:bit dimensions, including the pin spacing of the
 various pins of the edge connector on the micro:bit board.
+
+[Kitronik BBC micro:bit CAD Resources](https://kitronik.co.uk/blogs/resources/bbc-microbit-cad-resources)
+This page contains a range of resources that can be used to create online reources or 3D printed designs 
