@@ -41,7 +41,7 @@ Users can [publish their own tutorials](https://makecode.com/writing-docs/user-t
 
 ### Community
 There are a variety of ways to get involved and interact 
-- Join the [micro:bit developer community on Slack](./get-involved/slack/)
+- Join the [micro:bit developer community on Slack](../../get-involved/where-to-find/)
 - Raise a [MakeCode issue or feature request](https://github.com/Microsoft/pxt-microbit/issues)
 - Ask the MakeCode development team on [MakeCode forum for micro:bit](https://forum.makecode.com/c/microbit/11)
 - Help [Translate MakeCode](https://makecode.com/translate) into your own language.

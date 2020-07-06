@@ -33,11 +33,9 @@ The interface processor does not connect to any of the micro:bit peripherals.
 
 Two key pieces of information to help understand the internals of the micro:bit are:
 
-* The [schematics](./schematic), which shows the detailed component data and connectivity of the device.
+* The [schematics](../schematic), which show the detailed component data and connectivity of the device.
 
-* The [reference design](./reference-design), which is a complete module design of a compatible micro:bit,
-  and is designed to be a starting point for anyone interested in understanding the micro:bit
-  or designing their own variant.
+* The [reference design](../reference-design), which is a complete module design of a compatible micro:bit,and is designed to be a starting point for anyone interested in understanding the micro:bit or designing their own variant.
 
 
 ## Hardware Description
@@ -59,7 +57,7 @@ via an off-chip aerial.
 | RAM           | 16KB
 | Speed         | 16MHz
 | Debug         | SWD, jlink/OB
-| More Info     | [Software](../software), [NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
+| More Info     | [Software](../../software), [NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
 
 
 ### Bluetooth Wireless Communication
@@ -79,7 +77,7 @@ including smartphones and tablets.
 | Role          | [GAP Peripheral](http://bluetooth-mdw.blogspot.co.uk/2016/07/microbit-and-bluetooth-roles.html)
 | Congestion avoidance | Adaptive Frequency Hopping
 | Profiles      | [BBC micro:bit profile](https://lancaster-university.github.io/microbit-docs/ble/profile/)
-| More Info     | [Bluetooth](../bluetooth)
+| More Info     | [Bluetooth](../../bluetooth)
 
 
 ### Low Level Radio Communications
@@ -226,7 +224,7 @@ bottom. The 3V pad at the bottom can be used to supply a small amount of power e
 | Battery connector | JST X2B-PH-SM4-TB
 | Battery current | TBC
 | Max current provided via edge connector | 90mA
-| More Info | [Power supply](./powersupply)
+| More Info | [Power supply](../powersupply)
 
 
 ### Interface

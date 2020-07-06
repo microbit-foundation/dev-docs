@@ -25,8 +25,8 @@ The BBC micro:bit [Bluetooth profile is defined in the DAL](https://lancaster-un
 
 You can flash a pre-compiled Hex files, to the micro:bit that enables bluetooth services.As Bluetooth is memory intensive, these are supplied as either 'without Magnetometer Service' or 'without DFU Service':
 
-[Without magnetometer](bluetooth/assets/BLE_All_Services_DAL_2-1-1-No-Mag.hex)
-[Without DFU](bluetooth/assets/BLE_All_Services_DAL_2-1-1-No-DFU.hex)
+[Without magnetometer](/docs/bluetooth/assets/BLE_All_Services_DAL_2-1-1-No-Mag.hex)
+[Without DFU](/docs/bluetooth/assets/BLE_All_Services_DAL_2-1-1-No-DFU.hex)
 
 The DAL contains the [C++ source for the BLE service files](https://github.com/lancaster-university/microbit-samples/blob/master/source/examples/bluetooth-services/main.cpp)
 

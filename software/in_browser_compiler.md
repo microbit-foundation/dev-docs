@@ -44,7 +44,7 @@ computer.
 converted into javascript. The in-browser-compiler then converts it into ARM machine code instructions.
 
 1c. The ARM machine code instructions are 'linked' with the Lancaster University
-runtime code, [the DAL](/software/runtime-mbed) and converted into an [Intel-HEX file
+runtime code, [the DAL](/software/runtime) and converted into an [Intel-HEX file
 format](/software/hex-format). This is done by ensuring that the in-browser-compiler knows the entry points
 of key functions that it needs to be able to call out into.
 
