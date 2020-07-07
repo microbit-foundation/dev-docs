@@ -25,7 +25,7 @@ The v1.5 micro:bit has a footprint for two different motion sensors: one made by
 |---------------------|------------------|------------------------|
 | micro:bit v1.3 (MMA8653+MAG3110) | 0x1D (0x3A/0x3B) | 0x0E (0x1C/0x1D) |
 | micro:bit v1.5 variant 1 (LSM303AGR) | 0x19 (0x32/0x33) | 0x1E (0x3C/0x3D)  |
-| micro:bit v1.5 variant 2 (FXOS8700CQ) | 0x1E (0x3C/0x3D) | 0x1E (0x3C/0x3D) |
+| micro:bit v1.5 variant 2 (FXOS8700CQ) | 0x1F (0x3E/0x3F) | 0x1E (0x3E/0x3F) |
 
 Overall, this means 0x1D, 0x0E (from v1.3), 0x1E and 0x19 (for the revision) are reserved for onboard use.
 

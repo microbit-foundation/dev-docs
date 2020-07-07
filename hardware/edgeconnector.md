@@ -32,7 +32,7 @@ front rings, but the back small strips are unconnected.
 
 ## Edge Connector Pins
 
-![edge connector](/docs/hardware/assets/edge_connector.svg)
+![edge connector v2](/docs/hardware/assets/edge-connector-2.svg)![edge connector v1](/docs/hardware/assets/edge_connector.svg)
 
 ### microbit.pinout.xyz
 [microbit.pinout.xyz](https://microbit.pinout.xyz) is a fantastic resource for further information on the micro:bit pins and how they are used by some popular accessories
