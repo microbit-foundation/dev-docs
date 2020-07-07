@@ -62,10 +62,10 @@
             <path d="M224,136L224,0L24,0C10.7,0 0,10.7 0,24L0,488C0,501.3 10.7,512 24,512L360,512C373.3,512 384,501.3 384,488L384,160L248,160C234.8,160 224,149.2 224,136ZM384,121.9L384,128L256,128L256,0L262.1,0C268.5,0 274.6,2.5 279.1,7L377,105C381.5,109.5 384,115.6 384,121.9Z" style="fill:white;fill-rule:nonzero;"/>
         </g>
     </g>
-    <g transform="matrix(0.909347,0,0,0.909347,-12.004,-88.5431)">
+    <g transform="matrix(0.909347,0,0,0.909347,-12.004,-90.5764)">
         <text x="304.589px" y="212.387px" style="font-family:'GTWalsheim-Bold', 'GT Walsheim';font-weight:600;font-size:16px;fill:rgb(205,3,101);">USB</text>
     </g>
-    <g transform="matrix(0.918137,0,0,0.918137,248.098,-92.3737)">
+    <g transform="matrix(0.88586,0,0,0.88586,258.535,-85.5813)">
         <text x="304.589px" y="212.387px" style="font-family:'GTWalsheim-Bold', 'GT Walsheim';font-weight:600;font-size:16px;fill:rgb(205,3,101);">S<tspan x="313.965px " y="212.387px ">W</tspan>D</text>
     </g>
     <defs>

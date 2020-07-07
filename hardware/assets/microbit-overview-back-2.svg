@@ -1427,7 +1427,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.24748737"
-     inkscape:cx="999.80354"
+     inkscape:cx="357.34651"
      inkscape:cy="1245.7143"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -1448,7 +1448,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -4213,7 +4213,7 @@
          id="tspan3368-05-1"
          x="375.58923"
          y="56.435997"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.75555611px;font-family:'GT Walsheim';-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px">Serial indictator</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.75555611px;font-family:'GT Walsheim';-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px">USB activity indictator</tspan></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#cd0365;stroke-width:1.53305507;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker6192-7);marker-end:url(#marker6192-7)"
        d="m 317.29644,53.444243 c 3.03234,28.09826 3.03234,28.09826 3.03234,28.09826"

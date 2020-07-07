@@ -25,7 +25,7 @@ Typically, a program is written on the host computer and then transferred to
 the micro:bit over USB. There are actually two chips on the
 micro:bit, one that is running software entirely to facilitate the flashing (the KL26Z) and one that actually runs the user's code (the nRF51822).
 
-![Software flow](/docs/software/assets/overview.png)
+![Software flow](/docs/software/assets/software-programming.svg)
 
 
 ## High Level Programming Languages

@@ -17,9 +17,9 @@ lang: en
 
 The micro:bit runtime, also known as the DAL/CODAL is software that runs on a micro:bit to support the majority of the micro:bit programming languages. It can help you understand how the micro:bit works, and also will help you understand where to start if you want to dive deeper into the micro:bit, write support software for your own micro:bit hardware extensions, and tailor or improve something on the micro:bit.
 
-![Architectural Diagram](/docs/software/assets/software-overview.png){: style="max-width:50%;"}
+![Software Architectural Diagram v1](/docs/software/assets/software-overview.svg){: style="max-width:50%;"} ![Software Architectural Diagram v2](/docs/software/assets/software-overview-2.svg){: style="max-width:50%;"}
 
-There are a number of important software layers that run on the micro:bit to enable easy to use languages such as Javascript and MakeCode to be used. Some of these, like ARM mbed and MicroPython existed before the BBC micro:bit project started, and others, such as the micro:bit runtime were written specifically for the micro:bit.
+There are a number of important software layers that run on the micro:bit to enable easy to use languages such as Javascript to be used. Some of these, like ARM mbed and MicroPython existed before the BBC micro:bit project started, and others, such as the micro:bit runtime were written specifically for the micro:bit.
 
 ARM mbed provides a Hardware Abstraction Layer (HAL) for chips using ARM Cortex processors. This abstraction layer presents a uniform layer that developers can use to write software for any ARM based processor - including the Nordic chip used on the micro:bit. It provides easy access to peripheral interfaces such as SPI, I2C and serial for user by higher level environments.
 

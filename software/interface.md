@@ -11,9 +11,13 @@ lang: en
 
 ## Target and Interface MCUs
 
-One of the coolest features of the micro:bit is the way that it presents itself as a USB disk when it is connected over USB, and can be programmed through this interface without the need to install any drivers. Furthermore, no matter what code you run on your micro:bit, or how you manage to crash the device, you can always still put a new program on using the USB connection.
+The micro:bit presents itself as a USB disk when it is connected over USB, and can be programmed through this interface without the need to install any drivers. This makes it easier to use as a beginner. Furthermore, no matter what code you run on your micro:bit, or how you manage to crash the device, you can always still put a new program on using the USB connection.This is made possible by having a separate 'interface chip' or 'interface MCU' on the micro:bit dedicated to USB connections, programming and debugging.
 
-This is made possible by having a separate 'interface chip' or 'interface MCU' on the micro:bit dedicated to USB connections, programming and debugging. On the micro:bit, that chip is a **Freescale KL26Z**. The chip that developers' code runs on, and that all the peripherals are connected to (the nRF51822) is called the 'target MCU'. See the [Hardware](/hardware) page and the schematic for more details about how these two devices are connected.
+The **Interface MCU** is a **Freescale KL27Z**<span class="v2">v2></span> or **Freescale KL26Z**<span class="v1">v1></span>. 
+
+The chip that developers' code runs on, and that all the peripherals are connected to is called the 'target MCU'. See the [Hardware](/hardware) page and the schematic for more details about how these two devices are connected.
+
+The **Target MCU** is a **Nordic Semiconductor nRF52833**<span class="v2">v2></span> or **Nordic Semiconductor nRF51822**<span class="v1">v1></span>. 
 
 <img src="/docs/software/assets/Interface.svg" alt="DAPlink interface" style="background:#eeeeff; padding:20px;">
 
@@ -32,10 +36,7 @@ On the [reference design](/hardware/reference-design) the interface circuit is c
 
 ## DAPLink software
 
-
-This interface chip is running software from ARM mbed called `DAPLink`.
-
-The source is [available on GitHub](https://github.com/mbedmicro/DAPLink)
+This interface chip is running software from [arm MBED](https://os.mbed.com/) called [DAPLink](https://github.com/ARMmbed/DAPLink).
 
 This software provides three USB endpoints that have specific purposes:
 
@@ -47,20 +48,22 @@ This software provides three USB endpoints that have specific purposes:
 The DAPLink software and interface chip are part of the [ARM mbed HDK](https://developer.mbed.org/handbook/mbed-HDK)
 and the [mbed Enabled program](https://www.mbed.com/en/about-mbed/mbed-enabled/)
 
-The micro:bit currently ships with DAPLink bootloader at version 0243 and [interface at version 0249](https://github.com/ARMmbed/DAPLink/releases/tag/v0249).
+The micro:bit currently ships with DAPLink bootloader at version TBC and [interface at version TBC](https://github.com/ARMmbed/DAPLink/releases/tag/v0249).
 
-The following versions of the device have previously been shipped with the following DAPLink versions
+The following versions of the device have previously been shipped with the following DAPLink versions:
 
- - v1.3: bl:0234 if:0234
- - v1.3B: bl:0234 if:0241 (built by Farnell for micro:bit commercial sales)
- - v1.5: bl:0243 if:0249
+ - v1.3:  bootloader:0234 interface:0234 [Download 0234](software/assets/DAPLink-factory-release/0234_kl26z_microbit_0x8000.hex){: .btn.sm-btn}
+ - v1.3B: bootloader:0234 interface:0241 (built by Farnell for micro:bit commercial sales) [Download 0234](software/assets/DAPLink-factory-release/0241_kl26z_microbit_0x8000.hex){: .btn.sm-btn}
+ - v1.5:  bootloader:0243 interface:0249 [Download 0234](software/assets/DAPLink-factory-release/0249_kl26z_microbit_0x8000.hex){: .btn.sm-btn}
+ - v2.0:  bootloader:TBC interface:TBC [Download TBC](#){: .btn.sm-btn}
 
 ### The DAPLink Boot Loader
 
 It is possible to update the version of DAPLink running on your micro:bit. This is done using the DAPLink bootloader. This means that in fact, DAPLink is built twice for the micro:bit.
 
-* Firstly `bootloader mode`: to target the KL26Z in 'bootloader mode', used for updating the main interface firmware. In this mode, the drive name is `MAINTENANCE` and hex files dropped onto the disk are written into the KL26 flash. These files MUST contain an image of DAPLink or equivalent.
-* Secondly in `interface mode` to target the nRF51822. In this mode the disk is called `MICROBIT` and the hex files dropped onto the micro:bit are written to the flash of the target MCU.
+1. `bootloader mode` is used to for updating the main interface firmware. In this mode, the drive name is `MAINTENANCE` and hex files dropped onto the disk are written into the 
+KL27Z<span class="v2">v2></span> or KL26Z<span class="v1">v1></span> flash. These files MUST contain an image of DAPLink or equivalent.
+2. `interface mode` is used to target the nRF52833<span class="v2">v2></span> or nRF51822<span class="v1">v1></span>. In this mode, the drive name is `MICROBIT` and the hex files dropped onto the micro:bit are written to the flash of the target MCU.
 
 
 ### Updating Your Version of DAPLink
@@ -81,9 +84,11 @@ After flashing occurs, there might also be a `FAIL.TXT` file, that gives a cause
 
 The file [error.c](https://github.com/mbedmicro/DAPLink/blob/master/source/daplink/error.c) in the DAPLink source can help in diagnosing what these errors mean.
 
+There is also a full list of [micro:bit error codes](https://support.microbit.org/en/support/solutions/articles/19000016969-micro-bit-error-codes) in our Knowledgebase.
+
 ## UART Connection
 
-Due to the number of pins on the nRF51822, only the uart TX and RX lines are connected between the interface MCU and the target MCU. This means that there is no hardware flow control possible. This means that at higher serial speeds (baud rates above 9600), the micro:bit may drop characters being sent to it.
+Due to the number of pins on the Nordic Semiconductor chip, only the uart TX and RX lines are connected between the interface MCU and the target MCU. This means that there is no hardware flow control possible. This means that at higher serial speeds (baud rates above 9600), the micro:bit may drop characters being sent to it.
 
 ## HID and CMSIS-DAP
 

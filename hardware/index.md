@@ -15,8 +15,7 @@ lang: en
 * TOC
 {:toc}
 
-![2.0 front](/docs/hardware/assets/microbit-overview-front-2.svg)
-![2.0 back](/docs/hardware/assets/microbit-overview-back-2.svg)
+![Board overview 2.0](/docs/hardware/assets/microbit-overview-2.png)
 
 
 ### Hardware block diagram
@@ -126,7 +125,7 @@ Both A and B buttons are connected to GPIO pins that are also accessible on the 
 ### Display
 
 The display is a 5x5 array of LEDs.
-It is connected to the micro:bit as a 3x9 matrix.
+It is connected to the micro:bit as a 5x5 matrix.
 Runtime software repeatedly refreshes this matrix at a high speed,
 such that it is within the user persistence of vision range, and no flicker is detected.
 This LED matrix is also used to sense ambient light,
@@ -137,7 +136,7 @@ which is roughly proportional to ambient light levels.
 | ---           | ---
 | Type          | minature surface mount red LED
 | Physical structure | 5x5 matrix
-| Electrical structure | 3x9
+| Electrical structure | 5x5
 | Intensity control | 10 steps
 | Intensity range | TBC
 | Sensing | ambient light estimation via software algorithm

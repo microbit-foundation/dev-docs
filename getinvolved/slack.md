@@ -4,8 +4,8 @@ order:
 title: Get Involved
 heading: Join the micro:bit developer conversation
 description: Sign up for the latest news and join us on Slack
-permalink: /get-involved/where-to-find/
-ref: get-involved
+permalink: /community/
+ref: community
 lang: en
 ---
 

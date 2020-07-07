@@ -47,5 +47,5 @@ cool accessories and add ons, or even suggestions for future versions of the mic
 ### Write
   * [Improve the documentation and this site](https://github.com/microbit-foundation/dev-docs), either reporting issues
 or adding documentation will be extremely helpful.
-  * Help build a community around micro:bit - join the [slack channel and Email list](/get-involved/where-to-find/),
+  * Help build a community around micro:bit - join the [slack channel and Email list](/community/),
 share the things you've created on twitter, blog about them!

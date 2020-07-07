@@ -36,7 +36,7 @@ It is possible to use the Python Editor offline to generate, upload and download
 
 ### Community
 There are a variety of ways to get involved and interact 
-- Join the [micro:bit developer community on Slack](../../get-involved/where-to-find/)
+- Join the [micro:bit developer community on Slack](../../community/)
 - Raise a [Python Editor issue or feature request](https://github.com/bbcmicrobit/PythonEditor/issues)
 - Ask a question on the [MicroPython forum for micro:bit](https://forum.micropython.org/viewforum.php?f=17&sid=de047c3e944921889becbc00f02a918f)
 - Help [Translate the Python Editor](https://support.microbit.org/en/support/solutions/articles/19000106022-translating-the-python-editor) into your own language.

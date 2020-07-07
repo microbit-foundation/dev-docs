@@ -61,7 +61,7 @@ as being 1.8V min (for 1.5 variants) or 1.95V min (for 1.3* variants dictated by
 
 | Device     | min   | max  | absolutemax
 |------------|-------|------|------------
-| NRF52      | 1.7V  | 3.6V | 5.8Vabs
+| NRF52      | 1.7V  | 3.6V | 3.9Vabs
 | KL27       | 1.71V | 3.6V | 3.8Vabs
 | LSM303     | 1.71V | 3.6V | 3.6Vabs
 
