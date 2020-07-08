@@ -2,7 +2,7 @@
 layout: page
 order:
 title: DAPLink and the USB Interface
-heading: DAPlink and the USB interface
+heading: DAPLink and the USB interface
 description: the DAPLink software running on the USB interface chip for the micro:bit provides the drag and drop programming and debugging features that make the micro:bit so easy to use.
 permalink: /software/daplink-interface/
 ref: software
@@ -13,11 +13,11 @@ lang: en
 
 The micro:bit presents itself as a USB disk when it is connected over USB, and can be programmed through this interface without the need to install any drivers. This makes it easier to use as a beginner. Furthermore, no matter what code you run on your micro:bit, or how you manage to crash the device, you can always still put a new program on using the USB connection.This is made possible by having a separate 'interface chip' or 'interface MCU' on the micro:bit dedicated to USB connections, programming and debugging.
 
-The **Interface MCU** is a **Freescale KL27Z**<span class="v2">v2></span> or **Freescale KL26Z**<span class="v1">v1></span>. 
+The **Interface MCU** is a **Freescale KL27Z** <span class="v2">v2</span> or **Freescale KL26Z** <span class="v1"> v1</span>. 
 
 The chip that developers' code runs on, and that all the peripherals are connected to is called the 'target MCU'. See the [Hardware](/hardware) page and the schematic for more details about how these two devices are connected.
 
-The **Target MCU** is a **Nordic Semiconductor nRF52833**<span class="v2">v2></span> or **Nordic Semiconductor nRF51822**<span class="v1">v1></span>. 
+The **Target MCU** is a **Nordic Semiconductor nRF52833** <span class="v2">v2</span> or **Nordic Semiconductor nRF51822** <span class="v1">v1</span>. 
 
 <img src="/docs/software/assets/Interface.svg" alt="DAPlink interface" style="background:#eeeeff; padding:20px;">
 
@@ -52,18 +52,21 @@ The micro:bit currently ships with DAPLink bootloader at version TBC and [interf
 
 The following versions of the device have previously been shipped with the following DAPLink versions:
 
- - v1.3:  bootloader:0234 interface:0234 [Download 0234](software/assets/DAPLink-factory-release/0234_kl26z_microbit_0x8000.hex){: .btn.sm-btn}
- - v1.3B: bootloader:0234 interface:0241 (built by Farnell for micro:bit commercial sales) [Download 0234](software/assets/DAPLink-factory-release/0241_kl26z_microbit_0x8000.hex){: .btn.sm-btn}
- - v1.5:  bootloader:0243 interface:0249 [Download 0234](software/assets/DAPLink-factory-release/0249_kl26z_microbit_0x8000.hex){: .btn.sm-btn}
- - v2.0:  bootloader:TBC interface:TBC [Download TBC](#){: .btn.sm-btn}
+| Board revision | Bootloader | Interface | Download
+| -------------- | ---------- | --------- | --------
+| 1.3            | 0234       | 0234      | [0234](/docs/software/assets/DAPLink-factory-release/0234_kl26z_microbit_0x8000.hex){: .btn.sm-btn}
+| 1.3b           | 0234       | 0241      | [0241](/docs/software/assets/DAPLink-factory-release/0241_kl26z_microbit_0x8000.hex){: .btn.sm-btn}
+| 1.5            | 0243       | 0249      | [0249](/docs/software/assets/DAPLink-factory-release/0249_kl26z_microbit_0x8000.hex){: .btn.sm-btn}
+| 2.0            | TBC        | TBC       | [Download TBC](#){: .btn.sm-btn}
+
 
 ### The DAPLink Boot Loader
 
 It is possible to update the version of DAPLink running on your micro:bit. This is done using the DAPLink bootloader. This means that in fact, DAPLink is built twice for the micro:bit.
 
 1. `bootloader mode` is used to for updating the main interface firmware. In this mode, the drive name is `MAINTENANCE` and hex files dropped onto the disk are written into the 
-KL27Z<span class="v2">v2></span> or KL26Z<span class="v1">v1></span> flash. These files MUST contain an image of DAPLink or equivalent.
-2. `interface mode` is used to target the nRF52833<span class="v2">v2></span> or nRF51822<span class="v1">v1></span>. In this mode, the drive name is `MICROBIT` and the hex files dropped onto the micro:bit are written to the flash of the target MCU.
+KL27Z <span class="v2">v2</span> or KL26Z <span class="v1">v1</span> flash. These files MUST contain an image of DAPLink or equivalent.
+2. `interface mode` is used to target the nRF52833 <span class="v2">v2</span> or nRF51822 <span class="v1">v1</span>. In this mode, the drive name is `MICROBIT` and the hex files dropped onto the micro:bit are written to the flash of the target MCU.
 
 
 ### Updating Your Version of DAPLink
