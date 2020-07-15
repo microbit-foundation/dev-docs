@@ -11,12 +11,12 @@ lang: en
 
 ## Overview
 
-The micro:bit supports Bluetooth via a single profile BBC micro:bit profile 
+The micro:bit supports Bluetooth via a single BBC micro:bit profile 
 which was custom developed for the device. This profile
 allows it to communicate with other BLE capable devices.
 
 If you are looking for information about the 'radio' feature, it is a [proprietary protocol from Nordic
-and Lancaster University](https://lancaster-university.github.io/microbit-docs/ubit/radio/). This is not Bluetooth.
+and Lancaster University](https://lancaster-university.github.io/microbit-docs/ubit/radio/). This is not Bluetooth and the difference is described further in [this article on using the micro:bit wirelessly](https://support.microbit.org/support/solutions/articles/19000083637-using-the-micro-bit-wirelessly-)
 
 
 ## BBC micro:bit Bluetooth Profile
@@ -62,6 +62,8 @@ There are some useful [advanced configuration options in the micro:bit runtime c
 It would be possible for anyone with the appropriate knowledge to define and
 implement other Bluetooth profiles. You would need to use the mbed C/C++ environment
 to do this.
+
+We are seeking collaborators to help us define the new profile elements that expose some of the <span class="v2">v2</span> features.
 
 
 ## Further information

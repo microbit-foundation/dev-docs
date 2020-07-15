@@ -90,6 +90,7 @@ allowing for simple user managed device addressing and filtering to take place.
 
 | item          | details
 | ---           | ---
+| Protocol      | [Micro:bit Radio](https://lancaster-university.github.io/microbit-docs/ubit/radio)
 | Freq band     | 2.4GHz
 | Channel rate  | 1Mbps or 2Mbps
 | Encryption    | None
@@ -97,7 +98,7 @@ allowing for simple user managed device addressing and filtering to take place.
 | Group codes   | 255
 | Tx power      | Eight user configurable settings from 0(-30dbm) to 7 (+4dbm)
 | Payload size  | 32 (standard) 255 (if reconfigured)
-| More Info     | [DAL Radio](https://lancaster-university.github.io/microbit-docs/ubit/radio/)
+| More Info     | [Micro:bit Radio](https://lancaster-university.github.io/microbit-docs/ubit/radio)
 
 
 ### Buttons

@@ -32,6 +32,9 @@ front rings, but the back small strips are unconnected.
 
 ## Edge Connector Pins
 
+The diagrams below show the assignation of the micro:bit pins. On the <span class="v2">v2</span> board revision
+Pin 9 is no longer jointly shared with the LED display.
+
 | v2   | v1
 | ---- | ---- 
 | ![edge connector v2](/docs/hardware/assets/edge-connector-2.svg) | ![edge connector v1](/docs/hardware/assets/edge_connector.svg)
