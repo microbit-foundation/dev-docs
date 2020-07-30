@@ -33,7 +33,6 @@ Overall, this means 0x1D, 0x0E (from v1.3), 0x1E and 0x19 (for the revision) are
 
 | accessory name | organisation | i2c address(es) used | 
 |----------------|--------------|-----------------------|
-| eg [banana-bit]()|eg Banana enterprises | eg 0x76, 0x29 |
 | [EDU:BIT](https://www.cytron.io/p-edubit)| Cytron Technologies | 0x08 (0x10/0x11) |
 
 
