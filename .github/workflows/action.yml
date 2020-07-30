@@ -1,0 +1,22 @@
+name: Check links
+
+on: 
+  schedule:
+    # Run everyday at 7:00 AM (See https://pubs.opengroup.org/onlinepubs/9699919799/utilities/crontab.html#tag_20_25_07)
+    - cron: "0 7 * * 1-5"
+
+jobs:
+  markdown-link-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: peter-evans/link-checker@v1
+      with:
+        # Only check external links 
+        args: -v -x "^[^:]+$|^https://uk\.farnell\.com/|^https://www\.kitronik\.co\.uk/pdf/bbc_microbit_mechanical_datasheet_V2\.pdf$" -d . -t 30 -r *
+    - name: Create Issue From File
+      uses: peter-evans/create-issue-from-file@v2
+      with:
+        title: Link Checker Report
+        content-filepath: ./link-checker/out.md
+        labels: links

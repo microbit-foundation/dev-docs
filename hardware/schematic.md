@@ -140,7 +140,7 @@ can be disabled in software to gain more general purpose IO pins.
 
 [BAT60A datasheet](http://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9)
 
-[CON1 datasheet](http://uk.farnell.com/jst-japan-solderless-terminals/s2b-ph-sm4-tb-lf-sn/connector-header-smt-r-a-2mm-2way/dp/9492615)
+[CON1 datasheet](https://uk.farnell.com/jst-japan-solderless-terminals/s2b-ph-sm4-tb-lf-sn/connector-header-smt-r-a-2mm-2way/dp/9492615)
 
 [SWD Interface](http://www.arm.com/products/system-ip/debug-trace/coresight-soc-components/serial-wire-debug.php)
 

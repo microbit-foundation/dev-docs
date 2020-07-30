@@ -272,7 +272,7 @@ recover a lost bootloader.
 | ---           | ---
 | Protocol      | CMSIS-DAP
 | Options       | JLink/OB (via different firmware)
-| More Info     | ??
+| More Info     | [MBED debugging micro:bit](https://os.mbed.com/docs/mbed-os/v6.0/debug-test/debug-microbit.html)
 
 ## Mechanical
 
@@ -290,7 +290,7 @@ manufacture of attachments e.g. via 3D printing.
 
 [BBC Technical Specifications](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/specs)
 
-[I2C specification](http://cache.nxp.com/documents/user_manual/UM10204.pdf)
+[I2C specification](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)
 
 [SPI 'specification'](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
 

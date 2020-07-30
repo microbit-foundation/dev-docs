@@ -327,7 +327,7 @@ manufacture of attachments e.g. via 3D printing.
 
 [Safety Advice](https://www.microbit.org/safety-advice)
 
-[I2C specification](http://cache.nxp.com/documents/user_manual/UM10204.pdf)
+[I2C specification](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)
 
 [SPI 'specification'](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
 
