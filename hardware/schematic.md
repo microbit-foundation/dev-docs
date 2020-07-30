@@ -123,10 +123,8 @@ Both the front and the back of each of the 5 round ring pads are electrically co
 A number of pins have alternate assigned functions for use by the micro:bit, many of these
 can be disabled in software to gain more general purpose IO pins.
 
-![edge connector](/docs/hardware/assets/edge_connector.svg)
 
-
-### Other Links
+### Further information
 
 [KL26 datasheet](http://www.nxp.com/webapp/search.partparamdetail.framework?PART_NUMBER=MKL26Z128VFM4)
 

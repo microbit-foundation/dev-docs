@@ -44,9 +44,9 @@
      showguides="false"
      inkscape:guide-bbox="true"
      inkscape:snap-center="true"
-     inkscape:zoom="0.84139764"
-     inkscape:cx="-311.22979"
-     inkscape:cy="351.17864"
+     inkscape:zoom="1.6827953"
+     inkscape:cx="568.25925"
+     inkscape:cy="446.25854"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
@@ -10885,15 +10885,6 @@
      style="fill:#bf4f4c;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2.00000119;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1" />
   <use
      style="fill:#ffffff;fill-opacity:1"
-     xlink:href="#glyph0-17"
-     x="633.9798"
-     y="337.33539"
-     id="use12331"
-     width="100%"
-     height="100%"
-     transform="translate(-373.1356,-4.4364408)" />
-  <use
-     style="fill:#ffffff;fill-opacity:1"
      xlink:href="#glyph0-7"
      x="639.73022"
      y="337.33539"
@@ -13306,4 +13297,13 @@
          style="stroke:none" />
     </g>
   </g>
+  <use
+     style="fill:#ffffff;fill-opacity:1"
+     xlink:href="#glyph0-4"
+     x="633.9798"
+     y="350.79849"
+     id="use11573-7"
+     width="100%"
+     height="100%"
+     transform="translate(-373.03115,-18.066647)" />
 </svg>
