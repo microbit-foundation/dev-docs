@@ -3,10 +3,12 @@ layout: hardware
 order:
 title: 1.3x micro:bit revision
 heading: 1.3x micro:bit revision
-description: Details of the 1.3x micro:bit revision, featuring individual accelerometer and magnetometer
-permalink: /hardware/1-3-revision/
+description: Details of the previous 1.3x micro:bit revision, containing individual accelerometer and magnetometers
+permalink: /hardware/previous-revision/
 ref: 1-3
 lang: en
+assigned-to: markw
+review-with: jonnya
 ---
 
 ## Overview
@@ -329,7 +331,7 @@ manufacture of attachments e.g. via 3D printing.
 
 [Safety Advice](https://www.microbit.org/safety-advice)
 
-[I2C specification](http://cache.nxp.com/documents/user_manual/UM10204.pdf)
+[I2C specification](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)
 
 [SPI 'specification'](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
 

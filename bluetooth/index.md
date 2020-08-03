@@ -46,10 +46,6 @@ Scratch.
 
 ## Links
 
-[Bluetooth Developer Studio](https://www.bluetooth.com/download-developer-studio)
-
-[Bluetooth Developer Studio and micro:bit](http://matchboxmobile.com/blog/bds-and-the-bbc-microbit/)
-
 [Bluetooth Specification](https://www.bluetooth.com/specifications/adopted-specifications)
 
 

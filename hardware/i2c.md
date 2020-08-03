@@ -34,4 +34,12 @@ If you make an accessory for the micro:bit, please help us by editing the table 
 
 | accessory name | organisation | i2c address(es) used | 
 |----------------|--------------|-----------------------|
-| eg [banana-bit]()|eg Banana enterprises | eg 0x76, 0x29 |
+| [EDU:BIT](https://www.cytron.io/p-edubit)| Cytron Technologies | 0x08 (0x10/0x11) |
+
+
+# Acceptable capacitance for I2C accessories
+
+In our recent testing for the motion sensor change, we found that a 10nF cap connected SCL-GND slowed down the i2c bus, but it continued to operate. Separately, capacitance was added to SDA until it ceased operation:
+- 100KHz continued with 1nF but failed with 2nF.
+- 400kHz continued with 150pF but failed with 180pF.
+No difference was seen between the revisions.
