@@ -37,7 +37,7 @@ If you'd like to join the slack channel, please fill in the form below. This for
 <style type="text/css" media="screen, projection">
 	@import url(http://assets.freshdesk.com/widget/freshwidget.css);
 </style>
-<iframe title="Feedback Form" class="freshwidget-embedded-form" id="freshwidget-embedded-form" src="https://support.microbit.org/widgets/feedback_widget/new?&widgetType=embedded&formTitle=Join+Slack&submitTitle=Request+to+join&submitThanks=Thanks.+This+is+a+manual+process+so+you+should+get+your+invitation+shortly.&screenshot=no&attachFile=no&searchArea=no&captcha=yes&helpdesk_ticket[description]=Please+could+I+join+the+slack+channel%3F&helpdesk_ticket[subject]=Request+to+join+Slack&helpdesk_ticket[type]=Question" scrolling="no" height="500px" width="100%" frameborder="0" >
+<iframe title="Feedback Form" class="freshwidget-embedded-form" id="freshwidget-embedded-form" src="https://support.microbit.org/widgets/feedback_widget/new?&widgetType=embedded&formTitle=Join+us+on+Slack&submitTitle=Request+to+join&submitThanks=Thanks.+This+is+a+manual+process+so+you+should+get+your+invitation+shortly.&screenshot=no&attachFile=no&searchArea=no&captcha=yes&helpdesk_ticket[description]=Please+could+I+join+the+micro:bit+community+on+slack%3F&helpdesk_ticket[subject]=Request+to+join+Slack&helpdesk_ticket[type]=Question" scrolling="no" height="500px" width="100%" frameborder="0" >
 </iframe>
 
 ## Other channels and communities
