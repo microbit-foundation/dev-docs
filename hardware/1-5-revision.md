@@ -1,27 +1,24 @@
 ---
 layout: hardware
 order:
-title: 1.3x micro:bit revision
-heading: 1.3x micro:bit revision
-description: Details of the 1.3x micro:bit revision, featuring individual accelerometer and magnetometer
-permalink: /hardware/1-3-revision/
-ref: 1-3
+title: 1.5 micro:bit revision
+heading: Hardware
+description: Details of the 1.5 micro:bit revision, featuring a combined motion sensor
+permalink: /hardware/1-5-revision/
+ref: hardware
 lang: en
 ---
 
-## Overview
+# Overview
 {:notoc}
 
 * TOC
 {:toc}
 
-![1.3 diagram](/docs/hardware/assets/microbit-overview.png)
-
-### Hardware block diagram
-![1.3 block](/docs/hardware/assets/v1-block.svg)
+![img](/docs/hardware/assets/microbit-overview-1-5.png)
 
 
-## Getting Started With the micro:bit Hardware
+# Getting Started With the micro:bit Hardware
 
 The micro:bit hardware is based on the ARM-mbed platform.
 It has an application processor with lots of on-chip perhipherals.
@@ -33,16 +30,16 @@ The interface processor does not connect to any of the micro:bit peripherals.
 
 Two key pieces of information to help understand the internals of the micro:bit are:
 
-* The [schematics](../schematic), which shows the detailed component data and connectivity of the device.
+* The [schematics](./schematic), which shows the detailed component data and connectivity of the device.
 
-* The [reference design](../reference-design), which is a complete module design of a compatible micro:bit,
+* The [reference design](./reference-design), which is a complete module design of a compatible micro:bit,
   and is designed to be a starting point for anyone interested in understanding the micro:bit
   or designing their own variant.
 
 
-## Hardware Description
+# Hardware Description
 
-### nRF51 Application Processor
+## nRF51 Application Processor
 
 The nRF51 application processor is where user programs run.
 A single, complete application including user code, runtime code and bluetooth stack
@@ -59,10 +56,10 @@ via an off-chip aerial.
 | RAM           | 16KB
 | Speed         | 16MHz
 | Debug         | SWD, jlink/OB
-| More Info     | [here](/software)
+| More Info     | [Software](../software), [NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
 
 
-### Bluetooth Wireless Communication
+## Bluetooth Wireless Communication
 
 The on board 2.4GHz transciever supports Bluetooth communications via the Nordic S110 SoftDevice,
 which provides a fully qualified Bluetooth low energy stack.
@@ -78,23 +75,24 @@ including smartphones and tablets.
 | Tx Power      | -20dBM to 4dBm in 4 dB steps
 | Role          | [GAP Peripheral](http://bluetooth-mdw.blogspot.co.uk/2016/07/microbit-and-bluetooth-roles.html)
 | Congestion avoidance | Adaptive Frequency Hopping
-| Profiles      | 1 [BBC micro:bit profile](https://lancaster-university.github.io/microbit-docs/ble/profile/)
-| More Info     | [here](/bluetooth)
+| Profiles      | [BBC micro:bit profile](https://lancaster-university.github.io/microbit-docs/ble/profile/)
+| More Info     | [Bluetooth](../bluetooth)
 
 
-### Low Level Radio Communications
+## Low Level Radio Communications
 
-The on board 2.4GHz transciever supports a number of other radio communications standards, on which we build the microbit-radio protocol
+The on board 2.4GHz transciever supports a number of other radio communications standards,
+including the proprietary Nordic Gazell protocol.
 This protocol provides a very simple small-packet broadcast radio interface between other devices
-that support it, such as other micro:bit devices.
+that support this proprietary protocol, such as other micro:bit devices.
 The 'radio' interface that appears in a number of the languages on the micro:bit
-is built on top of this protocol.
+is built on top of this Gazell protocol.
 Additionally, the micro:bit runtime software adds a 'group code' to each data payload,
 allowing for simple user managed device addressing and filtering to take place.
 
 | item          | details
 | ---           | ---
-| Protocol      | [Micro:bit Radio](https://lancaster-university.github.io/microbit-docs/ubit/radio)
+| Protocol      | [Nordic Gazell](https://devzone.nordicsemi.com/documentation/nrf51/4.3.0/html/group__gzll__02__user__guide.html)
 | Freq band     | 2.4GHz
 | Channel rate  | 1Mbps or 2Mbps
 | Encryption    | None
@@ -102,10 +100,10 @@ allowing for simple user managed device addressing and filtering to take place.
 | Group codes   | 255
 | Tx power      | Eight user configurable settings from 0(-30dbm) to 7 (+4dbm)
 | Payload size  | 32 (standard) 255 (if reconfigured)
-| More Info     | [Micro:bit Radio](https://lancaster-university.github.io/microbit-docs/ubit/radio)
+| More Info     | [DAL Radio](https://lancaster-university.github.io/microbit-docs/ubit/radio/)
 
 
-### Buttons
+## Buttons
 
 The two buttons on the front of the micro:bit, and the 1 button on the back,
 are tact momentary push to make buttons. The back button is connected to the KL26
@@ -127,7 +125,7 @@ Both A and B buttons are connected to GPIO pins that are also accessible on the 
 | Pullup        | (A & B) external 4K7, (System) 10K
 
 
-### Display
+## Display
 
 The display is a 5x5 array of LEDs.
 It is connected to the micro:bit as a 3x9 matrix.
@@ -148,41 +146,27 @@ which is roughly proportional to ambient light levels.
 | Sensing Range | TBC, 10 levels from off to full on
 | Colour sensitivity | red centric, red is 700nm
 
-### Accelerometer
+## Motion sensor
 
-The accelerometer is a separate chip that provides 3-axis sensing.
+The 1.5 micro:bit variant has a combined accelerometer and magnetometer chip  that provides 3-axis sensing and magnetic field strength sensing.
 It also includes some on board gesture detection (such as fall detection) in hardware,
 and additional gesture sensing (e.g. logo-up, logo-down, shake) via software algorithms.
-It is connected to the application processor via the I2C bus.
+A software algorithm in the standard runtime uses the on board accelerometer
+to turn readings into a board orientation independent compass reading.
+The compass must be calibrated before use, and the calibration process is automatically initiated by the runtime software.
+This device is connected to the application processor via the I2C bus.
+
+The v1.5 micro:bit has a footprint for two different motion sensors: one made by ST (the LSM303AGR) and one by NXP (FXOS8700CQ). The micro:bit DAL supports both of these sensors, detecting them at runtime. To date, all v1.5 boards have been manufactured with the LSM303AGR. If we were to move to the NXP part, a round of testing would be required and we would notify the [DAL and Devices mailing list.](http://eepurl.com/dyRx-v)
 
 | item          | details
 | ---           | ---
-| Model         | [Freescale MMA8653FC](http://www.nxp.com/products/sensors/accelerometers/3-axis-accelerometers/2g-4g-8g-low-g-10-bit-digital-accelerometer:MMA8653FC)
-| Features      | 3 axes, 2/4/8g ranges
-| Resolution    | 10 bits (0..1023)
-| Max output data rate | 800Hz
+| Model         | [LSM303GR](https://www.st.com/en/mems-and-sensors/lsm303agr.html)
+| Features      | 3 magnetic field and 3 acceleration axis , 2/4/8/16g ranges
+| Resolution    | 8/10/12 bits
 | On board gestures | 'freefall'
 | Other gestures | Other gestures are implemented by software algorithms in the runtime.
 
-
-### Magnetometer
-
-The magnetometer is a separate chip that provides magnetic field strength sensing.
-A software algorithm in the standard runtime uses the on board accelerometer
-to turn these readings into a board orientation independent compass reading.
-The compass must be calibrated before use, and the calibration process is automatically
-initiated by the runtime software.
-This device is connected to the application processor via the I2C bus.
-
-| item          | details
-| ---           | ---
-| Model         | [Freescale MAG3110](http://www.nxp.com/products/sensors/magnetometers/sample-data-sets-for-inertial-and-magnetic-sensors/high-accuracy-3d-magnetometer:MAG3110)
-| Max update rate | 80Hz
-| Full Scale range | 1000uT
-| Sensitivity | 0.10uT
-
-
-### Temperature Sensing
+## Temperature Sensing
 
 The nRF51 application processor has an on board core temperature sensor.
 This is exposed via the standard runtime software, and provides an estimate of ambient
@@ -194,9 +178,9 @@ temperature.
 | Sensing range | -25C .. 75C
 | Resolution    | 0.25C steps
 | Accuracy      | +/-4C (uncalibrated)
-| More Info     | [here](https://lancaster-university.github.io/microbit-docs/ubit/thermometer/)
+| More Info     | [DAL Thermometer](https://lancaster-university.github.io/microbit-docs/ubit/thermometer/)
 
-### General Purpose Input/Output Pins
+## General Purpose Input/Output Pins
 
 The edge connector brings out many of the GPIO circuits of the application
 processor. Some of these circuits are shared with other functions of the micro:bit, but
@@ -223,10 +207,9 @@ mode at any one time.
 | Edge Connector| [Edge connector](/hardware/edgeconnector/)
 | Pitch | 1.27mm, 80 way double sided.
 | Pads| 5 pads, with 4mm holes
-| More Info | [here](/hardware/edgeconnector/)
 
 
-### Power Supply
+## Power Supply
 
 Power to the micro:bit may be provided via the USB connection, via the
 interface chip (which has an on-board regulator), or via a battery plugged into the top
@@ -241,10 +224,10 @@ bottom. The 3V pad at the bottom can be used to supply a small amount of power e
 | Battery connector | JST X2B-PH-SM4-TB
 | Battery current | TBC
 | Max current provided via edge connector | 90mA
-| More Info | [here](../powersupply)
+| More Info | [Power supply](./powersupply)
 
 
-### Interface
+## Interface
 
 The interface chip handles the USB connection, and is used for flashing
 new code to the micro:bit, sending and receiving serial data back and forth to your
@@ -256,12 +239,12 @@ main computer.
 | Core variant: | [ARM Cortex-M0+](https://www.arm.com/products/processors/cortex-m/cortex-m0plus.php)
 | Flash ROM     | 128KB
 | RAM           | 16KB
-| Speed         | 16MHz
+| Speed         | [16Mhz (crystal)](https://github.com/ARMmbed/DAPLink/blob/f499eb6ec4a847a2b78831fe1acc856fd8eb2f28/source/hic_hal/freescale/kl26z/MKL26Z4/system_MKL26Z4.c#L69) 48MHz (max)
 | Debug capabilities | SWD
-| More Info | [here](/software/daplink-interface/)
+| More Info | [DAPLink](/software/daplink-interface/), [KL26 reference manual](https://www.nxp.com/docs/en/reference-manual/KL26P121M48SF4RM.pdf) [KL26Z data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
 
 
-### USB Communications
+## USB Communications
 
 The micro:bit has an on board USB communications stack, that is built into the firmware
 of the interface chip. This stack provides the ability to drag and drop files onto the
@@ -277,10 +260,10 @@ of application programs.
 | Speed         | 12Mbit/sec
 | USB classes supported | [Mass Storage Class (MSC)](https://en.wikipedia.org/wiki/USB_mass_storage_device_class)
 |    | [Communications Device Class (CDC)](https://en.wikipedia.org/wiki/USB_communications_device_class)
-| More Info | [here](/software/daplink-interface/)
+| More Info | [DAPLink](/software/daplink-interface/)
 
 
-### Debugging
+## Debugging
 
 The interface processor can be used with special host tools to debug
 code that is running on the application processor. It connects to the application
@@ -293,9 +276,9 @@ recover a lost bootloader.
 | ---           | ---
 | Protocol      | CMSIS-DAP
 | Options       | JLink/OB (via different firmware)
-| More Info     | [here](https://docs.mbed.com/docs/mbed-os-handbook/en/latest/debugging/debugging_microbit/)
+| More Info     | [MBED debugging micro:bit](https://os.mbed.com/docs/mbed-os/v5.11/tutorials/debug-microbit.html)
 
-### Mechanical
+## Mechanical
 
 We have some [nice 2D and 3D CAD drawings and models of the micro:bit](https://github.com/microbit-foundation/microbit-reference-design) including all the important dimensions. These models can be used as a basis for generating
 really nice marketing and project images of the micro:bit, but also as a basis for accurate
@@ -307,32 +290,12 @@ manufacture of attachments e.g. via 3D printing.
 | Weight        | 5g
 
 
-### Links
+# Links
 
-[Schematic](../schematic)
+[BBC Technical Specifications](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/specs)
 
-[Reference Design](../reference-design)
-
-[Nordic NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
-
-[Freescale KL26 reference manual](http://cache.freescale.com/files/microcontrollers/doc/ref_manual/KL26P121M48SF4RM.pdf)
-
-[Freescale KL26Z data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
-
-[Freescale MMA8652 accelerometer datasheet](http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8652FC.pdf)
-
-[Freescale MAG3110 magnetometer datasheet](http://cache.freescale.com/files/sensors/doc/data_sheet/MAG3110.pdf)
-
-[Technical Specifications 1](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/specs)
-
-[Technical Specifications 2](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/thebbcmicrobit)
-
-[Safety Advice](https://www.microbit.org/safety-advice)
-
-[I2C specification](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)
+[I2C specification](http://cache.nxp.com/documents/user_manual/UM10204.pdf)
 
 [SPI 'specification'](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
-
-[ARM mbed overview](https://www.mbed.com/en/about-mbed/what-mbed/)
 
 [Fritzing diagram, contributed by Kok Ho Huen](/docs/hardware/assets/Microbit.fzpz.zip)
