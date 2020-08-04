@@ -28,10 +28,18 @@ tools to interact with the device (for advanced users only).
 
 
 ## MicroPython Tools
-[uflash](https://uflash.readthedocs.io/en/latest/) and
-[microfs](https://microfs.readthedocs.io/en/latest/).
-Finally, there are great [tutorials](https://microbit-micropython.readthedocs.io/en/latest/tutorials/introduction.html) for MicroPython on the micro:bit.
-T
+- [uFlash](https://uflash.readthedocs.io/en/latest/)
+A utility for flashing the BBC micro:bit with Python scripts and the MicroPython runtime. You pronounce the name of this utility “micro-flash”. ;-)
+
+It provides two services:
+    -  A library of functions to programatically create a hex file and flash it onto a BBC micro:bit.
+    - A command line utility called uflash that will flash Python scripts onto a BBC micro:bit.
+
+- [microFS](https://microfs.readthedocs.io/en/latest/)
+A simple command line tool and module for interacting with the limited file system provided by MicroPython on the BBC micro:bit.
+
+Finally, there are great [tutorials for MicroPython on the micro:bit](https://microbit-micropython.readthedocs.io/en/latest/tutorials/introduction.html).
+
 
 ## What is MicroPython?
 
@@ -40,11 +48,14 @@ differs from them in several important respects:
 
 1. MicroPython is a complete reimplementation of Python 3. This includes advanced features not found in any of the other languages: basic data types (strings,
 integers, floating point numbers, booleans), data structures (lists, dictionaries, sets), classes, exception handling, generators and list comprehensions.
+
 2. MicroPython runs entirely on the micro:bit itself - no need for a compiler.
+
 3. MicroPython (like Python) is a dynamic language so it's possible to work with the device interactively: enter Python code and see the device immediately respond in live coding sessions using the REPL feature.
+
 4. MicroPython comes with lots of exclusive features: a powerful music programming language, a speech synthesiser, built-in images and music, a local file system and a large range of ways to connect to attached devices: I2C, NeoPixel, SPI and UART.
 
-The Bluetooth stack is not enabled inside MicroPython because of memory
+<span class="v1">v1</span> The Bluetooth stack is not enabled inside MicroPython because of memory
 constraints. However MicroPython uses the Bluetooth radio hardware with its own
 simple yet powerful `radio` module. The protocol for the `radio` module is a
 lot more beginner friendly than Bluetooth yet allows users to create efficient
@@ -167,6 +178,10 @@ resources via the [MicroPython / BBC micro:bit World Tour](https://microworldtou
 [Online python simulator](https://create.withcode.uk/)
 
 ### Teaching Resources
+
+[microbit.org](https://microbit.org/lessons/?filters=python) Provides a range of Python related curricula.
+
+[NCCE key-stage 3 Physical computing](https://teachcomputing.org/curriculum/key-stage-3/physical-computing) Contains KS3 level curriculum for teaching Python with the micro:bit.
 
 [Grok Learning](https://groklearning.com/microbit/) provides an online MicroPython code editor, Blockly visual programming, full micro:bit simulator, curriculum-aligned teaching material and auto-marked problems.
 
