@@ -195,7 +195,7 @@ Pins that are marked with brackets around functions, require the default
 functionality for that pin to be disabled, before other functions can
 be used.
 
-pins: P3, P4, P6, P7, P9, P10
+**pins: P3, P4, P6, P7, P9, P10**
 
 These pins are coupled to the LED matrix display, and also it's associated
 ambient light sensing mode. To disable the display driver feature (which
@@ -208,7 +208,7 @@ these pins, so you should take that into account when designing circuits to use 
 pins for other purposes.
 
 
-pins: P5, P11
+**pins: P5, P11**
 
 These pins are assigned to the two on-board buttons. In their default
 setup with all the standard high level languages, there is a global
@@ -227,7 +227,7 @@ Be aware though, that there are 10K external pullup resistors
 fitted to the micro:bit board.
 
 
-pins: P19, P20
+**pins: P19, P20**
 
 These pins are allocated to the I2C bus, which is used by both the
 onboard motion sensor. It is strongly suggested
@@ -248,8 +248,7 @@ purposes.
 
 ## Power Supply Capabilities
 
-The power supply capabilities and parameters, which better define how you
-can use the GND and 3V rings, are detailed here: [psu](/hardware/powersupply)
+There is a dedicated page on [power supply capabilities and parameters](/hardware/powersupply), which better defines how you can use the GND and 3V rings 
 
 
 ## GPIO Capabilities
