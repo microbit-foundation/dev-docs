@@ -1,46 +1,48 @@
 ---
 layout: page
 order:
-title: micro:bit Software
-heading: the micro:bit Software Ecosystem
+title: micro:bit software
+heading: The micro:bit software ecosystem
 description: There are a huge range of software platforms and tools that make the micro:bit work as well as it does. This page outlines what they are and redirects you to more detailed explanations of the different projects.
 permalink: /software/
 ref: software
 lang: en
-assigned-to: jonnya/davidw
-review-with: jonnya
 ---
 
-## Overview
+# Overview
 {:.no_toc}
 
 * TOC
 {:toc}
 
 Software for the micro:bit consists of two main groups:
-1. software that runs on your main computer (the 'host' computer, left hand side in the diagram)
-2. software that runs on the micro:bit (the 'target' computer, right hand side in the diagram)
+1. software that runs on your computer (host), for example the browser editor
+
+2. software that runs on the micro:bit (target)
 
 Typically, a program is written on the host computer and then transferred to
-the micro:bit over USB. There are actually two chips on the
-micro:bit, one that is running software entirely to facilitate the flashing (the KL26Z) and one that actually runs the user's code (the nRF51822).
+the micro:bit over USB. 
 
-![Software flow](/docs/software/assets/software-programming.svg)
+There are actually two chips on the
+micro:bit, one that is running the **DAPlink** software entirely to facilitate the flashing (KL26<span class="v1">v1</span>/KL27<span class="v2">v2</span>) and one that actually runs the user's code (nRF51<span class="v1">v1</span>/nRF52<span class="v2">v2</span>).
+
+![Software flow](/docs/software/assets/overview.png)
 
 
-## High Level Programming Languages
+# High level programming languages
 
 The 'high level' programming languages for the micro:bit break down into
 two broad categories
 
 * Compiled languages: your program is compiled to ARM assembler or some other kind of bytecode before being copied onto the micro:bit.
+
 * Interpreted Languages: both your script and an interpreter for it are copied onto the micro:bit. Because the interpreter is on the micro:bit itself, these languages typically also allow you to program the micro:bit 'live' over USB by typing commands.
 
-### Compiled Languages
+## Compiled languages
 
 *C/C++, while certainly compiled, is not considered a high-level language in this context*
 
-In order to ensure that the micro:bit online code editors could scale to support 1M deployed boards, Microsoft built [Makecode, an in-browser-compiler](https://makecode.microbit.org), written in TypeScript.
+In order to ensure that the micro:bit online code editors could scale to support 1M deployed boards, Microsoft built [Makecode](https://makecode.microbit.org), an in-browser-compiler written in TypeScript.
 
 This process is explained in full in the [In browser compiler](/software/in_browser_compiler) page, and in fantastic detail at [TouchDevelop in 208 bits](https://www.touchdevelop.com/docs/touch-develop-in-208-bits).
 
@@ -50,7 +52,7 @@ handled by the micro:bit runtime and mbed. A pre-compiled runtime image is
 included in the browser and concatenated with the compiled script before
 being presented for download.
 
-### Interpreted Languages
+## Interpreted languages
 
 In the [official micro:bit editors](https://microbit.org/code), only Python is interpreted. This is done by the use of the MicroPython interpreter.
 
@@ -58,7 +60,7 @@ The details of this are documented in the [MicroPython](/software/micropython) p
 
 There is also a [port of the Javascript interpreter Espruino](http://www.espruino.com/MicroBit) that runs on the micro:bit.
 
-## Coding environments and IDEs
+# Coding environments and IDEs
 
 There are a huge number of possible coding environments that you can use
 to program the micro:bit.
@@ -67,15 +69,29 @@ Among the most popular are the official ones listed at http://microbit.org/code 
 
 Here's a non-exhaustive list of possible code editors for use with the micro:bit. *please add any you know about that are not here*
 
-* [Makecode Editor](https://makecode.microbit.org)
-* [Python Editor](https://python.microbit.org)
+* [MakeCode)](https://makecode.microbit.org)
+* [Python](https://python.microbit.org)
+* [App Inventor](http://iot.appinventor.mit.edu/#/microbit/microbitintro)
+* [Arduino IDE (C++)](https://learn.adafruit.com/use-micro-bit-with-arduino/overview)
+* [Art:bit](https://kidscodejeunesse.org/artbit)
+* [Bitty Software Applications](https://bittysoftware.blogspot.com/p/applications.html)
+* [CodeMao](https://ide.codemao.cn/)
+* [https://wood.codemao.cn/?editor_mode=1](https://wood.codemao.cn/?editor_mode=1)
+* [Edublocks (Python with blocks)](https://app.edublocks.org/#MicroBit)
+* [GNAT (Ada)](https://github.com/AdaCore/Ada_Drivers_Library/tree/master/examples/MicroBit)
+* [Kittenblock](https://www.kittenbot.cc/pages/software)
+* [Kodu](https://www.kodugamelab.com/resources/bbc-microbit/)
+* [MATLAB & Simulink](https://uk.mathworks.com/academia/highschool/courseware/microbit.html)
 * [mbed Online Compiler](http://developer.mbed.org/platforms/Microbit)
+* [mBlock 5](https://www.makeblock.com/software/mblock5)
+* [MicroBlocks (beta)](http://microblocks.fun/)
+* [Mind+]http://mindplus.cc/)
 * [Mu offline Python editor](http://codewith.mu/)
 * [PyCharm (with MicroPython plugin, can also flash to micro:bit)](https://plugins.jetbrains.com/plugin/9777-micropython)
-* [Edublocks (Python with blocks)](https://app.edublocks.org/#MicroBit)
+* [Workbench](https://edu.workbencheducation.com/partners/microbit
 
 
-## From Coding Environment to micro:bit
+# From coding environment to micro:bit
 
 Each of the coding environments generates a special file called a .hex file, which
 contains code for your micro:bit, written in a format it can understand.
@@ -90,7 +106,6 @@ and using the Bluetooth communications interface from your mobile phone.
 
 You can read more about [bluetooth flashing](/bluetooth/profile) or
 [bluetooth apps](/bluetooth/apps-and-examples) by following these links.
-
 
 ## micro:bit Low Level (C/C++) Software Stack
 
