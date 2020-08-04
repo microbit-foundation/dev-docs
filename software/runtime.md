@@ -10,14 +10,14 @@ lang: en
 ---
 
 ## Overview
-{:notoc}
+{:no_toc}
 
 * TOC
 {:toc}
 
 The micro:bit runtime, also known as the DAL/CODAL is software that runs on a micro:bit to support the majority of the micro:bit programming languages. It can help you understand how the micro:bit works, and also will help you understand where to start if you want to dive deeper into the micro:bit, write support software for your own micro:bit hardware extensions, and tailor or improve something on the micro:bit.
 
-![Software Architectural Diagram v1](/docs/software/assets/software-overview.svg){: style="max-width:50%;"} ![Software Architectural Diagram v2](/docs/software/assets/software-overview-2.svg){: style="max-width:50%;"}
+![Software Architectural Diagram v1](/docs/software/assets/software-overview.svg){: style="max-width:50%;"} ![Software Architectural Diagram v2](/docs/software/assets/software-overview-v2.svg){: style="max-width:50%;"}
 
 There are a number of important software layers that run on the micro:bit to enable easy to use languages such as Javascript to be used. Some of these, like ARM mbed and MicroPython existed before the BBC micro:bit project started, and others, such as the micro:bit runtime were written specifically for the micro:bit.
 
@@ -59,11 +59,14 @@ The micro:bit runtime is an open source project, distributed under the MIT licen
 
 Firstly, you should get yourself into a situation where you can build the micro:bit runtime DAL. You can choose either an online build environment inside your web browser through mbed.org, or an downloadable compiler. The [getting started docs] (https://lancaster-university.github.io/microbit-docs/#getting-started) guide you through this process.
 
-If you would have a feature request, or would like to get involved in the micro:bit runtime development, visit the list of open issues [list of open issues](https://github.com/lancaster-university/microbit-dal/issues) and raise a new issue if it isn't already in there. You can also join the microbit-community slack channel if you'd like to discuss the micro:bit runtime and its components.
 
-### Reporting Bugs
+### Asking for features and reporting bugs
 
-If you think you've found a bug in the DAL, please report the issue on GitHub: [log a new issue](https://github.com/lancaster-university/microbit-dal/issues/new)
+If you would have a feature request, or would like to get involved in the micro:bit runtime development, visit the [list of open issues](https://github.com/lancaster-university/microbit-dal/issues) and raise a new issue if it isn't already in there. 
+
+You can also join the [microbit developer community on Slack](/community) if you'd like to discuss the micro:bit runtime and its components.
+
+If you think you've found a bug in the DAL, please [log a new issue in the GitHub DAL repository](https://github.com/lancaster-university/microbit-dal/issues/new)
 
 ### DAL Source Code
 
@@ -89,7 +92,7 @@ mbed also provides an online C/C++ IDE with which you can program the micro:bit.
 
 The main mbed repository is at [https://github.com/ARMmbed/mbed-os](https://github.com/ARMmbed/mbed-os). For official builds of the micro:bit, ie. when using the [online editors on microbit.org](https://microbit.org/code), a branch of mbed with some micro:bit specific bugfixes and changes specific to micro:bit is used. This can be found in [https://github.com/lancaster-university/mbed-classic](https://github.com/lancaster-university/mbed-classic). This branch is currently being merged back into mbed.
 
-micro:bit was based on the well-established mbed 2.0 SDK, with which mbed 5 is compatible. Work is ongoing to bring the micro:bit runtime onto mbed 5. If you're interested in this project, jump into the microbit-community slack channel or follow [this issue](https://github.com/lancaster-university/microbit-dal/issues/224)
+micro:bit was based on the well-established mbed 2.0 SDK, with which mbed 5 is compatible. Work is ongoing to [bring the micro:bit runtime onto mbed 5](https://github.com/lancaster-university/microbit-dal/issues/224).
 
 ## Nordic nRF5 SDK
 
