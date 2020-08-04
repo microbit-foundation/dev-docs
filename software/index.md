@@ -26,7 +26,7 @@ the micro:bit over USB.
 There are actually two chips on the
 micro:bit, one that is running the **DAPlink** software entirely to facilitate the flashing (KL26<span class="v1">v1</span>/KL27<span class="v2">v2</span>) and one that actually runs the user's code (nRF51<span class="v1">v1</span>/nRF52<span class="v2">v2</span>).
 
-![Software flow](/docs/software/assets/overview.png)
+![Software flow](/docs/software/assets/software-program.svg)
 
 
 ## High level programming languages
@@ -85,10 +85,10 @@ Here's a non-exhaustive list of possible code editors for use with the micro:bit
 * [mbed Online Compiler](http://developer.mbed.org/platforms/Microbit)
 * [mBlock 5](https://www.makeblock.com/software/mblock5)
 * [MicroBlocks (beta)](http://microblocks.fun/)
-* [Mind+]http://mindplus.cc/)
+* [Mind+](http://mindplus.cc/)
 * [Mu offline Python editor](http://codewith.mu/)
 * [PyCharm (with MicroPython plugin, can also flash to micro:bit)](https://plugins.jetbrains.com/plugin/9777-micropython)
-* [Workbench](https://edu.workbencheducation.com/partners/microbit
+* [Workbench](https://edu.workbencheducation.com/partners/microbit)
 
 
 ## From coding environment to micro:bit
