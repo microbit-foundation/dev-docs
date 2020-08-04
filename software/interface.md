@@ -23,14 +23,16 @@ The **Target MCU** is a **Nordic Semiconductor nRF52833** <span class="v2">v2</s
 
 The target and interface MCUs are connected by two interfaces:
 
-* Serial Wire Debug (SWD) for programming the target MCU
+* Serial Wire Debug (SWD) for programming the target MCU.
+
 * UART for sending messages between the two devices. In practice, the UART from the target MCU is passed through directly to the PC over USB.
 
-### Reference Design
+### Reference design
 
 On the [reference design](/hardware/reference-design) the interface circuit is clearly separated from the main micro:bit circuits so that you can do the following things:
 
-* Build a board without the interface circuitry and use another debugger to program that over SWD
+* Build a board without the interface circuitry and use another debugger to program that over SWD.
+
 * Build a board with *just* the interface circuitry and use that to flash other hardware that you have built that might be too small to contain its own interface chip.
 
 
@@ -41,14 +43,16 @@ This interface chip is running software from [arm MBED](https://os.mbed.com/) ca
 This software provides three USB endpoints that have specific purposes:
 
 * MSC - USB mass storage device for drag-and-drop programming of the target MCU's flash memory.
-* CDC - serial passthrough from the target MCU to the PC. This is how messages get from the code you write onto the PC
-* HID - CMSIS-DAP compliant debug channel - this is useful if you want to use advanced debuggers like GDB or Keil to understand what's happening (or not happening!) on your micro:bit
+
+* CDC - serial passthrough from the target MCU to the PC. This is how messages get from the code you write onto the PC.
+
+* HID - CMSIS-DAP compliant debug channel - this is useful if you want to use advanced debuggers like GDB or Keil to understand what's happening (or not happening!) on your micro:bit.
 
 
 The DAPLink software and interface chip are part of the [ARM mbed HDK](https://developer.mbed.org/handbook/mbed-HDK)
 and the [mbed Enabled program](https://www.mbed.com/en/about-mbed/mbed-enabled/)
 
-The micro:bit currently ships with DAPLink bootloader at version TBC and [interface at version TBC](https://github.com/ARMmbed/DAPLink/releases/tag/v0249).
+The micro:bit currently ships with DAPLink bootloader at version 0254 and interface at version 0254.
 
 The following versions of the device have previously been shipped with the following DAPLink versions:
 
@@ -60,7 +64,7 @@ The following versions of the device have previously been shipped with the follo
 | 2.0            | TBC        | TBC       | [Download TBC](#){: .btn.sm-btn}
 
 
-### The DAPLink Boot Loader
+### The DAPLink boot loader
 
 It is possible to update the version of DAPLink running on your micro:bit. This is done using the DAPLink bootloader. This means that in fact, DAPLink is built twice for the micro:bit.
 
@@ -69,18 +73,19 @@ KL27Z <span class="v2">v2</span> or KL26Z <span class="v1">v1</span> flash. Thes
 2. `interface mode` is used to target the nRF52833 <span class="v2">v2</span> or nRF51822 <span class="v1">v1</span>. In this mode, the drive name is `MICROBIT` and the hex files dropped onto the micro:bit are written to the flash of the target MCU.
 
 
-### Updating Your Version of DAPLink
+### Updating your version of DAPLink
 
 There are detailed instructions for how to [update the firmware version on the micro:bit website](https://microbit.org/get-started/user-guide/firmware/).
 
 **You should never update your micro:bit with firmware from untrusted sources, as these could damage your micro:bit, or make it impossible to re-flash**
 
-### Files on the MICROBIT Drive
+### Files on the MICROBIT drive
 
 The flash file system presented on the micro:bit drive is entirely virtual. It is not backed by real memory, and this is why the drive ejects itself after new files are written. When a file is dropped onto the MICROBIT drive, instead of being written into flash memory (like a normal USB memory stick), it is streamed to the target MCU.
 
 The following virtual files exist on the file-system
-* `DETAILS.TXT`: This file tells you about the build of DAPLink currently installed on the interface chip. In later versions of DAPLink it also includes more diagnostic information
+* `DETAILS.TXT`: This file tells you about the build of DAPLink currently installed on the interface chip. In later versions of DAPLink it also includes more diagnostic information.
+
 * `MICROBIT.HTM`: This is a link to [microbit.org](https://microbit.org) to help you get started.
 
 After flashing occurs, there might also be a `FAIL.TXT` file, that gives a cause for failure.
@@ -89,10 +94,18 @@ The file [error.c](https://github.com/mbedmicro/DAPLink/blob/master/source/dapli
 
 There is also a full list of [micro:bit error codes](https://support.microbit.org/en/support/solutions/articles/19000016969-micro-bit-error-codes) in our Knowledgebase.
 
-## UART Connection
+## UART connection
 
 Due to the number of pins on the Nordic Semiconductor chip, only the uart TX and RX lines are connected between the interface MCU and the target MCU. This means that there is no hardware flow control possible. This means that at higher serial speeds (baud rates above 9600), the micro:bit may drop characters being sent to it.
 
 ## HID and CMSIS-DAP
 
 The HID endpoint is for a CMSIS-DAP channel. This can most easily be used [with pyOCD](https://github.com/mbedmicro/pyOCD), an open source python library for programming and debugging ARM Cortex-M microcontrollers using CMSIS-DAP
+
+## WebUSB
+
+The [WebUSB API](https://developers.google.com/web/updates/2016/03/access-usb-devices-on-the-web) facilitates communicating with USB devices from the Browser.
+
+It has been supported in DAPLink since version **0243**, so if you have an older micro:bit, you will need to [update the DAPLink firmware](https://microbit.org/get-started/user-guide/firmware/).
+
+The API is currently available in [Chrome based browsers](https://caniuse.com/#feat=webusb) (Android, Chrome OS, Linux, macOS and Windows) and is supported in the MakeCode Editor and the Python Editor. This enables you to flash your micro:bit straight from the browser without the need to save the .hex file first, and use serial communication between the micro:bit and the editor.
