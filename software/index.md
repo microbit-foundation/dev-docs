@@ -9,7 +9,7 @@ ref: software
 lang: en
 ---
 
-# Overview
+## Overview
 {:.no_toc}
 
 * TOC
@@ -29,7 +29,7 @@ micro:bit, one that is running the **DAPlink** software entirely to facilitate t
 ![Software flow](/docs/software/assets/overview.png)
 
 
-# High level programming languages
+## High level programming languages
 
 The 'high level' programming languages for the micro:bit break down into
 two broad categories
@@ -38,7 +38,7 @@ two broad categories
 
 * Interpreted Languages: both your script and an interpreter for it are copied onto the micro:bit. Because the interpreter is on the micro:bit itself, these languages typically also allow you to program the micro:bit 'live' over USB by typing commands.
 
-## Compiled languages
+### Compiled languages
 
 *C/C++, while certainly compiled, is not considered a high-level language in this context*
 
@@ -52,7 +52,7 @@ handled by the micro:bit runtime and mbed. A pre-compiled runtime image is
 included in the browser and concatenated with the compiled script before
 being presented for download.
 
-## Interpreted languages
+### Interpreted languages
 
 In the [official micro:bit editors](https://microbit.org/code), only Python is interpreted. This is done by the use of the MicroPython interpreter.
 
@@ -60,7 +60,7 @@ The details of this are documented in the [MicroPython](/software/micropython) p
 
 There is also a [port of the Javascript interpreter Espruino](http://www.espruino.com/MicroBit) that runs on the micro:bit.
 
-# Coding environments and IDEs
+## Coding environments and IDEs
 
 There are a huge number of possible coding environments that you can use
 to program the micro:bit.
@@ -91,7 +91,7 @@ Here's a non-exhaustive list of possible code editors for use with the micro:bit
 * [Workbench](https://edu.workbencheducation.com/partners/microbit
 
 
-# From coding environment to micro:bit
+## From coding environment to micro:bit
 
 Each of the coding environments generates a special file called a .hex file, which
 contains code for your micro:bit, written in a format it can understand.
@@ -107,7 +107,7 @@ and using the Bluetooth communications interface from your mobile phone.
 You can read more about [bluetooth flashing](/bluetooth/profile) or
 [bluetooth apps](/bluetooth/apps-and-examples) by following these links.
 
-## micro:bit Low Level (C/C++) Software Stack
+### micro:bit Low Level (C/C++) Software Stack
 
 When you write an application for your micro:bit, other pieces of software are
 joined together with your application to make up the final .hex file that is
