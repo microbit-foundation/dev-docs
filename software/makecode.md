@@ -18,10 +18,10 @@ The source code for MakeCode for micro:bit target can be found at [github.com/Mi
 
 This target depends on several other repositories
 
-- https://github.com/Microsoft/pxt the PXT framework
-- https://github.com/Microsoft/pxt-common-packages common APIs accross various MakeCode editors
-- https://github.com/lancaster-university/microbit basic wrapper around the DAL
-- https://github.com/lancaster-university/microbit-dal
+- <https://github.com/Microsoft/pxt> the PXT framework
+- <https://github.com/Microsoft/pxt-common-packages> common APIs accross various MakeCode editors
+- <https://github.com/lancaster-university/microbit> basic wrapper around the DAL
+- <https://github.com/lancaster-university/microbit-dal> the micro:bit DAL
 
 ### App
 An app is available for [Windows 10](https://www.microsoft.com/en-gb/p/makecode-for-micro-bit/9pjc7sv48lcx?rtc=1&activetab=pivot:overviewtab)
