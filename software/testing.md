@@ -31,7 +31,7 @@ The **microphone** has an additional set of blocks in MakeCode and classes in Mi
 The **face touch** is implemented in the same way as touching a pin.
 
 
-## Will my saved hex files work with the new board?
+## Will my saved hex files work with the latest board revision?
 
 Yes, however you will need to update the files by dragging and dropping them into the software editor in which they were created.
 
@@ -67,7 +67,7 @@ You can force the beta editor into multivariant mode with this bookmark:
 
 ## Python Editor
 
-TBC
+You can use the latest board revision in the Python beta editor at  [https://python-editor-next-release-review.microbit.org/](python-editor-next-release-review.microbit.org/)
 
 ## Mu
 
@@ -94,7 +94,7 @@ You can also use the [+v2 testing info pack: multivariant-Bookmark](https://pape
 **Python**
 For Python you can use 2.1.0-beta-3 (it makes a very big assumption and
 maps to the python-editor-${versionMunged}.microbit.org)
-TBC with Edu team and @Matt H 
+TBC
 
 ## iOS App
 
