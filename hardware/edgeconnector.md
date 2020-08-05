@@ -44,8 +44,6 @@ Pin 9 is no longer jointly shared with the LED display.
 
 ### Pins and Signals
 
-### Pins and Signals
-
 [v2](#pins-and-signals){: #v2-button .btn.sm-btn .variation} [v1](#pins-and-signals){: #v1-button .btn.sm-btn}
 
 This table shows various data about each of the pins on the micro:bit edge connector.
