@@ -30,7 +30,7 @@ Scratch.
 
 [Scratch](https://scratch.mit.edu/microbit) facilitates a connection to the micro:bit and uses display, buttons and motion sensor services.
 
-[Bitty Software Apps](http://www.bittysoftware.com)
+[Bitty Software Apps](https://bittysoftware.blogspot.com/p/applications.html)
 
 [micro:bit Blue App for Android](https://github.com/microbit-foundation/microbit-blue)
 

@@ -13,7 +13,7 @@ review-with: carlospa
 
 The .hex file is in [intel-hex format](https://en.wikipedia.org/wiki/Intel_HEX). Intel hex consists of records of data, with the address in memory to store the data at the start. All data is hex-ascii encoded. All lines start with a : character. All lines end with a checksum byte that can be used to verify the integrity of the data.
 
-A micro:bit .hex file usually starts writing data to the same fixed location in memory, so (at the moment at least) we would expect the first line of the file to start like this:
+A micro:bit .hex file usually starts writing data to the same fixed location in memory, so depending on the toolchain, we might expect the first line of the file to start like this:
 
 :020000040000FA
 

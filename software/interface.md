@@ -52,7 +52,7 @@ This software provides three USB endpoints that have specific purposes:
 The DAPLink software and interface chip are part of the [ARM mbed HDK](https://developer.mbed.org/handbook/mbed-HDK)
 and the [mbed Enabled program](https://www.mbed.com/en/about-mbed/mbed-enabled/)
 
-The micro:bit currently ships with DAPLink bootloader at version 0254 and interface at version 0254.
+The micro:bit currently ships with DAPLink bootloader at version 0255 and interface at version 0255.
 
 The following versions of the device have previously been shipped with the following DAPLink versions:
 
@@ -61,7 +61,7 @@ The following versions of the device have previously been shipped with the follo
 | 1.3            | 0234       | 0234      | [0234](/docs/software/assets/DAPLink-factory-release/0234_kl26z_microbit_0x8000.hex){: .btn.sm-btn}
 | 1.3b           | 0234       | 0241      | [0241](/docs/software/assets/DAPLink-factory-release/0241_kl26z_microbit_0x8000.hex){: .btn.sm-btn}
 | 1.5            | 0243       | 0249      | [0249](/docs/software/assets/DAPLink-factory-release/0249_kl26z_microbit_0x8000.hex){: .btn.sm-btn}
-| 2.0            | TBC        | TBC       | [Download TBC](#){: .btn.sm-btn}
+| 2.0            | 0255        | 0255       | [Download TBC](#){: .btn.sm-btn}
 
 
 ### The DAPLink boot loader

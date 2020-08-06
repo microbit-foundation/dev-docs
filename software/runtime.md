@@ -78,7 +78,9 @@ If you think you've found a bug in the DAL, please [log a new issue in the GitHu
 
 [Device Abstraction Layer, documentation sources](https://github.com/lancaster-university/microbit-docs)
 
-## ARM mbed
+## ARM mbed (v1 only)
+
+The information on ARM mbed applies to <span class="v1">v1</span> only.
 
 ### Hardware and Low Level Software
 

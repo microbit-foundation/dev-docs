@@ -1,6 +1,6 @@
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-# Microbit Developer Community Docs - PRIVATE mirror
+# Microbit Developer Community Docs - PRIVATE fork
 
 These docs are a private mirror of [dev-docs](https://github.com/microbit-foundation/dev-docs) which are then rendered into the [micro:bit Developer Commmunity site](http://tech.microbit.org)
 
