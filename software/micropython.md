@@ -32,7 +32,7 @@ tools to interact with the device (for advanced users only).
 A utility for flashing the BBC micro:bit with Python scripts and the MicroPython runtime. You pronounce the name of this utility “micro-flash”. ;-)
 
 It provides two services:
-    -  A library of functions to programatically create a hex file and flash it onto a BBC micro:bit.
+    - A library of functions to programatically create a hex file and flash it onto a BBC micro:bit.
     - A command line utility called uflash that will flash Python scripts onto a BBC micro:bit.
 
 - [microFS](https://microfs.readthedocs.io/en/latest/)
