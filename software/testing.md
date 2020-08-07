@@ -93,24 +93,6 @@ Mu may not have been updated in time for new micro:bit variant devices entering 
 - In the odd case that an error is encountered within Mu, it will try to reflash MicroPython
     - This would try to use the built-in version of MicroPython, which wouldn't work on a v2 board, however there is a version check at this point, so instead it will just display an error indicating that you have a newer board version than Mu can support.
 
-## micro:bit classroom
-
-To test a specific editor version, classroom allows us to pass the URL of the editor e.g. 
-
-### Makecode
-You can use this to specify a MakeCode version as used in their URL
-paths (e.g. v2.2.4 or beta). 
-https://classroom.microbit.org/?editorVersion=beta
-
-To access the multiVariant editor for the <span class="v2">v2</span> revision, you must use the[multiVariant bookmarklet](#multivariant-bookmarklet) to force the editor version.
-
-1. Open MakeCode and add the bookmarklet.
-2. Go to classroom and setup a MakeCode session, the iFrame will then pull in the multiVariant version.
-
-### Python
-For Python you can specify the version eg `2.1.0-beta-5` in the URL eg
-https://classroom.microbit.org/?editorVersion=2.1.0-beta-5
-
 ## iOS App
 
 The iOS App TestFlight/beta has a hidden option that enables you to input the makecode version URL eg  [https://makecode.microbit.org/compile=multiVariant](https://makecode.microbit.org/compile=multiVariant)
