@@ -2,7 +2,7 @@
 
 # Microbit Developer Community Docs - PRIVATE fork
 
-These docs are a private mirror of [dev-docs](https://github.com/microbit-foundation/dev-docs) which are then rendered into the [micro:bit Developer Commmunity site](http://tech.microbit.org)
+These docs are a private fork of [dev-docs](https://github.com/microbit-foundation/dev-docs) which are then rendered into the [micro:bit Developer Commmunity site](http://tech.microbit.org)
 
 ## Using these docs
 
