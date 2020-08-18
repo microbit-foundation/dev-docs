@@ -55,7 +55,7 @@ to do this.
 
 # Further information
 
-[Martin Woolley's Bluetooth Blog](http://bluetooth-developer.blogspot.com/p/bbc-microbit.html) has a range of information on using Bluetooth with micro:bit
+[Martin Woolley's Bluetooth Blog](http://bluetooth-developer.blogspot.com/) has a range of information on using Bluetooth with micro:bit
 
 [BittySoftware](https://bittysoftware.blogspot.com) has a range of Bluetooth enabled software for the micro:bit
 
