@@ -23,7 +23,7 @@ lang: en
 
 ## Getting Started With the micro:bit Hardware
 
-The micro:bit hardware is based on the ARM-mbed platform.
+The micro:bit hardware is based on the Arm-Mbed platform.
 It has an application processor with lots of on-chip perhipherals.
 Some off-chip peripherals are connected to this chip.
 There is an interface processor connected to the application processor,
@@ -54,7 +54,7 @@ via an off-chip aerial.
 | item          | details
 | ---           | ---
 | Model         | [Nordic nRF51822-QFAA-R rev 3](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF51822)
-| Core variant  | [ARM Cortex-M0 32 bit processor](https://www.arm.com/products/processors/cortex-m/cortex-m0.php)
+| Core variant  | [Arm Cortex-M0 32 bit processor](https://www.arm.com/products/processors/cortex-m/cortex-m0.php)
 | Flash ROM     | 256KB
 | RAM           | 16KB
 | Speed         | 16MHz
@@ -253,7 +253,7 @@ main computer.
 | item          | details
 | ---           | ---
 | Model         |[Freescale MKL26Z128VFM4](http://www.nxp.com/webapp/search.partparamdetail.framework?PART_NUMBER=MKL26Z128VFM4)
-| Core variant: | [ARM Cortex-M0+](https://www.arm.com/products/processors/cortex-m/cortex-m0plus.php)
+| Core variant: | [Arm Cortex-M0+](https://www.arm.com/products/processors/cortex-m/cortex-m0plus.php)
 | Flash ROM     | 128KB
 | RAM           | 16KB
 | Speed         | 16MHz
@@ -333,6 +333,6 @@ manufacture of attachments e.g. via 3D printing.
 
 [SPI 'specification'](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
 
-[ARM mbed overview](https://www.mbed.com/en/about-mbed/what-mbed/)
+[Arm Mbed overview](https://www.mbed.com/en/about-mbed/what-mbed/)
 
 [Fritzing diagram, contributed by Kok Ho Huen](/docs/hardware/assets/Microbit.fzpz.zip)

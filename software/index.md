@@ -34,7 +34,7 @@ micro:bit, one that is running the **DAPlink** software entirely to facilitate t
 The 'high level' programming languages for the micro:bit break down into
 two broad categories
 
-* Compiled languages: your program is compiled to ARM assembler or some other kind of bytecode before being copied onto the micro:bit.
+* Compiled languages: your program is compiled to Arm assembler or some other kind of bytecode before being copied onto the micro:bit.
 
 * Interpreted Languages: both your script and an interpreter for it are copied onto the micro:bit. Because the interpreter is on the micro:bit itself, these languages typically also allow you to program the micro:bit 'live' over USB by typing commands.
 
@@ -48,7 +48,7 @@ This process is explained in full in the [In browser compiler](/software/in_brow
 
 These in-browser-compilers do not compile the whole of the software stack,
 but just the user's script. Function calls and low level functions are
-handled by the micro:bit runtime and mbed. A pre-compiled runtime image is
+handled by the micro:bit runtime and Mbed. A pre-compiled runtime image is
 included in the browser and concatenated with the compiled script before
 being presented for download.
 
@@ -82,7 +82,7 @@ Here's a non-exhaustive list of possible code editors for use with the micro:bit
 * [Kittenblock](https://www.kittenbot.cc/pages/software)
 * [Kodu](https://www.kodugamelab.com/resources/bbc-microbit/)
 * [MATLAB & Simulink](https://uk.mathworks.com/academia/highschool/courseware/microbit.html)
-* [mbed Online Compiler](http://developer.mbed.org/platforms/Microbit)
+* [Mbed Online Compiler](http://developer.mbed.org/platforms/Microbit)
 * [mBlock 5](https://www.makeblock.com/software/mblock5)
 * [MicroBlocks (beta)](http://microblocks.fun/)
 * [Mind+](http://mindplus.cc/)
@@ -117,10 +117,10 @@ flashed. This code consists of various lower level software components, such as:
 facilities of the micro:bit into a common set of functions that can be used
 by all coding languages. The high level block functions in MakeCode map almost directly onto equivalent C/C++ calls in the runtime. MicroPython requires less use of the DAL.
 
-* [ARM mbed](./runtime/#arm-mbed) The ARM mbed SDK  provides standardised drivers for MCU peripherals and abstracts most of the low level hardware details of different MCUs, meaning that micro:bit software can be easily run on other hardware. This
-includes an abstraction for BLE, the mbed BLE api.
+* [Arm Mbed](./runtime/#arm-mbed) The Arm mbed SDK  provides standardised drivers for MCU peripherals and abstracts most of the low level hardware details of different MCUs, meaning that micro:bit software can be easily run on other hardware. This
+includes an abstraction for BLE, the Mbed BLE api.
 
 * [Nordic nRF5 SDK](./runtime/#nordic-nrf5-sdk) mbed itself builds on top of the
 Nordic nRF5 SDK, the component provided by Nordic to assist programmers in using their hardware.
 
-* [MicroPython interpreter](./micropython) If you are using Python, then the whole MicroPython language interpreter is joined to your application to make up the .hex file. MicroPython on the micro:bit uses mbed underneath, though MicroPython also runs on a wide range of other hardware platforms.
+* [MicroPython interpreter](./micropython) If you are using Python, then the whole MicroPython language interpreter is joined to your application to make up the .hex file. MicroPython on the micro:bit uses Mbed underneath, though MicroPython also runs on a wide range of other hardware platforms.

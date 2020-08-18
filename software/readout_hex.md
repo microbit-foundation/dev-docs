@@ -38,7 +38,7 @@ In order to complete this task you will require some additional tools and librar
 
   - Linux/Mac OS
   - Python 2 (pyOCD is not supported in Python3)
-  - [GNU Project Debugger](https://www.gnu.org/software/gdb/) included as part of [armDeveloper GNU Embedded Toolchain](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads) [How to Install](https://gnu-mcu-eclipse.github.io/toolchain/arm/install/)
+  - [GNU Project Debugger](https://www.gnu.org/software/gdb/) included as part of [ArmDeveloper GNU Embedded Toolchain](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads) [How to Install](https://gnu-mcu-eclipse.github.io/toolchain/arm/install/)
   - [pyOCD Python library](https://github.com/mbedmicro/pyOCD)
 
 The method described here has been tested on Mac OS  using [Homebrew as a package manager](https://brew.sh/), but should work on Linux. Additional steps are linked to, but it is outside the scope of this article to go through setup.

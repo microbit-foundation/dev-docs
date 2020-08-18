@@ -60,7 +60,7 @@ There are some useful [advanced configuration options in the micro:bit runtime c
 ## Challenge
 
 It would be possible for anyone with the appropriate knowledge to define and
-implement other Bluetooth profiles. You would need to use the mbed C/C++ environment
+implement other Bluetooth profiles. You would need to use the Mbed C/C++ environment
 to do this.
 
 We are seeking collaborators to help us define the new profile elements that expose some of the <span class="v2">v2</span> features.

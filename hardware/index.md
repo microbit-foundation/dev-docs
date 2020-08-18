@@ -23,7 +23,7 @@ lang: en
 
 ## Getting Started With the micro:bit Hardware
 
-The micro:bit is an ARM based, Single Board Computer (SBC) that contains an application processor with a variety of on-chip perhipherals.Other peripherals are connected to this chip.
+The micro:bit is an Arm based, Single Board Computer (SBC) that contains an application processor with a variety of on-chip perhipherals.Other peripherals are connected to this chip.
 
 There is an interface processor connected to the application processor,
 and it is the interface processors job to manage communications over the USB
@@ -50,7 +50,7 @@ via an off-chip aerial.
 | item          | details
 | ---           | ---
 | Model         | [Nordic nRF52833](https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52833)
-| Core variant  | [ARM Cortex-M4 32 bit processor with FPU](https://developer.arm.com/ip-products/processors/cortex-m/cortex-m4)
+| Core variant  | [Arm Cortex-M4 32 bit processor with FPU](https://developer.arm.com/ip-products/processors/cortex-m/cortex-m4)
 | Flash ROM     | 512KB
 | RAM           | 128KB
 | Speed         | 64MHz
@@ -259,7 +259,7 @@ main computer.
 | item          | details
 | ---           | ---
 | Model         |[MKL27Z256VFM4](https://www.nxp.com/part/MKL27Z256VFM4#/)
-| Core variant: | [ARM Cortex-M0+](https://www.arm.com/products/processors/cortex-m/cortex-m0plus.php)
+| Core variant: | [Arm Cortex-M0+](https://www.arm.com/products/processors/cortex-m/cortex-m0plus.php)
 | Flash ROM     | 256KB
 | RAM           | 16KB
 | Speed         | ? (crystal) 48MHz (max)
@@ -299,7 +299,7 @@ recover a lost bootloader.
 | ---           | ---
 | Protocol      | CMSIS-DAP
 | Options       | JLink/OB (via different firmware)
-| More Info     | [MBED debugging micro:bit](https://os.mbed.com/docs/mbed-os/v6.0/debug-test/debug-microbit.html)
+| More Info     | [Mbed debugging micro:bit](https://os.mbed.com/docs/mbed-os/v6.0/debug-test/debug-microbit.html)
 
 ### Mechanical
 

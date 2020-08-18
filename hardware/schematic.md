@@ -42,7 +42,7 @@ you have to disable the display in software.
 
 ### Interface
 
-The Interface sheet shows the KL26 processor, which is an ARM processor that implements
+The Interface sheet shows the KL26 processor, which is an Arm processor that implements
 the USB protocol for the USB connector. This provides a method for loading code onto the application
 processor, using a drag and drop interface.
 

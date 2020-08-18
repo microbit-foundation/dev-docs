@@ -35,7 +35,7 @@ of the various micro:bit services.
 The processor also has a number of non-bluetooth proprietary
 modes of operation, on which we build the micro:bit radio
 protocol. This only works between micro:bits and is what is defined as 'Micro:bit Radio' in the DAL
-and  'radio' in MakeCode and MicroPython, as well as mbed C++.
+and  'radio' in MakeCode and MicroPython, as well as Mbed C++.
 
 ## Apps
 

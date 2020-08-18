@@ -38,7 +38,7 @@ On the [reference design](/hardware/reference-design) the interface circuit is c
 
 ## DAPLink software
 
-This interface chip is running software from [arm MBED](https://os.mbed.com/) called [DAPLink](https://github.com/ARMmbed/DAPLink).
+This interface chip is running software from [Arm Mbed](https://os.mbed.com/) called [DAPLink](https://github.com/ARMmbed/DAPLink).
 
 This software provides three USB endpoints that have specific purposes:
 
@@ -49,8 +49,8 @@ This software provides three USB endpoints that have specific purposes:
 * HID - CMSIS-DAP compliant debug channel - this is useful if you want to use advanced debuggers like GDB or Keil to understand what's happening (or not happening!) on your micro:bit.
 
 
-The DAPLink software and interface chip are part of the [ARM mbed HDK](https://developer.mbed.org/handbook/mbed-HDK)
-and the [mbed Enabled program](https://www.mbed.com/en/about-mbed/mbed-enabled/)
+The DAPLink software and interface chip are part of the [Arm Mbed HDK](https://developer.mbed.org/handbook/mbed-HDK)
+and the [Mbed Enabled program](https://www.mbed.com/en/about-mbed/mbed-enabled/)
 
 The micro:bit currently ships with DAPLink bootloader at version 0255 and interface at version 0255.
 
@@ -100,7 +100,7 @@ Due to the number of pins on the Nordic Semiconductor chip, only the uart TX and
 
 ## HID and CMSIS-DAP
 
-The HID endpoint is for a CMSIS-DAP channel. This can most easily be used [with pyOCD](https://github.com/mbedmicro/pyOCD), an open source python library for programming and debugging ARM Cortex-M microcontrollers using CMSIS-DAP
+The HID endpoint is for a CMSIS-DAP channel. This can most easily be used [with pyOCD](https://github.com/mbedmicro/pyOCD), an open source python library for programming and debugging Arm Cortex-M microcontrollers using CMSIS-DAP
 
 ## WebUSB
 
