@@ -23,7 +23,7 @@ about and try for yourself with your micro:bit
 
 [bitty software apps](https://bittysoftware.blogspot.com/p/applications.html)
 
-[Martins App](http://bluetooth-mdw.blogspot.co.uk/p/bbc-microbit.html)
+[Martins App](http://bluetooth-developer.blogspot.com/p/bbc-microbit.html)
 
 [Android App on Google Play](https://play.google.com/store/apps/details?id=com.samsung.microbit&hl=en_GB)
 
