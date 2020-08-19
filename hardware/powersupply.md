@@ -72,14 +72,14 @@ as being 1.7V min and 3.6V max.
 
 ### USB Powering
 
-When powered from USB, the KL26 interface chip's on-board regulator is used
+When powered from USB, the KL26/27 interface chip's on-board regulator is used
 to provide 3.3V to the rest of the board.
 
-The [data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
+The [KL26 data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
 section 3.8.2, Table 30. "USB VREG electrical specifications" indicates the maximum
 current from the regulated supply is 120mA. Some of this current is required to
-run on-board devices, such as the KL26 itself, the nRF51 application processor, the motion sensor, and the LED display. When Bluetooth is enabled, the current
-consumption of the nRF51 increases slightly. You should budget your current
+run on-board devices, such as the KL26/27 itself, the nRF application processor, the motion sensor, and the LED display. When Bluetooth is enabled, the current
+consumption of the nRF increases slightly. You should budget your current
 requirements for anything you attach to the micro:bit to not exceed about
 90mA to give enough safe headroom for worst case with all on board peripherals
 in use.
@@ -105,10 +105,10 @@ KL26 interface chip is not powered up, and the System LED will not be
 turned on. If your code does not display anything on the display,
 this might look like the micro:bit is not working, but it is.
 
-Because the nRF51822 is powered almost directly (there is only one BAT60 diode
+Because the nRF51 chip is powered almost directly (there is only one BAT60 diode
 between the supply and the nRF51 power rails), a fully charged **LiPoly battery**
 that is specced to reach 4.2V **will be give greater than the [3.6V maximum that
-the nRF51822 can withstand**](#key-voltages)
+the nRF51 can withstand**](#key-voltages)
 
 There is further information about the [battery connection and use](https://support.microbit.org/solution/articles/19000013982-how-do-i-power-my-micro-bit-/en) in our knowledgebase
 
@@ -136,7 +136,7 @@ of over voltage protection, or proper regulation.
 
 The [schematic](/hardware/schematic/) shows the architecture of the power supply.
 Key points to note are that there are two BAT60A diodes, one from the 3.3V
-supply from the KL26 interface chip, and one from the external battery connector.
+supply from the KL26/27 interface chip, and one from the external battery connector.
 Note that the 3V ring on the edge connector is V_TGT, which is the raw
 supply provided to all on board chips, so this is why extra care
 should be taken when connecting directly to the 3V ring or the 3V losenge.
