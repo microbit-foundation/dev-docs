@@ -20,7 +20,8 @@ The micro:bit v2 <span class="v2">v2</span> board revision has a range of modes 
 
 *The device can accidentally be woken by the combined sensor interrupt on P0.25 as the pin does not have a deault pull. To prevent this behaviour, a pull up needs to be applied to the pin in the nRF configuration*
 
-## LED display 
+
+## LED display
 The LED display on the <span class="v2">v2</span> board revision is also brighter than previous revisions, so when using at full brightness you will notice faster battery rundown than an equivalent program on a <span class="v1">v1</span> board. 
 
 See our tips on [prolonging battery life](https://support.microbit.org/en/support/solutions/articles/19000087231-prolonging-battery-life)
