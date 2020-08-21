@@ -29,7 +29,7 @@ The information applies to all board revisions, but specifics for the latest <sp
 - Matte finish
 - Copper plated antenna
 
-## How do I use the new features?
+## How do I use the v2 features?
 
 The **speaker** works in the same way you would expect when you connect up your headphones or an external speaker to the micro:bit. By default, the sound output will be via the Edge Connector and the speaker.
 The **microphone** has an additional set of blocks in MakeCode and objects in MicroPython to use, so that you can monitor and record sound. 
@@ -149,4 +149,4 @@ TBC
 
 ## Compiling in C++ (CODAL)
 
-TBC
+
