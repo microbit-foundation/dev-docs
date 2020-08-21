@@ -72,8 +72,8 @@ as being 1.7V min and 3.6V max.
 
 ### USB Powering
 
-When powered from USB, the KL26/27 interface chip's on-board regulator is used
-to provide 3.3V to the rest of the board.
+When powered from USB, the KL26 <span class="v1">v1</span> interface chip's on-board regulator is used
+to provide 3.3V to the rest of the board. The latest revision <span class="v2">v2</span> has a seperate regulator on the board.
 
 The [KL26 data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
 section 3.8.2, Table 30. "USB VREG electrical specifications" indicates the maximum
@@ -132,7 +132,7 @@ than the maximum operating voltage of the micro:bit, fit some form
 of over voltage protection, or proper regulation.
 
 
-### Power Supply Architecture
+### Power Supply Architecture v1
 
 The [schematic](/hardware/schematic/) shows the architecture of the power supply.
 Key points to note are that there are two BAT60A diodes, one from the 3.3V
@@ -143,3 +143,6 @@ should be taken when connecting directly to the 3V ring or the 3V losenge.
 
 The BAT60A devices have a low Vf rating, you can read about this in the
 [BAT60A datasheet](http://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9)
+
+### Power Supply Architecture v2 TBC
+TODO
