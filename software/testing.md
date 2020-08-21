@@ -26,7 +26,7 @@ The information applies to all board revisions, but specifics for the latest <sp
 
 - Notched edge connector
 - Power LED indicator and USB activity indicator
-- Matte Finish
+- Matte finish
 - Copper plated antenna
 
 ## How do I use the new features?
@@ -58,7 +58,7 @@ If you haven’t already received a device, but would like one in order to test/
 
 ## Makecode Editor
 
-You can use the latest board revision in the beta editor at  [https://makecode.microbit.org?compile=multiVariant](https://makecode.microbit.org?compile=multiVariant)
+You can use the latest board revision in the beta editor at  [https://makecode.microbit.org/beta?compile=multiVariant](https://makecode.microbit.org/beta?compile=multiVariant)
 
 A file downloaded in this editor will work on any micro:bit.
 
@@ -95,7 +95,7 @@ Mu may not have been updated in time for new micro:bit variant devices entering 
 
 ## iOS App
 
-The iOS App TestFlight/beta has a hidden option that enables you to input the makecode version URL eg  [https://makecode.microbit.org/compile=multiVariant](https://makecode.microbit.org/compile=multiVariant)
+The iOS App TestFlight/beta has a hidden option that enables you to input the makecode version URL eg  [https://makecode.microbit.org/beta?compile=multiVariant](https://makecode.microbit.org/beta?compile=multiVariant)
 
 To test, you will need to:
 
@@ -108,13 +108,13 @@ When you open the app, tap on the word ‘beta’ in the top right of the screen
 
 ![iOS beta button](/docs/software/assets/ios-beta-button.png)
 
-This will open a dialogue for you to enter in the URL suffix [compile=multiVariant](https://makecode.microbit.org/compile=multiVariant). Pressing enter will reload the editor at this URL.
+This will open a dialogue for you to enter in the URL suffix [compile=multiVariant](https://makecode.microbit.org/beta?compile=multiVariant). Pressing enter will reload the editor at this URL.
 
 ![iOS beta URL](/docs/software/assets/ios-beta-url.png)
 
 ## Android App
 
-The Android app has a hidden option that enables you to input the makecode version URL eg  [https://makecode.microbit.org/compile=multiVariant](https://makecode.microbit.org/compile=multiVariant)
+The Android app has a hidden option that enables you to input the makecode version URL eg  [https://makecode.microbit.org/beta?compile=multiVariant](https://makecode.microbit.org/beta?compile=multiVariant)
 
 To test, you will need to:
 
