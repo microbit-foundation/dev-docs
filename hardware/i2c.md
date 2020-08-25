@@ -37,9 +37,13 @@ If you make an accessory for the micro:bit, please help us by editing the table 
 | [EDU:BIT](https://www.cytron.io/p-edubit)| Cytron Technologies | 0x08 (0x10/0x11) |
 
 
-# Acceptable capacitance for I2C accessories
+### Acceptable capacitance for I2C accessories
 
 In our recent testing for the motion sensor change, we found that a 10nF cap connected SCL-GND slowed down the i2c bus, but it continued to operate. Separately, capacitance was added to SDA until it ceased operation:
 - 100KHz continued with 1nF but failed with 2nF.
 - 400kHz continued with 150pF but failed with 180pF.
 No difference was seen between the revisions.
+
+## Notes
+
+The <span class="v2">v2</span> device can accidentally be woken by the combined sensor interrupt on P0.25 as the pin does not have a deault pull. To prevent this behaviour, a pull up needs to be applied to the pin in the nRF configuration.
