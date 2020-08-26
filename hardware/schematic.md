@@ -22,6 +22,12 @@ The schematic is available from the BBC's [micro:bit hardware repository](https:
 use our ['Reference Design'](/hardware/reference-design/) which is based on a radio module and has space on the layout
 for you to add your own components.**
 
+## Schematics
+
+- [v1.3](https://github.com/bbcmicrobit/hardware/blob/master/V1.3B/SCH_BBC-Microbit_V1.3B.pdf)
+- [v1.5](https://github.com/bbcmicrobit/hardware/blob/master/V1.5/SCH_BBC-Microbit_V1.5.PDF)
+
+
 ## Key Features
 
 Below, we've extracted some useful details about the hardware that anyone implementing
