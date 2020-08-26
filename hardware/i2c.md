@@ -46,4 +46,4 @@ No difference was seen between the revisions.
 
 ## Notes
 
-The <span class="v2">v2</span> device can accidentally be woken by the combined sensor interrupt on P0.25 as the pin does not have a deault pull. To prevent this behaviour, a pull up needs to be applied to the pin in the nRF configuration.
+The <span class="v2">v2</span> device can be woken by activating the combined sensor interrupt on P0.25. This signal is connected between the nRF52, the KL27, and motion sensors and requires the nRF52 internal pull up to be configured, even while the device is sleeping.
