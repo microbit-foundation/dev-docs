@@ -48,7 +48,7 @@ you have to disable the display in software.
 
 ### Interface
 
-The Interface sheet shows the KL26/<span class="v1">v1</span>KL27<span class="v2">v2</span> processor, which is an Arm processor that implements
+The Interface sheet shows the KL26/<span class="v1">v1</span>KL27<span class="v2">v2</span> processor, which is an NXP microcontroller with an Arm processor, that implements
 the USB protocol for the USB connector. This provides a method for loading code onto the application
 processor, using a drag and drop interface.
 
