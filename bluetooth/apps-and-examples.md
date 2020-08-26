@@ -26,7 +26,6 @@ if you know of any more. Many listed here are take from the [micro:bit Awesome l
 [iOS App](https://apps.apple.com/gb/app/micro-bit/id1092687276)faciliates [pairing and flashing programs to the micro:bit](https://support.microbit.org/en/support/solutions/articles/19000051025-pairing-and-flashing-code-via-bluetooth)
 
 [Swift Playgrounds](https://github.com/microbit-foundation/microbit-swift-playgrounds) contains a Playground Book available in the Swift app and a micro:bit Swift API to develop further resources
-Scratch.
 
 [Scratch](https://scratch.mit.edu/microbit) facilitates a connection to the micro:bit and uses display, buttons and motion sensor services.
 

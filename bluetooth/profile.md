@@ -36,8 +36,8 @@ There are also some example programs in the [microbit-samples](https://github.co
 [bluetooth-eddystone-url]https://github.com/lancaster-university/microbit-samples/tree/master/source/examples/bluetooth-eddystone-url
 [bluetooth-uart]https://github.com/lancaster-university/microbit-samples/tree/master/source/examples/bluetooth-uart
 
-The micro:bit has a Bluetooth 4.1+ stack with Bluetooth Low Energy (BLE) and supports
-the [GAP Perhipheral Role](http://bluetooth-mdw.blogspot.co.uk/2016/07/microbit-and-bluetooth-roles.html).
+The micro:bit has a Bluetooth 4.1 stack with Bluetooth Low Energy (BLE) and supports
+the [GAP Perhipheral Role](https://bluetooth-developer.blogspot.com/2016/07/microbit-and-bluetooth-roles.html).
 
 As per all Bluetooth, it operates in the ISM (Industrial Scientific Medical) band
 and this starts at **2.4GHz and ends at 2.41GHz**. BLE divides the frequency
@@ -68,7 +68,7 @@ We are seeking collaborators to help us define the new profile elements that exp
 
 ## Further information
 
-[Martin Woolley's Bluetooth Blog](http://bluetooth-mdw.blogspot.co.uk/p/bbc-microbit.html) has a range of information on using Bluetooth with micro:bit
+[Martin Woolley's Bluetooth Blog](https://bluetooth-developer.blogspot.com/) has a range of information on using Bluetooth with micro:bit
 
 [BittySoftware](https://bittysoftware.blogspot.com) has a range of Bluetooth enabled software for the micro:bit
 

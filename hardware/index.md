@@ -72,7 +72,7 @@ including smartphones and tablets.
 | Channels      | 50 2MHz channels, only 40 used (0 to 39), 3 advertising channels (37,38,39)
 | Sensitivity   | -93dBm in Bluetooth low energy mode
 | Tx Power      | -40dBm to 8dBm
-| Role          | [GAP Peripheral](http://bluetooth-mdw.blogspot.co.uk/2016/07/microbit-and-bluetooth-roles.html)
+| Role          | [GAP Peripheral](https://bluetooth-developer.blogspot.com/2016/07/microbit-and-bluetooth-roles.html)
 | Congestion avoidance | Adaptive Frequency Hopping
 | Profiles      | [BBC micro:bit profile](https://lancaster-university.github.io/microbit-docs/ble/profile/)
 | More Info     | [Bluetooth](../bluetooth)
