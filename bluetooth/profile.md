@@ -26,7 +26,7 @@ The BBC micro:bit [Bluetooth profile is defined in the DAL](https://lancaster-un
 There are [pre-compiled Hex files available](https://lancaster-university.github.io/microbit-docs/ble/profile/#all-services-enabled-hex-file) that enable bluetooth services available on the micro:bit and some [example programs in the microbit-samples repository](https://github.com/lancaster-university/microbit-samples)
 
 The micro:bit has a Bluetooth 4.1 stack with Bluetooth Low Energy (BLE) and supports
-the [GAP Perhipheral Role](http://bluetooth-mdw.blogspot.co.uk/2016/07/microbit-and-bluetooth-roles.html).
+the [GAP Perhipheral Role](https://bluetooth-developer.blogspot.com/2016/07/microbit-and-bluetooth-roles.html).
 
 As per all Bluetooth, it operates in the ISM (Industrial Scientific Medical) band
 and this starts at **2.4GHz and ends at 2.41GHz**. BLE divides the frequency
@@ -55,7 +55,7 @@ to do this.
 
 # Further information
 
-[Martin Woolley's Bluetooth Blog](http://bluetooth-mdw.blogspot.co.uk/p/bbc-microbit.html) has a range of information on using Bluetooth with micro:bit
+[Martin Woolley's Bluetooth Blog](https://bluetooth-developer.blogspot.com/) has a range of information on using Bluetooth with micro:bit
 
 [BittySoftware](https://bittysoftware.blogspot.com) has a range of Bluetooth enabled software for the micro:bit
 
