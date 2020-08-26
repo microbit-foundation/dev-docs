@@ -57,7 +57,7 @@ the drag and drop code load interface. It also provides a Connected Device Class
 a serial port interface to be used across the USB.
 
 The interface processor also contains an on-board regulator that steps down the USB voltage
-to 3.3V suitable for powering the rest of the micro:bit, and you can draw 120mA<span class="v1">v1</span>/TBC<span class="v2">v2</span> from this
+to 3.3V suitable for powering the rest of the micro:bit, and you can draw 120mA<span class="v1">v1</span>/300mA<span class="v2">v2</span> from this
 processor regulator. A TVS device is fitted to suppress ESD spikes and out of range voltages
 that could be present on the USB connector.
 
@@ -138,11 +138,17 @@ The <span class="v2">v2</span> board revision has a notched edge connector to ma
 
 [KL26 datasheet](http://www.nxp.com/webapp/search.partparamdetail.framework?PART_NUMBER=MKL26Z128VFM4)
 
-[NRF52 datasheet](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52833.html&cp=3_1)
+[nRF52833 datasheet](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52833.html&cp=3_1)
 
-[nRF51 datasheet](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF51822)
+[nRF51822 datasheet](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF51822)
 
 [LSM303AGR datasheet](https://www.st.com/resource/en/datasheet/lsm303agr.pdf)
+
+[FXOS8700 datasheet](https://www.nxp.com/docs/en/data-sheet/FXOS8700CQ.pdf)
+
+[MAG3110 datasheet](http://www.nxp.com/products/sensors/magnetometers/sample-data-sets-for-inertial-and-magnetic-sensors/high-accuracy-3d-magnetometer:MAG3110)
+
+[MMA8653FC datasheet](http://www.nxp.com/products/sensors/accelerometers/3-axis-accelerometers/2g-4g-8g-low-g-10-bit-digital-accelerometer:MMA8653FC)
 
 [PRT5xx datasheet](https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2F_PRTR5V0U2K.pdf)
 
