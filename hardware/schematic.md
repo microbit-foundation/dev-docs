@@ -25,7 +25,8 @@ for you to add your own components.**
 ## Schematics
 
 - [v1.3](https://github.com/bbcmicrobit/hardware/blob/master/V1.3B/SCH_BBC-Microbit_V1.3B.pdf)
-- [v1.5](https://github.com/bbcmicrobit/hardware/blob/master/V1.5/SCH_BBC-Microbit_V1.5.PDF)
+- [v1.5](https://github.com/bbcmicrobit/hardware/blob/master/V1.5/SCH_BBC-Microbit_V1.5.PDF
+- [v2 TBC](#)
 
 
 ## Key Features
@@ -103,9 +104,11 @@ Code is loaded into this processor via the interface processor.
 
 Communications via USB serial is done via the interface processor.
 
-All GPIO pins on the edge connector are serviced by this application processor.
+All GPIO pins on the [edge connector](/docs/hardware/edgeconnector/) are serviced by this application processor.
 
-All bluetooth features are provided by a SoftDevice stack loaded into this processor.
+All [bluetooth](/docs/software/bluetooth) features are provided by a SoftDevice stack loaded into this processor.
+
+The nRF52<span class="v2">v2</span> features additional NFC functionality on P0.09(NFC1) and P0.10(NFC2) that is disabled by default, but can be configured using the [nRF5SDK](https://www.nordicsemi.com/Software-and-Tools/Software/nRF5-SDK).
 
 
 ### Edge Connector

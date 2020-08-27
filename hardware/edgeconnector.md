@@ -33,7 +33,7 @@ front rings, but the back small strips are unconnected.
 ## Edge Connector Pins
 
 The diagrams below show the assignation of the micro:bit pins. On the <span class="v2">v2</span> board revision
-Pin 9 is no longer jointly shared with the LED display.
+Pin 9 is no longer jointly shared with the LED display, but can be configured for NFC (though this is disabled by default).
 
 | v2   | v1
 | ---- | ---- 
@@ -65,7 +65,7 @@ This table shows various data about each of the pins on the micro:bit edge conne
 | 1        | 19      | PAD2     | P0.02 | P1  | } **GPIO**, ANALOG, TOUCH, PWM, UART              | I      | e10Mu, i12Kd   |
 |          |         | PAD2     |       | P1  | }                                                 |        |                |
 |          | 38      | P0.18    | P0.18 | P8  | **GPIO**, PWM, UART                               | I      | i12Kd          |
-|          | 28      | COL7R    | P0.10 | P9  | (GPIO), (PWM), (UART)                             | O      | --             |
+|          | 28      | COL7R    | P0.10 | P9  | (GPIO), (PWM), (UART), (NFC2)                     | O      | --             |
 |          | 23      | COL3R    | P0.06 | P10 | (GPIO), **LEDCOL(3)**, (ANALOG), (PWM), (UART)    | O      | --             |
 |          | 9       | BTN_B    | P0.26 | P11 | (GPIO), **BUTTON(B)**, (PWM), (UART)              | I      | e10Ku, i12Kd?  |
 |          | 40      | P0.20    | P0.20 | P12 | (GPIO),**ACCESSIBILITY**, (PWM), (UART)                   | I      | i12Kd          |
@@ -204,7 +204,6 @@ later, call the DAL function `display.enable(true)`.
 Note also that the LED 3x9 matrix connects LEDs with associated resistors across
 these pins, so you should take that into account when designing circuits to use these
 pins for other purposes.
-
 
 **pins: P5, P11**
 
