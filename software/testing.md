@@ -80,7 +80,7 @@ If you only want to compile for the <span class="v2">v2</span> revision, you can
 
 ## Python Editor
 
-You can use the latest board revision in the Python beta editor at [https://python-editor-next-release-review.microbit.org/](python-editor-next-release-review.microbit.org/)
+You can use the latest board revision in the Python beta editor at [https://python-editor-next-release-review.microbit.org/](https://python-editor-next-release-review.microbit.org/)
 
 If you find direct browser flashing (webUSB) isn't working, it is likely that you are visiting the page with the http protocol. We currently do not have https redirection enabled.
 

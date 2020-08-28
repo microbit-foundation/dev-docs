@@ -30,9 +30,9 @@ The interface processor does not connect to any of the micro:bit peripherals.
 
 Two key pieces of information to help understand the internals of the micro:bit are:
 
-* The [schematics](./schematic), which shows the detailed component data and connectivity of the device.
+* The [schematics](../schematic), which shows the detailed component data and connectivity of the device.
 
-* The [reference design](./reference-design), which is a complete module design of a compatible micro:bit,
+* The [reference design](../reference-design), which is a complete module design of a compatible micro:bit,
   and is designed to be a starting point for anyone interested in understanding the micro:bit
   or designing their own variant.
 
@@ -56,7 +56,7 @@ via an off-chip aerial.
 | RAM           | 16KB
 | Speed         | 16MHz
 | Debug         | SWD, jlink/OB
-| More Info     | [Software](../software), [NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
+| More Info     | [Software](/docs/software), [NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
 
 
 ## Bluetooth Wireless Communication
@@ -76,7 +76,7 @@ including smartphones and tablets.
 | Role          | [GAP Peripheral](http://bluetooth-mdw.blogspot.co.uk/2016/07/microbit-and-bluetooth-roles.html)
 | Congestion avoidance | Adaptive Frequency Hopping
 | Profiles      | [BBC micro:bit profile](https://lancaster-university.github.io/microbit-docs/ble/profile/)
-| More Info     | [Bluetooth](../bluetooth)
+| More Info     | [Bluetooth](../software/bluetooth)
 
 
 ## Low Level Radio Communications
@@ -224,7 +224,7 @@ bottom. The 3V pad at the bottom can be used to supply a small amount of power e
 | Battery connector | JST X2B-PH-SM4-TB
 | Battery current | TBC
 | Max current provided via edge connector | 90mA
-| More Info | [Power supply](./powersupply)
+| More Info | [Power supply](../powersupply)
 
 
 ## Interface
@@ -241,7 +241,7 @@ main computer.
 | RAM           | 16KB
 | Speed         | [16Mhz (crystal)](https://github.com/Armmbed/DAPLink/blob/f499eb6ec4a847a2b78831fe1acc856fd8eb2f28/source/hic_hal/freescale/kl26z/MKL26Z4/system_MKL26Z4.c#L69) 48MHz (max)
 | Debug capabilities | SWD
-| More Info | [DAPLink](/software/daplink-interface/), [KL26 reference manual](https://www.nxp.com/docs/en/reference-manual/KL26P121M48SF4RM.pdf) [KL26Z data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
+| More Info | [DAPLink](../software/daplink-interface/), [KL26 reference manual](https://www.nxp.com/docs/en/reference-manual/KL26P121M48SF4RM.pdf) [KL26Z data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
 
 
 ## USB Communications
@@ -260,7 +260,7 @@ of application programs.
 | Speed         | 12Mbit/sec
 | USB classes supported | [Mass Storage Class (MSC)](https://en.wikipedia.org/wiki/USB_mass_storage_device_class)
 |    | [Communications Device Class (CDC)](https://en.wikipedia.org/wiki/USB_communications_device_class)
-| More Info | [DAPLink](/software/daplink-interface/)
+| More Info | [DAPLink](../software/daplink-interface/)
 
 
 ## Debugging
@@ -298,4 +298,4 @@ manufacture of attachments e.g. via 3D printing.
 
 [SPI 'specification'](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
 
-[Fritzing diagram, contributed by Kok Ho Huen](/docs/hardware/assets/Microbit.fzpz.zip)
+[Fritzing diagram, contributed by Kok Ho Huen](../hardware/assets/Microbit.fzpz.zip)
