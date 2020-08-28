@@ -56,7 +56,7 @@ via an off-chip aerial.
 | RAM           | 16KB
 | Speed         | 16MHz
 | Debug         | SWD, jlink/OB
-| More Info     | [Software](/docs/software), [NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
+| More Info     | [Software](../../software), [NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
 
 
 ## Bluetooth Wireless Communication
