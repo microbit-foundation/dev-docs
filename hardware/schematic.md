@@ -69,7 +69,7 @@ This processor does not have any connection to the GPIO pins on the micro:bit.
 There is one combined motion sensor IC on the micro:bit, that contains an accelerometer and a magnetometer. The accelerometer
 measures acceleration in 3 axies, and the magnetometer can be used as a compass, as well as a magnetic field detector.
 
-The device is connected to the application processor [I2c bus](../hardware/i2c/), and for the <span class="v1">v1</span> revision this [I2c bus is also shared](../hardware/i2c-shared/) to two pins on the edge connector. I2C pullup resistors are pre-fitted on the board.
+The device is connected to the application processor [I2c bus](../i2c/), and for the <span class="v1">v1</span> revision this [I2c bus is also shared](../i2c-shared/) to two pins on the edge connector. I2C pullup resistors are pre-fitted on the board.
 
 The magnetometer can generate one processor interrupt for the application processor, and the
 accelerometer can generate two different processor interrupts for the application processor.
@@ -104,9 +104,9 @@ Code is loaded into this processor via the interface processor.
 
 Communications via USB serial is done via the interface processor.
 
-All GPIO pins on the [edge connector](../hardware/edgeconnector/) are serviced by this application processor.
+All GPIO pins on the [edge connector](../edgeconnector/) are serviced by this application processor.
 
-All [bluetooth](../software/bluetooth) features are provided by a SoftDevice stack loaded into this processor.
+All [bluetooth](../../bluetooth) features are provided by a SoftDevice stack loaded into this processor.
 
 The nRF52<span class="v2">v2</span> features additional NFC functionality on P0.09(NFC1) and P0.10(NFC2) that is disabled by default, but can be configured using the [nRF5SDK](https://www.nordicsemi.com/Software-and-Tools/Software/nRF5-SDK).
 

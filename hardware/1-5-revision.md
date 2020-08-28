@@ -76,7 +76,7 @@ including smartphones and tablets.
 | Role          | [GAP Peripheral](http://bluetooth-mdw.blogspot.co.uk/2016/07/microbit-and-bluetooth-roles.html)
 | Congestion avoidance | Adaptive Frequency Hopping
 | Profiles      | [BBC micro:bit profile](https://lancaster-university.github.io/microbit-docs/ble/profile/)
-| More Info     | [Bluetooth](../software/bluetooth)
+| More Info     | [Bluetooth](../../bluetooth)
 
 
 ## Low Level Radio Communications
@@ -241,7 +241,7 @@ main computer.
 | RAM           | 16KB
 | Speed         | [16Mhz (crystal)](https://github.com/Armmbed/DAPLink/blob/f499eb6ec4a847a2b78831fe1acc856fd8eb2f28/source/hic_hal/freescale/kl26z/MKL26Z4/system_MKL26Z4.c#L69) 48MHz (max)
 | Debug capabilities | SWD
-| More Info | [DAPLink](../software/daplink-interface/), [KL26 reference manual](https://www.nxp.com/docs/en/reference-manual/KL26P121M48SF4RM.pdf) [KL26Z data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
+| More Info | [DAPLink](../../software/daplink-interface/), [KL26 reference manual](https://www.nxp.com/docs/en/reference-manual/KL26P121M48SF4RM.pdf) [KL26Z data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
 
 
 ## USB Communications
@@ -260,7 +260,7 @@ of application programs.
 | Speed         | 12Mbit/sec
 | USB classes supported | [Mass Storage Class (MSC)](https://en.wikipedia.org/wiki/USB_mass_storage_device_class)
 |    | [Communications Device Class (CDC)](https://en.wikipedia.org/wiki/USB_communications_device_class)
-| More Info | [DAPLink](../software/daplink-interface/)
+| More Info | [DAPLink](../../software/daplink-interface/)
 
 
 ## Debugging
@@ -298,4 +298,4 @@ manufacture of attachments e.g. via 3D printing.
 
 [SPI 'specification'](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
 
-[Fritzing diagram, contributed by Kok Ho Huen](../hardware/assets/Microbit.fzpz.zip)
+[Fritzing diagram, contributed by Kok Ho Huen](/docs/hardware/assets/Microbit.fzpz.zip)
