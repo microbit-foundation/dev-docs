@@ -33,7 +33,7 @@ front rings, but the back small strips are unconnected.
 ## Edge Connector Pins
 
 The diagrams below show the assignation of the micro:bit pins. On the <span class="v2">v2</span> board revision
-Pin 9 is no longer jointly shared with the LED display, but can be configured for NFC (though this is disabled by default).
+Pin 9 is no longer jointly shared with the LED display, but Pin 8 and Pin 9 can be configured for NFC (though this is disabled by default).
 
 | v2   | v1
 | ---- | ---- 
@@ -49,48 +49,48 @@ Pin 9 is no longer jointly shared with the LED display, but can be configured fo
 This table shows various data about each of the pins on the micro:bit edge connector.
 
 {: #v2-pins}
-| m:b ring | mod     | schem    | MCU   | s/w | functions                                         | dir    | pull?          |
-| -------- | ---     | -----    | ---   | --- | ---------                                         | ---    | -----          |
-|          | 21      | COL1R    | P0.04 | P3  | (GPIO), (ANALOG), **LEDCOL(1)**, (PWM), (UART)    | O      | --             |
-|          |         | PAD1     |       | P0  | }                                                 |        |                |
-|          |         | PAD1     |       | P0  | }                                                 |        |                |
-| 0        | 18      | PAD1     | P0.03 | P0  | } **GPIO**, ANALOG, TOUCH, PWM, UART              | I      | e10Mu, i12Kd   |
-|          |         | PAD1     |       | P0  | }                                                 |        |                |
-|          | 22      | COL2R    | P0.05 | P4  | (GPIO), (ANALOG), **LEDCOL(2)**, (PWM), (UART)    | O      | --             |
-|          | 37      | BTN_A    | P0.17 | P5  | (GPIO), **BUTTON(A)**, (PWM), (UART)              | I      | e10Ku, i12Kd?  |
-|          | 30      | COL9R    | P0.12 | P6  | (GPIO), **LEDCOL(9)**, (PWM), (UART)              | O      | --             |
-|          | 29      | COL8R    | P0.11 | P7  | (GPIO), **LEDCOL(8)**, (PWM), (UART)              | O      | --             |
-|          |         | PAD2     |       | P1  | }                                                 |        |                |
-|          |         | PAD2     |       | P1  | }                                                 |        |                |
-| 1        | 19      | PAD2     | P0.02 | P1  | } **GPIO**, ANALOG, TOUCH, PWM, UART              | I      | e10Mu, i12Kd   |
-|          |         | PAD2     |       | P1  | }                                                 |        |                |
-|          | 38      | P0.18    | P0.18 | P8  | **GPIO**, PWM, UART                               | I      | i12Kd          |
-|          | 28      | COL7R    | P0.10 | P9  | (GPIO), (PWM), (UART), (NFC2)                     | O      | --             |
-|          | 23      | COL3R    | P0.06 | P10 | (GPIO), **LEDCOL(3)**, (ANALOG), (PWM), (UART)    | O      | --             |
-|          | 9       | BTN_B    | P0.26 | P11 | (GPIO), **BUTTON(B)**, (PWM), (UART)              | I      | e10Ku, i12Kd?  |
-|          | 40      | P0.20    | P0.20 | P12 | (GPIO),**ACCESSIBILITY**, (PWM), (UART)                   | I      | i12Kd          |
-|          |         | PAD3     |       | P2  | }                                                 |        |                |
-|          |         | PAD3     |       | P2  | }                                                 |        |                |
-| 2        | 20      | PAD3     | P0.01 | P2  | } **GPIO**, ANALOG, TOUCH, PWM, UART              | I      | e10Mu, i12Kd   |
-|          |         | PAD3     |       | P2  | }                                                 |        |                |
-|          | 6       | SCK      | P0.23 | P13 | **GPIO**, SPI(SCLK), PWM, UART                    | I      | i12Kd          |
-|          | 5       | MISO     | P0.22 | P14 | **GPIO**, SPI(MISO), PWM, UART                    | I      | i12Kd          |
-|          | 4       | MOSI     | P0.21 | P15 | **GPIO**, SPI(MOSI), PWM, UART                    | I      | i12Kd          |
-|          | 34      | P0.16    | P0.16 | P16 | **GPIO**, PWM, UART                               | I      | i12Kd          |
-|          |         | +V_TGT   |       |     | PSU(V_TGT)                                        |        | --             |
-|          |         | +V_TGT   |       |     | }                                                 |        | --             |
-|          |         | +V_TGT   |       |     | }                                                 |        | --             |
-| 3V       |         | +V_TGT   |       |     | } PSU(V_TGT)                                      |        | --             |
-|          |         | +V_TGT   |       |     | }                                                 |        | --             |
-|          |         | +V_TGT   |       |     | PSU(V_TGT)                                        |        | --             |
-|          | 17      | SCL      | P0.00 | P19 | (GPIO), **I2C(SCL)**, (PWM), (UART)               | O      | e4k7u          |
-|          | 16      | SDA      | P0.30 | P20 | (GPIO), **I2C(SDA)**, (PWM), (UART)               | I      | e4k7u          |
-|          |         | GND      |       |     | PSU(GND)                                          |        | --             |
-|          |         | GND      |       |     | }                                                 |        | --             |
-|          |         | GND      |       |     | }                                                 |        | --             |
-| GND      |         | GND      |       |     | } PSU(GND)                                        |        | --             |
-|          |         | GND      |       |     | }                                                 |        | --             |
-|          |         | GND      |       |     | PSU(GND)                                          |        | --             |
+| m:b ring | mod     | schem         | MCU              | s/w      | functions                                    | dir    | pull?          |
+| -------- | ---     | -----         | ---              | ---      | ---------                                    | ---    | -----          |
+|          | 21      | COLR3         | P0.31/AIN7       | P3  | (GPIO), (ANALOG), **LEDCOL(3)**, (PWM), (UART)    | O      | --             |
+|          |         | RING0         |                  | P0  | }                                                 |        |                |
+|          |         | RING0         |                  | P0  | }                                                 |        |                |
+| 0        | 18      | RING0         | P0.02/AIN0       | P0  | } **GPIO**, ANALOG, TOUCH, PWM, UART              | I      | e10Mu, i12Kd   |
+|          |         | RING0         |                  | P0  | }                                                 |        |                |
+|          | 22      | COLR1         | P0.28/AIN4       | P4  | (GPIO), (ANALOG), **LEDCOL(1)**, (PWM), (UART)    | O      | --             |
+|          | 37      | BTN_A         | P0.14            | P5  | (GPIO), **BUTTON(A)**, (PWM), (UART)              | I      | e10Ku, i12Kd?  |
+|          | 30      | COLR4         | P1.05            | P6  | (GPIO), **LEDCOL(4)**, (PWM), (UART)              | O      | --             |
+|          | 29      | COLR2         | P0.11/TRACEDATA2 | P7  | (GPIO), **LEDCOL(2)**, (PWM), (UART)              | O      | --             |
+|          |         | RING1         |                  | P1  | }                                                 |        |                |
+|          |         | RING1         |                  | P1  | }                                                 |        |                |
+| 1        | 19      | RING1         | P0.03/AIN1       | P1  | } **GPIO**, ANALOG, TOUCH, PWM, UART              | I      | e10Mu, i12Kd   |
+|          |         | RING1         |                  | P1  | }                                                 |        |                |
+|          | 38      | GPIO1         | P0.10/NFC2       | P8  | **GPIO**, PWM, UART (NFC2)                        | I      | i12Kd          |
+|          | 28      | GPIO2         | P0.09/NFC1       | P9  | (GPIO), (PWM), (UART), (NFC1)                     | O      | --             |
+|          | 23      | COL5R         | P0.30/AIN4       | P10 | (GPIO), **LEDCOL(3)**, (ANALOG), (PWM), (UART)    | O      | --             |
+|          | 9       | BTN_B         | P0.23            | P11 | (GPIO), **BUTTON(B)**, (PWM), (UART)              | I      | e10Ku, i12Kd?  |
+|          | 40      | GPIO4         | P0.12/TRACEDATA1 | P12 | (GPIO),**ACCESSIBILITY**, (PWM), (UART)           | I      | i12Kd          |
+|          |         | RING2         |                  | P2  | }                                                 |        |                |
+|          |         | RING2         |                  | P2  | }                                                 |        |                |
+| 2        | 20      | RING2         | P0.04/AIN2       | P2  | } **GPIO**, ANALOG, TOUCH, PWM, UART              | I      | e10Mu, i12Kd   |
+|          |         | RING2         |                  | P2  | }                                                 |        |                |
+|          | 6       | SCK EXTERNAL  | P0.17            | P13 | **GPIO**, SPI(SCLK), PWM, UART                    | I      | i12Kd          |
+|          | 5       | MISO EXTERNAL | P0.01/XL2        | P14 | **GPIO**, SPI(MISO), PWM, UART                    | I      | i12Kd          |
+|          | 4       | MOSI EXTERNAL | P0.13            | P15 | **GPIO**, SPI(MOSI), PWM, UART                    | I      | i12Kd          |
+|          | 34      | GPIO3         | P1.02            | P16 | **GPIO**, PWM, UART                               | I      | i12Kd          |
+|          |         | +V_TGT        |                  |     | PSU(V_TGT)                                        |        | --             |
+|          |         | +V_TGT        |                  |     | }                                                 |        | --             |
+|          |         | +V_TGT        |                  |     | }                                                 |        | --             |
+| 3V       |         | +V_TGT        |                  |     | } PSU(V_TGT)                                      |        | --             |
+|          |         | +V_TGT        |                  |     | }                                                 |        | --             |
+|          |         | +V_TGT        |                  |     | PSU(V_TGT)                                        |        | --             |
+|          | 17      | I2C EXT SCL   | P0.26            | P19 | (GPIO), **I2C(SCL)**, (PWM), (UART)               | O      | e4k7u          |
+|          | 16      | I2C EXT SDA   | P1.00/TRACEDATA0 | P20 | (GPIO), **I2C(SDA)**, (PWM), (UART)               | I      | e4k7u          |
+|          |         | GND           |                  |     | PSU(GND)                                          |        | --             |
+|          |         | GND           |                  |     | }                                                 |        | --             |
+|          |         | GND           |                  |     | }                                                 |        | --             |
+| GND      |         | GND           |                  |     | } PSU(GND)                                        |        | --             |
+|          |         | GND           |                  |     | }                                                 |        | --             |
+|          |         | GND           |                  |     | PSU(GND)                                          |        | --             |
 
 
 {: #v1-pins .hide}
