@@ -10,8 +10,8 @@ lang: en
 
 Placeholder for overview article 
 
-- [Guidance for accessory makers](./latest-revision-accessories/)
+- [Guidance for accessory makers](./accessories/)
 
-- [Guidance for editor developers](./latest-revision-editors/)
+- [Guidance for editor developers](./editors/)
 
-- [Guidance for content producsers](./latest-revision-content/)
+- [Guidance for content producsers](./content/)
