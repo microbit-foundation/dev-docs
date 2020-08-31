@@ -10,4 +10,4 @@ lang: en
 
 Placeholder for content article 
 
-- [Overview of v2](../latest-revision/)
+- [Overview of v2](../)
