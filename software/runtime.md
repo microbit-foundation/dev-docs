@@ -49,11 +49,11 @@ Key components of micro:bit CODAL are:
 * A set of drivers, that abstract microcontroller hardware components into higher level software components,each represented by a C++ class.
 * A parameterized object model composed from these components that represents a physical device.
 
-(Source: [MakeCode and CODAL - intuitive and efficient embedded systems programming for education](https://tech.microbit.org/projects/MakeCode-and-CODAL/)
+(Source: [MakeCode and CODAL - intuitive and efficient embedded systems programming for education](https://tech.microbit.org/projects/MakeCode-and-CODAL/))
 
 ### Building CODAL
 
-Instructions for building CODAL
+The [instructions for building CODAL](https://github.com/microbit-foundation/codal/blob/master/mb-build-instructions.md) are located in the micro:bit CODAL repository. If you require access to this repository, please [get in contact](mailto:support@microbit.org?subject=Request%20for%20access%20to%20CODAL&body=Name%3A%0D%0A%0D%0AGitHub%20ID%3A).
 
 ### Contributing to the micro:bit Runtime
 

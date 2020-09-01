@@ -27,11 +27,11 @@ It's is important to stay within the design parameters of the board:
 regulator to provide power, and this chip is rated at a maximum of 120mA.
 
 * The on-board current budget will vary depending on the use of the display,
-the Bluetooth, and other peripherals. You should allow a worst case budget
-of 30mA for when all on board peripherals are in use, leaving 90mA for circuits
+the Bluetooth, microphone, speaker and other peripherals. You should allow a worst case budget
+of 30mA for when all on board peripherals are in use, leaving <span class="v1">v1</span>90mA/<span class="v2">v2</span>270mA for circuits
 plugged into the edge connector.
 
-* When powered from a battery, the KL chip is not powered up and the system LED will not light up.
+* When powered from a battery, the KL chip is not powered up and the USB Indicator LED will not light up.
 
 * A low-Vf diode is used to switch between sources. The diode prevents back-powering of any source from any other source and means you can have a USB cable and battery pack connected simultaneously.
 
@@ -72,15 +72,17 @@ as being 1.7V min and 3.6V max.
 
 ### USB Powering
 
+<!-- TODO: Update these paragraphs to detail that 270mA is TBC budget for v2 -->
+
 When powered from USB, the KL26 <span class="v1">v1</span> interface chip's on-board regulator is used
 to provide 3.3V to the rest of the board. The latest revision <span class="v2">v2</span> has a seperate regulator on the board.
 
-The [KL26 data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
+The [KL26 data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)<span class="v1">v1</span>
 section 3.8.2, Table 30. "USB VREG electrical specifications" indicates the maximum
 current from the regulated supply is 120mA. Some of this current is required to
-run on-board devices, such as the KL26/27 itself, the nRF application processor, the motion sensor, and the LED display. When Bluetooth is enabled, the current
+run on-board devices, such as the KL26 itself, the nRF application processor, the motion sensor, and the LED display. When Bluetooth is enabled, the current
 consumption of the nRF increases slightly. You should budget your current
-requirements for anything you attach to the micro:bit to not exceed about
+requirements for anything you attach to the micro:bit <span class="v1">v1</span> to not exceed about
 90mA to give enough safe headroom for worst case with all on board peripherals
 in use.
 
@@ -145,4 +147,4 @@ The BAT60A devices have a low Vf rating, you can read about this in the
 [BAT60A datasheet](http://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9)
 
 ### Power Supply Architecture v2 TBC
-TODO
+<!-- TODO -->

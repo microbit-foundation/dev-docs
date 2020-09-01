@@ -287,9 +287,9 @@ editors may remove the ability to write to this pin.
 
 NOTE 4: The BBC suggest in the safety guide, that the maximum current
 you can draw from the whole edge connector at any one time is
-90mA. This is set based on the 30mA budget for on board peripherals,
+<span class="v1">v1</span>90mA. This is set based on the 30mA budget for on board peripherals,
 and the fact that the on board regulator of the KL26 when powered
-from USB is rated at a maximum of 120mA.
+from USB is rated at a maximum of 120mA. On the latest board revision the maximum current is <span class="v2">v2</span>270mA, though it is possible that the on-board mic and speaker can draw more current, so this value is TBC.
 
 ### NRF52
 These key GPIO parameters are transcribed directly from Section 6, 7 and 8 of the [nRF52833 Datasheet](https://infocenter.nordicsemi.com/pdf/nRF52833_PS_v1.2.pdf),
