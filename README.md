@@ -21,9 +21,9 @@ These are the key pages that contain information about the latest revision
 - [Using the latest variant with the apps and editors](software/testing.md)
 
 ## General information on the latest revision
-- [Guidance for accessory makers](latest-revision/accessories/)
-- [Guidance for editor developers](latest-revision/editors/)
-- [Guidance for content producsers](latest-revision/content/)
+- [Guidance for accessory makers](latest-revision/latest-revision-accessories.md)
+- [Guidance for editor developers](latest-revision/latest-revision-editors.md)
+- [Guidance for content producers](latest-revision/latest-revision-content.md)
 
 
 Documentation development tools
