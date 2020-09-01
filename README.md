@@ -20,5 +20,11 @@ These are the key pages that contain information about the latest revision
 - [HEX Format](software/hex-format.md)
 - [Using the latest variant with the apps and editors](software/testing.md)
 
+## General information on the latest revision
+- [Guidance for accessory makers](latest-revision/accessories/)
+- [Guidance for editor developers](latest-revision/editors/)
+- [Guidance for content producsers](latest-revision/content/)
+
+
 Documentation development tools
  - The docs are mostly written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) 
