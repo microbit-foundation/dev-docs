@@ -14,4 +14,4 @@ Placeholder for overview article
 
 - [Guidance for editor developers](./editors/)
 
-- [Guidance for content producsers](./content/)
+- [Guidance for content producers](./content/)
