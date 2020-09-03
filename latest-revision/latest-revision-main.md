@@ -8,7 +8,11 @@ ref: latest-revision
 lang: en
 ---
 
-Placeholder for overview article 
+**Note:** Any issues raised in the period prior to public announcement should be reported in **private**. This means you should double check before posting anything on Github.
+
+- **Software** issues can be raised in the relevant private GitHub repositories or via [micro:bit support](mailto:support@microbit.org?subject=Software%20issue)
+
+- **Hardware** issues **must** be reported via [micro:bit support](mailto:support@microbit.org?subject=Hardware%20issue).
 
 - [Guidance for accessory makers](./accessories/)
 
