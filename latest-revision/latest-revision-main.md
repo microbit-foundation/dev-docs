@@ -7,13 +7,12 @@ permalink: /latest-revision/
 ref: latest-revision
 lang: en
 ---
+## Overview
 
 {% include alert-info.html content="Any issues raised in the period prior to public announcement should be reported in **private**. <br><br> This means you should double check before posting anything on GitHub." %}
 - **Software** issues can be raised in the relevant private GitHub repositories or via [micro:bit support](mailto:support@microbit.org?subject=Software%20issue)
 
 - **Hardware** issues **must** be reported via [micro:bit support](mailto:support@microbit.org?subject=Hardware%20issue).
-
-## Overview
 
 The **latest revision** of the BBC micro:bit, builds upon the current micro:bit experience by refining the board and adding widely requested sound sensing capabilities.
 
@@ -42,13 +41,13 @@ The **latest revision** of the BBC micro:bit, builds upon the current micro:bit 
 ## Comparison
 
 ### Feature comparison
-![Table of features](./assets/comparison-table.png)
+![Table of features](/docs/letest-revision/assets/comparison-table.png)
 
 ### Front
-![Comparison front](./assets/comparison-front.png)
+![Comparison front](/docs/letest-revision/comparison-front.png)
 
 ### Back
-![Comparison back](./assets/comparison-back.png)
+![Comparison back](/docs/letest-revision/comparison-back.png)
 
 ## How do I use the new features?
 
@@ -84,7 +83,7 @@ Yes, however you will need to update the files by dragging and dropping them int
 
 If you attempt to use an old .Hex file without updating it, the micro:bit will display a compatibility error eg. `:( E029`
 
-![Compatibility error](software/assets/compat-error.gif)
+![Compatibility error](/docs/software/assets/compat-error.gif/)
 
 ## How do I get a device to test?
 
