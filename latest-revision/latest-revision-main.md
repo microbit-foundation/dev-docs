@@ -65,11 +65,11 @@ The editors and apps are compatible with and will let you download and flash a f
  Features that are common to all board variants will work in the same way they always have. For example, you will be able to use the same blocks in MakeCode to use the acceleromater on any board revision.
 
 ### Makecode
-You can use the latest board revision in the [alpha editor](https://makecode.microbit.org/beta?compile=multiVariant)
+You can use the latest board revision in the [alpha editor](https://makecode.microbit.org/stable)
 
-[https://makecode.microbit.org/beta?compile=multiVariant](https://makecode.microbit.org/beta?compile=multiVariant) 
+[https://makecode.microbit.org/stable](https://makecode.microbit.org/stable) 
 
-Note that you will need to include the `?compile=multiVariant` query string in the URL
+Note that you will need to include the `?stable` query string in the URL
 
 If you only want to compile  a makecode file for the v2 revision, you can use https://makecode.microbit.org?compile=csv---mbcodal#
 
