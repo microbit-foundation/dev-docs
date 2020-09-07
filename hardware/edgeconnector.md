@@ -49,8 +49,8 @@ Pin 9 is no longer jointly shared with the LED display, but Pin 8 and Pin 9 can 
 This table shows various data about each of the pins on the micro:bit edge connector.
 
 {: #v2-pins}
-| m:b ring | mod     | schem         | MCU              | s/w      | functions                                    | dir    | pull?          |
-| -------- | ---     | -----         | ---              | ---      | ---------                                    | ---    | -----          |
+| m:b ring | mod     | schem         | MCU              | s/w | functions                                         | dir    | pull?          |
+| -------- | ---     | -----         | ---              | --- | ---------                                         | ---    | -----          |
 |          | 21      | COLR3         | P0.31/AIN7       | P3  | (GPIO), (ANALOG), **LEDCOL(3)**, (PWM), (UART)    | O      | --             |
 |          |         | RING0         |                  | P0  | }                                                 |        |                |
 |          |         | RING0         |                  | P0  | }                                                 |        |                |
@@ -66,7 +66,7 @@ This table shows various data about each of the pins on the micro:bit edge conne
 |          |         | RING1         |                  | P1  | }                                                 |        |                |
 |          | 38      | GPIO1         | P0.10/NFC2       | P8  | **GPIO**, PWM, UART (NFC2)                        | I      | i12Kd          |
 |          | 28      | GPIO2         | P0.09/NFC1       | P9  | (GPIO), (PWM), (UART), (NFC1)                     | O      | --             |
-|          | 23      | COL5R         | P0.30/AIN4       | P10 | (GPIO), **LEDCOL(3)**, (ANALOG), (PWM), (UART)    | O      | --             |
+|          | 23      | COL5R         | P0.30/AIN4       | P10 | (GPIO), **LEDCOL(5)**, (ANALOG), (PWM), (UART)    | O      | --             |
 |          | 9       | BTN_B         | P0.23            | P11 | (GPIO), **BUTTON(B)**, (PWM), (UART)              | I      | e10Ku, i12Kd?  |
 |          | 40      | GPIO4         | P0.12/TRACEDATA1 | P12 | (GPIO),**ACCESSIBILITY**, (PWM), (UART)           | I      | i12Kd          |
 |          |         | RING2         |                  | P2  | }                                                 |        |                |
@@ -113,7 +113,7 @@ This table shows various data about each of the pins on the micro:bit edge conne
 |          | 28      | COL7R    | P0.10 | P9  | (GPIO), **LEDCOL(7)**, (PWM), (UART)              | O      | --             |
 |          | 23      | COL3R    | P0.06 | P10 | (GPIO), **LEDCOL(3)**, (ANALOG), (PWM), (UART)    | O      | --             |
 |          | 9       | BTN_B    | P0.26 | P11 | (GPIO), **BUTTON(B)**, (PWM), (UART)              | I      | e10Ku, i12Kd?  |
-|          | 40      | P0.20    | P0.20 | P12 | (GPIO),**ACCESSIBILITY**, (PWM), (UART)                   | I      | i12Kd          |
+|          | 40      | P0.20    | P0.20 | P12 | (GPIO),**ACCESSIBILITY**, (PWM), (UART)           | I      | i12Kd          |
 |          |         | PAD3     |       | P2  | }                                                 |        |                |
 |          |         | PAD3     |       | P2  | }                                                 |        |                |
 | 2        | 20      | PAD3     | P0.01 | P2  | } **GPIO**, ANALOG, TOUCH, PWM, UART              | I      | e10Mu, i12Kd   |

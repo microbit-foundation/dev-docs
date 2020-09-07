@@ -36,7 +36,7 @@ If you find direct browser flashing (webUSB) isn't working, it is likely that yo
 
 ### iOS App
 
-The iOS App TestFlight/beta has a hidden option that enables you to input the makecode version URL eg  [https://makecode.microbit.org/stable](https://makecode.microbit.org/stable)
+The iOS App TestFlight/beta has a hidden option that enables you to input the makecode version URL eg  [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta)
 
 To test, you will need to:
 
@@ -49,13 +49,13 @@ When you open the app, tap on the word ‘beta’ in the top right of the screen
 
 ![iOS beta button](/docs/software/assets/ios-beta-button.png)
 
-This will open a dialogue for you to enter in the URL suffix [stable](https://makecode.microbit.org/stable). Pressing enter will reload the editor at this URL.
+This will open a dialogue for you to enter in the URL suffix [beta](https://makecode.microbit.org/beta). Pressing enter will reload the editor at this URL.
 
 ![iOS beta URL](/docs/software/assets/ios-beta-url.png)
 
 ### Android App
 
-The Android app has a hidden option that enables you to input the makecode version URL eg  [https://makecode.microbit.org/stable](https://makecode.microbit.org/stable)
+The Android app has a hidden option that enables you to input the makecode version URL eg  [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta)
 
 To test, you will need to:
 
