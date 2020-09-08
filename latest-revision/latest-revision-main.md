@@ -44,10 +44,10 @@ The **latest revision** of the BBC micro:bit, builds upon the current micro:bit 
 ![Table of features](/docs/latest-revision/assets/comparison-table.png)
 
 ### Front
-![Comparison front](/docs/latest-revision/comparison-front.png)
+![Comparison front](/docs/latest-revision/assets/comparison-front.png)
 
 ### Back
-![Comparison back](/docs/latest-revision/comparison-back.png)
+![Comparison back](/docs/latest-revision/assets/comparison-back.png)
 
 ## How do I use the new features?
 
