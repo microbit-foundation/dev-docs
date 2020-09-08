@@ -41,13 +41,13 @@ The **latest revision** of the BBC micro:bit, builds upon the current micro:bit 
 ## Comparison
 
 ### Feature comparison
-![Table of features](/docs/letest-revision/assets/comparison-table.png)
+![Table of features](/docs/latest-revision/assets/comparison-table.png)
 
 ### Front
-![Comparison front](/docs/letest-revision/comparison-front.png)
+![Comparison front](/docs/latest-revision/comparison-front.png)
 
 ### Back
-![Comparison back](/docs/letest-revision/comparison-back.png)
+![Comparison back](/docs/latest-revision/comparison-back.png)
 
 ## How do I use the new features?
 
@@ -69,14 +69,10 @@ You can use the latest board revision in the [alpha editor](https://makecode.mic
 
 [https://makecode.microbit.org/stable](https://makecode.microbit.org/stable) 
 
-Note that you will need to include the `?stable` query string in the URL
-
-If you only want to compile  a makecode file for the v2 revision, you can use https://makecode.microbit.org?compile=csv---mbcodal#
-
 ### Python
 You can use the latest board revision in the Python beta editor:
 
- https://python-editor-next-release-review.microbit.org/
+https://python-editor-next-release-review.microbit.org/
 
 ### Bluetooth BLE 
 A hex file that enables all micro:bit Bluetooth services is available to use for testing BLE. [Download the updated version of the BLE all services hex](/docs/latest-revision/assets/bluetooth-services.hex)
