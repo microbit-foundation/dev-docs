@@ -15,6 +15,8 @@ There's lots of opportunity for collaboration on the software sides, and the sof
 
 For **hardware** issues, of which we hope there are precious few, please contact The Foundation directly via [micro:bit support](mailto:support@microbit.org?subject=Hardware%20issue) so we can track and triage approipriately." %}
 
+* TOC
+{:toc}
 
 The **latest revision** of the BBC micro:bit is designed to be completely familiar to anyone who has used the original device. It’s the same size, shape, looks very similar, and works in the same way. Every programme that could run on a micro:bit version 1 can be re-built to run on the latest revision.  The editors will support both versions simultaneously for features common to both boards.
 
