@@ -10,6 +10,9 @@ lang: en
 
 {% include alert-info.html content="This article is specifically for people who make accessories for the micro:bit. Please also see our [general user information about the latest micro:bit revision](../)" %}
 
+* TOC
+{:toc}
+
 ## Overview
 
 Thanks for your continuing support of the micro:bit. The breadth and diversity of accessories available for the micro:bit is a great strength and we’ve worked extremely hard to make the latest revision of the micro:bit work as smoothly as possible with as many accessories as possible.
@@ -22,9 +25,6 @@ If you’d like to keep up to date with technical information about the device, 
 Microsoft Research are designing a reference design for [MakeCode Arcade](https://arcade.makecode.com/) accessories that allow the latest revision of the micro:bit to be used as an Arcade platform. This will include a number of options for the size, quality and cost of the extensions allowing a range of unique designs. The Foundation are working closely with Microsoft on the specification and will not approve extensions or add to the website any accessories for the micro:bit that are specifically for MakeCode Arcade but do not follow this specification, as it risks too much fragmentation and complexity for our users.
 
 ----------
-
-* TOC
-{:toc}
 
 Accessories that make use of the [large ring pins,](http://tech.microbit.org/hardware/edgeconnector/)  should be unaffected by this revision.
 

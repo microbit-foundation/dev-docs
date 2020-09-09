@@ -10,11 +10,15 @@ lang: en
 
 {% include alert-info.html content="This article is specifically for people who make editors for the micro:bit. Please also see our [general user information about the latest micro:bit revision](../)" %}
 
+* TOC
+{:toc}
+
 Thanks for your continuing support of the micro:bit. There is a wonderful  breadth of [third party editors](https://microbit.org/code/#other-editors) available for the micro:bit that support different coding languages and learning scenarios. This article provides information to help you continue to support the 5 million existing micro:bits in the world and the latest board revision with the exciting new features of a speaker and microphone.
 
 If you’d like to keep up to date with technical information about the device, please sign up to our [DAL, Devices and Editors mailing list](http://eepurl.com/dyRx-v) which provides information on hardware revisions, or key low-level software changes as early as possible. 
 
 ----------
+
 Please note that we do as much development as possible in the open, so if you’d like to be part of these processes you can join the relevant projects on GitHub:
 
 

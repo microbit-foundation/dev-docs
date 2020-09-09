@@ -10,6 +10,8 @@ lang: en
 
 {% include alert-info.html content="This article is specifically for people who produce content for the micro:bit. Please also see our [general user information about the latest micro:bit revision](../)" %}
 
+* TOC
+{:toc}
 
 ## Overview 
 
