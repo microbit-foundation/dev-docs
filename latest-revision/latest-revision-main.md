@@ -11,7 +11,7 @@ lang: en
 
 {% include alert-info.html content="Any issues raised in the period prior to public announcement should be reported in **private**. This means you should double check before posting anything on GitHub.<br><br>
 
-There's lots of opportunity for collaboration on the software sides, and the software work has lots of partners covering issues in different areas - so please raise **software and documentation** issues in our [microbit-issues GitHub repoistory](https://github.com/microbit-foundation/microbit-issues) If you'd like to raise issues privately, you're welcome to contact [micro:bit support.](mailto:support@microbit.org?subject=Software%20issue)<br><br>
+There's lots of opportunity for collaboration on the software sides, and the software work has lots of partners covering issues in different areas - so please raise **software and documentation** issues in our [microbit-issues GitHub repository](https://github.com/microbit-foundation/microbit-issues) If you'd like to raise issues privately, you're welcome to contact [micro:bit support.](mailto:support@microbit.org?subject=Software%20issue)<br><br>
 
 For **hardware** issues, of which we hope there are precious few, please contact The Foundation directly via [micro:bit support](mailto:support@microbit.org?subject=Hardware%20issue) so we can track and triage approipriately." %}
 
@@ -41,7 +41,7 @@ Amongst the micro:bit features, ‘sound’ is in a unique position of being alr
 - Copper plated antenna. To easily identify the radio/Bluetooth component
 
 
-## Hardware specification**
+## Hardware specification
 
 Detailed breakdown on our [v2 hardware page](../hardware/)
 
@@ -54,11 +54,13 @@ Detailed breakdown on our [v2 hardware page](../hardware/)
 
 ## Guides
 
-- [Guidance for editor developers](./editors/)
+These pages provide further guidance on the updates for different audiences.
 
-- [Guidance for accessory makers](./accessories/)
+### [Guidance for editor developers](./editors/)
 
-- [Guidance for content producers](./content/)
+### [Guidance for accessory makers](./accessories/)
+
+### [Guidance for content producers](./content/)
 
 
 ## Comparison
@@ -95,11 +97,13 @@ Features that are common to all board variants will work in the same way they al
 You can use the latest board revision in the beta editor [https://makecode.microbit.org/stable](https://makecode.microbit.org/stable)
 
 **Using the new features in MakeCode**
-An extension has been developed to include the microphone and logo touch features currently available. https://github.com/frumplecoin/demo-extension ← *Please do not share any links to this extension or make any public statements about this that could link it to micro:bit*
+
+
+An extension has been developed to include the microphone and logo touch features currently available. [https://github.com/frumplecoin/demo-extension](https://github.com/frumplecoin/demo-extension) ← *Please do not share any links to this extension or make any public statements about this that could link it to micro:bit*
 
 
 1. Open [https://makecode.microbit.org/stable](https://makecode.microbit.org/stable)
-2. Select Advanced > Add Extension and paste the https://github.com/frumplecoin/demo-extension into the search box. 
+2. Select Advanced > Add Extension and paste [https://github.com/frumplecoin/demo-extension](https://github.com/frumplecoin/demo-extension) into the search box. 
 3. Click on the extension to add it to the toolbox.
 
 
@@ -108,6 +112,8 @@ You can use the latest board revision in the Python beta editor:
  https://python-editor-next-release-review.microbit.org/
  
 **Using the new features in the Python Editor**
+
+
 We will notify you via email when the API documentation for the new features is available.
 
 
