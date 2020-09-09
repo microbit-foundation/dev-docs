@@ -32,7 +32,7 @@ The edge connector should be completley compatible electrically; The latest revi
 
 There are inevitably small layout differences in the placement of the components, and the possible implications of these is covered below.
 
-If you publish hex files for demonstrating your accessories, then please see our [guidance for content publishers](./content) that covers the need to update hex files in the editor in which they were created.
+If you publish hex files for demonstrating your accessories, then please see our [guidance for content publishers](../content) that covers the need to update hex files in the editor in which they were created.
 
 There are a few considerations for people who have made accessories.
 
