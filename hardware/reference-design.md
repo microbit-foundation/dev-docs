@@ -11,7 +11,7 @@ assigned-to: jonnya
 review-with: jonnya
 ---
 
-# Reference Design
+## Reference Design
 
 As well as learning about how the micro:bit is designed from the [schematic](../../hardware/schematic/),
 we want to enable people to build their own hardware products and projects based
@@ -35,7 +35,7 @@ just building fixed-function product. The programmer on the reference design
 can be easily extracted and used to program other boards - so you can make one
 programmer to program all your micro:bit based designs!
 
-# Reference Design Features
+## Reference Design Features
 
 * **100% binary compatible with the micro:bit, including all the same hardware
 features: 3xbuttons, 5x5 display, motion sensor)**
@@ -60,7 +60,7 @@ without modification.
 ![micro:bit reference design back](/docs/hardware/assets/referencedesign-76a11.png){:width="40%"}
 ![micro:bit reference design front](/docs/hardware/assets/referencedesign-2988d.png){:width="37%"}
 
-# Modularity
+## Modularity
 
 The reference design is laid out in a very modular way, so that someone working
 with it can easily customise the board to include only the parts they need.
@@ -71,7 +71,7 @@ For example, if you want to make something really tiny that doesn't make use
 of all the expansion or the LEDs, you could make use of the 'bare minimum subset'
 section of the board, and have a separate programmer.
 
-# Module Choice
+## Module Choice
 
 There are multiple vendors of Bluetooth pre-certified modules based on the nRF51822. But because the micro:bit uses every pin on the nRF51822, only modules that exposes all of the GPIO of the chip can be used. We have initially chosen the [Raytac MDBT40-256V3](http://www.raytac.com/product/ins.php?index_id=63), which is available from outlets like
 Seedstudio, and commonly used on things like Adafruit BLE boards.
@@ -86,16 +86,16 @@ contributions to this pinmap document for other popular modules are welcome.
 There is a [list of nRF51822 modules maintained by Nordic Semiconductor](https://www.nordicsemi.com/eng/Products/3rd-Party-Bluetooth-low-energy-Modules),
 from which you could choose any module that has all 31 GPIOs broken out. If your
 design doesn't use all of the pins on the edge connector and you are able to
-recompile your software for your custom design ([for example using mbed](/software/runtime-mbed/))
+recompile your software for your custom design ([for example using Mbed](/software/runtime/))
 then you could choose a range of other modules.
 
-# Software Bringup
+## Software Bringup
 
 Unlike a micro:bit, your device won't come pre-flashed! Neither of the MCUs will
 have any software, so you'll need a debugger, or to ask the people manufacturing
 your board to flash it for you.
 
-## KL26 Software
+### KL26 Software
 
 As described on the [interface firmware](/software/daplink-interface) page, there is
 a bootloader and a main interface program that needs to be flashed to the KL26Z.
@@ -114,7 +114,7 @@ debugger with the following configuration.
 
 Please see [this page](https://developer.mbed.org/users/MarceloSalazar/notebook/programming-a-minibeacon-bluetooth-module-nordic-n/) for more information.
 
-## nRF51 Software
+### nRF51 Software
 
 Once you have flashed the KL26Z then you can use the USB interface on the
 reference design itself in order to program any micro:bit hex file onto the
@@ -125,7 +125,7 @@ programmer and the nRF51prog header:
 
 ![nRF51 prog header](/docs/hardware/assets/referencedesign-d1599.png)
 
-# Design and BOM
+## Design and BOM
 
 The documentation of the reference design is hosted at GitHub where schematics, BOM and layout are all included.
 
@@ -134,7 +134,7 @@ The documentation of the reference design is hosted at GitHub where schematics, 
 The reference design uses the same ICs as the micro:bit itself, so to avoid
 duplication of documentation, please refer to the [micro:bit hardware page](../../hardware/) for further details.
 
-# Design Software
+## Design Software
 
 The reference design is provided in formats that can be loaded and used in:
 

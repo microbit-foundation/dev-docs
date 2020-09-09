@@ -10,7 +10,7 @@ ref: hardware
 lang: en
 ---
 
-# Overview
+## Overview
 {:notoc}
 
 * TOC
@@ -32,14 +32,68 @@ front rings, but the back small strips are unconnected.
 
 ## Edge Connector Pins
 
-![edge connector](/docs/hardware/assets/edge_connector.svg)
+The diagrams below show the assignation of the micro:bit pins. On the <span class="v2">v2</span> board revision
+Pin 9 is no longer jointly shared with the LED display, but Pin 8 and Pin 9 can be configured for NFC (though this is disabled by default).
 
-Also checkout [microbit.pinout.xyz](https://microbit.pinout.xyz) for more information.
+| v2   | v1
+| ---- | ---- 
+| ![edge connector v2](/docs/hardware/assets/edge-connector-2.svg) | ![edge connector v1](/docs/hardware/assets/edge_connector.svg)
 
-## Pins and Signals
+### microbit.pinout.xyz
+[microbit.pinout.xyz](https://microbit.pinout.xyz) is a fantastic resource for further information on the micro:bit pins and how they are used by some popular accessories
+
+### Pins and Signals
+
+[v2](#pins-and-signals){: #v2-button .btn.sm-btn .variation} [v1](#pins-and-signals){: #v1-button .btn.sm-btn}
 
 This table shows various data about each of the pins on the micro:bit edge connector.
 
+{: #v2-pins}
+| m:b ring | mod     | schem         | MCU              | s/w      | functions                                    | dir    | pull?          |
+| -------- | ---     | -----         | ---              | ---      | ---------                                    | ---    | -----          |
+|          | 21      | COLR3         | P0.31/AIN7       | P3  | (GPIO), (ANALOG), **LEDCOL(3)**, (PWM), (UART)    | O      | --             |
+|          |         | RING0         |                  | P0  | }                                                 |        |                |
+|          |         | RING0         |                  | P0  | }                                                 |        |                |
+| 0        | 18      | RING0         | P0.02/AIN0       | P0  | } **GPIO**, ANALOG, TOUCH, PWM, UART              | I      | e10Mu, i12Kd   |
+|          |         | RING0         |                  | P0  | }                                                 |        |                |
+|          | 22      | COLR1         | P0.28/AIN4       | P4  | (GPIO), (ANALOG), **LEDCOL(1)**, (PWM), (UART)    | O      | --             |
+|          | 37      | BTN_A         | P0.14            | P5  | (GPIO), **BUTTON(A)**, (PWM), (UART)              | I      | e10Ku, i12Kd?  |
+|          | 30      | COLR4         | P1.05            | P6  | (GPIO), **LEDCOL(4)**, (PWM), (UART)              | O      | --             |
+|          | 29      | COLR2         | P0.11/TRACEDATA2 | P7  | (GPIO), **LEDCOL(2)**, (PWM), (UART)              | O      | --             |
+|          |         | RING1         |                  | P1  | }                                                 |        |                |
+|          |         | RING1         |                  | P1  | }                                                 |        |                |
+| 1        | 19      | RING1         | P0.03/AIN1       | P1  | } **GPIO**, ANALOG, TOUCH, PWM, UART              | I      | e10Mu, i12Kd   |
+|          |         | RING1         |                  | P1  | }                                                 |        |                |
+|          | 38      | GPIO1         | P0.10/NFC2       | P8  | **GPIO**, PWM, UART (NFC2)                        | I      | i12Kd          |
+|          | 28      | GPIO2         | P0.09/NFC1       | P9  | (GPIO), (PWM), (UART), (NFC1)                     | O      | --             |
+|          | 23      | COL5R         | P0.30/AIN4       | P10 | (GPIO), **LEDCOL(3)**, (ANALOG), (PWM), (UART)    | O      | --             |
+|          | 9       | BTN_B         | P0.23            | P11 | (GPIO), **BUTTON(B)**, (PWM), (UART)              | I      | e10Ku, i12Kd?  |
+|          | 40      | GPIO4         | P0.12/TRACEDATA1 | P12 | (GPIO),**ACCESSIBILITY**, (PWM), (UART)           | I      | i12Kd          |
+|          |         | RING2         |                  | P2  | }                                                 |        |                |
+|          |         | RING2         |                  | P2  | }                                                 |        |                |
+| 2        | 20      | RING2         | P0.04/AIN2       | P2  | } **GPIO**, ANALOG, TOUCH, PWM, UART              | I      | e10Mu, i12Kd   |
+|          |         | RING2         |                  | P2  | }                                                 |        |                |
+|          | 6       | SCK EXTERNAL  | P0.17            | P13 | **GPIO**, SPI(SCLK), PWM, UART                    | I      | i12Kd          |
+|          | 5       | MISO EXTERNAL | P0.01/XL2        | P14 | **GPIO**, SPI(MISO), PWM, UART                    | I      | i12Kd          |
+|          | 4       | MOSI EXTERNAL | P0.13            | P15 | **GPIO**, SPI(MOSI), PWM, UART                    | I      | i12Kd          |
+|          | 34      | GPIO3         | P1.02            | P16 | **GPIO**, PWM, UART                               | I      | i12Kd          |
+|          |         | +V_TGT        |                  |     | PSU(V_TGT)                                        |        | --             |
+|          |         | +V_TGT        |                  |     | }                                                 |        | --             |
+|          |         | +V_TGT        |                  |     | }                                                 |        | --             |
+| 3V       |         | +V_TGT        |                  |     | } PSU(V_TGT)                                      |        | --             |
+|          |         | +V_TGT        |                  |     | }                                                 |        | --             |
+|          |         | +V_TGT        |                  |     | PSU(V_TGT)                                        |        | --             |
+|          | 17      | I2C EXT SCL   | P0.26            | P19 | (GPIO), **I2C(SCL)**, (PWM), (UART)               | O      | e4k7u          |
+|          | 16      | I2C EXT SDA   | P1.00/TRACEDATA0 | P20 | (GPIO), **I2C(SDA)**, (PWM), (UART)               | I      | e4k7u          |
+|          |         | GND           |                  |     | PSU(GND)                                          |        | --             |
+|          |         | GND           |                  |     | }                                                 |        | --             |
+|          |         | GND           |                  |     | }                                                 |        | --             |
+| GND      |         | GND           |                  |     | } PSU(GND)                                        |        | --             |
+|          |         | GND           |                  |     | }                                                 |        | --             |
+|          |         | GND           |                  |     | PSU(GND)                                          |        | --             |
+
+
+{: #v1-pins .hide}
 | m:b ring | mod     | schem    | MCU   | s/w | functions                                         | dir    | pull?          |
 | -------- | ---     | -----    | ---   | --- | ---------                                         | ---    | -----          |
 |          | 21      | COL1R    | P0.04 | P3  | (GPIO), (ANALOG), **LEDCOL(1)**, (PWM), (UART)    | O      | --             |
@@ -84,13 +138,12 @@ This table shows various data about each of the pins on the micro:bit edge conne
 |          |         | GND      |       |     | PSU(GND)                                          |        | --             |
 
 
-
 | column    | purpose
 | ---       | ---
 | m:b ring  | the micro:bit basic interface (the 5 rings on the front)
 | mod       | the pin number on the module:bit
 | schem     | the symbol name in the micro:bit schematics
-| MCU       | the actual pin name of the nRF51822 MCU chip
+| MCU       | the actual pin name of the Nordic MCU chip
 | s/w       | the name that is used in the DAL runtime software
 | functions | all possible functions, **BOLD** for default. brackets indicate use with caution
 | dir       | the startup conditions (direction) when the micro:bit boots: Input or Output
@@ -110,7 +163,7 @@ some slight interference with the pattern currently displayed on
 the LED matrix, or introduce some innaccuracies in the light sensing
 readings.
 
-3. The DAL DynamicPWM driver (and the underlying nrF51 timer peripherals)
+3. The DAL DynamicPWM driver (and the underlying Nordic timer peripherals)
 dictate that PWM can only be active on 3 pins simultaneously.
 Any attempt to allocate a 4th pin for PWM use, will disable one of the
 existing PWM pins.
@@ -140,7 +193,7 @@ Pins that are marked with brackets around functions, require the default
 functionality for that pin to be disabled, before other functions can
 be used.
 
-pins: P3, P4, P6, P7, P9, P10
+**pins: P3, P4, P6, P7, P9, P10**
 
 These pins are coupled to the LED matrix display, and also it's associated
 ambient light sensing mode. To disable the display driver feature (which
@@ -152,8 +205,7 @@ Note also that the LED 3x9 matrix connects LEDs with associated resistors across
 these pins, so you should take that into account when designing circuits to use these
 pins for other purposes.
 
-
-pins: P5, P11
+**pins: P5, P11**
 
 These pins are assigned to the two on-board buttons. In their default
 setup with all the standard high level languages, there is a global
@@ -172,7 +224,7 @@ Be aware though, that there are 10K external pullup resistors
 fitted to the micro:bit board.
 
 
-pins: P19, P20
+**pins: P19, P20**
 
 These pins are allocated to the I2C bus, which is used by both the
 onboard motion sensor. It is strongly suggested
@@ -193,12 +245,12 @@ purposes.
 
 ## Power Supply Capabilities
 
-The power supply capabilities and parameters, which better define how you
-can use the GND and 3V rings, are detailed here: [psu](/hardware/powersupply)
+There is a dedicated page on [power supply capabilities and parameters](/hardware/powersupply), which better defines how you can use the GND and 3V rings 
 
 
 ## GPIO Capabilities
 
+### NRF51
 These key GPIO parameters are transcribed directly from Section 6, 7 and 8 of the [nRF51822 Datasheet](https://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf),
 and provided here as a handy reference.
 
@@ -211,9 +263,9 @@ and provided here as a handy reference.
 | xxx    | Max source current from IO pin                     |  8.23   | --       | 5mA     |
 | xxx    | Max sink current into IO pin                       |  8.23   | --       | 5mA     |
 | VIO    | Tolerable pin voltages for IO pin                  |  6      | -0.3V    | VDD+0.3 |
-| xxx    | Pin impedance when an input                        |  ?      | TBD      |         |
-| VDD(o) | Operating voltage range (LDO)                      |  7      | 1.8V     | 3.6V    |
-| VDD(a) | Absolute voltage range                             |  6      | -0.3V    | +3.9V   |
+| xxx    | Pin impedance when an input                        |  ?      | TBC      |         |
+| VDD(o) | Operating voltage range (LDO)                      |  9      | 1.8V     | 3.6V    |
+| VDD(a) | Absolute voltage range                             |  9      | -0.3V    | +3.9V   |
 | VSS    | Ground reference                                   |  6      | 0V       | 0V      |
 | RPU    | Pull up resistance                                 |  8.23   | 11K      | 16K     |
 | RPD    | Pull down resistance                               |  8.23   | 11K      | 16K     |
@@ -235,10 +287,34 @@ editors may remove the ability to write to this pin.
 
 NOTE 4: The BBC suggest in the safety guide, that the maximum current
 you can draw from the whole edge connector at any one time is
-90mA. This is set based on the 30mA budget for on board peripherals,
+<span class="v1">v1</span>90mA. This is set based on the 30mA budget for on board peripherals,
 and the fact that the on board regulator of the KL26 when powered
-from USB is rated at a maximum of 120mA.
+from USB is rated at a maximum of 120mA. On the latest board revision the maximum current is <span class="v2">v2</span>270mA, though it is possible that the on-board mic and speaker can draw more current, so this value is TBC.
 
+### NRF52
+These key GPIO parameters are transcribed directly from Section 6, 7 and 8 of the [nRF52833 Datasheet](https://infocenter.nordicsemi.com/pdf/nRF52833_PS_v1.2.pdf),
+and provided here as a handy reference.
+
+| KEY     | Description                                           | section | Min      | Max      |
+| ---     | ----------------------------------------------------- | ------- | ----     | ----     |
+| VOL,SD  | Voltage Output Low, standard drive, 0.5 mA, VDD ≥ 1.7 |  6.8.3  | VSS      | VSS +0.4 |
+| VOL,HDH | Voltage Output Low, high drive, 5 mA, VDD ≥ 2.7       |  6.8.3  | VSS      | VSS +0.4 |
+| VOL,HDL | Voltage Output Low, high drive, 3mA, VDD ≥ 1.7        |  6.8.3  | VSS      | VSS +0.4 |
+| VOH,SD  | Voltage Output High, standard drive,0.5 mA, VDD ≥ 1.7 |  6.8.3  | VDD -0.4 | VDD      |
+| VOL,HDH | Voltage Output How, high drive, 5 mA, VDD ≥ 2.7       |  6.8.3  | VDD -0.4 | VDD      |
+| VOL,HDL | Voltage Output How, high drive, 3mA, VDD ≥ 1.7        |  6.8.3  | VDD -0.4 | VDD      |
+| VIL     | Input voltage for logic low                           |  6.8.3  | VSS      | 0.3*VDD  |
+| VIH     | Input voltage for logic high                          |  6.8.3  | 0.7*VDD  | VDD      |
+| xxx     | Max source current from IO pin                        |  TBC    | --       | TBC      |
+| xxx     | Max sink current into IO pin                          |  TBC    | --       | TBC      |
+| VIO≤3.6 | Tolerable pin voltages for IO pin with VDD ≤3.6       |  9      | -0.3V    | VDD+0.3  |
+| VIO>3.6 | Tolerable pin voltages for IO pin with VDD >3.6       |  9      | -0.3V    | 3.9      |
+| xxx     | Pin impedance when an input                           |  ?      | TBC      |          |
+| VDD     | Operating voltage range (LDO)                         |  7      | -0.3V    | 3.9V     |
+| VDDH    | Absolute voltage range                                |  6      | -0.3V    | 5.8V     |
+| VSS     | Ground reference                                      |  9      | 0V       | 0V       |
+| RPU     | Pull up resistance                                    |  6.8.3  | 11K      | 16K      |
+| RPD     | Pull down resistance                                  |  6.8.3  | 11K      | 16K      |
 
 ## Connectors and Breakouts
 

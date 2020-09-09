@@ -9,21 +9,32 @@ ref: bluetooth
 lang: en
 ---
 
-# Overview
+## Overview
 
-The micro:bit supports Bluetooth via a single profile BBC micro:bit profile 
+The micro:bit supports Bluetooth via a single BBC micro:bit profile 
 which was custom developed for the device. This profile
 allows it to communicate with other BLE capable devices.
 
 If you are looking for information about the 'radio' feature, it is a [proprietary protocol from Nordic
-and Lancaster University](https://lancaster-university.github.io/microbit-docs/ubit/radio/). This is not Bluetooth.
+and Lancaster University](https://lancaster-university.github.io/microbit-docs/ubit/radio/). This is not Bluetooth and the difference is described further in [this article on using the micro:bit wirelessly](https://support.microbit.org/support/solutions/articles/19000083637-using-the-micro-bit-wirelessly-)
 
 
 ## BBC micro:bit Bluetooth Profile
 
 The BBC micro:bit [Bluetooth profile is defined in the DAL](https://lancaster-university.github.io/microbit-docs/ble/profile/)
 
-There are [pre-compiled Hex files available](https://lancaster-university.github.io/microbit-docs/ble/profile/#all-services-enabled-hex-file) that enable bluetooth services available on the micro:bit and some [example programs in the microbit-samples repository](https://github.com/lancaster-university/microbit-samples)
+You can flash a pre-compiled Hex files, to the micro:bit that enables bluetooth services.As Bluetooth is memory intensive, these are supplied as either 'without Magnetometer Service' or 'without DFU Service':
+
+[Without magnetometer](/docs/bluetooth/assets/BLE_All_Services_DAL_2-1-1-No-Mag.hex)
+[Without DFU](/docs/bluetooth/assets/BLE_All_Services_DAL_2-1-1-No-DFU.hex)
+
+The DAL contains the [C++ source for the BLE service files](https://github.com/lancaster-university/microbit-samples/blob/master/source/examples/bluetooth-services/main.cpp)
+
+There are also some example programs in the [microbit-samples](https://github.com/lancaster-university/microbit-samples) repository:
+
+[bluetooth-eddystone-uid]https://github.com/lancaster-university/microbit-samples/tree/master/source/examples/bluetooth-eddystone-uid
+[bluetooth-eddystone-url]https://github.com/lancaster-university/microbit-samples/tree/master/source/examples/bluetooth-eddystone-url
+[bluetooth-uart]https://github.com/lancaster-university/microbit-samples/tree/master/source/examples/bluetooth-uart
 
 The micro:bit has a Bluetooth 4.1 stack with Bluetooth Low Energy (BLE) and supports
 the [GAP Perhipheral Role](https://bluetooth-developer.blogspot.com/2016/07/microbit-and-bluetooth-roles.html).
@@ -49,11 +60,13 @@ There are some useful [advanced configuration options in the micro:bit runtime c
 ## Challenge
 
 It would be possible for anyone with the appropriate knowledge to define and
-implement other Bluetooth profiles. You would need to use the mbed C/C++ environment
+implement other Bluetooth profiles. You would need to use the Mbed C/C++ environment
 to do this.
 
+We are seeking collaborators to help us define the new profile elements that expose some of the <span class="v2">v2</span> features.
 
-# Further information
+
+## Further information
 
 [Martin Woolley's Bluetooth Blog](https://bluetooth-developer.blogspot.com/) has a range of information on using Bluetooth with micro:bit
 
