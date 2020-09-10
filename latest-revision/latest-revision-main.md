@@ -13,7 +13,7 @@ lang: en
 
 There's lots of opportunity for collaboration on the software sides, and the software work has lots of partners covering issues in different areas - so please raise **software and documentation** issues in our [microbit-issues GitHub repository](https://github.com/microbit-foundation/microbit-issues) If you'd like to raise issues privately, you're welcome to contact [micro:bit support.](mailto:support@microbit.org?subject=Software%20issue)<br><br>
 
-For **hardware** issues, of which we hope there are precious few, please contact The Foundation directly via [micro:bit support](mailto:support@microbit.org?subject=Hardware%20issue) so we can track and triage approipriately." %}
+For **hardware** issues, of which we hope there are precious few, please contact The Foundation directly via [micro:bit support](mailto:support@microbit.org?subject=Hardware%20issue) so we can track and triage appropriately." %}
 
 * TOC
 {:toc}
@@ -136,7 +136,7 @@ Yes, however you will need to update the files by dragging and dropping them int
 
 If you attempt to use an old .Hex file without updating it, the micro:bit will display a compatibility error eg. `:( E029`
 
-![Compatibility error](/docs/software/assets/compat-error.gif/)
+![Compatibility error](/docs/software/assets/compat-error.gif)
 
 
 ## How do I get a device to test?
