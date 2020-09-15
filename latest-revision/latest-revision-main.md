@@ -28,7 +28,7 @@ Amongst the micro:bit features, ‘sound’ is in a unique position of being alr
 ### Features
 
 - On board speaker
-- MEMS Microphone with LED indicator
+- MEMs Microphone with LED indicator
 - Touch sensitive logo 
 - Built-in sleep/off mode that means the board can be powered-down with batteries connected
 - Discrete regulator that can supply up to 200mA of current to external accessories
