@@ -53,7 +53,7 @@ By default the micro:bit will output sound to **both** the edge connector pins a
 The on-board microphone is also rear-mounted, but has a sound input hole on the front of the board, alongside a microphone activity LED, which will be lit red when in use. If the micro:bit is mounted horizontally on your accessory, you may need to consider how this affects the response of the microphone and the visibility of the microphone LED
 
 ### Touch sensitive logo
-The micro:bit logo is copper plated and responds to capacitive touch in the same way that the large pins do. In previous revisions, the micro:bit only supported resisitive touch.
+The micro:bit logo is gold plated copper and responds to capacitive touch in the same way that the large pins do. In previous revisions, the micro:bit only supported resisitive touch.
 
 ### Antenna
 The position of the antenna has altered so that it is on an angle and it has also been copper coated to make it more visible. It will still behave in the same way, but if your accessory makes use of radio or Bluetooth we suggest taht you test your software packages with both board revisions in case any threshold tweaks are neccssary.

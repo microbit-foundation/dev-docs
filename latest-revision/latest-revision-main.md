@@ -38,7 +38,7 @@ Amongst the micro:bit features, ‘sound’ is in a unique position of being alr
 
 - Notched edge connector. To make it easier to connect things like crocodile clips and conductive thread
 - Power LED indicator. In addition to the USB activity indicator, a power LED shows whether the micro:bit is powered on or off
-- Copper plated antenna. To easily identify the radio/Bluetooth component
+- Gold plated antenna. To easily identify the radio/Bluetooth component
 
 
 ## Hardware specification
