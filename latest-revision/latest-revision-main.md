@@ -84,12 +84,12 @@ This means that you can use MakeCode or the online Python Editor as you always h
 
 ## Feature availability
 
-| **Feature**      | **CODAL** | **MakeCode** | **MakeCode Simulator** | **MicroPython** |
-| ---------------- | --------- | ------------ | ---------------------- | --------------- |
-| Microphone       | ✅         | ✅            | 🛑                     | ✅               |
-| Speaker          | ✅         | ✅            | 🛑                     | ✅               |
-| Logo touch       | ✅         | ✅            | 🛑                     | ✅               |
-| Power Management | ✅         | 🛑            | 🛑                     | 🛑               |
+| **Feature**      | **CODAL** | **MakeCode** | **MakeCode Sim.** | **MicroPython** |
+| ---------------- | --------- | ------------ | ----------------- | --------------- |
+| Microphone       | ✅         | ✅            | 🛑               | ✅               |
+| Speaker          | ✅         | ✅            | 🛑               | ✅               |
+| Logo touch       | ✅         | ✅            | 🛑               | ✅               |
+| Power Management | ✅         | 🛑            | 🛑               | 🛑               |
 
 ## How do I use the new features?
 
