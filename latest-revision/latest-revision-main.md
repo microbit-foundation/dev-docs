@@ -82,6 +82,13 @@ In an effort to ensure the greatest degree of continuity for teachers, users wil
 This means that you can use MakeCode or the online Python Editor as you always have, to use all of the features that are common to both version of the BBC micro:bit: Display, buttons, motion sensing, gestures like shake, light sensing, and even the Music blocks.
 
 
+## Feature availability
+| **Feature** | **Codal** | **MakeCode** | **MakeCode Simulator** | **MicroPython** |
+| ----------- | --------- | ------------ | ---------------------- | --------------- |
+| Microphone  | ✅         | ✅            | 🛑                     | ✅               |
+| Speaker     | ✅         | ✅            | 🛑                     | ✅               |
+| Logo touch  | ✅         | ✅            | 🛑                     | ✅               |
+
 ## How do I use the new features?
 
 The **speaker** works in the same way you would expect when you connect up your headphones or an external speaker to the micro:bit. By default, the sound output will be on both the speaker and Edge connector. 
@@ -106,6 +113,20 @@ An extension has been developed to include the microphone and logo touch feature
 2. Select Advanced > Add Extension and paste [https://github.com/frumplecoin/demo-extension](https://github.com/frumplecoin/demo-extension) into the search box. 
 3. Click on the extension to add it to the toolbox.
 
+**v2 MakeCode APIs**
+The Microphone and Logo touch features can be found in the Input menu
+
+- On loud/quiet sound `input.onSound(SoundType.Loud)`
+- On Logo pressed `input.onLogoPressed`
+- On logo released `input.onLogoReleased`
+- Logo is pressed `input.logoIsPressed`
+- soundlevel  `input.soundLevel` returns the current soundlevel
+- Set loud/quiet sound threshold to 0-255 `input.setSoundThreshold(SoundType.Loud, 128)`
+
+The Speaker features can be found int the music menu
+
+- volume `music.volume` returns the current volume
+- on-board speaker enable true/false `music.setOnBoardSpeakerEnable(false)`
 
 ### Python
 You can use the latest board revision in the Python beta editor:
@@ -113,8 +134,15 @@ You can use the latest board revision in the Python beta editor:
  
 **Using the new features in the Python Editor**
 
+**v2 Python Apis**
 
-We will notify you via email when the API documentation for the new features is available.
+- `music.play(music.JUMP_UP, pin=microbit.pin_speaker, wait=True)` - Choose where to output sound (works with pitch, too)
+- `music.stop(pin=microbit.pin_speaker)`
+- `microbit.microphone.current_sound()`
+- `microbit.microphone.current_sound() == microbit.microphone.LOUD` - also `microbit.microphone.QUIET`
+- `microbit.microphone.was_sound(microbit.microphone.LOUD)` - If a sound occured since you last checked
+- `microbit.microphone.get_sounds()` - history of sounds since last call to get_sounds() - nice way to count claps
+- `microbit.pin_logo.is_touched()`  Normal pin object with only is_touched() to avoid confusion.
 
 
 ## Universal Hex Format
