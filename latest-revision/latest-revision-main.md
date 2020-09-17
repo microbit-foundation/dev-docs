@@ -94,7 +94,7 @@ This means that you can use MakeCode or the online Python Editor as you always h
 ## How do I use the new features?
 
 The **speaker** works in the same way you would expect when you connect up your headphones or an external speaker to the micro:bit. By default, the sound output will be on both the speaker and Edge connector. 
-The **microphone** has an additional set of blocks in MakeCode and objects in MicroPython to use, so that you can monitor and record sound. 
+The **microphone** has an additional set of blocks in MakeCode and objects in MicroPython to use, so that you can monitor and respond to sound. 
 The **logo touch** is implemented in the same way as touching a pin on the edge connector and will have equivalent blocks in MakeCode and objects in MicroPython to use.
 
 To access the features of the latest revision only (eg. to output sound only on the speaker and not the edge connector), you will need to add additional code to your programs. This ensures that the default editor experience continues to work for everyone, regardless of the board revision.
