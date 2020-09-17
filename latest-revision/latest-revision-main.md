@@ -83,11 +83,13 @@ This means that you can use MakeCode or the online Python Editor as you always h
 
 
 ## Feature availability
-| **Feature** | **Codal** | **MakeCode** | **MakeCode Simulator** | **MicroPython** |
-| ----------- | --------- | ------------ | ---------------------- | --------------- |
-| Microphone  | ✅         | ✅            | 🛑                     | ✅               |
-| Speaker     | ✅         | ✅            | 🛑                     | ✅               |
-| Logo touch  | ✅         | ✅            | 🛑                     | ✅               |
+
+| **Feature**      | **CODAL** | **MakeCode** | **MakeCode Simulator** | **MicroPython** |
+| ---------------- | --------- | ------------ | ---------------------- | --------------- |
+| Microphone       | ✅         | ✅            | 🛑                     | ✅               |
+| Speaker          | ✅         | ✅            | 🛑                     | ✅               |
+| Logo touch       | ✅         | ✅            | 🛑                     | ✅               |
+| Power Management | ✅         | 🛑            | 🛑                     | 🛑               |
 
 ## How do I use the new features?
 
