@@ -136,7 +136,7 @@ You can use the latest board revision in the Python beta editor:
  
 **Using the new features in the Python Editor**
 
-**v2 Python Apis**
+**v2 Python APIs**
 
 - `music.play(music.JUMP_UP, pin=microbit.pin_speaker, wait=True)` - Choose where to output sound (works with pitch, too)
 - `music.stop(pin=microbit.pin_speaker)`
