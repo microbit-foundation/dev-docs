@@ -84,12 +84,16 @@ This means that you can use MakeCode or the online Python Editor as you always h
 
 ## Feature availability
 
+These are the V2 specific features and whether we expect them to work as expected ✅  or not 🔴 or there are issues still to be fixed 🔶
+
 | **Feature**      | **CODAL** | **MakeCode** | **MakeCode Sim.** | **MicroPython** |
 | ---------------- | --------- | ------------ | ----------------- | --------------- |
-| Microphone       | ✅         | ✅            | 🛑               | ✅               |
+| Microphone       | ✅         | ✅            | 🛑               | ✅                |
 | Speaker          | ✅         | ✅            | 🛑               | ✅               |
-| Logo touch       | ✅         | ✅            | 🛑               | ✅               |
+| Logo touch       | 🔶         | 🔶            | 🛑               | 🔶               |
 | Power Management | ✅         | 🛑            | 🛑               | 🛑               |
+
+🔶 Logo touch - If you are touching the logo or back of the board when you reset, the pin touch does not calibrate correctly.
 
 ## How do I use the new features?
 
@@ -122,7 +126,7 @@ The Microphone and Logo touch features can be found in the Input menu
 - On Logo pressed `input.onLogoPressed`
 - On logo released `input.onLogoReleased`
 - Logo is pressed `input.logoIsPressed`
-- soundlevel  `input.soundLevel` returns the current soundlevel
+- soundlevel  `input.soundLevel` returns the current soundlevel (spl)
 - Set loud/quiet sound threshold to 0-255 `input.setSoundThreshold(SoundType.Loud, 128)`
 
 The Speaker features can be found int the music menu
