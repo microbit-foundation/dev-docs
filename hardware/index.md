@@ -309,7 +309,7 @@ manufacture of attachments e.g. via 3D printing.
 
 | item          | details
 | ---           | ---
-| Dimensions    | 5cm(w) 4cm(h)
+| Dimensions    | 51.60mm(w) 42.00mm(h) 11.65mm(d), button depth to board 4.55mm, speaker depth to board 3.00mm, JST connector to board 5.50mm
 | Weight        | TBC
 
 
