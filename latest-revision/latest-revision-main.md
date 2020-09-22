@@ -82,6 +82,15 @@ In an effort to ensure the greatest degree of continuity for teachers, users wil
 This means that you can use MakeCode or the online Python Editor as you always have, to use all of the features that are common to both version of the BBC micro:bit: Display, buttons, motion sensing, gestures like shake, light sensing, and even the Music blocks.
 
 
+## Feature availability
+
+| **Feature**      | **Codal** | **MakeCode** | **MakeCode Simulator** | **MicroPython** |
+| ---------------- | --------- | ------------ | ---------------------- | --------------- |
+| Microphone       | ✅         | ✅           | 🛑                     | ✅             |
+| Speaker          | ✅         | ✅           | 🛑                     | ✅             |
+| Logo touch       | ✅         | ✅           | 🛑                     | ✅             |
+| Power management | ✅         | 🛑           | 🛑                     | 🛑             |
+
 ## Feature API availability
 
 These are the V2 specific APIs and whether we expect them to work as expected ✅  or not 🔴, or there are issues still to be fixed 🔶.
