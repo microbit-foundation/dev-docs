@@ -46,7 +46,7 @@ features: 3xbuttons, 5x5 display, motion sensor)**
 things that you don't need
 * Standard 2.54mm pitch connector for
   * all the micro:bit edge connector pins
-  * programming the KL26Z and the nRF51822
+  * programming the KL26 and the nRF51822
 * Modified power supply for more flexible use, standalone regulator
   * drive more components without additional power supply
   * Use lithium ion polymer batteries as well as AAA (which you shouldn't do
@@ -98,12 +98,12 @@ your board to flash it for you.
 ### KL26 Software
 
 As described on the [interface firmware](/software/daplink-interface) page, there is
-a bootloader and a main interface program that needs to be flashed to the KL26Z.
+a bootloader and a main interface program that needs to be flashed to the KL26.
 
 The hex file/image that contains both of these together can be found
 here: [hex file](/docs/hardware/assets/kl26z_bl_if_BL0233_IF0234.hex.zip)
 
-You should flash this onto your KL26Z using the header labelled MKL26 prog:
+You should flash this onto your KL26 using the header labelled MKL26 prog:
 
 ![KL26 program header](/docs/hardware/assets/referencedesign-7eaaa.png)
 
@@ -116,11 +116,11 @@ Please see [this page](https://developer.mbed.org/users/MarceloSalazar/notebook/
 
 ### nRF51 Software
 
-Once you have flashed the KL26Z then you can use the USB interface on the
+Once you have flashed the KL26 then you can use the USB interface on the
 reference design itself in order to program any micro:bit hex file onto the
 device.
 
-If you have chosen not to include a KL26Z circuit then you can use an external
+If you have chosen not to include a KL26 circuit then you can use an external
 programmer and the nRF51prog header:
 
 ![nRF51 prog header](/docs/hardware/assets/referencedesign-d1599.png)

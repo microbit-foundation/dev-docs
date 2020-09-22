@@ -46,7 +46,7 @@ Amongst the micro:bit features, ‘sound’ is in a unique position of being alr
 Detailed breakdown on our [v2 hardware page](../hardware/)
 
 - Target MCU, Nordic Semiconductor nRF52833 (64MHz Cortex-M4F, 512kB Flash, 128kB RAM)
-- Interface MCU: NXP KL27Z, 256kB Flash (128kB reserved for future enhancement), 32kB RAM
+- Interface MCU: NXP KL27, 256kB Flash (128kB reserved for future enhancement), 32kB RAM
 - Motion sensor: ST LSM303
 - MEMS microphone: Knowles SPU0410LR5H-QB-7 MEMS
 - Power consumption 300mA (up to 200mA for accessories)

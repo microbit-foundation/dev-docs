@@ -264,7 +264,7 @@ main computer.
 | RAM           | 16KB
 | Speed         | ? (crystal) 48MHz (max)
 | Debug capabilities | SWD
-| More Info | [DAPLink](/software/daplink-interface/), [KL27 reference manual](https://www.nxp.com/docs/en/reference-manual/KL27P64M48SF6RM.pdf) [KL27Z data sheet](https://www.nxp.com/docs/en/data-sheet/KL27P64M48SF6.pdf)
+| More Info | [DAPLink](/software/daplink-interface/), [KL27 reference manual](https://www.nxp.com/docs/en/reference-manual/KL27P64M48SF6RM.pdf) [KL27 data sheet](https://www.nxp.com/docs/en/data-sheet/KL27P64M48SF6.pdf)
 
 
 ### USB communications

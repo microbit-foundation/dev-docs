@@ -137,7 +137,7 @@ The <span class="v2">v2</span> board revision has a notched edge connector to ma
 
 ### Further information
 
-[KL27Z data sheet](https://www.nxp.com/docs/en/data-sheet/KL27P64M48SF6.pdf)
+[KL27 data sheet](https://www.nxp.com/docs/en/data-sheet/KL27P64M48SF6.pdf)
 
 [KL26 datasheet](http://www.nxp.com/webapp/search.partparamdetail.framework?PART_NUMBER=MKL26Z128VFM4)
 

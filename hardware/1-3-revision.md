@@ -317,7 +317,7 @@ manufacture of attachments e.g. via 3D printing.
 
 [Freescale KL26 reference manual](http://cache.freescale.com/files/microcontrollers/doc/ref_manual/KL26P121M48SF4RM.pdf)
 
-[Freescale KL26Z data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
+[Freescale KL26 data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
 
 [Freescale MMA8652 accelerometer datasheet](http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8652FC.pdf)
 
