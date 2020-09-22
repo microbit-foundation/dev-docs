@@ -89,20 +89,20 @@ If you require access to the related GitHib issues please email your GitHub user
 
 ### MakeCode APIs
 
-| API                                                 | Blocks/Usage         | Status                | GitHub Issues |
+| API                                                 | Blocks         | Status                | GitHub Issues |
 | --------------------------------------------------- | -------------------- | --------------------- | ------------- |
-| On loud/quiet sound `input.onSound(SoundType.Loud)` | ![on loud sound](/docs/latest-revision/assets/makecode-blocks/loudsound.png){: width="125"}          | ✅     |               |
-| On Logo pressed `input.onLogoPressed()`             | ![logo pressed](/docs/latest-revision/assets/makecode-blocks/onLogoPressed.png){: width="125"} | 🔶 Sensitivity is calibrated at power on, so if you are touching the device at power on calibration breaks. | [codal-microbit#126](https://github.com/microbit-foundation/codal-microbit/issues/126) |
+| On loud/quiet sound `input.onSound(SoundType.Loud)` - Triggers after a transition from quiet-loud/loud-quietm, so 'on quiet will trigger after a louad sound but not continuously | ![on loud sound](/docs/latest-revision/assets/makecode-blocks/loudsound.png){: width="125"}          | ✅     |               |
+| On Logo pressed - capacitive touch on the logo. Large pins are resistive by default. `input.onLogoPressed()`             | ![logo pressed](/docs/latest-revision/assets/makecode-blocks/onLogoPressed.png){: width="125"} | 🔶 Sensitivity is calibrated at power on, so if you are touching the device at power on calibration breaks. | [codal-microbit#126](https://github.com/microbit-foundation/codal-microbit/issues/126) |
 | On logo released `input.onLogoReleased()` | ![logo released](/docs/latest-revision/assets/makecode-blocks/onLogoReleased.png){: width="125"} | 🔶  Sensitivity is calibrated at power on, so if you are touching the device at power on calibration breaks | [codal-microbit#126](https://github.com/microbit-foundation/codal-microbit/issues/126) |
 | Logo is pressed `input.logoIsPressed()`               | ![logo is pressed](/docs/latest-revision/assets/makecode-blocks/logoIsPressed.png){: width="150"} | 🔶  Sensitivity is calibrated at power on, so if you are touching the device at power on calibration breaks | [codal-microbit#126](https://github.com/microbit-foundation/codal-microbit/issues/126) |
-| Enable/Disable speaker `music.setOnBoardSpeakerEnable(false)` | ![speaker enabled](/docs/latest-revision/assets/makecode-blocks/speakerEnabled.png){: width="650"} | ✅     |               |
-| Set sound threshold level `input.setSoundThreshold(SoundType.Loud, 128)` | ![sound threshold](/docs/latest-revision/assets/makecode-blocks/setSoundThreshold.png){: width="650"}           | ✅     |               |
-| Sound level `input.soundLevel()`               | ![sound level](/docs/latest-revision/assets/makecode-blocks/soundLevel.png){: width="125"}           | 🔶  On battery, the 'soundLlevel' reported for quiet sounds is higher than the level reported on USB |[codal-microbit#131](https://github.com/microbit-foundation/codal-microbit/issues/131) |
-| Volume `music.volume`               | ![volume](/docs/latest-revision/assets/makecode-blocks/volume.png){: width="90"}           | ✅     |               |
+| Enable/Disable speaker `music.setOnBoardSpeakerEnable(false)` - Edge connector will still output sound | ![speaker enabled](/docs/latest-revision/assets/makecode-blocks/speakerEnabled.png){: width="650"} | ✅     |               |
+| Set sound threshold level `input.setSoundThreshold(SoundType.Loud, 128)` - 0-255 threshold for triggering a 'loud' or 'quiet' sound | ![sound threshold](/docs/latest-revision/assets/makecode-blocks/setSoundThreshold.png){: width="650"}           | ✅     |               |
+| Sound level - returns a filtered 'noise level' not raw microphone samples, useful for eg. 'how noisy is my classroom?' `input.soundLevel()`               | ![sound level](/docs/latest-revision/assets/makecode-blocks/soundLevel.png){: width="125"}           | 🔶  On battery, the 'soundLlevel' reported for quiet sounds is higher than the level reported on USB.  |[codal-microbit#131](https://github.com/microbit-foundation/codal-microbit/issues/131) |
+| Volume `music.volume` returns current volume | ![volume](/docs/latest-revision/assets/makecode-blocks/volume.png){: width="90"}           | ✅     |               |
 
 ### Python APIs
 
-| API                                        | Usage        | Status                         | GitHub Issues |
+| API                                        | Usage        | Status                       | GitHub Issues |
 | ------------------------------------------ | ------------ | ------------------------------ | ------------- |
 | Choose music/pitch output pin | `music.play(music.JUMP_UP, pin=microbit.pin_speaker, wait=True)` | ✅   |  |             
 | Stop music on pin             | `music.stop(pin=microbit.pin_speaker)` | ✅   |  |
