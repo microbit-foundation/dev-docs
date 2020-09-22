@@ -85,6 +85,7 @@ This means that you can use MakeCode or the online Python Editor as you always h
 ## Feature API availability
 
 These are the V2 specific APIs and whether we expect them to work as expected ✅  or not 🔴, or there are issues still to be fixed 🔶.
+If you require access to the related GitHib issues please email your GitHub username to [support@microbit.org](mailto:support@microbit.org?subject=Request%20for%20access%20to%20GitHub%2issues&body=Name%3A%0D%0A%0D%0AGitHub%20ID%3A).
 
 ### MakeCode APIs
 
@@ -141,14 +142,15 @@ The Speaker features can be found in the music menu
 
 ### Python
 You can use the latest board revision and APIs in the Python beta editor:
- https://python-editor-next-release-review.microbit.org/
+
+ [https://python-editor-next-release-review.microbit.org](https://python-editor-next-release-review.microbit.org/)
 
  If you want to use a specific or custom build of MicroPython you can do this in [Mu](https://codewith.mu/).
 
  1. Drag and drop the MicroPython binary on to the `MICROBIT` drive
  2. Open the **Files** tab in Mu and copy `main.py` from the Files on your computer to the Files on your micro:bit
 
-![Copy main.py](/docs/latest-revision/assets/copy-main-py-mu.gif)
+![Copy main.py](/docs/latest-revision/assets/copy-main-py-mu.gif){: width="600"}
 
 
 ## Universal Hex Format
