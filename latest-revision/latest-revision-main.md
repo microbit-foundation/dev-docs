@@ -84,6 +84,8 @@ This means that you can use MakeCode or the online Python Editor as you always h
 
 ## Feature availability
 
+These are the V2 features and whether we expect them to work as expected ✅  or not 🔴, or there are issues still to be fixed 🔶.
+
 | **Feature**      | **Codal** | **MakeCode** | **MakeCode Simulator** | **MicroPython** |
 | ---------------- | --------- | ------------ | ---------------------- | --------------- |
 | Microphone       | ✅         | ✅           | 🛑                     | ✅             |
