@@ -23,7 +23,7 @@ The micro:bit runtime, also known as the DAL/CODAL is software that runs on a mi
 
 There are a number of important software layers that run on the micro:bit to enable easy to use languages such as Javascript to be used. Some of these, like Arm Mbed and MicroPython existed before the BBC micro:bit project started, and others, such as the micro:bit runtime were written specifically for the micro:bit.
 
-Arm Mbed provides a Hardware Abstraction Layer (HAL) for chips using Arm Cortex processors. This abstraction layer presents a uniform layer that developers can use to write software for any Arm based processor - including the Nordic chip used on the micro:bit. It provides easy access to peripheral interfaces such as SPI, I2C and serial for user by higher level environments.
+Arm Mbed provides a Hardware Abstraction Layer (HAL) for chips using Arm Cortex processors. This abstraction layer presents a uniform layer that developers can use to write software for any Arm based processor - including the Nordic chip used on the micro:bit. It provides easy access to peripheral interfaces such as SPI, I2C and serial for use by higher level environments.
 
 ### The micro:bit runtime Device Abstraction Layer (DAL)
 
