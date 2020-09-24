@@ -31,12 +31,12 @@ The Universal Hex format has been developed to ensure the best experience for us
 
 We have created a standalone error hex that can be combined with a V2 only hex to produce a Hex that will work on a V2 board, but error if used on a v1.
 
-![Universal Hex error 1](/docs/latest-revision/assets/hex-compatibility-errors.png)
+![Universal Hex error 1](/docs/software/assets/hex-compatibility-errors.png)
 
 |                     |                    |
 |---------------------|--------------------|
-| ![Universal Hex error 2](/docs/latest-revision/assets/uhex1.png)
-| ![Universal Hex error 3](/docs/latest-revision/assets/uhex2.png) |
+| ![Universal Hex error 2](/docs/software/assets/uhex1.png)
+| ![Universal Hex error 3](/docs/software/assets/uhex2.png) |
 
 
 ## Micropython
