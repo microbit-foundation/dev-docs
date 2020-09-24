@@ -33,9 +33,9 @@ We have created a standalone error hex that can be combined with a V2 only hex t
 
 ![Universal Hex error 1](/docs/software/assets/hex-compatibility-errors.png)
 
-|                                                           |                                                           |
-|-----------------------------------------------------------|-----------------------------------------------------------|
-| ![Universal Hex error 2](/docs/software/assets/uhex2.png) | ![Universal Hex error 3](/docs/software/assets/uhex1.png) |
+|                                                                                                                     |
+|---------------------------------------------------------------------------------------------------------------------|
+| ![Universal Hex error 2](/docs/software/assets/uhex2.png) ![Universal Hex error 3](/docs/software/assets/uhex1.png) |
 
 
 ## Micropython
