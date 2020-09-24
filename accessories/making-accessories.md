@@ -14,7 +14,7 @@ A [list of available accessories](https://microbit.org/buy/accessories/) is main
 
 ## Using the Edge Connector
 
-The micro:bit card edge connector, commonly referred to as the 'edge connector' or the pins is designed to make accessory design easy. 
+The micro:bit card edge connector, commonly referred to as the 'edge connector' or the 'pins' makes accessory design easy. 
 
 Many micro:bit accessories are designed to use an edge connector socket, so it is simple
 to plug in and remove the board. 

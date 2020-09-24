@@ -105,8 +105,9 @@ When they are finalised, we will notify people via the [DAL, Editors and Devices
 
 | API                                                 | Blocks         | Status                | GitHub Issues |
 | --------------------------------------------------- | -------------------- | --------------------- | ------------- |
-| On loud/quiet sound `input.onSound(SoundType.Loud)` - Triggers after a transition from quiet-loud/loud-quietm, so 'on quiet will trigger after a louad sound but not continuously | ![on loud sound](/docs/latest-revision/assets/makecode-blocks/loudsound.png){: width="125"}          | ✅     |               |
-| On Logo pressed - capacitive touch on the logo. Large pins are resistive by default. `input.onLogoPressed()`             | ![logo pressed](/docs/latest-revision/assets/makecode-blocks/onLogoPressed.png){: width="125"} | ✅  | |
+| On loud/quiet sound `input.onSound(SoundType.Loud)` - Triggers after a transition from quiet-loud/loud-quiet, so 'on quiet' will trigger after a loud sound but not continuously | ![on loud sound](/docs/latest-revision/assets/makecode-blocks/loudsound.png){: width="125"}          | ✅     |               |
+| Set pin touch type `pins.touchSetType(TouchTarget.P0, TouchType.Resistive)`- capacitive/resisitive - Logo is capacative, large pins are resistive by default. | ![set touch type](/docs/latest-revision/assets/makecode-blocks/pin-mode.png){: width="650"} | ✅  | |
+| On Logo pressed `input.onLogoPressed()` | ![logo pressed](/docs/latest-revision/assets/makecode-blocks/onLogoPressed.png){: width="125"} | ✅  | |
 | On logo released `input.onLogoReleased()` | ![logo released](/docs/latest-revision/assets/makecode-blocks/onLogoReleased.png){: width="125"} | ✅  |  |
 | Logo is pressed `input.logoIsPressed()`               | ![logo is pressed](/docs/latest-revision/assets/makecode-blocks/logoIsPressed.png){: width="150"} | ✅  |  |
 | Enable/Disable speaker `music.setOnBoardSpeakerEnable(false)` - Edge connector will still output sound | ![speaker enabled](/docs/latest-revision/assets/makecode-blocks/speakerEnabled.png){: width="650"} | ✅     |               |
