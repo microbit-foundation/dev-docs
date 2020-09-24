@@ -25,7 +25,7 @@ for you to add your own components.
 ## Schematics
 
 - [v1.3](https://github.com/bbcmicrobit/hardware/blob/master/V1.3B/SCH_BBC-Microbit_V1.3B.pdf)
-- [v1.5](https://github.com/bbcmicrobit/hardware/blob/master/V1.5/SCH_BBC-Microbit_V1.5.PDF
+- [v1.5](https://github.com/bbcmicrobit/hardware/blob/master/V1.5/SCH_BBC-Microbit_V1.5.PDF)
 - [v2 TBC](#)
 
 ### V2 pinmap
