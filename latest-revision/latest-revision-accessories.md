@@ -97,3 +97,19 @@ We are working behind the scenes on patching all MakeCode extensions that are cu
 
 ### Python modules
 The additional memory available to the latest revision means that you have more space to create python modules to work with your accessories and the micro:bit.
+
+## Hex file compatibility
+
+## Universal Hex files
+
+The latest board revision introduces a superset of the Intel-Hex format that enables compatibility across processor variants. A Universal Hex is a file that contains the binary data for both micro:bit <span class="v1">v1</span> and micro:bit <span class="v2">v2</span>, in a format that the DAPLink can process to only write to memory the data relevant to its micro:bit board.
+
+A **Universal Hex** hex file will work on a v1 or v2 board. 
+A clear indication that you are working with this format is that a compiled .hex file will be ~1.8Mb as opposed to ~700Kb in size.
+
+A [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex) has been written to implement the format and associated detailed [specification of the Universal Hex format](https://github.com/microbit-foundation/universal-hex/).  Please [get in contact](mailto:support@microbit.org?subject=Request%20for%20access%20to%20Universal%20hex&20spec&body=Name%3A%0D%0A%0D%0AGitHub%20ID%3A) if you require access to the specification.
+
+### Hex format compatibility
+The Universal Hex format has been developed to ensure the best experience for users when moving between board variants. There may be cases where it is not possible to support both boards, for example an accessory that is designed only to target the V2 board variant. In these cases, to ensure the best user experience when flashing a hex file to any board variant, the file should always include an error message to signify board incompatibility to the user. If we do not do this, it results in a silent failure, which can be very confusing to users.
+
+We have created a [standalone error hex](/docs/software/assets/stand-alone-error-v1.hex) that can be combined with a V2 only hex to produce a Hex that will work on a V2 board, but error if used on a v1. You can read more about how this works on the [Hex format](../../software/hex-format/) page.
