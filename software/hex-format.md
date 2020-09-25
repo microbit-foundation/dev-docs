@@ -29,7 +29,11 @@ A [Universal Hex JavaScript Library](https://github.com/microbit-foundation/micr
 ### Hex format compatibility
 The Universal Hex format has been developed to ensure the best experience for users when moving between board variants. There may be cases where it is not possible to support both boards, for example an accessory that is designed only to target the V2 board variant. In these cases, to ensure the best user experience when flashing a hex file to any board variant, the file should always include an error message to signify board incompatibility to the user. If we do not do this, it results in a silent failure, which can be very confusing to users.
 
-We have created a standalone error hex that can be combined with a V2 only hex to produce a Hex that will work on a V2 board, but error if used on a v1.
+We have created a [standalone error hex](/docs/software/assets/stand-alone-error-v1.hex) that can be combined with a V2 only hex to produce a Hex that will work on a V2 board, but error if used on a v1.
+
+{% include alert-info.html content="We are currently working on a web based and CLI tool to generate Univeral Hex files and will publish the information and useage here when this is ready. In the meantime, please [get in contact](mailto:support@microbit.org) if yuo reuire further information" %}
+
+[Download standalone error hex](/docs/software/assets/stand-alone-error-v1.hex){: .btn.sm-btn download}
 
 ![Universal Hex error 1](/docs/software/assets/hex-compatibility-errors.png)
 
