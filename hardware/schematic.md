@@ -39,7 +39,7 @@ Whilst we work on the publication of the schematic for the latest revision, here
 | P0.03            | RING1               | N                                        | P1                  |
 | P0.04            | RING2               | N                                        | P2                  |
 | P0.05            | MIC_IN              | N                                        |                     |
-| P0.06            | UART_INTERNAL_RX    | P17 (LPUART1_RX) - swap load dump to P18 |                     |
+| P0.06            | UART_INTERNAL_RX    | P17 (LPUART1_RX)                         |                     |
 | P1.08            | UART_INTERNAL_TX    | P25 (LPUART1_TX)                         |                     |
 | P0.08            | I2C_INT_SCL         | P22 (I2C1_SCL)                           |                     |
 | P0.10            | GPIO1               | N                                        | P8                  |
