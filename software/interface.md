@@ -40,7 +40,7 @@ On the [reference design](/hardware/reference-design) the interface circuit is c
 
 This interface chip is running software from [Arm Mbed](https://os.mbed.com/) called [DAPLink](https://github.com/ARMmbed/DAPLink).
 
-This software provides three USB endpoints that have specific purposes:
+This software provides four USB endpoints that have specific purposes:
 
 * MSC - USB mass storage device for drag-and-drop programming of the target MCU's flash memory.
 
@@ -48,6 +48,7 @@ This software provides three USB endpoints that have specific purposes:
 
 * HID - CMSIS-DAP compliant debug channel - this is useful if you want to use advanced debuggers like GDB or Keil to understand what's happening (or not happening!) on your micro:bit.
 
+* WebUSB - faciliates communicating witht the device via a WebUSB capable browser.
 
 The DAPLink software and interface chip are part of the [Arm Mbed HDK](https://developer.mbed.org/handbook/mbed-HDK)
 and the [Mbed Enabled program](https://www.mbed.com/en/about-mbed/mbed-enabled/)
@@ -76,7 +77,42 @@ KL27 <span class="v2">v2</span> or KL26 <span class="v1">v1</span> flash. These 
 
 ### Updating your version of DAPLink
 
+**Interface**
 There are detailed instructions for how to [update the firmware version on the micro:bit website](https://microbit.org/get-started/user-guide/firmware/).
+
+**Full image**
+You can also flash a full DAPLink image to the device using the KL27 internal bootloader. This will update both interface and bootloader.
+
+[Download latest Full DAPLink image](/docs/software/assets/DAPLink-full-image/full_firmware_image_crc.bin){: .btn.sm-btn download}
+
+You will need to register for and download the [**Bootloader Host Application (blhost)**](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuboot-mcu-bootloader-for-nxp-microcontrollers:MCUBOOT?&tab=Design_Tools_Tab) from NXP. IN the /bin folder you will find executables for your operating system.
+
+**Enter bootloader mode**
+To enter this mode we need to ground TP1 during board power up, this is the BOOTMODE pin in the KL27. To do that, connect with a wire (or something like a paper-clip) TP1 with any ground point as you insert the USB cable into the device.
+
+<!-- [TP1](#){: width: 300px} Image TBC -->
+
+**Bootloader CLI tool**
+Run the bootloader tool on your OS. These instructions relate to the CLI, but the GUI settings would be broadly similar.
+
+Usage info:
+
+```
+blhost --help
+```
+
+Flash KL27 bin file:
+
+```
+blhost -u 0x15a2,0x0073 flash-erase-all 0
+blhost -u 0x15a2,0x0073 write-memory 0x0 kl27_file.bin
+```
+
+Read KL27 flash contents into `kl27_flash_dump.bin` file:
+
+```
+blhost -u 0x15a2,0x0073 read-memory 0x0 0x40000 kl27_flash_dump.bin
+```
 
 **You should never update your micro:bit with firmware from untrusted sources, as these could damage your micro:bit, or make it impossible to re-flash**
 
