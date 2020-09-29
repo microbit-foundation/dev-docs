@@ -125,6 +125,7 @@ When they are finalised, we will notify people via the [DAL, Editors and Devices
 | Check current sound == loud/quiet | `microbit.microphone.current_sound() == microbit.microphone.LOUD` | ✅     |               |
 | Check if a loud/quiet sound occurred since the last call to was_sound() | `microbit.microphone.was_sound(microbit.microphone.LOUD)` | ✅     |               | 
 | Get history of sounds since last call to get_sounds() | `microbit.microphone.get_sounds()` | ✅     |               |
+| Get current sound level in range 0-255 | `microbit.microphone.sound_level()` | ✅     |               |
 | Logo is touched | `microbit.pin_logo.is_touched()` | ✅  |  | 
 
 ## How do I use the new features?
