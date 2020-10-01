@@ -62,7 +62,7 @@ The following versions of the device have previously been shipped with the follo
 | 1.3            | 0234       | 0234      | [0234](/docs/software/assets/DAPLink-factory-release/0234_kl26z_microbit_0x8000.hex){: .btn.sm-btn download}
 | 1.3b           | 0234       | 0241      | [0241](/docs/software/assets/DAPLink-factory-release/0241_kl26z_microbit_0x8000.hex){: .btn.sm-btn download}
 | 1.5            | 0243       | 0249      | [0249](/docs/software/assets/DAPLink-factory-release/0249_kl26z_microbit_0x8000.hex){: .btn.sm-btn download}
-| 2.0rc1            | full_image_ec3fec9       | full_image_ec3fec9       | [kl27z_microbit_if_crc.hex](/docs/software/assets/DAPLink-full-image/kl27z_microbit_if_crc.hex){: .btn.sm-btn download}
+| 2.0rc1            | Git ec3fec9       | Git ec3fec9       | [kl27z_microbit_if_crc.hex](/docs/software/assets/DAPLink-full-image/kl27z_microbit_if_crc.hex){: .btn.sm-btn download}
 | 2.0            | 0255        | 0255       | [Download TBC](#){: .btn.sm-btn download}
 
 

@@ -25,9 +25,6 @@ A file downloaded in this editor will work on any micro:bit.
 
 If you try to add an extension to your program, that is not supported in either the latest revision or previous revisions of the board, the micro:bit will throw an error. This will take the form of a single ‘blinking’ LED on the screen. If you are an accessory maker or extension author
 
-
-
-
 ### Python Editor
 
 You can use the Python beta editor at [https://python.microbit.org/v/beta](https://python.microbit.org/v/beta)
