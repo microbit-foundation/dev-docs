@@ -19,7 +19,7 @@ lang: en
 
 
 ### Hardware block diagram
-![2.0 block](/docs/hardware/assets/V2-block.svg)
+![2.0 block](/docs/hardware/assets/v2-block.svg)
 
 ## Getting Started With the micro:bit Hardware
 

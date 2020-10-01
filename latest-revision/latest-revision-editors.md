@@ -40,7 +40,7 @@ and no longer makes use of Arm Mbed.
 
 | V2   | v1
 | ---- | ---- 
-|![Software Architectural Diagram v1](/docs/software/assets/software-overview-V2.svg) | ![Software Architectural Diagram V2](/docs/software/assets/software-overview.svg)
+|![Software Architectural Diagram v1](/docs/software/assets/software-overview-v2.svg) | ![Software Architectural Diagram V2](/docs/software/assets/software-overview.svg)
 
 
 Mbed does not support the nRF52833 by default, though The Foundation does intend to publish a platform to enable this. The micro:bit editors do not use Mbed by default.
