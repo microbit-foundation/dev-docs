@@ -62,7 +62,7 @@ The following versions of the device have previously been shipped with the follo
 | 1.3            | 0234       | 0234      | [0234](/docs/software/assets/DAPLink-factory-release/0234_kl26z_microbit_0x8000.hex){: .btn.sm-btn download}
 | 1.3b           | 0234       | 0241      | [0241](/docs/software/assets/DAPLink-factory-release/0241_kl26z_microbit_0x8000.hex){: .btn.sm-btn download}
 | 1.5            | 0243       | 0249      | [0249](/docs/software/assets/DAPLink-factory-release/0249_kl26z_microbit_0x8000.hex){: .btn.sm-btn download}
-| 2.0rc1            | Git ec3fec9       | Git ec3fec9       | [kl27z_microbit_if_crc.hex](/docs/software/assets/DAPLink-full-image/kl27z_microbit_if_crc.hex){: .btn.sm-btn download}
+| 2.0rc1            | git ec3fec9       | git ec3fec9       | [kl27z_microbit_if_crc.hex](/docs/software/assets/DAPLink-full-image/kl27z_microbit_if_crc.hex){: .btn.sm-btn download}
 | 2.0            | 0255        | 0255       | [Download TBC](#){: .btn.sm-btn download}
 
 
@@ -74,45 +74,7 @@ It is possible to update the version of DAPLink running on your micro:bit. This 
 KL27 <span class="v2">v2</span> or KL26 <span class="v1">v1</span> flash. These files MUST contain an image of DAPLink or equivalent.
 2. `interface mode` is used to target the nRF52833 <span class="v2">v2</span> or nRF51822 <span class="v1">v1</span>. In this mode, the drive name is `MICROBIT` and the hex files dropped onto the micro:bit are written to the flash of the target MCU.
 
-
-### Updating your version of DAPLink
-
-**Interface**
 There are detailed instructions for how to [update the firmware version on the micro:bit website](https://microbit.org/get-started/user-guide/firmware/).
-
-**Full image**
-You can also flash a full DAPLink image to the device using the KL27 internal bootloader. This will update both interface and bootloader.
-
-[Download latest Full DAPLink image](/docs/software/assets/DAPLink-full-image/full_firmware_image_crc.bin){: .btn.sm-btn download}
-
-You will need to register for and download the [**Bootloader Host Application (blhost)**](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuboot-mcu-bootloader-for-nxp-microcontrollers:MCUBOOT?&tab=Design_Tools_Tab) from NXP. IN the /bin folder you will find executables for your operating system.
-
-**Enter bootloader mode**
-To enter this mode we need to ground TP1 during board power up, this is the BOOTMODE pin in the KL27. To do that, connect with a wire (or something like a paper-clip) TP1 with any ground point as you insert the USB cable into the device.
-
-<!-- [TP1](#){: width: 300px} Image TBC -->
-
-**Bootloader CLI tool**
-Run the bootloader tool on your OS. These instructions relate to the CLI, but the GUI settings would be broadly similar.
-
-Usage info:
-
-```
-blhost --help
-```
-
-Flash KL27 bin file:
-
-```
-blhost -u 0x15a2,0x0073 flash-erase-all 0
-blhost -u 0x15a2,0x0073 write-memory 0x0 kl27_file.bin
-```
-
-Read KL27 flash contents into `kl27_flash_dump.bin` file:
-
-```
-blhost -u 0x15a2,0x0073 read-memory 0x0 0x40000 kl27_flash_dump.bin
-```
 
 **You should never update your micro:bit with firmware from untrusted sources, as these could damage your micro:bit, or make it impossible to re-flash**
 
@@ -146,3 +108,40 @@ The [WebUSB API](https://developers.google.com/web/updates/2016/03/access-usb-de
 It has been supported in DAPLink since version **0243**, so if you have an older micro:bit, you will need to [update the DAPLink firmware](https://microbit.org/get-started/user-guide/firmware/).
 
 The API is currently available in [Chrome based browsers](https://caniuse.com/#feat=webusb) (Android, Chrome OS, Linux, macOS and Windows) and is supported in the MakeCode Editor and the Python Editor. This enables you to flash your micro:bit straight from the browser without the need to save the .hex file first, and use serial communication between the micro:bit and the editor.
+
+## Updating the DAPLink full image**
+
+You can also flash a full DAPLink image to the <span class="v2">V2</span> device using the KL27 internal bootloader. This will update both interface and bootloader.
+
+[Download latest full DAPLink image](/docs/software/assets/DAPLink-full-image/full_firmware_image_crc.bin){: .btn.sm-btn download}
+
+You will need to register for and download the [**Bootloader Host Application (blhost)**](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuboot-mcu-bootloader-for-nxp-microcontrollers:MCUBOOT?&tab=Design_Tools_Tab) from NXP. IN the /bin folder you will find executables for your operating system.
+
+**Enter bootloader mode**
+
+To enter this mode we need to ground TP1 during board power up, this is the BOOTMODE pin in the KL27. To do that, connect with a wire (or something like a paper-clip) TP1 red circle) with any ground point (black sqaure) as you insert the USB cable into the device.
+
+[TP1](/docs/software/assets/TP1.png){: width: 300px}
+
+**Bootloader CLI tool**
+
+Run the bootloader tool on your OS. These instructions relate to the CLI, but the GUI settings would be broadly similar.
+
+Usage info:
+
+```
+blhost --help
+```
+
+Flash KL27 bin file:
+
+```
+blhost -u 0x15a2,0x0073 flash-erase-all 0
+blhost -u 0x15a2,0x0073 write-memory 0x0 kl27_file.bin
+```
+
+Read KL27 flash contents into `kl27_flash_dump.bin` file:
+
+```
+blhost -u 0x15a2,0x0073 read-memory 0x0 0x40000 kl27_flash_dump.bin
+```
