@@ -174,7 +174,7 @@ The <span class="v2">V2</span> board revision has a notched edge connector to ma
 
 ### Dimensions
 The specific dminensions of the board are
--  51.60mm(w) 42.00mm(h) 11.65mm(d).
+-  51.60mm(w) 42.00mm(h) 11.65mm(d)
 - JST connector to board 5.50mm
 - button depth to board 4.55mm
 - <span class="v2">V2</span> speaker depth to board 3.00mm

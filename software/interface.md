@@ -78,7 +78,7 @@ There are detailed instructions for how to [update the firmware version on the m
 
 **You should never update your micro:bit with firmware from untrusted sources, as these could damage your micro:bit, or make it impossible to re-flash**
 
-### Files on the MICROBIT drive
+## Files on the MICROBIT drive
 
 The flash file system presented on the micro:bit drive is entirely virtual. It is not backed by real memory, and this is why the drive ejects itself after new files are written. When a file is dropped onto the MICROBIT drive, instead of being written into flash memory (like a normal USB memory stick), it is streamed to the target MCU.
 
@@ -109,7 +109,7 @@ It has been supported in DAPLink since version **0243**, so if you have an older
 
 The API is currently available in [Chrome based browsers](https://caniuse.com/#feat=webusb) (Android, Chrome OS, Linux, macOS and Windows) and is supported in the MakeCode Editor and the Python Editor. This enables you to flash your micro:bit straight from the browser without the need to save the .hex file first, and use serial communication between the micro:bit and the editor.
 
-## Updating the DAPLink full image**
+## Updating the DAPLink full image
 
 You can also flash a full DAPLink image to the <span class="v2">V2</span> device using the KL27 internal bootloader. This will update both interface and bootloader.
 
@@ -121,7 +121,7 @@ You will need to register for and download the [**Bootloader Host Application (b
 
 To enter this mode we need to ground TP1 during board power up, this is the BOOTMODE pin in the KL27. To do that, connect with a wire (or something like a paper-clip) TP1 red circle) with any ground point (black sqaure) as you insert the USB cable into the device.
 
-[TP1](/docs/software/assets/TP1.png){: width: 300px}
+![TP1](/docs/software/assets/TP1.png){: width: 300px}
 
 **Bootloader CLI tool**
 
