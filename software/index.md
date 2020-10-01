@@ -24,7 +24,7 @@ Typically, a program is written on the host computer and then transferred to
 the micro:bit over USB. 
 
 There are actually two chips on the
-micro:bit, one that is running the **DAPlink** software entirely to facilitate the flashing (KL26<span class="v1">v1</span>/KL27<span class="v2">v2</span>) and one that actually runs the user's code (nRF51<span class="v1">v1</span>/nRF52<span class="v2">v2</span>).
+micro:bit, one that is running the **DAPlink** software entirely to facilitate the flashing (KL26<span class="v1">v1</span>/KL27<span class="v2">V2</span>) and one that actually runs the user's code (nRF51<span class="v1">v1</span>/nRF52<span class="v2">V2</span>).
 
 ![Software flow](/docs/software/assets/software-program.svg)
 

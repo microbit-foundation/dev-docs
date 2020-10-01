@@ -17,7 +17,7 @@ The **Interface MCU** is a **Freescale KL27** <span class="v2">v2</span> or **Fr
 
 The chip that developers' code runs on, and that all the peripherals are connected to is called the 'target MCU'. See the [Hardware](/hardware) page and the schematic for more details about how these two devices are connected.
 
-The **Target MCU** is a **Nordic Semiconductor nRF52833** <span class="v2">v2</span> or **Nordic Semiconductor nRF51822** <span class="v1">v1</span>. 
+The **Target MCU** is a **Nordic Semiconductor nRF52833** <span class="v2">V2</span> or **Nordic Semiconductor nRF51822** <span class="v1">v1</span>. 
 
 <img src="/docs/software/assets/Interface.svg" alt="DAPlink interface" style="background:#eeeeff; padding:20px;">
 
@@ -71,8 +71,8 @@ The following versions of the device have previously been shipped with the follo
 It is possible to update the version of DAPLink running on your micro:bit. This is done using the DAPLink bootloader. This means that in fact, DAPLink is built twice for the micro:bit.
 
 1. `bootloader mode` is used to for updating the main interface firmware. In this mode, the drive name is `MAINTENANCE` and hex files dropped onto the disk are written into the 
-KL27 <span class="v2">v2</span> or KL26 <span class="v1">v1</span> flash. These files MUST contain an image of DAPLink or equivalent.
-2. `interface mode` is used to target the nRF52833 <span class="v2">v2</span> or nRF51822 <span class="v1">v1</span>. In this mode, the drive name is `MICROBIT` and the hex files dropped onto the micro:bit are written to the flash of the target MCU.
+KL27 <span class="v2">V2</span> or KL26 <span class="v1">v1</span> flash. These files MUST contain an image of DAPLink or equivalent.
+2. `interface mode` is used to target the nRF52833 <span class="v2">V2</span> or nRF51822 <span class="v1">v1</span>. In this mode, the drive name is `MICROBIT` and the hex files dropped onto the micro:bit are written to the flash of the target MCU.
 
 There are detailed instructions for how to [update the firmware version on the micro:bit website](https://microbit.org/get-started/user-guide/firmware/).
 

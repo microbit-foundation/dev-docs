@@ -17,7 +17,7 @@ lang: en
 
 The micro:bit runtime, also known as the DAL/CODAL is software that runs on a micro:bit to support the majority of the micro:bit programming languages. It can help you understand how the micro:bit works, and also will help you understand where to start if you want to dive deeper into the micro:bit, write support software for your own micro:bit hardware extensions, and tailor or improve something on the micro:bit.
 
-| v2   | v1
+| V2   | v1
 | ---- | ---- 
 |![Software Architectural Diagram v1](/docs/software/assets/software-overview-v2.svg) | ![Software Architectural Diagram v2](/docs/software/assets/software-overview.svg)
 
@@ -103,7 +103,7 @@ micro:bit was based on the well-established Mbed 2.0 SDK, with which mbed 5 is c
 The Mbed abstraction for the Nordic chip is built on top of the Nordic nRF5 SDK
 https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF5-SDK
 
-Crucially, this includes Nordic's [Soft Device 110](https://www.nordicsemi.com/Software-and-Tools/Software/S110) <span class="v1">v1</span> / [Soft Device 140](https://www.nordicsemi.com/Software-and-tools/Software/S140) <span class="v2">v2</span>, a binary object that gets included into any hex file for the micro:bit that manages control of the radio to allow the micro:bit to use the industry standard Bluetooth Low Energy protocols.
+Crucially, this includes Nordic's [Soft Device 110](https://www.nordicsemi.com/Software-and-Tools/Software/S110) <span class="v1">v1</span> / [Soft Device 140](https://www.nordicsemi.com/Software-and-tools/Software/S140) <span class="v2">V2</span>, a binary object that gets included into any hex file for the micro:bit that manages control of the radio to allow the micro:bit to use the industry standard Bluetooth Low Energy protocols.
 
 The SoftDevice runs on the same MCU as the user's code, and when using the mbed BLE APIs (that the micro:bit runtime also uses), calls are made into SoftDevice. SoftDevice also occupies the highest priority interrupts, so that user code can be pre-empted by SoftDevice when this is required for the radio to function properly.
 

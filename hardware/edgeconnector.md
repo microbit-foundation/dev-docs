@@ -32,23 +32,23 @@ front rings, but the back small strips are unconnected.
 
 ## Edge Connector Pins
 
-The diagrams below show the assignation of the micro:bit pins. On the <span class="v2">v2</span> board revision
+The diagrams below show the assignation of the micro:bit pins. On the <span class="v2">V2</span> board revision
 Pin 9 is no longer jointly shared with the LED display, but Pin 8 and Pin 9 can be configured for NFC (though this is disabled by default).
 
-| v2   | v1
+| V2   | v1
 | ---- | ---- 
-| ![edge connector v2](/docs/hardware/assets/edge-connector-2.svg) | ![edge connector v1](/docs/hardware/assets/edge_connector.svg)
+| ![edge connector V2](/docs/hardware/assets/edge-connector-2.svg) | ![edge connector v1](/docs/hardware/assets/edge_connector.svg)
 
 ### microbit.pinout.xyz
 [microbit.pinout.xyz](https://microbit.pinout.xyz) is a fantastic resource for further information on the micro:bit pins and how they are used by some popular accessories
 
 ### Pins and Signals
 
-[v2](#pins-and-signals){: #v2-button .btn.sm-btn .variation} [v1](#pins-and-signals){: #v1-button .btn.sm-btn}
+[V2](#pins-and-signals){: #V2-button .btn.sm-btn .variation} [v1](#pins-and-signals){: #v1-button .btn.sm-btn}
 
 This table shows various data about each of the pins on the micro:bit edge connector.
 
-{: #v2-pins}
+{: #V2-pins}
 | m:b ring | mod     | schem         | MCU              | s/w | functions                                         | dir    | pull?          |
 | -------- | ---     | -----         | ---              | --- | ---------                                         | ---    | -----          |
 |          | 21      | COLR3         | P0.31/AIN7       | P3  | (GPIO), (ANALOG), **LEDCOL(3)**, (PWM), (UART)    | O      | --             |
@@ -289,7 +289,7 @@ NOTE 4: The BBC suggest in the safety guide, that the maximum current
 you can draw from the whole edge connector at any one time is
 <span class="v1">v1</span>90mA. This is set based on the 30mA budget for on board peripherals,
 and the fact that the on board regulator of the KL26 when powered
-from USB is rated at a maximum of 120mA. On the latest board revision the maximum current is <span class="v2">v2</span>270mA, though it is possible that the on-board mic and speaker can draw more current, so this value is TBC.
+from USB is rated at a maximum of 120mA. On the latest board revision the maximum current is <span class="V2">V2</span>270mA, though it is possible that the on-board mic and speaker can draw more current, so this value is TBC.
 
 ### NRF52
 These key GPIO parameters are transcribed directly from Section 6, 7 and 8 of the [nRF52833 Datasheet](https://infocenter.nordicsemi.com/pdf/nRF52833_PS_v1.2.pdf),

@@ -21,8 +21,8 @@ to plug in and remove the board.
 
 There are limitations to the current that can be drawn from the micro:bit, and accessories must be designed carefully to ensure they do not damage the micro:bit, or that the micro:bit cannot damage them.
 
-### v2 revision
-The edge connector on the <span class="v2">v2</span> board revision is backwards compatible with the <span class="v1">v1</span> edge connector, but has additional dedicated pins.
+### V2 revision
+The edge connector on the <span class="V2">V2</span> board revision is backwards compatible with the <span class="v1">v1</span> edge connector, but has additional dedicated pins.
 
 * Details of the [edge connector and pinout](/hardware/edgeconnector)
 * Details about [powering things from the board](/hardware/powersupply)
@@ -34,8 +34,8 @@ There are two lozenge shaped pads on the back of the micro:bit. These allow you 
 
 ![Picture of the two lozenges](/docs/accessories/assets/making-accessories-d7c25.png)
 
-### v2 revision
-In the <span class="v2">v2</span> board revision, the 3V lozenge is connected to the 3V ring on the edge connector.
+### V2 revision
+In the <span class="v2">V2</span> board revision, the 3V lozenge is connected to the 3V ring on the edge connector.
 
 - If you make an accessory that uses the lozenges, it must be protected from reverse charging
 when the board is powered by USB, battery or edge connector.

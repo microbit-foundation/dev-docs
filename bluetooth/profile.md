@@ -63,7 +63,7 @@ It would be possible for anyone with the appropriate knowledge to define and
 implement other Bluetooth profiles. You would need to use the Mbed C/C++ environment
 to do this.
 
-We are seeking collaborators to help us define the new profile elements that expose some of the <span class="v2">v2</span> features.
+We are seeking collaborators to help us define the new profile elements that expose some of the <span class="v2">V2</span> features.
 
 
 ## Further information

@@ -19,9 +19,9 @@ A micro:bit .hex file usually starts writing data to the same fixed location in 
 
 ## Universal Hex files
 
-The latest board revision introduces a superset of the Intel-Hex format that enables compatibility across processor variants. A Universal Hex is a file that contains the binary data for both micro:bit <span class="v1">v1</span> and micro:bit <span class="v2">v2</span>, in a format that DAPLink can process to only write to memory the data relevant to its micro:bit board.
+The latest board revision introduces a superset of the Intel-Hex format that enables compatibility across processor variants. A Universal Hex is a file that contains the binary data for both micro:bit <span class="v1">v1</span> and micro:bit <span class="v2">V2</span>, in a format that DAPLink can process to only write to memory the data relevant to its micro:bit board.
 
-A **Universal Hex** hex file will work on a v1 or v2 board. 
+A **Universal Hex** hex file will work on a v1 or V2 board. 
 A clear indication that you are working with this format is that a compiled .hex file will be ~1.8Mb as opposed to ~700Kb in size.
 
 A [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex) has been written to implement the format and associated detailed [specification of the Universal Hex format](https://github.com/microbit-foundation/universal-hex/).  Please [get in contact](mailto:support@microbit.org?subject=Request%20for%20access%20to%20Universal%20hex&20spec&body=Name%3A%0D%0A%0D%0AGitHub%20ID%3A) if you require access to the specification before the announcement of V2 when it will be made public.

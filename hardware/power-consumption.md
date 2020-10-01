@@ -10,7 +10,7 @@ lang: en
 ---
 
 ## Power modes
-The micro:bit v2 <span class="v2">v2</span> board revision has a range of modes that enable us to conserve power, for example when the board is not being used or when it is powered by battery pack.
+The micro:bit v2 <span class="v2">V2</span> board revision has a range of modes that enable us to conserve power, for example when the board is not being used or when it is powered by battery pack.
 
 **Awake** Board is fully operational. The nRF52 and KL27 will try and conserve power if they can. Power LED is lit.
 
@@ -27,6 +27,6 @@ On battery - Press and hold power/reset for 5 seconds to power off the micro:bit
 Inserting a USB power lead will also wake the device.
 
 ## LED display
-The LED display on the <span class="v2">v2</span> board revision is also brighter than previous revisions, so when using at full brightness you will notice faster battery rundown than an equivalent program on a <span class="v1">v1</span> board. 
+The LED display on the <span class="v2">V2</span> board revision is also brighter than previous revisions, so when using at full brightness you will notice faster battery rundown than an equivalent program on a <span class="v1">v1</span> board. 
 
 See our tips on [prolonging battery life](https://support.microbit.org/en/support/solutions/articles/19000087231-prolonging-battery-life)

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Guidance on using the latest micro:bit revision
-heading: micro:bit v2
+heading: micro:bit V2
 description: Details of the 2.0 micro:bit revision
 permalink: /latest-revision/
 ref: latest-revision
@@ -43,7 +43,7 @@ Amongst the micro:bit features, ‘sound’ is in a unique position of being alr
 
 ## Hardware specification
 
-Detailed breakdown on our [v2 hardware page](../hardware/)
+Detailed breakdown on our [V2 hardware page](../hardware/)
 
 - Target MCU, Nordic Semiconductor nRF52833 (64MHz Cortex-M4F, 512kB Flash, 128kB RAM)
 - Interface MCU: NXP KL27, 256kB Flash (128kB reserved for future enhancement), 32kB RAM
@@ -151,7 +151,7 @@ An extension has been developed to include the microphone and logo touch feature
 2. Select Advanced > Add Extension and paste [https://github.com/frumplecoin/demo-extension](https://github.com/frumplecoin/demo-extension) into the search box. 
 3. Click on the extension to add it to the toolbox.
 
-**v2 MakeCode APIs**
+**V2 MakeCode APIs**
 The Microphone and Logo touch features can be found in the Input menu
 
 The Speaker features can be found in the music menu
