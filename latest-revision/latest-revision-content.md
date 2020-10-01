@@ -23,11 +23,11 @@ If you’d like to keep up to date with technical information about the device, 
 ----------
 
 
-## Updating .Hex files
+## Updating .hex files
 
-If you host compiled .Hex files as part of your resources, these will need to be updated to work with the latest revision of the micro:bit.
+If you host compiled .hex files as part of your resources, these will need to be updated to work with the latest revision of the micro:bit.
 
-To do this, simply drag and drop them into the editor in which they were created and then download the .Hex file.
+To do this, simply drag and drop them into the editor in which they were created and then download the .hex file.
 
 **Universal Hex**
 Note that the updated file will be ~1.8Mb as opposed to ~700Kb in size. This increase in size means that the hex file can be used on any board revision and is called a  **Universal Hex** file.

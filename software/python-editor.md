@@ -11,7 +11,7 @@ lang: en
 ## Overview
 The [Python Editor](htps://python.microbit.org) is a free, browser based coding environment for creating [MicroPython](../micropython/) projects with the BBC micro:bit.
 
-Use common snippets of code, add/remove files and modules, and upload/download .Hex or .py files.
+Use common snippets of code, add/remove files and modules, and upload/download .hex or .py files.
 
 The Python editor is based upon the [Ace editor](http://ace.c9.io) and includes syntax highlighting, code folding and (semi) intelligent auto-indentation.
 
