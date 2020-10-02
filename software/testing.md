@@ -67,4 +67,13 @@ When you open the app, tap and hold on the micro:bit logo.
 
 This will open a dialogue for you to enter in the URL. The next time you tap **Create code** the editor will open at your chosen version.
 
+### Mu
 
+The [Mu](https://codewith.mu/) editor releases are available on the [Mu download page](https://codewith.mu/en/download). If you want to test an updated or custom version of MicroPython, you can do so in the following way:
+
+1. Flash the micro:bit with the version of MicroPython you want to test.
+2. Click the **REPL** to communicate with the board directly via serial.
+3. To download a python file to the microbit, Click on **Save** and then click on the **Files** button.
+4. Copy `main.py` from the Files on your computer to the Files on your micro:bit
+
+![Copy main.py](/docs/latest-revision/assets/copy-main-py-mu.gif){: width="600"}
