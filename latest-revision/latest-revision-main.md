@@ -141,11 +141,11 @@ You can use the latest board revision in the beta editor [https://makecode.micro
 
 **Using the new features in MakeCode**
 
-An extension has been developed to include the microphone and logo touch features currently available. [https://github.com/frumplecoin/demo-extension](https://github.com/frumplecoin/demo-extension) ← *Please do not share any links to this extension or make any public statements about this that could link it to micro:bit*
+An extension has been developed to include the microphone and logo touch features currently available. [https://github.com/microbit-foundation/pxt-microbit-v2-extension](https://github.com/microbit-foundation/pxt-microbit-v2-extension)
 
 
 1. Open [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta)
-2. Select Advanced > Add Extension and paste [https://github.com/frumplecoin/demo-extension](https://github.com/frumplecoin/demo-extension) into the search box. 
+2. Select Advanced > Add Extension and paste [https://github.com/microbit-foundation/pxt-microbit-v2-extension](https://github.com/microbit-foundation/pxt-microbit-v2-extension) into the search box. 
 3. Click on the extension to add it to the toolbox.
 
 **V2 MakeCode APIs**
@@ -195,12 +195,9 @@ If you haven’t already received a device, but would like one in order to test/
 
 ## How do I find out more about the hardware and software updates?
 
-Our [DAL, Devices and Editors mailing list](http://eepurl.com/dyRx-v) provides up to date information about the any technical changes regarding the micro:bit.  Until the latest revision of the micro:bit is public, we will email you with key updates..
+Our [DAL, Devices and Editors mailing list](http://eepurl.com/dyRx-v) provides up to date information about the any technical changes regarding the micro:bit. 
 
 
 ## How do I feed back or raise issues?
 
-Any issues raised in the period prior to public announcement should be reported in **private**. This means you should double check before posting anything on GitHub.
-
-**Software** issues can be raised in our [microbit-issues GitHub repository](https://github.com/microbit-foundation/microbit-issues) or via [micro:bit support](mailto:support@microbit.org?subject=Software%20issue).
-**Hardware** questions or issues should be reported via [micro:bit support](mailto:support@microbit.org?subject=Hardware%20issue).
+Any questions or issues should be reported via [micro:bit support](https://support.microbit.org/support/tickets/new).
