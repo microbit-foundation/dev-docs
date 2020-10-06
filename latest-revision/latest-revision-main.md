@@ -9,16 +9,12 @@ lang: en
 ---
 ## Overview
 
-{% include alert-info.html content="Any issues raised in the period prior to public announcement should be reported in **private**. This means you should double check before posting anything on GitHub.<br><br>
-
-There's lots of opportunity for collaboration on the software sides, and the software work has lots of partners covering issues in different areas - so please raise **software and documentation** issues in our [microbit-issues GitHub repository](https://github.com/microbit-foundation/microbit-issues) If you'd like to raise issues privately, you're welcome to contact [micro:bit support.](mailto:support@microbit.org?subject=Software%20issue)<br><br>
-
-For **hardware** issues, of which we hope there are precious few, please contact The Foundation directly via [micro:bit support](mailto:support@microbit.org?subject=Hardware%20issue) so we can track and triage appropriately." %}
-
 * TOC
 {:toc}
 
-The **latest revision** of the BBC micro:bit is designed to be completely familiar to anyone who has used the original device. It’s the same size, shape, looks very similar, and works in the same way. Every programme that could run on a micro:bit version 1 can be re-built to run on the latest revision.  The editors will support both versions simultaneously for features common to both boards.
+The **latest revision** of the BBC micro:bit is designed to be completely familiar to anyone who has used the original device. It’s the same size, shape, looks very similar, and works in the same way. Every programme that could run on a micro:bit version 1 can be re-built to run on the latest revision.  
+
+The editors will support both versions simultaneously for features common to both boards,for example the motion sensor, LEDs, buttons etc.
 
 The latest revision builds upon the current micro:bit experience by refining the board and adding widely requested sound making and sensing capabilities.
 
@@ -141,14 +137,14 @@ Features that are common to all board variants will work in the same way they al
 
 
 ### Makecode
-You can use the latest board revision in the beta editor [https://makecode.microbit.org/stable](https://makecode.microbit.org/stable)
+You can use the latest board revision in the beta editor [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta)
 
 **Using the new features in MakeCode**
 
 An extension has been developed to include the microphone and logo touch features currently available. [https://github.com/frumplecoin/demo-extension](https://github.com/frumplecoin/demo-extension) ← *Please do not share any links to this extension or make any public statements about this that could link it to micro:bit*
 
 
-1. Open [https://makecode.microbit.org/stable](https://makecode.microbit.org/stable)
+1. Open [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta)
 2. Select Advanced > Add Extension and paste [https://github.com/frumplecoin/demo-extension](https://github.com/frumplecoin/demo-extension) into the search box. 
 3. Click on the extension to add it to the toolbox.
 
@@ -160,7 +156,7 @@ The Speaker features can be found in the music menu
 ### Python
 You can use the latest board revision and APIs in the Python beta editor:
 
- [https://python-editor-next-release-review.microbit.org](https://python-editor-next-release-review.microbit.org/)
+ [https://python.microbit.org/v/beta](https://python.microbit.org/v/beta/)
 
  If you want to use a specific or custom build of MicroPython you can do this in [Mu](https://codewith.mu/).
 
