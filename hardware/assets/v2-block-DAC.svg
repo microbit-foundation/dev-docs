@@ -16,7 +16,7 @@
    stroke-miterlimit="10"
    id="svg4141"
    inkscape:version="0.91+devel+osxmenu r12922"
-   sodipodi:docname="v2-block-no-dac.svg">
+   sodipodi:docname="v2-block.svg">
   <metadata
      id="metadata4475">
     <rdf:RDF>
@@ -1115,17 +1115,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1294"
-     inkscape:window-height="849"
+     inkscape:window-width="981"
+     inkscape:window-height="633"
      id="namedview4471"
      showgrid="false"
      inkscape:zoom="0.56588849"
-     inkscape:cx="754.65238"
+     inkscape:cx="530.22654"
      inkscape:cy="360.38835"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g8048" />
+     inkscape:current-layer="g7966" />
   <clipPath
      id="p2.0">
     <path
@@ -1948,8 +1948,28 @@
              d="m 0,0 260683.7,0 0,1306375 260682.3,0" />
         </g>
         <g
+           transform="matrix(0,7.874016e-5,7.874016e-5,0,490.1145,142.0754)"
+           id="g8392">
+          <path
+             inkscape:connector-curvature="0"
+             id="path8394"
+             style="fill:none;stroke:#e5ac00;stroke-width:31750;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+             d="m 0,0 -152404.2,0 0,3053691 1592069.2,0" />
+        </g>
+        <g
            transform="matrix(0,0.24,-0.24,0,1274.469,262.56)"
-           id="g8396" />
+           id="g8396">
+          <text
+             id="text8398"
+             style="font-variant:normal;font-weight:normal;font-size:41.66666031px;font-family:'Gill Sans';-inkscape-font-specification:GillSansMT;writing-mode:lr-tb;fill:#e5ac00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             transform="matrix(1,0,0,-1,0,2250)">
+            <tspan
+               id="tspan8400"
+               sodipodi:role="line"
+               y="0"
+               x="0 31.249994 58.854156">DAC</tspan>
+          </text>
+        </g>
         <g
            transform="matrix(0,0.24,-0.24,0,962.8537,260.16)"
            id="g8402">
