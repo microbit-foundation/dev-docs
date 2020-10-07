@@ -19,11 +19,11 @@ This page details the ways in which you can test the micro:bit hardware with the
 
 ### Makecode Editor
 
-You can use the beta editor at  [https://makecode.microbit.org/beta]
+You can use the beta editor at [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta)
 
 A file downloaded in this editor will work on any micro:bit.
 
-If you try to add an extension to your program, that is not supported in either the latest revision or previous revisions of the board, the micro:bit will throw an error. This will take the form of a single ‘blinking’ LED on the screen. If you are an accessory maker or extension author
+If you add an extension to your program that is not supported in either the latest revision or previous revisions of the board, the micro:bit will throw an error.
 
 ### Python Editor
 
@@ -59,7 +59,7 @@ To test, you will need to:
 1. Provide your **Google Account email address** to support@microbit.org.
 2. Have an **Android device with the** [micro:bit Android app](https://play.google.com/store/apps/details?id=com.samsung.microbit) installed
 
-You will be notified via email when a beta of the app is made available, with a link to sign up as a beta tester and the app will update itself.
+You will be notified via email when a beta of the app is made available, with a link to sign up as a beta tester, and the app will update itself.
 
 When you open the app, tap and hold on the micro:bit logo.
 
