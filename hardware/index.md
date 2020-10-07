@@ -23,11 +23,9 @@ lang: en
 
 ## Getting Started With the micro:bit Hardware
 
-The micro:bit is an Arm based, Single Board Computer (SBC) that contains an application processor with a variety of on-chip perhipherals.Other peripherals are connected to this chip.
+The micro:bit is a Single Board Computer (SBC) that contains an application processor with a variety of on-chip perhipherals.Other peripherals are connected to this chip.
 
-There is an interface processor connected to the application processor,
-and it is the interface processors job to manage communications over the USB
-and to support the drag-and-drop code-flashing process. The interface processor does not connect to any of the micro:bit peripherals.
+An interface processor is connected to the application processer and manages communications via the USB interface, including the drag-and-drop code flashing process. The interface processor does not connect to any of the micro:bit peripherals.
 
 Two key pieces of information to help understand the internals of the micro:bit are:
 
@@ -41,10 +39,10 @@ Two key pieces of information to help understand the internals of the micro:bit 
 ### nRF52 Application Processor
 
 The nRF52 application processor is where user programs run.
-A single, complete application including user code, runtime code and bluetooth stack
+A single, complete application including user code, runtime code and Bluetooth stack
 is loaded and run directly from on chip flash memory.
 All user accessible GPIO pins are provided by this processor.
-There is an onboard 2.4GHz radio engine used to provide Bluetooth capabilities
+There is an onboard 2.4GHz radio peripheral used to provide Bluetooth and custom radio capabilities
 via an off-chip aerial.
 
 | item          | details
@@ -60,7 +58,7 @@ via an off-chip aerial.
 
 ### Bluetooth Wireless Communication
 
-The on board 2.4GHz transciever supports Bluetooth communications via the [Nordic S113 SoftDevice](https://www.nordicsemi.com/Software-and-tools/Software/S113),
+The on board 2.4GHz supports Bluetooth communications via the [Nordic S140 SoftDevice](https://www.nordicsemi.com/Software-and-Tools/Software/S140),
 which provides a fully qualified Bluetooth low energy stack.
 This allows the micro:bit to communicate with a wide range of Bluetooth devices,
 including smartphones and tablets.
@@ -71,8 +69,8 @@ including smartphones and tablets.
 | Band          | 2.4GHz ISM (Industrial, Scientific and Medical) 2.4GHz..2.41GHz
 | Channels      | 50 2MHz channels, only 40 used (0 to 39), 3 advertising channels (37,38,39)
 | Sensitivity   | -93dBm in Bluetooth low energy mode
-| Tx Power      | -40dBm to 8dBm
-| Role          | [GAP Peripheral](https://bluetooth-developer.blogspot.com/2016/07/microbit-and-bluetooth-roles.html)
+| Tx Power      | -40dBm to 4dBm
+| Role          | [GAP Peripheral & GAP Central](https://bluetooth-developer.blogspot.com/2016/07/microbit-and-bluetooth-roles.html)
 | Congestion avoidance | Adaptive Frequency Hopping
 | Profiles      | [BBC micro:bit profile](https://lancaster-university.github.io/microbit-docs/ble/profile/)
 | More Info     | [Bluetooth](../bluetooth)
@@ -94,7 +92,7 @@ allowing for simple user managed device addressing and filtering to take place.
 | Freq band     | 2.4GHz
 | Channel rate  | 1Mbps or 2Mbps
 | Encryption    | None
-| Channels      | 101 (0..100)
+| Channels      | 80 (0..80)
 | Group codes   | 255
 | Tx power      | Eight user configurable settings from 0(-30dbm) to 7 (+4dbm)
 | Payload size  | 32 (standard) 255 (if reconfigured)
@@ -103,8 +101,8 @@ allowing for simple user managed device addressing and filtering to take place.
 
 ### Buttons
 
-The two buttons on the front of the micro:bit, and the 1 button on the back,
-are tact momentary push to make buttons. The back button is connected to the KL27
+The two buttons on the front of the micro:bit, and the one button on the back,
+are tact momentary push-to-make buttons. The back button is connected to the KL27
 interface processor and to the NRF52 processor for system reset purposes. This
 means that the application will reset regardless of if it is powered from USB
 or from battery.
@@ -138,8 +136,7 @@ which is roughly proportional to ambient light levels.
 | Type          | minature surface mount red LED
 | Physical structure | 5x5 matrix
 | Electrical structure | 5x5
-| Intensity control | 10 steps
-| Intensity range | TBC
+| Intensity control | Software controlled up to 255 steps
 | Sensing | ambient light estimation via software algorithm
 | Sensing Range | TBC, 10 levels from off to full on
 | Colour sensitivity | red centric, red is 700nm
@@ -154,7 +151,7 @@ to turn readings into a board orientation independent compass reading.
 The compass must be calibrated before use, and the calibration process is automatically initiated by the runtime software.
 This device is connected to the application processor via the I2C bus.
 
-The micro:bit has a footprint for two different motion sensors: one made by ST (the LSM303AGR) and one by NXP (FXOS8700CQ). The micro:bit DAL supports both of these sensors, detecting them at runtime. 
+The micro:bit has a footprint for two different motion sensors: one made by ST (the LSM303AGR) and one by NXP (FXOS8700CQ). The micro:bit DAL supports both of these sensors, detecting them at runtime. Only one sensor will ever be placed.
 
 | item          | details
 | ---           | ---
@@ -193,7 +190,9 @@ to which sound output is mirrored.
 ### Microphone
 
 An on board MEMs microphone provides a sound input to the micro:bit and a built in LED
-indicator on the front of the board shows the user when this is live.
+indicator on the front of the board shows the user when this is powered.
+
+The microphone has an external bias circuit of 33K:1K (power to ground) and is AC-coupled to the microphone input pin.
 
 | item          | details
 | ---           | ---
@@ -216,7 +215,7 @@ features are turned off.
 | ---           | ---
 | Rings         | 3 large IO rings and two large power rings, 4mm plug and crocodile clip compatible
 | GPIO features | 19 assignable GPIO pins
-||        2 are assigned to the on board I2C interface
+||        2 are dedicated to the external I2C interface
 ||        6 are used for display or light sensing feature
 ||        2 are used for on board button detection
 ||        1 is reserved for an accessibility interface
@@ -234,19 +233,15 @@ features are turned off.
 
 ### Power supply
 
-Power to the micro:bit may be provided via the USB connection, via the
-interface chip (which has an on-board regulator), or via a battery plugged into the top
-connector. It is also possible (with care) to power the micro:bit from the 3V pad at the
-bottom. The 3V pad at the bottom can be used to supply a small amount of power external circuits.
+Power to the micro:bit may be provided via 5V on the USB connector, or via a 3V battery plugged into the JST connector. It is also possible (with care) to power the micro:bit from the 3V /GND rings on the edge connector. The 3V /GND rings at the bottom can be used to supply power to external circuits. The board uses an LDO specified up to 300mA, with thermal cut-out for short circuit protection. 
 
 | item          | details
 | ---           | ---
 | Operating range | 1.8V .. 3.6V
-| USB current   | 120mA max
-| Onboard Peripherals budget | 30mA
+| Operating current (USB and battery)   | 300mA max
+| Onboard Peripherals budget | 90mA
 | Battery connector | JST X2B-PH-SM4-TB
-| Battery current | TBC
-| Max current provided via edge connector | 90mA
+| Max current provided via edge connector | 190mA
 | More Info | [Power supply](./powersupply)
 
 
@@ -260,9 +255,9 @@ main computer.
 | ---           | ---
 | Model         |[MKL27Z256VFM4](https://www.nxp.com/part/MKL27Z256VFM4#/)
 | Core variant: | [Arm Cortex-M0+](https://www.arm.com/products/processors/cortex-m/cortex-m0plus.php)
-| Flash ROM     | 256KB
+| Flash ROM     | 256KB (128kB reserved for future use as storage)
 | RAM           | 16KB
-| Speed         | ? (crystal) 48MHz (max)
+| Speed         | 48MHz
 | Debug capabilities | SWD
 | More Info | [DAPLink](/software/daplink-interface/), [KL27 reference manual](https://www.nxp.com/docs/en/reference-manual/KL27P64M48SF6RM.pdf) [KL27 data sheet](https://www.nxp.com/docs/en/data-sheet/KL27P64M48SF6.pdf)
 
