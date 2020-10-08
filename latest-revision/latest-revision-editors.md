@@ -46,7 +46,7 @@ and no longer makes use of Arm Mbed.
 Mbed does not support the nRF52833 by default, though The Foundation does intend to publish a platform to enable this. The micro:bit editors do not use Mbed by default.
 
 ### Building CODAL
-The [instructions for building CODAL](https://github.com/microbit-foundation/codal/blob/master/mb-build-instructions.md) are located in the micro:bit CODAL repository. If you require access to this, please [get in touch with your GitHub ID](mailto:support@microbit.org?subject=Request%20for%20access%20to%20CODAL&body=Name%3A%0D%0A%0D%0AGitHub%20ID%3A).
+The [instructions for building CODAL](https://github.com/microbit-foundation/codal/blob/master/mb-build-instructions.md) are located in the micro:bit CODAL repository.
 
 
 ## If you’re using MicroPython

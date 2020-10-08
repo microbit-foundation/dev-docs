@@ -93,7 +93,6 @@ These are the V2 features and whether we expect them to work as expected ✅  or
 ## Feature API availability
 
 These are the V2 specific APIs and whether we expect them to work as expected ✅  or not 🔴, or there are issues still to be fixed 🔶.
-If you require access to the related GitHib issues please email your GitHub username to [support@microbit.org](mailto:support@microbit.org?subject=Request%20for%20access%20to%20GitHub%2issues&body=Name%3A%0D%0A%0D%0AGitHub%20ID%3A).
 
 {% include alert-info.html content="It is important that we work with the community to establish how these APIs work. As such they are subject to change as we get feedback and iterate on them.
 When they are finalised, we will notify people via the [DAL, Editors and Devices](https://microbit.us14.list-manage.com/subscribe?u=e1c30f24b90ff3d70275cfff2&id=25403c7650) newsletter." %}
@@ -172,7 +171,7 @@ The editors and apps are compatible with and will let you download and flash a f
 
 More information about this is available on our [hex format](../software/hex-format/#universal-hex-files) page
 
-The Foundation has written a javascript library to generate these files - you do not need to re-implement any file generation. This is currently in a private GitHub repository but access can be granted by request.
+The Foundation has written a javascript library to generate these files - you do not need to re-implement any file generation.
 
 
 ### Bluetooth BLE 
