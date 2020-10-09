@@ -41,7 +41,7 @@ Amongst the micro:bit features, ‘sound’ is in a unique position of being alr
 - Gold plated antenna. To easily identify the radio/Bluetooth component
 
 
-## Hardware specification
+### Hardware specification
 
 Detailed breakdown on our [V2 hardware page](../hardware/)
 
@@ -51,6 +51,9 @@ Detailed breakdown on our [V2 hardware page](../hardware/)
 - MEMS microphone: Knowles SPU0410LR5H-QB-7 MEMS
 - Power consumption 300mA (up to 200mA for accessories)
 
+### Hardware block diagram
+
+![v2 block](/docs/hardware/assets/v2-block.svg)
 
 ## Guides
 
