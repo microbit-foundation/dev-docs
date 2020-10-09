@@ -200,3 +200,5 @@ Our [DAL, Devices and Editors mailing list](http://eepurl.com/dyRx-v) provides u
 ## How do I feed back or raise issues?
 
 Any questions or issues should be reported via [micro:bit support](https://support.microbit.org/support/tickets/new).
+
+You can also report issues on the relevant Github Repositories.
