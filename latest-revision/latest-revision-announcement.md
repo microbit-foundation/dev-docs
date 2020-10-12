@@ -10,6 +10,9 @@ lang: en
  
 Today we’re [announcing a new version of the BBC micro:bit](https://microbit.org/new-microbit/), adding a speaker, a microphone and the CPU power to run AI and Machine Learning workloads. With these additional capabilities, we are opening up the world of AI and ML to the same collaborative design and innovation that led to the original micro:bit’s success. 
 
+
+This article is a more technical companion to the [news over at microbit.org](https://microbit.org/new-microbit/). 
+
 ![micro:bit v2 image](/docs/latest-revision/assets/blog/microbit-v2-tech-site.png){: width="600"}  
 
 Although the latest micro:bit isn’t available to buy yet, we’re talking about it now because the micro:bit isn’t about one organisation, or the official editors, or even one device.
@@ -25,7 +28,7 @@ By making affordable, developer-quality hardware and creating elegant and simple
  
 The many voices that have come together to create the micro:bit experience are key to its success in attracting a diverse range of people to engage with and embrace technology.
  
-It’s in that same spirit of partnership and collaboration that we’ve worked to evolve the device and create the [latest micro:bit](https://tech.microbit.org/latest-revision/), laying the foundations for years more digital exploration while maintaining the stability and reliability that have helped people around the world depend on the device as a core part of their teaching.
+It’s in that same spirit of partnership and collaboration that we’ve worked to evolve the device and create the [latest micro:bit](/latest-revision/), laying the foundations for years more digital exploration while maintaining the stability and reliability that have helped people around the world depend on the device as a core part of their teaching.
  
 At the Micro:bit Educational Foundation we are working with Lancaster University, Microsoft, NXP, and MicroPython to ensure that the core micro:bit experience is as creative, compelling and consistent as it’s ever been. But launching a new micro:bit wouldn't be complete without the input of the incredible community of editor authors, accessory providers, content authors and supporters of micro:bit.
  
@@ -35,22 +38,22 @@ At the Micro:bit Educational Foundation we are working with Lancaster University
 ![A wall of micro:bit accessories](/docs/latest-revision/assets/blog/accessory-wall-bett.jpg){: width="600"}
 *The wall of accessories displayed at BETT*
 
-We recognise and support the huge contribution the wider micro:bit ecosystem makes to our community, and so we are making available all [key technical information about the new micro:bit](https://tech.microbit.org/latest-revision), and open source tools to make it easy to support in advance of the device being available to users.
+We recognise and support the huge contribution the wider micro:bit ecosystem makes to our community, and so we are making available all [key technical information about the new micro:bit](/latest-revision), and open source tools to make it easy to support in advance of the device being available to users.
  
 We’ve compiled all this information on an updated version of tech.microbit.org, including details of how to get advanced access to a device if you need one to test or develop something.
 
 
-- [All the technical details about the latest micro:bit and how to use it](https://microbit.org/latest-revision)
+- [All the technical details about the latest micro:bit and how to use it](/latest-revision)
 - Advice on supporting the device for:
-    - [accessory makers](https://tech.microbit.org/latest-revision/accessories/) (including information on how [MakeCode Arcade will be supported](https://preview-tech.microbit.org/latest-revision/accessories/#makecode-arcade))
-    - [content authors](https://preview-tech.microbit.org/latest-revision/content/)
-    - [editor developers](https://preview-tech.microbit.org/latest-revision/editors/)
+    - [accessory makers](/latest-revision/accessories/) (including information on how [MakeCode Arcade will be supported](/latest-revision/accessories/#makecode-arcade))
+    - [content authors](/latest-revision/content/)
+    - [editor developers](/latest-revision/editors/)
 
  
 
 # Creating code for the latest micro:bit
 
-The latest micro:bit supports all features of the original version so there are many cases where a user won’t need to distinguish between the devices; every tutorial or programme that already exists today is supported on the latest hardware. However, as the machine code that runs on the two devices is different, the latest micro:bit supports a new kind of hex.  We’re calling it ‘[universal hex](https://preview-tech.microbit.org/software/hex-format/)’: this contains the machine code for both versions of the micro:bit. Thanks to the fantastic support of NXP who have worked on [DAPLink](https://github.com/ARMmbed/DAPLink), the Arm project that enables the micro:bit USB interface, the latest micro:bit is able to choose which code it should use from the universal hex. The files are designed so the original micro:bits do not need any update to use them.
+The latest micro:bit supports all features of the original version so there are many cases where a user won’t need to distinguish between the devices; every tutorial or programme that already exists today is supported on the latest hardware. However, as the machine code that runs on the two devices is different, the latest micro:bit supports a new kind of hex.  We’re calling it ‘[universal hex](/software/hex-format/)’: this contains the machine code for both versions of the micro:bit. Thanks to the fantastic support of NXP who have worked on [DAPLink](https://github.com/ARMmbed/DAPLink), the Arm project that enables the micro:bit USB interface, the latest micro:bit is able to choose which code it should use from the universal hex. The files are designed so the original micro:bits do not need any update to use them.
 ![Creation of a Universal Hex](/docs/latest-revision/assets/blog/uhex2.png)
 
 To make the experience of developing programs for these universal hexes as seamless as possible we’ve deepened our collaboration with Arm, Lancaster University and [Microsoft Research](https://www.microsoft.com/en-us/research/project/the-bbc-microbit-and-microsoft/), who were [co-creators of the original micro:bit,](https://www.lancaster.ac.uk/news/articles/2016/lancaster-university-helps-bbc-get-kids-coding/). Because of the open source nature of [Lancaster’s CODAL](https://github.com/lancaster-university/codal), the evolution of the original microbit-dal, we had a ready platform to make the latest micro:bit work. We have also included a full compatibility layer for [microbit-dal](https://github.com/lancaster-university/microbit-dal), so that existing projects and environments can be easily recompiled to work on the latest board. On top of the careful compatibility work there’s plenty of exciting new features designed for the latest hardware, like an advanced SoundExpressions synthesiser and audio pipeline architecture. 
