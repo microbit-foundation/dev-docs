@@ -47,6 +47,8 @@ These examples show the process of creating a Universal Hex. A V1 and V2 hex can
 | ![Universal Hex error 2](/docs/software/assets/uhex2.png) | ![Universal Hex error 3](/docs/software/assets/uhex1.png) |
 
 
+If you are building .hex files for both board variants, you will need to use the respective toolchains for the DAL<span class="v1">v1</span> and CODAL<span class="v2">v2</span>. See more information on the [micro:bit runtime](./runtime/).
+
 ## Micropython
 
 See the [Micropython Hex file reference](https://microbit-micropython.readthedocs.io/en/latest/devguide/hexformat.html) for up to date information.

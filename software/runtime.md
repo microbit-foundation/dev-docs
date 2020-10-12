@@ -25,9 +25,11 @@ There are a number of important software layers that run on the micro:bit to ena
 
 Arm Mbed provides a Hardware Abstraction Layer (HAL) for chips using Arm Cortex processors. This abstraction layer presents a uniform layer that developers can use to write software for any Arm based processor - including the Nordic chip used on the micro:bit. It provides easy access to peripheral interfaces such as SPI, I2C and serial for use by higher level environments.
 
-### The micro:bit runtime Device Abstraction Layer (DAL)
+When writing C/C++ code for the micro:bit, use of the micro:bit runtime is highly recommended. It provides an easy to use API for C/C++ programs, and is written in a componentised manner so that you can use only the parts you need (for example, just the MicroBitDisplay).
 
-The micro:bit runtime provides a [Device Abstraction Layer (DAL)](https://lancaster-university.github.io/microbit-docs/), that is built using Arm Mbed. Lancaster University has written this runtime for the micro:bit as part of its ongoing efforts to support the adoption of Computer Science in schools. It provides a useful set of functions for higher level languages to consume, and make programming the micro:bit in C or C++ easier. Many of the 'blocks' you use in Makecode are directly calling functions provided by the DAL. The micro:bit runtime DAL is written in C/C++ and builds on the Arm Mbed HAL.
+### The micro:bit runtime Device Abstraction Layer (DAL) - V1
+
+The micro:bit runtime provides a [Device Abstraction Layer (DAL)](https://lancaster-university.github.io/microbit-docs/), that is built using Arm Mbed. Lancaster University has written this runtime for the micro:bit <span class="v1">v1</span> as part of its ongoing efforts to support the adoption of Computer Science in schools. It provides a useful set of functions for higher level languages to consume, and make programming the micro:bit in C or C++ easier. Many of the 'blocks' you use in Makecode are directly calling functions provided by the DAL. The micro:bit runtime DAL is written in C/C++ and builds on the Arm Mbed HAL.
 
 Key components of the micro:bit DAL are:
 
@@ -36,10 +38,10 @@ Key components of the micro:bit DAL are:
 * device drivers representing the major hardware blocks on the micro:bit, including the LED display, sensors, file system, radio and bluetooth profile.
 * managed types that help keep your programs safe from the complexities of memory management. Originally implemented for higher level languages to exploit, they have also proven very useful for C/C++ programmers too.
 
-When writing C/C++ code for the micro:bit, use of the micro:bit runtime is highly recommended. It provides an easy to use API for C/C++ programs, and is written in a componentised manner so that you can use only the parts you need (for example, just the MicroBitDisplay). The micro:bit can also be programmed using the Mbed HAL directly, for those developers seeking more low level access to the hardware.
+The micro:bit <span class="v1">v1</span> can also be programmed using the Mbed HAL directly, for those developers seeking more low level access to the hardware.
 
-### Component Oriented Device Abstraction Layer (CODAL)
-The [Component Oriented Device Abstraction Layer (CODAL)](https://lancaster-university.github.io/codal/) is an evolution of the DAL runtime that abstracts each hardware component of the micro:bit as a software component. CODAL supports a range of devices and processors.
+### Component Oriented Device Abstraction Layer (CODAL)- V2
+The [Component Oriented Device Abstraction Layer (CODAL)](https://lancaster-university.github.io/codal/) is an evolution of the DAL runtime that abstracts each hardware component of the micro:bit as a software component. CODAL supports a range of devices and processors, inlcuding the micro:bit <span class="v2">v2</span> device.
 
 Key components of micro:bit CODAL are:
 
