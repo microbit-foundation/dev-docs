@@ -49,6 +49,8 @@ The Foundation Brand Guidelines set out how to denote board compatibility for yo
 
  The overall depth of the board does not change as the JST connector is the deepest part.
 
+ Further details including an [assembly diagram](../../hardware/schematic#dimensions/) are available on our schematic page.
+
 ### Speaker
 The obvious physical change is the addition of the speaker on the back of the board. The profile of the rear of the board does not change, it should still fit in accessories that make use of the edge connector, but if your accessory is mounted closer to the board than the depth of the current JST connector, you will need to check that it still fits the latest board revision and how it affects the use of the speaker.
 
@@ -89,7 +91,7 @@ The schematic will be published on the tech site when the hardware is publically
 ## Software changes
 
 ### MakeCode extensions
-If your MakeCode extension makes use of mBed or the DAL, you may need to revise them to be compatible with CODAL and both revisions of the board. The latest revision no longer makes use of mBED.
+If your MakeCode extension makes use of Mbed or the DAL, you may need to revise them to be compatible with CODAL and both revisions of the board. The latest revision no longer makes use of mBED.
 
 If the extension is incompatible, the MakeCode editor will fail to compile the program.
 

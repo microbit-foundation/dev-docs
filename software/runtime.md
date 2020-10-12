@@ -55,7 +55,7 @@ Key components of micro:bit CODAL are:
 
 ### Building CODAL
 
-The [instructions for building CODAL](https://github.com/microbit-foundation/codal/blob/master/mb-build-instructions.md) are located in the micro:bit CODAL repository.
+The [instructions for building CODAL](https://github.com/microbit-foundation/codal/blob/master/mb-build-instructions.md) are located in the micro:bit CODAL repository. The final link is TBC and may change.
 
 ### Contributing to the micro:bit Runtime
 
