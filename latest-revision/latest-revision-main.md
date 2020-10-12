@@ -125,10 +125,12 @@ When they are finalised, we will notify people via the [DAL, Editors and Devices
 | ------------------------------------------ | ------------ | ------------------------------ | ------------- |
 | Choose music/pitch output pin | `music.play(music.JUMP_UP, pin=microbit.pin_speaker, wait=True)` | ✅   |  |             
 | Stop music on pin             | `music.stop(pin=microbit.pin_speaker)` | ✅   |  |
+| Set the volume 0-255          | `microbit.set_volume(128)` | ✅   |  |
 | Get current sound loud/quiet  |`microbit.microphone.current_sound()` | ✅     |               |
 | Check current sound == loud/quiet | `microbit.microphone.current_sound() == microbit.microphone.LOUD` | ✅     |               |
 | Check if a loud/quiet sound occurred since the last call to was_sound() | `microbit.microphone.was_sound(microbit.microphone.LOUD)` | ✅     |               | 
 | Get history of sounds since last call to get_sounds() | `microbit.microphone.get_sounds()` | ✅     |               |
+| Set threshold for sound 0-255 | `microbit.microphone.set_threshold(microbit.microphone.LOUD, 128)` | ✅     |               |
 | Get current sound level in range 0-255 | `microbit.microphone.sound_level()` | ✅     |               |
 | Logo is touched | `microbit.pin_logo.is_touched()` | ✅  |  | 
 
