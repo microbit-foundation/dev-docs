@@ -25,14 +25,10 @@ If you’d like to keep up to date with technical information about the device, 
 
 ## Updating .hex files
 
-If you host compiled .hex files as part of your resources, these will need to be updated to work with the latest revision of the micro:bit.
+The editors and apps are being updated over the coming weeks and are currrently in beta.
+When they are released, you should update any compiled .hex files that you host as part of your resources.
 
 To do this, simply drag and drop them into the editor in which they were created and then download the .hex file.
 
 **Universal Hex**
 Note that the updated file will be ~1.8Mb as opposed to ~700Kb in size. This increase in size means that the hex file can be used on any board revision and is called a  **Universal Hex** file.
-
-
-## Denoting compatibility
-
-The Foundation [Brand Guidelines](https://microbit.org/brand-guidelines/) set out how to denote board compatibility for your accessory. Please get in contact for an up-to-date version.

@@ -9,16 +9,12 @@ lang: en
 ---
 ## Overview
 
-{% include alert-info.html content="Any issues raised in the period prior to public announcement should be reported in **private**. This means you should double check before posting anything on GitHub.<br><br>
-
-There's lots of opportunity for collaboration on the software sides, and the software work has lots of partners covering issues in different areas - so please raise **software and documentation** issues in our [microbit-issues GitHub repository](https://github.com/microbit-foundation/microbit-issues) If you'd like to raise issues privately, you're welcome to contact [micro:bit support.](mailto:support@microbit.org?subject=Software%20issue)<br><br>
-
-For **hardware** issues, of which we hope there are precious few, please contact The Foundation directly via [micro:bit support](mailto:support@microbit.org?subject=Hardware%20issue) so we can track and triage appropriately." %}
-
 * TOC
 {:toc}
 
-The **latest revision** of the BBC micro:bit is designed to be completely familiar to anyone who has used the original device. It’s the same size, shape, looks very similar, and works in the same way. Every programme that could run on a micro:bit version 1 can be re-built to run on the latest revision.  The editors will support both versions simultaneously for features common to both boards.
+The **latest revision** of the BBC micro:bit is designed to be completely familiar to anyone who has used the original device. It’s the same size, shape, looks very similar, and works in the same way. Every programme that could run on a micro:bit version 1 can be re-built to run on the latest revision.  
+
+The editors will support both versions simultaneously for features common to both boards,for example the motion sensor, LEDs, buttons etc.
 
 The latest revision builds upon the current micro:bit experience by refining the board and adding widely requested sound making and sensing capabilities.
 
@@ -100,7 +96,6 @@ These are the V2 features and whether we expect them to work as expected ✅  or
 ## Feature API availability
 
 These are the V2 specific APIs and whether we expect them to work as expected ✅  or not 🔴, or there are issues still to be fixed 🔶.
-If you require access to the related GitHib issues please email your GitHub username to [support@microbit.org](mailto:support@microbit.org?subject=Request%20for%20access%20to%20GitHub%2issues&body=Name%3A%0D%0A%0D%0AGitHub%20ID%3A).
 
 {% include alert-info.html content="It is important that we work with the community to establish how these APIs work. As such they are subject to change as we get feedback and iterate on them.
 When they are finalised, we will notify people via the [DAL, Editors and Devices](https://microbit.us14.list-manage.com/subscribe?u=e1c30f24b90ff3d70275cfff2&id=25403c7650) newsletter." %}
@@ -146,15 +141,15 @@ Features that are common to all board variants will work in the same way they al
 
 
 ### Makecode
-You can use the latest board revision in the beta editor [https://makecode.microbit.org/stable](https://makecode.microbit.org/stable)
+You can use the latest board revision in the beta editor [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta)
 
 **Using the new features in MakeCode**
 
-An extension has been developed to include the microphone and logo touch features currently available. [https://github.com/frumplecoin/demo-extension](https://github.com/frumplecoin/demo-extension) ← *Please do not share any links to this extension or make any public statements about this that could link it to micro:bit*
+An extension has been developed to include the microphone and logo touch features currently available. [https://github.com/microbit-foundation/pxt-microbit-v2-extension](https://github.com/microbit-foundation/pxt-microbit-v2-extension)
 
 
-1. Open [https://makecode.microbit.org/stable](https://makecode.microbit.org/stable)
-2. Select Advanced > Add Extension and paste [https://github.com/frumplecoin/demo-extension](https://github.com/frumplecoin/demo-extension) into the search box. 
+1. Open [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta)
+2. Select Advanced > Add Extension and paste [https://github.com/microbit-foundation/pxt-microbit-v2-extension](https://github.com/microbit-foundation/pxt-microbit-v2-extension) into the search box. 
 3. Click on the extension to add it to the toolbox.
 
 **V2 MakeCode APIs**
@@ -165,7 +160,7 @@ The Speaker features can be found in the music menu
 ### Python
 You can use the latest board revision and APIs in the Python beta editor:
 
- [https://python-editor-next-release-review.microbit.org](https://python-editor-next-release-review.microbit.org/)
+ [https://python.microbit.org/v/beta](https://python.microbit.org/v/beta/)
 
  If you want to use a specific or custom build of MicroPython you can do this in [Mu](https://codewith.mu/).
 
@@ -181,7 +176,7 @@ The editors and apps are compatible with and will let you download and flash a f
 
 More information about this is available on our [hex format](../software/hex-format/#universal-hex-files) page
 
-The Foundation has written a javascript library to generate these files - you do not need to re-implement any file generation. This is currently in a private GitHub repository but access can be granted by request.
+The Foundation has written a javascript library to generate these files - you do not need to re-implement any file generation.
 
 
 ### Bluetooth BLE 
@@ -204,12 +199,11 @@ If you haven’t already received a device, but would like one in order to test/
 
 ## How do I find out more about the hardware and software updates?
 
-Our [DAL, Devices and Editors mailing list](http://eepurl.com/dyRx-v) provides up to date information about the any technical changes regarding the micro:bit.  Until the latest revision of the micro:bit is public, we will email you with key updates..
+Our [DAL, Devices and Editors mailing list](http://eepurl.com/dyRx-v) provides up to date information about the any technical changes regarding the micro:bit. 
 
 
 ## How do I feed back or raise issues?
 
-Any issues raised in the period prior to public announcement should be reported in **private**. This means you should double check before posting anything on GitHub.
+Any questions or issues should be reported via [micro:bit support](https://support.microbit.org/support/tickets/new).
 
-**Software** issues can be raised in our [microbit-issues GitHub repository](https://github.com/microbit-foundation/microbit-issues) or via [micro:bit support](mailto:support@microbit.org?subject=Software%20issue).
-**Hardware** questions or issues should be reported via [micro:bit support](mailto:support@microbit.org?subject=Hardware%20issue).
+You can also report issues on the relevant Github Repositories.
