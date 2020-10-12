@@ -13,54 +13,47 @@ review-with: carlospa
 
 The .hex file is in [intel-hex format](https://en.wikipedia.org/wiki/Intel_HEX). Intel hex consists of records of data, with the address in memory to store the data at the start. All data is hex-ascii encoded. All lines start with a : character. All lines end with a checksum byte that can be used to verify the integrity of the data.
 
-A micro:bit .hex file usually starts writing data to the same fixed location in memory, so (at the moment at least) we would expect the first line of the file to start like this:
+A micro:bit .hex file usually starts writing data to the same fixed location in memory, so depending on the toolchain, we might expect the first line of the file to start like this:
 
 :020000040000FA
+
+## Universal Hex files
+
+The latest board revision introduces a superset of the Intel-Hex format that enables compatibility across processor variants. A Universal Hex is a file that contains the binary data for both micro:bit <span class="v1">v1</span> and micro:bit <span class="v2">V2</span>, in a format that DAPLink can process to only write to memory the data relevant to its micro:bit board.
+
+A **Universal Hex** hex file will work on a v1 or V2 board. 
+A clear indication that you are working with this format is that a compiled .hex file will be ~1.8Mb as opposed to ~700Kb in size.
+
+A [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex) has been written to implement the format and associated detailed [specification of the Universal Hex format](https://github.com/microbit-foundation/universal-hex/).
+
+### Cross device compatibility
+The Universal Hex format has been developed to ensure the best experience for users when moving between board variants. If a V1 only .hex is detected on a V2 board it will throw an error, but a V2 only hex will fail silently on a V1. This is very confusing to users and should be avoided.
+
+There may be cases where it is not possible to support both boards, for example an accessory that is designed only to target the V2 board variant. In these cases, to ensure the best user experience when flashing a hex file to any board variant, the file should always include an error message to signify board incompatibility to the user.
+
+We have created a [standalone error hex](/docs/software/assets/stand-alone-error-v1.hex) that can be combined with a V2 only hex to produce a Hex that will work on a V2 board, but error if used on a v1.
+
+{% include alert-info.html content="We are currently working on a web based and CLI tool to generate Univeral Hex files and will publish information on usage here when this is ready. In the meantime, please [get in contact](mailto:support@microbit.org) if you require further information" %}
+
+[Download standalone error hex](/docs/software/assets/stand-alone-error-v1.hex){: .btn.sm-btn download}
+
+This example shows the worst, best and acceptable (when support for V1 is impossible) cases for users. The best case is to provide a Universal Hex that supports all board variants.
+![Universal Hex error 1](/docs/software/assets/hex-compatibility-errors.png)
+
+These examples show the process of creating a Universal Hex. A V1 and V2 hex can be combined to produce a Universal Hex. If you can only support a V2 board,the standalone error can be combined with a V2 hex to produce a hex that will fail with an error on a V1 board, rather than failing silently.
+
+|Universal Hex format                                                 |V2 only Hex format                               |
+|-----------------------------------------------------------|-----------------------------------------------------------|
+| ![Universal Hex error 2](/docs/software/assets/uhex2.png) | ![Universal Hex error 3](/docs/software/assets/uhex1.png) |
+
+
+If you are building .hex files for both board variants, you will need to use the respective toolchains for the DAL<span class="v1">v1</span> and CODAL<span class="v2">v2</span>. See more information on the [micro:bit runtime](../runtime/).
 
 ## Micropython
 
 See the [Micropython Hex file reference](https://microbit-micropython.readthedocs.io/en/latest/devguide/hexformat.html) for up to date information.
 
 MicroPython builds take a firmware.hex image (the MicroPython pre-compiled image) and appends your script to the end of it, in a fixed 8K region at a known address. When MicroPythons starts to run on the micro:bit, it looks for a signature at this fixed location, and uses that to determine whether to run the script, or drop directly to the REPL prompt.
-
-This code in the Python Editor shows how this is done: <https://github.com/bbcmicrobit/PythonEditor/blob/1df10c07a271d9597eac318aef2e5dc1259af24a/python-main.js#L68>
-
-```python
-    /*
-    Turn a Python script into Intel HEX format to be concatenated at the
-    end of the MicroPython firmware.hex.  A simple header is added to the
-    script.
-    - takes a Python script as a string
-    - returns hexlified string, with newlines between lines
-    */
-    editor.hexlify = function(script) {
-        function hexlify(ar) {
-            var result = '';
-            for (var i = 0; i < ar.length; ++i) {
-                if (ar[i] < 16) {
-                    result += '0';
-                }
-                result += ar[i].toString(16);
-            }
-            return result;
-        }
-        // add header, pad to multiple of 16 bytes
-        data = new Uint8Array(4 + script.length + (16 - (4 + script.length) % 16));
-        data[0] = 77; // 'M'
-        data[1] = 80; // 'P'
-        data[2] = script.length &amp; 0xff;
-        data[3] = (script.length >> 8) &amp; 0xff;
-        for (var i = 0; i < script.length; ++i) {
-            data[4 + i] = script.charCodeAt(i);
-        }
-        // check data.length < 0x2000
-        if(data.length > 8192) {
-            throw new RangeError('Too long');
-        }
-        // convert to .hex format
-        var addr = 0x3e000; // magic start address in flash
-```
-At address 0x3E000, you should see the MicroPython signature which is ASCII 'MP' followed by two bytes indicating the length of the script. These bytes are stored in little-endian format (low byte then high byte)
 
 ## Microsoft MakeCode Editor
 

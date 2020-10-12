@@ -30,7 +30,7 @@ the things you need to make the magical 'end-to-end' micro:bit experience.
 ## Help us build it
 
 If you'd like to help us make the micro:bit better, then there are a number of
-ways that you can get involved
+ways that you can get involved.
 
 ### Code
 Contribute features and fixes to one of the upstream projects that the micro:bit relies upon:
@@ -43,9 +43,10 @@ Contribute features and fixes to one of the upstream projects that the micro:bit
 Help us build a brilliant hardware ecosystem around micro:bit - derivative boards,
 cool accessories and add ons, or even suggestions for future versions of the micro:bit.
   * The [micro:bit schematic](/hardware/schematic/) and [reference design](/hardware/reference-design) are good places to start for making your own projects
+  * The [accessories guide](https://microbit.org/buy/accessories/) gives you an idea of what's currently available.
 
 ### Write
   * [Improve the documentation and this site](https://github.com/microbit-foundation/dev-docs), either reporting issues
 or adding documentation will be extremely helpful.
-  * Help build a community around micro:bit - join the [slack channel and Email list](/get-involved/where-to-find/),
+  * Help build a community around micro:bit - join the [slack channel and Email list](/community/),
 share the things you've created on twitter, blog about them!
