@@ -49,7 +49,7 @@ The Foundation Brand Guidelines set out how to denote board compatibility for yo
 
  The overall depth of the board does not change as the JST connector is the deepest part.
 
- Further details including an [assembly diagram](../../hardware/schematic#dimensions/) are available on our schematic page.
+ Further details including an [assembly diagram](../../hardware/schematic/#dimensions) are available on our schematic page.
 
 ### Speaker
 The obvious physical change is the addition of the speaker on the back of the board. The profile of the rear of the board does not change, it should still fit in accessories that make use of the edge connector, but if your accessory is mounted closer to the board than the depth of the current JST connector, you will need to check that it still fits the latest board revision and how it affects the use of the speaker.
