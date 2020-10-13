@@ -17,7 +17,6 @@ Below is a curated list of some Bluetooth applications you might like to read
 about and try for yourself with your micro:bit. Please contribute to this list
 if you know of any more. Many listed here are take from the [micro:bit Awesome list](https://github.com/carlosperate/awesome-microbit)
 
-
 ## Applications, tools and examples
 
 
@@ -31,7 +30,7 @@ if you know of any more. Many listed here are take from the [micro:bit Awesome l
 
 [Bitty Software Apps](https://bittysoftware.blogspot.com/p/applications.html)
 
-[micro:bit Blue App for Android](https://github.com/microbit-foundation/microbit-blue)
+[Bitty Software Apps](https://bittysoftware.blogspot.com/p/applications.html)
 
 [App Inventor + IoT](http://iot.appinventor.mit.edu/#/microbit/microbitintro) - Control a micro:bit via Bluetooth with App Inventor, a visual programming environment for Android applications.
 

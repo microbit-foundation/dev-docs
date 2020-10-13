@@ -2,7 +2,7 @@
 layout: page
 title: Guidance on using the latest micro:bit revision
 heading: micro:bit V2
-description: Details of the 2.0 micro:bit revision
+description: Details of the V2.0 micro:bit revision
 permalink: /latest-revision/
 ref: latest-revision
 lang: en
@@ -12,7 +12,7 @@ lang: en
 * TOC
 {:toc}
 
-The **latest revision** of the BBC micro:bit is designed to be completely familiar to anyone who has used the original device. It’s the same size, shape, looks very similar, and works in the same way. Every programme that could run on a micro:bit version 1 can be re-built to run on the latest revision.  
+The [**latest revision**](./announcement/) of the BBC micro:bit is designed to be completely familiar to anyone who has used the original device. It’s the same size, shape, looks very similar, and works in the same way. Every programme that could run on a micro:bit version 1 can be re-built to run on the latest revision. 
 
 The editors will support both versions simultaneously for features common to both boards,for example the motion sensor, LEDs, buttons etc.
 
