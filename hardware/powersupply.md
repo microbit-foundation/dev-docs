@@ -15,9 +15,9 @@ lang: en
 Power to the micro:bit may be provided via:
 
 - USB connection via the interface chip (which has an on-board regulator)
-- A battery plugged into the JST connector. 
-- The 3V and GND pins on the Edge Connector
-- The two losenge shaped pads on the rear right of the board
+- A battery plugged into the JST connector
+- The 3V and GND pins on the edge connector
+- The two elongated pads on the rear right of the board
 
 Power from the micro:bit can be provided by the 3V and GND pins to small external circuits.
 
