@@ -27,7 +27,7 @@ Amongst the micro:bit features, ‘sound’ is in a unique position of being alr
 - MEMs Microphone with LED indicator
 - Touch sensitive logo 
 - Built-in sleep/off mode that means the board can be powered-down with batteries connected
-- Discrete regulator that can supply up to 200mA of current to external accessories
+- Discrete regulator that can supply up to 190mA of current to external accessories
 
 
 ### Refinements
@@ -45,7 +45,7 @@ Detailed breakdown on our [V2 hardware page](../hardware/)
 - Interface MCU: NXP KL27, 256kB Flash (128kB reserved for future enhancement), 32kB RAM
 - Motion sensor: ST LSM303
 - MEMS microphone: Knowles SPU0410LR5H-QB-7 MEMS
-- Power consumption 300mA (up to 200mA for accessories)
+- Power consumption 300mA (up to 190mA for accessories)
 
 ### Hardware block diagram
 

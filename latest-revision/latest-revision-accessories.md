@@ -82,7 +82,7 @@ The micro:bit can now be powered from the two losenge shaped pads on the rear of
 
 If you use the losenge pads, you must diode (or otherwise) protect themselves from the micro:bit having power via another source. This was still necessary on the previous revision when the board was powered from battery, but is now true for USB and edge-connector power also.
 
-The nRF52 supplies 300mA to drive the board.   100mA is reserved for powering on-board components. **200mA** is then available for accessories.
+The nRF52 supplies 300mA to drive the board.   110mA is reserved for powering on-board components. **190mA** is then available for accessories.
 
 ### Schematic
 The schematic will be published on the tech site when the hardware is publically available. Please get in touch to [request early access to the V2 schematic](mailto:support@microbit.org?subject=Request%20for%20access%20to%20schematic&body=Name%3A%0D%0A%0D%0AGitHub%20ID%3A).
