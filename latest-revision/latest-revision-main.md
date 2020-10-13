@@ -12,9 +12,9 @@ lang: en
 * TOC
 {:toc}
 
-The [**latest revision**](./announcement/) of the BBC micro:bit is designed to be completely familiar to anyone who has used the original device. It’s the same size, shape, looks very similar, and works in the same way. Every programme that could run on a micro:bit version 1 can be re-built to run on the latest revision. 
+The [**latest revision**](./announcement/) of the BBC micro:bit is designed to be completely familiar to anyone who has used the original device. It’s the same size, shape, looks very similar, and works in the same way. Every program that could run on a micro:bit version 1 can be re-built to run on the latest revision. 
 
-The editors will support both versions simultaneously for features common to both boards,for example the motion sensor, LEDs, buttons etc.
+The editors will support both versions simultaneously for features common to both boards, for example the motion sensor, LEDs, buttons etc.
 
 The latest revision builds upon the current micro:bit experience by refining the board and adding widely requested sound making and sensing capabilities.
 
@@ -76,7 +76,7 @@ These pages provide further guidance on the updates for different audiences.
 
 ## Universal Editors & Universal Hex Files
 
-In an effort to ensure the greatest degree of continuity for teachers, users will not need to select which version of the device they have before using MakeCode or the Python Editor. Instead, the editors will suport a new format called “universal hex” which can run on both micro:bit V1 and micro:bit V2 (more below)
+In an effort to ensure the greatest degree of continuity for teachers, users will not need to select which version of the device they have before using MakeCode or the Python Editor. Instead, the editors will support a new format called “universal hex” which can run on both micro:bit V1 and micro:bit V2 (more below)
 
 This means that you can use MakeCode or the online Python Editor as you always have, to use all of the features that are common to both version of the BBC micro:bit: Display, buttons, motion sensing, gestures like shake, light sensing, and even the Music blocks.
 
@@ -137,7 +137,7 @@ The **logo touch** is implemented in the same way as touching a pin on the edge 
 
 To access the features of the latest revision only (eg. to output sound only on the speaker and not the edge connector), you will need to add additional code to your programs. This ensures that the default editor experience continues to work for everyone, regardless of the board revision.
 
-Features that are common to all board variants will work in the same way they always have. For example, you will be able to use the same blocks in MakeCode to use the acceleromater on any board revision.
+Features that are common to all board variants will work in the same way they always have. For example, you will be able to use the same blocks in MakeCode to use the accelerometer on any board revision.
 
 
 ### Makecode
