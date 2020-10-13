@@ -63,54 +63,36 @@
      id="g4159"><text
        x="1032.5px"
        y="2603.5px"
-       style="font-family:'GTWalsheim-Bold', 'GT Walsheim';font-weight:600;font-size:250px;fill:white;"
-       id="text4161">COD<tspan
-   x="1604.5px "
-   y="2603.5px "
-   id="tspan4163">A</tspan>L</text>
+       style="font-family:'GTWalsheim-Bold', 'GT Walsheim', sans-serif;font-weight:600;font-size:250px;fill:white;"
+       id="text4161">CODAL</text>
 <text
        x="1032.5px"
        y="2803.5px"
-       style="font-family:'GTWalsheim-Bold', 'GT Walsheim';font-weight:600;font-size:200px;fill:white;"
-       id="text4165">L<tspan
-   x="1119.1px "
-   y="2803.5px "
-   id="tspan4167">a</tspan>ncas<tspan
-   x="1708.5px 1783.1px "
-   y="2803.5px 2803.5px "
-   id="tspan4169">te</tspan>r Univ<tspan
-   x="2452.3px 2567.7px 2649.1px "
-   y="2803.5px 2803.5px 2803.5px "
-   id="tspan4171">ers</tspan>ity</text>
+       style="font-family:'GTWalsheim-Bold', 'GT Walsheim', sans-serif;font-weight:600;font-size:200px;fill:white;"
+       id="text4165">Lancaster University</text>
 </g><g
      transform="matrix(1,0,0,1,-425.068,1998.48)"
      id="g4173"><text
        x="1032.5px"
        y="2603.5px"
-       style="font-family:'GTWalsheim-Bold', 'GT Walsheim';font-weight:600;font-size:250px;fill:white;"
+       style="font-family:'GTWalsheim-Bold', 'GT Walsheim', sans-serif;font-weight:600;font-size:250px;fill:white;"
        id="text4175">NRF5 SDK</text>
 <text
        x="1032.5px"
        y="2803.5px"
-       style="font-family:'GTWalsheim-Bold', 'GT Walsheim';font-weight:600;font-size:200px;fill:white;"
-       id="text4177">Nor<tspan
-   x="1377.1px "
-   y="2803.5px "
-   id="tspan4179">d</tspan>ic Semic<tspan
-   x="2321.5px "
-   y="2803.5px "
-   id="tspan4181">o</tspan>nductor</text>
+       style="font-family:'GTWalsheim-Bold', 'GT Walsheim', sans-serif;font-weight:600;font-size:200px;fill:white;"
+       id="text4177">Nordic Semiconductor</text>
 </g><g
      transform="matrix(1,0,0,1,-425.068,1157.57)"
      id="g4183"><text
        x="1032.5"
        y="2603.5"
-       style="font-weight:600;font-size:250px;font-family:GTWalsheim-Bold, 'GT Walsheim';fill:#ffffff"
+       style="font-weight:600;font-size:250px;font-family:GTWalsheim-Bold, 'GT Walsheim', sans-serif;fill:#ffffff"
        id="text4185">Mbed</text>
 <text
        x="1032.5"
        y="2803.5"
-       style="font-weight:600;font-size:200px;font-family:GTWalsheim-Bold, 'GT Walsheim';fill:#ffffff"
+       style="font-weight:600;font-size:200px;font-family:GTWalsheim-Bold, 'GT Walsheim', sans-serif;fill:#ffffff"
        id="text4187">Arm</text>
 </g><g
      transform="matrix(1,0,0,1.3759,-521.489,-1271.44)"
@@ -132,64 +114,46 @@
      id="g4201"><text
        x="1032.5px"
        y="2603.5px"
-       style="font-family:'GTWalsheim-Bold', 'GT Walsheim';font-weight:600;font-size:250px;fill:white;"
+       style="font-family:'GTWalsheim-Bold', 'GT Walsheim', sans-serif;font-weight:600;font-size:250px;fill:white;"
        id="text4203">C/C++</text>
 </g><g
      transform="matrix(0.828149,0,0,0.898493,-420.119,-1564.66)"
      id="g4205"><text
        x="1032.5px"
        y="2603.5px"
-       style="font-family:'GTWalsheim-Bold', 'GT Walsheim';font-weight:600;font-size:278.244px;fill:white;"
-       id="text4207">Mak<tspan
-   x="1601.23px "
-   y="2603.5px "
-   id="tspan4209">e</tspan>Code</text>
+       style="font-family:'GTWalsheim-Bold', 'GT Walsheim', sans-serif;font-weight:600;font-size:278.244px;fill:white;"
+       id="text4207">MakeCode</text>
 </g><g
      transform="matrix(1,0,0,1,3334.13,-1869.88)"
      id="g4211"><text
        x="1032.5px"
        y="2603.5px"
-       style="font-family:'GTWalsheim-Bold', 'GT Walsheim';font-weight:600;font-size:250px;fill:white;"
+       style="font-family:'GTWalsheim-Bold', 'GT Walsheim', sans-serif;font-weight:600;font-size:250px;fill:white;"
        id="text4213">Python</text>
 </g><g
      transform="matrix(0.838569,0,0,0.838569,1595.63,-364.53)"
      id="g4215"><text
        x="1032.5px"
        y="2603.5px"
-       style="font-family:'GTWalsheim-Bold', 'GT Walsheim';font-weight:600;font-size:238.501px;fill:white;"
-       id="text4217">L<tspan
-   x="1135.77px "
-   y="2603.5px "
-   id="tspan4219">a</tspan>ncas<tspan
-   x="1838.63px 1927.6px "
-   y="2603.5px 2603.5px "
-   id="tspan4221">te</tspan>r</text>
+       style="font-family:'GTWalsheim-Bold', 'GT Walsheim', sans-serif;font-weight:600;font-size:238.501px;fill:white;"
+       id="text4217">Lancaster</text>
 <text
        x="1032.5px"
        y="2842px"
-       style="font-family:'GTWalsheim-Bold', 'GT Walsheim';font-weight:600;font-size:238.501px;fill:white;"
-       id="text4223">Univ<tspan
-   x="1535.5px 1673.11px 1770.18px "
-   y="2842px 2842px 2842px "
-   id="tspan4225">ers</tspan>ity</text>
+       style="font-family:'GTWalsheim-Bold', 'GT Walsheim', sans-serif;font-weight:600;font-size:238.501px;fill:white;"
+       id="text4223">University</text>
 </g><g
      transform="matrix(0.838569,0,0,0.838569,-358.424,-356.73)"
      id="g4227"><text
        x="1032.5px"
        y="2603.5px"
-       style="font-family:'GTWalsheim-Bold', 'GT Walsheim';font-weight:600;font-size:238.501px;fill:white;"
-       id="text4229">Micr<tspan
-   x="1548.85px "
-   y="2603.5px "
-   id="tspan4231">o</tspan>so<tspan
-   x="1953.83px "
-   y="2603.5px "
-   id="tspan4233">f</tspan>t</text>
+       style="font-family:'GTWalsheim-Bold', 'GT Walsheim', sans-serif;font-weight:600;font-size:238.501px;fill:white;"
+       id="text4229">Microsoft</text>
 </g><g
      transform="matrix(0.838569,0,0,0.838569,3294.93,-356.73)"
      id="g4235"><text
        x="1032.5px"
        y="2603.5px"
-       style="font-family:'GTWalsheim-Bold', 'GT Walsheim';font-weight:600;font-size:238.501px;fill:white;"
+       style="font-family:'GTWalsheim-Bold', 'GT Walsheim', sans-serif;font-weight:600;font-size:238.501px;fill:white;"
        id="text4237">PSF + friends</text>
 </g></svg>
