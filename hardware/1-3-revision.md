@@ -24,7 +24,7 @@ lang: en
 ## Getting Started With the micro:bit Hardware
 
 The micro:bit hardware is based on the Arm-Mbed platform.
-It has an application processor with lots of on-chip perhipherals.
+It has an application processor with lots of on-chip peripherals.
 Some off-chip peripherals are connected to this chip.
 There is an interface processor connected to the application processor,
 and it is the interface processors job to manage communications over the USB
@@ -48,7 +48,7 @@ The nRF51 application processor is where user programs run.
 A single, complete application including user code, runtime code and bluetooth stack
 is loaded and run directly from on chip flash memory.
 All user accessible GPIO pins are provided by this processor.
-There is an onboard 2.4GHz radio engine used to provide Bluetooth capabilities
+There is an on-board 2.4GHz radio engine used to provide Bluetooth capabilities
 via an off-chip aerial.
 
 | item          | details
@@ -64,7 +64,7 @@ via an off-chip aerial.
 
 ### Bluetooth Wireless Communication
 
-The on board 2.4GHz transciever supports Bluetooth communications via the Nordic S110 SoftDevice,
+The on board 2.4GHz transceiver supports Bluetooth communications via the Nordic S110 SoftDevice,
 which provides a fully qualified Bluetooth low energy stack.
 This allows the micro:bit to communicate with a wide range of Bluetooth devices,
 including smartphones and tablets.
@@ -84,7 +84,7 @@ including smartphones and tablets.
 
 ### Low Level Radio Communications
 
-The on board 2.4GHz transciever supports a number of other radio communications standards, on which we build the microbit-radio protocol
+The on board 2.4GHz transceiver supports a number of other radio communications standards, on which we build the microbit-radio protocol
 This protocol provides a very simple small-packet broadcast radio interface between other devices
 that support it, such as other micro:bit devices.
 The 'radio' interface that appears in a number of the languages on the micro:bit
@@ -116,7 +116,7 @@ or from battery.
 Front buttons A and B can be programmed in the user application for any purpose.
 A and B are debounced by software, which also includes short press, long press,
 and 'both A+B' press detection. Buttons operate in a typical inverted electrical mode,
-where a pullup resistor ensures a logical '1' when the button is released,
+where a pull-up resistor ensures a logical '1' when the button is released,
 and a logical '0' when the button is pressed.
 Both A and B buttons are connected to GPIO pins that are also accessible on the micro:bit edge connector.
 
@@ -124,7 +124,7 @@ Both A and B buttons are connected to GPIO pins that are also accessible on the 
 | ---           | ---
 | Type          | 2 tactile user buttons, 1 tactile system button
 | Debounce      | (A & B) software debounced, 54ms period
-| Pullup        | (A & B) external 4K7, (System) 10K
+| Pull-up        | (A & B) external 4K7, (System) 10K
 
 
 ### Display
@@ -139,7 +139,7 @@ which is roughly proportional to ambient light levels.
 
 | item          | details
 | ---           | ---
-| Type          | minature surface mount red LED
+| Type          | miniature surface mount red LED
 | Physical structure | 5x5 matrix
 | Electrical structure | 3x9
 | Intensity control | 10 steps
@@ -237,7 +237,7 @@ bottom. The 3V pad at the bottom can be used to supply a small amount of power e
 | ---           | ---
 | Operating range | 1.8V .. 3.6V
 | USB current   | 120mA max
-| Onboard Peripherals budget | 30mA
+| On-board Peripherals budget | 30mA
 | Battery connector | JST X2B-PH-SM4-TB
 | Battery current | TBC
 | Max current provided via edge connector | 90mA
@@ -285,7 +285,7 @@ of application programs.
 The interface processor can be used with special host tools to debug
 code that is running on the application processor. It connects to the application
 processor via 4 signal wires. The KL26 interface processor code can also
-be debuged via it's integral SWD software debug interface, for example to
+be debugged via it's integral SWD software debug interface, for example to
 load initial bootloader code into this processor at manufacturing time, or to
 recover a lost bootloader.
 
