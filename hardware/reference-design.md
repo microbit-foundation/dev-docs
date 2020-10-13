@@ -13,10 +13,10 @@ review-with: jonnya
 
 ## Reference Design
 
-As well as learning about how the micro:bit is designed from the [schematic](../../hardware/schematic/),
+In addition to learning about how the micro:bit is designed from the [schematic](../../hardware/schematic/),
 we want to enable people to build their own hardware products and projects based
 on the micro:bit. This means taking all the hardware that you've connected
-to your micro:bit and putting down on one circuit board.
+to your micro:bit and putting it down on one circuit board.
 
 ![micro:bit plant monitor](/docs/hardware/assets/referencedesign-57055.png){:width="40%"}
 
@@ -38,7 +38,7 @@ programmer to program all your micro:bit based designs!
 ## Reference Design Features
 
 * **100% binary compatible with the micro:bit, including all the same hardware
-features: 3xbuttons, 5x5 display, motion sensor)**
+features: 3 buttons, 5x5 display, motion sensor)**
 * Released under the [SolderPad License 0.51](http://solderpad.org/licenses/SHL-0.51/) (based on Apache-2.0, but tailored
   towards Open Hardware)
 * Based on pre-certified [nRF51822 module](#module-choice) for ease of use
@@ -49,8 +49,7 @@ things that you don't need
   * programming the KL26 and the nRF51822
 * Modified power supply for more flexible use, standalone regulator
   * drive more components without additional power supply
-  * Use lithium ion polymer batteries as well as AAA (which you shouldn't do
-  on the micro:bit)
+  * Use lithium ion polymer or AAA batteries (neither should be used with the micro:bit)
 * Design available in Eagle, Altium and KiCad formats
 * Coin cell connection and holder option ([but beware the dangers of coin cells to children](http://www.bbc.co.uk/news/health-37410343))
 
@@ -62,18 +61,18 @@ without modification.
 
 ## Modularity
 
-The reference design is laid out in a very modular way, so that someone working
+The reference design is laid out in a modular way, so that someone working
 with it can easily customise the board to include only the parts they need.
 
 ![the reference design is modular](/docs/hardware/assets/referencedesign-9cfb5.png).
 
-For example, if you want to make something really tiny that doesn't make use
+For example, if you want to make something tiny that doesn't make use
 of all the expansion or the LEDs, you could make use of the 'bare minimum subset'
 section of the board, and have a separate programmer.
 
 ## Module Choice
 
-There are multiple vendors of Bluetooth pre-certified modules based on the nRF51822. But because the micro:bit uses every pin on the nRF51822, only modules that exposes all of the GPIO of the chip can be used. We have initially chosen the [Raytac MDBT40-256V3](http://www.raytac.com/product/ins.php?index_id=63), which is available from outlets like
+There are multiple vendors of Bluetooth pre-certified modules based on the nRF51822. But because the micro:bit uses every pin on the nRF51822, only modules that expose all of the GPIO can be used. We have selected the [Raytac MDBT40-256V3](http://www.raytac.com/product/ins.php?index_id=63), which is available from outlets like
 Seedstudio, and commonly used on things like Adafruit BLE boards.
 
 This design is fully open source, and we're happy to accept pull requests for
@@ -91,7 +90,7 @@ then you could choose a range of other modules.
 
 ## Software Bringup
 
-Unlike a micro:bit, your device won't come pre-flashed! Neither of the MCUs will
+Unlike a micro:bit, your device won't come pre-flashed. Neither of the MCUs will
 have any software, so you'll need a debugger, or to ask the people manufacturing
 your board to flash it for you.
 
