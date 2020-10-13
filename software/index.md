@@ -3,7 +3,7 @@ layout: page
 order:
 title: micro:bit software
 heading: The micro:bit software ecosystem
-description: There are a huge range of software platforms and tools that make the micro:bit work as well as it does. This page outlines what they are and redirects you to more detailed explanations of the different projects.
+description: There are a huge range of software platforms and tools that make the micro:bit work as well as it does. This page outlines what they are and directs you to more detailed explanations of the different projects.
 permalink: /software/
 ref: software
 lang: en
