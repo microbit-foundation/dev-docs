@@ -74,7 +74,7 @@ as being 1.7V min and 3.6V max.
 <!-- TODO: Update these paragraphs to detail that 270mA is TBC budget for V2 -->
 
 When powered from USB, the KL26 <span class="v1">v1</span> interface chip's on-board regulator is used
-to provide 3.3V to the rest of the board. The latest revision <span class="v2">V2</span> has a seperate regulator on the board.
+to provide 3.3V to the rest of the board. The latest revision <span class="v2">V2</span> has a separate regulator on the board.
 
 The [KL26 data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)<span class="v1">v1</span>
 section 3.8.2, Table 30. "USB VREG electrical specifications" indicates the maximum
@@ -111,7 +111,7 @@ between the supply and the nRF51 power rails), a fully charged **LiPoly battery*
 that is specced to reach 4.2V **will be give greater than the [3.6V maximum that
 the nRF51 can withstand**](#key-voltages)
 
-There is further information about the [battery connection and use](https://support.microbit.org/solution/articles/19000013982-how-do-i-power-my-micro-bit-/en) in our knowledgebase
+There is further information about the [battery connection and use](https://support.microbit.org/solution/articles/19000013982-how-do-i-power-my-micro-bit-/en) in our knowledge-base
 
 ### 3V Ring Powering
 
@@ -138,9 +138,8 @@ of over voltage protection, or proper regulation.
 The [schematic](/hardware/schematic/) shows the architecture of the power supply.
 Note that there are two BAT60A diodes, one from the 3.3V
 supply from the KL26/27 interface chip, and one from the external battery connector.
-The 3V ring on the edge connector is V_TGT, which is the raw
-supply provided to all on board chips, so this is why extra care
-should be taken when connecting directly to the 3V ring or the 3V losenge.
+The 3V ring on the edge connector is V_TGT, which is the raw supply provided to all on board chips.
+Extra care should be taken when connecting directly to the 3V ring or the elongated 3V pad on the rear of the board.
 
 The BAT60A devices have a low Vf rating, you can read about this in the
 [BAT60A datasheet](http://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9)
