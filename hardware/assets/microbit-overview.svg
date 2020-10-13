@@ -10191,7 +10191,7 @@
            style="stroke-width:1.55400813">
           <text
              id="text11421"
-             style="font-weight:600;font-size:12px;font-family:GTWalsheim-Bold, 'GT Walsheim';fill:#ffffff;stroke-width:1.55400813"
+             style="font-weight:600;font-size:12px;font-family:GTWalsheim-Bold, 'GT Walsheim', sans-serif;fill:#ffffff;stroke-width:1.55400813"
              y="188.97701"
              x="88.470001">PROCESSOR</text>
         </g>
@@ -10201,7 +10201,7 @@
            style="stroke-width:1.55400813">
           <text
              id="text11425"
-             style="font-weight:600;font-size:12px;font-family:GTWalsheim-Bold, 'GT Walsheim';fill:#ffffff;stroke-width:1.55400813"
+             style="font-weight:600;font-size:12px;font-family:GTWalsheim-Bold, 'GT Walsheim', sans-serif;fill:#ffffff;stroke-width:1.55400813"
              y="188.97701"
              x="88.470001">COMP<tspan
    id="tspan11427"
@@ -10216,7 +10216,7 @@ SS</text>
            style="stroke-width:1.55400813">
           <text
              id="text11431"
-             style="font-weight:600;font-size:12px;font-family:GTWalsheim-Bold, 'GT Walsheim';fill:#ffffff;stroke-width:1.55400813"
+             style="font-weight:600;font-size:12px;font-family:GTWalsheim-Bold, 'GT Walsheim', sans-serif;fill:#ffffff;stroke-width:1.55400813"
              y="188.97701"
              x="88.470001">A<tspan
    id="tspan11433"
@@ -10231,7 +10231,7 @@ CELEROMETER</text>
            style="stroke-width:1.55400813">
           <text
              id="text11437"
-             style="font-weight:600;font-size:12px;font-family:GTWalsheim-Bold, 'GT Walsheim';fill:#ffffff;stroke-width:1.55400813"
+             style="font-weight:600;font-size:12px;font-family:GTWalsheim-Bold, 'GT Walsheim', sans-serif;fill:#ffffff;stroke-width:1.55400813"
              y="188.97701"
              x="88.470001">PINS</text>
         </g>
@@ -10241,7 +10241,7 @@ CELEROMETER</text>
            style="stroke-width:1.55400813">
           <text
              id="text11441"
-             style="font-weight:600;font-size:12px;font-family:GTWalsheim-Bold, 'GT Walsheim';fill:#ffffff;stroke-width:1.55400813"
+             style="font-weight:600;font-size:12px;font-family:GTWalsheim-Bold, 'GT Walsheim', sans-serif;fill:#ffffff;stroke-width:1.55400813"
              y="188.97701"
              x="88.470001">USB</text>
         </g>
@@ -10251,7 +10251,7 @@ CELEROMETER</text>
            style="stroke-width:1.55400813">
           <text
              id="text11445"
-             style="font-weight:600;font-size:12px;font-family:GTWalsheim-Bold, 'GT Walsheim';fill:#ffffff;stroke-width:1.55400813"
+             style="font-weight:600;font-size:12px;font-family:GTWalsheim-Bold, 'GT Walsheim', sans-serif;fill:#ffffff;stroke-width:1.55400813"
              y="188.97701"
              x="88.470001">BLE ANTENNA</text>
         </g>
@@ -10261,7 +10261,7 @@ CELEROMETER</text>
            style="stroke-width:1.55400813">
           <text
              id="text11449"
-             style="font-weight:600;font-size:12px;font-family:GTWalsheim-Bold, 'GT Walsheim';fill:#ffffff;stroke-width:1.55400813"
+             style="font-weight:600;font-size:12px;font-family:GTWalsheim-Bold, 'GT Walsheim', sans-serif;fill:#ffffff;stroke-width:1.55400813"
              y="188.97701"
              x="88.470001">RESET</text>
         </g>
@@ -10271,7 +10271,7 @@ CELEROMETER</text>
            style="stroke-width:1.55400813">
           <text
              id="text11453"
-             style="font-weight:600;font-size:12px;font-family:GTWalsheim-Bold, 'GT Walsheim';fill:#ffffff;stroke-width:1.55400813"
+             style="font-weight:600;font-size:12px;font-family:GTWalsheim-Bold, 'GT Walsheim', sans-serif;fill:#ffffff;stroke-width:1.55400813"
              y="188.97701"
              x="88.470001">B<tspan
    id="tspan11455"
@@ -10291,7 +10291,7 @@ TER<tspan
            style="stroke-width:1.55400813">
           <text
              id="text11461"
-             style="font-weight:600;font-size:12px;font-family:GTWalsheim-Bold, 'GT Walsheim';fill:#ffffff;stroke-width:1.55400813"
+             style="font-weight:600;font-size:12px;font-family:GTWalsheim-Bold, 'GT Walsheim', sans-serif;fill:#ffffff;stroke-width:1.55400813"
              y="188.97701"
              x="88.470001">3V</text>
         </g>
