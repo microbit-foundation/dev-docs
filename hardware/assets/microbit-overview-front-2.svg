@@ -320,7 +320,7 @@
          id="tspan3368"
          x="65.011902"
          y="139.00655"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.75555611px;font-family:'GT Walsheim';-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px">LED matrix 5x5</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.75555611px;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px">LED matrix 5x5</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:'Tw Cen MT';-inkscape-font-specification:'Tw Cen MT, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -332,7 +332,7 @@
          id="tspan3368-0"
          x="12.213465"
          y="218.43295"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.75555611px;font-family:'GT Walsheim';-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px">Analogue/Digital I/O</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.75555611px;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px">Analogue/Digital I/O</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:100%;font-family:'Tw Cen MT';-inkscape-font-specification:'Tw Cen MT, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -346,7 +346,7 @@
          id="tspan3368-0-1"
          x="14.967314"
          y="234.27016"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:13.40555573px;line-height:100%;font-family:'GT Walsheim';-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px">-<tspan
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:13.40555573px;line-height:100%;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px">-<tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;font-family:Helvetica;-inkscape-font-specification:Helvetica"
    id="tspan3373"> Muxable to SPI, UART, I2C</tspan></tspan><tspan
          sodipodi:role="line"
@@ -370,7 +370,7 @@
          id="tspan3368-05"
          x="309.29242"
          y="41.918098"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.75555611px;font-family:'GT Walsheim';-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px">Micro USB</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.75555611px;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px">Micro USB</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:'Tw Cen MT';-inkscape-font-specification:'Tw Cen MT, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -382,11 +382,11 @@
          id="tspan3368-05-3"
          x="280.89926"
          y="289.85458"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.75555611px;font-family:'GT Walsheim';-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px">Edge Connector</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.75555611px;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px">Edge Connector</tspan><tspan
          sodipodi:role="line"
          x="280.89926"
          y="305.65903"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'GT Walsheim';-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px"
          id="tspan3452" /></text>
     <text
        xml:space="preserve"
@@ -398,7 +398,7 @@
          sodipodi:role="line"
          x="506.92905"
          y="218.79506"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.75555611px;font-family:'GT Walsheim';-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.75555611px;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px"
          id="tspan3454">External supply</tspan></text>
     <text
        xml:space="preserve"
@@ -411,11 +411,11 @@
          id="tspan3368-05-2"
          x="503.90524"
          y="170.03613"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.75555611px;font-family:'GT Walsheim';-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px">User buttons</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.75555611px;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px">User buttons</tspan><tspan
          sodipodi:role="line"
          x="503.90524"
          y="185.84058"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'GT Walsheim';-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px"
          id="tspan3466" /></text>
     <text
        xml:space="preserve"
@@ -428,11 +428,11 @@
          id="tspan3368-05-25"
          x="447.96475"
          y="52.863518"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'GT Walsheim';-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px">Front</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px">Front</tspan><tspan
          sodipodi:role="line"
          x="447.96475"
          y="61.330185"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'GT Walsheim';-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px"
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px"
          id="tspan3486" /></text>
     <text
        xml:space="preserve"
@@ -445,7 +445,7 @@
          id="tspan3368-05-7"
          x="21.607601"
          y="78.565903"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.75555611px;font-family:'GT Walsheim';-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px">Touch sensitive logo</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.75555611px;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px">Touch sensitive logo</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:80.00000119%;font-family:'Tw Cen MT';-inkscape-font-specification:'Tw Cen MT, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -457,7 +457,7 @@
          id="tspan3368-05-33"
          x="503.90521"
          y="81.589722"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.75555611px;font-family:'GT Walsheim';-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px">Microphone </tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.75555611px;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.26458332px">Microphone </tspan><tspan
          sodipodi:role="line"
          x="503.90521"
          y="97.394165"
