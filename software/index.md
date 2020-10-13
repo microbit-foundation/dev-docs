@@ -69,7 +69,7 @@ Among the most popular are the official ones listed at http://microbit.org/code 
 
 Here's a non-exhaustive list of possible code editors for use with the micro:bit. *please add any you know about that are not here*
 
-* [MakeCode)](https://makecode.microbit.org)
+* [MakeCode](https://makecode.microbit.org)
 * [Python](https://python.microbit.org)
 * [App Inventor](http://iot.appinventor.mit.edu/#/microbit/microbitintro)
 * [Arduino IDE (C++)](https://learn.adafruit.com/use-micro-bit-with-arduino/overview)
