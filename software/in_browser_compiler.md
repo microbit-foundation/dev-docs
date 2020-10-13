@@ -10,7 +10,7 @@ lang: en
 ---
 
 
-# Overview
+## Overview
 
 There are a number of different code editors for the micro:bit.
 Of the available editors; [MakeCode](https://makecode.microbit.org) and [Python](https://python.microbit.org) have an
@@ -30,7 +30,7 @@ micro:bit without needing to install any special software on your
 computer, which is especially important if working in a previously
 unused classroom, or on a public computer.
 
-# How it Works
+## How it Works
 
 ![img](/docs/software/assets/browser-build-pipeline.png)
 
@@ -41,10 +41,10 @@ The above diagram shows an example of how blocks code is converted into a
 computer.
 
 1b. Press the **Download** button, and the script is first
-converted into javascript. The in-browser-compiler then converts it into ARM machine code instructions.
+converted into javascript. The in-browser-compiler then converts it into Arm machine code instructions.
 
-1c. The ARM machine code instructions are 'linked' with the Lancaster University
-runtime code, [the DAL](/software/runtime-mbed) and converted into an [Intel-HEX file
+1c. The Arm machine code instructions are 'linked' with the Lancaster University
+runtime code, [the DAL](/software/runtime) and converted into an [Intel-HEX file
 format](/software/hex-format). This is done by ensuring that the in-browser-compiler knows the entry points
 of key functions that it needs to be able to call out into.
 
@@ -57,14 +57,14 @@ processor. Your code now runs.
 
 Because code is compiled in-browser, the compiler needs to have a copy of
 the runtime/DAL code in order to create a complete distributable package.
-There is a pre-compiled copy of the runtime (DAL+mbed) that gets loaded
+There is a pre-compiled copy of the runtime (DAL+Mbed) that gets loaded
 when you first load the editor.
 
 
-# Other Features
+## Other Features
 
 MakeCode supports two-way conversion of code, so you can write code as blocks and
-see what the generated code looks like in Javascript. You can also write Javascript code, and if
+see what the generated code looks like in Javascript/MakeCode Python. You can also write Javascript/MakeCode Python code, and if
 possible, MakeCode will convert this back into blocks automatically.
 
 Makecode also allows you to [write your own block types](https://makecode.com/extensions) and [publish them as Extensions](https://makecode.microbit.org/extensions).
@@ -77,7 +77,7 @@ to local files, and to and from a cloud store.
 Read more about how MicroPython works: [MicroPython on micro:bit](/software/micropython)
 
 
-# Contributions
+## Contributions
 
 The MakeCode editor is [open source](https://github.com/Microsoft/pxt-microbit), so you can develop your own feature and you can [log issues](https://github.com/Microsoft/PXT-microbit/issues/new) for the dev team to look into.
 

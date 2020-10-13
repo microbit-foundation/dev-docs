@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="960pt"
+   height="540pt"
+   viewBox="0 0 960 540"
+   id="svg10"
+   inkscape:version="0.91+devel+osxmenu r12922"
+   sodipodi:docname="v2block.svg">
+  <metadata
+     id="metadata291">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs289" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1263"
+     inkscape:window-height="902"
+     id="namedview287"
+     showgrid="false"
+     inkscape:zoom="0.965625"
+     inkscape:cx="640"
+     inkscape:cy="360"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g12" />
+  <g
+     enable-background="new"
+     id="g12">
+    <clipPath
+       id="cp0">
+      <path
+         transform="matrix(1,0,0,-1,0,540)"
+         d="M 0 .00001206994 L 959.76 .00001206994 L 959.76 540 L 0 540 Z "
+         id="path15" />
+    </clipPath>
+    <g
+       clip-path="url(#cp0)"
+       id="g17">
+      <path
+         transform="matrix(1,0,0,-1,0,540)"
+         d="M 0 540 L 959.76 540 L 959.76 .00001206994 L 0 .00001206994 Z "
+         fill="#ffffff"
+         id="path19" />
+    </g>
+    <path
+       transform="matrix(1,0,0,-1,0,540)"
+       d="M 0 540 L 959.75 540 L 959.75 .0000140816 L 0 .0000140816 Z "
+       fill="#ffffff"
+       id="path21" />
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,369.1035,160.0322)"
+       stroke-width="19050"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 1408386 0 L 1408386 1298027 L 0 1298027 Z "
+       id="path23" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 396.3017 755.04)"
+       font-size="50"
+       font-family="Helvetica"
+       font-weight="bold"
+       id="text25"><tspan
+         y="-2250"
+         x="0 30.73 66.66 97.39 124.97 152.55002 180.13004 207.71006"
+         id="tspan27">nRF52833</tspan></text>
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,649.3847,161.74881)"
+       stroke-width="19050"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 1408386 0 L 1408386 1298027 L 0 1298027 Z "
+       id="path29" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 686.5205 756.72)"
+       font-size="50"
+       font-family="Helvetica"
+       font-weight="bold"
+       id="text31"><tspan
+         y="-2250"
+         x="0 35.935 66.67 94.255 121.84"
+         id="tspan33">KL27Z</tspan></text>
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,667.6123,85.49841)"
+       stroke-width="19050"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#00c800"
+       d="M 0 0 L 928231 0 L 928231 430924 L 0 430924 Z "
+       id="path35" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 678.2818 646.32)"
+       font-size="50"
+       font-family="Helvetica"
+       id="text37"><tspan
+         y="-2250"
+         x="0 35.935 63.520006 91.105 118.69 129.625 157.21 171.29502 198.88002"
+         id="tspan39">Regulator</tspan></text>
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,810.3576,200.8587)"
+       stroke-width="19050"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 651641 0 L 651641 430924 L 0 430924 Z "
+       id="path41" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 821.6378 754.56)"
+       font-size="45.83333"
+       font-family="Helvetica"
+       id="text43"><tspan
+         y="-2250"
+         x="0 33.334585 58.854585 81.77125 107.291248 119.78999"
+         id="tspan45">Reset </tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 824.9528 767.52)"
+       font-size="45.83333"
+       font-family="Helvetica"
+       id="text47"><tspan
+         y="-2250"
+         x="0 30.731249 58.849996"
+         id="tspan49">BTN</tspan></text>
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,260.6897,206.6831)"
+       stroke-width="19050"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 641133 0 L 641133 430924 L 0 430924 Z "
+       id="path51" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 275.6186 767.52)"
+       font-size="50"
+       font-family="Helvetica"
+       id="text53"><tspan
+         y="-2250"
+         x="0 33.335004 47.420007 75.00501"
+         id="tspan55">Xtal</tspan></text>
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,806.8282,58.587587)"
+       stroke-width="19050"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 651641 0 L 651641 430924 L 0 430924 Z "
+       id="path57" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 821.7958 619.44)"
+       font-size="50"
+       font-family="Helvetica"
+       id="text59"><tspan
+         y="-2250"
+         x="0 25 58.335004"
+         id="tspan61">JST</tspan></text>
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,807.5427,111.33911)"
+       stroke-width="19050"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 651641 0 L 651641 430924 L 0 430924 Z "
+       id="path63" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 820.8854 672)"
+       font-size="50"
+       font-family="Helvetica"
+       id="text65"><tspan
+         y="-2250"
+         x="0 35.935 69.270008"
+         id="tspan67">USB</tspan></text>
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,260.6897,154.6246)"
+       stroke-width="19050"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 825062 0 L 825062 430924 L 0 430924 Z "
+       id="path69" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 270.9224 715.44)"
+       font-size="50"
+       font-family="Helvetica"
+       id="text71"><tspan
+         y="-2250"
+         x="0 33.335004 60.920007 75.005008 102.59001 130.17502 157.76003"
+         id="tspan73">Antenna</tspan></text>
+    <path
+       transform="matrix(-.00007874016,-0,0,.00007874016,648.3252,223.5615)"
+       stroke-width="31750"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 1052106 0 L 1052106 2794 L 2104212 2794 "
+       id="path75" />
+    <path
+       transform="matrix(-.00007874016,-0,0,-.00007874016,649.3351,194.02829)"
+       stroke-width="31750"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 1068450 0 L 1068450 742 L 2136900 742 "
+       id="path77" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 547.4608 728.88)"
+       font-size="45.83333"
+       font-family="Helvetica"
+       id="text79"><tspan
+         y="-2250"
+         x="0 30.731249 73.975"
+         id="tspan81">SWD</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 545.9492 758.64)"
+       font-size="45.83333"
+       font-family="Helvetica"
+       id="text83"><tspan
+         y="-2250"
+         x="0 33.334585 64.05666 97.39125"
+         id="tspan85">UART</tspan></text>
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,325.6552,171.59009)"
+       stroke-width="31750"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 551793 1 "
+       id="path87" />
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,311.1726,223.64859)"
+       stroke-width="31750"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 735722 1 "
+       id="path89" />
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,740.7013,102.4639)"
+       stroke-width="38100"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#e7645c"
+       d="M 0 0 L 424443 0 L 424443 328177 L 848886 328177 "
+       id="path91" />
+    <path
+       transform="matrix(.00007874016,0,0,-.00007874016,758.5157,183.2081)"
+       stroke-width="31750"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 311321.9 0 L 311321.9 697274 L 622643 697274 "
+       id="path93" />
+    <path
+       transform="matrix(.00007874016,0,0,-.00007874016,760.8268,243.94422)"
+       stroke-width="31750"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 954863 0 L 954863 116262 "
+       id="path95" />
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,424.5517,132.8176)"
+       stroke-width="38100"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#cd0365"
+       d="M 0 0 L 1 345626 "
+       id="path97" />
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,154.4978,132.8176)"
+       stroke-width="38100"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#c00000"
+       d="M 0 0 L 1 3687403 "
+       id="path99" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 730.7665 786.48)"
+       font-size="37.5"
+       font-family="Helvetica"
+       id="text101"><tspan
+         y="-2250"
+         x="0 29.167504 54.17251 64.59001"
+         id="tspan103">GPIO</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 656.5351 736.56)"
+       font-size="37.5"
+       font-family="Helvetica"
+       id="text105"><tspan
+         y="-2250"
+         x="0 29.167504 54.17251 64.59001"
+         id="tspan107">GPIO</tspan></text>
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,807.8436,255.7602)"
+       stroke-width="19050"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 715496 0 L 715496 430924 L 0 430924 Z "
+       id="path109" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 822.5127 816.24)"
+       font-size="45.83333"
+       font-family="Helvetica"
+       id="text111"><tspan
+         y="-2250"
+         x="0 25.52 56.265005 89.622509"
+         id="tspan113">LEDs</tspan></text>
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,760.8268,243.94422)"
+       stroke-width="31750"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 954862 0 L 954862 150064 "
+       id="path115" />
+    <path
+       transform="matrix(-.00007874016,-0,0,-.00007874016,647.7252,253.13159)"
+       stroke-width="31750"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#00c800"
+       d="M 0 0 L 1062540 0 L 1062540 4298 L 2125080 4298 "
+       id="path117" />
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,188.9046,322.1026)"
+       stroke-width="19050"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 641133 0 L 641133 430924 L 0 430924 Z "
+       id="path119" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 199.1461 875.76)"
+       font-size="50"
+       font-family="Helvetica"
+       id="text121"><tspan
+         y="-2250"
+         x="0 33.335004 64.07 100.005"
+         id="tspan123">BTNs</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 202.6461 889.68)"
+       font-size="50"
+       font-family="Helvetica"
+       id="text125"><tspan
+         y="-2250"
+         x="0 33.335004 62.520006"
+         id="tspan127">A+B</tspan></text>
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,251.6935,322.1026)"
+       stroke-width="19050"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 998486 0 L 998486 956441 L 0 956441 Z "
+       id="path129" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 268.0665 896.4)"
+       font-size="50"
+       font-family="Helvetica"
+       id="text131"><tspan
+         y="-2250"
+         x="0 27.605004 52.605005 80.21001 94.27501 121.88001 155.21501 191.15003"
+         id="tspan133">5x5 LED </tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 274.6915 910.32)"
+       font-size="50"
+       font-family="Helvetica"
+       id="text135"><tspan
+         y="-2250"
+         x="0 41.665 69.28001 83.34501 100.01001 110.92501"
+         id="tspan137">Matrix</tspan></text>
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,143.542,422.7704)"
+       stroke-width="19050"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 5319211 0 L 5319211 546538 L 0 546538 Z "
+       id="path139" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 309.7723 988.07998)"
+       font-size="50"
+       font-family="Helvetica"
+       id="text141"><tspan
+         y="-2250"
+         x="0 33.335004 60.940008 88.545009 116.15001 130.21501 166.15003 193.75502 221.36002 248.96501 276.57 301.57 315.635 343.24"
+         id="tspan143">Edge Connector</tspan></text>
+    <path
+       transform="matrix(0,-.00007874016,.00007874016,0,291.004,322.1026)"
+       stroke-width="31750"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 373761 0 L 373761 1154500 "
+       id="path145" />
+    <path
+       transform="matrix(.00007874016,0,0,-.00007874016,214.365,321.70899)"
+       stroke-width="31750"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 7054.497 0 L 7054.497 361033 L 983928 361033 "
+       id="path147" />
+    <path
+       transform="matrix(0,.00007874016,-.00007874016,-0,214.1462,356.0337)"
+       stroke-width="31750"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 421278 0 L 421278 1 L 842556 1 "
+       id="path149" />
+    <path
+       transform="matrix(0,.00007874016,.00007874016,0,291.004,397.41279)"
+       stroke-width="31750"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 163522 0 L 163522 1 L 327043 1 "
+       id="path151" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 238.499 954.95999)"
+       font-size="41.66666"
+       font-family="Helvetica"
+       id="text153"><tspan
+         y="-2250"
+         x="0 14.062498 44.27083 67.18749 76.56249 97.39582 108.85416 131.77083 154.6875 164.0625 184.89583"
+         id="tspan155">(Cols only)</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 374.9309 794.88)"
+       font-size="37.5"
+       font-family="Helvetica"
+       id="text157"><tspan
+         y="-2250"
+         x="0 29.167504 54.17251 64.59001"
+         id="tspan159">GPIO</tspan></text>
+    <path
+       transform="matrix(0,-.00007874016,.00007874016,0,350.4822,422.607)"
+       stroke-width="31750"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 1649128 0 L 1649128 455662 L 2046091 455662 "
+       id="path161" />
+    <text
+       fill="#00c800"
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 654.9252 795.6)"
+       font-size="37.5"
+       font-family="Helvetica"
+       id="text163"><tspan
+         y="-2250"
+         x="0 10.4175009 31.260003 58.327508"
+         id="tspan165">I2CS</tspan></text>
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,556.3986,321.70899)"
+       stroke-width="19050"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 998486 0 L 998486 956441 L 0 956441 Z "
+       id="path167" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 577.774 881.52)"
+       font-size="50"
+       font-family="Helvetica"
+       id="text169"><tspan
+         y="-2250"
+         x="0 41.665 69.28001 83.34501 94.26001 121.875019 149.49002"
+         id="tspan171">Motion </tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 576.7741 895.68)"
+       font-size="50"
+       font-family="Helvetica"
+       id="text173"><tspan
+         y="-2250"
+         x="0 33.335004 60.940008 88.545009 113.545009 141.15 157.81499"
+         id="tspan175">Sensor </tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 575.7091 910.56)"
+       font-size="50"
+       font-family="Helvetica"
+       id="text177"><tspan
+         y="-2250"
+         x="0 16.664999 44.280004 77.595 119.26 133.325 166.64"
+         id="tspan179">(LSM &amp; </tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 577.334 924.48)"
+       font-size="50"
+       font-family="Helvetica"
+       id="text181"><tspan
+         y="-2250"
+         x="0 30.73 64.060009 103.14001 136.47002"
+         id="tspan183">FXOS)</tspan></text>
+    <path
+       transform="matrix(0,-.00007874016,-.00007874016,-0,595.7091,321.70899)"
+       stroke-width="31750"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#00c800"
+       d="M 0 0 L 875232 0 L 875232 1464475 "
+       id="path185" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 535.474 787.92)"
+       font-size="45.83333"
+       font-family="Helvetica"
+       id="text187"><tspan
+         y="-2250"
+         x="0 12.498751 38.014169 71.36708 83.86583 96.36458 121.88 134.37876 159.89417 175.0054 200.52082 226.03623"
+         id="tspan189">I2C Internal</tspan></text>
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,456.3302,321.7201)"
+       stroke-width="19050"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#00c800"
+       d="M 0 0 L 998486 0 L 998486 956441 L 0 956441 Z "
+       id="path191" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 473.3907 903.12)"
+       font-size="50"
+       font-family="Helvetica"
+       id="text193"><tspan
+         y="-2250"
+         x="0 33.335004 60.940008 88.545009 116.15001 141.15001 168.755"
+         id="tspan195">Speaker</tspan></text>
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,362.0032,319.85353)"
+       stroke-width="19050"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#00c800"
+       d="M 0 0 L 998486 0 L 998486 956441 L 0 956441 Z "
+       id="path197" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 372.3137 901.2)"
+       font-size="50"
+       font-family="Helvetica"
+       id="text199"><tspan
+         y="-2250"
+         x="0 41.665 74.979999 116.645 149.95999 164.025 205.69 216.60501"
+         id="tspan201">MEMS mic</tspan></text>
+    <path
+       transform="matrix(0,-.00007874016,-.00007874016,-0,401.3137,319.85353)"
+       stroke-width="31750"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 345370.2 0 L 345370.2 189898 L 741121 189898 "
+       id="path203" />
+    <path
+       transform="matrix(0,-.00007874016,-.00007874016,-0,495.6408,321.7201)"
+       stroke-width="31750"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 369825.1 0 L 369825.1 1387851 L 764827 1387851 "
+       id="path205" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 446.2966 795.36)"
+       font-size="37.5"
+       font-family="Helvetica"
+       id="text207"><tspan
+         y="-2250"
+         x="0 10.4175009 31.260003 58.327508 89.59501"
+         id="tspan209">I2CM0</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 450.9344 766.32)"
+       font-size="37.5"
+       font-family="Helvetica"
+       id="text211"><tspan
+         y="-2250"
+         x="0 27.0825 52.065004 79.14751"
+         id="tspan213">UART</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 655.5252 766.08)"
+       font-size="37.5"
+       font-family="Helvetica"
+       id="text215"><tspan
+         y="-2250"
+         x="0 27.0825 52.065004 79.14751"
+         id="tspan217">UART</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 455.1312 736.08)"
+       font-size="33.33333"
+       font-family="Helvetica"
+       id="text219"><tspan
+         y="-2250"
+         x="0 22.396664 53.659997"
+         id="tspan221">SWD</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 373.399 715.92)"
+       font-size="37.5"
+       font-family="Helvetica"
+       id="text223"><tspan
+         y="-2250"
+         x="0 25.001254 52.102506"
+         id="tspan225">ANT</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 372.8451 765.36)"
+       font-size="37.5"
+       font-family="Helvetica"
+       id="text227"><tspan
+         y="-2250"
+         x="0 25.001254 35.415006 56.253759"
+         id="tspan229">Xtal</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 732.4945 725.76)"
+       font-size="37.5"
+       font-family="Helvetica"
+       id="text231"><tspan
+         y="-2250"
+         x="0 27.0825 52.065004"
+         id="tspan233">USB</tspan></text>
+    <path
+       transform="matrix(.00007874016,0,0,-.00007874016,152.2072,133.7413)"
+       stroke-width="31750"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#c00000"
+       d="M 0 0 L 7009760 0 L 7009760 181760 "
+       id="path235" />
+    <path
+       transform="matrix(.00007874016,0,0,-.00007874016,740.7013,102.4639)"
+       stroke-width="38100"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#e7645c"
+       d="M 0 0 L 419905.5 0 L 419905.5 341768 L 839811 341768 "
+       id="path237" />
+    <path
+       transform="matrix(0,.00007874016,.00007874016,0,704.1568,119.42941)"
+       stroke-width="31750"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#c00000"
+       d="M 0 0 L 268728 0 L 268728 8587 L 537456 8587 "
+       id="path239" />
+    <path
+       transform="matrix(0,-.00007874016,-.00007874016,-0,544.3988,423.68843)"
+       stroke-width="31750"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 1816045 0 L 1816045 1522057 L 2050407 1522057 "
+       id="path241" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 537.2601 975.36)"
+       font-size="37.5"
+       font-family="Helvetica"
+       id="text243"><tspan
+         y="-2250"
+         x="0 10.4175009 31.260003"
+         id="tspan245">I2C</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 151.3898 975.6)"
+       font-size="37.5"
+       font-family="Helvetica"
+       id="text247"><tspan
+         y="-2250"
+         x="0 20.835001"
+         id="tspan249">3V</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 460.0321 815.04006)"
+       font-size="45.83333"
+       font-family="Helvetica"
+       id="text251"><tspan
+         y="-2250"
+         x="0 12.49875 38.01875 71.35333 83.85208 109.372089 132.28876 144.7875 170.30751 185.40959 210.9296 236.4496"
+         id="tspan253">I2C external</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 412.9653 795.83999)"
+       font-size="37.5"
+       font-family="Helvetica"
+       id="text255"><tspan
+         y="-2250"
+         x="0 10.4175009 31.260003 58.327508 89.59501"
+         id="tspan257">I2CM1</tspan></text>
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,189.5361,241.3487)"
+       stroke-width="19050"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#00c800"
+       d="M 0 0 L 641133 0 L 641133 430924 L 0 430924 Z "
+       id="path259" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 201.5276 802.07998)"
+       font-size="50"
+       font-family="Helvetica"
+       id="text261"><tspan
+         y="-2250"
+         x="0 27.605004 55.210008 82.81501"
+         id="tspan263">Logo</tspan></text>
+    <path
+       transform="matrix(0,.00007874016,.00007874016,0,214.7776,275.2797)"
+       stroke-width="31750"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#00c800"
+       d="M 0 0 L 114310 0 L 114310 2256 L 228620 2256 "
+       id="path265" />
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,676.7139,371.35823)"
+       stroke-width="19050"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#00c800"
+       d="M 0 0 L 595028 1 "
+       id="path267" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 727.4846 914.64)"
+       font-size="45.83333"
+       font-family="Helvetica"
+       id="text269"><tspan
+         y="-2250"
+         x="0 30.731249 56.2375 81.74375 107.25 132.75626 145.24584 155.67292 181.17917 193.66875 224.4"
+         id="tspan271">Added in V2</tspan></text>
+    <path
+       transform="matrix(.00007874016,0,0,.00007874016,677.3816,395.16383)"
+       stroke-width="19050"
+       stroke-linecap="butt"
+       stroke-miterlimit="8"
+       stroke-linejoin="miter"
+       fill="none"
+       stroke="#000000"
+       d="M 0 0 L 595028 1 "
+       id="path273" />
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 731.1839 938.4)"
+       font-size="45.83333"
+       font-family="Helvetica"
+       id="text275"><tspan
+         y="-2250"
+         x="0 30.73125 45.833337 71.35333 94.27 119.78999 145.31 157.80875 170.3075 180.72542 206.24542"
+         id="tspan277">Present in </tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 783.6839 938.4)"
+       font-size="45.83333"
+       font-family="Helvetica"
+       id="text279"><tspan
+         y="-2250"
+         x="0 38.01875 48.436666 71.35333 86.455417 111.97542 124.47417 149.99417 160.4121"
+         id="tspan281">micro:bit</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(.24 0 -0 .24 828.1839 938.4)"
+       font-size="45.83333"
+       font-family="Helvetica"
+       id="text283"><tspan
+         y="-2250"
+         x="0 30.731249"
+         id="tspan285">V1</tspan></text>
+  </g>
+</svg>
