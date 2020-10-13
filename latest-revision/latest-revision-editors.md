@@ -13,7 +13,7 @@ lang: en
 * TOC
 {:toc}
 
-Thanks for your continuing support of the micro:bit. There is a wonderful  breadth of [third party editors](https://microbit.org/code/#other-editors) available for the micro:bit that support different coding languages and learning scenarios. This article provides information to help you continue to support the 5 million existing micro:bits in the world and the latest board revision with the exciting new features of a speaker and microphone.
+Thanks for your continuing support of the micro:bit. There are a wonderful breadth of [third party editors](https://microbit.org/code/#other-editors) available for the micro:bit that support different coding languages and learning scenarios. This article provides information to help you continue to support the 5 million existing micro:bits in the world and the latest board revision with the exciting new features of a speaker and microphone.
 
 If you'd like to keep up to date with technical information about the device, please sign up to our [DAL, Devices and Editors mailing list](http://eepurl.com/dyRx-v) which provides information on hardware revisions, or key low-level software changes as early as possible. 
 
@@ -67,7 +67,7 @@ The BLE Profile for the micro:bit has also been update to ensure compatibility w
 
  [Download the updated version of the BLE all services hex](https://preview-tech.microbit.org/latest-revision/assets/bluetooth-services.hex)
 
-The MakeCode Bluetooth package will  include all updates for the revised hardware and we will notify the DAL, Editors and Devices newsletter when this is available.
+The MakeCode Bluetooth package will include all updates for the revised hardware and we will notify the DAL, Editors and Devices newsletter when this is available.
 
 
 ## Identifying which micro:bits you can support
@@ -89,7 +89,7 @@ In the case of editors that use MicroPython, we propose the following approach w
 
 If an unknown micro:bit version is detected, but that micro:bit already contains MicroPython at a newer version than the one the editor knows about use the serial port to flash just the python script to the [filesystem](https://bbcmicrobitmicropython.readthedocs.io/en/latest/filesystem.html)
 
-This gives a teacher or facilitator who is unable to update their editors (for example due to IT restrictions), but who CAN update the base hex file on the micro:bit, the chance to quickly fix the problem while updating the editor in the background.
+This gives a teacher or facilitator who is unable to update their editors (for example due to IT restrictions), but who *can* update the base hex file on the micro:bit, the chance to quickly fix the problem while updating the editor in the background.
 
 ## Hex file compatibility
 
