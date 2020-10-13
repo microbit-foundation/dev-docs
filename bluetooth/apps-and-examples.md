@@ -33,14 +33,6 @@ if you know of any more. Many listed here are take from the [micro:bit Awesome l
 
 [micro:bit Blue App for Android](https://github.com/microbit-foundation/microbit-blue)
 
-[App Inventor + IoT](http://iot.appinventor.mit.edu/#/microbit/microbitintro) - Control a micro:bit via Bluetooth with App Inventor, a visual programming environment for Android applications.
-
-[BlockyTalkyBLE](https://www.playfulcomputation.group/blockytalkyble.html) - MakeCode and App Inventor extension that makes it easy to connect AppInventor mobile phone apps with the BBC micro:bit wirelessly over Bluetooth.
-
-[CBMicroBit](https://github.com/Louismac/CBMicroBit) - CoreBluetooth wrapper in C++ that connects a micro:bit to a computer running macOS using BLE and outputs over OSC (can be used standalone, or as a C++ or Objective C library).
-
-[evothings](https://evothings.com/evothings-and-the-bbc-microbit/)
-
 [droidscript microbit](http://www.microbit-js.org/controlling-microbit-with-droidscript/)
 
 [droidscript plugin](http://www.microbit-js.org/installing-the-microbit-plugin-for-droidscript/)
