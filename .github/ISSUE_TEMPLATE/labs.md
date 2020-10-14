@@ -7,9 +7,10 @@ about: Create a github issue to add your research or project to tech.microbit.or
 
 ---
 
-Edit as neccessary
+Edit as necessary
 
 ### Example Project
+
 ![Image](https://images.unsplash.com/photo-1552581234-26160f608093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80){:style="max-width: 50%;"}
 
 **Project abstract:** A brief summary of the project to help people reading this to understand it.
