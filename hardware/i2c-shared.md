@@ -32,7 +32,7 @@ Overall, this means 0x1D, 0x0E (from v1.3), 0x1F and 0x19 (for the revision) are
 ### Table of address used by micro:bit accessories (please edit)
 If you make an accessory for the micro:bit, please help us by editing the table below and sharing the details of the i2c addresses you use.
 
-| accessory name | organisation | i2c address(es) used | 
+| accessory name | organisation | i2c address(es) used |
 |----------------|--------------|-----------------------|
 | eg [banana-bit]()|eg Banana enterprises | eg 0x76, 0x29 |
 

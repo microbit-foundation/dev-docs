@@ -40,7 +40,7 @@ The editor has built in support for [Github authoring](https://makecode.com/blog
 Users can [publish their own tutorials](https://makecode.com/writing-docs/user-tutorials) for simple, guided steps on using MakeCode. Tutorials also support third party extensions.
 
 ### Community
-There are a variety of ways to get involved and interact 
+There are a variety of ways to get involved and interact
 - Join the [micro:bit developer community on Slack](../../community/)
 - Raise a [MakeCode issue or feature request](https://github.com/Microsoft/pxt-microbit/issues)
 - Ask the MakeCode development team on [MakeCode forum for micro:bit](https://forum.makecode.com/c/microbit/11)

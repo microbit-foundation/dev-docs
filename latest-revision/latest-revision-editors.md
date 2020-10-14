@@ -15,7 +15,7 @@ lang: en
 
 Thanks for your continuing support of the micro:bit. There is a wonderful  breadth of [third party editors](https://microbit.org/code/#other-editors) available for the micro:bit that support different coding languages and learning scenarios. This article provides information to help you continue to support the 5 million existing micro:bits in the world and the latest board revision with the exciting new features of a speaker and microphone.
 
-If you’d like to keep up to date with technical information about the device, please sign up to our [DAL, Devices and Editors mailing list](http://eepurl.com/dyRx-v) which provides information on hardware revisions, or key low-level software changes as early as possible. 
+If you’d like to keep up to date with technical information about the device, please sign up to our [DAL, Devices and Editors mailing list](http://eepurl.com/dyRx-v) which provides information on hardware revisions, or key low-level software changes as early as possible.
 
 ----------
 
@@ -23,7 +23,7 @@ Please note that we do as much development as possible in the open, so if you’
 
 
 - [Micro:bit Educational Foundation on GitHub](https://github.com/microbit-foundation)
-- [microbit-dal](https://github.com/lancaster-university/microbit-dal) 
+- [microbit-dal](https://github.com/lancaster-university/microbit-dal)
 - [CODAL](https://github.com/microbit-foundation/codal/)
 - [microbit](https://github.com/lancaster-university/microbit)
 - [MicroPython](https://github.com/bbcmicrobit/micropython)
@@ -34,8 +34,7 @@ Your tools are some of the most direct ways that users experience the micro:bit.
 
 ## If you’re using the microbit DAL/Runtime
 
-The most important change here is that the latest board revision runtime is based on [CODAL](https://lancaster-university.github.io/codal/)
-and no longer makes use of Arm Mbed.
+The most important change here is that the latest board revision runtime is based on [CODAL](https://lancaster-university.github.io/codal/) and no longer makes use of Arm Mbed.
 
 
 | V2   | v1
@@ -51,7 +50,7 @@ The [instructions for building CODAL](https://github.com/microbit-foundation/cod
 
 ## If you’re using MicroPython
 
-Based on the current work in CODAL we've also worked with Damien George, the author of MicroPython, to build the changes into an updated release of MicroPython for the micro:bit. 
+Based on the current work in CODAL we've also worked with Damien George, the author of MicroPython, to build the changes into an updated release of MicroPython for the micro:bit.
 
 The exisiting API has not changed. Scripts that use features that are common to all revisions will not be affected.
 
@@ -96,7 +95,7 @@ This gives a teacher or facilitator who is unable to update their editors (for e
 
 The latest board revision introduces a superset of the Intel-Hex format that enables compatibility across processor variants. A Universal Hex is a file that contains the binary data for both micro:bit <span class="v1">v1</span> and micro:bit <span class="v2">V2</span>, in a format that the DAPLink can process to only write to memory the data relevant to its micro:bit board.
 
-A **Universal Hex** hex file will work on a v1 or V2 board. 
+A **Universal Hex** hex file will work on a v1 or V2 board.
 A clear indication that you are working with this format is that a compiled .hex file will be ~1.8Mb as opposed to ~700Kb in size.
 
 A [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex) has been written to implement the format and associated detailed [specification of the Universal Hex format](https://github.com/microbit-foundation/universal-hex/).  Please [get in contact](mailto:support@microbit.org?subject=Request%20for%20access%20to%20Universal%20hex&20spec&body=Name%3A%0D%0A%0D%0AGitHub%20ID%3A) if you require access to the specification.

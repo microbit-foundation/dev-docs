@@ -35,7 +35,7 @@ It is possible to use the Python Editor offline to generate, upload and download
 - [MakeCode Technical Docs](https://makecode.com/docs) for general development
 
 ### Community
-There are a variety of ways to get involved and interact 
+There are a variety of ways to get involved and interact
 - Join the [micro:bit developer community on Slack](../../community/)
 - Raise a [Python Editor issue or feature request](https://github.com/bbcmicrobit/PythonEditor/issues)
 - Ask a question on the [MicroPython forum for micro:bit](https://forum.micropython.org/viewforum.php?f=17&sid=de047c3e944921889becbc00f02a918f)

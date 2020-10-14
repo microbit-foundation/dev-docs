@@ -9,13 +9,9 @@ ref: bluetooth
 lang: en
 ---
 
-Bluetooth applications can run on a variety of devices, including but not limited
-to smart phones and tablets. You can also run Bluetooth enabled applications
-on devices such as a Raspberry Pi.
+Bluetooth applications can run on a variety of devices, including but not limited to smart phones and tablets. You can also run Bluetooth enabled applications on devices such as a Raspberry Pi.
 
-Below is a curated list of some Bluetooth applications you might like to read
-about and try for yourself with your micro:bit. Please contribute to this list
-if you know of any more. Many listed here are take from the [micro:bit Awesome list](https://github.com/carlosperate/awesome-microbit)
+Below is a curated list of some Bluetooth applications you might like to read about and try for yourself with your micro:bit. Please contribute to this list if you know of any more. Many listed here are take from the [micro:bit Awesome list](https://github.com/carlosperate/awesome-microbit)
 
 
 ## Applications, tools and examples

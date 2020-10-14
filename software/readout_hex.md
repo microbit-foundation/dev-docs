@@ -14,7 +14,7 @@ review-with: jonnya
 
 ## Overview
 
-There may be occasions when you want to take a look at the programming that is running on the micro:bit or if you have misplaced the original program. 
+There may be occasions when you want to take a look at the programming that is running on the micro:bit or if you have misplaced the original program.
 
 ## uBitTool
 
