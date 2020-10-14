@@ -34,8 +34,7 @@ Your tools are some of the most direct ways that users experience the micro:bit.
 
 ## If you're using the micro:bit DAL/Runtime
 
-The most important change here is that the latest board revision runtime is based on [CODAL](https://lancaster-university.github.io/codal/)
-and no longer makes use of Arm Mbed.
+The most important change here is that the latest board revision runtime is based on [CODAL](https://lancaster-university.github.io/codal/) and no longer makes use of Arm Mbed.
 
 
 | V2   | v1

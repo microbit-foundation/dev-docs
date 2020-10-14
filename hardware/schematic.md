@@ -19,9 +19,7 @@ The schematic details the electrical connections and components of the micro:bit
 
 It is available from the BBC's [micro:bit hardware repository](https://github.com/bbcmicrobit/hardware)
 
-If you're looking to make something of your own based on the micro:bit, you might prefer to
-use our ['Reference Design'](/hardware/reference-design/) which is based on a pre-certified nRF51-based radio module and has space on the layout
-for you to add your own components.
+If you're looking to make something of your own based on the micro:bit, you might prefer to use our ['Reference Design'](/hardware/reference-design/) which is based on a pre-certified nRF51-based radio module and has space on the layout for you to add your own components.
 
 ## Schematics
 
@@ -71,9 +69,7 @@ Whilst we work on the publication of the schematic for the latest revision, here
 
 ## Key Features
 
-We've extracted some useful details about the hardware that anyone implementing
-software for the micro:bit, interfacing to it, or designing an add-on board for it
-should find useful.
+We've extracted some useful details about the hardware that anyone implementing software for the micro:bit, interfacing to it, or designing an add-on board for it should find useful.
 
 
 ### LEDS
@@ -87,49 +83,35 @@ Some of the Columns appear on the edge connector. If you want to use these as ex
 
 ### Interface
 
-The Interface sheet shows the KL26/<span class="v1">v1</span>KL27<span class="v2">v2</span> processor, which is an NXP microcontroller with an Arm processor, that implements
-the USB protocol for the USB connector. This provides a method for loading code onto the application
-processor, using a drag and drop interface.
+The Interface sheet shows the KL26/<span class="v1">v1</span>KL27<span class="v2">v2</span> processor, which is an NXP microcontroller with an Arm processor, that implements the USB protocol for the USB connector. This provides a method for loading code onto the application processor, using a drag and drop interface.
 
-The USB protocol handler on this processor implements a Mass Storage Class device in order to offer
-the drag and drop code load interface. It also provides a Connected Device Class that allows
-a serial port interface to be used across the USB.
+The USB protocol handler on this processor implements a Mass Storage Class device in order to offer the drag and drop code load interface. It also provides a Connected Device Class that allows a serial port interface to be used across the USB.
 
-The interface processor also contains an on-board regulator that steps down the USB voltage
-to 3.3V suitable for powering the rest of the micro:bit. You can draw 120mA<span class="v1">v1</span>/300mA<span class="v2">V2</span> from this  regulator. A TVS device is fitted to suppress ESD spikes and out-of-range voltages
-that could be present on the USB connector.
+The interface processor also contains an on-board regulator that steps down the USB voltage to 3.3V suitable for powering the rest of the micro:bit. You can draw 120mA<span class="v1">v1</span>/300mA<span class="v2">V2</span> from this  regulator. A TVS device is fitted to suppress ESD spikes and out-of-range voltages that could be present on the USB connector.
 
 This processor does not have any connection to the GPIO pins on the micro:bit.
 
 ### Sensors
 
-There is one combined motion sensor IC on the micro:bit, that contains an accelerometer and a magnetometer. The accelerometer
-measures acceleration in 3 axes. The magnetometer can be used as a compass or a magnetic field detector.
+There is one combined motion sensor IC on the micro:bit, that contains an accelerometer and a magnetometer. The accelerometer measures acceleration in 3 axes. The magnetometer can be used as a compass or a magnetic field detector.
 
 The device is connected to the application processor [I2c bus](../i2c/), and for the <span class="v1">v1</span> revision this [I2c bus is also connected](../i2c-shared/) to two pins on the edge connector. I2C pullup resistors are pre-fitted on the board.
 
-The magnetometer can generate one processor interrupt for the application processor, and the
-accelerometer can generate two different processor interrupts for the application processor.
+The magnetometer can generate one processor interrupt for the application processor, and the accelerometer can generate two different processor interrupts for the application processor.
 
-Note: the physical orientation of this IC is important for binary compatibility with the driver
-code in the application processor, which assumes a particular physical orientation in its calculations.
+Note: the physical orientation of this IC is important for binary compatibility with the driver code in the application processor, which assumes a particular physical orientation in its calculations.
 
 
 
 ### Power Supply
 
-Power to the micro:bit can be provided by 3 sources: USB, the battery connector, or the 3V pad
-on the edge connector.
+Power to the micro:bit can be provided by 3 sources: USB, the battery connector, or the 3V pad on the edge connector.
 
-For powering via USB, the KL26 interface processor has an on-board regulator that brings the external
-USB voltage into the correct range for the micro:bit board.
+For powering via USB, the KL26 interface processor has an on-board regulator that brings the external USB voltage into the correct range for the micro:bit board.
 
-A low-Vf diode (in this case about 0.23V max) is used to switch between sources. The diode prevents back-powering
-of any source from any other source.
+A low-Vf diode (in this case about 0.23V max) is used to switch between sources. The diode prevents back-powering of any source from any other source.
 
-Care should be taken if powering the micro:bit from the 3V pad on the edge connector, as the trace
-from that pad is connected directly to the ICs on the board. Please check the datasheets for the
-appropriate ICs for their maximum tolerable voltages.
+Care should be taken if powering the micro:bit from the 3V pad on the edge connector, as the trace from that pad is connected directly to the ICs on the board. Please check the datasheets for the appropriate ICs for their maximum tolerable voltages.
 
 
 
@@ -155,26 +137,21 @@ The edge connector is the main interface to external components attached to the 
 
 This interface has a range of digital, analog, touch, PWM, and serial communications interfaces.
 
-10Mohm weak pull-up resistors are fitted on P0, P1 and P2 for use in touch sensing mode. They
-provide a weak pull-up to the supply, providing a default high input. The user touching the GND
-pad and a given pin pulls the pin down towards 0V, providing a low input. When in non touch modes, these
-pads have stronger internal pull-downs enabled in the software, so that the default input state
-when not connected is 'low'.
+10Mohm weak pull-up resistors are fitted on P0, P1 and P2 for use in touch sensing mode. They provide a weak pull-up to the supply, providing a default high input. The user touching the GND pad and a given pin pulls the pin down towards 0V, providing a low input. When in non touch modes, these pads have stronger internal pull-downs enabled in the software, so that the default input state when not connected is 'low'.
 
-Guard pins are provided on both sides of the 3V and GND pads, so that shorting by crocodile clips
-does not degrade the features of the device by causing spurious inputs.
+Guard pins are provided on both sides of the 3V and GND pads, so that shorting by crocodile clips does not degrade the features of the device by causing spurious inputs.
 
 Both the front and the back of each of the 5 round ring pads are electrically connected.
 
-A number of pins have alternate assigned functions for use by the micro:bit, many of these
-can be disabled in software to gain more general purpose IO pins.
+A number of pins have alternate assigned functions for use by the micro:bit, many of these can be disabled in software to gain more general purpose IO pins.
 
 The <span class="v2">V2</span> board revision has a notched edge connector to make it easier to connect crocodile clips or wire. This does not affect compatibility with existing peripherals using edge connector sockets.
 
 ### Dimensions
 
-The specific dminensions of the board are
--  51.60mm(w) 42.00mm(h) 11.65mm(d)
+The specific dimensions of the board are:
+
+- 51.60mm(w) 42.00mm(h) 11.65mm(d)
 - JST connector to board 5.50mm
 - button depth to board 4.55mm
 - <span class="v2">V2</span> speaker depth to board 3.00mm

@@ -18,6 +18,7 @@ The internal lines run to the Nordic chip and communicate with the motion sensor
 The external lines run to the edge connector and can be used for accessories.
 
 ### I2c block diagram
+
 ![i2c block](/docs/hardware/assets/i2c-block.svg)
 
 ### Table of addresses used

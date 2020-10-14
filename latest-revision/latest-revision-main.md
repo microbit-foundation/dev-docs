@@ -12,13 +12,13 @@ lang: en
 * TOC
 {:toc}
 
-The [**latest revision**](./announcement/) of the BBC micro:bit is designed to be completely familiar to anyone who has used the original device. It’s the same size, shape, looks very similar, and works in the same way. Every program that could run on a micro:bit version 1 can be re-built to run on the latest revision. 
+The [**latest revision**](./announcement/) of the BBC micro:bit is designed to be completely familiar to anyone who has used the original device. It's the same size, shape, looks very similar, and works in the same way. Every program that could run on a micro:bit version 1 can be re-built to run on the latest revision. 
 
 The editors will support both versions simultaneously for features common to both boards, for example the motion sensor, LEDs, buttons etc.
 
 The latest revision builds upon the current micro:bit experience by refining the board and adding widely requested sound making and sensing capabilities.
 
-Amongst the micro:bit features, ‘sound’ is in a unique position of being already present in the editors, but not on the board, so it is already familiar to teachers, yet the speaker and microphone on the board are transformative in the kinds of applications people can build.
+Amongst the micro:bit features, ‘sound' is in a unique position of being already present in the editors, but not on the board, so it is already familiar to teachers, yet the speaker and microphone on the board are transformative in the kinds of applications people can build.
 
 
 ### Features
@@ -194,7 +194,7 @@ If you attempt to use an old .hex file without updating it, the micro:bit will d
 
 ## How do I get a device to test?
 
-If you haven’t already received a device, but would like one in order to test/develop an accessory or editor please contact us at [support@microbit.org](mailto:support@microbit.org?subject=Request%20for%20the%20latest%20micro%3Abit&body=Name%3A%0D%0A%0D%0AAddress%3A%0D%0A%0D%0AContact%20number%3A)
+If you haven't already received a device, but would like one in order to test/develop an accessory or editor please contact us at [support@microbit.org](mailto:support@microbit.org?subject=Request%20for%20the%20latest%20micro%3Abit&body=Name%3A%0D%0A%0D%0AAddress%3A%0D%0A%0D%0AContact%20number%3A)
 
 
 ## How do I find out more about the hardware and software updates?

@@ -11,13 +11,9 @@ lang: en
 
 ## Overview
 
-The micro:bit supports Bluetooth via a single BBC micro:bit profile 
-which was custom developed for the device. This profile
-allows it to communicate with other BLE capable devices.
+The micro:bit supports Bluetooth via a single BBC micro:bit profile, which was custom developed for the device. This profile allows it to communicate with other BLE capable devices.
 
-If you are looking for information about the 'radio' feature, it is a [proprietary protocol from Nordic
-and Lancaster University](https://lancaster-university.github.io/microbit-docs/ubit/radio/). This is not Bluetooth and the difference is described further in [this article on using the micro:bit wirelessly](https://support.microbit.org/support/solutions/articles/19000083637-using-the-micro-bit-wirelessly-)
-
+If you are looking for information about the 'radio' feature, it is a [proprietary protocol from Nordic and Lancaster University](https://lancaster-university.github.io/microbit-docs/ubit/radio/). This is not Bluetooth and the difference is described further in [this article on using the micro:bit wirelessly](https://support.microbit.org/support/solutions/articles/19000083637-using-the-micro-bit-wirelessly-)
 
 ## BBC micro:bit Bluetooth Profile
 
@@ -36,35 +32,23 @@ There are also some example programs in the [microbit-samples](https://github.co
 [bluetooth-eddystone-url]https://github.com/lancaster-university/microbit-samples/tree/master/source/examples/bluetooth-eddystone-url
 [bluetooth-uart]https://github.com/lancaster-university/microbit-samples/tree/master/source/examples/bluetooth-uart
 
-The micro:bit has a Bluetooth 4.1 stack with Bluetooth Low Energy (BLE) and supports
-the [GAP Perhipheral Role](https://bluetooth-developer.blogspot.com/2016/07/microbit-and-bluetooth-roles.html).
+The micro:bit has a Bluetooth 4.1 stack with Bluetooth Low Energy (BLE) and supports the [GAP Peripheral Role](https://bluetooth-developer.blogspot.com/2016/07/microbit-and-bluetooth-roles.html).
 
-As per all Bluetooth, it operates in the ISM (Industrial Scientific Medical) band
-and this starts at **2.4GHz and ends at 2.41GHz**. BLE divides the frequency
-band into 50 x 2MHz bands of which 40 are used.
+As per all Bluetooth, it operates in the ISM (Industrial Scientific Medical) band and this starts at **2.4GHz and ends at 2.41GHz**. BLE divides the frequency band into 50 x 2MHz bands of which 40 are used.
 These are called **channels** and numbered **0 to 39**.
-Channels 37, 38 and 39 are used for “advertising”.
+Channels 37, 38 and 39 are used for "advertising".
 
-When devices are connected, they use the other channels in a particular sequence
-controlled by a feature called **adaptive frequency hopping**.
-This helps reduce the impact of congestion from other radio users.
+When devices are connected, they use the other channels in a particular sequence controlled by a feature called **adaptive frequency hopping**. This helps reduce the impact of congestion from other radio users.
 
-Data transfer rates will only be a few 100K per second at best and it very much depends on
-how your application uses the Bluetooth features; lots of small temperature containing packets
-would have a lower data transfer rate than using the UART service, as it depends on the
-proportion of system protocol information vs. application data.
+Data transfer rates will only be a few 100K per second at best and it very much depends on how your application uses the Bluetooth features; lots of small temperature containing packets would have a lower data transfer rate than using the UART service, as it depends on the proportion of system protocol information vs. application data.
 
 There are some useful [advanced configuration options in the micro:bit runtime code](https://lancaster-university.github.io/microbit-docs/advanced/#compile-time-options-with-yotta)
 
-
 ## Challenge
 
-It would be possible for anyone with the appropriate knowledge to define and
-implement other Bluetooth profiles. You would need to use the Mbed C/C++ environment
-to do this.
+It would be possible for anyone with the appropriate knowledge to define and implement other Bluetooth profiles. You would need to use the Mbed C/C++ environment to do this.
 
 We are seeking collaborators to help us define the new profile elements that expose some of the <span class="v2">V2</span> features.
-
 
 ## Further information
 
