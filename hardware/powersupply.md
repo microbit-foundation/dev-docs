@@ -9,7 +9,6 @@ ref: hardware
 lang: en
 ---
 
-
 ## Overview
 
 Power to the micro:bit may be provided via:
@@ -23,15 +22,15 @@ Power from the micro:bit can be provided by the 3V and GND pins to small externa
 
 It's is important to stay within the design parameters of the board:
 
-* When powered from USB, the on board interface chip (KL26<span class="v1">v1</span>/KL27<span class="v2">V2</span>) uses it's on chip regulator to provide power, and this chip is rated at a maximum of 120mA.
+- When powered from USB, the on board interface chip (KL26<span class="v1">v1</span>/KL27<span class="v2">V2</span>) uses it's on chip regulator to provide power, and this chip is rated at a maximum of 120mA.
 
-* The on-board current budget will vary depending on the use of the display, the Bluetooth, microphone, speaker and other peripherals. You should allow a worst case budget of 30mA for when all on board peripherals are in use, leaving <span class="v1">v1</span>90mA/<span class="v2">V2</span>270mA for circuits plugged into the edge connector.
+- The on-board current budget will vary depending on the use of the display, the Bluetooth, microphone, speaker and other peripherals. You should allow a worst case budget of 30mA for when all on board peripherals are in use, leaving <span class="v1">v1</span>90mA/<span class="v2">V2</span>270mA for circuits plugged into the edge connector.
 
-* When powered from a battery, the KL chip is not powered up and the USB Indicator LED will not light up.
+- When powered from a battery, the KL chip is not powered up and the USB Indicator LED will not light up.
 
-* A low-Vf diode is used to switch between sources. The diode prevents back-powering of any source from any other source and means you can have a USB cable and battery pack connected simultaneously.
+- A low-Vf diode is used to switch between sources. The diode prevents back-powering of any source from any other source and means you can have a USB cable and battery pack connected simultaneously.
 
-### Key Voltages
+## Key Voltages
 
 As taken from each of the chip data sheets, it can be seen that different devices have slightly different operating voltage ranges and absolute maximum voltages. Manufacturers state the operating voltage range as well as the absolute maximum tolerable by the device. You should never exceed the operating voltage range of any of the devices.
 
@@ -91,7 +90,6 @@ When powering from the 3V ring or the losenge on the PCB, you should take approp
 1. Fit an external protection diode (preferably with a low Vf rating) to prevent damage due to the power supply being connected the wrong way round.
 
 2. If powered from a voltage source that could generate a voltage higher than the maximum operating voltage of the micro:bit, fit some form of over voltage protection, or proper regulation.
-
 
 ### Power Supply Architecture v1
 

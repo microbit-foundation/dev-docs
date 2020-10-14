@@ -9,7 +9,6 @@ ref: software
 lang: en
 ---
 
-
 ## Overview
 
 MicroPython is a version of the popular Python programming language for devices like the micro:bit. It's free software: creating, maintaining and documenting MicroPython is the work of an international team of volunteers.
@@ -21,9 +20,8 @@ There are many ways to use MicroPython on the micro:bit. You can use:
 3. Your regular editor to create Python files and a suite of command line tools to interact with the device (for advanced users only).
 5. One of the [third party editors](https://microbit.org/code/#other-editors) listed on the website.
 
-
-
 ## MicroPython Tools
+
 - [uFlash](https://uflash.readthedocs.io/en/latest/)
 A utility for flashing the BBC micro:bit with Python scripts and the MicroPython runtime. You pronounce the name of this utility “micro-flash”. ;-)
 
@@ -35,7 +33,6 @@ It provides two services:
 A simple command line tool and module for interacting with the limited file system provided by MicroPython on the BBC micro:bit.
 
 Finally, there are great [tutorials for MicroPython on the micro:bit](https://microbit-micropython.readthedocs.io/en/latest/tutorials/introduction.html).
-
 
 ## What is MicroPython?
 
@@ -64,7 +61,6 @@ When MicroPython is loaded to the micro:bit in this way, it obviously doesn't ha
 
 More interesting still, if the .hex file you copied onto the device *does* contain some of your code, it's still possible to connect with the REPL and interact with your program. This is very useful for debugging purposes.
 
-
 ### Adding a User Application to MicroPython
 
 Both the web hosted and the offline editor (Mu) have a copy of this MicroPython .hex file inside them, as a plain text file.
@@ -80,7 +76,6 @@ As a result, Mu and the `uflash` command are able to retrieve your Python code f
 
 When you flash (i.e. copy) a .hex file into the micro:bit it reboots.
 MicroPython looks for your script in a special memory address. If it finds a script it'll attempt to run it. Your program will run all the while there is something to do, so it will keep going all the while your program loops around, or until an error occurs (at which time the program will stop and scroll a helpful error message on the device).
-
 
 ### Is MicroPython Compiled or Interpreted? It's Both!
 
@@ -127,47 +122,46 @@ Many people in the international Python community have contributed free-to-use r
 
 Tutorials and API documentation for developers can be [found here](https://microbit-micropython.readthedocs.io/en/latest/).
 
-
 ### Logging an Issue with the Development Team
 
-[Show open issues](https://github.com/bbcmicrobit/micropython/issues)
+- [Show open issues](https://github.com/bbcmicrobit/micropython/issues)
 
-[Log a new issue](https://github.com/bbcmicrobit/micropython/issues/new)
+- [Log a new issue](https://github.com/bbcmicrobit/micropython/issues/new)
 
-[Ask a question on the mailing list](https://mail.python.org/mailman/listinfo/microbit) (you must be a member of the mailing list before you can post to it).
+- [Ask a question on the mailing list](https://mail.python.org/mailman/listinfo/microbit) (you must be a member of the mailing list before you can post to it).
 
 ### Source Code
 
-[MicroPython on the micro:bit source code](https://github.com/bbcmicrobit/micropython)
+- [MicroPython on the micro:bit source code](https://github.com/bbcmicrobit/micropython)
 
-[Documentation source code](https://github.com/bbcmicrobit/micropython/tree/master/docs).
+- [Documentation source code](https://github.com/bbcmicrobit/micropython/tree/master/docs).
 
-[MicroPython source code](https://github.com/micropython/micropython).
+- [MicroPython source code](https://github.com/micropython/micropython).
 
-[Browser based editor](https://github.com/bbcmicrobit/PythonEditor)
+- [Browser based editor](https://github.com/bbcmicrobit/PythonEditor)
 
-[Mu source code](https://github.com/mu-editor)
+- [Mu source code](https://github.com/mu-editor)
 
-[uFlash](https://github.com/ntoll/uflash)
+- [uFlash](https://github.com/ntoll/uflash)
 
-[microfs](https://github.com/ntoll/microfs)
+- [microfs](https://github.com/ntoll/microfs)
 
 ### Other Links
 
-All development is covered by the Python Software Foundation's [code of conduct](https://www.python.org/psf/codeofconduct/).
+- All development is covered by the Python Software Foundation's [code of conduct](https://www.python.org/psf/codeofconduct/).
 
-The [Python Software Foundation](https://www.python.org/psf-landing/) represents, supports and coordinates the wider Python community.
+- The [Python Software Foundation](https://www.python.org/psf-landing/) represents, supports and coordinates the wider Python community.
 
-Learn how to [embed assembly language](http://docs.micropython.org/en/latest/pyboard/pyboard/tutorial/assembler.html) in your Python scripts (this feature is enabled for MicroPython on the micro:bit).
+- Learn how to [embed assembly language](http://docs.micropython.org/en/latest/pyboard/pyboard/tutorial/assembler.html) in your Python scripts (this feature is enabled for MicroPython on the micro:bit).
 
-Pycomic's [micro:bit image maker](https://pycomic.github.io/microbit.html) allows you to create images to use in documentation.
+- Pycomic's [micro:bit image maker](https://pycomic.github.io/microbit.html) allows you to create images to use in documentation.
 
-Lots of MicroPython / BBC micro:bit videos can be found on [this YouTube playlist](https://www.youtube.com/playlist?list=PLzCYc445IVNQimtxAlPpaFMtvv8qKSncK).
+- Lots of MicroPython / BBC micro:bit videos can be found on [this YouTube playlist](https://www.youtube.com/playlist?list=PLzCYc445IVNQimtxAlPpaFMtvv8qKSncK).
 
-The Python Software Foundation's description of their involvement in the project can be found in [this blog post](https://pyfound.blogspot.co.uk/2016/03/a-million-children.html).
+- The Python Software Foundation's description of their involvement in the project can be found in [this blog post](https://pyfound.blogspot.co.uk/2016/03/a-million-children.html).
 
-One of the contributors to the project [gave a keynote address](https://www.youtube.com/watch?v=JVaF6uZuSIU) to the 2016 European Python Programming conference (EuroPython).
+- One of the contributors to the project [gave a keynote address](https://www.youtube.com/watch?v=JVaF6uZuSIU) to the 2016 European Python Programming conference (EuroPython).
 
-A [CAS Chat](https://www.youtube.com/watch?v=zEqQq8K89Y4) about the micro:bit and MicroPython gives an interesting perspective of the wider project.
+- A [CAS Chat](https://www.youtube.com/watch?v=zEqQq8K89Y4) about the micro:bit and MicroPython gives an interesting perspective of the wider project.
 
-[CAS.TV MicroPython demo](https://www.youtube.com/watch?v=hUIObK3MHL8)   media offset 23:53
+- [CAS.TV MicroPython demo](https://www.youtube.com/watch?v=hUIObK3MHL8)   media offset 23:53

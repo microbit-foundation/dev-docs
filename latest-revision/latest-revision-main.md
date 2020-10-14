@@ -20,7 +20,6 @@ The latest revision builds upon the current micro:bit experience by refining the
 
 Amongst the micro:bit features, ‘sound’ is in a unique position of being already present in the editors, but not on the board, so it is already familiar to teachers, yet the speaker and microphone on the board are transformative in the kinds of applications people can build.
 
-
 ### Features
 
 - On board speaker
@@ -29,13 +28,11 @@ Amongst the micro:bit features, ‘sound’ is in a unique position of being alr
 - Built-in sleep/off mode that means the board can be powered-down with batteries connected
 - Discrete regulator that can supply up to 190mA of current to external accessories
 
-
 ### Refinements
 
 - Notched edge connector. To make it easier to connect things like crocodile clips and conductive thread
 - Power LED indicator. In addition to the USB activity indicator, a power LED shows whether the micro:bit is powered on or off
 - Gold plated antenna. To easily identify the radio/Bluetooth component
-
 
 ### Hardware specification
 
@@ -61,25 +58,25 @@ These pages provide further guidance on the updates for different audiences.
 
 ### [Guidance for content producers](./content/)
 
-
 ## Comparison
 
 ### Feature comparison
+
 ![Table of features](/docs/latest-revision/assets/comparison-table.png)
 
 ### Front
+
 ![Comparison front](/docs/latest-revision/assets/comparison-front.png)
 
 ### Back
-![Comparison back](/docs/latest-revision/assets/comparison-back.png)
 
+![Comparison back](/docs/latest-revision/assets/comparison-back.png)
 
 ## Universal Editors & Universal Hex Files
 
 In an effort to ensure the greatest degree of continuity for teachers, users will not need to select which version of the device they have before using MakeCode or the Python Editor. Instead, the editors will suport a new format called “universal hex” which can run on both micro:bit V1 and micro:bit V2 (more below)
 
 This means that you can use MakeCode or the online Python Editor as you always have, to use all of the features that are common to both version of the BBC micro:bit: Display, buttons, motion sensing, gestures like shake, light sensing, and even the Music blocks.
-
 
 ## Feature availability
 
@@ -139,25 +136,26 @@ To access the features of the latest revision only (eg. to output sound only on 
 
 Features that are common to all board variants will work in the same way they always have. For example, you will be able to use the same blocks in MakeCode to use the acceleromater on any board revision.
 
-
 ### Makecode
+
 You can use the latest board revision in the beta editor [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta)
 
-**Using the new features in MakeCode**
+#### Using the new features in MakeCode
 
 An extension has been developed to include the microphone and logo touch features currently available. [https://github.com/microbit-foundation/pxt-microbit-v2-extension](https://github.com/microbit-foundation/pxt-microbit-v2-extension)
-
 
 1. Open [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta)
 2. Select Advanced > Add Extension and paste [https://github.com/microbit-foundation/pxt-microbit-v2-extension](https://github.com/microbit-foundation/pxt-microbit-v2-extension) into the search box.
 3. Click on the extension to add it to the toolbox.
 
-**V2 MakeCode APIs**
+#### V2 MakeCode APIs
+
 The Microphone and Logo touch features can be found in the Input menu
 
 The Speaker features can be found in the music menu
 
 ### Python
+
 You can use the latest board revision and APIs in the Python beta editor:
 
  [https://python.microbit.org/v/beta](https://python.microbit.org/v/beta/)
@@ -169,7 +167,6 @@ You can use the latest board revision and APIs in the Python beta editor:
 
 ![Copy main.py](/docs/latest-revision/assets/copy-main-py-mu.gif){: width="600"}
 
-
 ## Universal Hex Format
 
 The editors and apps are compatible with and will let you download and flash a file to any micro:bit revision. This is called a  **Universal Hex** file. A clear indication that you are working with this format is that a compiled .hex file will be ~1.8Mb as opposed to ~700Kb in size.
@@ -178,10 +175,9 @@ More information about this is available on our [hex format](../software/hex-for
 
 The Foundation has written a javascript library to generate these files - you do not need to re-implement any file generation.
 
-
 ### Bluetooth BLE
-A hex file that enables all micro:bit Bluetooth services is available to use for testing BLE. [Download the updated version of the BLE all services hex](/docs/latest-revision/assets/bluetooth-services.hex)
 
+A hex file that enables all micro:bit Bluetooth services is available to use for testing BLE. [Download the updated version of the BLE all services hex](/docs/latest-revision/assets/bluetooth-services.hex)
 
 ## Will my saved hex files work with the new board?
 
@@ -191,16 +187,13 @@ If you attempt to use an old .hex file without updating it, the micro:bit will d
 
 ![Compatibility error](/docs/software/assets/compat-error.gif)
 
-
 ## How do I get a device to test?
 
 If you haven’t already received a device, but would like one in order to test/develop an accessory or editor please contact us at [support@microbit.org](mailto:support@microbit.org?subject=Request%20for%20the%20latest%20micro%3Abit&body=Name%3A%0D%0A%0D%0AAddress%3A%0D%0A%0D%0AContact%20number%3A)
 
-
 ## How do I find out more about the hardware and software updates?
 
 Our [DAL, Devices and Editors mailing list](http://eepurl.com/dyRx-v) provides up to date information about the any technical changes regarding the micro:bit.
-
 
 ## How do I feed back or raise issues?
 

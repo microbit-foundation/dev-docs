@@ -9,7 +9,6 @@ ref: software
 lang: en
 ---
 
-
 ## Overview
 
 There are a number of different code editors for the micro:bit.
@@ -40,7 +39,6 @@ The above diagram shows an example of how blocks code is converted into a .hex f
 Because code is compiled in-browser, the compiler needs to have a copy of the runtime/DAL code in order to create a complete distributable package.
 There is a pre-compiled copy of the runtime (DAL+Mbed) that gets loaded when you first load the editor.
 
-
 ## Other Features
 
 MakeCode supports two-way conversion of code, so you can write code as blocks and see what the generated code looks like in Javascript/MakeCode Python. You can also write Javascript/MakeCode Python code, and if possible, MakeCode will convert this back into blocks automatically.
@@ -50,7 +48,6 @@ Makecode also allows you to [write your own block types](https://makecode.com/ex
 The Python web editor does not use the in-browser compiler. It only sits inside the frame of the website, but it gains access to the save and import functionality for saving and loading scripts to local files, and to and from a cloud store.
 
 Read more about how MicroPython works: [MicroPython on micro:bit](/software/micropython)
-
 
 ## Contributions
 

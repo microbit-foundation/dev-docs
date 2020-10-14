@@ -16,8 +16,8 @@ The motion sensors on the board are on the same I2C bus as the edge connector I2
 The v1.5 micro:bit has a footprint for two different motion sensors: one made by ST (the LSM303AGR) and one by NXP (FXOS8700CQ). The micro:bit DAL supports both of these sensors, detecting them at runtime. To date, all v1.5 boards have been manufactured with the LSM303AGR, however we may switch to the NXP part. Before doing so we will perform a round of testing and notify the [DAL and Devices mailing list.](http://eepurl.com/dyRx-v)
 
 ### i2c block diagram
-![i2c block](/docs/hardware/assets/i2c-block.svg)
 
+![i2c block](/docs/hardware/assets/i2c-block.svg)
 
 ### Table of addresses used
 
@@ -30,16 +30,18 @@ The v1.5 micro:bit has a footprint for two different motion sensors: one made by
 Overall, this means 0x1D, 0x0E (from v1.3), 0x1F and 0x19 (for the revision) are reserved for onboard use.
 
 ### Table of address used by micro:bit accessories (please edit)
+
 If you make an accessory for the micro:bit, please help us by editing the table below and sharing the details of the i2c addresses you use.
 
 | accessory name | organisation | i2c address(es) used |
 |----------------|--------------|-----------------------|
 | eg [banana-bit]()|eg Banana enterprises | eg 0x76, 0x29 |
 
-
 ### Acceptable capacitance for I2C accessories
 
 In our recent testing for the motion sensor change, we found that a 10nF cap connected SCL-GND slowed down the i2c bus, but it continued to operate. Separately, capacitance was added to SDA until it ceased operation:
+
 - 100KHz continued with 1nF but failed with 2nF.
 - 400kHz continued with 150pF but failed with 180pF.
+
 No difference was seen between the revisions.
