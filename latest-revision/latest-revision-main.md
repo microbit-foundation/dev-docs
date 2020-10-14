@@ -187,7 +187,7 @@ A hex file that enables all micro:bit Bluetooth services is available to use for
 
 Yes, however you will need to update the files by dragging and dropping them into the software editor in which they were created.
 
-If you attempt to use an old .hex file without updating it, the micro:bit will display a compatibility error eg. `:( 029`
+If you attempt to use an old .hex file without updating it, the micro:bit will display a compatibility error eg. `:( 529`
 
 ![Compatibility error](/docs/software/assets/compat-error.gif)
 
