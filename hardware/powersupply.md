@@ -17,7 +17,7 @@ Power to the micro:bit may be provided via:
 - USB connection via the interface chip (which has an on-board regulator)
 - A battery plugged into the JST connector
 - The 3V and GND pins on the edge connector
-- The two elongated pads on the rear right of the board
+- The two rounded-rectangle pads on the rear right of the board
 
 Power from the micro:bit can be provided by the 3V and GND pins to small external circuits.
 
@@ -85,9 +85,9 @@ There is further information about the [battery connection and use](https://supp
 ### 3V Ring Powering
 
 The micro:bit may be powered from the 3V/GND rings on the edge connector.
-There are also two elongated pads on the far right of the back of the PCB that can be used to supply power (e.g. solderable pads for a 2xAAA holder that has wires or pins at one edge). [The topmost pad is 0V and the bottom most pad is 3V](../../accessories/making-accessories/#battery-pads).
+There are also two rounded-rectangle pads on the far right of the back of the PCB that can be used to supply power (e.g. solderable pads for a 2xAAA holder that has wires or pins at one edge). [The topmost pad is 0V and the bottom most pad is 3V](../../accessories/making-accessories/#battery-pads).
 
-When powering from the 3V ring or the elongated pads on the PCB, you should take appropriate best practice precautions:
+When powering from the 3V ring or the rounded-rectangle pads on the PCB, you should take appropriate best practice precautions:
 
 1. Fit an external protection diode (preferably with a low Vf rating) to prevent damage due to the power supply being connected the wrong way round.
 
