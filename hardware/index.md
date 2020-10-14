@@ -78,7 +78,7 @@ including smartphones and tablets.
 
 ### Low level radio communications
 
-The on board 2.4GHz transciever supports a number of other radio communications standards, on which we build the microbit-radio protocol
+The on board 2.4GHz transceiver supports a number of other radio communications standards, on which we build the microbit-radio protocol
 This protocol provides a very simple small-packet broadcast radio interface between other devices
 that support it, such as other micro:bit devices.
 The 'radio' interface that appears in a number of the languages on the micro:bit

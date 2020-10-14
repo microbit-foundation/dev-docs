@@ -68,7 +68,7 @@ Firstly, you should get yourself into a situation where you can build the micro:
 
 If you would have a feature request, or would like to get involved in the micro:bit runtime development, visit the [list of open issues](https://github.com/lancaster-university/microbit-dal/issues) and raise a new issue if it isn't already in there. 
 
-You can also join the [microbit developer community on Slack](/community) if you'd like to discuss the micro:bit runtime and its components.
+You can also join the [micro:bit developer community on Slack](/community) if you'd like to discuss the micro:bit runtime and its components.
 
 If you think you've found a bug in the DAL, please [log a new issue in the GitHub DAL repository](https://github.com/lancaster-university/microbit-dal/issues/new)
 

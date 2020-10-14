@@ -17,11 +17,9 @@ Below is a curated list of some Bluetooth applications you might like to read
 about and try for yourself with your micro:bit. Please contribute to this list
 if you know of any more. Many listed here are take from the [micro:bit Awesome list](https://github.com/carlosperate/awesome-microbit)
 
-
 ## Applications, tools and examples
 
-
-[Android App](https://play.google.com/store/apps/details?id=com.samsung.microbit) faciliates [pairing and flashing programs to the micro:bit](https://support.microbit.org/en/support/solutions/articles/19000051025-pairing-and-flashing-code-via-bluetooth)
+[Android App](https://play.google.com/store/apps/details?id=com.samsung.microbit) facilitates [pairing and flashing programs to the micro:bit](https://support.microbit.org/en/support/solutions/articles/19000051025-pairing-and-flashing-code-via-bluetooth)
 
 [iOS App](https://apps.apple.com/gb/app/micro-bit/id1092687276)faciliates [pairing and flashing programs to the micro:bit](https://support.microbit.org/en/support/solutions/articles/19000051025-pairing-and-flashing-code-via-bluetooth)
 
@@ -33,15 +31,15 @@ if you know of any more. Many listed here are take from the [micro:bit Awesome l
 
 [micro:bit Blue App for Android](https://github.com/microbit-foundation/microbit-blue)
 
-[droidscript microbit](http://www.microbit-js.org/controlling-microbit-with-droidscript/)
+[droidscript micro:bit](http://www.microbit-js.org/controlling-microbit-with-droidscript/)
 
 [droidscript plugin](http://www.microbit-js.org/installing-the-microbit-plugin-for-droidscript/)
 
 [Kitronik Move](https://play.google.com/store/apps/details?id=com.kitronik.blemove) - Android app that presents a D-Pad interface to control a micro:bit over Bluetooth LE.
 
-[Workbench](https://edu.workbencheducation.com/partners/microbit) is amulti-device coding canvas for block-based programming that connects with BLE devices via Chrome Web Bluetooth.
+[Workbench](https://edu.workbencheducation.com/partners/microbit) is a multi-device coding canvas for block-based programming that connects with BLE devices via Chrome Web Bluetooth.
 
-[microBit.js](https://github.com/antefact/microBit.js) - JavaScript library to interact with BBC micro:bit using web bluetooth API.
+[microBit.js](https://github.com/antefact/microBit.js) - JavaScript library to interact with BBC micro:bit using web Bluetooth API.
 
 [microbit-web-bluetooth](https://github.com/thegecko/microbit-web-bluetooth) - Web Bluetooth library implementing the micro:bit Bluetooth Profile.
 

@@ -2,7 +2,7 @@
 
 # Microbit Developer Community Docs
 
-These docs form the content that is rendered into the [micro:bit Developer Commmunity site](http://tech.microbit.org)
+These docs form the content that is rendered into the [micro:bit Developer Community site](http://tech.microbit.org)
 
 ## Using these docs
 

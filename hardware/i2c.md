@@ -11,13 +11,14 @@ lang: en
 
 ## Use of the  I2c bus
 
-The I2c bus for the latest revision of the micro:bit seperates the I2c lines into Internal and External use. The [previous revisions share the I2C bus](../i2c-shared/) with the Edge connector and nRF chip.
+The I2c bus for the latest revision of the micro:bit separates the I2c lines into Internal and External use. The [previous revisions share the I2C bus](../i2c-shared/) with the Edge connector and nRF chip.
 
 The internal lines run to the Nordic chip and communicate with the motion sensor and KL27 interface.
 
 The external lines run to the edge connector and can be used for accessories.
 
 ### I2c block diagram
+
 ![i2c block](/docs/hardware/assets/i2c-block.svg)
 
 ### Table of addresses used

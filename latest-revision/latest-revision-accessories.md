@@ -15,11 +15,11 @@ lang: en
 
 ## Overview
 
-Thanks for your continuing support of the micro:bit. The breadth and diversity of accessories available for the micro:bit is a great strength and we’ve worked extremely hard to make the latest revision of the micro:bit work as smoothly as possible with as many accessories as possible.
+Thanks for your continuing support of the micro:bit. The breadth and diversity of accessories available for the micro:bit is a great strength and we've worked extremely hard to make the latest revision of the micro:bit work as smoothly as possible with as many accessories as possible.
 
 This article provides information to help you continue to support the 5 million existing micro:bits in the world and the latest board revision with the exciting new features of a speaker and microphone.
 
-If you’d like to keep up to date with technical information about the device, please sign up to our [DAL, Devices and Editors mailing list](http://eepurl.com/dyRx-v) which provides information on hardware revisions, or key low-level software changes as early as possible.
+If you'd like to keep up to date with technical information about the device, please sign up to our [DAL, Devices and Editors mailing list](http://eepurl.com/dyRx-v) which provides information on hardware revisions, or key low-level software changes as early as possible.
 
 ### MakeCode Arcade
 Microsoft Research are designing a reference design for [MakeCode Arcade](https://arcade.makecode.com/) accessories that allow the latest revision of the micro:bit to be used as an Arcade platform. This will include a number of options for the size, quality and cost of the extensions allowing a range of unique designs. The Foundation are working closely with Microsoft on the specification and will not approve extensions or add to the website any accessories for the micro:bit that are specifically for MakeCode Arcade but do not follow this specification, as it risks too much fragmentation and complexity for our users.
@@ -78,9 +78,9 @@ Whereas on previous revisions, the I2C bus was shared between the motion sensor 
 
 
 ### Power
-The micro:bit can now be powered from the two losenge shaped pads on the rear of the board and the 3V/GND pins. 
+The micro:bit can now be powered from the two rounded-rectangle pads on the rear of the board and the 3V/GND pins. 
 
-If you use the losenge pads, you must diode (or otherwise) protect themselves from the micro:bit having power via another source. This was still necessary on the previous revision when the board was powered from battery, but is now true for USB and edge-connector power also.
+If you use the rounded-rectangle pads, you must diode (or otherwise) protect themselves from the micro:bit having power via another source. This was still necessary on the previous revision when the board was powered from battery, but is now true for USB and edge-connector power also.
 
 The nRF52 supplies 300mA to drive the board.   110mA is reserved for powering on-board components. **190mA** is then available for accessories.
 

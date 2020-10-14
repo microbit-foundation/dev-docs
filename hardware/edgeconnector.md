@@ -40,6 +40,7 @@ Pin 9 is no longer jointly shared with the LED display, but Pin 8 and Pin 9 can 
 | ![edge connector V2](/docs/hardware/assets/edge-connector-2.svg) | ![edge connector v1](/docs/hardware/assets/edge_connector.svg)
 
 ### microbit.pinout.xyz
+
 [microbit.pinout.xyz](https://microbit.pinout.xyz) is a fantastic resource for further information on the micro:bit pins and how they are used by some popular accessories
 
 ### Pins and Signals

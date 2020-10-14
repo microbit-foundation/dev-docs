@@ -15,9 +15,9 @@ lang: en
 
 ## Overview 
 
-Thank you, content producers for your support of the micro:bit - without people writing amazing resources and showing the world creative ways to use technology, micro:bit wouldn’t be nearly as exciting for people all around the world to use.
+Thank you, content producers for your support of the micro:bit - without people writing amazing resources and showing the world creative ways to use technology, micro:bit wouldn't be nearly as exciting for people all around the world to use.
 
-If you’d like to keep up to date with technical information about the device, please sign up to our [DAL, Devices and Editors mailing list](http://eepurl.com/dyRx-v) which provides information on hardware revisions, or key low-level software changes as early as possible. 
+If you'd like to keep up to date with technical information about the device, please sign up to our [DAL, Devices and Editors mailing list](http://eepurl.com/dyRx-v) which provides information on hardware revisions, or key low-level software changes as early as possible. 
 
 
 ----------
