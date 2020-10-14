@@ -33,7 +33,7 @@ If you find direct browser flashing (webUSB) isn't working, it is likely that yo
 
 ### iOS App
 
-The iOS App TestFlight/beta has a hidden option that enables you to input the makecode version URL eg  [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta)
+The iOS App beta is released via Apple TestFlight.
 
 To test, you will need to:
 
@@ -42,13 +42,13 @@ To test, you will need to:
 
 You will be notified via email when you have been added to the TestFlight and the app will appear as an option to install within the TestFlight app.
 
-When you open the app, tap on the word ‘beta’ in the top right of the screen. 
+To switch to the beta editor within the app:
+
+1. Select **Create Code** to open the MakeCode editor
+2. Press and hold the micro:bit logo to open the drop-down menu
+3. Toggle the button for **Use Beta version** to reload the editor in beta.
 
 ![iOS beta button](/docs/software/assets/ios-beta-button.png)
-
-This will open a dialogue for you to enter in the URL suffix [beta](https://makecode.microbit.org/beta). Pressing enter will reload the editor at this URL.
-
-![iOS beta URL](/docs/software/assets/ios-beta-url.png)
 
 ### Android App
 
