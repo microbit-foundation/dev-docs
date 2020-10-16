@@ -36,7 +36,7 @@ There may be cases where it is not possible to support both boards, for example 
 
 We have created a [standalone error hex](/docs/software/assets/stand-alone-error-v1.hex) that can be combined with a V2 only hex to produce a Hex that will work on a V2 board, but error if used on a v1.
 
-{% include alert-info.html content="We are currently working on a web based and CLI tool to generate Univeral Hex files and will publish information on usage here when this is ready. In the meantime, please [get in contact](mailto:support@microbit.org) if you require further information" %}
+{% include alert-info.html content="We are currently working on a web based and CLI tool to generate Universal Hex files and will publish information on usage here when this is ready. In the meantime, please [get in contact](mailto:support@microbit.org) if you require further information" %}
 
 [Download standalone error hex](/docs/software/assets/stand-alone-error-v1.hex){: .btn.sm-btn download}
 

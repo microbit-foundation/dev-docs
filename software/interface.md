@@ -44,11 +44,11 @@ This software provides four USB endpoints that have specific purposes:
 
 - MSC - USB mass storage device for drag-and-drop programming of the target MCU's flash memory.
 
-- CDC - serial passthrough from the target MCU to the PC. This is how messages get from the code you write onto the PC.
+- CDC - serial pass-through from the target MCU to the PC. This is how messages get from the code you write onto the PC.
 
 - HID - CMSIS-DAP compliant debug channel - this is useful if you want to use advanced debuggers like GDB or Keil to understand what's happening (or not happening!) on your micro:bit.
 
-- WebUSB - faciliates communicating witht the device via a WebUSB capable browser.
+- WebUSB - facilitates communicating with the device via a WebUSB capable browser.
 
 The DAPLink software and interface chip are part of the [Arm Mbed HDK](https://developer.mbed.org/handbook/mbed-HDK) and the [Mbed Enabled program](https://www.mbed.com/en/about-mbed/mbed-enabled/)
 
@@ -118,7 +118,7 @@ You will need to register for and download the [**Bootloader Host Application (b
 
 ### Enter bootloader mode
 
-To enter this mode we need to ground TP1 during board power up, this is the BOOTMODE pin in the KL27. To do that, connect with a wire (or something like a paper-clip) TP1 red circle) with any ground point (black sqaure) as you insert the USB cable into the device.
+To enter this mode we need to ground TP1 during board power up, this is the BOOTMODE pin in the KL27. To do that, connect with a wire (or something like a paper-clip) TP1 red circle) with any ground point (black square) as you insert the USB cable into the device.
 
 ![TP1](/docs/software/assets/TP1.png){: width: 300px}
 

@@ -18,7 +18,7 @@ This page details the ways in which you can test the micro:bit hardware with the
 
 ## Software
 
-### Makecode Editor
+### MakeCode Editor
 
 You can use the beta editor at [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta)
 
@@ -74,7 +74,7 @@ The [Mu](https://codewith.mu/) editor releases are available on the [Mu download
 
 1. Flash the micro:bit with the version of MicroPython you want to test.
 2. Click the **REPL** to communicate with the board directly via serial.
-3. To download a python file to the microbit, Click on **Save** and then click on the **Files** button.
+3. To download a python file to the micro:bit, Click on **Save** and then click on the **Files** button.
 4. Copy `main.py` from the Files on your computer to the Files on your micro:bit
 
 ![Copy main.py](/docs/latest-revision/assets/copy-main-py-mu.gif){: width="600"}

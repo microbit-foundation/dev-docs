@@ -10,7 +10,7 @@ post_filter: featured
 
 ## The micro:bit developer community site
 
-This site aims to sit between a community wiki and a technical data sheet for the micro:bit.
+This site aims to sit between a community wiki and a technical datasheet for the micro:bit.
 The content is available to [edit on Github](http://github.com/microbit-foundation/dev-docs) and is [openly licensed through Creative Commons](https://github.com/microbit-foundation/dev-docs/blob/master/LICENSE.MD).
 
 The site is maintained by the Micro:bit Educational Foundation in order to document the hardware and software that make the micro:bit work the way it does.

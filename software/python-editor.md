@@ -21,7 +21,7 @@ The Python editor is based upon the [Ace editor](http://ace.c9.io) and includes 
 
 The upstream source code for the Python Editor can be found at [github.com/bbcmicrobit/PythonEditor](https://github.com/bbcmicrobit/PythonEditor)
 
-The micro:bit target depends a closed source versioner repository that facilitates releases at `/v/`, for example the beta editor https://python.microbit.org/v/beta and previous releases.
+The micro:bit target depends a closed source versioning repository that facilitates releases at `/v/`, for example the beta editor https://python.microbit.org/v/beta and previous releases.
 
 ### Offline
 

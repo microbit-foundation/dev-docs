@@ -17,7 +17,7 @@ Below is a curated list of some Bluetooth applications you might like to read ab
 
 ## Applications, tools and examples
 
-- [Android App](https://play.google.com/store/apps/details?id=com.samsung.microbit) faciliates [pairing and flashing programs to the micro:bit](https://support.microbit.org/en/support/solutions/articles/19000051025-pairing-and-flashing-code-via-bluetooth)
+- [Android App](https://play.google.com/store/apps/details?id=com.samsung.microbit) facilitates [pairing and flashing programs to the micro:bit](https://support.microbit.org/en/support/solutions/articles/19000051025-pairing-and-flashing-code-via-bluetooth)
 
 - [iOS App](https://apps.apple.com/gb/app/micro-bit/id1092687276)faciliates [pairing and flashing programs to the micro:bit](https://support.microbit.org/en/support/solutions/articles/19000051025-pairing-and-flashing-code-via-bluetooth)
 
@@ -35,7 +35,7 @@ Below is a curated list of some Bluetooth applications you might like to read ab
 
 - [Kitronik Move](https://play.google.com/store/apps/details?id=com.kitronik.blemove) - Android app that presents a D-Pad interface to control a micro:bit over Bluetooth LE.
 
-- [Workbench](https://edu.workbencheducation.com/partners/microbit) is amulti-device coding canvas for block-based programming that connects with BLE devices via Chrome Web Bluetooth.
+- [Workbench](https://edu.workbencheducation.com/partners/microbit) is a multi-device coding canvas for block-based programming that connects with BLE devices via Chrome Web Bluetooth.
 
 - [microBit.js](https://github.com/antefact/microBit.js) - JavaScript library to interact with BBC micro:bit using web bluetooth API.
 
@@ -45,7 +45,7 @@ Below is a curated list of some Bluetooth applications you might like to read ab
 
 - [Gobot](https://gobot.io/documentation/platforms/microbit/) - Framework for the Go programming language to program devices in the real world. It can access the micro:bit via Bluetooth LE.
 
-- [micro:bit Slither](https://github.com/novucs/microbit-slither) - Multiplayer snake game on Android, controlled with micro:bits via Bluetooth.
+- [micro:bit Slither](https://github.com/novucs/microbit-slither) - Multi-player snake game on Android, controlled with micro:bits via Bluetooth.
 
 - [Serial Bluetooth Terminal](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal)- Android app capable to send and receive micro:bit Bluetooth UART data.
 

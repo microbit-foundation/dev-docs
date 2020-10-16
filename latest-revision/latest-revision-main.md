@@ -74,7 +74,7 @@ These pages provide further guidance on the updates for different audiences.
 
 ## Universal Editors & Universal Hex Files
 
-In an effort to ensure the greatest degree of continuity for teachers, users will not need to select which version of the device they have before using MakeCode or the Python Editor. Instead, the editors will suport a new format called “universal hex” which can run on both micro:bit V1 and micro:bit V2 (more below)
+In an effort to ensure the greatest degree of continuity for teachers, users will not need to select which version of the device they have before using MakeCode or the Python Editor. Instead, the editors will support a new format called “universal hex” which can run on both micro:bit V1 and micro:bit V2 (more below)
 
 This means that you can use MakeCode or the online Python Editor as you always have, to use all of the features that are common to both version of the BBC micro:bit: Display, buttons, motion sensing, gestures like shake, light sensing, and even the Music blocks.
 
@@ -102,7 +102,7 @@ When they are finalised, we will notify people via the [DAL, Editors and Devices
 | API                                                 | Blocks         | Status                | GitHub Issues |
 | --------------------------------------------------- | -------------------- | --------------------- | ------------- |
 | On loud/quiet sound `input.onSound(SoundType.Loud)` - Triggers after a transition from quiet-loud/loud-quiet, so 'on quiet' will trigger after a loud sound but not continuously | ![on loud sound](/docs/latest-revision/assets/makecode-blocks/loudsound.png){: width="125"}          | ✅     |               |
-| Set pin touch type `pins.touchSetType(TouchTarget.P0, TouchType.Resistive)`- capacitive/resisitive - Logo is capacative, large pins are resistive by default. | ![set touch type](/docs/latest-revision/assets/makecode-blocks/pin-mode.png){: width="650"} | ✅  | |
+| Set pin touch type `pins.touchSetType(TouchTarget.P0, TouchType.Resistive)`- capacitive/resistive - Logo is capacitive, large pins are resistive by default. | ![set touch type](/docs/latest-revision/assets/makecode-blocks/pin-mode.png){: width="650"} | ✅  | |
 | On Logo pressed `input.onLogoPressed()` | ![logo pressed](/docs/latest-revision/assets/makecode-blocks/onLogoPressed.png){: width="125"} | ✅  | |
 | On logo released `input.onLogoReleased()` | ![logo released](/docs/latest-revision/assets/makecode-blocks/onLogoReleased.png){: width="125"} | ✅  |  |
 | Logo is pressed `input.logoIsPressed()`               | ![logo is pressed](/docs/latest-revision/assets/makecode-blocks/logoIsPressed.png){: width="150"} | ✅  |  |
@@ -136,7 +136,7 @@ To access the features of the latest revision only (eg. to output sound only on 
 
 Features that are common to all board variants will work in the same way they always have. For example, you will be able to use the same blocks in MakeCode to use the acceleromater on any board revision.
 
-### Makecode
+### MakeCode
 
 You can use the latest board revision in the beta editor [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta)
 
