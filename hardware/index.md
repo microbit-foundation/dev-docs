@@ -10,6 +10,7 @@ lang: en
 ---
 
 ## Overview
+
 {:notoc}
 
 * TOC
@@ -17,8 +18,8 @@ lang: en
 
 ![Board overview 2.0](/docs/hardware/assets/microbit-overview-2.png)
 
+## Hardware block diagram
 
-### Hardware block diagram
 ![2.0 block](/docs/hardware/assets/v2-block.svg)
 
 ## Getting Started With the micro:bit Hardware
@@ -29,10 +30,9 @@ An interface processor is connected to the application processer and manages com
 
 Two key pieces of information to help understand the internals of the micro:bit are:
 
-* The [schematics](./schematic), which shows the detailed component data and connectivity of the device.
+- The [schematics](./schematic), which shows the detailed component data and connectivity of the device.
 
-* The [reference design](./reference-design), which is a complete module design of a compatible micro:bit, and is designed to be a starting point for anyone interested in understanding the micro:bit or designing their own variant.
-
+- The [reference design](./reference-design), which is a complete module design of a compatible micro:bit, and is designed to be a starting point for anyone interested in understanding the micro:bit or designing their own variant.
 
 ## Hardware Description
 
@@ -53,7 +53,6 @@ There is an onboard 2.4GHz radio peripheral used to provide Bluetooth and custom
 | Debug         | [SWD](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fps_nrf52833%2Fdif.html), [J-Link/OB](https://www.segger.com/products/debug-probes/j-link/models/j-link-lite/j-link-lite-cortex-m/)
 | More Info     | [Software](../software), [NRF52 datasheet](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52833.html&cp=3_1)
 
-
 ### Bluetooth Wireless Communication
 
 The on board 2.4GHz supports Bluetooth communications via the [Nordic S140 SoftDevice](https://www.nordicsemi.com/Software-and-Tools/Software/S140), which provides a fully qualified Bluetooth low energy stack.
@@ -70,7 +69,6 @@ This allows the micro:bit to communicate with a wide range of Bluetooth devices,
 | Congestion avoidance | Adaptive Frequency Hopping
 | Profiles      | [BBC micro:bit profile](https://lancaster-university.github.io/microbit-docs/ble/profile/)
 | More Info     | [Bluetooth](../bluetooth)
-
 
 ### Low level radio communications
 
@@ -91,7 +89,6 @@ Additionally, the micro:bit runtime software adds a 'group code' to each data pa
 | Payload size  | 32 (standard) 255 (if reconfigured)
 | More Info     | [Micro:bit Radio](https://lancaster-university.github.io/microbit-docs/ubit/radio)
 
-
 ### Buttons
 
 The two buttons on the front of the micro:bit, and the one button on the back, are tact momentary push-to-make buttons. The back button is connected to the KL27 interface processor and to the NRF52 processor for system reset purposes. This means that the application will reset regardless of if it is powered from USB or from battery.
@@ -105,7 +102,6 @@ Both A and B buttons are connected to GPIO pins that are also accessible on the 
 | Type          | 2 tactile user buttons, 1 tactile system button
 | Debounce      | (A & B) software debounced, 54ms period
 | Pullup        | (A & B) external 4K7, (System) 10K
-
 
 ### Display
 
@@ -206,7 +202,6 @@ The edge connector brings out many of the GPIO circuits of the application proce
 | Pitch | 1.27mm, 80 way double sided.
 | Pads| 5 pads, with 4mm holes
 
-
 ### Power supply
 
 Power to the micro:bit may be provided via 5V on the USB connector, or via a 3V battery plugged into the JST connector. It is also possible (with care) to power the micro:bit from the 3V /GND rings on the edge connector. The 3V /GND rings at the bottom can be used to supply power to external circuits. The board uses an LDO specified up to 300mA, with thermal cut-out for short circuit protection.
@@ -219,7 +214,6 @@ Power to the micro:bit may be provided via 5V on the USB connector, or via a 3V 
 | Battery connector | JST X2B-PH-SM4-TB
 | Max current provided via edge connector | 190mA
 | More Info | [Power supply](./powersupply)
-
 
 ### Interface
 
@@ -235,7 +229,6 @@ The interface chip handles the USB connection, and is used for flashing new code
 | Debug capabilities | SWD
 | More Info | [DAPLink](/software/daplink-interface/), [KL27 reference manual](https://www.nxp.com/docs/en/reference-manual/KL27P64M48SF6RM.pdf) [KL27 data sheet](https://www.nxp.com/docs/en/data-sheet/KL27P64M48SF6.pdf)
 
-
 ### USB communications
 
 The micro:bit has an on board USB communications stack, that is built into the firmware of the interface chip. This stack provides the ability to drag and drop files onto the
@@ -249,7 +242,6 @@ MICROBIT drive in order to load code into the application processor. It also all
 | USB classes supported | [Mass Storage Class (MSC)](https://en.wikipedia.org/wiki/USB_mass_storage_device_class)
 |    | [Communications Device Class (CDC)](https://en.wikipedia.org/wiki/USB_communications_device_class)
 | More Info | [DAPLink](/software/daplink-interface/)
-
 
 ### Debugging
 
@@ -270,13 +262,12 @@ We have some [nice 2D and 3D CAD drawings and models of the micro:bit](https://g
 | Dimensions    | 51.60mm(w) 42.00mm(h) 11.65mm(d), button depth to board 4.55mm, speaker depth to board 3.00mm, JST connector to board 5.50mm
 | Weight        | TBC
 
+## Further information
 
-### Links
+- [BBC Technical Specifications](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/specs)
 
-[BBC Technical Specifications](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/specs)
+- [I2C specification](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)
 
-[I2C specification](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)
+- [SPI 'specification'](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
 
-[SPI 'specification'](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
-
-[Fritzing diagram, contributed by Kok Ho Huen](/docs/hardware/assets/Microbit.fzpz.zip)
+- [Fritzing diagram, contributed by Kok Ho Huen](/docs/hardware/assets/Microbit.fzpz.zip)

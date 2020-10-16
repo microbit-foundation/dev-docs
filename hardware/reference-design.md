@@ -25,19 +25,19 @@ Furthermore, the micro:bit has a built in programmer and debugger, which is impo
 
 ## Reference Design Features
 
-* **100% binary compatible with the micro:bit, including all the same hardware features: 3xbuttons, 5x5 display, motion sensor)**
-* Released under the [SolderPad License 0.51](http://solderpad.org/licenses/SHL-0.51/) (based on Apache-2.0, but tailored towards Open Hardware)
-* Based on pre-certified [nRF51822 module](#module-choice) for ease of use
-* Separate programmer and debugger circuits so that you can strip back things that you don't need
-* Standard 2.54mm pitch connector for
-  * all the micro:bit edge connector pins
-  * programming the KL26 and the nRF51822
-* Modified power supply for more flexible use, standalone regulator
-  * drive more components without additional power supply
-  * Use lithium ion polymer batteries as well as AAA (which you shouldn't do
-  on the micro:bit)
-* Design available in Eagle, Altium and KiCad formats
-* Coin cell connection and holder option ([but beware the dangers of coin cells to children](http://www.bbc.co.uk/news/health-37410343))
+- **100% binary compatible with the micro:bit, including all the same hardware features: 3xbuttons, 5x5 display, motion sensor)**
+
+- Released under the [SolderPad License 0.51](http://solderpad.org/licenses/SHL-0.51/) (based on Apache-2.0, but tailored towards Open Hardware)
+- Based on pre-certified [nRF51822 module](#module-choice) for ease of use
+- Separate programmer and debugger circuits so that you can strip back things that you don't need
+- Standard 2.54mm pitch connector for
+  - all the micro:bit edge connector pins
+  - programming the KL26 and the nRF51822
+- Modified power supply for more flexible use, standalone regulator
+  - drive more components without additional power supply
+  - Use lithium ion polymer batteries as well as AAA (which you shouldn't do on the micro:bit)
+- Design available in Eagle, Altium and KiCad formats
+- Coin cell connection and holder option ([but beware the dangers of coin cells to children](http://www.bbc.co.uk/news/health-37410343))
 
 Any code that you write for your micro:bit can be run on the reference design without modification.
 
@@ -103,9 +103,9 @@ The reference design uses the same ICs as the micro:bit itself, so to avoid dupl
 
 The reference design is provided in formats that can be loaded and used in:
 
-* [Altium](http://www.altium.com/)
-* [Eagle Express/Maker/Educational](http://cadsoft.io/pricing/)
-* [KiCad EDA](http://kicad-pcb.org/)
+- [Altium](http://www.altium.com/)
+- [Eagle Express/Maker/Educational](http://cadsoft.io/pricing/)
+- [KiCad EDA](http://kicad-pcb.org/)
 
 Currently, the design is 'Altium First' and we would appreciate any support or expertise around improving the conversion to KiCad and Eagle formats.
 

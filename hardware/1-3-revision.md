@@ -17,9 +17,9 @@ lang: en
 
 ![1.3 diagram](/docs/hardware/assets/microbit-overview.png)
 
-### Hardware block diagram
-![1.3 block](/docs/hardware/assets/v1-block.svg)
+## Hardware block diagram
 
+![1.3 block](/docs/hardware/assets/v1-block.svg)
 
 ## Getting Started With the micro:bit Hardware
 
@@ -29,12 +29,9 @@ The interface processor does not connect to any of the micro:bit peripherals.
 
 Two key pieces of information to help understand the internals of the micro:bit are:
 
-* The [schematics](../schematic), which shows the detailed component data and connectivity of the device.
+- The [schematics](../schematic), which shows the detailed component data and connectivity of the device.
 
-* The [reference design](../reference-design), which is a complete module design of a compatible micro:bit,
-  and is designed to be a starting point for anyone interested in understanding the micro:bit
-  or designing their own variant.
-
+- The [reference design](../reference-design), which is a complete module design of a compatible micro:bit, and is designed to be a starting point for anyone interested in understanding the micro:bit or designing their own variant.
 
 ## Hardware Description
 
@@ -53,7 +50,6 @@ There is an onboard 2.4GHz radio engine used to provide Bluetooth capabilities v
 | Debug         | SWD, jlink/OB
 | More Info     | [here](/software)
 
-
 ### Bluetooth Wireless Communication
 
 The on board 2.4GHz transciever supports Bluetooth communications via the Nordic S110 SoftDevice, which provides a fully qualified Bluetooth low energy stack.
@@ -70,7 +66,6 @@ This allows the micro:bit to communicate with a wide range of Bluetooth devices,
 | Congestion avoidance | Adaptive Frequency Hopping
 | Profiles      | 1 [BBC micro:bit profile](https://lancaster-university.github.io/microbit-docs/ble/profile/)
 | More Info     | [here](/bluetooth)
-
 
 ### Low Level Radio Communications
 
@@ -91,7 +86,6 @@ Additionally, the micro:bit runtime software adds a 'group code' to each data pa
 | Payload size  | 32 (standard) 255 (if reconfigured)
 | More Info     | [Micro:bit Radio](https://lancaster-university.github.io/microbit-docs/ubit/radio)
 
-
 ### Buttons
 
 The two buttons on the front of the micro:bit, and the 1 button on the back, are tact momentary push to make buttons. The back button is connected to the KL26 interface processor and to the nRF51 processor for system reset purposes. This means that the application will reset regardless of if it is powered from USB or from battery.
@@ -105,7 +99,6 @@ Both A and B buttons are connected to GPIO pins that are also accessible on the 
 | Type          | 2 tactile user buttons, 1 tactile system button
 | Debounce      | (A & B) software debounced, 54ms period
 | Pullup        | (A & B) external 4K7, (System) 10K
-
 
 ### Display
 
@@ -140,7 +133,6 @@ It is connected to the application processor via the I2C bus.
 | On board gestures | 'freefall'
 | Other gestures | Other gestures are implemented by software algorithms in the runtime.
 
-
 ### Magnetometer
 
 The magnetometer is a separate chip that provides magnetic field strength sensing.
@@ -154,7 +146,6 @@ This device is connected to the application processor via the I2C bus.
 | Max update rate | 80Hz
 | Full Scale range | 1000uT
 | Sensitivity | 0.10uT
-
 
 ### Temperature Sensing
 
@@ -193,7 +184,6 @@ The edge connector brings out many of the GPIO circuits of the application proce
 | Pads| 5 pads, with 4mm holes
 | More Info | [here](/hardware/edgeconnector/)
 
-
 ### Power Supply
 
 Power to the micro:bit may be provided via the USB connection, via the interface chip (which has an on-board regulator), or via a battery plugged into the top connector. It is also possible (with care) to power the micro:bit from the 3V pad at the bottom. The 3V pad at the bottom can be used to supply a small amount of power external circuits.
@@ -207,7 +197,6 @@ Power to the micro:bit may be provided via the USB connection, via the interface
 | Battery current | TBC
 | Max current provided via edge connector | 90mA
 | More Info | [here](../powersupply)
-
 
 ### Interface
 
@@ -223,7 +212,6 @@ The interface chip handles the USB connection, and is used for flashing new code
 | Debug capabilities | SWD
 | More Info | [here](/software/daplink-interface/)
 
-
 ### USB Communications
 
 The micro:bit has an on board USB communications stack, that is built into the firmware of the interface chip. This stack provides the ability to drag and drop files onto the MICROBIT drive in order to load code into the application processor. It also allows serial data to be streamed to and from the micro:bit application processor over USB to an external host computer, and supports the CMSIS-DAP protocol for host debugging of application programs.
@@ -236,7 +224,6 @@ The micro:bit has an on board USB communications stack, that is built into the f
 | USB classes supported | [Mass Storage Class (MSC)](https://en.wikipedia.org/wiki/USB_mass_storage_device_class)
 |    | [Communications Device Class (CDC)](https://en.wikipedia.org/wiki/USB_communications_device_class)
 | More Info | [here](/software/daplink-interface/)
-
 
 ### Debugging
 
@@ -257,33 +244,32 @@ We have some [nice 2D and 3D CAD drawings and models of the micro:bit](https://g
 | Dimensions    | 5cm(w) 4cm(h)
 | Weight        | 5g
 
+## Further information
 
-### Links
+- [Schematic](../schematic)
 
-[Schematic](../schematic)
+- [Reference Design](../reference-design)
 
-[Reference Design](../reference-design)
+- [Nordic NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
 
-[Nordic NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
+- [Freescale KL26 reference manual](http://cache.freescale.com/files/microcontrollers/doc/ref_manual/KL26P121M48SF4RM.pdf)
 
-[Freescale KL26 reference manual](http://cache.freescale.com/files/microcontrollers/doc/ref_manual/KL26P121M48SF4RM.pdf)
+- [Freescale KL26 data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
 
-[Freescale KL26 data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
+- [Freescale MMA8652 accelerometer datasheet](http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8652FC.pdf)
 
-[Freescale MMA8652 accelerometer datasheet](http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8652FC.pdf)
+- [Freescale MAG3110 magnetometer datasheet](http://cache.freescale.com/files/sensors/doc/data_sheet/MAG3110.pdf)
 
-[Freescale MAG3110 magnetometer datasheet](http://cache.freescale.com/files/sensors/doc/data_sheet/MAG3110.pdf)
+- [Technical Specifications 1](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/specs)
 
-[Technical Specifications 1](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/specs)
+- [Technical Specifications 2](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/thebbcmicrobit)
 
-[Technical Specifications 2](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/thebbcmicrobit)
+- [Safety Advice](https://www.microbit.org/safety-advice)
 
-[Safety Advice](https://www.microbit.org/safety-advice)
+- [I2C specification](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)
 
-[I2C specification](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)
+- [SPI 'specification'](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
 
-[SPI 'specification'](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
+- [Arm Mbed overview](https://www.mbed.com/en/about-mbed/what-mbed/)
 
-[Arm Mbed overview](https://www.mbed.com/en/about-mbed/what-mbed/)
-
-[Fritzing diagram, contributed by Kok Ho Huen](/docs/hardware/assets/Microbit.fzpz.zip)
+- [Fritzing diagram, contributed by Kok Ho Huen](/docs/hardware/assets/Microbit.fzpz.zip)

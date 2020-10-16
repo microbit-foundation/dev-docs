@@ -39,8 +39,11 @@ If you'd like to join the slack channel, please fill in the form below. This for
 </iframe>
 
 ## Other channels and communities
+
 In addition to the Foundation's own channels of communication, there are many other online communities of support.
 
 - [MakeCode micro:bit forum](https://forum.makecode.com/c/microbit/11) Connect with the MakeCode team for more technical details regarding developing micro:bit extensions or working on the MakeCode editor.
+
 - [Mu Gitter](https://gitter.im/mu-editor) Gitter chat is similar to Slack and aimed at developers using [Mu](https://codewith.mu/)
+
 - [/r/microbit](https://www.reddit.com/r/microbit) A reddit discussion on micro:bit

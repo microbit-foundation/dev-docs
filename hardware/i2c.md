@@ -18,6 +18,7 @@ The internal lines run to the Nordic chip and communicate with the motion sensor
 The external lines run to the edge connector and can be used for accessories.
 
 ### I2c block diagram
+
 ![i2c block](/docs/hardware/assets/i2c-block.svg)
 
 ### Table of addresses used
@@ -30,18 +31,20 @@ The external lines run to the edge connector and can be used for accessories.
 This means 0x1E, 0x1F and 0x19 are reserved for onboard use.
 
 ### Table of address used by micro:bit accessories (please edit)
+
 If you make an accessory for the micro:bit, please help us by editing the table below and sharing the details of the i2c addresses you use.
 
 | accessory name | organisation | i2c address(es) used |
 |----------------|--------------|-----------------------|
 | [EDU:BIT](https://www.cytron.io/p-edubit)| Cytron Technologies | 0x08 (0x10/0x11) |
 
-
 ### Acceptable capacitance for I2C accessories
 
 In our recent testing for the motion sensor change, we found that a 10nF cap connected SCL-GND slowed down the i2c bus, but it continued to operate. Separately, capacitance was added to SDA until it ceased operation:
+
 - 100KHz continued with 1nF but failed with 2nF.
 - 400kHz continued with 150pF but failed with 180pF.
+
 No difference was seen between the revisions.
 
 ## Notes

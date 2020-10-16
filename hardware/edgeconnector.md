@@ -25,7 +25,6 @@ There are a number of external PCB connectors for purchase with an 80w 1.27mm pi
 
 Only the pins on the front are connected to signals. The back rings are connected to the front rings, but the back small strips are unconnected.
 
-
 ## Edge Connector Pins
 
 The diagrams below show the assignation of the micro:bit pins. On the <span class="v2">V2</span> board revision
@@ -36,6 +35,7 @@ Pin 9 is no longer jointly shared with the LED display, but Pin 8 and Pin 9 can 
 | ![edge connector V2](/docs/hardware/assets/edge-connector-2.svg) | ![edge connector v1](/docs/hardware/assets/edge_connector.svg)
 
 ### microbit.pinout.xyz
+
 [microbit.pinout.xyz](https://microbit.pinout.xyz) is a fantastic resource for further information on the micro:bit pins and how they are used by some popular accessories
 
 ### Pins and Signals
@@ -145,8 +145,7 @@ This table shows various data about each of the pins on the micro:bit edge conne
 | dir       | the startup conditions (direction) when the micro:bit boots: Input or Output
 | pull?     | pull up or down resistors. e10Mu means an external 10Mohm pullup, i12Kd means an internal 12K pull down.
 
-
-Notes
+#### Notes
 
 1. RINGs for 0, 1, 2, 3V and GND are also connected to the respective reverse side rings on the edge connector.
 
@@ -162,18 +161,17 @@ Notes
 
 7. The pin marked 'ACCESSIBILITY' is used to enable/disable an on-board accessibility mode, and should not be used for anything else (even though it can be used as a GPIO for testing). Future versions of the official micro:bit editors may remove the ability to write to this pin.
 
-
 ## Uncoupling Default Functionality
 
 Pins that are marked with brackets around functions, require the default functionality for that pin to be disabled, before other functions can be used.
 
-**pins: P3, P4, P6, P7, P9, P10**
+### pins: P3, P4, P6, P7, P9, P10
 
 These pins are coupled to the LED matrix display, and also it's associated ambient light sensing mode. To disable the display driver feature (which will automatically disable the light sensing feature) call the DAL function `display.enable(false)`. To turn the display driver back on again later, call the DAL function `display.enable(true)`.
 
 Note also that the LED 3x9 matrix connects LEDs with associated resistors across these pins, so you should take that into account when designing circuits to use these pins for other purposes.
 
-**pins: P5, P11**
+### pins: P5, P11
 
 These pins are assigned to the two on-board buttons. In their default setup with all the standard high level languages, there is a global uBit instance containing: `uBit.buttonA`, `uBit.buttonB` and `uBit.buttonAB`.
 
@@ -181,8 +179,7 @@ Buttons are hooked into the system timer in their constructor for regular deboun
 
 Be aware though, that there are 10K external pullup resistors fitted to the micro:bit board.
 
-
-**pins: P19, P20**
+### pins: P19, P20
 
 These pins are allocated to the I2C bus, which is used by both the onboard motion sensor. It is strongly suggested that you avoid using these pins for any function other than I2C.
 
@@ -190,15 +187,14 @@ It is possible to disable the DAL services that use these pins as the I2C bus, b
 
 The main reason you might choose to use these pins for other purposes would be if you were designing your own micro:bit variant without any I2C devices, and then it would free up two more pins for other purposes.
 
-
 ## Power Supply Capabilities
 
 There is a dedicated page on [power supply capabilities and parameters](/hardware/powersupply), which better defines how you can use the GND and 3V rings
 
-
 ## GPIO Capabilities
 
 ### NRF51
+
 These key GPIO parameters are transcribed directly from Section 6, 7 and 8 of the [nRF51822 Datasheet](https://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf), and provided here as a handy reference.
 
 | KEY    | Description                                        | section | Min      | Max     |
@@ -217,7 +213,6 @@ These key GPIO parameters are transcribed directly from Section 6, 7 and 8 of th
 | RPU    | Pull up resistance                                 |  8.23   | 11K      | 16K     |
 | RPD    | Pull down resistance                               |  8.23   | 11K      | 16K     |
 
-
 NOTE 1: The maximum number of pins configured as high-drive (5mA) at any one time is 3 pins.
 
 NOTE 2: A common way that the maximum pin voltages can be exceeded, is to attach an inductive load such as a speaker, motor, or piezo sounder directly to the pin. These devices often have significant back-EMF when energised, and will generate voltages that exceed the maximum specifications of the GPIO pins, and may cause premature device failure.
@@ -227,6 +222,7 @@ NOTE 3: The pin marked 'ACCESSIBILITY' is used to enable/disable an on-board acc
 NOTE 4: The BBC suggest in the safety guide, that the maximum current you can draw from the whole edge connector at any one time is <span class="v1">v1</span>90mA. This is set based on the 30mA budget for on board peripherals, and the fact that the on board regulator of the KL26 when powered from USB is rated at a maximum of 120mA. On the latest board revision the maximum current is <span class="V2">V2</span>270mA, though it is possible that the on-board mic and speaker can draw more current, so this value is TBC.
 
 ### NRF52
+
 These key GPIO parameters are transcribed directly from Section 6, 7 and 8 of the [nRF52833 Datasheet](https://infocenter.nordicsemi.com/pdf/nRF52833_PS_v1.2.pdf), and provided here as a handy reference.
 
 | KEY     | Description                                           | section | Min      | Max      |
@@ -263,6 +259,7 @@ There are also some nice ideas that have surfaced in the community such as using
 Can you help to find or design a better connection solution to the micro:bit edge connector? Share your designs and discoveries with us!
 
 ## Edge Connnectors for the BBC micro:bit
+
 [Add your connector to our list](http://github.com/microbit-foundation/dev-docs/edit/master/hardware/edgeconnector.md){: .btn.sm-btn}
 
 | Supplier | Product
@@ -270,17 +267,16 @@ Can you help to find or design a better connection solution to the micro:bit edg
 |[4UCon](http://www.4uconnector.com/online/index.asp)| [4UCon connector](https://cdn.shopify.com/s/files/1/2311/3697/files/1944_Drawing.pdf?3325)
 |[Cyclonn](http://www.dgyuliang.net)| [Cylconn 90 degree connector](http://www.dgyuliang.net/d/file/Produtcs/Customized%20Connector/MICRO%20BIT%20Connector/84a0fe06b4296135d64139b5b4297ef3.pdf), [Cylconn 180 degree connector](http://www.dgyuliang.net/d/file/Produtcs/Customized%20Connector/MICRO%20BIT%20Connector/0d43030af84ade6fc3f00e242079c055.pdf)
 
-
 ## Further information
 
-[micro:bit schematics](../schematic)
+- [micro:bit schematics](../schematic)
 
-[micro:bit CAD resources (Kitronik)](https://www.kitronik.co.uk/blog/bbc-microbit-cad-resources/)
+- [micro:bit CAD resources (Kitronik)](https://www.kitronik.co.uk/blog/bbc-microbit-cad-resources/)
 
-[Eagle libraries for the micro:bit edge connector](https://github.com/proto-pic/micro-bit-eagle-libraries)
+- [Eagle libraries for the micro:bit edge connector](https://github.com/proto-pic/micro-bit-eagle-libraries)
 
-[KiCad component and footprint library](https://github.com/anthonykirby/kicad_microbit_connector)
+- [KiCad component and footprint library](https://github.com/anthonykirby/kicad_microbit_connector)
 
-[2D CAD drawing](https://www.kitronik.co.uk/pdf/bbc_microbit_mechanical_datasheet_V2.pdf) This drawing has all the key micro:bit dimensions, including the pin spacing of the various pins of the edge connector on the micro:bit board.
+- [2D CAD drawing](https://www.kitronik.co.uk/pdf/bbc_microbit_mechanical_datasheet_V2.pdf) This drawing has all the key micro:bit dimensions, including the pin spacing of the various pins of the edge connector on the micro:bit board.
 
-[Kitronik BBC micro:bit CAD Resources](https://kitronik.co.uk/blogs/resources/bbc-microbit-cad-resources) This page contains a range of resources that can be used to create online reources or 3D printed designs
+- [Kitronik BBC micro:bit CAD Resources](https://kitronik.co.uk/blogs/resources/bbc-microbit-cad-resources) This page contains a range of resources that can be used to create online reources or 3D printed designs

@@ -24,17 +24,22 @@ The Micro:bit Educational Foundation aims to be a 'responsible downstream' to th
 If you'd like to help us make the micro:bit better, then there are a number of ways that you can get involved.
 
 ### Code
+
 Contribute features and fixes to one of the upstream projects that the micro:bit relies upon:
+
   * The micro:bit [Device Abstraction Layer (DAL/runtime)](https://lancaster-university.github.io/microbit-docs/)
   * The [MakeCode Editor](https://github.com/microsoft/pxt-microbit)
   * The [Python Editor](https://github.com/bbcmicrobit/PythonEditor)
   * [DAPlink](https://github.com/ARMmbed/DAPLink)
 
 ### Build
+
 Help us build a brilliant hardware ecosystem around micro:bit - derivative boards, cool accessories and add ons, or even suggestions for future versions of the micro:bit.
+
   * The [micro:bit schematic](/hardware/schematic/) and [reference design](/hardware/reference-design) are good places to start for making your own projects
   * The [accessories guide](https://microbit.org/buy/accessories/) gives you an idea of what's currently available.
 
 ### Write
+
   * [Improve the documentation and this site](https://github.com/microbit-foundation/dev-docs), either reporting issues or adding documentation will be extremely helpful.
   * Help build a community around micro:bit - join the [slack channel and Email list](/community/), share the things you've created on twitter, blog about them!
