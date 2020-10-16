@@ -66,7 +66,7 @@ Firstly, you should get yourself into a situation where you can build the micro:
 
 ### Asking for features and reporting bugs
 
-If you would have a feature request, or would like to get involved in the micro:bit runtime development, visit the [list of open issues](https://github.com/lancaster-university/microbit-dal/issues) and raise a new issue if it isn't already in there. 
+If you would have a feature request, or would like to get involved in the micro:bit runtime development, visit the [list of open issues](https://github.com/lancaster-university/microbit-dal/issues) and raise a new issue if it isn't already in there.
 
 You can also join the [microbit developer community on Slack](/community) if you'd like to discuss the micro:bit runtime and its components.
 
@@ -102,8 +102,7 @@ micro:bit was based on the well-established Mbed 2.0 SDK, with which mbed 5 is c
 
 ## Nordic nRF5 SDK
 
-The Mbed abstraction for the Nordic chip is built on top of the Nordic nRF5 SDK
-https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF5-SDK
+The Mbed abstraction for the Nordic chip is built on top of the Nordic nRF5 SDK https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF5-SDK
 
 Crucially, this includes Nordic's [Soft Device 110](https://www.nordicsemi.com/Software-and-Tools/Software/S110) <span class="v1">v1</span> / [Soft Device 140](https://www.nordicsemi.com/Software-and-tools/Software/S140) <span class="v2">V2</span>, a binary object that gets included into any hex file for the micro:bit that manages control of the radio to allow the micro:bit to use the industry standard Bluetooth Low Energy protocols.
 

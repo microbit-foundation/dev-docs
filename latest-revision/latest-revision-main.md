@@ -12,7 +12,7 @@ lang: en
 * TOC
 {:toc}
 
-The [**latest revision**](./announcement/) of the BBC micro:bit is designed to be completely familiar to anyone who has used the original device. It’s the same size, shape, looks very similar, and works in the same way. Every programme that could run on a micro:bit version 1 can be re-built to run on the latest revision. 
+The [**latest revision**](./announcement/) of the BBC micro:bit is designed to be completely familiar to anyone who has used the original device. It’s the same size, shape, looks very similar, and works in the same way. Every programme that could run on a micro:bit version 1 can be re-built to run on the latest revision.
 
 The editors will support both versions simultaneously for features common to both boards,for example the motion sensor, LEDs, buttons etc.
 
@@ -25,7 +25,7 @@ Amongst the micro:bit features, ‘sound’ is in a unique position of being alr
 
 - On board speaker
 - MEMs Microphone with LED indicator
-- Touch sensitive logo 
+- Touch sensitive logo
 - Built-in sleep/off mode that means the board can be powered-down with batteries connected
 - Discrete regulator that can supply up to 190mA of current to external accessories
 
@@ -131,8 +131,8 @@ When they are finalised, we will notify people via the [DAL, Editors and Devices
 
 ## How do I use the new features?
 
-The **speaker** works in the same way you would expect when you connect up your headphones or an external speaker to the micro:bit. By default, the sound output will be on both the speaker and Edge connector. 
-The **microphone** will have an additional set of blocks in MakeCode and objects in MicroPython to use, so that you can monitor and respond to sound. 
+The **speaker** works in the same way you would expect when you connect up your headphones or an external speaker to the micro:bit. By default, the sound output will be on both the speaker and Edge connector.
+The **microphone** will have an additional set of blocks in MakeCode and objects in MicroPython to use, so that you can monitor and respond to sound.
 The **logo touch** is implemented in the same way as touching a pin on the edge connector and will have equivalent blocks in MakeCode and objects in MicroPython to use. Note that Logo touch is capacitive touch by default and the edge pins are resistive.
 
 To access the features of the latest revision only (eg. to output sound only on the speaker and not the edge connector), you will need to add additional code to your programs. This ensures that the default editor experience continues to work for everyone, regardless of the board revision.
@@ -149,7 +149,7 @@ An extension has been developed to include the microphone and logo touch feature
 
 
 1. Open [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta)
-2. Select Advanced > Add Extension and paste [https://github.com/microbit-foundation/pxt-microbit-v2-extension](https://github.com/microbit-foundation/pxt-microbit-v2-extension) into the search box. 
+2. Select Advanced > Add Extension and paste [https://github.com/microbit-foundation/pxt-microbit-v2-extension](https://github.com/microbit-foundation/pxt-microbit-v2-extension) into the search box.
 3. Click on the extension to add it to the toolbox.
 
 **V2 MakeCode APIs**
@@ -179,7 +179,7 @@ More information about this is available on our [hex format](../software/hex-for
 The Foundation has written a javascript library to generate these files - you do not need to re-implement any file generation.
 
 
-### Bluetooth BLE 
+### Bluetooth BLE
 A hex file that enables all micro:bit Bluetooth services is available to use for testing BLE. [Download the updated version of the BLE all services hex](/docs/latest-revision/assets/bluetooth-services.hex)
 
 
@@ -199,7 +199,7 @@ If you haven’t already received a device, but would like one in order to test/
 
 ## How do I find out more about the hardware and software updates?
 
-Our [DAL, Devices and Editors mailing list](http://eepurl.com/dyRx-v) provides up to date information about the any technical changes regarding the micro:bit. 
+Our [DAL, Devices and Editors mailing list](http://eepurl.com/dyRx-v) provides up to date information about the any technical changes regarding the micro:bit.
 
 
 ## How do I feed back or raise issues?

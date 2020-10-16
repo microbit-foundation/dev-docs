@@ -9,33 +9,26 @@ ref: bluetooth
 lang: en
 ---
 # Overview
-The micro:bit processor has an on board
-[Bluetooth](http://blog.bluetooth.com/a-developers-guide-to-bluetooth/) transceiver. This is combined with a PCB trace aerial and other minor components alongside a software stack that gives
-the micro:bit a certified and credible Bluetooth capability.
+The micro:bit processor has an on board [Bluetooth](http://blog.bluetooth.com/a-developers-guide-to-bluetooth/) transceiver. This is combined with a PCB trace aerial and other minor components alongside a software stack that gives the micro:bit a certified and credible Bluetooth capability.
 
 ## Bluetooth software stack
-<span class="v1">v1</span> Nordic Semiconductor [Soft Device S110](https://www.nordicsemi.com/Software-and-Tools/Software/S110) 
-<span class="v2">V2</span> Nordic Semiconductor [Soft Device S140](https://www.nordicsemi.com/Software-and-tools/Software/S140) . We may switch to [S113](https://www.nordicsemi.com/Software-and-tools/Software/S113) and [S122](https://www.nordicsemi.com/Software-and-tools/Software/S122) at compile time to save flash memory (if this affects anything you are working on please [contact micro:bit support](https://support.microbit.org/en/support/tickets/new)).
+<span class="v1">v1</span> Nordic Semiconductor [Soft Device S110](https://www.nordicsemi.com/Software-and-Tools/Software/S110)
+<span class="v2">V2</span> Nordic Semiconductor [Soft Device S140](https://www.nordicsemi.com/Software-and-tools/Software/S140)
+
+We may switch to [S113](https://www.nordicsemi.com/Software-and-tools/Software/S113) and [S122](https://www.nordicsemi.com/Software-and-tools/Software/S122) at compile time to save flash memory (if this affects anything you are working on please [contact micro:bit support](https://support.microbit.org/en/support/tickets/new)).
 
 
-Using Bluetooth, you can connect to other devices and send and receive
-data from and to the micro:bit.
+Using Bluetooth, you can connect to other devices and send and receive data from and to the micro:bit.
 
 ## micro:bit Bluetooth Features
 
-Bluetooth features available on the micro:bit are defined in a
-[Bluetooth profile](/bluetooth/profile). The micro:bit supports one, custom developed profile.
+Bluetooth features available on the micro:bit are defined in a [Bluetooth profile](/bluetooth/profile). The micro:bit supports one, custom developed profile.
 
 ## Bluetooth and the micro:bit software
 
-The [DAL/C++](https://lancaster-university.github.io/microbit-docs/ble/profile/#reference-documentation) lists the adopted and custom features available within the profile.
-[MakeCode](https://makecode.microbit.org/reference/bluetooth) contains a set of blocks to make use
-of the various micro:bit services.
+The [DAL/C++](https://lancaster-university.github.io/microbit-docs/ble/profile/#reference-documentation) lists the adopted and custom features available within the profile. [MakeCode](https://makecode.microbit.org/reference/bluetooth) contains a set of blocks to make use of the various micro:bit services.
 
-The processor also has a number of non-bluetooth proprietary
-modes of operation, on which we build the micro:bit radio
-protocol. This only works between micro:bits and is what is defined as 'Micro:bit Radio' in the DAL
-and  'radio' in MakeCode and MicroPython, as well as Mbed C++.
+The processor also has a number of non-bluetooth proprietary modes of operation, on which we build the micro:bit radio protocol. This only works between micro:bits and is what is defined as 'Micro:bit Radio' in the DAL and  'radio' in MakeCode and MicroPython, as well as Mbed C++.
 
 ## Apps
 
