@@ -27,7 +27,7 @@ In addition to our regular [Micro:bit Educational Foundation newsletter](https:/
 
 Please note that Slack complements, but does not replace [micro:bit help & support](http://support.microbit.org, where you can search for help and ask the team questions.
 
-Slack operates it's own [privacy policy](https://slack.com/privacy-policy), so make sure you have read and you agree with this before signing up.
+Slack operate their own [privacy policy](https://slack.com/privacy-policy), so make sure you have read and you agree with this before signing up.
 
 If you'd like to join the slack channel, please fill in the form below. This form collects your email address and system metadata, in accordance with the [privacy policy of Freshdesk](https://www.freshworks.com/privacy/) our support system. We only use this to process an invite to Slack. after which the ticket is closed off and archived. If you wish, you can always [deactivate your slack account at a later date.](https://get.slack.help/hc/en-us/articles/203953146-Deactivate-your-Slack-account)Freshdesk is currently working on the ability to [remove your own data.](https://support.freshdesk.com/support/discussions/topics/14331?page=1). In the meantime, please notify <a href="mailto:help@microbit.org">help@microbit.org</a> if you wish to have your email address removed from the Freshdesk system
 

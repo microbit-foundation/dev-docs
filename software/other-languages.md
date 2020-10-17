@@ -11,13 +11,13 @@ lang: en
 
 ## Overview
 
-Aside from the officially supported editors: [Makecode](https://makecode.microbit.org)  and [Python](https://python.microbit.org) there are a number of different languages that include support for the micro:bit.
+Aside from the officially supported editors: [MakeCode](https://makecode.microbit.org)  and [Python](https://python.microbit.org) there are a number of different languages that include support for the micro:bit.
 
 This resource aims to compile a list of these programming languages with a link to the documentation, plus an example program.
 
 ## Submissions
 
-To add a new language to the page, [edit the page on  Github](http://github.com/microbit-foundation/dev-docs/edit/master/software/other-languages.md). For a language to be accepted it's implementation must be complete enough to display a heart on the display!
+To add a new language to the page, [edit the page on  Github](http://github.com/microbit-foundation/dev-docs/edit/master/software/other-languages.md). For a language to be accepted its implementation must be complete enough to display a heart on the display!
 
 Please format the addition using this template:
 

@@ -11,7 +11,7 @@ lang: en
 
 ## Overview
 
-The micro:bit processor has an on board [Bluetooth](http://blog.bluetooth.com/a-developers-guide-to-bluetooth/) transceiver. This is combined with a PCB trace aerial and other minor components alongside a software stack that gives the micro:bit a certified and credible Bluetooth capability.
+The micro:bit processor has an on-board [Bluetooth](http://blog.bluetooth.com/a-developers-guide-to-bluetooth/) transceiver. This is combined with a PCB trace aerial and other minor components alongside a software stack that gives the micro:bit a certified and credible Bluetooth capability.
 
 ## Bluetooth software stack
 
@@ -34,7 +34,7 @@ The processor also has a number of non-bluetooth proprietary modes of operation,
 
 ## Apps
 
-- [Android App](https://play.google.com/store/apps/details?id=com.samsung.microbit) faciliates [pairing and flashing programs to the micro:bit](https://support.microbit.org/en/support/solutions/articles/19000051025-pairing-and-flashing-code-via-bluetooth)
+- [Android App](https://play.google.com/store/apps/details?id=com.samsung.microbit) facilitates [pairing and flashing programs to the micro:bit](https://support.microbit.org/en/support/solutions/articles/19000051025-pairing-and-flashing-code-via-bluetooth)
 - [iOS App](https://apps.apple.com/gb/app/micro-bit/id1092687276)faciliates [pairing and flashing programs to the micro:bit](https://support.microbit.org/en/support/solutions/articles/19000051025-pairing-and-flashing-code-via-bluetooth)
 - [Swift Playgrounds](https://github.com/microbit-foundation/microbit-swift-playgrounds) contains a Playground Book available in the Swift app and a micro:bit Swift API to develop further resources
 Scratch.

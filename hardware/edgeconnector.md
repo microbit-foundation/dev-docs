@@ -149,7 +149,7 @@ This table shows various data about each of the pins on the micro:bit edge conne
 
 1. RINGs for 0, 1, 2, 3V and GND are also connected to the respective reverse side rings on the edge connector.
 
-2. The 3V and GND rings have guard strips either side of the big rings, to avoid any degradation of device performance due to slipping crocodile clip connections. Care should be taken on rings 0, 1 and 2 to avoid shorting crocodile clips against adjacent pins, which could cause some slight interference with the pattern currently displayed on the LED matrix, or introduce some innaccuracies in the light sensing readings.
+2. The 3V and GND rings have guard strips either side of the big rings, to avoid any degradation of device performance due to slipping crocodile clip connections. Care should be taken on rings 0, 1 and 2 to avoid shorting crocodile clips against adjacent pins, which could cause some slight interference with the pattern currently displayed on the LED matrix, or introduce some inaccuracies in the light sensing readings.
 
 3. The DAL DynamicPWM driver (and the underlying Nordic timer peripherals) dictate that PWM can only be active on 3 pins simultaneously. Any attempt to allocate a 4th pin for PWM use, will disable one of the existing PWM pins.
 
@@ -157,7 +157,7 @@ This table shows various data about each of the pins on the micro:bit edge conne
 
 5. Functions in brackets should be used with caution, as other features of the device may become unstable, degraded or non operational, if their normal use is not disabled in the software first.
 
-6. The source file for [the pinout table](/docs/hardware/pinmap.csv) is held in CSV format. You can load this into a spreadsheet and sort and filter it in any way that makes sense to you. There is also a [zipped Python script](/docs/hardware/csv2md.zip) in this folder that you can download to re-generate the markdown table version of the pinmap used on this page, from the .csv file.
+6. The source file for [the pinout table](/docs/hardware/pinmap.csv) is held in CSV format. You can load this into a spreadsheet and sort and filter it in any way that makes sense to you. There is also a [zipped Python script](/docs/hardware/csv2md.zip) in this folder that you can download to re-generate the markdown table version of the pin map used on this page, from the .csv file.
 
 7. The pin marked 'ACCESSIBILITY' is used to enable/disable an on-board accessibility mode, and should not be used for anything else (even though it can be used as a GPIO for testing). Future versions of the official micro:bit editors may remove the ability to write to this pin.
 
@@ -167,7 +167,7 @@ Pins that are marked with brackets around functions, require the default functio
 
 ### pins: P3, P4, P6, P7, P9, P10
 
-These pins are coupled to the LED matrix display, and also it's associated ambient light sensing mode. To disable the display driver feature (which will automatically disable the light sensing feature) call the DAL function `display.enable(false)`. To turn the display driver back on again later, call the DAL function `display.enable(true)`.
+These pins are coupled to the LED matrix display, and also its associated ambient light sensing mode. To disable the display driver feature (which will automatically disable the light sensing feature) call the DAL function `display.enable(false)`. To turn the display driver back on again later, call the DAL function `display.enable(true)`.
 
 Note also that the LED 3x9 matrix connects LEDs with associated resistors across these pins, so you should take that into account when designing circuits to use these pins for other purposes.
 
@@ -177,13 +177,13 @@ These pins are assigned to the two on-board buttons. In their default setup with
 
 Buttons are hooked into the system timer in their constructor for regular debouncing. However, if you want to completely remove this feature and use the physical pins for other purposes, you can `delete uBit.buttonA`, it will call the C++ destructor and de-register the button instance from the system timer, effectively disabling all DAL activity with that pin. It is then possible to use a `MicroBitPin` instance around the physical pin name to control it directly without interference from the DAL.
 
-Be aware though, that there are 10K external pullup resistors fitted to the micro:bit board.
+Be aware though, that there are 10K external pull-up resistors fitted to the micro:bit board.
 
 ### pins: P19, P20
 
-These pins are allocated to the I2C bus, which is used by both the onboard motion sensor. It is strongly suggested that you avoid using these pins for any function other than I2C.
+These pins are allocated to the I2C bus, which is used by both the on-board motion sensor. It is strongly suggested that you avoid using these pins for any function other than I2C.
 
-It is possible to disable the DAL services that use these pins as the I2C bus, but the motion sensor device will still be connected to the bus, and may try to interpret the signals as data payloads, which could create some undesirable side effects on the SDA and interrupt pins. There are 4K7 pullups fitted to both pins on the board, so the best use for these two signals is to add other I2C devices.
+It is possible to disable the DAL services that use these pins as the I2C bus, but the motion sensor device will still be connected to the bus, and may try to interpret the signals as data payloads, which could create some undesirable side effects on the SDA and interrupt pins. There are 4K7 pull-ups fitted to both pins on the board, so the best use for these two signals is to add other I2C devices.
 
 The main reason you might choose to use these pins for other purposes would be if you were designing your own micro:bit variant without any I2C devices, and then it would free up two more pins for other purposes.
 
@@ -219,7 +219,7 @@ NOTE 2: A common way that the maximum pin voltages can be exceeded, is to attach
 
 NOTE 3: The pin marked 'ACCESSIBILITY' is used to enable/disable an on-board accessibility mode, and should not be used for anything else (even though it can be used as a GPIO for testing). Future versions of the official micro:bit editors may remove the ability to write to this pin.
 
-NOTE 4: The BBC suggest in the safety guide, that the maximum current you can draw from the whole edge connector at any one time is <span class="v1">v1</span>90mA. This is set based on the 30mA budget for on board peripherals, and the fact that the on board regulator of the KL26 when powered from USB is rated at a maximum of 120mA. On the latest board revision the maximum current is <span class="V2">V2</span>270mA, though it is possible that the on-board mic and speaker can draw more current, so this value is TBC.
+NOTE 4: The BBC suggest in the safety guide, that the maximum current you can draw from the whole edge connector at any one time is <span class="v1">v1</span>90mA. This is set based on the 30mA budget for on-board peripherals, and the fact that the on-board regulator of the KL26 when powered from USB is rated at a maximum of 120mA. On the latest board revision the maximum current is <span class="V2">V2</span>270mA, though it is possible that the on-board mic and speaker can draw more current, so this value is TBC.
 
 ### NRF52
 
@@ -279,4 +279,4 @@ Can you help to find or design a better connection solution to the micro:bit edg
 
 - [2D CAD drawing](https://www.kitronik.co.uk/pdf/bbc_microbit_mechanical_datasheet_V2.pdf) This drawing has all the key micro:bit dimensions, including the pin spacing of the various pins of the edge connector on the micro:bit board.
 
-- [Kitronik BBC micro:bit CAD Resources](https://kitronik.co.uk/blogs/resources/bbc-microbit-cad-resources) This page contains a range of resources that can be used to create online reources or 3D printed designs
+- [Kitronik BBC micro:bit CAD Resources](https://kitronik.co.uk/blogs/resources/bbc-microbit-cad-resources) This page contains a range of resources that can be used to create online resources or 3D printed designs
