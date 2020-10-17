@@ -82,9 +82,11 @@ Whereas on previous revisions, the I2C bus was shared between the motion sensor 
 
 ### Power
 
-The micro:bit can now be powered from the two lozenge shaped pads on the rear of the board and the 3V/GND pins.
+The micro:bit can now be powered from the two rounded rectangular pads on the rear of the board and the 3V/GND pins.
 
-If you use the lozenge pads, you must diode (or otherwise) protect themselves from the micro:bit having power via another source. This was still necessary on the previous revision when the board was powered from battery, but is now true for USB and edge-connector power also.
+![Picture of the two rounded rectangular pads](/docs/accessories/assets/making-accessories-d7c25.png)
+
+If you use the rounded rectangular pads, you must diode (or otherwise) protect themselves from the micro:bit having power via another source. This was still necessary on the previous revision when the board was powered from battery, but is now true for USB and edge-connector power also.
 
 The nRF52 supplies 300mA to drive the board.   110mA is reserved for powering on-board components. **190mA** is then available for accessories.
 

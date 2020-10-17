@@ -16,7 +16,7 @@ Power to the micro:bit may be provided via:
 - USB connection via the interface chip (which has an on-board regulator)
 - A battery plugged into the JST connector.
 - The 3V and GND pins on the Edge Connector
-- The two lozenge shaped pads on the rear right of the board
+- The two [rounded rectangular pads](/docs/accessories/assets/making-accessories-d7c25.png) on the rear right of the board
 
 Power from the micro:bit can be provided by the 3V and GND pins to small external circuits.
 
@@ -83,9 +83,13 @@ There is further information about the [battery connection and use](https://supp
 ### 3V Ring Powering
 
 The micro:bit may be powered from the 3V/GND rings on the edge connector.
-There are also two lozenge shaped pads on the far right of the back of the PCB that can be used to supply power (e.g. solderable pads for a 2xAAA holder that has wires or pins at one edge). [The topmost lozenge is 0V and the bottom most lozenge is 3V](../../accessories/making-accessories/#battery-pads).
+There are also two [rounded rectangular pads](/docs/accessories/assets/making-accessories-d7c25.png) on the far right of the back of the PCB that can be used to supply power (e.g. solderable pads for a 2xAAA holder that has wires or pins at one edge).
 
-When powering from the 3V ring or the lozenge on the PCB, you should take appropriate best practice precautions:
+![Picture of the two rounded rectangular pads](/docs/accessories/assets/making-accessories-d7c25.png)
+
+The upper pad is 0V or GND and the lower pad is 3V.
+
+When powering from the 3V ring or the rounded rectangular pads on the PCB, you should take appropriate best practice precautions:
 
 1. Fit an external protection diode (preferably with a low Vf rating) to prevent damage due to the power supply being connected the wrong way round.
 
@@ -95,7 +99,7 @@ When powering from the 3V ring or the lozenge on the PCB, you should take approp
 
 The [schematic](/hardware/schematic/) shows the architecture of the power supply.
 Key points to note are that there are two BAT60A diodes, one from the 3.3V supply from the KL26/27 interface chip, and one from the external battery connector.
-Note that the 3V ring on the edge connector is V_TGT, which is the raw supply provided to all on-board chips, so this is why extra care should be taken when connecting directly to the 3V ring or the 3V lozenge.
+Note that the 3V ring on the edge connector is V_TGT, which is the raw supply provided to all on-board chips, so this is why extra care should be taken when connecting directly to the 3V ring or the 3V [rounded rectangular pad](/docs/accessories/assets/making-accessories-d7c25.png).
 
 The BAT60A devices have a low Vf rating, you can read about this in the [BAT60A datasheet](http://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9)
 
