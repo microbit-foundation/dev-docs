@@ -11,6 +11,8 @@ assigned-to: markw
 review-with: carlospa
 ---
 
+## Hex files
+
 The .hex file is in [intel-hex format](https://en.wikipedia.org/wiki/Intel_HEX). Intel hex consists of records of data, with the address in memory to store the data at the start. All data is hex-ascii encoded. All lines start with a : character. All lines end with a checksum byte that can be used to verify the integrity of the data.
 
 A micro:bit .hex file usually starts writing data to the same fixed location in memory, so depending on the toolchain, we might expect the first line of the file to start like this:
@@ -21,12 +23,13 @@ A micro:bit .hex file usually starts writing data to the same fixed location in 
 
 The latest board revision introduces a superset of the Intel-Hex format that enables compatibility across processor variants. A Universal Hex is a file that contains the binary data for both micro:bit <span class="v1">v1</span> and micro:bit <span class="v2">V2</span>, in a format that DAPLink can process to only write to memory the data relevant to its micro:bit board.
 
-A **Universal Hex** hex file will work on a v1 or V2 board. 
+A **Universal Hex** hex file will work on a v1 or V2 board.
 A clear indication that you are working with this format is that a compiled .hex file will be ~1.8Mb as opposed to ~700Kb in size.
 
 A [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex) has been written to implement the format and associated detailed [specification of the Universal Hex format](https://github.com/microbit-foundation/universal-hex/).
 
 ### Cross device compatibility
+
 The Universal Hex format has been developed to ensure the best experience for users when moving between board variants. If a V1 only .hex is detected on a V2 board it will throw an error, but a V2 only hex will fail silently on a V1. This is very confusing to users and should be avoided.
 
 There may be cases where it is not possible to support both boards, for example an accessory that is designed only to target the V2 board variant. In these cases, to ensure the best user experience when flashing a hex file to any board variant, the file should always include an error message to signify board incompatibility to the user.
@@ -45,7 +48,6 @@ These examples show the process of creating a Universal Hex. A V1 and V2 hex can
 |Universal Hex format                                                 |V2 only Hex format                               |
 |-----------------------------------------------------------|-----------------------------------------------------------|
 | ![Universal Hex error 2](/docs/software/assets/uhex2.png) | ![Universal Hex error 3](/docs/software/assets/uhex1.png) |
-
 
 If you are building .hex files for both board variants, you will need to use the respective toolchains for the DAL<span class="v1">v1</span> and CODAL<span class="v2">v2</span>. See more information on the [micro:bit runtime](../runtime/).
 

@@ -13,27 +13,27 @@ lang: en
 
 The micro:bit presents itself as a USB disk when it is connected over USB, and can be programmed through this interface without the need to install any drivers. This makes it easier to use as a beginner. Furthermore, no matter what code you run on your micro:bit, or how you manage to crash the device, you can always still put a new program on using the USB connection.This is made possible by having a separate 'interface chip' or 'interface MCU' on the micro:bit dedicated to USB connections, programming and debugging.
 
-The **Interface MCU** is a **Freescale KL27** <span class="v2">v2</span> or **Freescale KL26** <span class="v1"> v1</span>. 
+The **Interface MCU** is a **Freescale KL27** <span class="v2">v2</span> or **Freescale KL26** <span class="v1"> v1</span>.
 
 The chip that developers' code runs on, and that all the peripherals are connected to is called the 'target MCU'. See the [Hardware](/hardware) page and the schematic for more details about how these two devices are connected.
 
-The **Target MCU** is a **Nordic Semiconductor nRF52833** <span class="v2">V2</span> or **Nordic Semiconductor nRF51822** <span class="v1">v1</span>. 
+The **Target MCU** is a **Nordic Semiconductor nRF52833** <span class="v2">V2</span> or **Nordic Semiconductor nRF51822** <span class="v1">v1</span>.
 
 <img src="/docs/software/assets/Interface.svg" alt="DAPlink interface" style="background:#eeeeff; padding:20px;">
 
 The target and interface MCUs are connected by two interfaces:
 
-* Serial Wire Debug (SWD) for programming the target MCU.
+- Serial Wire Debug (SWD) for programming the target MCU.
 
-* UART for sending messages between the two devices. In practice, the UART from the target MCU is passed through directly to the PC over USB.
+- UART for sending messages between the two devices. In practice, the UART from the target MCU is passed through directly to the PC over USB.
 
 ### Reference design
 
 On the [reference design](/hardware/reference-design) the interface circuit is clearly separated from the main micro:bit circuits so that you can do the following things:
 
-* Build a board without the interface circuitry and use another debugger to program that over SWD.
+- Build a board without the interface circuitry and use another debugger to program that over SWD.
 
-* Build a board with *just* the interface circuitry and use that to flash other hardware that you have built that might be too small to contain its own interface chip.
+- Build a board with *just* the interface circuitry and use that to flash other hardware that you have built that might be too small to contain its own interface chip.
 
 
 ## DAPLink software
@@ -42,16 +42,15 @@ This interface chip is running software from [Arm Mbed](https://os.mbed.com/) ca
 
 This software provides four USB endpoints that have specific purposes:
 
-* MSC - USB mass storage device for drag-and-drop programming of the target MCU's flash memory.
+- MSC - USB mass storage device for drag-and-drop programming of the target MCU's flash memory.
 
-* CDC - serial passthrough from the target MCU to the PC. This is how messages get from the code you write onto the PC.
+- CDC - serial passthrough from the target MCU to the PC. This is how messages get from the code you write onto the PC.
 
-* HID - CMSIS-DAP compliant debug channel - this is useful if you want to use advanced debuggers like GDB or Keil to understand what's happening (or not happening!) on your micro:bit.
+- HID - CMSIS-DAP compliant debug channel - this is useful if you want to use advanced debuggers like GDB or Keil to understand what's happening (or not happening!) on your micro:bit.
 
-* WebUSB - faciliates communicating witht the device via a WebUSB capable browser.
+- WebUSB - faciliates communicating witht the device via a WebUSB capable browser.
 
-The DAPLink software and interface chip are part of the [Arm Mbed HDK](https://developer.mbed.org/handbook/mbed-HDK)
-and the [Mbed Enabled program](https://www.mbed.com/en/about-mbed/mbed-enabled/)
+The DAPLink software and interface chip are part of the [Arm Mbed HDK](https://developer.mbed.org/handbook/mbed-HDK) and the [Mbed Enabled program](https://www.mbed.com/en/about-mbed/mbed-enabled/)
 
 The micro:bit currently ships with DAPLink bootloader at version 0255 and interface at version 0255.
 
@@ -70,8 +69,7 @@ The following versions of the device have previously been shipped with the follo
 
 It is possible to update the version of DAPLink running on your micro:bit. This is done using the DAPLink bootloader. This means that in fact, DAPLink is built twice for the micro:bit.
 
-1. `bootloader mode` is used to for updating the main interface firmware. In this mode, the drive name is `MAINTENANCE` and hex files dropped onto the disk are written into the 
-KL27 <span class="v2">V2</span> or KL26 <span class="v1">v1</span> flash. These files MUST contain an image of DAPLink or equivalent.
+1. `bootloader mode` is used to for updating the main interface firmware. In this mode, the drive name is `MAINTENANCE` and hex files dropped onto the disk are written into the KL27 <span class="v2">V2</span> or KL26 <span class="v1">v1</span> flash. These files MUST contain an image of DAPLink or equivalent.
 2. `interface mode` is used to target the nRF52833 <span class="v2">V2</span> or nRF51822 <span class="v1">v1</span>. In this mode, the drive name is `MICROBIT` and the hex files dropped onto the micro:bit are written to the flash of the target MCU.
 
 There are detailed instructions for how to [update the firmware version on the micro:bit website](https://microbit.org/get-started/user-guide/firmware/).
@@ -82,10 +80,11 @@ There are detailed instructions for how to [update the firmware version on the m
 
 The flash file system presented on the micro:bit drive is entirely virtual. It is not backed by real memory, and this is why the drive ejects itself after new files are written. When a file is dropped onto the MICROBIT drive, instead of being written into flash memory (like a normal USB memory stick), it is streamed to the target MCU.
 
-The following virtual files exist on the file-system
-* `DETAILS.TXT`: This file tells you about the build of DAPLink currently installed on the interface chip. In later versions of DAPLink it also includes more diagnostic information.
+The following virtual files exist on the file-system:
 
-* `MICROBIT.HTM`: This is a link to [microbit.org](https://microbit.org) to help you get started.
+- `DETAILS.TXT`: This file tells you about the build of DAPLink currently installed on the interface chip. In later versions of DAPLink it also includes more diagnostic information.
+
+- `MICROBIT.HTM`: This is a link to [microbit.org](https://microbit.org) to help you get started.
 
 After flashing occurs, there might also be a `FAIL.TXT` file, that gives a cause for failure.
 
@@ -117,13 +116,13 @@ You can also flash a full DAPLink image to the <span class="v2">V2</span> device
 
 You will need to register for and download the [**Bootloader Host Application (blhost)**](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuboot-mcu-bootloader-for-nxp-microcontrollers:MCUBOOT?&tab=Design_Tools_Tab) from NXP. IN the /bin folder you will find executables for your operating system.
 
-**Enter bootloader mode**
+### Enter bootloader mode
 
 To enter this mode we need to ground TP1 during board power up, this is the BOOTMODE pin in the KL27. To do that, connect with a wire (or something like a paper-clip) TP1 red circle) with any ground point (black sqaure) as you insert the USB cable into the device.
 
 ![TP1](/docs/software/assets/TP1.png){: width: 300px}
 
-**Bootloader CLI tool**
+### Bootloader CLI tool
 
 Run the bootloader tool on your OS. These instructions relate to the CLI, but the GUI settings would be broadly similar.
 

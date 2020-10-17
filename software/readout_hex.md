@@ -11,10 +11,9 @@ assigned-to: markw
 review-with: jonnya
 ---
 
-
 ## Overview
 
-There may be occasions when you want to take a look at the programming that is running on the micro:bit or if you have misplaced the original program. 
+There may be occasions when you want to take a look at the programming that is running on the micro:bit or if you have misplaced the original program.
 
 ## uBitTool
 
@@ -28,7 +27,6 @@ This tool has a range of features:
 - Compare the contents of the micro:bit flash against a local hex file
 
 You can download the [latest release of the uBitTool GUI Editor](https://github.com/carlosperate/ubittool/releases/) from the GitHub repository and there are [Instructions to read out the contents of a hex file](https://www.embeddedlog.com/ubittool/usage.html) on the website
-
 
 ## py-ocd
 

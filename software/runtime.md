@@ -33,10 +33,10 @@ The micro:bit runtime provides a [Device Abstraction Layer (DAL)](https://lancas
 
 Key components of the micro:bit DAL are:
 
-* a scheduler, that lets your micro:bit do more than one task at a time.
-* an eventing system called the message bus, that lets you write reactive code. It can inform your program when things happen on your micro:bit - everything from a button click to a message being received on the radio.
-* device drivers representing the major hardware blocks on the micro:bit, including the LED display, sensors, file system, radio and bluetooth profile.
-* managed types that help keep your programs safe from the complexities of memory management. Originally implemented for higher level languages to exploit, they have also proven very useful for C/C++ programmers too.
+- a scheduler, that lets your micro:bit do more than one task at a time.
+- an eventing system called the message bus, that lets you write reactive code. It can inform your program when things happen on your micro:bit - everything from a button click to a message being received on the radio.
+- device drivers representing the major hardware blocks on the micro:bit, including the LED display, sensors, file system, radio and bluetooth profile.
+- managed types that help keep your programs safe from the complexities of memory management. Originally implemented for higher level languages to exploit, they have also proven very useful for C/C++ programmers too.
 
 The micro:bit <span class="v1">v1</span> can also be programmed using the Mbed HAL directly, for those developers seeking more low level access to the hardware.
 
@@ -45,11 +45,11 @@ The [Component Oriented Device Abstraction Layer (CODAL)](https://lancaster-univ
 
 Key components of micro:bit CODAL are:
 
-* A unified eventing subsystem (common to all components) that provides a mechanism to map asynchronous hardware and software events to event handlers;
-* A non-preemptive fiber scheduler that enables concurrency while minimizing the need for resource locking primitives.
-* A simple memory management system based on reference counting to provide a basis for managed types.
-* A set of drivers, that abstract microcontroller hardware components into higher level software components,each represented by a C++ class.
-* A parameterized object model composed from these components that represents a physical device.
+- A unified eventing subsystem (common to all components) that provides a mechanism to map asynchronous hardware and software events to event handlers;
+- A non-preemptive fiber scheduler that enables concurrency while minimizing the need for resource locking primitives.
+- A simple memory management system based on reference counting to provide a basis for managed types.
+- A set of drivers, that abstract microcontroller hardware components into higher level software components,each represented by a C++ class.
+- A parameterized object model composed from these components that represents a physical device.
 
 (Source: [MakeCode and CODAL - intuitive and efficient embedded systems programming for education](https://tech.microbit.org/projects/MakeCode-and-CODAL/))
 
@@ -63,10 +63,9 @@ The micro:bit runtime is an open source project, distributed under the MIT licen
 
 Firstly, you should get yourself into a situation where you can build the micro:bit runtime DAL. You can choose either an online build environment inside your web browser through Mbed.org, or an downloadable compiler. The [getting started docs] (https://lancaster-university.github.io/microbit-docs/#getting-started) guide you through this process.
 
-
 ### Asking for features and reporting bugs
 
-If you would have a feature request, or would like to get involved in the micro:bit runtime development, visit the [list of open issues](https://github.com/lancaster-university/microbit-dal/issues) and raise a new issue if it isn't already in there. 
+If you would have a feature request, or would like to get involved in the micro:bit runtime development, visit the [list of open issues](https://github.com/lancaster-university/microbit-dal/issues) and raise a new issue if it isn't already in there.
 
 You can also join the [microbit developer community on Slack](/community) if you'd like to discuss the micro:bit runtime and its components.
 
@@ -102,8 +101,7 @@ micro:bit was based on the well-established Mbed 2.0 SDK, with which mbed 5 is c
 
 ## Nordic nRF5 SDK
 
-The Mbed abstraction for the Nordic chip is built on top of the Nordic nRF5 SDK
-https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF5-SDK
+The Mbed abstraction for the Nordic chip is built on top of the Nordic nRF5 SDK https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF5-SDK
 
 Crucially, this includes Nordic's [Soft Device 110](https://www.nordicsemi.com/Software-and-Tools/Software/S110) <span class="v1">v1</span> / [Soft Device 140](https://www.nordicsemi.com/Software-and-tools/Software/S140) <span class="v2">V2</span>, a binary object that gets included into any hex file for the micro:bit that manages control of the radio to allow the micro:bit to use the industry standard Bluetooth Low Energy protocols.
 

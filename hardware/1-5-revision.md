@@ -9,7 +9,7 @@ ref: hardware
 lang: en
 ---
 
-# Overview
+## Overview
 {:notoc}
 
 * TOC
@@ -18,35 +18,28 @@ lang: en
 ![img](/docs/hardware/assets/microbit-overview-1-5.png)
 
 
-# Getting Started With the micro:bit Hardware
+## Getting Started With the micro:bit Hardware
 
 The micro:bit hardware is based on the Arm-Mbed platform.
 It has an application processor with lots of on-chip perhipherals.
 Some off-chip peripherals are connected to this chip.
-There is an interface processor connected to the application processor,
-and it is the interface processors job to manage communications over the USB
-and to support the drag-and-drop code-flashing process.
+There is an interface processor connected to the application processor, and it is the interface processors job to manage communications over the USB and to support the drag-and-drop code-flashing process.
 The interface processor does not connect to any of the micro:bit peripherals.
 
 Two key pieces of information to help understand the internals of the micro:bit are:
 
-* The [schematics](../schematic), which shows the detailed component data and connectivity of the device.
+- The [schematics](../schematic), which shows the detailed component data and connectivity of the device.
 
-* The [reference design](../reference-design), which is a complete module design of a compatible micro:bit,
-  and is designed to be a starting point for anyone interested in understanding the micro:bit
-  or designing their own variant.
+- The [reference design](../reference-design), which is a complete module design of a compatible micro:bit, and is designed to be a starting point for anyone interested in understanding the micro:bit or designing their own variant.
 
+## Hardware Description
 
-# Hardware Description
-
-## nRF51 Application Processor
+### nRF51 Application Processor
 
 The nRF51 application processor is where user programs run.
-A single, complete application including user code, runtime code and bluetooth stack
-is loaded and run directly from on chip flash memory.
+A single, complete application including user code, runtime code and bluetooth stack is loaded and run directly from on chip flash memory.
 All user accessible GPIO pins are provided by this processor.
-There is an onboard 2.4GHz radio engine used to provide Bluetooth capabilities
-via an off-chip aerial.
+There is an onboard 2.4GHz radio engine used to provide Bluetooth capabilities via an off-chip aerial.
 
 | item          | details
 | ---           | ---
@@ -58,13 +51,10 @@ via an off-chip aerial.
 | Debug         | SWD, jlink/OB
 | More Info     | [Software](../../software), [NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
 
+### Bluetooth Wireless Communication
 
-## Bluetooth Wireless Communication
-
-The on board 2.4GHz transciever supports Bluetooth communications via the Nordic S110 SoftDevice,
-which provides a fully qualified Bluetooth low energy stack.
-This allows the micro:bit to communicate with a wide range of Bluetooth devices,
-including smartphones and tablets.
+The on board 2.4GHz transciever supports Bluetooth communications via the Nordic S110 SoftDevice, which provides a fully qualified Bluetooth low energy stack.
+This allows the micro:bit to communicate with a wide range of Bluetooth devices, including smartphones and tablets.
 
 | item          | details
 | ---           | ---
@@ -78,17 +68,12 @@ including smartphones and tablets.
 | Profiles      | [BBC micro:bit profile](https://lancaster-university.github.io/microbit-docs/ble/profile/)
 | More Info     | [Bluetooth](../../bluetooth)
 
+### Low Level Radio Communications
 
-## Low Level Radio Communications
-
-The on board 2.4GHz transciever supports a number of other radio communications standards,
-including the proprietary Nordic Gazell protocol.
-This protocol provides a very simple small-packet broadcast radio interface between other devices
-that support this proprietary protocol, such as other micro:bit devices.
-The 'radio' interface that appears in a number of the languages on the micro:bit
-is built on top of this Gazell protocol.
-Additionally, the micro:bit runtime software adds a 'group code' to each data payload,
-allowing for simple user managed device addressing and filtering to take place.
+The on board 2.4GHz transciever supports a number of other radio communications standards, including the proprietary Nordic Gazell protocol.
+This protocol provides a very simple small-packet broadcast radio interface between other devices that support this proprietary protocol, such as other micro:bit devices.
+The 'radio' interface that appears in a number of the languages on the micro:bit is built on top of this Gazell protocol.
+Additionally, the micro:bit runtime software adds a 'group code' to each data payload, allowing for simple user managed device addressing and filtering to take place.
 
 | item          | details
 | ---           | ---
@@ -102,20 +87,12 @@ allowing for simple user managed device addressing and filtering to take place.
 | Payload size  | 32 (standard) 255 (if reconfigured)
 | More Info     | [Micro:bit Radio](https://lancaster-university.github.io/microbit-docs/ubit/radio)
 
+### Buttons
 
-## Buttons
-
-The two buttons on the front of the micro:bit, and the 1 button on the back,
-are tact momentary push to make buttons. The back button is connected to the KL26
-interface processor and to the nRF51 processor for system reset purposes. This
-means that the application will reset regardless of if it is powered from USB
-or from battery.
+The two buttons on the front of the micro:bit, and the 1 button on the back, are tact momentary push to make buttons. The back button is connected to the KL26 interface processor and to the nRF51 processor for system reset purposes. This means that the application will reset regardless of if it is powered from USB or from battery.
 
 Front buttons A and B can be programmed in the user application for any purpose.
-A and B are debounced by software, which also includes short press, long press,
-and 'both A+B' press detection. Buttons operate in a typical inverted electrical mode,
-where a pullup resistor ensures a logical '1' when the button is released,
-and a logical '0' when the button is pressed.
+A and B are debounced by software, which also includes short press, long press, and 'both A+B' press detection. Buttons operate in a typical inverted electrical mode, where a pullup resistor ensures a logical '1' when the button is released, and a logical '0' when the button is pressed.
 Both A and B buttons are connected to GPIO pins that are also accessible on the micro:bit edge connector.
 
 | item          | details
@@ -124,16 +101,12 @@ Both A and B buttons are connected to GPIO pins that are also accessible on the 
 | Debounce      | (A & B) software debounced, 54ms period
 | Pullup        | (A & B) external 4K7, (System) 10K
 
-
-## Display
+### Display
 
 The display is a 5x5 array of LEDs.
 It is connected to the micro:bit as a 3x9 matrix.
-Runtime software repeatedly refreshes this matrix at a high speed,
-such that it is within the user persistence of vision range, and no flicker is detected.
-This LED matrix is also used to sense ambient light,
-by repeatedly switching some of the LED drive pins into inputs and sampling the voltage decay time,
-which is roughly proportional to ambient light levels.
+Runtime software repeatedly refreshes this matrix at a high speed, such that it is within the user persistence of vision range, and no flicker is detected.
+This LED matrix is also used to sense ambient light, by repeatedly switching some of the LED drive pins into inputs and sampling the voltage decay time, which is roughly proportional to ambient light levels.
 
 | item          | details
 | ---           | ---
@@ -146,13 +119,11 @@ which is roughly proportional to ambient light levels.
 | Sensing Range | TBC, 10 levels from off to full on
 | Colour sensitivity | red centric, red is 700nm
 
-## Motion sensor
+### Motion sensor
 
 The 1.5 micro:bit variant has a combined accelerometer and magnetometer chip  that provides 3-axis sensing and magnetic field strength sensing.
-It also includes some on board gesture detection (such as fall detection) in hardware,
-and additional gesture sensing (e.g. logo-up, logo-down, shake) via software algorithms.
-A software algorithm in the standard runtime uses the on board accelerometer
-to turn readings into a board orientation independent compass reading.
+It also includes some on board gesture detection (such as fall detection) in hardware, and additional gesture sensing (e.g. logo-up, logo-down, shake) via software algorithms.
+A software algorithm in the standard runtime uses the on board accelerometer to turn readings into a board orientation independent compass reading.
 The compass must be calibrated before use, and the calibration process is automatically initiated by the runtime software.
 This device is connected to the application processor via the I2C bus.
 
@@ -166,11 +137,10 @@ The v1.5 micro:bit has a footprint for two different motion sensors: one made by
 | On board gestures | 'freefall'
 | Other gestures | Other gestures are implemented by software algorithms in the runtime.
 
-## Temperature Sensing
+### Temperature Sensing
 
 The nRF51 application processor has an on board core temperature sensor.
-This is exposed via the standard runtime software, and provides an estimate of ambient
-temperature.
+This is exposed via the standard runtime software, and provides an estimate of ambient temperature.
 
 | item          | details
 | ---           | ---
@@ -180,14 +150,9 @@ temperature.
 | Accuracy      | +/-4C (uncalibrated)
 | More Info     | [DAL Thermometer](https://lancaster-university.github.io/microbit-docs/ubit/thermometer/)
 
-## General Purpose Input/Output Pins
+### General Purpose Input/Output Pins
 
-The edge connector brings out many of the GPIO circuits of the application
-processor. Some of these circuits are shared with other functions of the micro:bit, but
-many of these extra circuits can be re-allocated to general purpose use if some software
-features are turned off. Note: the nRF51 data sheet states that GPIO pins may be
-in std-drive (0.5mA) and high-drive (5mA) mode, with a maximum of 3 pins in high-drive
-mode at any one time.
+The edge connector brings out many of the GPIO circuits of the application processor. Some of these circuits are shared with other functions of the micro:bit, but many of these extra circuits can be re-allocated to general purpose use if some software features are turned off. Note: the nRF51 data sheet states that GPIO pins may be in std-drive (0.5mA) and high-drive (5mA) mode, with a maximum of 3 pins in high-drive mode at any one time.
 
 | item          | details
 | ---           | ---
@@ -208,13 +173,9 @@ mode at any one time.
 | Pitch | 1.27mm, 80 way double sided.
 | Pads| 5 pads, with 4mm holes
 
+### Power Supply
 
-## Power Supply
-
-Power to the micro:bit may be provided via the USB connection, via the
-interface chip (which has an on-board regulator), or via a battery plugged into the top
-connector. It is also possible (with care) to power the micro:bit from the 3V pad at the
-bottom. The 3V pad at the bottom can be used to supply a small amount of power external circuits.
+Power to the micro:bit may be provided via the USB connection, via the interface chip (which has an on-board regulator), or via a battery plugged into the top connector. It is also possible (with care) to power the micro:bit from the 3V pad at the bottom. The 3V pad at the bottom can be used to supply a small amount of power external circuits.
 
 | item          | details
 | ---           | ---
@@ -226,12 +187,9 @@ bottom. The 3V pad at the bottom can be used to supply a small amount of power e
 | Max current provided via edge connector | 90mA
 | More Info | [Power supply](../powersupply)
 
+### Interface
 
-## Interface
-
-The interface chip handles the USB connection, and is used for flashing
-new code to the micro:bit, sending and receiving serial data back and forth to your
-main computer.
+The interface chip handles the USB connection, and is used for flashing new code to the micro:bit, sending and receiving serial data back and forth to your main computer.
 
 | item          | details
 | ---           | ---
@@ -243,15 +201,9 @@ main computer.
 | Debug capabilities | SWD
 | More Info | [DAPLink](../../software/daplink-interface/), [KL26 reference manual](https://www.nxp.com/docs/en/reference-manual/KL26P121M48SF4RM.pdf) [KL26Z data sheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
 
+### USB Communications
 
-## USB Communications
-
-The micro:bit has an on board USB communications stack, that is built into the firmware
-of the interface chip. This stack provides the ability to drag and drop files onto the
-MICROBIT drive in order to load code into the application processor. It also allows
-serial data to be streamed to and from the micro:bit application processor over USB to
-an external host computer, and supports the CMSIS-DAP protocol for host debugging
-of application programs.
+The micro:bit has an on board USB communications stack, that is built into the firmware of the interface chip. This stack provides the ability to drag and drop files onto the MICROBIT drive in order to load code into the application processor. It also allows serial data to be streamed to and from the micro:bit application processor over USB to an external host computer, and supports the CMSIS-DAP protocol for host debugging of application programs.
 
 | item          | details
 | ---           | ---
@@ -262,15 +214,9 @@ of application programs.
 |    | [Communications Device Class (CDC)](https://en.wikipedia.org/wiki/USB_communications_device_class)
 | More Info | [DAPLink](../../software/daplink-interface/)
 
+### Debugging
 
-## Debugging
-
-The interface processor can be used with special host tools to debug
-code that is running on the application processor. It connects to the application
-processor via 4 signal wires. The KL26 interface processor code can also
-be debuged via it's integral SWD software debug interface, for example to
-load initial bootloader code into this processor at manufacturing time, or to
-recover a lost bootloader.
+The interface processor can be used with special host tools to debug code that is running on the application processor. It connects to the application processor via 4 signal wires. The KL26 interface processor code can also be debuged via it's integral SWD software debug interface, for example to load initial bootloader code into this processor at manufacturing time, or to recover a lost bootloader.
 
 | item          | details
 | ---           | ---
@@ -278,24 +224,21 @@ recover a lost bootloader.
 | Options       | JLink/OB (via different firmware)
 | More Info     | [Mbed debugging micro:bit](https://os.mbed.com/docs/mbed-os/v5.11/tutorials/debug-microbit.html)
 
-## Mechanical
+### Mechanical
 
-We have some [nice 2D and 3D CAD drawings and models of the micro:bit](https://github.com/microbit-foundation/microbit-reference-design) including all the important dimensions. These models can be used as a basis for generating
-really nice marketing and project images of the micro:bit, but also as a basis for accurate
-manufacture of attachments e.g. via 3D printing.
+We have some [nice 2D and 3D CAD drawings and models of the micro:bit](https://github.com/microbit-foundation/microbit-reference-design) including all the important dimensions. These models can be used as a basis for generating really nice marketing and project images of the micro:bit, but also as a basis for accurate manufacture of attachments e.g. via 3D printing.
 
 | item          | details
 | ---           | ---
 | Dimensions    | 5cm(w) 4cm(h)
 | Weight        | 5g
 
+## Further information
 
-# Links
+- [BBC Technical Specifications](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/specs)
 
-[BBC Technical Specifications](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/specs)
+- [I2C specification](http://cache.nxp.com/documents/user_manual/UM10204.pdf)
 
-[I2C specification](http://cache.nxp.com/documents/user_manual/UM10204.pdf)
+- [SPI 'specification'](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
 
-[SPI 'specification'](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
-
-[Fritzing diagram, contributed by Kok Ho Huen](/docs/hardware/assets/Microbit.fzpz.zip)
+- [Fritzing diagram, contributed by Kok Ho Huen](/docs/hardware/assets/Microbit.fzpz.zip)
