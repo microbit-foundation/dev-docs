@@ -24,13 +24,13 @@ Using Bluetooth, you can connect to other devices and send and receive data from
 
 ## micro:bit Bluetooth Features
 
-Bluetooth features available on the micro:bit are defined in a [Bluetooth profile](/bluetooth/profile). The micro:bit supports one, custom developed profile.
+Bluetooth features available on the micro:bit are defined in a [Bluetooth profile](/bluetooth/profile). The micro:bit supports one, custom-developed profile.
 
 ## Bluetooth and the micro:bit software
 
-The [DAL/C++](https://lancaster-university.github.io/microbit-docs/ble/profile/#reference-documentation) lists the adopted and custom features available within the profile. [MakeCode](https://makecode.microbit.org/reference/bluetooth) contains a set of blocks to make use of the various micro:bit services.
+The [DAL/C++ reference documentation](https://lancaster-university.github.io/microbit-docs/ble/profile/#reference-documentation) lists the adopted and custom features available within the profile. [MakeCode](https://makecode.microbit.org/reference/bluetooth) contains a set of blocks to make use of the various micro:bit services.
 
-The processor also has a number of non-bluetooth proprietary modes of operation, on which we build the micro:bit radio protocol. This only works between micro:bits and is what is defined as 'Micro:bit Radio' in the DAL and  'radio' in MakeCode and MicroPython, as well as Mbed C++.
+The processor also has several non-bluetooth, proprietary modes of operation upon which the micro:bit radio protocol is based. This protocol works only between micro:bits and is defined as 'Micro:bit Radio' in the DAL and 'radio' in MakeCode, MicroPython, and Mbed C++.
 
 ## Apps
 
@@ -42,3 +42,4 @@ Scratch.
 ## Further information
 
 - [Bluetooth Specification](https://www.bluetooth.com/specifications/adopted-specifications)
+- [DAL/C++ Bluetooth Reference Documentation](https://lancaster-university.github.io/microbit-docs/ble/profile/#reference-documentation)
