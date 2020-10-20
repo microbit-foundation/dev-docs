@@ -32,7 +32,7 @@ Pin 9 is no longer jointly shared with the LED display, but Pin 8 and Pin 9 can 
 
 | V2   | v1
 | ---- | ---- 
-| ![edge connector V2](/docs/hardware/assets/edge-connector-2.svg) | ![edge connector v1](/docs/hardware/assets/edge_connector.svg)
+| ![edge connector V2](/hardware/assets/edge-connector-2.svg) | ![edge connector v1](/hardware/assets/edge_connector.svg)
 
 ### microbit.pinout.xyz
 
