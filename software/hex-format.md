@@ -43,7 +43,7 @@ We have created a [standalone error hex](/docs/software/assets/stand-alone-error
 This example shows the worst, best and acceptable (when support for V1 is impossible) cases for users. The best case is to provide a Universal Hex that supports all board variants.
 ![Universal Hex error 1](/docs/software/assets/hex-compatibility-errors.png)
 
-These examples show the process of creating a Universal Hex. A V1 and V2 hex can be combined to produce a Universal Hex. If you can only support a V2 board,the standalone error can be combined with a V2 hex to produce a hex that will fail with an error on a V1 board, rather than failing silently.
+These examples show the process of creating a Universal Hex. A V1 and V2 hex can be combined to produce a Universal Hex. If you can only support a V2 board, the standalone error can be combined with a V2 hex to produce a hex that will fail with an error on a V1 board, rather than failing silently.
 
 |Universal Hex format                                                 |V2 only Hex format                               |
 |-----------------------------------------------------------|-----------------------------------------------------------|
