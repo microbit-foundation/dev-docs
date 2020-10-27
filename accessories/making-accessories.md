@@ -29,17 +29,19 @@ The edge connector on the <span class="V2">V2</span> board revision is backwards
 
 ## Battery Pads
 
-There are two lozenge shaped pads on the back of the micro:bit. These allow you to connect a battery holder via a mechanism other than the JST connector.
+There are two rounded rectangular pads on the back of the micro:bit. These allow you to connect a battery holder via a mechanism other than the JST connector.
 
-![Picture of the two lozenges](/docs/accessories/assets/making-accessories-d7c25.png)
+![Picture of the two rounded rectangular pads](/docs/accessories/assets/making-accessories-d7c25.png)
+
+The upper pad is 0V or GND and the lower pad is 3V.
 
 ### V2 revision
 
-In the <span class="v2">V2</span> board revision, the 3V lozenge is connected to the 3V ring on the edge connector.
+In the <span class="v2">V2</span> board revision, the 3V rounded rectangular pad is connected to the 3V ring on the edge connector.
 
-- If you make an accessory that uses the lozenges, it must be protected from reverse charging when the board is powered by USB, battery or edge connector.
-- You can now source power from the lozenges if you are making an accessory, as they are consistent with the power architecture of the edge connector.
+- If you make an accessory that uses the rounded rectangular pads, it must be protected from reverse charging when the board is powered by USB, battery or edge connector.
+- You can now source power from the rounded rectangular pads if you are making an accessory, as they are consistent with the power architecture of the edge connector.
 
-Due to the addition of a speaker, current accessories that use the lozenges to power the micro:bit will no longer fit.
+Due to the addition of a speaker, current accessories that use the rounded rectangular pads to power the micro:bit will no longer fit.
 
 
