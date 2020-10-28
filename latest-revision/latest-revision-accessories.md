@@ -104,6 +104,8 @@ If the extension is incompatible, the MakeCode editor will fail to compile the p
 
 We are working behind the scenes on patching all MakeCode extensions that are currently incompatible. If we have not made contact or you wish to discuss any issues, please get in touch.
 
+A current list of extensions with issues can be found in https://github.com/microsoft/pxt-microbit/issues/3506
+
 ### Python modules
 
 The additional memory available to the latest revision means that you have more space to create python modules to work with your accessories and the micro:bit.
@@ -117,7 +119,7 @@ The latest board revision introduces a superset of the Intel-Hex format that ena
 A **Universal Hex** hex file will work on a v1 or V2 board.
 A clear indication that you are working with this format is that a compiled .hex file will be ~1.8Mb as opposed to ~700Kb in size.
 
-A [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex) has been written to implement the format and associated detailed [specification of the Universal Hex format](https://github.com/microbit-foundation/universal-hex/).  Please [get in contact](mailto:support@microbit.org?subject=Request%20for%20access%20to%20Universal%20hex&20spec&body=Name%3A%0D%0A%0D%0AGitHub%20ID%3A) if you require access to the specification.
+A [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex) has been written to implement the format and associated detailed specification of the Universal Hex format. Please [get in contact](mailto:support@microbit.org?subject=Request%20for%20access%20to%20Universal%20hex&20spec&body=Name%3A%0D%0A%0D%0AGitHub%20ID%3A) if you require access to the specification.
 
 ### Hex format compatibility
 

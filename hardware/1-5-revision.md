@@ -63,7 +63,7 @@ This allows the micro:bit to communicate with a wide range of Bluetooth devices,
 | Channels      | 50 2MHz channels, only 40 used (0 to 39), 3 advertising channels (37,38,39)
 | Sensitivity   | -93dBm in Bluetooth low energy mode
 | Tx Power      | -20dBM to 4dBm in 4 dB steps
-| Role          | [GAP Peripheral](http://bluetooth-mdw.blogspot.co.uk/2016/07/microbit-and-bluetooth-roles.html)
+| Role          | [GAP Peripheral](http://bluetooth-developer.blogspot.co.uk/2016/07/microbit-and-bluetooth-roles.html)
 | Congestion avoidance | Adaptive Frequency Hopping
 | Profiles      | [BBC micro:bit profile](https://lancaster-university.github.io/microbit-docs/ble/profile/)
 | More Info     | [Bluetooth](../../bluetooth)
@@ -222,7 +222,7 @@ The interface processor can be used with special host tools to debug code that i
 | ---           | ---
 | Protocol      | CMSIS-DAP
 | Options       | JLink/OB (via different firmware)
-| More Info     | [Mbed debugging micro:bit](https://os.mbed.com/docs/mbed-os/v5.11/tutorials/debug-microbit.html)
+| More Info     | [Mbed debugging micro:bit](https://docs.mbed.com/docs/mbed-os-handbook/en/latest/debugging/debugging_microbit/)
 
 ### Mechanical
 
@@ -237,7 +237,7 @@ We have some [nice 2D and 3D CAD drawings and models of the micro:bit](https://g
 
 - [BBC Technical Specifications](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/specs)
 
-- [I2C specification](http://cache.nxp.com/documents/user_manual/UM10204.pdf)
+- [I2C specification](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)
 
 - [SPI 'specification'](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
 

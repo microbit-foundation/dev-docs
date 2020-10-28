@@ -23,7 +23,7 @@ In addition to our regular [Micro:bit Educational Foundation newsletter](https:/
 
 ## Join us on the microbit-community slack channel!
 
-[Slack](https://slack) is a messaging service that allows teams and communities to connect online. It's a brilliant tool for live collaboration and the place to be for current micro:bit chatter!
+[Slack](https://slack.com) is a messaging service that allows teams and communities to connect online. It's a brilliant tool for live collaboration and the place to be for current micro:bit chatter!
 
 Please note that Slack complements, but does not replace [micro:bit help & support](http://support.microbit.org, where you can search for help and ask the team questions.
 
