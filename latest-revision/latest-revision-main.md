@@ -136,8 +136,6 @@ To access the features of the latest revision only (eg. to output sound only on 
 
 Features that are common to all board variants will work in the same way they always have. For example, you will be able to use the same blocks in MakeCode to use the acceleromater on any board revision.
 
-### MakeCode
-
 ### Makecode
 You can use the latest board revision in the beta editor [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta) alongside the current revision. 
 
