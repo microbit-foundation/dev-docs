@@ -128,8 +128,6 @@ Tutorials and API documentation for developers can be [found here](https://micro
 
 - [Log a new issue](https://github.com/bbcmicrobit/micropython/issues/new)
 
-- [Ask a question on the mailing list](https://mail.python.org/mailman/listinfo/microbit) (you must be a member of the mailing list before you can post to it).
-
 ### Source Code
 
 - [MicroPython on the micro:bit source code](https://github.com/bbcmicrobit/micropython)
