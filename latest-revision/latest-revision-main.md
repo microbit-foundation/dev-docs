@@ -139,13 +139,9 @@ Features that are common to all board variants will work in the same way they al
 ### MakeCode
 
 ### Makecode
-You can use the latest board revision in the beta editor [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta) alongside the current revision. This editor does not yet have support for V2 features.
+You can use the latest board revision in the beta editor [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta) alongside the current revision. 
 
-#### Using the new features in MakeCode
-
-An alpha version of the MakeCode editor that includes the latest V2 feature blocks is available at [https://makecode.microbit.org/v3.1](https://makecode.microbit.org/v3.1)
-
-#### V2 MakeCode APIs
+#### Using the new features in MakeCode beta
 
 The Microphone and Logo touch features can be found in the Input menu
 

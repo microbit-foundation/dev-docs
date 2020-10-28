@@ -104,6 +104,8 @@ If the extension is incompatible, the MakeCode editor will fail to compile the p
 
 We are working behind the scenes on patching all MakeCode extensions that are currently incompatible. If we have not made contact or you wish to discuss any issues, please get in touch.
 
+A current list of extensions with issues can be found in https://github.com/microsoft/pxt-microbit/issues/3506
+
 ### Python modules
 
 The additional memory available to the latest revision means that you have more space to create python modules to work with your accessories and the micro:bit.
