@@ -36,14 +36,14 @@ There may be cases where it is not possible to support both boards, for example 
 
 We have created a [standalone error hex](/docs/software/assets/stand-alone-error-v1.hex) that can be combined with a V2 only hex to produce a Hex that will work on a V2 board, but error if used on a v1.
 
-{% include alert-info.html content="We are currently working on a web based and CLI tool to generate Univeral Hex files and will publish information on usage here when this is ready. In the meantime, please [get in contact](mailto:support@microbit.org) if you require further information" %}
+{% include alert-info.html content="We are currently working on a web based and CLI tool to generate Universal Hex files and will publish information on usage here when this is ready. In the meantime, please [get in contact](mailto:support@microbit.org) if you require further information" %}
 
 [Download standalone error hex](/docs/software/assets/stand-alone-error-v1.hex){: .btn.sm-btn download}
 
 This example shows the worst, best and acceptable (when support for V1 is impossible) cases for users. The best case is to provide a Universal Hex that supports all board variants.
 ![Universal Hex error 1](/docs/software/assets/hex-compatibility-errors.png)
 
-These examples show the process of creating a Universal Hex. A V1 and V2 hex can be combined to produce a Universal Hex. If you can only support a V2 board,the standalone error can be combined with a V2 hex to produce a hex that will fail with an error on a V1 board, rather than failing silently.
+These examples show the process of creating a Universal Hex. A V1 and V2 hex can be combined to produce a Universal Hex. If you can only support a V2 board, the standalone error can be combined with a V2 hex to produce a hex that will fail with an error on a V1 board, rather than failing silently.
 
 |Universal Hex format                                                 |V2 only Hex format                               |
 |-----------------------------------------------------------|-----------------------------------------------------------|

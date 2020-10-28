@@ -3,7 +3,7 @@ layout: page
 order:
 title: MicroPython on the micro:bit
 heading: MicroPython
-description: MicroPython is a reimplemation of Python 3 that can be used with the BBC micro:bit
+description: MicroPython is a reimplementation of Python 3 that can be used with the BBC micro:bit
 permalink: /software/micropython/
 ref: software
 lang: en
@@ -26,7 +26,7 @@ There are many ways to use MicroPython on the micro:bit. You can use:
 A utility for flashing the BBC micro:bit with Python scripts and the MicroPython runtime. You pronounce the name of this utility “micro-flash”. ;-)
 
 It provides two services:
-    - A library of functions to programatically create a hex file and flash it onto a BBC micro:bit.
+    - A library of functions to programmatically create a hex file and flash it onto a BBC micro:bit.
     - A command line utility called uflash that will flash Python scripts onto a BBC micro:bit.
 
 - [microFS](https://microfs.readthedocs.io/en/latest/)
@@ -48,7 +48,7 @@ MicroPython is just as easy to learn as the other programming languages but diff
 
 <span class="v1">v1</span> The Bluetooth stack is not enabled inside MicroPython because of memory constraints. However MicroPython uses the Bluetooth radio hardware with its own simple yet powerful `radio` module. The protocol for the `radio` module is a lot more beginner friendly than Bluetooth yet allows users to create efficient yet effective wireless networks of micro:bit devices. Conceptually it works in the same way as walkie-talkies: anyone broadcasting on a certain channel can be heard by anyone listening on the same channel (and there are a large selection of channels to tune into). That's it!
 
-Finally, and perhaps most importantly, by learning MicroPython you're learning how to use Python - one of the world's most popular professional programming languages. You inadvertantly use Python *every day* when you use YouTube, Google, Facebook, Instagram, DropBox and a plethora of other online services.
+Finally, and perhaps most importantly, by learning MicroPython you're learning how to use Python - one of the world's most popular professional programming languages. You inadvertently use Python *every day* when you use YouTube, Google, Facebook, Instagram, DropBox and a plethora of other online services.
 These skills are valuable: Python programmers are in demand.
 
 ### The MicroPython Software
@@ -93,7 +93,7 @@ The Python bytecode is given to the Python virtual machine to run and so your pr
 
 All of the above happens in the blink of an eye.
 
-The Python virtual machine built into MicroPython is itself compiled from C++ code. It reads Python bytecodes and interprets them one at a time, calling into lower level C++ functions to make each one perform it's unique purpose. By using a bytecode interpreter, MicroPython implements a virtual machine with it's own virtual instruction set.
+The Python virtual machine built into MicroPython is itself compiled from C++ code. It reads Python bytecodes and interprets them one at a time, calling into lower level C++ functions to make each one perform its unique purpose. By using a bytecode interpreter, MicroPython implements a virtual machine with its own virtual instruction set.
 It is virtual, because these instructions are not "baked in" to the hardware, but they are implemented in software. This is what allows MicroPython to be easily 'ported' onto different computer systems with different processors.
 
 ### Code Editors and Tools

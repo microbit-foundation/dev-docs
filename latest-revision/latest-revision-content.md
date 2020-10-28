@@ -23,7 +23,7 @@ If you’d like to keep up to date with technical information about the device, 
 
 ## Updating .hex files
 
-The editors and apps are being updated over the coming weeks and are currrently in beta.
+The editors and apps are being updated over the coming weeks and are currently in beta.
 When they are released, you should update any compiled .hex files that you host as part of your resources.
 
 To do this, simply drag and drop them into the editor in which they were created and then download the .hex file.

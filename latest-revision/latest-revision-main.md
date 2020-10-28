@@ -74,7 +74,7 @@ These pages provide further guidance on the updates for different audiences.
 
 ## Universal Editors & Universal Hex Files
 
-In an effort to ensure the greatest degree of continuity for teachers, users will not need to select which version of the device they have before using MakeCode or the Python Editor. Instead, the editors will suport a new format called “universal hex” which can run on both micro:bit V1 and micro:bit V2 (more below)
+In an effort to ensure the greatest degree of continuity for teachers, users will not need to select which version of the device they have before using MakeCode or the Python Editor. Instead, the editors will support a new format called “universal hex” which can run on both micro:bit V1 and micro:bit V2 (more below)
 
 This means that you can use MakeCode or the online Python Editor as you always have, to use all of the features that are common to both version of the BBC micro:bit: Display, buttons, motion sensing, gestures like shake, light sensing, and even the Music blocks.
 
@@ -84,9 +84,9 @@ These are the V2 features and whether we expect them to work as expected ✅  or
 
 | **Feature**      | **Codal** | **MakeCode** | **MakeCode Simulator** | **MicroPython** |
 | ---------------- | --------- | ------------ | ---------------------- | --------------- |
-| Microphone       | ✅         | ✅           | 🛑                     | ✅             |
+| Microphone       | ✅         | ✅           | ✅                     | ✅             |
 | Speaker          | ✅         | ✅           | 🛑                     | ✅             |
-| Logo touch       | ✅         | ✅           | 🛑                     | ✅             |
+| Logo touch       | ✅         | ✅           | ✅                     | ✅             |
 | Power management | ✅         | ✅           | 🛑                     | 🛑             |
 | Sound emoji      | ✅         | 🔶           | 🛑                     | 🛑             |
 
@@ -102,19 +102,19 @@ When they are finalised, we will notify people via the [DAL, Editors and Devices
 | API                                                 | Blocks         | Status                | GitHub Issues |
 | --------------------------------------------------- | -------------------- | --------------------- | ------------- |
 | On loud/quiet sound `input.onSound(SoundType.Loud)` - Triggers after a transition from quiet-loud/loud-quiet, so 'on quiet' will trigger after a loud sound but not continuously | ![on loud sound](/docs/latest-revision/assets/makecode-blocks/loudsound.png){: width="125"}          | ✅     |               |
-| Set pin touch type `pins.touchSetType(TouchTarget.P0, TouchType.Resistive)`- capacitive/resisitive - Logo is capacative, large pins are resistive by default. | ![set touch type](/docs/latest-revision/assets/makecode-blocks/pin-mode.png){: width="650"} | ✅  | |
+| Set pin touch type `pins.touchSetType(TouchTarget.P0, TouchType.Resistive)`- capacitive/resistive - Logo is capacitive, large pins are resistive by default. | ![set touch type](/docs/latest-revision/assets/makecode-blocks/pin-mode.png){: width="650"} | ✅  | |
 | On Logo pressed `input.onLogoPressed()` | ![logo pressed](/docs/latest-revision/assets/makecode-blocks/onLogoPressed.png){: width="125"} | ✅  | |
 | On logo released `input.onLogoReleased()` | ![logo released](/docs/latest-revision/assets/makecode-blocks/onLogoReleased.png){: width="125"} | ✅  |  |
 | Logo is pressed `input.logoIsPressed()`               | ![logo is pressed](/docs/latest-revision/assets/makecode-blocks/logoIsPressed.png){: width="150"} | ✅  |  |
-| Enable/Disable speaker `music.setOnBoardSpeakerEnable(false)` - Edge connector will still output sound | ![speaker enabled](/docs/latest-revision/assets/makecode-blocks/speakerEnabled.png){: width="650"} | ✅     |               |
+| Set on-board speaker On/Off `music.setOnBoardSpeakerEnable(false)` - Edge connector will still output sound | ![speaker disabled](/docs/latest-revision/assets/makecode-blocks/speakerDisabled.png){: width="650"} | ✅     |               |
 | Set sound threshold level `input.setSoundThreshold(SoundType.Loud, 128)` - 0-255 threshold for triggering a 'loud' or 'quiet' sound | ![sound threshold](/docs/latest-revision/assets/makecode-blocks/setSoundThreshold.png){: width="650"}           | ✅     |               |
 | Sound level - returns a filtered 'noise level' not raw microphone samples, useful for eg. 'how noisy is my classroom?' `input.soundLevel()`               | ![sound level](/docs/latest-revision/assets/makecode-blocks/soundLevel.png){: width="125"}           | 🔶  On battery, the 'soundLevel' reported for quiet sounds is higher than the level reported on USB.  |[codal-microbit#131](https://github.com/microbit-foundation/codal-microbit/issues/131) |
-| Volume `music.volume` returns current volume | ![volume](/docs/latest-revision/assets/makecode-blocks/volume.png){: width="90"}           | ✅     |               |
+| Play sound `soundExpression.giggle.play()`/`soundExpression.giggle.playUntilDone()` - Play from a selection of pre-defined sound emoji | ![play sound](/docs/latest-revision/assets/makecode-blocks/playSound.png){: width="650"}           | ✅     |               |
 
 ### Python APIs
 
 | API                                        | Usage        | Status                       | GitHub Issues |
-| ------------------------------------------ | ------------ | ------------------------------ | ------------- |
+| ------------------------------------------ | ------------ | ---------------------------- | ------------- |
 | Choose music/pitch output pin | `music.play(music.JUMP_UP, pin=microbit.pin_speaker, wait=True)` | ✅   |  |             
 | Stop music on pin             | `music.stop(pin=microbit.pin_speaker)` | ✅   |  |
 | Set the volume 0-255          | `microbit.set_volume(128)` | ✅   |  |
@@ -136,23 +136,22 @@ To access the features of the latest revision only (eg. to output sound only on 
 
 Features that are common to all board variants will work in the same way they always have. For example, you will be able to use the same blocks in MakeCode to use the acceleromater on any board revision.
 
-### Makecode
+### MakeCode
 
-You can use the latest board revision in the beta editor [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta)
+### Makecode
+You can use the latest board revision in the beta editor [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta) alongside the current revision. This editor does not yet have support for V2 features.
 
 #### Using the new features in MakeCode
 
-An extension has been developed to include the microphone and logo touch features currently available. [https://github.com/microbit-foundation/pxt-microbit-v2-extension](https://github.com/microbit-foundation/pxt-microbit-v2-extension)
-
-1. Open [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta)
-2. Select Advanced > Add Extension and paste [https://github.com/microbit-foundation/pxt-microbit-v2-extension](https://github.com/microbit-foundation/pxt-microbit-v2-extension) into the search box.
-3. Click on the extension to add it to the toolbox.
+An alpha version of the MakeCode editor that includes the latest V2 feature blocks is available at [https://makecode.microbit.org/v3.1](https://makecode.microbit.org/v3.1)
 
 #### V2 MakeCode APIs
 
 The Microphone and Logo touch features can be found in the Input menu
 
-The Speaker features can be found in the music menu
+The Speaker features can be found in the Music menu
+
+The Capacative/Resistive touch mode can be found in the Pins menu
 
 ### Python
 
@@ -190,6 +189,11 @@ If you attempt to use an old .hex file without updating it, the micro:bit will d
 ## How do I get a device to test?
 
 If you haven’t already received a device, but would like one in order to test/develop an accessory or editor please contact us at [support@microbit.org](mailto:support@microbit.org?subject=Request%20for%20the%20latest%20micro%3Abit&body=Name%3A%0D%0A%0D%0AAddress%3A%0D%0A%0D%0AContact%20number%3A)
+
+## How do I update the firmware for the latest micro:bit?
+The latest micro:bit will ship with the latest DAPLink firmware at version 0255. If you have been testing the latest board or need to re-flash the firmware, it is linked here, but you can also find details about this on our [DAPLink](../software/daplink-interface/) page.
+
+[Download 0255 firmware for V2](https://cdn.sanity.io/files/ajwvhvgo/production/2cfe581e01f533513276485375adec3f00153af5.hex?dl){: .btn.sm-btn download}
 
 ## How do I find out more about the hardware and software updates?
 

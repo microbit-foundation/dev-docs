@@ -21,7 +21,7 @@ Board is fully operational. The nRF52 and KL27 will try and conserve power if th
 
 Put the nRF52 to sleep when instructed by CODAL. Wake when USB is connected, reset is pressed or instructed to by CODAL.
 
-On USB - Press and hold power/reset for 5 seconds to enter sleep. The micro:bit power LED will dim from bright red to off. It will then flash on/off, showing you that it is still connnected to the power source. Press power/reset to wake up.
+On USB - Press and hold power/reset for 5 seconds to enter sleep. The micro:bit power LED will dim from bright red to off. It will then flash on/off, showing you that it is still connected to the power source. Press power/reset to wake up.
 
 Removing the USB power cable and re-adding it will also wake the micro:bit
 
@@ -35,6 +35,6 @@ Inserting a USB power lead will also wake the device.
 
 ## LED display
 
-The LED display on the <span class="v2">V2</span> board revision is also brighter than previous revisions, so when using at full brightness you will notice faster battery rundown than an equivalent program on a <span class="v1">v1</span> board.
+The LED display on the <span class="v2">V2</span> board revision is also brighter than previous revisions, so when using at full brightness you will notice faster battery drain than an equivalent program on a <span class="v1">v1</span> board.
 
 See our tips on [prolonging battery life](https://support.microbit.org/en/support/solutions/articles/19000087231-prolonging-battery-life)

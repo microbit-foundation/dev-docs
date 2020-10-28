@@ -29,7 +29,7 @@ When writing C/C++ code for the micro:bit, use of the micro:bit runtime is highl
 
 ### The micro:bit runtime Device Abstraction Layer (DAL) - V1
 
-The micro:bit runtime provides a [Device Abstraction Layer (DAL)](https://lancaster-university.github.io/microbit-docs/), that is built using Arm Mbed. Lancaster University has written this runtime for the micro:bit <span class="v1">v1</span> as part of its ongoing efforts to support the adoption of Computer Science in schools. It provides a useful set of functions for higher level languages to consume, and make programming the micro:bit in C or C++ easier. Many of the 'blocks' you use in Makecode are directly calling functions provided by the DAL. The micro:bit runtime DAL is written in C/C++ and builds on the Arm Mbed HAL.
+The micro:bit runtime provides a [Device Abstraction Layer (DAL)](https://lancaster-university.github.io/microbit-docs/), that is built using Arm Mbed. Lancaster University has written this runtime for the micro:bit <span class="v1">v1</span> as part of its ongoing efforts to support the adoption of Computer Science in schools. It provides a useful set of functions for higher level languages to consume, and make programming the micro:bit in C or C++ easier. Many of the 'blocks' you use in MakeCode are directly calling functions provided by the DAL. The micro:bit runtime DAL is written in C/C++ and builds on the Arm Mbed HAL.
 
 Key components of the micro:bit DAL are:
 
@@ -41,12 +41,12 @@ Key components of the micro:bit DAL are:
 The micro:bit <span class="v1">v1</span> can also be programmed using the Mbed HAL directly, for those developers seeking more low level access to the hardware.
 
 ### Component Oriented Device Abstraction Layer (CODAL)- V2
-The [Component Oriented Device Abstraction Layer (CODAL)](https://lancaster-university.github.io/codal/) is an evolution of the DAL runtime that abstracts each hardware component of the micro:bit as a software component. CODAL supports a range of devices and processors, inlcuding the micro:bit <span class="v2">v2</span> device.
+The [Component Oriented Device Abstraction Layer (CODAL)](https://lancaster-university.github.io/codal/) is an evolution of the DAL runtime that abstracts each hardware component of the micro:bit as a software component. CODAL supports a range of devices and processors, including the micro:bit <span class="v2">v2</span> device.
 
 Key components of micro:bit CODAL are:
 
 - A unified eventing subsystem (common to all components) that provides a mechanism to map asynchronous hardware and software events to event handlers;
-- A non-preemptive fiber scheduler that enables concurrency while minimizing the need for resource locking primitives.
+- A non-pre-emptive fiber scheduler that enables concurrency while minimizing the need for resource locking primitives.
 - A simple memory management system based on reference counting to provide a basis for managed types.
 - A set of drivers, that abstract microcontroller hardware components into higher level software components,each represented by a C++ class.
 - A parameterized object model composed from these components that represents a physical device.
@@ -59,7 +59,7 @@ The [instructions for building CODAL](https://github.com/microbit-foundation/cod
 
 ### Contributing to the micro:bit Runtime
 
-The micro:bit runtime is an open source project, distributed under the MIT license, and contributions and collaborations are very much welcomed from the micro:bit community. There are still many things that could be merged into the micro:bit runtime, and with Makecode moving forward and adding new features, things that go into the runtime can also be exposed to the higher level languages if they work well and prove useful for coding in education.
+The micro:bit runtime is an open source project, distributed under the MIT license, and contributions and collaborations are very much welcomed from the micro:bit community. There are still many things that could be merged into the micro:bit runtime, and with MakeCode moving forward and adding new features, things that go into the runtime can also be exposed to the higher level languages if they work well and prove useful for coding in education.
 
 Firstly, you should get yourself into a situation where you can build the micro:bit runtime DAL. You can choose either an online build environment inside your web browser through Mbed.org, or an downloadable compiler. The [getting started docs] (https://lancaster-university.github.io/microbit-docs/#getting-started) guide you through this process.
 
@@ -91,13 +91,13 @@ Of particular interest are the Mbed BLE projects, many of which were developed o
 
 ### Online IDE
 
-Mbed also provides an online C/C++ IDE with which you can program the micro:bit. To get started with this, please see the [micro:bit Platform Page](http://developer.mbed.org/platforms/Microbit) on the mbed site, where there's a getting started video.
+Mbed also provides an online C/C++ IDE with which you can program the micro:bit. To get started with this, please see the [micro:bit Platform Page](http://developer.mbed.org/platforms/Microbit) on the Mbed site, where there's a getting started video.
 
 ### Mbed Source Code and Versions Used
 
 The Mbed repository for micro:bit is [https://github.com/lancaster-university/mbed-classic](https://github.com/lancaster-university/mbed-classic), this is a fork of Mbed OS 2 (classic) with changes and fixes needed for the micro:bit project. This is the version of Mbed used with the offline DAL toolchain, [Mbed Online Compiler](https://ide.mbed.com/compiler/), and the [online editors on microbit.org](https://microbit.org/code).
 
-micro:bit was based on the well-established Mbed 2.0 SDK, with which mbed 5 is compatible. Work is ongoing to [bring the micro:bit runtime onto Mbed 5](https://github.com/lancaster-university/microbit-dal/issues/224).
+micro:bit was based on the well-established Mbed 2.0 SDK, with which Mbed 5 is compatible. Work is ongoing to [bring the micro:bit runtime onto Mbed 5](https://github.com/lancaster-university/microbit-dal/issues/224).
 
 ## Nordic nRF5 SDK
 
@@ -105,6 +105,6 @@ The Mbed abstraction for the Nordic chip is built on top of the Nordic nRF5 SDK 
 
 Crucially, this includes Nordic's [Soft Device 110](https://www.nordicsemi.com/Software-and-Tools/Software/S110) <span class="v1">v1</span> / [Soft Device 140](https://www.nordicsemi.com/Software-and-tools/Software/S140) <span class="v2">V2</span>, a binary object that gets included into any hex file for the micro:bit that manages control of the radio to allow the micro:bit to use the industry standard Bluetooth Low Energy protocols.
 
-The SoftDevice runs on the same MCU as the user's code, and when using the mbed BLE APIs (that the micro:bit runtime also uses), calls are made into SoftDevice. SoftDevice also occupies the highest priority interrupts, so that user code can be pre-empted by SoftDevice when this is required for the radio to function properly.
+The SoftDevice runs on the same MCU as the user's code, and when using the Mbed BLE APIs (that the micro:bit runtime also uses), calls are made into SoftDevice. SoftDevice also occupies the highest priority interrupts, so that user code can be pre-empted by SoftDevice when this is required for the radio to function properly.
 
 <span class="v1">v1</span> only. Micro:bit programs use SoftDevice S110 by default, which only allows the device to be a [GAP Peripheral](http://bluetooth-mdw.blogspot.co.uk/2016/07/microbit-and-bluetooth-roles.html). It is possible to use [Soft Device S130](https://www.nordicsemi.com/Software-and-tools/Software/S130) with the micro:bit by compiling offline with Mbed, though that is beyond the scope of this documentation.

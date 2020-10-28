@@ -43,7 +43,7 @@ There is a pre-compiled copy of the runtime (DAL+Mbed) that gets loaded when you
 
 MakeCode supports two-way conversion of code, so you can write code as blocks and see what the generated code looks like in Javascript/MakeCode Python. You can also write Javascript/MakeCode Python code, and if possible, MakeCode will convert this back into blocks automatically.
 
-Makecode also allows you to [write your own block types](https://makecode.com/extensions) and [publish them as Extensions](https://makecode.microbit.org/extensions).
+MakeCode also allows you to [write your own block types](https://makecode.com/extensions) and [publish them as Extensions](https://makecode.microbit.org/extensions).
 
 The Python web editor does not use the in-browser compiler. It only sits inside the frame of the website, but it gains access to the save and import functionality for saving and loading scripts to local files, and to and from a cloud store.
 

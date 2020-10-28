@@ -44,11 +44,11 @@ This software provides four USB endpoints that have specific purposes:
 
 - MSC - USB mass storage device for drag-and-drop programming of the target MCU's flash memory.
 
-- CDC - serial passthrough from the target MCU to the PC. This is how messages get from the code you write onto the PC.
+- CDC - serial pass-through from the target MCU to the PC. This is how messages get from the code you write onto the PC.
 
 - HID - CMSIS-DAP compliant debug channel - this is useful if you want to use advanced debuggers like GDB or Keil to understand what's happening (or not happening!) on your micro:bit.
 
-- WebUSB - faciliates communicating witht the device via a WebUSB capable browser.
+- WebUSB - facilitates communicating with the device via a WebUSB capable browser.
 
 The DAPLink software and interface chip are part of the [Arm Mbed HDK](https://developer.mbed.org/handbook/mbed-HDK) and the [Mbed Enabled program](https://www.mbed.com/en/about-mbed/mbed-enabled/)
 
@@ -58,11 +58,10 @@ The following versions of the device have previously been shipped with the follo
 
 | Board revision | Bootloader | Interface | Download
 | -------------- | ---------- | --------- | --------
-| 1.3            | 0234       | 0234      | [0234](/docs/software/assets/DAPLink-factory-release/0234_kl26z_microbit_0x8000.hex){: .btn.sm-btn download}
-| 1.3b           | 0234       | 0241      | [0241](/docs/software/assets/DAPLink-factory-release/0241_kl26z_microbit_0x8000.hex){: .btn.sm-btn download}
-| 1.5            | 0243       | 0249      | [0249](/docs/software/assets/DAPLink-factory-release/0249_kl26z_microbit_0x8000.hex){: .btn.sm-btn download}
-| 2.0rc1            | git ec3fec9       | git ec3fec9       | [kl27z_microbit_if_crc.hex](/docs/software/assets/DAPLink-full-image/kl27z_microbit_if_crc.hex){: .btn.sm-btn download}
-| 2.0            | 0255        | 0255       | [Download TBC](#){: .btn.sm-btn download}
+| 1.3            | 0234       | 0234      | [0234](https://cdn.sanity.io/files/ajwvhvgo/production/f6b76528f1f0b906a9e3d35b426dd92ea4cdfd2c.hex?dl){: .btn.sm-btn download}
+| 1.3b           | 0234       | 0241      | [0241](https://cdn.sanity.io/files/ajwvhvgo/production/8f016a92159db1ce5d7d6907d5d6d899a2771081.hex?dl){: .btn.sm-btn download}
+| 1.5            | 0243       | 0249      | [0249](https://cdn.sanity.io/files/ajwvhvgo/production/26b176670c8f9df4aa015e9067368eafcfd749a1.hex?dl){: .btn.sm-btn download}
+| 2.0            | 0255       | 0255      | [0255](https://cdn.sanity.io/files/ajwvhvgo/production/2cfe581e01f533513276485375adec3f00153af5.hex?dl){: .btn.sm-btn download}
 
 
 ### The DAPLink boot loader
@@ -112,13 +111,13 @@ The API is currently available in [Chrome based browsers](https://caniuse.com/#f
 
 You can also flash a full DAPLink image to the <span class="v2">V2</span> device using the KL27 internal bootloader. This will update both interface and bootloader.
 
-[Download latest full DAPLink image](/docs/software/assets/DAPLink-full-image/full_firmware_image_crc.bin){: .btn.sm-btn download}
+[Download latest full DAPLink image](https://cdn.sanity.io/files/ajwvhvgo/production/8206bb64b39ecf8f3c205569bc9e2d4158b7963c.bin?dl){: .btn.sm-btn download}
 
 You will need to register for and download the [**Bootloader Host Application (blhost)**](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuboot-mcu-bootloader-for-nxp-microcontrollers:MCUBOOT?&tab=Design_Tools_Tab) from NXP. IN the /bin folder you will find executables for your operating system.
 
 ### Enter bootloader mode
 
-To enter this mode we need to ground TP1 during board power up, this is the BOOTMODE pin in the KL27. To do that, connect with a wire (or something like a paper-clip) TP1 red circle) with any ground point (black sqaure) as you insert the USB cable into the device.
+To enter this mode we need to ground TP1 during board power up, this is the BOOTMODE pin in the KL27. To do that, connect with a wire (or something like a paper-clip) TP1 red circle) with any ground point (black square) as you insert the USB cable into the device.
 
 ![TP1](/docs/software/assets/TP1.png){: width: 300px}
 

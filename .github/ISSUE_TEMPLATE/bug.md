@@ -11,7 +11,7 @@ about: Create a github issue to fix an error in the docs
 A clear and concise description of what the error is.
 
 
-## Expected behavior
+## Expected behaviour
 A clear and concise description of what you expected to see/read
 
 ## Screenshots

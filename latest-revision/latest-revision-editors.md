@@ -83,7 +83,7 @@ For example, if you do not yet support the microphone on the latest board revisi
 
 #### MicroPython
 
-In the case of editors that use MicroPython, we propose the following approach which we introduced for the motion sensor update and beleive still works.
+In the case of editors that use MicroPython, we propose the following approach which we introduced for the motion sensor update and believe still works.
 
 If an unknown micro:bit version is detected, but that micro:bit already contains MicroPython at a newer version than the one the editor knows about use the serial port to flash just the python script to the [filesystem](https://bbcmicrobitmicropython.readthedocs.io/en/latest/filesystem.html)
 

@@ -29,7 +29,7 @@ Microsoft Research are designing a reference design for [MakeCode Arcade](https:
 
 Accessories that make use of the [large ring pins,](http://tech.microbit.org/hardware/edgeconnector/)  should be unaffected by this revision.
 
-The edge connector should be completley compatible electrically; The latest revision has one additional non-shared GPIO, all other pins and pin modes are compatible.
+The edge connector should be completely compatible electrically; The latest revision has one additional non-shared GPIO, all other pins and pin modes are compatible.
 
 There are inevitably small layout differences in the placement of the components, and the possible implications of these is covered below.
 
@@ -55,7 +55,7 @@ Further details including an [assembly diagram](../../hardware/schematic/#dimens
 
 The obvious physical change is the addition of the speaker on the back of the board. The profile of the rear of the board does not change, it should still fit in accessories that make use of the edge connector, but if your accessory is mounted closer to the board than the depth of the current JST connector, you will need to check that it still fits the latest board revision and how it affects the use of the speaker.
 
-By default the micro:bit will output sound to **both** the edge connector pins and the on-board speaker. If your accessory makes use of a speaker, you may wish to disable the onboard speaker. This will need to be done in software;  extensions for MakeCode and objects for the Python Editor will support this.
+By default the micro:bit will output sound to **both** the edge connector pins and the on-board speaker. If your accessory makes use of a speaker, you may wish to disable the on-board speaker. This will need to be done in software;  extensions for MakeCode and objects for the Python Editor will support this.
 
 ### Microphone
 
@@ -63,17 +63,17 @@ The on-board microphone is also rear-mounted, but has a sound input hole on the 
 
 ### Touch sensitive logo
 
-The micro:bit logo is gold plated copper and responds to capacitive touch in the same way that the large pins do. In previous revisions, the micro:bit only supported resisitive touch.
+The micro:bit logo is gold plated copper and responds to capacitive touch in the same way that the large pins do. In previous revisions, the micro:bit only supported resistive touch.
 
 ### Antenna
 
-The position of the antenna has altered so that it is on an angle and it has also been copper coated to make it more visible. It will still behave in the same way, but if your accessory makes use of radio or Bluetooth we suggest taht you test your software packages with both board revisions in case any threshold tweaks are neccssary.
+The position of the antenna has altered so that it is on an angle and it has also been copper coated to make it more visible. It will still behave in the same way, but if your accessory makes use of radio or Bluetooth we suggest that you test your software packages with both board revisions in case any threshold tweaks are necessary.
 
 ## Hardware changes
 
 ### I2C bus
 
-Whereas on previous revisions, the I2C bus was shared between the motion sensor chip and the edge connector, this is no longer the case. The latest revision has dedictated external i2c lines from the nRF52 to use with accessories. These are the addresses used by the micro:bit.
+Whereas on previous revisions, the I2C bus was shared between the motion sensor chip and the edge connector, this is no longer the case. The latest revision has dedicated external i2c lines from the nRF52 to use with accessories. These are the addresses used by the micro:bit.
 
 |                                      | accelerometer    | magnetometer (compass) |
 | ------------------------------------ | ---------------- | ---------------------- |
@@ -82,15 +82,17 @@ Whereas on previous revisions, the I2C bus was shared between the motion sensor 
 
 ### Power
 
-The micro:bit can now be powered from the two losenge shaped pads on the rear of the board and the 3V/GND pins.
+The micro:bit can now be powered from the two rounded rectangular pads on the rear of the board and the 3V/GND pins.
 
-If you use the losenge pads, you must diode (or otherwise) protect themselves from the micro:bit having power via another source. This was still necessary on the previous revision when the board was powered from battery, but is now true for USB and edge-connector power also.
+![Picture of the two rounded rectangular pads](/docs/accessories/assets/making-accessories-d7c25.png)
+
+If you use the rounded rectangular pads, you must diode (or otherwise) protect themselves from the micro:bit having power via another source. This was still necessary on the previous revision when the board was powered from battery, but is now true for USB and edge-connector power also.
 
 The nRF52 supplies 300mA to drive the board.   110mA is reserved for powering on-board components. **190mA** is then available for accessories.
 
 ### Schematic
 
-The schematic will be published on the tech site when the hardware is publically available. Please get in touch to [request early access to the V2 schematic](mailto:support@microbit.org?subject=Request%20for%20access%20to%20schematic&body=Name%3A%0D%0A%0D%0AGitHub%20ID%3A).
+The schematic will be published on the tech site when the hardware is publicly available. Please get in touch to [request early access to the V2 schematic](mailto:support@microbit.org?subject=Request%20for%20access%20to%20schematic&body=Name%3A%0D%0A%0D%0AGitHub%20ID%3A).
 
 ## Software changes
 
