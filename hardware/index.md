@@ -55,7 +55,7 @@ There is an on-board 2.4GHz radio peripheral used to provide Bluetooth and custo
 
 ### Bluetooth Wireless Communication
 
-The on-board 2.4GHz supports Bluetooth communications via the [Nordic S140 SoftDevice](https://www.nordicsemi.com/Software-and-Tools/Software/S140), which provides a fully qualified Bluetooth low energy stack.
+The on-board 2.4GHz supports Bluetooth communications via the [Nordic S113 SoftDevice](https://www.nordicsemi.com/Software-and-Tools/Software/S113), which provides a fully qualified Bluetooth low energy stack.
 This allows the micro:bit to communicate with a wide range of Bluetooth devices, including smartphones and tablets.
 
 | item          | details
