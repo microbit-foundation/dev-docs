@@ -39,7 +39,7 @@ There are a few considerations for people who have made accessories.
 
 ## Denoting compatibility
 
-The Foundation Brand Guidelines set out how to denote board compatibility for your accessory. An updated version will be published at https://microbit.org/brand-guidelines/. In the meantime, please [get in contact for an updated copy](mailto:support@microbit.org?subject=Request%20for%20access%20to%20brand%20book).
+The Foundation [Brand Guidelines](https://microbit.org/brand-guidelines/) set out how to denote board compatibility for your accessory.
 
 ## Board changes
 
