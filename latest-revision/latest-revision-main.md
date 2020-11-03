@@ -115,6 +115,7 @@ When they are finalised, we will notify people via the [DAL, Editors and Devices
 
 | API                                        | Usage        | Status                       | GitHub Issues |
 | ------------------------------------------ | ------------ | ---------------------------- | ------------- |
+| play sound expression (giggle, happy, hello, mysterious, sad, slide, soaring, spring, twinkle, yawn) | `audio.play("hello")`|✅   |  | 
 | Choose music/pitch output pin | `music.play(music.JUMP_UP, pin=microbit.pin_speaker, wait=True)` | ✅   |  |             
 | Stop music on pin             | `music.stop(pin=microbit.pin_speaker)` | ✅   |  |
 | Set the volume 0-255          | `microbit.set_volume(128)` | ✅   |  |

@@ -16,9 +16,7 @@ The micro:bit processor has an on-board [Bluetooth](http://blog.bluetooth.com/a-
 ## Bluetooth software stack
 
 <span class="v1">v1</span> Nordic Semiconductor [Soft Device S110](https://www.nordicsemi.com/Software-and-Tools/Software/S110)
-<span class="v2">V2</span> Nordic Semiconductor [Soft Device S140](https://www.nordicsemi.com/Software-and-tools/Software/S140)
-
-We may switch to [S113](https://www.nordicsemi.com/Software-and-tools/Software/S113) and [S122](https://www.nordicsemi.com/Software-and-tools/Software/S122) at compile time to save flash memory (if this affects anything you are working on please [contact micro:bit support](https://support.microbit.org/en/support/tickets/new)).
+<span class="v2">V2</span> Nordic Semiconductor [Soft Device S113](https://www.nordicsemi.com/Software-and-tools/Software/S113)
 
 Using Bluetooth, you can connect to other devices and send and receive data from and to the micro:bit.
 
