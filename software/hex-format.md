@@ -21,9 +21,9 @@ A micro:bit .hex file usually starts writing data to the same fixed location in 
 
 ## Universal Hex files
 
-The latest board revision introduces a superset of the Intel-Hex format that enables compatibility across processor variants. A Universal Hex is a file that contains the binary data for both micro:bit <span class="v1">v1</span> and micro:bit <span class="v2">V2</span>, in a format that DAPLink can process to only write to memory the data relevant to its micro:bit board.
+The latest board revision introduces a superset of the Intel-Hex format that enables compatibility across processor variants. A Universal Hex is a file that contains the binary data for both micro:bit <span class="v1">V1</span> and micro:bit <span class="v2">V2</span>, in a format that DAPLink can process to only write to memory the data relevant to its micro:bit board.
 
-A **Universal Hex** hex file will work on a v1 or V2 board.
+A **Universal Hex** hex file will work on a V1 or V2 board.
 A clear indication that you are working with this format is that a compiled .hex file will be ~1.8Mb as opposed to ~700Kb in size.
 
 A [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex) has been written to implement the format and associated detailed [specification of the Universal Hex format](https://github.com/microbit-foundation/universal-hex/).
@@ -34,7 +34,7 @@ The Universal Hex format has been developed to ensure the best experience for us
 
 There may be cases where it is not possible to support both boards, for example an accessory that is designed only to target the V2 board variant. In these cases, to ensure the best user experience when flashing a hex file to any board variant, the file should always include an error message to signify board incompatibility to the user.
 
-We have created a [standalone error hex](/docs/software/assets/stand-alone-error-v1.hex) that can be combined with a V2 only hex to produce a Hex that will work on a V2 board, but error if used on a v1.
+We have created a [standalone error hex](/docs/software/assets/stand-alone-error-v1.hex) that can be combined with a V2 only hex to produce a Hex that will work on a V2 board, but error if used on a V1.
 
 {% include alert-info.html content="We are currently working on a web based and CLI tool to generate Universal Hex files and will publish information on usage here when this is ready. In the meantime, please [get in contact](mailto:support@microbit.org) if you require further information" %}
 
@@ -49,7 +49,7 @@ These examples show the process of creating a Universal Hex. A V1 and V2 hex can
 |-----------------------------------------------------------|-----------------------------------------------------------|
 | ![Universal Hex error 2](/docs/software/assets/uhex2.png) | ![Universal Hex error 3](/docs/software/assets/uhex1.png) |
 
-If you are building .hex files for both board variants, you will need to use the respective toolchains for the DAL<span class="v1">v1</span> and CODAL<span class="v2">v2</span>. See more information on the [micro:bit runtime](../runtime/).
+If you are building .hex files for both board variants, you will need to use the respective toolchains for the DAL<span class="v1">V1</span> and CODAL<span class="v2">V2</span>. See more information on the [micro:bit runtime](../runtime/).
 
 ## Micropython
 

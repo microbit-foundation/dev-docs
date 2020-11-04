@@ -34,7 +34,7 @@ There are also some example programs in the [microbit-samples](https://github.co
 
 - [bluetooth-uart](https://github.com/lancaster-university/microbit-samples/tree/master/source/examples/bluetooth-uart)
 
-The micro:bit has a <span class="v2">v2</span>Bluetooth 5.0/<span class="v1">v1</span>Bluetooth 4.1 stack with Bluetooth Low Energy (BLE) and supports the <span class="v1">v1</span>[GAP Peripheral Role](https://bluetooth-developer.blogspot.com/2016/07/microbit-and-bluetooth-roles.html) and <span class="v2">v2</span> GAP Peripheral and Central device roles.
+The micro:bit has a <span class="v2">V2</span>Bluetooth 5.0/<span class="v1">V1</span>Bluetooth 4.1 stack with Bluetooth Low Energy (BLE) and supports the <span class="v1">V1</span>[GAP Peripheral Role](https://bluetooth-developer.blogspot.com/2016/07/microbit-and-bluetooth-roles.html) and <span class="v2">V2</span> GAP Peripheral and Central device roles.
 
 It operates in the ISM (Industrial Scientific Medical) band, as per all Bluetooth devices. This starts at **2.4GHz and ends at 2.41GHz**. BLE divides the frequency band into 50 x 2MHz bands of which 40 are used. These are called **channels** and numbered **0 to 39**. Channels 37, 38 and 39 are used for "advertising".
 

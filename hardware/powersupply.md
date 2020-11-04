@@ -22,9 +22,9 @@ Power from the micro:bit can be provided by the 3V and GND pins to small externa
 
 It's is important to stay within the design parameters of the board:
 
-- When powered from USB, the on-board interface chip (KL26<span class="v1">v1</span>/KL27<span class="v2">V2</span>) uses its on-chip regulator to provide power, and this chip is rated at a maximum of 120mA.
+- When powered from USB, the on-board interface chip (KL26<span class="v1">V1</span>/KL27<span class="v2">V2</span>) uses its on-chip regulator to provide power, and this chip is rated at a maximum of 120mA.
 
-- The on-board current budget will vary depending on the use of the display, the Bluetooth, microphone, speaker and other peripherals. You should allow a worst case budget of 30mA for when all on-board peripherals are in use, leaving <span class="v1">v1</span>90mA/<span class="v2">V2</span>270mA for circuits plugged into the edge connector.
+- The on-board current budget will vary depending on the use of the display, the Bluetooth, microphone, speaker and other peripherals. You should allow a worst case budget of 30mA for when all on-board peripherals are in use, leaving <span class="v1">V1</span>90mA/<span class="v2">V2</span>270mA for circuits plugged into the edge connector.
 
 - When powered from a battery, the KL chip is not powered up and the USB Indicator LED will not light up.
 
@@ -34,7 +34,7 @@ It's is important to stay within the design parameters of the board:
 
 As taken from each of the chip datasheets, it can be seen that different devices have slightly different operating voltage ranges and absolute maximum voltages. Manufacturers state the operating voltage range as well as the absolute maximum tolerable by the device. You should never exceed the operating voltage range of any of the devices.
 
-### v1 revision
+### V1 revision
 
 | Device     | min   | max  | absolutemax
 |------------|-------|------|------------
@@ -62,9 +62,9 @@ This table implies an operating voltage range of the micro:bit device as a whole
 
 <!-- TODO: Update these paragraphs to detail that 270mA is TBC budget for V2 -->
 
-When powered from USB, the KL26 <span class="v1">v1</span> interface chip's on-board regulator is used to provide 3.3V to the rest of the board. The latest revision <span class="v2">V2</span> has a seperate regulator on the board.
+When powered from USB, the KL26 <span class="v1">V1</span> interface chip's on-board regulator is used to provide 3.3V to the rest of the board. The latest revision <span class="v2">V2</span> has a seperate regulator on the board.
 
-The [KL26 datasheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)<span class="v1">v1</span> section 3.8.2, Table 30. "USB VREG electrical specifications" indicates the maximum current from the regulated supply is 120mA. Some of this current is required to run on-board devices, such as the KL26 itself, the nRF application processor, the motion sensor, and the LED display. When Bluetooth is enabled, the current consumption of the nRF increases slightly. You should budget your current requirements for anything you attach to the micro:bit <span class="v1">v1</span> to not exceed about
+The [KL26 datasheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)<span class="v1">V1</span> section 3.8.2, Table 30. "USB VREG electrical specifications" indicates the maximum current from the regulated supply is 120mA. Some of this current is required to run on-board devices, such as the KL26 itself, the nRF application processor, the motion sensor, and the LED display. When Bluetooth is enabled, the current consumption of the nRF increases slightly. You should budget your current requirements for anything you attach to the micro:bit <span class="v1">V1</span> to not exceed about
 90mA to give enough safe headroom for worst case with all on-board peripherals in use.
 
 This means that if you require more than 90mA from the edge connector, (e.g. driving lots of NeoPixels or a small motor) these should have power supplied to them externally. You can back-power the micro:bit via its 3V pad, but please be sure to use a properly regulated supply and a protection diode, as explained below, so that your micro:bit always has a supply within the operating range of all the on-board peripherals and the supplies are not able to power each other.
@@ -95,7 +95,7 @@ When powering from the 3V ring or the rounded rectangular pads on the PCB, you s
 
 2. If powered from a voltage source that could generate a voltage higher than the maximum operating voltage of the micro:bit, fit some form of over voltage protection, or proper regulation.
 
-### Power Supply Architecture v1
+### Power Supply Architecture V1
 
 The [schematic](/hardware/schematic/) shows the architecture of the power supply.
 Key points to note are that there are two BAT60A diodes, one from the 3.3V supply from the KL26/27 interface chip, and one from the external battery connector.

@@ -46,7 +46,7 @@ Detailed breakdown on our [V2 hardware page](../hardware/)
 
 ### Hardware block diagram
 
-![v2 block](/docs/hardware/assets/v2-block.svg)
+![V2 block](/docs/hardware/assets/v2-block.svg)
 
 ## Guides
 

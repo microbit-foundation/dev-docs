@@ -14,7 +14,7 @@ Today we’re [announcing a new version of the BBC micro:bit](https://microbit.o
 
 This article is a more technical companion to the [news over at microbit.org](https://microbit.org/new-microbit/). 
 
-![micro:bit v2 image](/docs/latest-revision/assets/blog/microbit-v2-tech-site.png){: width="600"}  
+![micro:bit V2 image](/docs/latest-revision/assets/blog/microbit-v2-tech-site.png){: width="600"}  
 
 Although the latest micro:bit isn’t available to buy yet, we’re talking about it now because the micro:bit isn’t about one organisation, or the official editors, or even one device.
 
@@ -91,7 +91,7 @@ Within days of getting a device, Gordon Williams, lead developer of [Espruino](h
 
 ## What’s next?
 
-There’s much more about the new device to explain and explore, and we’ll be expanding on the technical documentation as well as the available code over the next few days (weeks, months and years, too, I’m sure!) Much of the magic of the micro:bit is in the seamless way that all the features are easily accessible and can co-exist: you can use capacitive touch, and the microphone, and the edge connector, and still go into low power sleep, and there’s lots to share about how that’s been made possible. As CODAL grows for micro:bit v2 we expect to provide the same easy composition for the core aspects of machine learning and sound.
+There’s much more about the new device to explain and explore, and we’ll be expanding on the technical documentation as well as the available code over the next few days (weeks, months and years, too, I’m sure!) Much of the magic of the micro:bit is in the seamless way that all the features are easily accessible and can co-exist: you can use capacitive touch, and the microphone, and the edge connector, and still go into low power sleep, and there’s lots to share about how that’s been made possible. As CODAL grows for micro:bit V2 we expect to provide the same easy composition for the core aspects of machine learning and sound.
 
 With so much speculation and often misunderstanding about the possibilities, risks and complexities of AI/ML we believe that the micro:bit device can bring the same transformative simplicity to the teaching of these concepts that it brought to physical computing and computational thinking. This isn’t something we can do overnight though. Now the device is launched we’re starting the process of collaboration with universities, industry, schools and makers to make this transformational experience a reality. The demos we have today show just some of what the new hardware can do. We’re confident that the latest micro:bit will empower young people to understand and eventually re-shape the inner workings of the intelligent systems and algorithms that have an increasing impact on their lives.
 

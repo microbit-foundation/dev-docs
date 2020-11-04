@@ -30,7 +30,7 @@ Only the pins on the front are connected to signals. The back rings are connecte
 The diagrams below show the assignation of the micro:bit pins. On the <span class="v2">V2</span> board revision
 Pin 9 is no longer jointly shared with the LED display, but Pin 8 and Pin 9 can be configured for NFC (though this is disabled by default).
 
-| V2   | v1
+| V2   | V1
 | ---- | ---- 
 | ![edge connector V2](/docs/hardware/assets/edge-connector-2.svg) | ![edge connector v1](/docs/hardware/assets/edge_connector.svg)
 
@@ -40,7 +40,7 @@ Pin 9 is no longer jointly shared with the LED display, but Pin 8 and Pin 9 can 
 
 ### Pins and Signals
 
-[V2](#pins-and-signals){: #V2-button .btn.sm-btn .variation} [v1](#pins-and-signals){: #v1-button .btn.sm-btn}
+[V2](#pins-and-signals){: #V2-button .btn.sm-btn .variation} [V1](#pins-and-signals){: #v1-button .btn.sm-btn}
 
 This table shows various data about each of the pins on the micro:bit edge connector.
 
@@ -219,7 +219,7 @@ NOTE 2: A common way that the maximum pin voltages can be exceeded, is to attach
 
 NOTE 3: The pin marked 'ACCESSIBILITY' is used to enable/disable an on-board accessibility mode, and should not be used for anything else (even though it can be used as a GPIO for testing). Future versions of the official micro:bit editors may remove the ability to write to this pin.
 
-NOTE 4: The BBC suggest in the safety guide, that the maximum current you can draw from the whole edge connector at any one time is <span class="v1">v1</span>90mA. This is set based on the 30mA budget for on-board peripherals, and the fact that the on-board regulator of the KL26 when powered from USB is rated at a maximum of 120mA. On the latest board revision the maximum current is <span class="V2">V2</span>270mA, though it is possible that the on-board mic and speaker can draw more current, so this value is TBC.
+NOTE 4: The BBC suggest in the safety guide, that the maximum current you can draw from the whole edge connector at any one time is <span class="v1">V1</span>90mA. This is set based on the 30mA budget for on-board peripherals, and the fact that the on-board regulator of the KL26 when powered from USB is rated at a maximum of 120mA. On the latest board revision the maximum current is <span class="V2">V2</span>270mA, though it is possible that the on-board mic and speaker can draw more current, so this value is TBC.
 
 ### NRF52
 
