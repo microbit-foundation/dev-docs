@@ -219,7 +219,7 @@ NOTE 2: A common way that the maximum pin voltages can be exceeded, is to attach
 
 NOTE 3: The pin marked 'ACCESSIBILITY' is used to enable/disable an on-board accessibility mode, and should not be used for anything else (even though it can be used as a GPIO for testing). Future versions of the official micro:bit editors may remove the ability to write to this pin.
 
-NOTE 4: The BBC suggest in the safety guide, that the maximum current you can draw from the whole edge connector at any one time is <span class="v1">V1</span>90mA. This is set based on the 30mA budget for on-board peripherals, and the fact that the on-board regulator of the KL26 when powered from USB is rated at a maximum of 120mA. On the latest board revision the maximum current is <span class="V2">V2</span>270mA, though it is possible that the on-board mic and speaker can draw more current, so this value is TBC.
+NOTE 4: The BBC suggest in the safety guide, that the maximum current you can draw from the whole edge connector at any one time is <span class="v1">V1</span>90mA. This is set based on the 30mA budget for on-board peripherals, and the fact that the on-board regulator of the KL26 when powered from USB is rated at a maximum of 120mA. On the latest board revision the maximum current is <span class="v2">V2</span>270mA, though it is possible that the on-board mic and speaker can draw more current, so this value is TBC.
 
 ### NRF52
 
