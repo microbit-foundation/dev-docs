@@ -87,8 +87,8 @@ These are the V2 features and whether we expect them to work as expected ✅  or
 | Microphone       | ✅         | ✅           | ✅                     | ✅             |
 | Speaker          | ✅         | ✅           | 🛑                     | ✅             |
 | Logo touch       | ✅         | ✅           | ✅                     | ✅             |
-| Power management | ✅         | ✅           | 🛑                     | 🛑             |
-| Sound emoji      | ✅         | 🔶           | 🛑                     | 🛑             |
+| Power management | ✅         | ✅           | 🛑                     | ✅             |
+| Sound emoji      | ✅         | ✅           | ✅                     | ✅             |
 
 ## Feature API availability
 
