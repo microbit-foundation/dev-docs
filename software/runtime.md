@@ -41,7 +41,9 @@ Key components of the micro:bit DAL are:
 The micro:bit <span class="v1">V1</span> can also be programmed using the Mbed HAL directly, for those developers seeking more low level access to the hardware.
 
 ### Component Oriented Device Abstraction Layer (CODAL)- V2
-The [Component Oriented Device Abstraction Layer (CODAL)](https://lancaster-university.github.io/codal/) is an evolution of the DAL runtime that abstracts each hardware component of the micro:bit as a software component. CODAL supports a range of devices and processors, including the micro:bit <span class="v2">V2</span> device.
+The [Component Oriented Device Abstraction Layer (CODAL)](https://lancaster-university.github.io/codal/) is an evolution of the DAL runtime that abstracts each hardware component of the micro:bit as a software component. CODAL supports a range of devices and processors, including the micro:bit <span class="v2">V2</span> device. A specific CODAL target has been written for the latest micro:bit:
+
+[CODAL target for micro:bit V2](https://github.com/lancaster-university/codal-microbit-v2)
 
 Key components of micro:bit CODAL are:
 
@@ -55,7 +57,7 @@ Key components of micro:bit CODAL are:
 
 ### Building CODAL
 
-The [instructions for building CODAL](https://github.com/microbit-foundation/codal/blob/master/mb-build-instructions.md) are located in the micro:bit CODAL repository. The final link is TBC and may change.
+The [instructions for building CODAL](https://github.com/lancaster-university/microbit-v2-samples) are currently located in the micro:bit samples repository. You can clone this repository and build examples from the source folder. The final link is TBC and may change.
 
 ### Contributing to the micro:bit Runtime
 
