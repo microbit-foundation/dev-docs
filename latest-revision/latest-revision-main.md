@@ -80,7 +80,7 @@ This means that you can use MakeCode or the online Python Editor as you always h
 
 ## Feature availability
 
-These are the V2 features and whether we expect them to work as expected ✅  or not 🔴, or there are issues still to be fixed 🔶.
+These are the V2 features and whether we expect them to work as expected ✅  or not 🛑, or there are issues still to be fixed 🔶.
 
 | **Feature**      | **Codal** | **MakeCode** | **MakeCode Simulator** | **MicroPython** |
 | ---------------- | --------- | ------------ | ---------------------- | --------------- |
@@ -92,7 +92,7 @@ These are the V2 features and whether we expect them to work as expected ✅  or
 
 ## Feature API availability
 
-These are the V2 specific APIs and whether we expect them to work as expected ✅  or not 🔴, or there are issues still to be fixed 🔶.
+These are the V2 specific APIs and whether we expect them to work as expected ✅  or not 🛑, or there are issues still to be fixed 🔶.
 
 {% include alert-info.html content="It is important that we work with the community to establish how these APIs work. As such they are subject to change as we get feedback and iterate on them.
 When they are finalised, we will notify people via the [DAL, Editors and Devices](https://microbit.us14.list-manage.com/subscribe?u=e1c30f24b90ff3d70275cfff2&id=25403c7650) newsletter." %}
