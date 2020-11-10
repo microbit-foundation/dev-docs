@@ -63,7 +63,7 @@ To support all revisions of the micro:bit, you will need to ensure you use the l
 
 The BLE Profile for the micro:bit has also been updated to ensure compatibility with both revisions of the board. We have published a binary that enables all BLE services available to the board and shows the connection status on the LED.
 
- [Download the updated version of the BLE all services hex](https://preview-tech.microbit.org/latest-revision/assets/bluetooth-services.hex)
+ [Download the updated version of the BLE all services hex](/docs/latest-revision/assets/bluetooth-services.hex)
 
 The MakeCode Bluetooth package will  include all updates for the revised hardware and we will notify the DAL, Editors and Devices newsletter when this is available.
 
