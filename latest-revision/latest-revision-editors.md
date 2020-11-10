@@ -61,7 +61,7 @@ To support all revisions of the micro:bit, you will need to ensure you use the l
 
 ## If you’re using the micro:bit profile over BLE
 
-The BLE Profile for the micro:bit has also been update to ensure compatibility with both revisions of the board. We have published a binary that enables all BLE services available to the board and shows the connection status on the LED.
+The BLE Profile for the micro:bit has also been updated to ensure compatibility with both revisions of the board. We have published a binary that enables all BLE services available to the board and shows the connection status on the LED.
 
  [Download the updated version of the BLE all services hex](https://preview-tech.microbit.org/latest-revision/assets/bluetooth-services.hex)
 
