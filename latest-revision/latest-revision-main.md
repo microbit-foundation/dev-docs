@@ -167,7 +167,7 @@ The editors and apps are compatible with and will let you download and flash a f
 
 More information about this is available on our [hex format](../software/hex-format/#universal-hex-files) page
 
-The Foundation has written a javascript library to generate these files - you do not need to re-implement any file generation.
+The Foundation has written a javascript library and [Universal Hex Creator](../software/universal-hex-creator) to generate these files - you do not need to re-implement any file generation.
 
 ### Bluetooth BLE
 
