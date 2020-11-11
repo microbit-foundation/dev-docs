@@ -22,7 +22,7 @@ There are limitations to the current that can be drawn from the micro:bit, and a
 
 ### V2 revision
 
-The edge connector on the <span class="V2">V2</span> board revision is backwards compatible with the <span class="v1">v1</span> edge connector, but has additional dedicated pins.
+The edge connector on the <span class="V2">V2</span> board revision is backwards compatible with the <span class="v1">V1</span> edge connector, but has additional dedicated pins.
 
 - Details of the [edge connector and pinout](/hardware/edgeconnector)
 - Details about [powering things from the board](/hardware/powersupply)

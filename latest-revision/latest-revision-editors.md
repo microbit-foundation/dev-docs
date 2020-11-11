@@ -39,9 +39,9 @@ Your tools are some of the most direct ways that users experience the micro:bit.
 
 The most important change here is that the latest board revision runtime is based on [CODAL](https://lancaster-university.github.io/codal/) and no longer makes use of Arm Mbed.
 
-| V2   | v1
+| V2   | V1
 | ---- | ---- 
-|![Software Architectural Diagram v1](/docs/software/assets/software-overview-v2.svg) | ![Software Architectural Diagram V2](/docs/software/assets/software-overview.svg)
+|![Software Architectural Diagram V1](/docs/software/assets/software-overview-v2.svg) | ![Software Architectural Diagram V2](/docs/software/assets/software-overview.svg)
 
 Mbed does not support the nRF52833 by default, though The Foundation does intend to publish a platform to enable this. The micro:bit editors do not use Mbed by default.
 
@@ -61,7 +61,7 @@ To support all revisions of the micro:bit, you will need to ensure you use the l
 
 ## If you’re using the micro:bit profile over BLE
 
-The BLE Profile for the micro:bit has also been update to ensure compatibility with both revisions of the board. We have published a binary that enables all BLE services available to the board and shows the connection status on the LED.
+The BLE Profile for the micro:bit has also been updated to ensure compatibility with both revisions of the board. We have published a binary that enables all BLE services available to the board and shows the connection status on the LED.
 
  [Download the updated version of the BLE all services hex](https://preview-tech.microbit.org/latest-revision/assets/bluetooth-services.hex)
 
@@ -75,9 +75,9 @@ If you write an editor that doesn’t have an online update mechanism, or is onl
 
 | micro:bit version | Board ID              |
 | ----------------- | --------------------- |
-| v1.3              | 9900                  |
-| v1.5              | 9901                  |
-| v2.0              | 9903 (reserved), 9904 |
+| V1.3              | 9900                  |
+| V1.5              | 9901                  |
+| V2.0              | 9903 (reserved), 9904 |
 
 For example, if you do not yet support the microphone on the latest board revision (board ID 9904), you can notify users of the compatibility issues within the editor, rather than failing silently and providing a program that does not work.
 
@@ -93,9 +93,9 @@ This gives a teacher or facilitator who is unable to update their editors (for e
 
 ## Universal Hex files
 
-The latest board revision introduces a superset of the Intel-Hex format that enables compatibility across processor variants. A Universal Hex is a file that contains the binary data for both micro:bit <span class="v1">v1</span> and micro:bit <span class="v2">V2</span>, in a format that the DAPLink can process to only write to memory the data relevant to its micro:bit board.
+The latest board revision introduces a superset of the Intel-Hex format that enables compatibility across processor variants. A Universal Hex is a file that contains the binary data for both micro:bit <span class="v1">V1</span> and micro:bit <span class="v2">V2</span>, in a format that the DAPLink can process to only write to memory the data relevant to its micro:bit board.
 
-A **Universal Hex** hex file will work on a v1 or V2 board.
+A **Universal Hex** hex file will work on a V1 or V2 board.
 A clear indication that you are working with this format is that a compiled .hex file will be ~1.8Mb as opposed to ~700Kb in size.
 
 A [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex) has been written to implement the format and associated detailed [specification of the Universal Hex format](https://github.com/microbit-foundation/universal-hex/).  Please [get in contact](mailto:support@microbit.org?subject=Request%20for%20access%20to%20Universal%20hex&20spec&body=Name%3A%0D%0A%0D%0AGitHub%20ID%3A) if you require access to the specification.
@@ -104,4 +104,4 @@ A [Universal Hex JavaScript Library](https://github.com/microbit-foundation/micr
 
 The Universal Hex format has been developed to ensure the best experience for users when moving between board variants. There may be cases where it is not possible to support both boards, for example an accessory that is designed only to target the V2 board variant. In these cases, to ensure the best user experience when flashing a hex file to any board variant, the file should always include an error message to signify board incompatibility to the user. If we do not do this, it results in a silent failure, which can be very confusing to users.
 
-We have created a [standalone error hex](/docs/software/assets/stand-alone-error-v1.hex) that can be combined with a V2 only hex to produce a Hex that will work on a V2 board, but error if used on a v1.You can read more about how this works on the [Hex format](../../software/hex-format/) page.
+We have created a [standalone error hex](/docs/software/assets/stand-alone-error-v1.hex) that can be combined with a V2 only hex to produce a Hex that will work on a V2 board, but error if used on a V1.You can read more about how this works on the [Hex format](../../software/hex-format/) page.

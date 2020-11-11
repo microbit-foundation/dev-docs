@@ -15,7 +15,7 @@ The micro:bit processor has an on-board [Bluetooth](http://blog.bluetooth.com/a-
 
 ## Bluetooth software stack
 
-<span class="v1">v1</span> Nordic Semiconductor [Soft Device S110](https://www.nordicsemi.com/Software-and-Tools/Software/S110)
+<span class="v1">V1</span> Nordic Semiconductor [Soft Device S110](https://www.nordicsemi.com/Software-and-Tools/Software/S110)
 <span class="v2">V2</span> Nordic Semiconductor [Soft Device S113](https://www.nordicsemi.com/Software-and-tools/Software/S113)
 
 Using Bluetooth, you can connect to other devices and send and receive data from and to the micro:bit.
