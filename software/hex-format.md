@@ -30,7 +30,7 @@ A [Universal Hex JavaScript Library](https://github.com/microbit-foundation/micr
 
 ## Universal Hex Creator
 
-We have created a [Universal Hex Creator](./universal-hex-creator) tool, to easily create a .hex file that will support all micro:bit variants.
+We have created a [Universal Hex Creator](../universal-hex-creator) tool, to easily create a .hex file that will support all micro:bit variants.
 
 This tool is based on the [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex).
 
