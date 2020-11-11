@@ -28,6 +28,12 @@ A clear indication that you are working with this format is that a compiled .hex
 
 A [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex) has been written to implement the format and associated detailed [specification of the Universal Hex format](https://github.com/microbit-foundation/universal-hex/).
 
+## Universal Hex Creator
+
+We have created a [Universal Hex Creator](../universal-hex-creator) tool, to easily create a .hex file that will support all micro:bit variants.
+
+This tool is based on the [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex).
+
 ### Cross device compatibility
 
 The Universal Hex format has been developed to ensure the best experience for users when moving between board variants. If a V1 only .hex is detected on a V2 board it will throw an error, but a V2 only hex will fail silently on a V1. This is very confusing to users and should be avoided.
@@ -35,8 +41,6 @@ The Universal Hex format has been developed to ensure the best experience for us
 There may be cases where it is not possible to support both boards, for example an accessory that is designed only to target the V2 board variant. In these cases, to ensure the best user experience when flashing a hex file to any board variant, the file should always include an error message to signify board incompatibility to the user.
 
 We have created a [standalone error hex](/docs/software/assets/stand-alone-error-v1.hex) that can be combined with a V2 only hex to produce a Hex that will work on a V2 board, but error if used on a V1.
-
-{% include alert-info.html content="We are currently working on a web based and CLI tool to generate Universal Hex files and will publish information on usage here when this is ready. In the meantime, please [get in contact](mailto:support@microbit.org) if you require further information" %}
 
 [Download standalone error hex](/docs/software/assets/stand-alone-error-v1.hex){: .btn.sm-btn download}
 

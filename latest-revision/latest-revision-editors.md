@@ -63,7 +63,7 @@ To support all revisions of the micro:bit, you will need to ensure you use the l
 
 The BLE Profile for the micro:bit has also been updated to ensure compatibility with both revisions of the board. We have published a binary that enables all BLE services available to the board and shows the connection status on the LED.
 
- [Download the updated version of the BLE all services hex](https://preview-tech.microbit.org/latest-revision/assets/bluetooth-services.hex)
+ [Download the updated version of the BLE all services hex](/docs/latest-revision/assets/bluetooth-services.hex)
 
 The MakeCode Bluetooth package will  include all updates for the revised hardware and we will notify the DAL, Editors and Devices newsletter when this is available.
 
@@ -98,7 +98,9 @@ The latest board revision introduces a superset of the Intel-Hex format that ena
 A **Universal Hex** hex file will work on a V1 or V2 board.
 A clear indication that you are working with this format is that a compiled .hex file will be ~1.8Mb as opposed to ~700Kb in size.
 
-A [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex) has been written to implement the format and associated detailed [specification of the Universal Hex format](https://github.com/microbit-foundation/universal-hex/).  Please [get in contact](mailto:support@microbit.org?subject=Request%20for%20access%20to%20Universal%20hex&20spec&body=Name%3A%0D%0A%0D%0AGitHub%20ID%3A) if you require access to the specification.
+We have developed a [Universal Hex Creator](../../software/universal-hex-creator) tool, to easily create a .hex file that will support all micro:bit variants.
+
+This tool is based on a [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex), written to implement the format and associated detailed [specification of the Universal Hex format](https://github.com/microbit-foundation/universal-hex/).  Please [get in contact](mailto:support@microbit.org?subject=Request%20for%20access%20to%20Universal%20hex&20spec&body=Name%3A%0D%0A%0D%0AGitHub%20ID%3A) if you require access to the specification.
 
 ### Hex format compatibility
 
