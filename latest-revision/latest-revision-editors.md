@@ -100,7 +100,7 @@ A clear indication that you are working with this format is that a compiled .hex
 
 We have developed a [Universal Hex Creator](../../software/universal-hex-creator) tool, to easily create a .hex file that will support all micro:bit variants.
 
-This tool is based on a [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex), written to implement the format and associated detailed [specification of the Universal Hex format](https://github.com/microbit-foundation/universal-hex/).  Please [get in contact](mailto:support@microbit.org?subject=Request%20for%20access%20to%20Universal%20hex&20spec&body=Name%3A%0D%0A%0D%0AGitHub%20ID%3A) if you require access to the specification.
+This tool is based on a [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex), written to implement the format and associated detailed [specification of the Universal Hex format](https://github.com/microbit-foundation/spec-universal-hex).
 
 ### Hex format compatibility
 
