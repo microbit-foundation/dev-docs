@@ -19,6 +19,8 @@ We hope to encourage contributions into these projects in order to broaden our e
 
 The Micro:bit Educational Foundation aims to be a 'responsible downstream' to the many open source [software](https://tech.microbit.org/software/) projects that are used to build the micro:bit:  much like a good Linux distribution collates, tests, stabilises and releases combinations of many diverse open source packages, the micro:bit Educational Foundation and the micro:bit community present micro:bit users with a stable, tested release of all the things you need to make the magical 'end-to-end' micro:bit experience.
 
+{% include community.html %}
+
 ## Help us build it
 
 If you'd like to help us make the micro:bit better, then there are a number of ways that you can get involved.
