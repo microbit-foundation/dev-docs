@@ -78,55 +78,6 @@ In an effort to ensure the greatest degree of continuity for teachers, users wil
 
 This means that you can use MakeCode or the online Python Editor as you always have, to use all of the features that are common to both version of the BBC micro:bit: Display, buttons, motion sensing, gestures like shake, light sensing, and even the Music blocks.
 
-## Feature availability
-
-These are the V2 features and whether we expect them to work as expected ✅  or not 🛑, or there are issues still to be fixed 🔶.
-
-| **Feature**      | **Codal** | **MakeCode** | **MakeCode Simulator** | **MicroPython** |
-| ---------------- | --------- | ------------ | ---------------------- | --------------- |
-| Microphone       | ✅         | ✅           | ✅                     | ✅             |
-| Speaker          | ✅         | ✅           | 🛑                     | ✅             |
-| Logo touch       | ✅         | ✅           | ✅                     | ✅             |
-| Power management | ✅         | ✅           | 🛑                     | ✅             |
-| Sound emoji      | ✅         | ✅           | ✅                     | ✅             |
-
-## Feature API availability
-
-These are the V2 specific APIs and whether we expect them to work as expected ✅  or not 🛑, or there are issues still to be fixed 🔶.
-
-{% include alert-info.html content="It is important that we work with the community to establish how these APIs work. As such they are subject to change as we get feedback and iterate on them.
-When they are finalised, we will notify people via the [DAL, Editors and Devices](https://microbit.us14.list-manage.com/subscribe?u=e1c30f24b90ff3d70275cfff2&id=25403c7650) newsletter." %}
-
-### MakeCode APIs
-
-| API                                                 | Blocks         | Status                | GitHub Issues |
-| --------------------------------------------------- | -------------------- | --------------------- | ------------- |
-| On loud/quiet sound `input.onSound(SoundType.Loud)` - Triggers after a transition from quiet-loud/loud-quiet, so 'on quiet' will trigger after a loud sound but not continuously | ![on loud sound](/docs/latest-revision/assets/makecode-blocks/loudsound.png){: width="125"}          | ✅     |               |
-| Set pin touch type `pins.touchSetType(TouchTarget.P0, TouchType.Resistive)`- capacitive/resistive - Logo is capacitive, large pins are resistive by default. | ![set touch type](/docs/latest-revision/assets/makecode-blocks/pin-mode.png){: width="650"} | ✅  | |
-| On Logo pressed `input.onLogoPressed()` | ![logo pressed](/docs/latest-revision/assets/makecode-blocks/onLogoPressed.png){: width="125"} | ✅  | |
-| On logo released `input.onLogoReleased()` | ![logo released](/docs/latest-revision/assets/makecode-blocks/onLogoReleased.png){: width="125"} | ✅  |  |
-| Logo is pressed `input.logoIsPressed()`               | ![logo is pressed](/docs/latest-revision/assets/makecode-blocks/logoIsPressed.png){: width="150"} | ✅  |  |
-| Set on-board speaker On/Off `music.setOnBoardSpeakerEnable(false)` - Edge connector will still output sound | ![speaker disabled](/docs/latest-revision/assets/makecode-blocks/speakerDisabled.png){: width="650"} | ✅     |               |
-| Set sound threshold level `input.setSoundThreshold(SoundType.Loud, 128)` - 0-255 threshold for triggering a 'loud' or 'quiet' sound | ![sound threshold](/docs/latest-revision/assets/makecode-blocks/setSoundThreshold.png){: width="650"}           | ✅     |               |
-| Sound level - returns a filtered 'noise level' not raw microphone samples, useful for eg. 'how noisy is my classroom?' `input.soundLevel()`               | ![sound level](/docs/latest-revision/assets/makecode-blocks/soundLevel.png){: width="125"}           | 🔶  On battery, the 'soundLevel' reported for quiet sounds is higher than the level reported on USB.  |[codal-microbit#131](https://github.com/microbit-foundation/codal-microbit/issues/131) |
-| Play sound `soundExpression.giggle.play()`/`soundExpression.giggle.playUntilDone()` - Play from a selection of pre-defined sound emoji | ![play sound](/docs/latest-revision/assets/makecode-blocks/playSound.png){: width="650"}           | ✅     |               |
-
-### Python APIs
-
-| API                                        | Usage        | Status                       | GitHub Issues |
-| ------------------------------------------ | ------------ | ---------------------------- | ------------- |
-| play sound expression (giggle, happy, hello, mysterious, sad, slide, soaring, spring, twinkle, yawn) | `audio.play("hello")`|✅   |  | 
-| Choose music/pitch output pin | `music.play(music.JUMP_UP, pin=microbit.pin_speaker, wait=True)` | ✅   |  |             
-| Stop music on pin             | `music.stop(pin=microbit.pin_speaker)` | ✅   |  |
-| Set the volume 0-255          | `microbit.set_volume(128)` | ✅   |  |
-| Get current sound loud/quiet  |`microbit.microphone.current_sound()` | ✅     |               |
-| Check current sound == loud/quiet | `microbit.microphone.current_sound() == microbit.microphone.LOUD` | ✅     |               |
-| Check if a loud/quiet sound occurred since the last call to was_sound() | `microbit.microphone.was_sound(microbit.microphone.LOUD)` | ✅     |               | 
-| Get history of sounds since last call to get_sounds() | `microbit.microphone.get_sounds()` | ✅     |               |
-| Set threshold for sound 0-255 | `microbit.microphone.set_threshold(microbit.microphone.LOUD, 128)` | ✅     |               |
-| Get current sound level in range 0-255 | `microbit.microphone.sound_level()` | ✅     |               |
-| Logo is touched | `microbit.pin_logo.is_touched()` | ✅  |  | 
-
 ## How do I use the new features?
 
 The **speaker** works in the same way you would expect when you connect up your headphones or an external speaker to the micro:bit. By default, the sound output will be on both the speaker and Edge connector.
@@ -135,12 +86,12 @@ The **logo touch** is implemented in the same way as touching a pin on the edge 
 
 To access the features of the latest revision only (eg. to output sound only on the speaker and not the edge connector), you will need to add additional code to your programs. This ensures that the default editor experience continues to work for everyone, regardless of the board revision.
 
-Features that are common to all board variants will work in the same way they always have. For example, you will be able to use the same blocks in MakeCode to use the acceleromater on any board revision.
+Features that are common to all board variants will work in the same way they always have. For example, you will be able to use the same blocks in MakeCode to use the accelerometer on any board revision.
 
 ### Makecode
-You can use the latest board revision in the beta editor [https://makecode.microbit.org/beta](https://makecode.microbit.org/beta) alongside the current revision. 
+You can use the latest board revision in the live micro:bit editor [https://makecode.microbit.org](https://makecode.microbit.org) alongside the current revision. 
 
-#### Using the new features in MakeCode beta
+#### Using the new features in MakeCode
 
 The Microphone and Logo touch features can be found in the Input menu
 
@@ -160,6 +111,30 @@ You can use the latest board revision and APIs in the Python beta editor:
  2. Open the **Files** tab in Mu and copy `main.py` from the Files on your computer to the Files on your micro:bit
 
 ![Copy main.py](/docs/latest-revision/assets/copy-main-py-mu.gif){: width="600"}
+
+#### Using the new features in Python
+
+We are currently working on updates to MicroPython documentation, but you can find Python APIs by searching via the REPL for example:
+
+```Python
+import microbit
+dir(microbit)
+```
+### Python APIs
+
+| API                                        | Usage        |
+|--------------------------------------------|--------------|
+| play sound expression (giggle, happy, hello, mysterious, sad, slide, soaring, spring, twinkle, yawn) | `audio.play("hello")`|
+| Choose music/pitch output pin | `music.play(music.JUMP_UP, pin=microbit.pin_speaker, wait=True)` |          
+| Stop music on pin             | `music.stop(pin=microbit.pin_speaker)` |
+| Set the volume 0-255          | `microbit.set_volume(128)` |
+| Get current sound loud/quiet  |`microbit.microphone.current_sound()` |
+| Check current sound == loud/quiet | `microbit.microphone.current_sound() == microbit.microphone.LOUD` |
+| Check if a loud/quiet sound occurred since the last call to was_sound() | `microbit.microphone.was_sound(microbit.microphone.LOUD)` |
+| Get history of sounds since last call to get_sounds() | `microbit.microphone.get_sounds()` |
+| Set threshold for sound 0-255 | `microbit.microphone.set_threshold(microbit.microphone.LOUD, 128)` |
+| Get current sound level in range 0-255 | `microbit.microphone.sound_level()` |
+| Logo is touched | `microbit.pin_logo.is_touched()` |
 
 ## Universal Hex Format
 
