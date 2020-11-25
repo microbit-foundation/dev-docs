@@ -124,7 +124,7 @@ dir(microbit)
 
 | API                                        | Usage        |
 |--------------------------------------------|--------------|
-| play sound expression (giggle, happy, hello, mysterious, sad, slide, soaring, spring, twinkle, yawn) | `audio.play("hello")`|
+| play sound expression (GIGGLE, HAPPY, HELLO, MYSTERIOUS, SAD, SLIDE, SOARING, SPRING, TWINKLE, YAWN) | `audio.play(microbit.Sound.HELLO)`|
 | Choose music/pitch output pin | `music.play(music.JUMP_UP, pin=microbit.pin_speaker, wait=True)` |          
 | Stop music on pin             | `music.stop(pin=microbit.pin_speaker)` |
 | Set the volume 0-255          | `microbit.set_volume(128)` |
