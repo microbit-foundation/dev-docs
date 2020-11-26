@@ -57,7 +57,7 @@ The exisiting API has not changed. Scripts that use features that are common to 
 
 To support all revisions of the micro:bit, you will need to ensure you use the latest release of the MicroPython binary with your editor. The simplest way to do this is to flash a program created in the latest Python Editor which will contain the latest MicroPython build.
 
-[https://python.microbit.org/v/beta/](https://python.microbit.org/v/beta/)
+[https://python.microbit.org/](https://python.microbit.org/)
 
 ## If you’re using the micro:bit profile over BLE
 

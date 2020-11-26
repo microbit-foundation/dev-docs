@@ -101,9 +101,9 @@ The Capacative/Resistive touch mode can be found in the Pins menu
 
 ### Python
 
-You can use the latest board revision and APIs in the Python beta editor:
+You can use the latest board revision and APIs in the Python editor:
 
- [https://python.microbit.org/v/beta](https://python.microbit.org/v/beta/)
+ [https://python.microbit.org/](https://python.microbit.org/)
 
  If you want to use a specific or custom build of MicroPython you can do this in [Mu](https://codewith.mu/).
 
