@@ -20,3 +20,5 @@ jobs:
         title: Link Checker Report
         content-filepath: ./link-checker/out.md
         labels: links
+    - name: Fail if there were link errors
+      run: exit ${{ steps.lc.outputs.exit_code }}
