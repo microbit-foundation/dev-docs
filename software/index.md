@@ -83,7 +83,7 @@ Here's a non-exhaustive list of possible code editors for use with the micro:bit
 
 - [Kittenblock](https://www.kittenbot.cc/pages/software)
 
-- [Kodu](https://www.kodugamelab.com/resources/bbc-microbit/)
+- [Kodu](https://www.kodugamelab.com/resources/#microbit)
 
 - [MATLAB & Simulink](https://uk.mathworks.com/academia/highschool/courseware/microbit.html)
 

@@ -25,7 +25,7 @@ Please note that we do as much development as possible in the open, so if you’
 
 - [microbit-dal](https://github.com/lancaster-university/microbit-dal)
 
-- [CODAL](https://github.com/microbit-foundation/codal/)
+- [CODAL](https://github.com/lancaster-university/codal-microbit-v2)
 
 - [microbit](https://github.com/lancaster-university/microbit)
 
@@ -47,7 +47,7 @@ Mbed does not support the nRF52833 by default, though The Foundation does intend
 
 ### Building CODAL
 
-The [instructions for building CODAL](https://github.com/microbit-foundation/codal/blob/master/mb-build-instructions.md) are located in the micro:bit CODAL repository. The final link is TBC and may change.
+The [instructions for building CODAL](https://github.com/lancaster-university/microbit-v2-samples) are located in the micro:bit CODAL repository. The final link is TBC and may change.
 
 ## If you’re using MicroPython
 

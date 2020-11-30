@@ -97,7 +97,7 @@ Mbed also provides an online C/C++ IDE with which you can program the micro:bit.
 
 ### Mbed Source Code and Versions Used
 
-The Mbed repository for micro:bit is [https://github.com/lancaster-university/mbed-classic](https://github.com/lancaster-university/mbed-classic), this is a fork of Mbed OS 2 (classic) with changes and fixes needed for the micro:bit project. This is the version of Mbed used with the offline DAL toolchain, [Mbed Online Compiler](https://ide.mbed.com/compiler/), and the [online editors on microbit.org](https://microbit.org/code).
+The Mbed repository for micro:bit is [https://github.com/lancaster-university/mbed-classic](https://github.com/lancaster-university/mbed-classic), this is a fork of Mbed OS 2 (classic) with changes and fixes needed for the micro:bit project. This is the version of Mbed used with the offline DAL toolchain, [Mbed Online Compiler](https://os.mbed.com/handbook/mbed-Compiler), and the [online editors on microbit.org](https://microbit.org/code).
 
 micro:bit was based on the well-established Mbed 2.0 SDK, with which Mbed 5 is compatible. Work is ongoing to [bring the micro:bit runtime onto Mbed 5](https://github.com/lancaster-university/microbit-dal/issues/224).
 

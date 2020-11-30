@@ -26,7 +26,7 @@ The latest board revision introduces a superset of the Intel-Hex format that ena
 A **Universal Hex** hex file will work on a V1 or V2 board.
 A clear indication that you are working with this format is that a compiled .hex file will be ~1.8Mb as opposed to ~700Kb in size.
 
-A [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex) has been written to implement the format and associated detailed [specification of the Universal Hex format]https://github.com/microbit-foundation/spec-universal-hex).
+A [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex) has been written to implement the format and associated detailed [specification of the Universal Hex format](https://github.com/microbit-foundation/spec-universal-hex).
 
 ## Universal Hex Creator
 
