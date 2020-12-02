@@ -231,10 +231,10 @@ These key GPIO parameters are transcribed directly from Section 6, 7 and 8 of th
 | VOL,HDH | Voltage Output Low, high drive, 5 mA, VDD ≥ 2.7       |  6.8.3  | VSS      | VSS +0.4 |
 | VOL,HDL | Voltage Output Low, high drive, 3mA, VDD ≥ 1.7        |  6.8.3  | VSS      | VSS +0.4 |
 | VOH,SD  | Voltage Output High, standard drive,0.5 mA, VDD ≥ 1.7 |  6.8.3  | VDD -0.4 | VDD      |
-| VOL,HDH | Voltage Output How, high drive, 5 mA, VDD ≥ 2.7       |  6.8.3  | VDD -0.4 | VDD      |
-| VOL,HDL | Voltage Output How, high drive, 3mA, VDD ≥ 1.7        |  6.8.3  | VDD -0.4 | VDD      |
-| VIL     | Input voltage for logic low                           |  6.8.3  | VSS      | 0.3*VDD  |
-| VIH     | Input voltage for logic high                          |  6.8.3  | 0.7*VDD  | VDD      |
+| VOL,HDH | Voltage Output High, high drive, 5 mA, VDD ≥ 2.7      |  6.8.3  | VDD -0.4 | VDD      |
+| VOL,HDL | Voltage Output High, high drive, 3mA, VDD ≥ 1.7       |  6.8.3  | VDD -0.4 | VDD      |
+| VIL     | Input voltage for logic low                           |  6.8.3  | VSS      | 0.3 * VDD |
+| VIH     | Input voltage for logic high                          |  6.8.3  | 0.7 * VDD | VDD     |
 | xxx     | Max source current from IO pin                        |  TBC    | --       | TBC      |
 | xxx     | Max sink current into IO pin                          |  TBC    | --       | TBC      |
 | VIO≤3.6 | Tolerable pin voltages for IO pin with VDD ≤3.6       |  9      | -0.3V    | VDD+0.3  |
