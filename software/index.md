@@ -99,8 +99,6 @@ Here's a non-exhaustive list of possible code editors for use with the micro:bit
 
 - [PyCharm (with MicroPython plugin, can also flash to micro:bit)](https://plugins.jetbrains.com/plugin/9777-micropython)
 
-- [Workbench](https://edu.workbencheducation.com/partners/microbit)
-
 
 ## From coding environment to micro:bit
 
