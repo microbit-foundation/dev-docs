@@ -3,7 +3,7 @@ layout: page
 order:
 title: Developer news
 heading: Join the micro:bit developer conversation
-description: Sign up to and view the developer news
+description: Sign up to the newsletter and view recent news
 permalink: /community/news/
 ref: news
 lang: en
