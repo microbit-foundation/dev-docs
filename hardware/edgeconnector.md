@@ -40,11 +40,11 @@ Pin 9 is no longer jointly shared with the LED display, but Pin 8 and Pin 9 can 
 
 ### Pins and Signals
 
-[V2](#pins-and-signals){: #V2-button .btn.sm-btn .variation} [V1](#pins-and-signals){: #v1-button .btn.sm-btn}
+[V2](#pins-and-signals){: #v2-button .btn.sm-btn .variation} [V1](#pins-and-signals){: #v1-button .btn.sm-btn}
 
 This table shows various data about each of the pins on the micro:bit edge connector.
 
-{: #V2-pins}
+{: #v2-pins}
 | m:b ring | mod     | schem         | MCU              | s/w | functions                                         | dir    | pull?          |
 | -------- | ---     | -----         | ---              | --- | ---------                                         | ---    | -----          |
 |          | 21      | COLR3         | P0.31/AIN7       | P3  | (GPIO), (ANALOG), **LEDCOL(3)**, (PWM), (UART)    | O      | --             |
