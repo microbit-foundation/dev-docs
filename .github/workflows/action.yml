@@ -11,6 +11,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - uses: peter-evans/link-checker@v1
+      id: lc
       with:
         # Only check external links 
         args: -v -x "^[^:]+$|^https://uk\.farnell\.com/|^https://www\.kitronik\.co\.uk/pdf/bbc_microbit_mechanical_datasheet_V2\.pdf$" -d . -t 30 -r *
@@ -20,3 +21,5 @@ jobs:
         title: Link Checker Report
         content-filepath: ./link-checker/out.md
         labels: links
+    - name: Fail if there were link errors
+      run: exit ${{ steps.lc.outputs.exit_code }}
