@@ -34,12 +34,6 @@ We have created a [Universal Hex Creator](../universal-hex-creator) tool, to eas
 
 This tool is based on the [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex).
 
-## Universal Hex Creator
-
-We have created a [Universal Hex Creator](../universal-hex-creator) tool, to easily create a .hex file that will support all micro:bit variants.
-
-This tool is based on the [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex).
-
 ### Cross device compatibility
 
 The Universal Hex format has been developed to ensure the best experience for users when moving between board variants. If a V1 only .hex is detected on a V2 board it will throw an error, but a V2 only hex will fail silently on a V1. This is very confusing to users and should be avoided.
