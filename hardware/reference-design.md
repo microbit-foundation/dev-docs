@@ -81,7 +81,7 @@ If you don't have a debugger, the nRF51-DK board can be used as a J-link debugge
 
 ![Using an nRF51-DK as a debugger](/docs/hardware/assets/referencedesign-609b1.png){:width="40%"}
 
-Please see [this page](https://developer.mbed.org/users/MarceloSalazar/notebook/programming-a-minibeacon-bluetooth-module-nordic-n/) for more information.
+Please see [this page](https://os.mbed.com/users/MarceloSalazar/notebook/programming-a-minibeacon-bluetooth-module-nordic-n/) for more information.
 
 ### nRF51 Software
 

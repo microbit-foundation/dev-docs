@@ -50,7 +50,7 @@ This software provides four USB endpoints that have specific purposes:
 
 - WebUSB - facilitates communicating with the device via a WebUSB capable browser.
 
-The DAPLink software and interface chip are part of the [Arm Mbed HDK](https://developer.mbed.org/handbook/mbed-HDK) and the [Mbed Enabled program](https://www.mbed.com/en/about-mbed/mbed-enabled/)
+The DAPLink software and interface chip are part of the [Arm Mbed HDK](https://os.mbed.com/handbook/mbed-HDK)
 
 The micro:bit currently ships with DAPLink bootloader at version 0255 and interface at version 0255.
 

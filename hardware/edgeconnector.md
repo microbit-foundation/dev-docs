@@ -40,11 +40,11 @@ Pin 9 is no longer jointly shared with the LED display, but Pin 8 and Pin 9 can 
 
 ### Pins and Signals
 
-[V2](#pins-and-signals){: #V2-button .btn.sm-btn .variation} [V1](#pins-and-signals){: #v1-button .btn.sm-btn}
+[V2](#pins-and-signals){: #v2-button .btn.sm-btn .variation} [V1](#pins-and-signals){: #v1-button .btn.sm-btn}
 
 This table shows various data about each of the pins on the micro:bit edge connector.
 
-{: #V2-pins}
+{: #v2-pins}
 | m:b ring | mod     | schem         | MCU              | s/w | functions                                         | dir    | pull?          |
 | -------- | ---     | -----         | ---              | --- | ---------                                         | ---    | -----          |
 |          | 21      | COLR3         | P0.31/AIN7       | P3  | (GPIO), (ANALOG), **LEDCOL(3)**, (PWM), (UART)    | O      | --             |
@@ -231,10 +231,10 @@ These key GPIO parameters are transcribed directly from Section 6, 7 and 8 of th
 | VOL,HDH | Voltage Output Low, high drive, 5 mA, VDD ≥ 2.7       |  6.8.3  | VSS      | VSS +0.4 |
 | VOL,HDL | Voltage Output Low, high drive, 3mA, VDD ≥ 1.7        |  6.8.3  | VSS      | VSS +0.4 |
 | VOH,SD  | Voltage Output High, standard drive,0.5 mA, VDD ≥ 1.7 |  6.8.3  | VDD -0.4 | VDD      |
-| VOL,HDH | Voltage Output How, high drive, 5 mA, VDD ≥ 2.7       |  6.8.3  | VDD -0.4 | VDD      |
-| VOL,HDL | Voltage Output How, high drive, 3mA, VDD ≥ 1.7        |  6.8.3  | VDD -0.4 | VDD      |
-| VIL     | Input voltage for logic low                           |  6.8.3  | VSS      | 0.3*VDD  |
-| VIH     | Input voltage for logic high                          |  6.8.3  | 0.7*VDD  | VDD      |
+| VOL,HDH | Voltage Output High, high drive, 5 mA, VDD ≥ 2.7      |  6.8.3  | VDD -0.4 | VDD      |
+| VOL,HDL | Voltage Output High, high drive, 3mA, VDD ≥ 1.7       |  6.8.3  | VDD -0.4 | VDD      |
+| VIL     | Input voltage for logic low                           |  6.8.3  | VSS      | 0.3 * VDD |
+| VIH     | Input voltage for logic high                          |  6.8.3  | 0.7 * VDD | VDD     |
 | xxx     | Max source current from IO pin                        |  TBC    | --       | TBC      |
 | xxx     | Max sink current into IO pin                          |  TBC    | --       | TBC      |
 | VIO≤3.6 | Tolerable pin voltages for IO pin with VDD ≤3.6       |  9      | -0.3V    | VDD+0.3  |

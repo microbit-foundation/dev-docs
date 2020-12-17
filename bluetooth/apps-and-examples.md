@@ -29,13 +29,7 @@ Below is a curated list of some Bluetooth applications you might like to read ab
 
 - [micro:bit Blue App for Android](https://github.com/microbit-foundation/microbit-blue)
 
-- [droidscript microbit](http://www.microbit-js.org/controlling-microbit-with-droidscript/)
-
-- [droidscript plugin](http://www.microbit-js.org/installing-the-microbit-plugin-for-droidscript/)
-
 - [Kitronik Move](https://play.google.com/store/apps/details?id=com.kitronik.blemove) - Android app that presents a D-Pad interface to control a micro:bit over Bluetooth LE.
-
-- [Workbench](https://edu.workbencheducation.com/partners/microbit) is a multi-device coding canvas for block-based programming that connects with BLE devices via Chrome Web Bluetooth.
 
 - [microBit.js](https://github.com/antefact/microBit.js) - JavaScript library to interact with BBC micro:bit using web bluetooth API.
 

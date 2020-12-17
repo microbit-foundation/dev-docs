@@ -83,11 +83,11 @@ Here's a non-exhaustive list of possible code editors for use with the micro:bit
 
 - [Kittenblock](https://www.kittenbot.cc/pages/software)
 
-- [Kodu](https://www.kodugamelab.com/resources/bbc-microbit/)
+- [Kodu](https://www.kodugamelab.com/resources/#microbit)
 
 - [MATLAB & Simulink](https://uk.mathworks.com/academia/highschool/courseware/microbit.html)
 
-- [Mbed Online Compiler](http://developer.mbed.org/platforms/Microbit)
+- [Mbed Online Compiler](https://os.mbed.com/platforms/Microbit/)
 
 - [mBlock 5](https://www.makeblock.com/software/mblock5)
 
@@ -98,8 +98,6 @@ Here's a non-exhaustive list of possible code editors for use with the micro:bit
 - [Mu offline Python editor](http://codewith.mu/)
 
 - [PyCharm (with MicroPython plugin, can also flash to micro:bit)](https://plugins.jetbrains.com/plugin/9777-micropython)
-
-- [Workbench](https://edu.workbencheducation.com/partners/microbit)
 
 
 ## From coding environment to micro:bit

@@ -87,17 +87,17 @@ The information on Arm Mbed applies to <span class="v1">V1</span> only.
 
 ### Hardware and Low Level Software
 
-The micro:bit hardware is based on the Mbed HDK, and the software on the Mbed SDK. Any program that runs on an Mbed platform will run on the micro:bit provided the required peripherals and memory are present. This means that developers using the micro:bit already have access to a huge [library of components](https://developer.mbed.org/components/) that they can use with the micro:bit. Furthermore, it means that things developed on the micro:bit can be used on other Mbed platforms.
+The micro:bit hardware is based on the Mbed HDK, and the software on the Mbed SDK. Any program that runs on an Mbed platform will run on the micro:bit provided the required peripherals and memory are present. This means that developers using the micro:bit already have access to a huge [library of components](https://os.mbed.com/components/) that they can use with the micro:bit. Furthermore, it means that things developed on the micro:bit can be used on other Mbed platforms.
 
-Of particular interest are the Mbed BLE projects, many of which were developed on nRF51-based hardware very similar to the micro:bit. The Mbed [Bluetooth Low Energy Team](https://developer.mbed.org/teams/Bluetooth-Low-Energy/) has many useful links and examples.
+Of particular interest are the Mbed BLE projects, many of which were developed on nRF51-based hardware very similar to the micro:bit. The Mbed [Bluetooth Low Energy Team](https://os.mbed.com/teams/Bluetooth-Low-Energy/) has many useful links and examples.
 
 ### Online IDE
 
-Mbed also provides an online C/C++ IDE with which you can program the micro:bit. To get started with this, please see the [micro:bit Platform Page](http://developer.mbed.org/platforms/Microbit) on the Mbed site, where there's a getting started video.
+Mbed also provides an online C/C++ IDE with which you can program the micro:bit. To get started with this, please see the [micro:bit Platform Page](hhttps://os.mbed.com/platforms/Microbit/) on the Mbed site, where there's a getting started video.
 
 ### Mbed Source Code and Versions Used
 
-The Mbed repository for micro:bit is [https://github.com/lancaster-university/mbed-classic](https://github.com/lancaster-university/mbed-classic), this is a fork of Mbed OS 2 (classic) with changes and fixes needed for the micro:bit project. This is the version of Mbed used with the offline DAL toolchain, [Mbed Online Compiler](https://ide.mbed.com/compiler/), and the [online editors on microbit.org](https://microbit.org/code).
+The Mbed repository for micro:bit is [https://github.com/lancaster-university/mbed-classic](https://github.com/lancaster-university/mbed-classic), this is a fork of Mbed OS 2 (classic) with changes and fixes needed for the micro:bit project. This is the version of Mbed used with the offline DAL toolchain, [Mbed Online Compiler](https://os.mbed.com/handbook/mbed-Compiler), and the [online editors on microbit.org](https://microbit.org/code).
 
 micro:bit was based on the well-established Mbed 2.0 SDK, with which Mbed 5 is compatible. Work is ongoing to [bring the micro:bit runtime onto Mbed 5](https://github.com/lancaster-university/microbit-dal/issues/224).
 
