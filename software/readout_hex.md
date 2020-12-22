@@ -28,18 +28,18 @@ This tool has a range of features:
 
 You can download the [latest release of the uBitTool GUI Editor](https://github.com/carlosperate/ubittool/releases/) from the GitHub repository and there are [Instructions to read out the contents of a hex file](https://www.embeddedlog.com/ubittool/usage.html) on the website
 
-## py-ocd
+## pyOCD
 
 This method reads out the .hex file on the micro:bit to a file in your working directory.
 
 In order to complete this task you will require some additional tools and libraries:
 
-  - Linux/Mac OS
-  - Python 2 (pyOCD is not supported in Python3)
+  - Windows/Linux/Mac OS
+  - Python
   - [GNU Project Debugger](https://www.gnu.org/software/gdb/) included as part of [ArmDeveloper GNU Embedded Toolchain](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm/downloads) [How to Install](https://gnu-mcu-eclipse.github.io/toolchain/arm/install/)
-  - [pyOCD Python library](https://github.com/mbedmicro/pyOCD)
+  - [pyOCD Python package](https://github.com/pyocd/pyOCD)
 
-The method described here has been tested on Mac OS  using [Homebrew as a package manager](https://brew.sh/), but should work on Linux. Additional steps are linked to, but it is outside the scope of this article to go through setup.
+The method described here has been tested on Mac OS with a micro:bit V1 using [Homebrew as a package manager](https://brew.sh/), but should work on Linux. Additional steps are linked to, but it is outside the scope of this article to go through setup.
 
 ## Procedure
 
