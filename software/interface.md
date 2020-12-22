@@ -114,6 +114,11 @@ The API is currently available in [Chrome based browsers](https://caniuse.com/#f
 
 ## Updating the DAPLink full image
 
+<div class="alert alert-danger">Please note - there is almost no situtation in the normal use of the micro:bit where this step will be necessary. We have documented it here in the interests of making the the micro:bit more friendly to developers who want to experiement with the code on the KL27. If your microbit enumerates in MAINTENANCE or MICROBIT mode you should never need to perform these steps</div>
+
+
+**Please only use use these steps if you are familiar with USB bootloaders and command line tools. You should never need to perform these to update a micro:bit.**
+
 You can also flash a full DAPLink image to the <span class="v2">V2</span> device using the KL27 internal bootloader. This will update both interface and bootloader.
 
 [Download latest full DAPLink image](https://cdn.sanity.io/files/ajwvhvgo/production/8206bb64b39ecf8f3c205569bc9e2d4158b7963c.bin?dl){: .btn.sm-btn download}
