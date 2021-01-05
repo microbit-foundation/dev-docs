@@ -85,9 +85,9 @@ This is, in fact, what you're doing when you live-code using the REPL. However, 
 
 MicroPython uses a combination of compilation and interpretation techniques to run your program. Here's how:
 
-When MicroPython sees a script it parses each line of the script. The end result is a set of in-memory tokens grouped in such a way that they represent how your program works. This is called the *parse tree*.
+When MicroPython sees a script it parses each line of the script. The end result is a set of in-memory tokens grouped in such a way that they represent how your program works. This is called the *Abstract Syntax Tree (AST)*.
 
-The parse tree is compiled into a terse set of instructions called Python *bytecode*. Bytecode instructions are like CPU assembly language instructions, but they are targeted for a *virtual machine*, not for a real piece of computer hardware.
+The AST is compiled into a terse set of instructions called Python *bytecode*. Bytecode instructions are like CPU assembly language instructions, but they are targeted for a *virtual machine*, not for a real piece of computer hardware.
 
 The Python bytecode is given to the Python virtual machine to run and so your program is executed.
 
