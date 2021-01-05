@@ -54,7 +54,7 @@ The DAPLink software and interface chip are part of the [Arm Mbed HDK](https://o
 
 The micro:bit currently ships with DAPLink bootloader at version 0255 and interface at version 0255.
 
-The following versions of the device have previously been shipped with the following DAPLink versions:
+This table shows the device revision and which DAPLink Bootloader and interface it shipped with:
 
 | Board revision | Bootloader | Interface | Download
 | -------------- | ---------- | --------- | --------
@@ -62,6 +62,11 @@ The following versions of the device have previously been shipped with the follo
 | 1.3b           | 0234       | 0241      | [0241](https://cdn.sanity.io/files/ajwvhvgo/production/8f016a92159db1ce5d7d6907d5d6d899a2771081.hex?dl){: .btn.sm-btn download}
 | 1.5            | 0243       | 0249      | [0249](https://cdn.sanity.io/files/ajwvhvgo/production/26b176670c8f9df4aa015e9067368eafcfd749a1.hex?dl){: .btn.sm-btn download}
 | 2.0            | 0255       | 0255      | [0255](https://cdn.sanity.io/files/ajwvhvgo/production/2cfe581e01f533513276485375adec3f00153af5.hex?dl){: .btn.sm-btn download}
+
+This table shows the latest DAPLink release for each board version that has been fully tested by the Foundation:
+
+| 1.*            | 02**       | 0253      | [0253](https://cdn.sanity.io/files/ajwvhvgo/production/5ecfa4d407a9d02e0f2e7fe192e5fa6a246f8621.hex?dl){: .btn.sm-btn download}
+| 2.*            | 0255       | 0255      | [0255](https://cdn.sanity.io/files/ajwvhvgo/production/2cfe581e01f533513276485375adec3f00153af5.hex?dl){: .btn.sm-btn download}
 
 
 ### The DAPLink boot loader
