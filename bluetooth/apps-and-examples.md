@@ -17,7 +17,7 @@ Below is a curated list of some Bluetooth applications you might like to read ab
 
 ## Applications, tools and examples
 
-- [Android App](https://play.google.com/store/apps/details?id=com.samsung.microbit) facilitates [pairing and flashing programs to the micro:bit](https://support.microbit.org/en/support/solutions/articles/19000051025-pairing-and-flashing-code-via-bluetooth). The app was originally developed by Samsung and the source code is now maintained by the Micro:bit Educational Foundation and [lives on GitHub](https://github.com/microbit-foundation/microbit-android/)
+- [Android App](https://play.google.com/store/apps/details?id=com.samsung.microbit) facilitates [pairing and flashing programs to the micro:bit](https://support.microbit.org/en/support/solutions/articles/19000051025-pairing-and-flashing-code-via-bluetooth). The app was originally developed by Samsung and is now maintained by the Micro:bit Educational Foundation. The [micro:bit android app source code](https://github.com/microbit-foundation/microbit-android/) can be found on GitHub.
 
 - [iOS App](https://apps.apple.com/gb/app/micro-bit/id1092687276) faciliates [pairing and flashing programs to the micro:bit](https://support.microbit.org/en/support/solutions/articles/19000051025-pairing-and-flashing-code-via-bluetooth)
 
