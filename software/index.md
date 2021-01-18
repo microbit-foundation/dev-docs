@@ -99,7 +99,7 @@ Here's a non-exhaustive list of possible code editors for use with the micro:bit
 
 - [PyCharm (with MicroPython plugin, can also flash to micro:bit)](https://plugins.jetbrains.com/plugin/9777-micropython)
 
-- [Thonny (needs to change interpreter in the options)](https://thonny.org/)
+- [Thonny (You will need to change the interpreter in Tools > Options > Interpreter)](https://thonny.org/)
 
 
 ## From coding environment to micro:bit
