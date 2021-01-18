@@ -65,6 +65,8 @@ This table shows the device revision and which DAPLink Bootloader and interface 
 
 This table shows the latest DAPLink release for each board version that has been fully tested by the Foundation:
 
+| Board revision | Bootloader | Interface | Download
+| -------------- | ---------- | --------- | --------
 | 1.*            | 02**       | 0253      | [0253](https://cdn.sanity.io/files/ajwvhvgo/production/5ecfa4d407a9d02e0f2e7fe192e5fa6a246f8621.hex?dl){: .btn.sm-btn download}
 | 2.*            | 0255       | 0255      | [0255](https://cdn.sanity.io/files/ajwvhvgo/production/2cfe581e01f533513276485375adec3f00153af5.hex?dl){: .btn.sm-btn download}
 
