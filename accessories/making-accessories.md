@@ -14,18 +14,18 @@ A [list of available accessories](https://microbit.org/buy/accessories/) is main
 
 ## Using the Edge Connector
 
-The micro:bit card edge connector, commonly referred to as the 'edge connector' or the 'pins' makes accessory design easy.
+The micro:bit [card edge connector](/hardware/edgeconnector), commonly referred to as the 'edge connector' or the 'pins', is compatible with a standard 1.27mm, 2x40 edge connector socket.
 
-Many micro:bit accessories are designed to use an edge connector socket, so it is simple to plug in and remove the board.
+Where possible your accessory design should implement this socket, making it simple for your users to plug in and remove the micro:bit board.
 
-There are limitations to the current that can be drawn from the micro:bit, and accessories must be designed carefully to ensure they do not damage the micro:bit, or that the micro:bit cannot damage them.
+There are [limitations to the current that can be drawn from the micro:bit](/hardware/powersupply), accessories must be designed carefully to ensure they do not damage the micro:bit, or that the micro:bit cannot damage them.
+
+- [micro:bit edge connector and pinout](/hardware/edgeconnector)
+- [powering accessories from the micro:bit](/hardware/powersupply)
 
 ### V2 revision
 
 The edge connector on the <span class="V2">V2</span> board revision is backwards compatible with the <span class="v1">V1</span> edge connector, but has additional dedicated pins.
-
-- Details of the [edge connector and pinout](/hardware/edgeconnector)
-- Details about [powering things from the board](/hardware/powersupply)
 
 ## Battery Pads
 

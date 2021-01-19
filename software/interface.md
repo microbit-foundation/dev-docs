@@ -54,7 +54,7 @@ The DAPLink software and interface chip are part of the [Arm Mbed HDK](https://o
 
 The micro:bit currently ships with DAPLink bootloader at version 0255 and interface at version 0255.
 
-The following versions of the device have previously been shipped with the following DAPLink versions:
+This table shows the device revision and which DAPLink Bootloader and interface it shipped with:
 
 | Board revision | Bootloader | Interface | Download
 | -------------- | ---------- | --------- | --------
@@ -62,6 +62,13 @@ The following versions of the device have previously been shipped with the follo
 | 1.3b           | 0234       | 0241      | [0241](https://cdn.sanity.io/files/ajwvhvgo/production/8f016a92159db1ce5d7d6907d5d6d899a2771081.hex?dl){: .btn.sm-btn download}
 | 1.5            | 0243       | 0249      | [0249](https://cdn.sanity.io/files/ajwvhvgo/production/26b176670c8f9df4aa015e9067368eafcfd749a1.hex?dl){: .btn.sm-btn download}
 | 2.0            | 0255       | 0255      | [0255](https://cdn.sanity.io/files/ajwvhvgo/production/2cfe581e01f533513276485375adec3f00153af5.hex?dl){: .btn.sm-btn download}
+
+This table shows the latest DAPLink release for each board version that has been fully tested by the Foundation:
+
+| Board revision | Bootloader | Interface | Download
+| -------------- | ---------- | --------- | --------
+| 1.*            | 02**       | 0253      | [0253](https://cdn.sanity.io/files/ajwvhvgo/production/5ecfa4d407a9d02e0f2e7fe192e5fa6a246f8621.hex?dl){: .btn.sm-btn download}
+| 2.*            | 0255       | 0255      | [0255](https://cdn.sanity.io/files/ajwvhvgo/production/2cfe581e01f533513276485375adec3f00153af5.hex?dl){: .btn.sm-btn download}
 
 
 ### The DAPLink boot loader
@@ -108,6 +115,11 @@ It has been supported in DAPLink since version **0243**, so if you have an older
 The API is currently available in [Chrome based browsers](https://caniuse.com/#feat=webusb) (Android, Chrome OS, Linux, macOS and Windows) and is supported in the MakeCode Editor and the Python Editor. This enables you to flash your micro:bit straight from the browser without the need to save the .hex file first, and use serial communication between the micro:bit and the editor.
 
 ## Updating the DAPLink full image
+
+<div class="alert alert-danger">Please note - there is almost no situtation in the normal use of the micro:bit where this step will be necessary. We have documented it here in the interests of making the the micro:bit more friendly to developers who want to experiement with the code on the KL27. If your microbit enumerates in MAINTENANCE or MICROBIT mode you should never need to perform these steps</div>
+
+
+**Please only use use these steps if you are familiar with USB bootloaders and command line tools. You should never need to perform these to update a micro:bit.**
 
 You can also flash a full DAPLink image to the <span class="v2">V2</span> device using the KL27 internal bootloader. This will update both interface and bootloader.
 
