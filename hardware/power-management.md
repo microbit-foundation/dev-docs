@@ -1,13 +1,16 @@
 ---
 layout: page
 order:
-title: Power consumption
-heading: Power consumption
-description: Power consumption on the micro:bit
-permalink: /hardware/power-consumption/
+title: Power management
+heading: Power management
+description: Power management on the micro:bit V2
+permalink: /hardware/power-management/
 ref: hardware
 lang: en
 ---
+
+## Power Management Specification
+[micro:bit Power Management Specification](https://github.com/microbit-foundation/spec-power-management)
 
 ## Power modes
 

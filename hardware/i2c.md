@@ -9,6 +9,8 @@ ref: i2c
 lang: en
 ---
 
+## I2C Specification
+[micro:bit I2C Protocol Specification](https://github.com/microbit-foundation/spec-i2c-protocol)
 ## Use of the I2C bus
 
 The I2C bus for the latest revision of the micro:bit separates the I2C lines into Internal and External use. The [previous revisions share the I2C bus](../i2c-shared/) with the Edge connector and nRF chip.
