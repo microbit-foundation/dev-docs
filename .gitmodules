@@ -1,0 +1,12 @@
+[submodule "software/spec-i2c-protocol"]
+	path = software/spec-i2c-protocol
+	url = https://github.com/microbit-foundation/spec-i2c-protocol
+	branch = main
+[submodule "software/spec-power-management"]
+	path = software/spec-power-management
+	url = https://github.com/microbit-foundation/spec-power-management
+	branch = main
+[submodule "software/spec-universal-hex"]
+	path = software/spec-universal-hex
+	url = https://github.com/microbit-foundation/spec-universal-hex
+	branch = master
