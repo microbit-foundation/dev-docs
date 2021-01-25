@@ -47,6 +47,7 @@ Whilst we work on the publication of the schematic for the latest revision, here
 | P0.19            | ROW5                | N                                        |                     |
 | P0.14            | BTN_A               | N                                        | P5                  |
 | P0.23            | BTN_B               | N                                        | P11                 |
+| P1.04            | FACE_TOUCH          | N                                        |                     |
 | P0.16            | I2C_INT_SDA         | P23 (I2C1_SDA)                           |                     |
 | P0.17            | SCK_EXTERNAL        | N                                        | P13                 |
 | P0.01            | MISO_EXTERNAL       | N                                        | P14                 |
@@ -78,7 +79,7 @@ Some of the Columns appear on the edge connector, so if you want to use extra GP
 
 ### Interface
 
-The Interface sheet shows the KL26/<span class="v1">V1</span>KL27<span class="v2">V2</span> processor, which is an NXP microcontroller with an Arm processor, that implements the USB protocol for the USB connector. This provides a method for loading code onto the application processor, using a drag and drop interface.
+The Interface sheet shows the KL26<span class="v1">V1</span>/KL27<span class="v2">V2</span> processor, which is an NXP microcontroller with an Arm processor, that implements the USB protocol for the USB connector. This provides a method for loading code onto the application processor, using a drag and drop interface.
 
 The USB protocol handler on this processor implements a Mass Storage Class device in order to offer the drag and drop code load interface. It also provides a Connected Device Class that allows a serial port interface to be used across the USB.
 
@@ -126,7 +127,7 @@ The edge connector is the main interface to external components attached to the 
 
 This interface has a range of digital, analog, touch, PWM, and serial communications interfaces.
 
-10Mohm weak pull-up resistors are fitted on P0 P1 and P2 for use in touch sensing mode, where they provide a weak pull-up to the supply providing a default high input and the user touching the GND pad pulls the pin down towards 0V, providing a low input. When in non touch modes, these pads have stronger internal pull-downs enabled in the software, so that the default input state when not connected is 'low'.
+10Mohm weak pull-up resistors are fitted on P0 P1 P2 and logo<span class="v2">V2</span> for use in touch sensing mode, where they provide a weak pull-up to the supply providing a default high input and the user touching the GND pad pulls the pin down towards 0V, providing a low input. When in non touch modes, these pads have stronger internal pull-downs enabled in the software, so that the default input state when not connected is 'low'.
 
 Guard pins are provided both sides of the 3V and GND pads, so that shorting by crocodile clips does not degrade the features of the device by causing spurious inputs.
 
