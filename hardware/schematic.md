@@ -93,7 +93,9 @@ There is one combined motion sensor IC on the micro:bit, that contains an accele
 
 The device is connected to the application processor [I2C bus](../i2c/), and for the <span class="v1">V1</span> revision this [I2C bus is also shared](../i2c-shared/) to two pins on the edge connector. I2C pull-up resistors are pre-fitted on the board.
 
-The magnetometer can generate one processor interrupt for the application processor, and the accelerometer can generate two different processor interrupts for the application processor.
+In <span class="v2">V2</span> there is a combined open drain, active low, interrupt signal (`COMBINED_SENSOR_INT`) to the application processor for the motion sensors and the KL27. Any device can asset this signal and the application processor has to query the individual devices to locate the origin.
+
+The magnetometer can generate one processor interrupt for the application processor, and the accelerometer can generate two different processor interrupts in <span class="v1">V1</span> or just one in <span class="v2">V2</span>.
 
 Note, the physical orientation of this IC is important for binary compatibility with the driver code in the application processor, which assumes a particular physical orientation in its calculations.
 
