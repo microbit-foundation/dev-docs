@@ -49,4 +49,4 @@ No difference was seen between the revisions.
 
 ## Notes
 
-The <span class="v2">V2</span> device can be woken by activating the combined sensor interrupt on P0.25. This signal is connected between the nRF52, the KL27, and motion sensors and requires the nRF52 internal pull up to be configured, even while the device is sleeping.
+The <span class="v2">V2</span> device can be woken by activating (by pulling low) the combined sensor interrupt on P0.25. This open drain signal is connected between the nRF52, the KL27, and motion sensors and requires the nRF52 internal pull up to be configured, even while the device is sleeping.
