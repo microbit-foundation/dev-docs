@@ -146,7 +146,7 @@ The Foundation has written a javascript library and [Universal Hex Creator](../s
 
 ### Bluetooth BLE
 
-A hex file that enables all micro:bit Bluetooth services is available to use for testing BLE. [Download the updated version of the BLE all services hex](/docs/latest-revision/assets/bluetooth-services.hex)
+A hex file that enables all micro:bit Bluetooth services is available to use for testing BLE. [Download the updated version of the BLE all services hex](/docs/bluetooth/assets/BLE_All_Services_CODAL_0-0-24-ABDLIMTU-P.hex)
 
 ## Will my saved hex files work with the new board?
 

@@ -17,12 +17,24 @@ If you are looking for information about the 'radio' feature, it is a [proprieta
 
 ## BBC micro:bit Bluetooth Profile
 
-The BBC micro:bit [Bluetooth profile is defined in the DAL](https://lancaster-university.github.io/microbit-docs/ble/profile/)
+## CODAL
 
-You can flash one of two pre-compiled Hex files to the micro:bit that enable bluetooth services. As Bluetooth is memory intensive, these are supplied as either 'without Magnetometer Service' or 'without DFU Service':
+A pre-compiled hex file is available to download for <span class="v2">V2</span> that enables all Bluetooth services. 
 
-- [Without magnetometer](/docs/bluetooth/assets/BLE_All_Services_DAL_2-1-1-No-Mag.hex)
-- [Without DFU](/docs/bluetooth/assets/BLE_All_Services_DAL_2-1-1-No-DFU.hex)
+[Bluetooth all services CODAL](/docs/bluetooth/assets/bluetooth/assets/BLE_All_Services_CODAL_0-0-24-ABDLIMTU-P.hex){: .btn.sm-btn download}
+
+The source for this can be found in the [microbit-v2-samples]https://github.com/lancaster-university/microbit-v2-samples/tree/master/source/samples repository.
+
+
+### DAL
+
+The BBC micro:bit <span class="v1">V1</span> [Bluetooth profile is defined in the DAL](https://lancaster-university.github.io/microbit-docs/ble/profile/)
+
+You can flash one of two pre-compiled Hex files to the micro:bit <span class="v1">V1</span> that enable bluetooth services. As Bluetooth is memory intensive, these are supplied as either 'without Magnetometer Service' or 'without DFU Service':
+
+[Without magnetometer](/docs/bluetooth/assets/BLE_All_Services_DAL_2-1-1-No-Mag.hex){: .btn.sm-btn download}
+
+[Without DFU](/docs/bluetooth/assets/BLE_All_Services_DAL_2-1-1-No-DFU.hex){: .btn.sm-btn download}
 
 The DAL contains the [C++ source for the BLE service files](https://github.com/lancaster-university/microbit-samples/blob/master/source/examples/bluetooth-services/main.cpp)
 
@@ -46,7 +58,7 @@ There are some useful [advanced configuration options in the micro:bit runtime c
 
 ## Challenge
 
-It would be possible for anyone with the appropriate knowledge to define and implement other Bluetooth profiles. You would need to use the Mbed C/C++ environment to do this.
+It would be possible for anyone with the appropriate knowledge to define and implement other Bluetooth profiles.
 
 We are seeking collaborators to help us define the new profile elements that expose some of the <span class="v2">V2</span> features.
 

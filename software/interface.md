@@ -58,17 +58,17 @@ This table shows the device revision and which DAPLink Bootloader and interface 
 
 | Board revision | Bootloader | Interface | Download
 | -------------- | ---------- | --------- | --------
-| 1.3            | 0234       | 0234      | [0234](https://cdn.sanity.io/files/ajwvhvgo/production/f6b76528f1f0b906a9e3d35b426dd92ea4cdfd2c.hex?dl){: .btn.sm-btn download}
-| 1.3b           | 0234       | 0241      | [0241](https://cdn.sanity.io/files/ajwvhvgo/production/8f016a92159db1ce5d7d6907d5d6d899a2771081.hex?dl){: .btn.sm-btn download}
-| 1.5            | 0243       | 0249      | [0249](https://cdn.sanity.io/files/ajwvhvgo/production/26b176670c8f9df4aa015e9067368eafcfd749a1.hex?dl){: .btn.sm-btn download}
-| 2.0            | 0255       | 0255      | [0255](https://cdn.sanity.io/files/ajwvhvgo/production/2cfe581e01f533513276485375adec3f00153af5.hex?dl){: .btn.sm-btn download}
+| 1.3            | 0234       | 0234      | [0234](/docs/software/assets/DAPLink-factory-release/0234_kl26z_microbit_0x8000.hex){: .btn.sm-btn download}
+| 1.3b           | 0234       | 0241      | [0241](/docs/software/assets/DAPLink-factory-release/0241_kl26z_microbit_0x8000.hex){: .btn.sm-btn download}
+| 1.5            | 0243       | 0249      | [0249](/docs/software/assets/DAPLink-factory-release/0249_kl26z_microbit_0x8000.hex){: .btn.sm-btn download}
+| 2.0            | 0255       | 0255      | [0255](/docs/software/assets/DAPLink-factory-release/0255_kl27z_microbit_0x8000.hex){: .btn.sm-btn download}
 
 This table shows the latest DAPLink release for each board version that has been fully tested by the Foundation:
 
 | Board revision | Bootloader | Interface | Download
 | -------------- | ---------- | --------- | --------
-| 1.*            | 02**       | 0253      | [0253](https://cdn.sanity.io/files/ajwvhvgo/production/5ecfa4d407a9d02e0f2e7fe192e5fa6a246f8621.hex?dl){: .btn.sm-btn download}
-| 2.*            | 0255       | 0255      | [0255](https://cdn.sanity.io/files/ajwvhvgo/production/2cfe581e01f533513276485375adec3f00153af5.hex?dl){: .btn.sm-btn download}
+| 1.*            | 02**       | 0253      | [0253](/docs/software/assets/DAPLink-factory-release/0253_kl26z_microbit_0x8000.hex){: .btn.sm-btn download}
+| 2.*            | 0255       | 0255      | [0255](/docs/software/assets/DAPLink-factory-release/0255_kl27z_microbit_0x8000.hex){: .btn.sm-btn download}
 
 
 ### The DAPLink boot loader
@@ -116,14 +116,13 @@ The API is currently available in [Chrome based browsers](https://caniuse.com/#f
 
 ## Updating the DAPLink full image
 
-<div class="alert alert-danger">Please note - there is almost no situtation in the normal use of the micro:bit where this step will be necessary. We have documented it here in the interests of making the the micro:bit more friendly to developers who want to experiement with the code on the KL27. If your microbit enumerates in MAINTENANCE or MICROBIT mode you should never need to perform these steps</div>
-
+<div class="alert alert-danger">Please note - there is almost no situation in the normal use of the micro:bit where this step will be necessary. We have documented it here in the interests of making the the micro:bit more friendly to developers who want to experiment with the code on the KL27. If your micro:bit enumerates in MAINTENANCE or MICROBIT mode you should never need to perform these steps</div>
 
 **Please only use use these steps if you are familiar with USB bootloaders and command line tools. You should never need to perform these to update a micro:bit.**
 
 You can also flash a full DAPLink image to the <span class="v2">V2</span> device using the KL27 internal bootloader. This will update both interface and bootloader.
 
-[Download latest full DAPLink image](https://cdn.sanity.io/files/ajwvhvgo/production/8206bb64b39ecf8f3c205569bc9e2d4158b7963c.bin?dl){: .btn.sm-btn download}
+[Download latest full DAPLink image](/docs/software/assets/DAPLink-factory-release/full_firmware_image_crc.bin){: .btn.sm-btn download}
 
 You will need to register for and download the [**Bootloader Host Application (blhost)**](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuboot-mcu-bootloader-for-nxp-microcontrollers:MCUBOOT?&tab=Design_Tools_Tab) from NXP. IN the /bin folder you will find executables for your operating system.
 
