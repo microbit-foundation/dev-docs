@@ -122,7 +122,7 @@ The API is currently available in [Chrome based browsers](https://caniuse.com/#f
 
 You can also flash a full DAPLink image to the <span class="v2">V2</span> device using the KL27 internal bootloader. This will update both interface and bootloader.
 
-[Download latest full DAPLink image](/docs/software/assets/DAPLink-factory-release/full_firmware_image_crc.bin){: .btn.sm-btn download}
+[Download latest full DAPLink image](/docs/software/assets/DAPLink-factory-release/kl27z_bl_0255_if_0255_microbit_full_image.bin){: .btn.sm-btn download}
 
 You will need to register for and download the [**Bootloader Host Application (blhost)**](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuboot-mcu-bootloader-for-nxp-microcontrollers:MCUBOOT?&tab=Design_Tools_Tab) from NXP. IN the /bin folder you will find executables for your operating system.
 
