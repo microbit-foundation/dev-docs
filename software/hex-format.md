@@ -57,7 +57,7 @@ If you are building .hex files for both board variants, you will need to use the
 
 ## Micropython
 
-See the [Micropython Hex file reference](https://microbit-micropython.readthedocs.io/en/latest/devguide/hexformat.html) for up to date information.
+See the [Micropython Hex file reference](https://microbit-micropython.readthedocs.io/en/v2-docs/devguide/hexformat.html) for up to date information.
 
 MicroPython builds take a firmware.hex image (the MicroPython pre-compiled image) and appends your script to the end of it, in a fixed 8K region at a known address. When MicroPythons starts to run on the micro:bit, it looks for a signature at this fixed location, and uses that to determine whether to run the script, or drop directly to the REPL prompt.
 
