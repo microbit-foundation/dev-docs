@@ -144,7 +144,7 @@ Usage info:
 blhost --help
 ```
 
-The DAPLink software enables flash protection for bootloader area, so we need to use this specific erase command:
+The DAPLink software enables flash protection for the bootloader flash area, so we need to use erase command that also unsecures the flash:
 
 ```
 blhost -u 0x15a2,0x0073 flash-erase-all-unsecure
