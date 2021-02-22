@@ -73,7 +73,7 @@ Here's a non-exhaustive list of possible code editors for use with the micro:bit
 
 - [Bitty Software Applications](https://bittysoftware.blogspot.com/p/applications.html)
 
-- [CodeMao](https://ide.codemao.cn/)
+- [CodeMao](https://codemao.cn/)
 
 - [https://wood.codemao.cn/?editor_mode=1](https://wood.codemao.cn/?editor_mode=1)
 
