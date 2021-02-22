@@ -23,12 +23,12 @@ The external lines run to the edge connector and can be used for accessories.
 
 ### Table of addresses used
 
-|                     | accelerometer    | magnetometer (compass) | KL27 |
-|---------------------|------------------|------------------------|
-| motion sensor variant 1 (LSM303AGR) | 0x19 (0x32/0x33) | 0x1E (0x3C/0x3D)  | TBC
-| motion sensor variant 2 (FXOS8700CQ) | 0x1F (0x3E/0x3F) | 0x1F (0x3E/0x3F) | TBC
+|                     | accelerometer    | magnetometer (compass) | KL27 Power Mng | KL27 Storage |
+|---------------------|------------------|------------------------|----------------|--------------|
+| motion sensor variant 1 (LSM303AGR)  | 0x19 (0x32/0x33) | 0x1E (0x3C/0x3D) | 0x70 (0xE0/0xE1) | 0x72 (0xE4/0xE5) |
+| motion sensor variant 2 (FXOS8700CQ) | 0x1F (0x3E/0x3F) | 0x1F (0x3E/0x3F) | 0x70 (0xE0/0xE1) | 0x72 (0xE4/0xE5) |
 
-This means 0x1E, 0x1F and 0x19 are reserved for on-board use.
+While the micro:bit <span class="v2">V2</span> has a dedicated bus for the on-board I2C peripherals, the micro:bit <span class="v1">V1</span> shares the same bus for on-board and external I2C devices. Please check the [V1 shared bus](i2c-shared) documentation to check the reserved I2C addresses.
 
 ### Table of address used by micro:bit accessories (please edit)
 
