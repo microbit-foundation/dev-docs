@@ -124,11 +124,13 @@ You can also flash a full DAPLink image to the <span class="v2">V2</span> device
 
 [Download latest full DAPLink image](/docs/software/assets/DAPLink-factory-release/kl27z_bl_0255_if_0255_microbit_full_image.bin){: .btn.sm-btn download}
 
-You will need to register for and download the [**Bootloader Host Application (blhost)**](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuboot-mcu-bootloader-for-nxp-microcontrollers:MCUBOOT?&tab=Design_Tools_Tab) from NXP. IN the /bin folder you will find executables for your operating system.
+You will need to register for and download the [**Bootloader Host Application (blhost)**](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuboot-mcu-bootloader-for-nxp-microcontrollers:MCUBOOT?&tab=Design_Tools_Tab) from NXP. In the `/bin` folder you will find executables for your operating system.
+
+<div class="alert alert-warning">Please ensure the nRF52 flash has been erased before erasing/flashing the KL27 flash. Programmes running on the nRF52 can affect the KL27 internal boot process and stop the kinetis bootloader from running. You can flash an <a href="/docs/software/assets/erase-flash.hex">erase-flash.hex</a> file to erase the nRF52.</div>
 
 ### Enter bootloader mode
 
-To enter this mode we need to ground TP1 during board power up, this is the BOOTMODE pin in the KL27. To do that, connect with a wire (or something like a paper-clip) TP1 red circle) with any ground point (black square) as you insert the USB cable into the device.
+To enter this mode we need to ground TP1 during board power up, this is the BOOTMODE pin in the KL27. To do that, connect with a wire (or something like a paper-clip) from TP1 (the red circle) with any ground point (any black square) as you insert the USB cable into the device.
 
 ![TP1](/docs/software/assets/TP1.png){: width: 300px}
 
@@ -142,14 +144,19 @@ Usage info:
 blhost --help
 ```
 
-Flash KL27 bin file:
+The DAPLink software enables flash protection for the bootloader flash area, so we need to use erase command that also unsecures the flash:
 
 ```
-blhost -u 0x15a2,0x0073 flash-erase-all 0
+blhost -u 0x15a2,0x0073 flash-erase-all-unsecure
+```
+
+Then unplug the micro:bit from the computer and plug it again, the KL27 should automatically enter the kinetis bootloader. To flash the bin file:
+
+```
 blhost -u 0x15a2,0x0073 write-memory 0x0 kl27_file.bin
 ```
 
-Read KL27 flash contents into `kl27_flash_dump.bin` file:
+To read KL27 flash contents into `kl27_flash_dump.bin` file:
 
 ```
 blhost -u 0x15a2,0x0073 read-memory 0x0 0x40000 kl27_flash_dump.bin
