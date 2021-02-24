@@ -19,7 +19,7 @@ The chip that developers' code runs on, and that all the peripherals are connect
 
 The **Target MCU** is a **Nordic Semiconductor nRF52833** <span class="v2">V2</span> or **Nordic Semiconductor nRF51822** <span class="v1">V1</span>.
 
-<img src="/docs/software/assets/Interface.svg" alt="DAPlink interface" style="background:#eeeeff; padding:20px;">
+![v2 interface](/docs/software/assets/v2-interface.png)
 
 The target and interface MCUs are connected by two interfaces:
 
