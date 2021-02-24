@@ -17,7 +17,7 @@ The V1.5 micro:bit has a footprint for two different motion sensors: one made by
 
 ### I2C block diagram
 
-![I2C block](/docs/hardware/assets/i2c-block.svg)
+![I2C block](/docs/hardware/assets/i2c-diagram.png)
 
 ### Table of addresses used
 
