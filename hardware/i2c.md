@@ -19,7 +19,7 @@ The external lines run to the edge connector and can be used for accessories.
 
 ### I2C block diagram
 
-![I2C block](/docs/hardware/assets/i2c-block.svg)
+![I2C block](/docs/hardware/assets/i2c-diagram.png)
 
 ### Table of addresses used
 
