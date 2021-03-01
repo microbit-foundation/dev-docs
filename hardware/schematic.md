@@ -150,7 +150,37 @@ The specific dimensions of the board are:
 
 The following image of the <span class="V2">V2</span> revision is taken from the [micro:bit V2 assembly diagram](/docs/hardware/assets/Microbit_V2_Assembly.pdf) provided by Avid.
 
-![micro:bit assembly](/docs/hardware/assets/microbit-v2-assembly.png)
+![micro:bit assembly front](/docs/hardware/assets/microbit-v2-assembly-front.png)
+
+The rear view of the device has been adapted to highlight the test points and describe their purpose.
+
+![micro:bit assembly back](/docs/hardware/assets/microbit-v2-assembly-back.png)
+
+### Exposed Test Points
+Test Point | Use case
+---------- | ---------
+TP1 | U5 Bootmode - used for debugging U5 - KL27Z
+TP7 | UDC+ of USB
+TP8 | UDC- of USB
+TP17 | Access to J2-Pin 1 Battery connector
+TP19 | Access to VBUS line on J3 - USB Connector
+TP20 | I2C_INT_SCL - access to U2 - nRF52
+TP21 | I2C_INT_SDA - access to U2 - nRF52
+TP9 | VREG - Lozenge test points
+TP10 | GND - Lozenge test points
+ 
+### Covered test points (Solder mask to be removed to access test point)
+Test Point | Use case
+---------- | ---------
+TP11 | U2_SWDCLK - used to debug U2
+TP12 | U2_SWDIO - used to debug U2
+TP4 | U5_SWD_DIO - used for debugging U5 - KL27Z
+TP3 | U5_SWD_TCLK - used for debugging U5 - KL27Z
+TP2 | U5_IF_NRST - used for debugging U5 - KL27Z
+TP6 | GND
+TP18 | VBUS
+TP5 | VREG - This is connected to TP9
+
 
 ## Further information
 
