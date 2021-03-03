@@ -211,7 +211,7 @@ Power to the micro:bit may be provided via 5V on the USB connector, or via a 3V 
 | Operating range | 1.8V .. 3.6V
 | Operating current (USB and battery)   | 300mA max
 | On-board Peripherals budget | 90mA
-| Battery connector | JST X2B-PH-SM4-TB
+| Battery connector | JST S2B-PH-SM4-TB
 | Max current provided via edge connector | 190mA
 | More Info | [Power supply](./powersupply)
 
