@@ -157,21 +157,23 @@ The rear view of the device has been adapted to highlight the test points and de
 ![micro:bit assembly back](/docs/hardware/assets/microbit-v2-assembly-back.png)
 
 ### Exposed Test Points
+
 Test Point | Purpose
--- | --
-TP1 | U5 Bootmode - [used to enter the ROM bootloader on the KL27Z](../software/daplink-interface/#updating-the-daplink-full-image)
+---------- | -------
+TP1 | U5 Bootmode - [used to enter the ROM bootloader on the KL27Z](../../software/daplink-interface/#updating-the-daplink-full-image)
 TP7 | USB D+
 TP8 | USB D-
 TP17 | Access to Pin 1 on Battery connector
 TP19 | Access to VBUS line on USB Connector
 TP20 | Access for debugging internal I2C bus - SCL
 TP21 | Access for debugging internal I2C bus - SCL
-TP9 | VREG - [Actually the power rounded rectangular pad](../accessories/making-accessories/#battery-pads)
-TP10 | GND - [Actually the GND rounded rectangular pad](../accessories/making-accessories/#battery-pads)
+TP9 | VREG - [Actually the power rounded rectangular pad](../../accessories/making-accessories/#battery-pads)
+TP10 | GND - [Actually the GND rounded rectangular pad](../../accessories/making-accessories/#battery-pads)
  
 ### Covered test points (Solder mask to be removed to access test point)
+
 Test Point | Purpose
--- | --
+---------- | -------
 TP11 | U2_SWDCLK - used to debug nRF52833
 TP12 | U2_SWDIO - used to debug nRF52833
 TP4 | U5_SWD_DIO - used for debugging KL27Z
