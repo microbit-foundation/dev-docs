@@ -108,9 +108,7 @@ Each of the coding environments generates a special file called a .hex file, whi
 
 The micro:bit code is updated by dragging a .hex file onto the MICROBIT drive that appears on your computer, when you plug in the micro:bit. It looks just like a USB memory stick to your computer (the flash drive is actually emulated by the [DAPLink](/software/daplink-interface) software)
 
-It is also possible to 'flash' code to your micro:bit by using a mobile app, and using the Bluetooth communications interface from your mobile phone.
-
-You can read more about [bluetooth flashing](/bluetooth/profile) or [bluetooth apps](/bluetooth/apps-and-examples) by following these links.
+It is also possible to 'flash' code to your micro:bit by using a mobile app, and using the [Bluetooth](/bluetooth/) communications interface from your mobile phone.
 
 ### micro:bit Low Level (C/C++) Software Stack
 
