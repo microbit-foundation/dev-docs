@@ -21,15 +21,11 @@ The Python editor is based upon the [Ace editor](http://ace.c9.io) and includes 
 
 The upstream source code for the Python Editor can be found at [github.com/bbcmicrobit/PythonEditor](https://github.com/bbcmicrobit/PythonEditor)
 
-The micro:bit target depends a closed source versioning repository that facilitates releases at `/v/`, for example the beta editor https://python.microbit.org/v/beta and previous releases.
+The micro:bit target depends a closed source versioning repository that facilitates releases at `/v/`, for example the beta editor [https://python.microbit.org/v/beta](https://python.microbit.org/v/beta) and previous releases.
 
 ### Offline
 
 It is possible to use the Python Editor offline to generate, upload and download .hex or .py files. However, refreshing the browser resets the editor.
-
-### Mu
-
-[Mu](http://codewith.mu/) is a third party Python editor, that provides a downloadable, offline coding experience for the micro:bit and includes features such as datalogging and code debugging.
 
 ### Documentation
 
@@ -38,7 +34,6 @@ It is possible to use the Python Editor offline to generate, upload and download
 - [Filesystem](https://github.com/bbcmicrobit/PythonEditor/blob/master/docs/filesystem.md)
 - [Translation strategy](https://github.com/bbcmicrobit/PythonEditor/blob/master/docs/translations.md)
 - [Embedding the editor](https://github.com/bbcmicrobit/PythonEditor/blob/master/docs/embedEditor.md)
-- [MakeCode Technical Docs](https://makecode.com/docs) for general development
 
 ### Community
 
