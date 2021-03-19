@@ -29,7 +29,7 @@ If you're looking to make something of your own based on the micro:bit, you migh
 
 ## V2 pinmap
 
-Below is the pinmap and allocation of the nRF52833, more information is available on the micro:bit V2 [schematic](https://github.com/microbit-foundation/microbit-v2-hardware/blob/main/V2/MicroBit_V2.0.0_S_schematic.PDF)
+Below is the pinmap and allocation of the nRF52833, more information is available on the micro:bit  <span class="v2">V2</span> [schematic](https://github.com/microbit-foundation/microbit-v2-hardware/blob/main/V2/MicroBit_V2.0.0_S_schematic.PDF)
 
 | GPIO on nRF52833 | Allocation          | KL27 Landing                             | Edge Connector name |
 | ---------------- | ------------------- | ---------------------------------------- | ------------------- |
