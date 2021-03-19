@@ -17,7 +17,7 @@ This page discusses the micro:bit schematic and Bill of Materials [BOM](https://
 
 The micro:bit V1.3 and V1.5 schematic is available from the BBC's [micro:bit hardware repository](https://github.com/bbcmicrobit/hardware).
 
-The micro:bit V2 schematic is available from the Micro:bit Educational Foundation [microbit-v2-hardware repository](https://github.com/microbit-foundation/microbit-v2-hardware).
+The micro:bit  <span class="v2">V2</span> schematic is available from the Micro:bit Educational Foundation [microbit-v2-hardware repository](https://github.com/microbit-foundation/microbit-v2-hardware).
 
 If you're looking to make something of your own based on the micro:bit, you might prefer to use our ['Reference Design'](/hardware/reference-design/) which is based on a radio module and has space on the layout for you to add your own components.
 
