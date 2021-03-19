@@ -13,9 +13,11 @@ review-with: jonnya
 
 ## Overview
 
-This page discusses the micro:bit schematic and Bill of Materials (BOM), which shows the electrical connections of the micro:bit and the components used in it.
+This page discusses the micro:bit schematic and Bill of Materials [BOM](https://github.com/microbit-foundation/microbit-v2-hardware/blob/main/V2/Bill.of.Materials-BBC-microbit_V2.0.0.csv), which shows the electrical connections of the micro:bit and the components used in it.
 
-The schematic is available from the BBC's [micro:bit hardware repository](https://github.com/bbcmicrobit/hardware)
+The micro:bit V1.3 and V1.5 schematic is available from the BBC's [micro:bit hardware repository](https://github.com/bbcmicrobit/hardware).
+
+The micro:bit V2 schematic is available from the Micro:bit Educational Foundation [microbit-v2-hardware repository](https://github.com/microbit-foundation/microbit-v2-hardware).
 
 If you're looking to make something of your own based on the micro:bit, you might prefer to use our ['Reference Design'](/hardware/reference-design/) which is based on a radio module and has space on the layout for you to add your own components.
 
@@ -23,11 +25,11 @@ If you're looking to make something of your own based on the micro:bit, you migh
 
 - [V1.3](https://github.com/bbcmicrobit/hardware/blob/master/V1.3B/SCH_BBC-Microbit_V1.3B.pdf)
 - [V1.5](https://github.com/bbcmicrobit/hardware/blob/master/V1.5/SCH_BBC-Microbit_V1.5.PDF)
-- [V2 TBC](#)
+- [V2](https://github.com/microbit-foundation/microbit-v2-hardware/blob/main/V2/MicroBit_V2.0.0_S_schematic.PDF)
 
 ## V2 pinmap
 
-Whilst we work on the publication of the schematic for the latest revision, here is the pinmap and allocation of the nRF52833
+Below is the pinmap and allocation of the nRF52833, more information is available on the micro:bit V2 [schematic](https://github.com/microbit-foundation/microbit-v2-hardware/blob/main/V2/MicroBit_V2.0.0_S_schematic.PDF)
 
 | GPIO on nRF52833 | Allocation          | KL27 Landing                             | Edge Connector name |
 | ---------------- | ------------------- | ---------------------------------------- | ------------------- |
