@@ -15,7 +15,7 @@ review-with: jonnya
 
 This page discusses the micro:bit schematic and Bill of Materials [BOM](https://github.com/microbit-foundation/microbit-v2-hardware/blob/main/V2/Bill.of.Materials-BBC-microbit_V2.0.0.csv), which shows the electrical connections of the micro:bit and the components used in it.
 
-The micro:bit V1.3 and V1.5 schematic is available from the BBC's [micro:bit hardware repository](https://github.com/bbcmicrobit/hardware).
+The micro:bit <span class="v1">V1.3</span> and  <span class="v1">V1.5</span> schematic is available from the BBC's [micro:bit hardware repository](https://github.com/bbcmicrobit/hardware).
 
 The micro:bit  <span class="v2">V2</span> schematic is available from the Micro:bit Educational Foundation [microbit-v2-hardware repository](https://github.com/microbit-foundation/microbit-v2-hardware).
 
