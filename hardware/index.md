@@ -251,7 +251,6 @@ The interface processor can be used with special host tools to debug code that i
 | ---           | ---
 | Protocol      | CMSIS-DAP
 | Options       | JLink/OB (via different firmware)
-| More Info     | [Mbed debugging micro:bit](https://os.mbed.com/docs/mbed-os/v6.0/debug-test/debug-microbit.html)
 
 ### Mechanical
 
