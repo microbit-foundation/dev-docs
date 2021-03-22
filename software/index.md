@@ -85,7 +85,7 @@ Here's a non-exhaustive list of possible code editors for use with the micro:bit
 
 - [Kodu](https://www.kodugamelab.com/resources/#microbit)
 
-- [MATLAB & Simulink](https://uk.mathworks.com/academia/highschool/courseware/microbit.html)
+- [MATLAB & Simulink](https://uk.mathworks.com/academia/courseware/microbit.html)
 
 - [Mbed Online Compiler](https://os.mbed.com/platforms/Microbit/)
 
