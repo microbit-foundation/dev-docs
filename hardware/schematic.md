@@ -3,15 +3,17 @@ layout: page
 order:
 title: Schematics
 heading: Schematics
-description: micro:bit Circuit Schematics
+description: micro:bit Circuit Schematics, assembly and test point map
 permalink: /hardware/schematic/
 ref: hardware
 lang: en
-assigned-to: markw
-review-with: jonnya
 ---
 
 ## Overview
+{:notoc}
+
+* TOC
+{:toc}
 
 This page discusses the micro:bit schematic and Bill of Materials [BOM](https://github.com/microbit-foundation/microbit-v2-hardware/blob/main/V2/Bill.of.Materials-BBC-microbit_V2.0.0.csv), which shows the electrical connections of the micro:bit and the components used in it.
 
@@ -150,9 +152,13 @@ The specific dimensions of the board are:
 - button depth to board 4.55mm
 - <span class="v2">V2</span> speaker depth to board 3.00mm
 
+## Assembly Diagram
+
 The following image of the <span class="V2">V2</span> revision is taken from the [micro:bit V2 assembly diagram](/docs/hardware/assets/Microbit_V2_Assembly.pdf) provided by Avid.
 
 ![micro:bit assembly front](/docs/hardware/assets/microbit-v2-assembly-front.png)
+
+## Test point map
 
 The rear view of the device has been adapted to highlight the test points and describe their purpose.
 
