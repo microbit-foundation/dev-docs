@@ -28,7 +28,7 @@ By making affordable, developer-quality hardware and creating elegant and simple
 
 The many voices that have come together to create the micro:bit experience are key to its success in attracting a diverse range of people to engage with and embrace technology.
 
-It’s in that same spirit of partnership and collaboration that we’ve worked to evolve the device and create the [latest micro:bit](/latest-revision/), laying the foundations for years more digital exploration while maintaining the stability and reliability that have helped people around the world depend on the device as a core part of their teaching.
+It’s in that same spirit of partnership and collaboration that we’ve worked to evolve the device and create the [latest micro:bit](https://support.microbit.org/support/solutions/articles/19000119052-details-of-micro-bit-v2), laying the foundations for years more digital exploration while maintaining the stability and reliability that have helped people around the world depend on the device as a core part of their teaching.
 
 At the Micro:bit Educational Foundation we are working with Lancaster University, Microsoft, NXP, and MicroPython to ensure that the core micro:bit experience is as creative, compelling and consistent as it’s ever been. But launching a new micro:bit wouldn't be complete without the input of the incredible community of editor authors, accessory providers, content authors and supporters of micro:bit.
 
@@ -37,15 +37,15 @@ At the Micro:bit Educational Foundation we are working with Lancaster University
 ![A wall of micro:bit accessories](/docs/latest-revision/assets/blog/accessory-wall-bett.jpg){: width="600"}
 *The wall of accessories displayed at BETT*
 
-We recognise and support the huge contribution the wider micro:bit ecosystem makes to our community, and so we are making available all [key technical information about the new micro:bit](/latest-revision), and open source tools to make it easy to support in advance of the device being available to users.
+We recognise and support the huge contribution the wider micro:bit ecosystem makes to our community, and so we are making available all [key technical information about the new micro:bit](https://support.microbit.org/support/solutions/articles/19000119052-details-of-micro-bit-v2), and open source tools to make it easy to support in advance of the device being available to users.
 
 We’ve compiled all this information on an updated version of tech.microbit.org, including details of how to get advanced access to a device if you need one to test or develop something.
 
-- [All the technical details about the latest micro:bit and how to use it](/latest-revision)
+- [All the technical details about the latest micro:bit and how to use it](https://support.microbit.org/support/solutions/articles/19000119052-details-of-micro-bit-v2)
 - Advice on supporting the device for:
-    - [accessory makers](/latest-revision/accessories/) (including information on how [MakeCode Arcade will be supported](/latest-revision/accessories/#makecode-arcade))
-    - [content authors](/latest-revision/content/)
-    - [editor developers](/latest-revision/editors/)
+    - [accessory makers](https://support.microbit.org/support/solutions/articles/19000119053-guidance-on-using-the-latest-micro-bit-revision-for-accessory-makers/) (including information on how [MakeCode Arcade will be supported](https://support.microbit.org/support/solutions/articles/19000119053-guidance-on-using-the-latest-micro-bit-revision-for-accessory-makers/#makecode-arcade)
+    - [content authors](https://support.microbit.org/support/solutions/articles/19000119057-guidance-on-using-the-latest-micro-bit-for-content-producers)
+    - [editor developers](https://support.microbit.org/support/solutions/articles/19000119055-guidance-on-the-latest-micro-bit-revision-for-editor-developers/)
 
 ## Creating code for the latest micro:bit
 
