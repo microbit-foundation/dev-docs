@@ -62,7 +62,7 @@ This table shows various data about each of the pins on the micro:bit edge conne
 |          |         | RING1         |                  | P1  | }                                                 |        |                |
 |          | 38      | GPIO1         | P0.10/NFC2       | P8  | **GPIO**, PWM, UART (NFC2)                        | I      | i12Kd          |
 |          | 28      | GPIO2         | P0.09/NFC1       | P9  | (GPIO), (PWM), (UART), (NFC1)                     | O      | --             |
-|          | 23      | COL5R         | P0.30/AIN4       | P10 | (GPIO), **LEDCOL(5)**, (ANALOG), (PWM), (UART)    | O      | --             |
+|          | 23      | COL5R         | P0.30/AIN6       | P10 | (GPIO), **LEDCOL(5)**, (ANALOG), (PWM), (UART)    | O      | --             |
 |          | 9       | BTN_B         | P0.23            | P11 | (GPIO), **BUTTON(B)**, (PWM), (UART)              | I      | e10Ku, i12Kd?  |
 |          | 40      | GPIO4         | P0.12/TRACEDATA1 | P12 | (GPIO),**ACCESSIBILITY**, (PWM), (UART)           | I      | i12Kd          |
 |          |         | RING2         |                  | P2  | }                                                 |        |                |
