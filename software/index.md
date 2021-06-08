@@ -101,6 +101,7 @@ Here's a non-exhaustive list of possible code editors for use with the micro:bit
 
 - [Thonny (You will need to change the interpreter in Tools > Options > Interpreter)](https://thonny.org/)
 
+- [Vittascience (with blocks & python programming, simulator and many electronic modules)](https://vittascience.com/microbit/)
 
 ## From coding environment to micro:bit
 
