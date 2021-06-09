@@ -41,7 +41,7 @@ The 'high level' programming languages for the micro:bit break down into two bro
 
 In order to ensure that the micro:bit online code editors could scale to support millions of deployed boards, Microsoft built [MakeCode](https://makecode.microbit.org), an in-browser-compiler written in TypeScript.
 
-This process further explained in the [MakeCode software page](/software/makecode) page, and the history of development in [TouchDevelop in 208 bits](https://www.touchdevelop.com/docs/touch-develop-in-208-bits).
+This process further explained in the [MakeCode software page](/software/makecode) page.
 
 In-browser-compilers do not compile the whole of the software stack, just the user's script. Function calls and low level functions are handled by the micro:bit runtime. A pre-compiled runtime image is included in the browser and concatenated with the compiled script before being presented for download.
 
