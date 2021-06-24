@@ -36,7 +36,7 @@ If you make an accessory for the micro:bit, please help us by editing the table 
 
 | accessory name | organisation | I2C address(es) used |
 |----------------|--------------|-----------------------|
-| [EDU:BIT](https://www.cytron.io/p-edubit)| Cytron Technologies | 0x08 (0x10/0x11) |
+| [EDU:BIT](https://www.cytron.io/p-edubit-training-and-project-kit-for-microbit)| Cytron Technologies | 0x08 (0x10/0x11) |
 
 ### Acceptable capacitance for I2C accessories
 
