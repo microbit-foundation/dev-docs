@@ -252,7 +252,7 @@ We have some [nice 2D and 3D CAD drawings and models of the micro:bit](https://g
 
 - [Nordic NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
 
-- [Freescale KL26 reference manual](http://cache.freescale.com/files/microcontrollers/doc/ref_manual/KL26P121M48SF4RM.pdf)
+- [Freescale KL26 reference manual (behind login)](https://www.nxp.com/webapp/Download?colCode=KL26P121M48SF4RM)
 
 - [Freescale KL26 datasheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
 
