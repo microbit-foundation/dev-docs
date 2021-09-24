@@ -199,7 +199,7 @@ The interface chip handles the USB connection, and is used for flashing new code
 | RAM           | 16KB
 | Speed         | [16Mhz (crystal)](https://github.com/Armmbed/DAPLink/blob/f499eb6ec4a847a2b78831fe1acc856fd8eb2f28/source/hic_hal/freescale/kl26z/MKL26Z4/system_MKL26Z4.c#L69) 48MHz (max)
 | Debug capabilities | SWD
-| More Info | [DAPLink](../../software/daplink-interface/), [KL26 reference manual](https://www.nxp.com/docs/en/reference-manual/KL26P121M48SF4RM.pdf) [KL26Z datasheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
+| More Info | [DAPLink](../../software/daplink-interface/), [KL26 reference manual (behind login)](https://www.nxp.com/webapp/Download?colCode=KL26P121M48SF4RM) [KL26Z datasheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
 
 ### USB Communications
 
