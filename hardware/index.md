@@ -227,7 +227,7 @@ The interface chip handles the USB connection, and is used for flashing new code
 | RAM           | 16KB
 | Speed         | 48MHz
 | Debug capabilities | SWD
-| More Info | [DAPLink](/software/daplink-interface/), [KL27 reference manual](https://www.nxp.com/docs/en/reference-manual/KL27P64M48SF6RM.pdf) [KL27 datasheet](https://www.nxp.com/docs/en/data-sheet/KL27P64M48SF6.pdf)
+| More Info | [DAPLink](/software/daplink-interface/), [KL27 reference manual (behind login)](https://www.nxp.com/webapp/Download?colCode=KL27P64M48SF6RM) [KL27 datasheet](https://www.nxp.com/docs/en/data-sheet/KL27P64M48SF6.pdf)
 
 ### USB communications
 
