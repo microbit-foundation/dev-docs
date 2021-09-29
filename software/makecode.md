@@ -44,10 +44,6 @@ MakeCode supports two-way conversion of code, so you can write code as blocks an
 
 MakeCode also allows you to [write your own block types](https://makecode.com/extensions) and [publish them as Extensions](https://makecode.microbit.org/extensions).
 
-## App
-
-An app is available for [Windows 10](https://www.microsoft.com/en-gb/p/makecode-for-micro-bit/9pjc7sv48lcx?rtc=1&activetab=pivot:overviewtab)
-
 ## Offline
 
  An [offline version of the MakeCode editor](https://makecode.microbit.org/offline) is available for use in situations where there is limited or no internet connectivity.
