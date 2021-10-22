@@ -266,7 +266,7 @@ We have some [nice 2D and 3D CAD drawings and models of the micro:bit](https://g
 
 - [Safety Advice](https://www.microbit.org/safety-advice)
 
-- [I2C specification](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)
+- [I2C specification (behind login)](https://www.nxp.com/webapp/Download?colCode=UM10204&location=null)
 
 - [SPI 'specification'](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
 
