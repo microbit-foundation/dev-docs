@@ -20,7 +20,7 @@ The micro:bit processor has an on-board [Bluetooth](https://www.bluetooth.com/sp
 
 Using Bluetooth, you can connect to other devices and send and receive data from and to the micro:bit.
 
-Bluetooth is [distinct from the micro:bit to micro:bit radio feature](https://support.microbit.org/support/solutions/articles/19000083637-using-the-micro-bit-wirelessly-),which is a [proprietary protocol from Nordic and Lancaster University](https://lancaster-university.github.io/microbit-docs/ubit/radio/).
+Bluetooth is [distinct from the micro:bit to micro:bit radio feature](https://support.microbit.org/support/solutions/articles/19000083637-using-the-micro-bit-wirelessly-), which is a [proprietary protocol from Nordic and Lancaster University](https://lancaster-university.github.io/microbit-docs/ubit/radio/).
 
 ## BBC micro:bit Bluetooth Profile
 
@@ -32,7 +32,7 @@ A pre-compiled hex file is available to download for <span class="v2">V2</span> 
 
 [Bluetooth all services CODAL](/docs/bluetooth/assets/BLE_All_Services_CODAL_0-0-24-ABDLIMTU-P.hex){: .btn.sm-btn download}
 
-The source for this can be found in the [microbit-v2-samples]https://github.com/lancaster-university/microbit-v2-samples/tree/master/source/samples repository.
+The source for this can be found in the [microbit-v2-samples](https://github.com/lancaster-university/microbit-v2-samples/tree/master/source/samples) repository.
 
 ### DAL
 
@@ -62,7 +62,7 @@ When devices are connected, they use the other channels in a particular sequence
 
 Data transfer rates will only be a few hundred Kilobytes per second at best, and throughput depends on how your application uses the Bluetooth features. Throughput depends on the proportion of system protocol overheads to application data. Lots of small packets containing - for example - temperature data would have a lower data transfer rate than using the UART service.
 
-There are some useful [advanced configuration options in the micro:bit runtime code](https://lancaster-university.github.io/microbit-docs/advanced/#compile-time-options-with-yotta)
+There are some useful [advanced configuration options in the micro:bit runtime code](https://lancaster-university.github.io/microbit-docs/advanced/#compile-time-options-with-yotta).
 
 ## Challenge
 
@@ -92,6 +92,6 @@ The processor also has several non-bluetooth, proprietary modes of operation upo
 ## Apps
 
 - [Android App](https://play.google.com/store/apps/details?id=com.samsung.microbit) facilitates [pairing and flashing programs to the micro:bit](https://support.microbit.org/en/support/solutions/articles/19000051025-pairing-and-flashing-code-via-bluetooth)
-- [iOS App](https://apps.apple.com/gb/app/micro-bit/id1092687276)faciliates [pairing and flashing programs to the micro:bit](https://support.microbit.org/en/support/solutions/articles/19000051025-pairing-and-flashing-code-via-bluetooth)
+- [iOS App](https://apps.apple.com/gb/app/micro-bit/id1092687276) faciliates [pairing and flashing programs to the micro:bit](https://support.microbit.org/en/support/solutions/articles/19000051025-pairing-and-flashing-code-via-bluetooth)
 - [Swift Playgrounds](https://github.com/microbit-foundation/microbit-swift-playgrounds) contains a Playground Book available in the Swift app and a micro:bit Swift API to develop further resources
 - [Scratch](https://scratch.mit.edu/microbit) supports using a range of micro:bit Bluetooth services via the Scratch Link software and a custom built pairing .hex
