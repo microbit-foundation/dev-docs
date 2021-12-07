@@ -61,7 +61,7 @@ This table shows the device revision and which DAPLink Bootloader and interface 
 | 1.3            | 0234       | 0234      | [0234](/docs/software/assets/DAPLink-factory-release/0234_kl26z_microbit_0x8000.hex){: .btn.sm-btn .download}
 | 1.3b           | 0234       | 0241      | [0241](/docs/software/assets/DAPLink-factory-release/0241_kl26z_microbit_0x8000.hex){: .btn.sm-btn .download}
 | 1.5            | 0243       | 0249      | [0249](/docs/software/assets/DAPLink-factory-release/0249_kl26z_microbit_0x8000.hex){: .btn.sm-btn .download}
-| 2.0            | 0255       | 0255      | [0255](/docs/software/assets/DAPLink-factory-release/0255_kl27z_microbit_0x8000.hex){: .btn.sm-btn download}
+| 2.0            | 0255       | 0255      | [0255](/docs/software/assets/DAPLink-factory-release/0255_kl27z_microbit_0x8000.hex){: .btn.sm-btn .download}
 
 This table shows the latest DAPLink release for each board version that has been fully tested by the Foundation:
 
