@@ -54,21 +54,23 @@ The DAPLink software and interface chip are part of the [Arm Mbed HDK](https://o
 
 The micro:bit currently ships with DAPLink bootloader at version 0255 and interface at version 0255.
 
-This table shows the device revision and which DAPLink Bootloader and interface it shipped with:
+This table shows the device revision and which DAPLink Bootloader and Interface it shipped with:
 
 | Board revision | Bootloader | Interface | Download
 | -------------- | ---------- | --------- | --------
 | 1.3            | 0234       | 0234      | [0234](/docs/software/assets/DAPLink-factory-release/0234_kl26z_microbit_0x8000.hex){: .btn.sm-btn .download}
 | 1.3b           | 0234       | 0241      | [0241](/docs/software/assets/DAPLink-factory-release/0241_kl26z_microbit_0x8000.hex){: .btn.sm-btn .download}
 | 1.5            | 0243       | 0249      | [0249](/docs/software/assets/DAPLink-factory-release/0249_kl26z_microbit_0x8000.hex){: .btn.sm-btn .download}
-| 2.0            | 0255       | 0255      | [0255](/docs/software/assets/DAPLink-factory-release/0255_kl27z_microbit_0x8000.hex){: .btn.sm-btn .download}
+| 2.00            | 0255       | 0255      | [0255](/docs/software/assets/DAPLink-factory-release/0255_kl27z_microbit_0x8000.hex){: .btn.sm-btn .download}
+| 2.20            | 0256       | 0256      | [0256](/docs/software/assets/DAPLink-factory-release/nrf52820_microbit_if_crc_5dd23001a7_gcc.hex){: .btn.sm-btn .download}
 
 This table shows the latest DAPLink release for each board version that has been fully tested by the Foundation:
 
 | Board revision | Bootloader | Interface | Download
 | -------------- | ---------- | --------- | --------
 | 1.*            | 02**       | 0253      | [0253](/docs/software/assets/DAPLink-factory-release/0253_kl26z_microbit_0x8000.hex){: .btn.sm-btn .download}
-| 2.*            | 0255       | 0255      | [0255](/docs/software/assets/DAPLink-factory-release/0255_kl27z_microbit_0x8000.hex){: .btn.sm-btn .download}
+| 2.00            | 0255       | 0255      | [0255](/docs/software/assets/DAPLink-factory-release/0255_kl27z_microbit_0x8000.hex){: .btn.sm-btn .download}
+| 2.20            | 0256       | 0256      | [0256](/docs/software/assets/DAPLink-factory-release/nrf52820_microbit_if_crc_5dd23001a7_gcc.hex){: .btn.sm-btn .download}
 
 
 ### The DAPLink boot loader
