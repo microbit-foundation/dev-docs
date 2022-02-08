@@ -268,7 +268,6 @@ Can you help to find or design a better connection solution to the micro:bit edg
 | Supplier | Product
 | -------- | -------
 |4UCon| [4UCon connector](https://cdn.shopify.com/s/files/1/2311/3697/files/1944_Drawing.pdf?3325)
-|[Cyclonn](http://www.dgyuliang.net)| [Cylconn 90 degree connector](http://www.dgyuliang.net/d/file/Produtcs/Customized%20Connector/MICRO%20BIT%20Connector/84a0fe06b4296135d64139b5b4297ef3.pdf), [Cylconn 180 degree connector](http://www.dgyuliang.net/d/file/Produtcs/Customized%20Connector/MICRO%20BIT%20Connector/0d43030af84ade6fc3f00e242079c055.pdf)
 
 ## Further information
 
