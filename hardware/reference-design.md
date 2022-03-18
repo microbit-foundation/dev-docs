@@ -103,9 +103,9 @@ The reference design uses the same ICs as the micro:bit itself, so to avoid dupl
 
 The reference design is provided in formats that can be loaded and used in:
 
-- [Altium](http://www.altium.com/)
+- [Altium](https://www.altium.com/)
 - [Eagle Express/Maker/Educational](https://www.autodesk.com/products/eagle/overview)
-- [KiCad EDA](http://kicad-pcb.org/)
+- [KiCad EDA](https://www.kicad.org/)
 
 Currently, the design is 'Altium First' and we would appreciate any support or expertise around improving the conversion to KiCad and Eagle formats.
 
