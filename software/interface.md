@@ -63,7 +63,7 @@ This table shows the device revision and which DAPLink Bootloader and Interface 
 | 1.5            | 0243       | 0249      | [0249](/docs/software/assets/DAPLink-factory-release/0249_kl26z_microbit_0x8000.hex){: .btn.sm-btn .download}
 | 2.00           | 0255       | 0255      | [0255](/docs/software/assets/DAPLink-factory-release/0255_kl27z_microbit_0x8000.hex){: .btn.sm-btn .download}
 | 2.20           | 0256       | 0256      | [0256](/docs/software/assets/DAPLink-factory-release/0256_nrf52820_microbit_if_crc_5dd23001a7_gcc.hex){: .btn.sm-btn .download}
-| 2.21           | 0257       | 0257      | [0257](/docs/software/assets/DAPLink-factory-release/0257_nrf52820_microbit_if_crc_c782a5ba90_gcc){: .btn.sm-btn .download}
+| 2.21           | 0257       | 0257      | [0257](/docs/software/assets/DAPLink-factory-release/0257_nrf52820_microbit_if_crc_c782a5ba90_gcc.hex){: .btn.sm-btn .download}
 
 This table shows the latest DAPLink release for each board version that has been fully tested by the Foundation:
 
@@ -71,7 +71,7 @@ This table shows the latest DAPLink release for each board version that has been
 | -------------- | ---------- | --------- | --------
 | 1.*            | 02**       | 0253      | [0253](/docs/software/assets/DAPLink-factory-release/0253_kl26z_microbit_0x8000.hex){: .btn.sm-btn .download}
 | 2.00           | 0255       | 0255      | [0255](/docs/software/assets/DAPLink-factory-release/0255_kl27z_microbit_0x8000.hex){: .btn.sm-btn .download}
-| 2.2*           | 0257       | 0257      | [0257](/docs/software/assets/DAPLink-factory-release/0257_nrf52820_microbit_if_crc_c782a5ba90_gcc){: .btn.sm-btn .download}
+| 2.2*           | 0257       | 0257      | [0257](/docs/software/assets/DAPLink-factory-release/0257_nrf52820_microbit_if_crc_c782a5ba90_gcc.hex){: .btn.sm-btn .download}
 
 
 ### The DAPLink boot loader
