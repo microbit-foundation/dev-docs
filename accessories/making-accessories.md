@@ -12,6 +12,7 @@ A [list of available accessories](https://microbit.org/buy/accessories/) is main
 
 [submit an accessory](https://form.jotformeu.com/83453273451355){: .btn.sm-btn}
 
+
 ## Using the Edge Connector
 
 The micro:bit [card edge connector](/hardware/edgeconnector), commonly referred to as the 'edge connector' or the 'pins', is compatible with a standard 1.27mm, 2x40 edge connector socket.
