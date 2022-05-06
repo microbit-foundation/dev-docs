@@ -30,9 +30,9 @@ An interface processor is connected to the application processor and manages com
 
 Two key pieces of information to help understand the internals of the micro:bit are:
 
-- The [schematics](./schematic), which shows the detailed component data and connectivity of the device.
+- The [schematics](../schematic), which shows the detailed component data and connectivity of the device.
 
-- The [reference design](./reference-design), which is a complete module design of a compatible micro:bit, and is designed to be a starting point for anyone interested in understanding the micro:bit or designing their own variant.
+- The [reference design](../reference-design), which is a complete module design of a compatible micro:bit, and is designed to be a starting point for anyone interested in understanding the micro:bit or designing their own variant.
 
 ## Hardware Description
 
@@ -51,7 +51,7 @@ There is an on-board 2.4GHz radio peripheral used to provide Bluetooth and custo
 | RAM           | 128KB
 | Speed         | 64MHz
 | Debug         | [SWD](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fps_nrf52833%2Fdif.html), [J-Link/OB](https://www.segger.com/products/debug-probes/j-link/models/j-link-lite/j-link-lite-cortex-m/)
-| More Info     | [Software](../software), [NRF52 datasheet](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52833.html&cp=3_1)
+| More Info     | [Software](../../software), [NRF52 datasheet](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52833.html&cp=3_1)
 
 ### Bluetooth Wireless Communication
 
@@ -68,7 +68,7 @@ This allows the micro:bit to communicate with a wide range of Bluetooth devices,
 | Role          | [GAP Peripheral & GAP Central](https://bluetooth-developer.blogspot.com/2016/07/microbit-and-bluetooth-roles.html)
 | Congestion avoidance | Adaptive Frequency Hopping
 | Profiles      | [BBC micro:bit profile](https://lancaster-university.github.io/microbit-docs/ble/profile/)
-| More Info     | [Bluetooth](../bluetooth)
+| More Info     | [Bluetooth](../../bluetooth)
 
 ### Low level radio communications
 
@@ -213,7 +213,7 @@ Power to the micro:bit may be provided via 5V on the USB connector, or via a 3V 
 | On-board Peripherals budget | 90mA
 | Battery connector | JST S2B-PH-SM4-TB
 | Max current provided via edge connector | 190mA
-| More Info | [Power supply](./powersupply)
+| More Info | [Power supply](../powersupply)
 
 ### Interface
 
