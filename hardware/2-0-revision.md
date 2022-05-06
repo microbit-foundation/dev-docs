@@ -16,11 +16,11 @@ lang: en
 * TOC
 {:toc}
 
-![Board overview 2.2](/docs/hardware/assets/microbit-overview-2-2.png)
+![Board overview 2.0](/docs/hardware/assets/microbit-overview-2.png)
 
 ## Hardware block diagram
 
-![2.2 block](/docs/hardware/assets/v2-2-block.svg)
+![2.0 block](/docs/hardware/assets/v2-block.svg)
 
 ## Getting Started With the micro:bit Hardware
 
@@ -219,27 +219,15 @@ Power to the micro:bit may be provided via 5V on the USB connector, or via a 3V 
 
 The interface chip handles the USB connection, and is used for flashing new code to the micro:bit, sending and receiving serial data back and forth to your main computer.
 
-The V2.2X devices use two interface chip variants due to availability of the parts; 400K devices were built using nRF52833-QDAA and further devices are built using nRF52820-QDAA.
-
 | item          | details
 | ---           | ---
-| Model         |[nRF52833-QDAA](https://www.nordicsemi.com/products/nrf52833)
-| Core variant: | [64 MHz Arm® Cortex®-M4F](https://developer.arm.com/Processors/Cortex-M4)
-| Flash ROM     | 512KB
-| RAM           | 128KB
-| Speed         | 64MHz
-| Debug capabilities | [SWD](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52833.html)
-| More Info | [Software](/software/), [nRF52833 datasheet](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52833.html&cp=4_1)
-
-| item          | details
-| ---           | ---
-| Model         |[nRF52820-QDAA](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52820.html)
-| Core variant: | [64 MHz Arm® Cortex®-M4F](https://developer.arm.com/Processors/Cortex-M4)
-| Flash ROM     | 256KB
-| RAM           | 32KB
-| Speed         | 64MHz
-| Debug capabilities | [SWD](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52820.html)
-| More Info | [Software](/software/), [nRF52820 datasheet](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52820.html)
+| Model         |[MKL27Z256VFM4](https://www.nxp.com/part/MKL27Z256VFM4#/)
+| Core variant: | [Arm Cortex-M0+](https://www.arm.com/products/processors/cortex-m/cortex-m0plus.php)
+| Flash ROM     | 256KB (128kB reserved for future use as storage)
+| RAM           | 16KB
+| Speed         | 48MHz
+| Debug capabilities | SWD
+| More Info | [DAPLink](/software/daplink-interface/), [KL27 reference manual (behind login)](https://www.nxp.com/webapp/Download?colCode=KL27P64M48SF6RM) [KL27 datasheet](https://www.nxp.com/docs/en/data-sheet/KL27P64M48SF6.pdf)
 
 ### USB communications
 
