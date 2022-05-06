@@ -1,10 +1,10 @@
 ---
 layout: hardware
 order:
-title: Hardware
+title: 2.0 micro:bit revision
 heading: Hardware
-description: Details of the latest micro:bit hardware revision
-permalink: /hardware/
+description: Details of the 2.0 micro:bit revision
+permalink: /hardware/2-0-revision/
 ref: hardware
 lang: en
 ---
