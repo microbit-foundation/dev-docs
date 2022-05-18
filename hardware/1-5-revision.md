@@ -212,16 +212,19 @@ The micro:bit has an on-board USB communications stack, that is built into the f
 | Speed         | 12Mbit/sec
 | USB classes supported | [Mass Storage Class (MSC)](https://en.wikipedia.org/wiki/USB_mass_storage_device_class)
 |    | [Communications Device Class (CDC)](https://en.wikipedia.org/wiki/USB_communications_device_class)
+|    | [CMSIS-DAP HID & WinUSB](https://arm-software.github.io/CMSIS_5/DAP/html/index.html)
+|    | [WebUSB CMSIS-DAP HID](https://wicg.github.io/webusb/)
 | More Info | [DAPLink](../../software/daplink-interface/)
 
 ### Debugging
 
-The interface processor can be used with special host tools to debug code that is running on the application processor. It connects to the application processor via 4 signal wires. The KL26 interface processor code can also be debugged via its integral SWD software debug interface, for example to load initial bootloader code into this processor at manufacturing time, or to recover a lost bootloader.
+The interface processor can be used with special host tools to debug code that is running on the application processor. It connects to the application processor via  2-pin Serial Wire Debug (SWD). The KL26 interface processor code can also be debugged via its internal SWD software debug interface, for example to load initial bootloader code into this processor at manufacturing time, or to recover a lost bootloader.
 
 | item          | details
 | ---           | ---
-| Protocol      | CMSIS-DAP
-| Options       | JLink/OB (via different firmware)
+| Protocol      | Serial Wire Debug (SWD)
+| Options       | DAPLink (CMSIS-DAP)
+|               | JLink/OB (via different firmware)
 | More Info     | [Mbed debugging micro:bit](https://docs.mbed.com/docs/mbed-os-handbook/en/latest/debugging/debugging_microbit/)
 
 ### Mechanical

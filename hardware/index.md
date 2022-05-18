@@ -24,7 +24,7 @@ lang: en
 
 ## Getting Started With the micro:bit Hardware
 
-The micro:bit is a Single Board Computer (SBC) that contains an application processor with a variety of on-chip peripherals.Other peripherals are connected to this chip.
+The micro:bit is a Single Board Computer (SBC) that contains an application processor with a variety of on-chip peripherals. Other peripherals are connected to this chip.
 
 An interface processor is connected to the application processor and manages communications via the USB interface, including the drag-and-drop code flashing process. The interface processor does not connect to any of the micro:bit peripherals.
 
@@ -91,7 +91,7 @@ Additionally, the micro:bit runtime software adds a 'group code' to each data pa
 
 ### Buttons
 
-The two buttons on the front of the micro:bit, and the one button on the back, are tact momentary push-to-make buttons. The back button is connected to the KL27 interface processor and to the NRF52 processor for system reset purposes. This means that the application will reset regardless of if it is powered from USB or from battery.
+The two buttons on the front of the micro:bit, and the one button on the back, are tact momentary push-to-make buttons. The back button is connected to the interface processor and to the NRF52 processor for system reset purposes. This means that the application will reset regardless of if it is powered from USB or from battery.
 
 Front buttons A and B can be programmed in the user application for any purpose.
 A and B are debounced by software, which also includes short press, long press, and 'both A+B' press detection. Buttons operate in a typical inverted electrical mode, where a pull-up resistor ensures a logical '1' when the button is released, and a logical '0' when the button is pressed.
@@ -219,11 +219,13 @@ Power to the micro:bit may be provided via 5V on the USB connector, or via a 3V 
 
 The interface chip handles the USB connection, and is used for flashing new code to the micro:bit, sending and receiving serial data back and forth to your main computer.
 
-The V2.2X devices use two interface chip variants due to availability of the parts; 400K devices were built using nRF52833-QDAA and further devices are built using nRF52820-QDAA.
+Due to parts availiability there are two variants of the V2.2X devices with a different interface chip; a limited run of devices were built using the nRF52833-QDAA and further devices are built using the nRF52820-QDAA.
+
+As the two chip variants are of the same family, the same DAPLink firmware image runs on both chips and it provides the exact same functionality.
 
 | item          | details
 | ---           | ---
-| Model         |[nRF52833-QDAA](https://www.nordicsemi.com/products/nrf52833)
+| Model         | [nRF52833-QDAA](https://www.nordicsemi.com/products/nrf52833)
 | Core variant: | [64 MHz Arm® Cortex®-M4F](https://developer.arm.com/Processors/Cortex-M4)
 | Flash ROM     | 512KB
 | RAM           | 128KB
@@ -233,8 +235,8 @@ The V2.2X devices use two interface chip variants due to availability of the par
 
 | item          | details
 | ---           | ---
-| Model         |[nRF52820-QDAA](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52820.html)
-| Core variant: | [64 MHz Arm® Cortex®-M4F](https://developer.arm.com/Processors/Cortex-M4)
+| Model         | [nRF52820-QDAA](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52820.html)
+| Core variant: | [64 MHz Arm® Cortex®-M4](https://developer.arm.com/Processors/Cortex-M4)
 | Flash ROM     | 256KB
 | RAM           | 32KB
 | Speed         | 64MHz
@@ -244,7 +246,7 @@ The V2.2X devices use two interface chip variants due to availability of the par
 ### USB communications
 
 The micro:bit has an on-board USB communications stack, that is built into the firmware of the interface chip. This stack provides the ability to drag and drop files onto the
-MICROBIT drive in order to load code into the application processor. It also allows serial data to be streamed to and from the micro:bit application processor over USB to an external host computer, and supports the CMSIS-DAP protocol for host debugging of application programs.
+MICROBIT drive in order to load code into the application processor. It also allows serial data to be streamed to and from the micro:bit application processor over USB to an external host computer, and supports the CMSIS-DAP specification for host debugging of application programs.
 
 | item          | details
 | ---           | ---
@@ -253,16 +255,19 @@ MICROBIT drive in order to load code into the application processor. It also all
 | Speed         | 12Mbit/sec
 | USB classes supported | [Mass Storage Class (MSC)](https://en.wikipedia.org/wiki/USB_mass_storage_device_class)
 |    | [Communications Device Class (CDC)](https://en.wikipedia.org/wiki/USB_communications_device_class)
+|    | [CMSIS-DAP HID & WinUSB](https://arm-software.github.io/CMSIS_5/DAP/html/index.html)
+|    | [WebUSB CMSIS-DAP HID](https://wicg.github.io/webusb/)
 | More Info | [DAPLink](/software/daplink-interface/)
 
 ### Debugging
 
-The interface processor can be used with special host tools to debug code that is running on the application processor. It connects to the application processor via 4 signal wires. The KL27 interface processor code can also be debugged via it's integral SWD software debug interface, for example to load initial bootloader code into this processor at manufacturing time, or to recover a lost bootloader.
+The interface processor can be used with special host tools to debug code that is running on the application processor. It connects to the application processor via  2-pin Serial Wire Debug (SWD). The interface processor code can also be debugged via its internal SWD software debug interface, for example to load initial bootloader code into this processor at manufacturing time, or to recover a lost bootloader.
 
 | item          | details
 | ---           | ---
-| Protocol      | CMSIS-DAP
-| Options       | JLink/OB (via different firmware)
+| Protocol      | Serial Wire Debug (SWD)
+| Options       | DAPLink (CMSIS-DAP)
+|               | JLink/OB (via different firmware)
 
 ### Mechanical
 
