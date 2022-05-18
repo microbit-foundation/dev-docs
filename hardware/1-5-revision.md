@@ -218,7 +218,7 @@ The micro:bit has an on-board USB communications stack, that is built into the f
 
 ### Debugging
 
-The interface processor can be used with special host tools to debug code that is running on the application processor. It connects to the application processor via  2-pin Serial Wire Debug (SWD). The KL26 interface processor code can also be debugged via its integral SWD software debug interface, for example to load initial bootloader code into this processor at manufacturing time, or to recover a lost bootloader.
+The interface processor can be used with special host tools to debug code that is running on the application processor. It connects to the application processor via  2-pin Serial Wire Debug (SWD). The KL26 interface processor code can also be debugged via its internal SWD software debug interface, for example to load initial bootloader code into this processor at manufacturing time, or to recover a lost bootloader.
 
 | item          | details
 | ---           | ---
