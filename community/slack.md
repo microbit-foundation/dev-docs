@@ -13,12 +13,12 @@ The micro:bit community is spread across the world, building cool things with mi
 
 If you'd like to be part of the world-wide micro:bit developer community, here's how to get started:
 
-## Subscribe to the DAL, Editors and Devices newsletter
+## Subscribe to the Developer and ecosystem newsletter
 
-In addition to our regular [Micro:bit Educational Foundation newsletter](https://mailchi.mp/microbit/newsletter), our [DAL, Editors and Devices](https://microbit.us14.list-manage.com/subscribe?u=e1c30f24b90ff3d70275cfff2&id=25403c7650) newsletter is a low volume digest on the technical aspects of micro:bit. The details you provide are processed in accordance with The Foundation's [privacy policy](https://microbit.org/privacy/).
+In addition to our regular [Micro:bit Educational Foundation newsletter](https://mailchi.mp/microbit/newsletter), our [Developer and ecosystem](https://microbit.us14.list-manage.com/subscribe?u=e1c30f24b90ff3d70275cfff2&id=25403c7650) newsletter is a low volume digest on the technical aspects of micro:bit. The details you provide are processed in accordance with The Foundation's [privacy policy](https://microbit.org/privacy/).
 
 <div style="text-align: center;">
-<a href="https://microbit.us14.list-manage.com/subscribe?u=e1c30f24b90ff3d70275cfff2&id=25403c7650" class="btn sm-btn" role="button" style="margin-bottom: 2rem;">Subscribe to DAL, Editors and Devices</a>
+<a href="https://microbit.us14.list-manage.com/subscribe?u=e1c30f24b90ff3d70275cfff2&id=25403c7650" class="btn sm-btn" role="button" style="margin-bottom: 2rem;">Subscribe to Developer and ecosystem news</a>
 </div>
 
 ## Join us on the microbit-community slack channel!
@@ -49,4 +49,3 @@ In addition to the Foundation's own channels, there are other communities for su
 - [Mu Gitter](https://gitter.im/mu-editor) Gitter chat is similar to Slack and aimed at developers using [Mu](https://codewith.mu/)
 
 - [/r/microbit](https://www.reddit.com/r/microbit) A reddit discussion on micro:bit
-  
