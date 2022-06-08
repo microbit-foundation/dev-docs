@@ -27,7 +27,7 @@ Two key pieces of information to help understand the internals of the micro:bit 
 - The [schematics](./schematic), which shows the detailed component data and connectivity of the device.
 
 - The [reference design](./reference-design), which is a complete module design of a compatible micro:bit, and is designed to be a starting point for anyone interested in understanding the micro:bit or designing their own variant.
-- 
+
 ![Board overview 2.2](/docs/hardware/assets/microbit-overview-2-2.png)
 
 ## Hardware block diagram
