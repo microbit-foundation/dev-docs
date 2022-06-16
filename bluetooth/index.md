@@ -99,6 +99,9 @@ As an example, the tools at [ML Machine](ml-machine.org) have been built with th
 
 Note: on micro:bit V1, there is very limited memory available when also using the Bluetooth extension.
 
+Here is an example of how to add and use the Bluetooth extension in MakeCode
+![adding makecode bluetooth extension](/docs/bluetooth/assets/add_bluetooth_extension.gif)
+
 ## Apps
 
 - [Android App](https://play.google.com/store/apps/details?id=com.samsung.microbit) facilitates [pairing and flashing programs to the micro:bit](https://support.microbit.org/en/support/solutions/articles/19000051025-pairing-and-flashing-code-via-bluetooth)
