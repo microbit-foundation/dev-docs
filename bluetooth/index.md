@@ -76,7 +76,7 @@ We are seeking collaborators to help us define the new profile elements that exp
 
 - [BittySoftware](https://bittysoftware.blogspot.com) has a range of Bluetooth enabled software for the micro:bit
 
-- [Original micro:bit "Out of the Box" experience](https://support.microbit.org/a/solutions/articles/19000021613), including some of the attributes in the Bluetooth Profile
+- [Original micro:bit "Out of the Box" experience](https://microbit.org/get-started/user-guide/out-of-box-experience/), including some of the attributes in the Bluetooth Profile
 
 - [Full profile with the display unused](https://lancaster-university.github.io/microbit-docs/resources/microbit-1_4_17_pwr0.zip). If you want to write to the display over bluetooth then you should use this file instead of the 'Out of the Box' hex, which uses the display.
 
