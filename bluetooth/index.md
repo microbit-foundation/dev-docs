@@ -85,9 +85,19 @@ We are seeking collaborators to help us define the new profile elements that exp
 
 ## Bluetooth and the micro:bit software
 
-The [DAL/C++ reference documentation](https://lancaster-university.github.io/microbit-docs/ble/profile/#reference-documentation) lists the adopted and custom features available within the profile. [MakeCode](https://makecode.microbit.org/reference/bluetooth) contains a set of blocks to make use of the various micro:bit services.
+The [DAL/C++ reference documentation](https://lancaster-university.github.io/microbit-docs/ble/profile/#reference-documentation) lists the adopted and custom features available within the profile. 
 
 The processor also has several non-bluetooth, proprietary modes of operation upon which the micro:bit radio protocol is based. This protocol works only between micro:bits and is defined as 'Micro:bit Radio' in the DAL and 'radio' in MakeCode, MicroPython, and Mbed C++.
+
+### Bluetooth in MakeCode
+
+There is a ["Bluetooth" extension](https://makecode.microbit.org/reference/bluetooth) in Microsoft MakeCode that can be used to instantiate individual services from the micro:bit Bluetooth profile, as well as events for connection and disconnection. It is mutually exclusive to the "Radio" extension.
+
+These services can then be used in conjunction with things like [the micro:bit web components](https://github.com/thegecko/microbit-web-components) to interact with the micro:bit over Bluetooth.
+
+As an example, the tools at [ML Machine](ml-machine.org) have been built with this extension in MakeCode.
+
+Note: on micro:bit V1, there is very limited memory available when also using the Bluetooth extension.
 
 ## Apps
 
