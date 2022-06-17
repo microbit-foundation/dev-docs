@@ -111,6 +111,8 @@ The micro:bit code is updated by dragging a .hex file onto the MICROBIT drive th
 
 It is also possible to 'flash' code to your micro:bit by using a mobile app, and using the [Bluetooth](/bluetooth/) communications interface from your mobile phone.
 
+Read more about [bluetooth apps](/bluetooth/apps-and-examples).
+
 ### micro:bit Low Level (C/C++) Software Stack
 
 When you write an application for your micro:bit, other pieces of software are joined together with your application to make up the final .hex file that is flashed. This code consists of various lower level software components, such as:
