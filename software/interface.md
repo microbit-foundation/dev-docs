@@ -73,6 +73,22 @@ This table shows the latest DAPLink release for each board version that has been
 | 2.00           | 0255       | 0255      | [0255](/docs/software/assets/DAPLink-factory-release/0255_kl27z_microbit_0x8000.hex){: .btn.sm-btn .download}
 | 2.2*           | 0257       | 0257      | [0257](/docs/software/assets/DAPLink-factory-release/0257_nrf52820_microbit_if_crc_c782a5ba90_gcc.hex){: .btn.sm-btn .download}
 
+### Beta releases
+
+#### DAPLink 0258-beta1
+
+This DAPLink beta release has been built with the GCC toolchain and targets the micro:bit V2.00 board. It also includes stability improvements for data logging.
+
+There isn't a beta release for V2.2, as DAPLink for V2.2 is already built with GCC and the stability improvements are included in the 0257 release.
+
+
+| Board revision | Interface  | Download
+| -------------- | ---------- | --------
+| 2.00           | 0258-beta1 | [0258-beta1](/docs/software/assets/daplink-beta-releases/0258-beta1_kl27z_microbit_if_crc_1c60ddb_gcc.hex){: .btn.sm-btn .download}
+
+You can update DAPLink to this beta version following the microbit.org website [instructions to update the micro:bit firmware](https://microbit.org/get-started/user-guide/firmware/) using the hex file from this page.
+
+If you find any issues with this beta release, please report it via [Support](https://support.microbit.org/support/tickets/new), or via this [GitHub Issue tracker](https://github.com/microbit-foundation/DAPLink/issues), and thanks for testing!
 
 ### The DAPLink boot loader
 
