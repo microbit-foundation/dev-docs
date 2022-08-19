@@ -3,7 +3,7 @@ layout: page
 order:
 title: DAPLink and the USB Interface
 heading: DAPLink and the USB interface
-description: the DAPLink software running on the USB interface chip for the micro:bit provides the drag and drop programming and debugging features that make the micro:bit so easy to use.
+description: The DAPLink software running on the USB interface chip for the micro:bit provides the drag and drop programming and debugging features that make the micro:bit so easy to use.
 permalink: /software/daplink-interface/
 ref: software
 lang: en
@@ -11,9 +11,9 @@ lang: en
 
 ## Target and Interface MCUs
 
-The micro:bit presents itself as a USB disk when it is connected over USB, and can be programmed through this interface without the need to install any drivers. This makes it easier to use as a beginner. Furthermore, no matter what code you run on your micro:bit, or how you manage to crash the device, you can always still put a new program on using the USB connection.This is made possible by having a separate 'interface chip' or 'interface MCU' on the micro:bit dedicated to USB connections, programming and debugging.
+The micro:bit presents itself as a USB disk when it is connected over USB, and can be programmed through this drive without the need to install any drivers. This makes it easier to use as a beginner. Furthermore, no matter what code you run on your micro:bit, or how you manage to crash the device, you can always still put a new program on using the USB connection.This is made possible by having a separate 'interface chip' or 'interface MCU' on the micro:bit dedicated to USB connections, programming and debugging.
 
-The **Interface MCU** is a **Freescale KL27** <span class="v2">V2</span> or **Freescale KL26** <span class="v1"> V1</span>.
+The **Interface MCU** is a **Nordic nRF52833/nRF52820** <span class="v2">V2.2x</span>, **Freescale KL27** <span class="v2">V2.00</span>, or **Freescale KL26** <span class="v1">V1</span>.
 
 The chip that developers' code runs on, and that all the peripherals are connected to is called the 'target MCU'. See the [Hardware](/hardware) page and the schematic for more details about how these two devices are connected.
 
@@ -21,11 +21,13 @@ The **Target MCU** is a **Nordic Semiconductor nRF52833** <span class="v2">V2</s
 
 ![v2 interface](/docs/software/assets/v2-interface.png)
 
-The target and interface MCUs are connected by two interfaces:
+The target and interface MCUs are connected by these interfaces:
 
 - Serial Wire Debug (SWD) for programming the target MCU.
 
 - UART for sending messages between the two devices. In practice, the UART from the target MCU is passed through directly to the PC over USB.
+
+- <span class="v2">V2</span> I2C using a custom [protocol](/software/spec-i2c-protocol/).
 
 ### Reference design
 
@@ -51,8 +53,6 @@ This software provides four USB endpoints that have specific purposes:
 - WebUSB - facilitates communicating with the device via a WebUSB capable browser.
 
 The DAPLink software and interface chip are part of the [Arm Mbed HDK](https://os.mbed.com/handbook/mbed-HDK)
-
-The micro:bit currently ships with DAPLink bootloader at version 0255 and interface at version 0255.
 
 This table shows the device revision and which DAPLink Bootloader and Interface it shipped with:
 
@@ -90,12 +90,12 @@ You can update DAPLink to this beta version following the microbit.org website [
 
 If you find any issues with this beta release, please report it via [Support](https://support.microbit.org/support/tickets/new), or via this [GitHub Issue tracker](https://github.com/microbit-foundation/DAPLink/issues), and thanks for testing!
 
-### The DAPLink boot loader
+### The DAPLink bootloader
 
 It is possible to update the version of DAPLink running on your micro:bit. This is done using the DAPLink bootloader. This means that in fact, DAPLink is built twice for the micro:bit.
 
-1. `bootloader mode` is used to for updating the main interface firmware. In this mode, the drive name is `MAINTENANCE` and hex files dropped onto the disk are written into the KL27 <span class="v2">V2</span> or KL26 <span class="v1">V1</span> flash. These files MUST contain an image of DAPLink or equivalent.
-2. `interface mode` is used to target the nRF52833 <span class="v2">V2</span> or nRF51822 <span class="v1">V1</span>. In this mode, the drive name is `MICROBIT` and the hex files dropped onto the micro:bit are written to the flash of the target MCU.
+1. `bootloader mode` is used to for updating the interface firmware. In this mode, the drive name is `MAINTENANCE` and hex files dropped onto the disk are written into the interface MCU flash. These files MUST contain an image of DAPLink or equivalent.
+2. `interface mode` is used to flash the target MCU. In this mode, the drive name is `MICROBIT`.
 
 There are detailed instructions for how to [update the firmware version on the micro:bit website](https://microbit.org/get-started/user-guide/firmware/).
 
@@ -103,7 +103,7 @@ There are detailed instructions for how to [update the firmware version on the m
 
 ## Files on the MICROBIT drive
 
-The flash file system presented on the micro:bit drive is entirely virtual. It is not backed by real memory, and this is why the drive ejects itself after new files are written. When a file is dropped onto the MICROBIT drive, instead of being written into flash memory (like a normal USB memory stick), it is streamed to the target MCU.
+The flash file system presented on the micro:bit drive is entirely virtual. It is not backed by real memory, and this is why the drive ejects itself after new files are written. When a file is dropped onto the MICROBIT drive, instead of being written into storage memory (like a normal USB memory stick), it is streamed to the target MCU.
 
 The following virtual files exist on the file-system:
 
@@ -111,11 +111,15 @@ The following virtual files exist on the file-system:
 
 - `MICROBIT.HTM`: This is a link to [microbit.org](https://microbit.org) to help you get started.
 
+- `MY_DATA.HTM` : This is a [data logging](https://microbit.org/get-started/user-guide/data-logging/) file and might not be always present in the MICROBIT drive.
+
 After flashing occurs, there might also be a `FAIL.TXT` file, that gives a cause for failure.
 
 The file [error.c](https://github.com/mbedmicro/DAPLink/blob/master/source/daplink/error.c) in the DAPLink source can help in diagnosing what these errors mean.
 
 There is also a full list of [micro:bit error codes](https://support.microbit.org/en/support/solutions/articles/19000016969-micro-bit-error-codes) in our Knowledgebase.
+
+An `ASSERT.TXT` file might also appear, this indicates a minor error might have occurred, but DAPLink was able to recover and work as expected.
 
 ## UART connection
 
@@ -133,9 +137,9 @@ It has been supported in DAPLink since version **0243**, so if you have an older
 
 The API is currently available in [Chrome based browsers](https://caniuse.com/#feat=webusb) (Android, Chrome OS, Linux, macOS and Windows) and is supported in the MakeCode Editor and the Python Editor. This enables you to flash your micro:bit straight from the browser without the need to save the .hex file first, and use serial communication between the micro:bit and the editor.
 
-## Updating the DAPLink full image
+## Updating the DAPLink full image (V2.00 only)
 
-<div class="alert alert-danger">Please note - there is almost no situation in the normal use of the micro:bit where this step will be necessary. We have documented it here in the interests of making the the micro:bit more friendly to developers who want to experiment with the code on the KL27. If your micro:bit enumerates in MAINTENANCE or MICROBIT mode you should never need to perform these steps</div>
+<div class="alert alert-danger">Please note - there is almost no situation in the normal use of the micro:bit where this step will be necessary. We have documented it here in the interests of making the the micro:bit more friendly to developers who want to experiment with the code on the <span class="v2">V2.00</span> KL27 interface MCU. If your micro:bit enumerates in MAINTENANCE or MICROBIT mode you should never need to perform these steps.</div>
 
 **Please only use use these steps if you are familiar with USB bootloaders and command line tools. You should never need to perform these to update a micro:bit.**
 
