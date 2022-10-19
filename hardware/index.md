@@ -220,7 +220,7 @@ Power to the micro:bit may be provided via 5V on the USB connector, or via a 3V 
 
 The interface chip handles the USB connection, and is used for flashing new code to the micro:bit, sending and receiving serial data back and forth to your main computer.
 
-Due to parts availiability there are two variants of the V2.2X devices with a different interface chip; a limited run of devices were built using the nRF52833-QDAA and further devices are built using the nRF52820-QDAA.
+Due to parts availability there are two variants of the V2.2X devices with a different interface chip; a limited run of devices were built using the nRF52833-QDAA and further devices are built using the nRF52820-QDAA.
 
 As the two chip variants are of the same family, the same DAPLink firmware image runs on both chips and it provides the exact same functionality.
 
@@ -228,21 +228,21 @@ As the two chip variants are of the same family, the same DAPLink firmware image
 | ---           | ---
 | Model         | [nRF52833-QDAA](https://www.nordicsemi.com/products/nrf52833)
 | Core variant: | [64 MHz Arm® Cortex®-M4F](https://developer.arm.com/Processors/Cortex-M4)
-| Flash ROM     | 512KB
-| RAM           | 128KB
+| Flash ROM     | 512KB (128kB use for firmware, 128kB reserved for non-volatile storage, rest unused)
+| RAM           | 128KB (only 32 KB used)
 | Speed         | 64MHz
 | Debug capabilities | [SWD](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52833.html)
-| More Info | [Software](/software/), [nRF52833 datasheet](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52833.html&cp=4_1)
+| More Info | [DAPLink](/software/daplink-interface/), [nRF52833 datasheet](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52833.html&cp=4_1)
 
 | item          | details
 | ---           | ---
 | Model         | [nRF52820-QDAA](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52820.html)
 | Core variant: | [64 MHz Arm® Cortex®-M4](https://developer.arm.com/Processors/Cortex-M4)
-| Flash ROM     | 256KB
+| Flash ROM     | 256KB  (128kB reserved for non-volatile storage)
 | RAM           | 32KB
 | Speed         | 64MHz
 | Debug capabilities | [SWD](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52820.html)
-| More Info | [Software](/software/), [nRF52820 datasheet](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52820.html)
+| More Info | [DAPLink](/software/daplink-interface/), [nRF52820 datasheet](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52820.html)
 
 ### USB communications
 

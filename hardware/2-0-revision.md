@@ -221,12 +221,12 @@ The interface chip handles the USB connection, and is used for flashing new code
 
 | item          | details
 | ---           | ---
-| Model         |[MKL27Z256VFM4](https://www.nxp.com/part/MKL27Z256VFM4#/)
+| Model         | [MKL27Z256VFM4](https://www.nxp.com/part/MKL27Z256VFM4#/)
 | Core variant: | [Arm Cortex-M0+](https://www.arm.com/products/processors/cortex-m/cortex-m0plus.php)
-| Flash ROM     | 256KB (128kB reserved for future use as storage)
+| Flash ROM     | 256KB (128kB reserved for non-volatile storage)
 | RAM           | 16KB
 | Speed         | 48MHz
-| Debug capabilities | SWD
+| Debug capabilities | [SWD](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52820.html)
 | More Info | [DAPLink](/software/daplink-interface/), [KL27 reference manual (behind login)](https://www.nxp.com/webapp/Download?colCode=KL27P64M48SF6RM) [KL27 datasheet](https://www.nxp.com/docs/en/data-sheet/KL27P64M48SF6.pdf)
 
 ### USB communications

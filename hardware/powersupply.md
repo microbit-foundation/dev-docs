@@ -22,9 +22,9 @@ Power from the micro:bit can be provided by the 3V and GND pins to small externa
 
 It's is important to stay within the design parameters of the board:
 
-- When powered from USB, the on-board interface chip (KL26<span class="v1">V1</span>/KL27<span class="v2">V2</span>) uses its on-chip regulator to provide power, and this chip is rated at a maximum of 120mA.
+- When powered from USB, the on-board interface chip on <span class="v1">V1</span> (KL26) uses its on-chip regulator to provide power, and this chip is rated at a maximum of 120mA.
 
-- The on-board current budget will vary depending on the use of the display, the Bluetooth, microphone, speaker and other peripherals. You should allow a worst case budget of 30mA for when all on-board peripherals are in use, leaving <span class="v1">V1</span>90mA/<span class="v2">V2</span>270mA for circuits plugged into the edge connector.
+- The on-board current budget will vary depending on the use of the display, the Bluetooth, microphone, speaker and other peripherals. You should allow a worst case budget of 30mA for when all on-board peripherals are in use, leaving 90mA <span class="v1">V1</span> / 270mA <span class="v2">V2</span> for circuits plugged into the edge connector.
 
 - When powered from a battery, the KL chip is not powered up and the USB Indicator LED will not light up.
 
@@ -46,7 +46,7 @@ As taken from each of the chip datasheets, it can be seen that different devices
 
 This table implies an operating voltage range of the micro:bit device as a whole as being 1.8V min (for 1.5 variants) or 1.95V min (for 1.3* variants dictated by the motion sensor) and 3.6V max (dictated by all devices).
 
-### V2 revision
+### V2.00 revision
 
 | Device     | min   | max  | absolutemax
 |------------|-------|------|------------
@@ -56,29 +56,42 @@ This table implies an operating voltage range of the micro:bit device as a whole
 
 This table implies an operating voltage range of the micro:bit device as a whole as being 1.7V min and 3.6V max.
 
+### V2.2x revision
+
+| Device            | min   | max  | absolutemax
+|-------------------|-------|------|------------
+| nRF52 (target)    | 1.7V  | 3.6V | 3.9Vabs
+| nRF52 (interface) | 1.7V  | 3.6V | 3.9Vabs
+| LSM303            | 1.71V | 3.6V | 3.6Vabs
+
+This table implies an operating voltage range of the micro:bit device as a whole as being 1.7V min and 3.6V max.
+
 ## Practicalities
 
 ### USB Powering
 
-<!-- TODO: Update these paragraphs to detail that 270mA is TBC budget for V2 -->
+<!-- TODO: Update these paragraphs to add more detail about the 300mA regulator and 190mA budget for V2 accessories -->
 
-When powered from USB, the KL26 <span class="v1">V1</span> interface chip's on-board regulator is used to provide 3.3V to the rest of the board. The latest revision <span class="v2">V2</span> has a seperate regulator on the board.
+When powered from USB, the <span class="v1">V1</span> interface MCU's on-chip regulator is used to provide 3.3V to the rest of the board. The latest revision <span class="v2">V2</span> has a separate regulator on the board.
 
-The [KL26 datasheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)<span class="v1">V1</span> section 3.8.2, Table 30. "USB VREG electrical specifications" indicates the maximum current from the regulated supply is 120mA. Some of this current is required to run on-board devices, such as the KL26 itself, the nRF application processor, the motion sensor, and the LED display. When Bluetooth is enabled, the current consumption of the nRF increases slightly. You should budget your current requirements for anything you attach to the micro:bit <span class="v1">V1</span> to not exceed about
+The [KL26 datasheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf) <span class="v1">V1</span> section 3.8.2, Table 30. "USB VREG electrical specifications" indicates the maximum current from the regulated supply is 120mA. Some of this current is required to run on-board devices, such as the KL26 itself, the nRF application processor, the motion sensor, and the LED display. When Bluetooth is enabled, the current consumption of the nRF increases slightly. You should budget your current requirements for anything you attach to the micro:bit <span class="v1">V1</span> to not exceed about
 90mA to give enough safe headroom for worst case with all on-board peripherals in use.
 
-This means that if you require more than 90mA from the edge connector, (e.g. driving lots of NeoPixels or a small motor) these should have power supplied to them externally. You can back-power the micro:bit via its 3V pad, but please be sure to use a properly regulated supply and a protection diode, as explained below, so that your micro:bit always has a supply within the operating range of all the on-board peripherals and the supplies are not able to power each other.
+The <span class="v2">V2</span> has an on-board regulator capable to source 300 mA.
+
+This means that if you require more than 90mA <span class="v1">V1</span> / 190mA <span class="v2">V2</span> from the edge connector, (e.g. driving lots of NeoPixels or a small motor) these should have power supplied to them externally. You can back-power the micro:bit via its 3V pad, but please be sure to use a properly regulated supply and a protection diode, as explained below, so that your micro:bit always has a supply within the operating range of all the on-board peripherals and the supplies are not able to power each other.
 
 It is advised that you do not power the micro:bit from USB battery packs. This is because some makes and models of USB battery packs can generate out of range voltages when they are not suitably loaded that could damage your micro:bit (i.e. when a small current is drawn).
 Also, some USB battery packs will switch off automatically when the current drawn from them is too low.
 
 ### Battery Powering
 
-When powered from a battery plugged into the top battery connector, the KL26 interface chip is not powered up, and the System LED will not be turned on. If your code does not display anything on the display, this might look like the micro:bit is not working, but it is.
+When powered from a battery plugged into the top battery connector, the <span class="v1">V1</span> interface chip is not powered up, and the System LED will not be turned on. If your code does not display anything on the display, this might look like the micro:bit is not working, but it is.
+On micro:bit <span class="v2">V2</span> the battery power goes through the on-board regulator and powers the interface chip as well. If the micro:bit board is not in a sleep mode, the red LED (left of the USB connector) should be light up.
 
-Because the nRF51 chip is powered almost directly (there is only one BAT60 diode between the supply and the nRF51 power rails), a fully charged **LiPoly battery** that is specified to reach 4.2V **will be give greater than the [3.6V maximum that the nRF51 can withstand**](#key-voltages)
+Because the <span class="v1">V1</span> target chip is powered almost directly (there is only one BAT60 diode between the supply and the target nRF51 power rails), a fully charged **LiPoly battery** that is specified to reach 4.2V **will be give greater than the [3.6V maximum that the nRF51 can withstand**](#key-voltages)
 
-There is further information about the [battery connection and use](https://support.microbit.org/solution/articles/19000013982-how-do-i-power-my-micro-bit-/en) in our knowledgebase
+There is further information about the [battery connection and use](https://support.microbit.org/solution/articles/19000013982-how-do-i-power-my-micro-bit-/en) in our knowledgebase.
 
 ### 3V Ring Powering
 
