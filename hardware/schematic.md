@@ -15,7 +15,7 @@ lang: en
 * TOC
 {:toc}
 
-This page discusses the micro:bit schematic and Bill of Materials [BOM](https://github.com/microbit-foundation/microbit-v2-hardware/blob/main/V2/Bill.of.Materials-BBC-microbit_V2.0.0.csv), which shows the electrical connections of the micro:bit and the components used in it.
+This page discusses the micro:bit schematic and Bill of Materials, which shows the electrical connections of the micro:bit and the components used in it.
 
 The micro:bit <span class="v1">V1.3</span> and  <span class="v1">V1.5</span> schematic is available from the BBC's [micro:bit hardware repository](https://github.com/bbcmicrobit/hardware).
 
@@ -23,17 +23,21 @@ The micro:bit  <span class="v2">V2</span> schematic is available from the Micro:
 
 If you're looking to make something of your own based on the micro:bit, you might prefer to use our ['Reference Design'](/hardware/reference-design/) which is based on a radio module and has space on the layout for you to add your own components.
 
-## Schematics
+## Schematics & BOM
 
-- [V1.3](https://github.com/bbcmicrobit/hardware/blob/master/V1.3B/SCH_BBC-Microbit_V1.3B.pdf)
-- [V1.5](https://github.com/bbcmicrobit/hardware/blob/master/V1.5/SCH_BBC-Microbit_V1.5.PDF)
-- [V2.00](https://github.com/microbit-foundation/microbit-v2-hardware/blob/main/V2.00/MicroBit_V2.0.0_S_schematic.PDF)
-- [V2.2x](https://github.com/microbit-foundation/microbit-v2-hardware/blob/main/V2.21/MicroBit_V2.2.1_nRF52820%20schematic.PDF)
+- [V1.3 Schematic](https://github.com/bbcmicrobit/hardware/blob/master/V1.3B/SCH_BBC-Microbit_V1.3B.pdf)
+    - [V1.5 BOM](https://github.com/bbcmicrobit/hardware/blob/master/V1.3B/400852-Micro%20bit_BOM%20V1.3B.xls)
+- [V1.5 Schematic](https://github.com/bbcmicrobit/hardware/blob/master/V1.5/SCH_BBC-Microbit_V1.5.PDF)
+    - [V1.5 BOM](https://github.com/bbcmicrobit/hardware/blob/master/V1.5/Bill%20of%20Materials-BBC-microbit_v1.5.csv)
+- [V2.0 Schematic](https://github.com/microbit-foundation/microbit-v2-hardware/blob/main/V2.00/MicroBit_V2.0.0_S_schematic.PDF)
+    - [V2.0 BOM](https://github.com/microbit-foundation/microbit-v2-hardware/blob/main/V2.00/Bill.of.Materials-BBC-microbit_V2.0.0.csv)
+- [V2.2](https://github.com/microbit-foundation/microbit-v2-hardware/blob/main/V2.21/MicroBit_V2.2.1_nRF52820%20schematic.PDF)
+    - [V2.2 BOM](https://github.com/microbit-foundation/microbit-v2-hardware/blob/main/V2.21/Bill%20of%20Materials%20MicroBit_V2.2.1.csv)
 
 
 ## V2 pinmap
 
-Below is the pinmap and allocation of the nRF52833, more information is available on the micro:bit  <span class="v2">V2</span> [schematic](https://github.com/microbit-foundation/microbit-v2-hardware/blob/main/V2/MicroBit_V2.0.0_S_schematic.PDF)
+Below is the pinmap and allocation of the nRF52833, more information is available on the micro:bit  <span class="v2">V2</span> [schematic](https://github.com/microbit-foundation/microbit-v2-hardware/blob/main/V2.00/MicroBit_V2.0.0_S_schematic.PDF)
 
 | GPIO on nRF52833 | Allocation          | KL27 Landing                             | Edge Connector name |
 | ---------------- | ------------------- | ---------------------------------------- | ------------------- |
