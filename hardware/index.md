@@ -52,7 +52,7 @@ There is an on-board 2.4GHz radio peripheral used to provide Bluetooth and custo
 | RAM           | 128KB
 | Speed         | 64MHz
 | Debug         | [SWD](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fps_nrf52833%2Fdif.html), [J-Link/OB](https://www.segger.com/products/debug-probes/j-link/models/j-link-lite/j-link-lite-cortex-m/)
-| More Info     | [Software](../software), [NRF52 datasheet](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52833.html&cp=3_1)
+| More Info     | [Software](../software), [nRF52 datasheet](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52833.html&cp=3_1)
 
 ### Bluetooth Wireless Communication
 
@@ -92,7 +92,7 @@ Additionally, the micro:bit runtime software adds a 'group code' to each data pa
 
 ### Buttons
 
-The two buttons on the front of the micro:bit, and the one button on the back, are tact momentary push-to-make buttons. The back button is connected to the interface processor and to the NRF52 processor for system reset purposes. This means that the application will reset regardless of if it is powered from USB or from battery.
+The two buttons on the front of the micro:bit, and the one button on the back, are tact momentary push-to-make buttons. The back button is connected to the interface processor and to the nRF52 processor for system reset purposes. This means that the application will reset regardless of if it is powered from USB or from battery.
 
 Front buttons A and B can be programmed in the user application for any purpose.
 A and B are debounced by software, which also includes short press, long press, and 'both A+B' press detection. Buttons operate in a typical inverted electrical mode, where a pull-up resistor ensures a logical '1' when the button is released, and a logical '0' when the button is pressed.
@@ -141,13 +141,13 @@ The micro:bit has a footprint for two different motion sensors: one made by ST (
 
 ### Temperature sensing
 
-The NRF52 application processor has an on-board core temperature sensor.
+The nRF52 application processor has an on-board core temperature sensor.
 This is exposed via the standard runtime software, and provides an estimate of ambient
 temperature.
 
 | item          | details
 | ---           | ---
-| Type          | on-core NRF52
+| Type          | on-core nRF52
 | Sensing range | -40C .. 105C
 | Resolution    | 0.25C steps
 | Accuracy      | +/-5C (uncalibrated)

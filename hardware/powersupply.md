@@ -50,7 +50,7 @@ This table implies an operating voltage range of the micro:bit device as a whole
 
 | Device     | min   | max  | absolutemax
 |------------|-------|------|------------
-| NRF52      | 1.7V  | 3.6V | 3.9Vabs
+| nRF52      | 1.7V  | 3.6V | 3.9Vabs
 | KL27       | 1.71V | 3.6V | 3.8Vabs
 | LSM303     | 1.71V | 3.6V | 3.6Vabs
 
