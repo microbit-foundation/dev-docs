@@ -23,7 +23,7 @@ Please format the addition using this template:
 
 ## Language Name
 
-[Project homepage](https://example.com)
+[Project Homepage](https://example.com)
 
 [Example](https://example.com)
 
@@ -37,13 +37,13 @@ Please format the addition using this template:
 
 ## Ada
 
-[Project homepage](https://blog.adacore.com/ada-on-the-microbit)
+[Project Homepage](https://blog.adacore.com/ada-on-the-microbit)
 
 [Example](https://github.com/AdaCore/Ada_Drivers_Library/tree/master/examples/MicroBit/text_scrolling)
 
 ### micro:bit heart
 
-```
+```ada
 with MicroBit.Display;
 
 procedure Main is
@@ -54,3 +54,51 @@ begin
    end loop;
 end Main;
 ```
+
+## Rust
+
+[Project Homepage: _Discover Microcontrollers Using Rust_](https://docs.rust-embedded.org/discovery/microbit/)
+
+Examples:
+  * [LED Roulette](https://docs.rust-embedded.org/discovery/microbit/05-led-roulette/)
+  * [UART: Send a Byte](https://docs.rust-embedded.org/discovery/microbit/07-uart/send-a-single-byte.html)
+  * [LED Compass](https://docs.rust-embedded.org/discovery/microbit/09-led-compass/)
+
+### micro:bit heart
+
+```rust
+#![deny(unsafe_code)]
+#![no_main]
+#![no_std]
+
+use cortex_m_rt::entry;
+use rtt_target::rtt_init_print;
+use panic_rtt_target as _;
+use microbit::{
+    board::Board,
+    display::blocking::Display,
+    hal::{prelude::*, Timer},
+};
+
+#[entry]
+fn main() -> ! {
+    rtt_init_print!();
+
+    let board = Board::take().unwrap();
+    let mut timer = Timer::new(board.TIMER0);
+    let mut display = Display::new(board.display_pins);
+    let heart = [
+        [0, 1, 0, 1, 0],
+        [1, 1, 1, 1, 1],
+        [1, 1, 1, 1, 1],
+        [0, 1, 1, 1, 0],
+        [0, 0, 1, 0, 0],
+    ];
+
+    loop {
+        // Show heart for 1000ms
+        display.show(&mut timer, heart, 1000);
+        display.clear();
+        timer.delay_ms(1000_u32);
+    }
+}
