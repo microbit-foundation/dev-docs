@@ -176,7 +176,7 @@ The rear view of the device has been adapted to highlight the test points and de
 
 Test Point | Purpose
 ---------- | -------
-TP1 | U5 Bootmode - [used to enter the ROM bootloader on the KL27Z](../../software/daplink-interface/#updating-the-daplink-full-image)
+TP1 | U5 Bootmode - [used to enter the ROM bootloader on the KL27Z](../../software/daplink-interface/#updating-the-daplink-full-image-v200-only)
 TP7 | USB D+
 TP8 | USB D-
 TP17 | Access to Pin 1 on Battery connector
