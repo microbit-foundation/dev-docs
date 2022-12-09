@@ -268,6 +268,7 @@ Can you help to find or design a better connection solution to the micro:bit edg
 | Supplier | Product
 | -------- | -------
 |4UCon| [4UCon connector](https://cdn.shopify.com/s/files/1/2311/3697/files/1944_Drawing.pdf?3325)
+|[Cyclonn/Dongguan Yuliang](http://www.dgyuliang.net) | [micro:bit connectors](http://www.dgyuliang.net/Produtcs/Customized%20Connector/), also see [Alibaba store](https://dgyuliang.en.alibaba.com/productgrouplist-807517501/edge_connector_for_BBC_micro_bit.html?spm=a2700.shop_index.88.8)|
 
 ## Further information
 
