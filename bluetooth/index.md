@@ -33,7 +33,7 @@ The micro:bit supports Bluetooth via a single, custom-developed, BBC micro:bit p
 
 A pre-compiled hex file is available to download for <span class="v2">V2</span> that enables all Bluetooth services. 
 
-[Bluetooth all services CODAL](/docs/bluetooth/assets/BLE_All_Services_CODAL_0-0-24-ABDLIMTU-P.hex){: .btn.sm-btn download}
+[Bluetooth all services CODAL](/docs/bluetooth/assets/BLE_All_Services_CODAL_0-2-40-ABDLIMTU-P.hex){: .btn.sm-btn download}
 
 The source for this can be found in the [microbit-v2-samples](https://github.com/lancaster-university/microbit-v2-samples/blob/master/source/samples/BLETest.cpp) repository.
 
