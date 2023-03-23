@@ -75,20 +75,30 @@ This table shows the latest DAPLink release for each board version that has been
 
 ### Beta releases
 
-#### DAPLink 0258-beta1
+#### DAPLink 0258-beta3
 
-This DAPLink beta release has been built with the GCC toolchain and targets the micro:bit V2.00 board. It also includes stability improvements for data logging.
+This DAPLink beta release for <span class="v2">V2.00</span> and <span class="v2">V2.2*</span> has the following improvements:
 
-There isn't a beta release for V2.2, as DAPLink for V2.2 is already built with GCC and the stability improvements are included in the 0257 release.
+- 🚀 Faster flashing! Drag & drop a hex file into the `MICROBIT` drive can be up to 25% faster 
+- 🚦 Fixed issue where orange LED next to the USB connector sometimes didn't flash when programming the micro:bit via WebUSB 
+- 📋 V2.00 also has stability improvements for data logging (this improvement is already present in the V2.2* factory release)
 
 
 | Board revision | Interface  | Download
 | -------------- | ---------- | --------
-| 2.00           | 0258-beta1 | [0258-beta1](/docs/software/assets/daplink-beta-releases/0258-beta1_kl27z_microbit_if_crc_1c60ddb_gcc.hex){: .btn.sm-btn .download}
+| 2.00           | 0258-beta3 | [0258-beta3 for V2.00](/docs/software/assets/daplink-beta-releases/0258-beta3_kl27z_microbit_if_crc_0004198_gcc.hex){: .btn.sm-btn .download}
+| 2.2*           | 0258-beta3 | [0258-beta3 for V2.2*](/docs/software/assets/daplink-beta-releases/0258-beta3_nrf52820_microbit_if_crc_0004198_gcc.hex){: .btn.sm-btn .download}
 
-You can update DAPLink to this beta version following the microbit.org website [instructions to update the micro:bit firmware](https://microbit.org/get-started/user-guide/firmware/) using the hex file from this page.
+Instructions showing how to identify your micro:bit and how to update the DAPLink firmware can be found in the [microbit.org firmware page](https://microbit.org/get-started/user-guide/firmware/).
 
-If you find any issues with this beta release, please report it via [Support](https://support.microbit.org/support/tickets/new), or via this [GitHub Issue tracker](https://github.com/microbit-foundation/DAPLink/issues), and thanks for testing!
+Once the firmware is updated, you can confirm it's running this beta version if the `DETAILS.TXT` file contains this line:
+```
+Build ID: v0258-beta3-g0004198b (gcc)
+```
+
+If you find any issues with this beta release, please report it via [Support](https://support.microbit.org/support/tickets/new), or via this [GitHub Issue tracker](https://github.com/microbit-foundation/DAPLink/issues).
+
+And, most importantly, **thank you for testing!**
 
 ### The DAPLink bootloader
 
