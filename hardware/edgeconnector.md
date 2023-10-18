@@ -167,7 +167,7 @@ Pins that are marked with brackets around functions, require the default functio
 
 ### pins: P3, P4, P6, P7, P9, P10
 
-These pins are coupled to the LED matrix display, and also its associated ambient light sensing mode. To disable the display driver feature (which will automatically disable the light sensing feature) call the DAL function `display.enable(false)`. To turn the display driver back on again later, call the DAL function `display.enable(true)`.
+These pins are coupled to the LED matrix display, and also its associated ambient light sensing mode. To disable the display driver feature (which will automatically disable the light sensing feature) call the DAL function `display.disable()`. To turn the display driver back on again later, call the DAL function `display.enable()`.
 
 Note also that the LED 3x9 matrix connects LEDs with associated resistors across these pins, so you should take that into account when designing circuits to use these pins for other purposes.
 
