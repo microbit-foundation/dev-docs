@@ -63,7 +63,7 @@ The [instructions for building CODAL](https://github.com/lancaster-university/mi
 
 The micro:bit runtime is an open source project, distributed under the MIT license, and contributions and collaborations are very much welcomed from the micro:bit community. There are still many things that could be merged into the micro:bit runtime, and with MakeCode moving forward and adding new features, things that go into the runtime can also be exposed to the higher level languages if they work well and prove useful for coding in education.
 
-Firstly, you should get yourself into a situation where you can build the micro:bit runtime DAL. You can choose either an online build environment inside your web browser through Mbed.org, or an downloadable compiler. The [getting started docs] (https://lancaster-university.github.io/microbit-docs/#getting-started) guide you through this process.
+Firstly, you should get yourself into a situation where you can build the micro:bit runtime DAL. You can choose either an online build environment inside your web browser through Mbed.org, or an downloadable compiler. The [getting started docs](https://lancaster-university.github.io/microbit-docs/#getting-started) guide you through this process.
 
 ### Asking for features and reporting bugs
 
