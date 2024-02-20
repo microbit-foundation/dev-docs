@@ -61,6 +61,8 @@ Among the most popular are the official ones listed at http://microbit.org/code 
 
 Here's a non-exhaustive list of possible code editors for use with the micro:bit: *please add any you know about that are not here*
 
+- [Keil Studio Cloud IDE](https://studio.keil.arm.com/)
+
 - [MakeCode](https://makecode.microbit.org)
 
 - [Python](https://python.microbit.org)
