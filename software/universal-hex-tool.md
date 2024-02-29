@@ -16,8 +16,8 @@ DAPLink will process the Universal Hex and only write data to the relevant board
 
 This complementary online tool can be used to split Universal Hex files into its individual Intel Hex components: [Universal Hex Splitter](https://microbit-foundation.github.io/microbit-universal-hex/examples/separate.html)
 
-To support [cross-device compatibility](../hex-format/#cross-device-compatibility), we have created a [standalone error hex](/docs/software/assets/stand-alone-error-v1.hex) that can be combined with a V2 only hex in this tool to produce a Universal Hex that will work on a V2 board, and display a "not compatible" error if used on a V1.
+To support [cross-device compatibility](../hex-format/#cross-device-compatibility), we have created a [standalone error hex](https://github.com/microbit-foundation/incompatible-error-programme/releases/download/v1.0.0/error-programme-v1.hex) that can be combined with a V2 only hex in this tool to produce a Universal Hex that will work on a V2 board, and display a "not compatible" error if used on a V1.
 
-[Download standalone error hex](/docs/software/assets/stand-alone-error-v1.hex){: .btn.sm-btn download}
+[Download standalone error hex](https://github.com/microbit-foundation/incompatible-error-programme/releases/download/v1.0.0/error-programme-v1.hex){: .btn.sm-btn download}
 
 {% include uhex-tool.html %}
