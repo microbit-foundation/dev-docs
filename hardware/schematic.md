@@ -182,7 +182,7 @@ TP8 | USB D-
 TP17 | Access to Pin 1 on Battery connector
 TP19 | Access to VBUS line on USB Connector
 TP20 | Access for debugging internal I2C bus - SCL
-TP21 | Access for debugging internal I2C bus - SCL
+TP21 | Access for debugging internal I2C bus - SDA
 TP9 | VREG - [Actually the power rounded rectangular pad](../../accessories/making-accessories/#battery-pads)
 TP10 | GND - [Actually the GND rounded rectangular pad](../../accessories/making-accessories/#battery-pads)
  
