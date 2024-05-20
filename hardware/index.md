@@ -268,7 +268,6 @@ The interface processor can be used with special host tools to debug code that i
 | ---           | ---
 | Protocol      | Serial Wire Debug (SWD)
 | Options       | DAPLink (CMSIS-DAP)
-|               | JLink/OB (via different firmware)
 
 ### Mechanical
 
