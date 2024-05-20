@@ -51,7 +51,7 @@ There is an on-board 2.4GHz radio peripheral used to provide Bluetooth and custo
 | Flash ROM     | 512KB
 | RAM           | 128KB
 | Speed         | 64MHz
-| Debug         | [SWD](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fps_nrf52833%2Fdif.html), [J-Link/OB](https://www.segger.com/products/debug-probes/j-link/models/j-link-lite/j-link-lite-cortex-m/)
+| Debug         | [SWD](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fps_nrf52833%2Fdif.html)
 | More Info     | [Software](../software), [nRF52 datasheet](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52833.html&cp=3_1)
 
 ### Bluetooth Wireless Communication
