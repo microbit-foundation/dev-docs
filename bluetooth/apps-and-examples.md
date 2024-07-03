@@ -45,4 +45,4 @@ Below is a curated list of some Bluetooth applications you might like to read ab
 
 - [Bluetooth Low Energy Remote Control for Spotify](https://www.hackster.io/josejuansanchez/bluetooth-low-energy-remote-control-for-spotify-3438d1) - This project allows you to configure your micro:bit to work as a Bluetooth Low Energy remote control for Spotify on macOS.
 
-- [Musical Instrument Controller](https://phwallen.github.io/microbit-music-controller/) - A micro:bit instrument that communities with an iPad via Bluetooth into MIDI controller app that can play music via GarageBand.
+- [Musical Instrument Controller](https://phwallen.github.io/microbit-music-controller/) - A micro:bit instrument that communicates with an iPad via Bluetooth into MIDI controller app that can play music via GarageBand.
