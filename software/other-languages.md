@@ -55,6 +55,65 @@ begin
 end Main;
 ```
 
+## Go (with TinyGo)
+
+[Project Homepage](https://tinygo.org/)
+
+[Playground](https://play.tinygo.org/) (select BBC micro:bit v1 from the drop-down)
+
+[Documentation](https://tinygo.org/docs/reference/microcontrollers/machine/microbit/)
+
+Examples:
+  * [Microbit Blink](https://github.com/tinygo-org/tinygo-zoo/blob/master/microbit-blink/main.go)
+  * [Microbit Pixel Buttons](https://github.com/tinygo-org/tinygo-zoo/blob/master/microbit-pixelbuttons/main.go)
+  * [Microbit Accelerometer, Magnetometer, Temperature](https://github.com/tinygo-org/drivers/blob/release/examples/lsm303agr/main.go)
+
+### micro:bit heart
+
+```golang
+package main
+
+import (
+	"image/color"
+	"time"
+
+	"tinygo.org/x/drivers/microbitmatrix"
+)
+
+func main() {
+	display := microbitmatrix.New()
+	display.Configure(
+		microbitmatrix.Config{},
+	)
+	display.DisableAll()
+	display.ClearDisplay()
+
+	heart := [5][5]int8{
+		{0, 1, 0, 1, 0},
+		{1, 1, 1, 1, 1},
+		{1, 1, 1, 1, 1},
+		{0, 1, 1, 1, 0},
+		{0, 0, 1, 0, 0},
+	}
+
+	c := color.RGBA{255, 255, 255, 0}
+
+	for row := int16(0); row < 5; row++ {
+		for col := int16(0); col < 5; col++ {
+			if heart[row][col] == 1 {
+				display.SetPixel(col, row, c)
+			}
+		}
+	}
+
+	for {
+		// show heart forever
+		display.Display()
+		time.Sleep(10 * time.Millisecond)
+	}
+}
+```
+
 ## Rust
 
 [Project Homepage: _Discover Microcontrollers Using Rust_](https://docs.rust-embedded.org/discovery/microbit/)
@@ -102,3 +161,4 @@ fn main() -> ! {
         timer.delay_ms(1000_u32);
     }
 }
+```
