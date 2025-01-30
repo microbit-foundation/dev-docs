@@ -47,8 +47,8 @@ Below is the pinmap and allocation of the nRF52833, more information is availabl
 | P0.03            | RING1               | N                        | P1                  |
 | P0.04            | RING2               | N                        | P2                  |
 | P0.05            | MIC_IN              | N                        |                     |
-| P0.06            | UART_INT_RX         | PTA18 / P0.03            |                     |
-| P1.08            | UART_INT_TX         | PTA19 / P0.02            |                     |
+| P0.06            | UART_INT_TX         | PTA18 / P0.03            |                     |
+| P1.08            | UART_INT_RX         | PTA19 / P0.02            |                     |
 | P0.08            | I2C_INT_SCL         | PTC1 / P0.29             |                     |
 | P0.10            | GPIO1               | N                        | P8                  |
 | P0.09            | GPIO2               | N                        | P9                  |
