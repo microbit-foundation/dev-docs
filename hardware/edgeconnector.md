@@ -143,7 +143,7 @@ This table shows various data about each of the pins on the micro:bit edge conne
 | s/w       | the name that is used in the DAL runtime software
 | functions | all possible functions, **BOLD** for default. brackets indicate use with caution
 | dir       | the startup conditions (direction) when the micro:bit boots: Input or Output
-| pull?     | pull up or down resistors. e10Mu means an external 10Mohm pullup, i12Kd means an internal 12K pull down.
+| pull?     | pull resistors: i12Kd = processor internal 12Kohm configurable pull-up/down/none; e10Mu = external 10Mohm fixed pull-up.
 
 #### Notes
 
@@ -153,7 +153,7 @@ This table shows various data about each of the pins on the micro:bit edge conne
 
 3. The DAL DynamicPWM driver (and the underlying Nordic timer peripherals) dictate that PWM can only be active on 3 pins simultaneously. Any attempt to allocate a 4th pin for PWM use, will disable one of the existing PWM pins.
 
-4. Digital input pins are by default configured with internal pull down resistors when the pins are configured by the DAL.
+4. A digital input pin's internal pull resistor is configured by default to pull-down by the DAL/CODAL.
 
 5. Functions in brackets should be used with caution, as other features of the device may become unstable, degraded or non operational, if their normal use is not disabled in the software first.
 
