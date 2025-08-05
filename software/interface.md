@@ -143,7 +143,7 @@ The HID endpoint is for a CMSIS-DAP channel. This can most easily be used [with 
 
 The [WebUSB API](https://developers.google.com/web/updates/2016/03/access-usb-devices-on-the-web) facilitates communicating with USB devices from the Browser.
 
-It has been supported in DAPLink since version **0243**, so if you have an older micro:bit, you will need to [update the DAPLink firmware](https://microbit.org/get-started/user-guide/firmware/).
+It has been supported in DAPLink since version **0247**, so if you have an older micro:bit, you will need to [update the DAPLink firmware](https://microbit.org/get-started/user-guide/firmware/).
 
 The API is currently available in [Chrome based browsers](https://caniuse.com/#feat=webusb) (Android, Chrome OS, Linux, macOS and Windows) and is supported in the MakeCode Editor and the Python Editor. This enables you to flash your micro:bit straight from the browser without the need to save the .hex file first, and use serial communication between the micro:bit and the editor.
 
