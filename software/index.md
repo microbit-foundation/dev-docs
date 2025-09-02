@@ -119,7 +119,7 @@ When you write an application for your micro:bit, other pieces of software are j
 
 - [DAL/CODAL]({{ "/software/runtime/" | relative_url }}) (sometimes called the runtime), written in C++ by Lancaster University. The DAL abstracts the facilities of the micro:bit into a common set of functions that can be used by all coding languages. The high level block functions in MakeCode map almost directly onto equivalent C/C++ calls in the runtime. MicroPython requires less use of the DAL.
 
-- [Arm Mbed]({{ "/sofrware/runtime/" | relative_url }}) The Arm Mbed SDK  provides standardised drivers for MCU peripherals and abstracts most of the low level hardware details of different MCUs, meaning that micro:bit software can be easily run on other hardware. This includes an abstraction for BLE, the Mbed BLE api.
+- [Arm Mbed]({{ "/software/runtime/" | relative_url }}) The Arm Mbed SDK  provides standardised drivers for MCU peripherals and abstracts most of the low level hardware details of different MCUs, meaning that micro:bit software can be easily run on other hardware. This includes an abstraction for BLE, the Mbed BLE api.
 
 - [Nordic nRF5 SDK]({{ "/software/runtime/#nordic-nrf5-sdk" | relative_url }}) Mbed itself builds on top of the Nordic nRF5 SDK, the component provided by Nordic to assist programmers in using their hardware.
 
