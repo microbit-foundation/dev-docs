@@ -30,7 +30,7 @@ A [Universal Hex JavaScript Library](https://github.com/microbit-foundation/micr
 
 ## Universal Hex Creator
 
-We have created a [Universal Hex Creator](../universal-hex-creator) tool, to easily create a .hex file that will support all micro:bit variants.
+We have created a [Universal Hex Creator]({{ "/software/universal-hex-creator" | relative_url }}) tool, to easily create a .hex file that will support all micro:bit variants.
 
 This tool is based on the [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex).
 
@@ -40,20 +40,20 @@ The Universal Hex format has been developed to ensure the best experience for us
 
 There may be cases where it is not possible to support both boards, for example an accessory that is designed only to target the V2 board variant. In these cases, to ensure the best user experience when flashing a hex file to any board variant, the file should always include an error message to signify board incompatibility to the user.
 
-We have created a [standalone error hex](/docs/software/assets/stand-alone-error-v1.hex) that can be combined with a V2 only hex to produce a Hex that will work on a V2 board, but error if used on a V1.
+We have created a [standalone error hex]({{ "/docs/software/assets/stand-alone-error-v1.hex" | relative_url }}) that can be combined with a V2 only hex to produce a Hex that will work on a V2 board, but error if used on a V1.
 
-[Download standalone error hex](/docs/software/assets/stand-alone-error-v1.hex){: .btn.sm-btn download}
+[Download standalone error hex]({{ "/docs/software/assets/stand-alone-error-v1.hex" | relative_url }}){: .btn.sm-btn download}
 
 This example shows the worst, best and acceptable (when support for V1 is impossible) cases for users. The best case is to provide a Universal Hex that supports all board variants.
-![Universal Hex error 1](/docs/software/assets/hex-compatibility-errors.png)
+![Universal Hex error 1]({{ "/docs/software/assets/hex-compatibility-errors.png" | relative_url }})
 
 These examples show the process of creating a Universal Hex. A V1 and V2 hex can be combined to produce a Universal Hex. If you can only support a V2 board, the standalone error can be combined with a V2 hex to produce a hex that will fail with an error on a V1 board, rather than failing silently.
 
 |Universal Hex format                                                 |V2 only Hex format                               |
 |-----------------------------------------------------------|-----------------------------------------------------------|
-| ![Universal Hex error 2](/docs/software/assets/uhex2.png) | ![Universal Hex error 3](/docs/software/assets/uhex1.png) |
+| ![Universal Hex error 2]({{ "/docs/software/assets/uhex2.png" | relative_url }}) | ![Universal Hex error 3]({{ "/docs/software/assets/uhex1.png" | relative_url }}) |
 
-If you are building .hex files for both board variants, you will need to use the respective toolchains for the DAL<span class="v1">V1</span> and CODAL<span class="v2">V2</span>. See more information on the [micro:bit runtime](../runtime/).
+If you are building .hex files for both board variants, you will need to use the respective toolchains for the DAL<span class="v1">V1</span> and CODAL<span class="v2">V2</span>. See more information on the [micro:bit runtime]({{ "/software/runtime/" | relative_url }}).
 
 ## Micropython
 

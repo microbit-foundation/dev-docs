@@ -15,11 +15,11 @@ The micro:bit presents itself as a USB disk when it is connected over USB, and c
 
 The **Interface MCU** is a **Nordic nRF52833/nRF52820** <span class="v2">V2.2x</span>, **Freescale KL27** <span class="v2">V2.00</span>, or **Freescale KL26** <span class="v1">V1</span>.
 
-The chip that developers' code runs on, and that all the peripherals are connected to is called the 'target MCU'. See the [Hardware](/hardware) page and the schematic for more details about how these two devices are connected.
+The chip that developers' code runs on, and that all the peripherals are connected to is called the 'target MCU'. See the [Hardware]({{ "/hardware" | relative_url }}) page and the schematic for more details about how these two devices are connected.
 
 The **Target MCU** is a **Nordic Semiconductor nRF52833** <span class="v2">V2</span> or **Nordic Semiconductor nRF51822** <span class="v1">V1</span>.
 
-![v2 interface](/docs/software/assets/v2-interface.png)
+![v2 interface]({{ "/docs/software/assets/v2-interface.png" | relative_url }})
 
 The target and interface MCUs are connected by these interfaces:
 
@@ -27,11 +27,11 @@ The target and interface MCUs are connected by these interfaces:
 
 - UART for sending messages between the two devices. In practice, the UART from the target MCU is passed through directly to the PC over USB.
 
-- <span class="v2">V2</span> I2C using a custom [protocol](/software/spec-i2c-protocol/).
+- <span class="v2">V2</span> I2C using a custom [protocol]({{ "/software/spec-i2c-protocol/" | relative_url }}).
 
 ### Reference design
 
-On the [reference design](/hardware/reference-design) the interface circuit is clearly separated from the main micro:bit circuits so that you can do the following things:
+On the [reference design]({{ "/hardware/reference-design" | relative_url }}) the interface circuit is clearly separated from the main micro:bit circuits so that you can do the following things:
 
 - Build a board without the interface circuitry and use another debugger to program that over SWD.
 
@@ -58,20 +58,20 @@ This table shows the device revision and which DAPLink Bootloader and Interface 
 
 | Board revision | Bootloader | Interface | Download
 | -------------- | ---------- | --------- | --------
-| 1.3            | 0234       | 0234      | [0234](/docs/software/assets/DAPLink-factory-release/0234_kl26z_microbit_0x8000.hex){: .btn.sm-btn .download}
-| 1.3b           | 0234       | 0241      | [0241](/docs/software/assets/DAPLink-factory-release/0241_kl26z_microbit_0x8000.hex){: .btn.sm-btn .download}
-| 1.5            | 0243       | 0249      | [0249](/docs/software/assets/DAPLink-factory-release/0249_kl26z_microbit_0x8000.hex){: .btn.sm-btn .download}
-| 2.00           | 0255       | 0255      | [0255](/docs/software/assets/DAPLink-factory-release/0255_kl27z_microbit_0x8000.hex){: .btn.sm-btn .download}
-| 2.20           | 0256       | 0256      | [0256](/docs/software/assets/DAPLink-factory-release/0256_nrf52820_microbit_if_crc_5dd23001a7_gcc.hex){: .btn.sm-btn .download}
-| 2.21           | 0257       | 0257      | [0257](/docs/software/assets/DAPLink-factory-release/0257_nrf52820_microbit_if_crc_c782a5ba90_gcc.hex){: .btn.sm-btn .download}
+| 1.3            | 0234       | 0234      | [0234]({{ "/docs/software/assets/DAPLink-factory-release/0234_kl26z_microbit_0x8000.hex" | relative_url }}){: .btn.sm-btn .download}
+| 1.3b           | 0234       | 0241      | [0241]({{ "/docs/software/assets/DAPLink-factory-release/0241_kl26z_microbit_0x8000.hex" | relative_url }}){: .btn.sm-btn .download}
+| 1.5            | 0243       | 0249      | [0249]({{ "/docs/software/assets/DAPLink-factory-release/0249_kl26z_microbit_0x8000.hex" | relative_url }}){: .btn.sm-btn .download}
+| 2.00           | 0255       | 0255      | [0255]({{ "/docs/software/assets/DAPLink-factory-release/0255_kl27z_microbit_0x8000.hex" | relative_url }}){: .btn.sm-btn .download}
+| 2.20           | 0256       | 0256      | [0256]({{ "/docs/software/assets/DAPLink-factory-release/0256_nrf52820_microbit_if_crc_5dd23001a7_gcc.hex" | relative_url }}){: .btn.sm-btn .download}
+| 2.21           | 0257       | 0257      | [0257]({{ "/docs/software/assets/DAPLink-factory-release/0257_nrf52820_microbit_if_crc_c782a5ba90_gcc.hex" | relative_url }}){: .btn.sm-btn .download}
 
 This table shows the latest DAPLink release for each board version that has been fully tested by the Foundation:
 
 | Board revision | Bootloader | Interface | Download
 | -------------- | ---------- | --------- | --------
-| 1.*            | 02**       | 0253      | [0253](/docs/software/assets/DAPLink-factory-release/0253_kl26z_microbit_0x8000.hex){: .btn.sm-btn .download}
-| 2.00           | 0255       | 0255      | [0255](/docs/software/assets/DAPLink-factory-release/0255_kl27z_microbit_0x8000.hex){: .btn.sm-btn .download}
-| 2.2*           | 0257       | 0257      | [0257](/docs/software/assets/DAPLink-factory-release/0257_nrf52820_microbit_if_crc_c782a5ba90_gcc.hex){: .btn.sm-btn .download}
+| 1.*            | 02**       | 0253      | [0253]({{ "/docs/software/assets/DAPLink-factory-release/0253_kl26z_microbit_0x8000.hex" | relative_url }}){: .btn.sm-btn .download}
+| 2.00           | 0255       | 0255      | [0255]({{ "/docs/software/assets/DAPLink-factory-release/0255_kl27z_microbit_0x8000.hex" | relative_url }}){: .btn.sm-btn .download}
+| 2.2*           | 0257       | 0257      | [0257]({{ "/docs/software/assets/DAPLink-factory-release/0257_nrf52820_microbit_if_crc_c782a5ba90_gcc.hex" | relative_url }}){: .btn.sm-btn .download}
 
 ### Beta releases
 
@@ -86,8 +86,8 @@ This DAPLink beta release for <span class="v2">V2.00</span> and <span class="v2"
 
 | Board revision | Interface  | Download
 | -------------- | ---------- | --------
-| 2.00           | 0258-beta3 | [0258-beta3 for V2.00](/docs/software/assets/daplink-beta-releases/0258-beta3_kl27z_microbit_if_crc_0004198_gcc.hex){: .btn.sm-btn .download}
-| 2.2*           | 0258-beta3 | [0258-beta3 for V2.2*](/docs/software/assets/daplink-beta-releases/0258-beta3_nrf52820_microbit_if_crc_0004198_gcc.hex){: .btn.sm-btn .download}
+| 2.00           | 0258-beta3 | [0258-beta3 for V2.00]({{ "/docs/software/assets/daplink-beta-releases/0258-beta3_kl27z_microbit_if_crc_0004198_gcc.hex" | relative_url }}){: .btn.sm-btn .download}
+| 2.2*           | 0258-beta3 | [0258-beta3 for V2.2*]({{ "/docs/software/assets/daplink-beta-releases/0258-beta3_nrf52820_microbit_if_crc_0004198_gcc.hex" | relative_url }}){: .btn.sm-btn .download}
 
 Instructions showing how to identify your micro:bit and how to update the DAPLink firmware can be found in the [microbit.org firmware page](https://microbit.org/get-started/user-guide/firmware/).
 
@@ -155,7 +155,7 @@ The API is currently available in [Chrome based browsers](https://caniuse.com/#f
 
 You can also flash a full DAPLink image to the <span class="v2">V2</span> device using the KL27 internal bootloader. This will update both interface and bootloader.
 
-[Download latest full DAPLink image](/docs/software/assets/DAPLink-factory-release/kl27z_bl_0255_if_0255_microbit_full_image.bin){: .btn.sm-btn download}
+[Download latest full DAPLink image]({{ "/docs/software/assets/DAPLink-factory-release/kl27z_bl_0255_if_0255_microbit_full_image.bin" | relative_url }}){: .btn.sm-btn download}
 
 You will need to register for and download the [**Bootloader Host Application (blhost)**](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuboot-mcu-bootloader-for-nxp-microcontrollers:MCUBOOT?&tab=Design_Tools_Tab) from NXP. In the `/bin` folder you will find executables for your operating system.
 
@@ -165,7 +165,7 @@ You will need to register for and download the [**Bootloader Host Application (b
 
 To enter this mode we need to ground TP1 during board power up, this is the BOOTMODE pin in the KL27. To do that, connect with a wire (or something like a paper-clip) from TP1 (the red circle) with any ground point (any black square) as you insert the USB cable into the device.
 
-![TP1](/docs/software/assets/TP1.png){: width: 300px}
+![TP1]({{ "/docs/software/assets/TP1.png" | relative_url }}){: width: 300px}
 
 ### Bootloader CLI tool
 

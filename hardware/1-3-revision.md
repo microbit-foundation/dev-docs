@@ -15,11 +15,11 @@ lang: en
 * TOC
 {:toc}
 
-![1.3 diagram](/docs/hardware/assets/microbit-overview.png)
+![1.3 diagram]({{ "/docs/hardware/assets/microbit-overview.png" | relative_url }})
 
 ## Hardware block diagram
 
-![1.3 block](/docs/hardware/assets/v1-block.svg)
+![1.3 block]({{ "/docs/hardware/assets/v1-block.svg" | relative_url }})
 
 ## Getting Started With the micro:bit Hardware
 
@@ -29,9 +29,9 @@ The interface processor does not connect to any of the micro:bit peripherals.
 
 Two key pieces of information to help understand the internals of the micro:bit are:
 
-- The [schematics](../schematic), which shows the detailed component data and connectivity of the device.
+- The [schematics]({{ "/hardware/schematic/" | relative_url }}), which shows the detailed component data and connectivity of the device.
 
-- The [reference design](../reference-design), which is a complete module design of a compatible micro:bit, and is designed to be a starting point for anyone interested in understanding the micro:bit or designing their own variant.
+- The [reference design]({{ "/hardware/reference-design/" | relative_url }}), which is a complete module design of a compatible micro:bit, and is designed to be a starting point for anyone interested in understanding the micro:bit or designing their own variant.
 
 ## Hardware Description
 
@@ -48,7 +48,7 @@ There is an on-board 2.4GHz radio engine used to provide Bluetooth capabilities 
 | RAM           | 16KB
 | Speed         | 16MHz
 | Debug         | SWD, jlink/OB
-| More Info     | [here](/software)
+| More Info     | [here]({{ "/software" | relative_url }})
 
 ### Bluetooth Wireless Communication
 
@@ -65,7 +65,7 @@ This allows the micro:bit to communicate with a wide range of Bluetooth devices,
 | Role          | [GAP Peripheral](https://bluetooth-developer.blogspot.com/2016/07/microbit-and-bluetooth-roles.html)
 | Congestion avoidance | Adaptive Frequency Hopping
 | Profiles      | 1 [BBC micro:bit profile](https://lancaster-university.github.io/microbit-docs/ble/profile/)
-| More Info     | [here](/bluetooth)
+| More Info     | [here]({{ "/bluetooth" | relative_url }})
 
 ### Low Level Radio Communications
 
@@ -179,10 +179,10 @@ The edge connector brings out many of the GPIO circuits of the application proce
 ||        3 may be assigned to an optional SPI communications interface
 ||        3 may be assigned for up to 3 simultaneous touch sensing inputs
 |ADC resolution | 10 bit (0..1023)
-| Edge Connector| [Edge connector](/hardware/edgeconnector/)
+| Edge Connector| [Edge connector]({{ "/hardware/edgeconnector/" | relative_url }})
 | Pitch | 1.27mm, 80 way double sided.
 | Pads| 5 pads, with 4mm holes
-| More Info | [here](/hardware/edgeconnector/)
+| More Info | [here]({{ "/hardware/edgeconnector/" | relative_url }})
 
 ### Power Supply
 
@@ -196,7 +196,7 @@ Power to the micro:bit may be provided via the USB connection, via the interface
 | Battery connector | JST X2B-PH-SM4-TB
 | Battery current | TBC
 | Max current provided via edge connector | 90mA
-| More Info | [here](../powersupply)
+| More Info | [here]({{ "/hardware/powersupply/" | relative_url }})
 
 ### Interface
 
@@ -210,7 +210,7 @@ The interface chip handles the USB connection, and is used for flashing new code
 | RAM           | 16KB
 | Speed         | 16MHz
 | Debug capabilities | SWD
-| More Info | [here](/software/daplink-interface/)
+| More Info | [here]({{ "/software/daplink-interface/" | relative_url }})
 
 ### USB Communications
 
@@ -225,7 +225,7 @@ The micro:bit has an on-board USB communications stack, that is built into the f
 |    | [Communications Device Class (CDC)](https://en.wikipedia.org/wiki/USB_communications_device_class)
 |    | [CMSIS-DAP HID & WinUSB](https://arm-software.github.io/CMSIS_5/DAP/html/index.html)
 |    | [WebUSB CMSIS-DAP HID](https://wicg.github.io/webusb/)
-| More Info | [here](/software/daplink-interface/)
+| More Info | [here]({{ "/software/daplink-interface/" | relative_url }})
 
 ### Debugging
 
@@ -249,9 +249,9 @@ We have some [nice 2D and 3D CAD drawings and models of the micro:bit](https://g
 
 ## Further information
 
-- [Schematic](../schematic)
+- [Schematic]({{ "/hardware/schematic" | relative_url }})
 
-- [Reference Design](../reference-design)
+- [Reference Design]({{ "/hardware/reference-design" | relative_url }})
 
 - [Nordic NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
 
@@ -275,4 +275,4 @@ We have some [nice 2D and 3D CAD drawings and models of the micro:bit](https://g
 
 - [Arm Mbed overview](https://www.mbed.com/en/about-mbed/what-mbed/)
 
-- [Fritzing diagram, contributed by Kok Ho Huen](/docs/hardware/assets/Microbit.fzpz.zip)
+- [Fritzing diagram, contributed by Kok Ho Huen]({{ "/docs/hardware/assets/Microbit.fzpz.zip" | relative_url }})

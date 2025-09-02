@@ -13,8 +13,8 @@ lang: en
 Today we’re [announcing a new version of the BBC micro:bit](https://microbit.org/new-microbit/), adding a speaker, a microphone and the CPU power to run AI and Machine Learning workloads. With these additional capabilities, we are opening up the world of AI and ML to the same collaborative design and innovation that led to the original micro:bit’s success. 
 
 This article is a more technical companion to the [news over at microbit.org](https://microbit.org/new-microbit/). 
-
-![micro:bit V2 image](/docs/blog/assets/latest-revision/microbit-v2-tech-site.png){: width="600"}  
+"
+![micro:bit V2 image]({{ "/docs/blog/assets/latest-revision/microbit-v2-tech-site.png" | relative_url }}){: width="600"}  
 
 Although the latest micro:bit isn’t available to buy yet, we’re talking about it now because the micro:bit isn’t about one organisation, or the official editors, or even one device.
 
@@ -34,7 +34,7 @@ At the Micro:bit Educational Foundation we are working with Lancaster University
 
 ## We’re building this together, not alone
 
-![A wall of micro:bit accessories](/docs/blog/assets/latest-revision/accessory-wall-bett.jpg){: width="600"}
+![A wall of micro:bit accessories]({{ "/docs/blog/assets/latest-revision/accessory-wall-bett.jpg" | relative_url }}){: width="600"}
 *The wall of accessories displayed at BETT*
 
 We recognise and support the huge contribution the wider micro:bit ecosystem makes to our community, and so we are making available all [key technical information about the new micro:bit](https://support.microbit.org/support/solutions/articles/19000119052-details-of-micro-bit-v2), and open source tools to make it easy to support in advance of the device being available to users.
@@ -49,11 +49,11 @@ We’ve compiled all this information on an updated version of tech.microbit.org
 
 ## Creating code for the latest micro:bit
 
-The latest micro:bit supports all features of the original version so there are many cases where a user won’t need to distinguish between the devices; every tutorial or programme that already exists today is supported on the latest hardware. However, as the machine code that runs on the two devices is different, the latest micro:bit supports a new kind of hex.  We’re calling it ‘[universal hex](/software/hex-format/)’: this contains the machine code for both versions of the micro:bit. Thanks to the fantastic support of NXP who have worked on [DAPLink](https://github.com/ARMmbed/DAPLink), the Arm project that enables the micro:bit USB interface, the latest micro:bit is able to choose which code it should use from the universal hex. The files are designed so the original micro:bits do not need any update to use them.
-![Creation of a Universal Hex](/docs/blog/assets/latest-revision/uhex2.png)
+The latest micro:bit supports all features of the original version so there are many cases where a user won’t need to distinguish between the devices; every tutorial or programme that already exists today is supported on the latest hardware. However, as the machine code that runs on the two devices is different, the latest micro:bit supports a new kind of hex.  We’re calling it ‘[universal hex]({{ "/software/hex-format/" | relative_url }})’: this contains the machine code for both versions of the micro:bit. Thanks to the fantastic support of NXP who have worked on [DAPLink](https://github.com/ARMmbed/DAPLink), the Arm project that enables the micro:bit USB interface, the latest micro:bit is able to choose which code it should use from the universal hex. The files are designed so the original micro:bits do not need any update to use them.
+![Creation of a Universal Hex]({{ "/docs/blog/assets/latest-revision/uhex2.png" | relative_url }})
 
 To make the experience of developing programs for these universal hexes as seamless as possible we’ve deepened our collaboration with Arm, Lancaster University and [Microsoft Research](https://www.microsoft.com/en-us/research/project/the-bbc-microbit-and-microsoft/), who were [co-creators of the original micro:bit,](https://www.lancaster.ac.uk/news/articles/2016/lancaster-university-helps-bbc-get-kids-coding/). Because of the open source nature of [Lancaster’s CODAL](https://github.com/lancaster-university/codal), the evolution of the original microbit-dal, we had a ready platform to make the latest micro:bit work. We have also included a full compatibility layer for [microbit-dal](https://github.com/lancaster-university/microbit-dal), so that existing projects and environments can be easily recompiled to work on the latest board. On top of the careful compatibility work there’s plenty of exciting new features designed for the latest hardware, like an advanced SoundExpressions synthesiser and audio pipeline architecture. 
-![micro:bit Software Architecture with CODAL](/docs/blog/assets/latest-revision/software-overview-v2.svg){: width="600"}
+![micro:bit Software Architecture with CODAL]({{ "/docs/blog/assets/latest-revision/software-overview-v2.svg" | relative_url }}){: width="600"}
 
 MakeCode, MicroPython and Scratch are using CODAL to support the new device, and we recommend that anyone building software to run on the micro:bit do the same to ensure consistent experience across micro:bit editors. This will also ensure that as new features get added they can be incorporated easily and made available to users (it’s easy to forget that micro:bit radio wasn’t in the original micro:bit release!)
 
@@ -63,7 +63,7 @@ When it launched in 2015, one of the key goals of the original micro:bit was to 
 
 Part of ensuring this was putting the same hardware that real developers were using at the time into the hands of students. This is what has enabled some of the more incredible uses of the micro:bit: [Handwriting recognition using an optical mouse sensor](https://www.cs.ox.ac.uk/teaching/studentprojects/630.html); [use in a BLE mesh](https://docs.zephyrproject.org/latest/samples/bluetooth/mesh_demo/README.html), a [presentation remote](https://os.mbed.com/teams/microbit/code/microbit_presenter/), or a [custom piece of assistive technology.](https://hackaday.io/project/26143-handshake) 
 
-![Creation of a Universal Hex](/docs/blog/assets/latest-revision/nrf52833.jpg){: width="600"}
+![Creation of a Universal Hex]({{ "/docs/blog/assets/latest-revision/nrf52833.jpg" | relative_url }}){: width="600"}
 
 With the latest micro:bit, we’re doing this again: the [nRF52833](https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52833) is a modern, exciting part recently released by Nordic, and being used across the industry for new designs. It’s capable of running machine learning workloads, and so opens up a new realm of possibilities, both for applications of the device, but especially for helping to expose and demonstrate what machine learning really is: not magic, but sufficiently advanced application of technology.
 
@@ -73,7 +73,7 @@ The original micro:bit elegantly demonstrated the technology in a phone (the scr
 
 Music and sound on the micro:bit were pioneered in MicroPython as part of the original community effort around the BBC micro:bit – not least thanks to Nicholas Tollervey and Mark Shannon for introducing things like the [speech synthesizer](https://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52833)! Now with the addition of a speaker to the latest micro:bit it is really coming into its own. If you connect headphones or an amplified speaker, you get even better quality sound. Just as the 5x5 display on the micro:bit is perfect for getting started, but a colour LCD is still a welcome way to extend your projects, the sound driver written by Lancaster University is capable of reproducing high quality sound on the edge connector. We don’t expect to see the end of crocodile clips connecting headphone jack sockets just yet!
 
-![micro:bit guitar](/docs/blog/assets/latest-revision/microbit-guitar.jpg){: width="600"}
+![micro:bit guitar]({{ "/docs/blog/assets/latest-revision/microbit-guitar.jpg" | relative_url }}){: width="600"}
 
 But beyond music, sound is the way many of us communicate. Our voice and our accent is part of our identity and personality. When adding ‘sound’ as a feature of the micro:bit we wanted to make sure we gave it a personality too. The careful thought put into the visual and structural elements of the micro:bit, led by Technology Will Save Us in 2015 showed how paying careful attention to design of a device had a huge impact its approachability, and the ease with which people could make an emotional connection to hardware. The sounds for the micro:bit learn from this, and are there to make the micro:bit’s voice friendly and approachable. We’ve been working on a synthesiser to make these amazing sounds, with lots of input from a sound designer to tune it and make it useful.
 
@@ -81,13 +81,13 @@ The microphone, like the microphones on a smart speaker or digital assistant, al
 
 ## Exploring AI and ML
 
-![Tensorflow Logo](/docs/blog/assets/latest-revision/tensorflow-logo.png){: width="300"}
+![Tensorflow Logo]({{ "/docs/blog/assets/latest-revision/tensorflow-logo.png" | relative_url }}){: width="300"}
 
 Within days of getting a device, Gordon Williams, lead developer of [Espruino](https://www.espruino.com/) had the micro:bit supported in their online platform. This allowed JavaScript programs to run on the device, including Espruino’s gesture recognition libraries that were originally designed for bangle.js and use Tensorflow Lite. Unlike the "gestures" you might be used to on the micro:bit, like "shake", this demo allows you to train a machine learning model to recognise any gestures you can collect data for - it takes recordings of the gestures being performed, and builds a model that can recognise them. This means you can have much more complex, subtle gestures, and even customise them for yourself or something you’ve attached the micro:bit to.
 
 [Edge Impulse](https://www.edgeimpulse.com/), working similarly fast, took a video recording of each member of the micro:bit team saying “micro:bit” three times (what better way to conclude the weekly team meeting?) and used the Edge Impulse cloud service to create a model that could recognise the word “micro:bit” being said. [You can read more about this demo here](https://www.edgeimpulse.com/blog/voice-activated-microbit), but it clearly shows the possibility of training micro:bits to recognise unique sounds!
 
-![Edge Impulse visualisation](/docs/blog/assets/latest-revision/edge-impulse.png)
+![Edge Impulse visualisation]({{ "/docs/blog/assets/latest-revision/edge-impulse.png" | relative_url }})
 
 ## What’s next?
 

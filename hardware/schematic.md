@@ -21,7 +21,7 @@ The micro:bit <span class="v1">V1.3</span> and  <span class="v1">V1.5</span> sch
 
 The micro:bit  <span class="v2">V2</span> schematic is available from the Micro:bit Educational Foundation [microbit-v2-hardware repository](https://github.com/microbit-foundation/microbit-v2-hardware).
 
-If you're looking to make something of your own based on the micro:bit, you might prefer to use our ['Reference Design'](/hardware/reference-design/) which is based on a radio module and has space on the layout for you to add your own components.
+If you're looking to make something of your own based on the micro:bit, you might prefer to use our ['Reference Design']({{ "/hardware/reference-design/" | relative_url }}) which is based on a radio module and has space on the layout for you to add your own components.
 
 ## Schematics & BOM
 
@@ -101,7 +101,7 @@ The interface processor does not have any connection to the GPIO pins on the mic
 
 There is one combined motion sensor IC on the micro:bit, that contains an accelerometer and a magnetometer. The accelerometer measures acceleration in 3 axes, and the magnetometer can be used as a compass, as well as a magnetic field detector.
 
-The device is connected to the application processor [I2C bus](../i2c/), and for the <span class="v1">V1</span> revision this [I2C bus is also shared](../i2c-shared/) to two pins on the edge connector. I2C pull-up resistors are pre-fitted on the board.
+The device is connected to the application processor [I2C bus]({{ "/hardware/i2c/" | relative_url }}), and for the <span class="v1">V1</span> revision this [I2C bus is also shared]({{ "/hardware/i2c-shared/" | relative_url }}) to two pins on the edge connector. I2C pull-up resistors are pre-fitted on the board.
 
 In <span class="v2">V2</span> there is a combined open drain, active low, interrupt signal (`COMBINED_SENSOR_INT`) to the application processor for the motion sensors and the KL27. Any device can asset this signal and the application processor has to query the individual devices to locate the origin.
 
@@ -131,9 +131,9 @@ Code is loaded into this processor via the interface processor.
 
 Communications via USB serial is done via the interface processor.
 
-All GPIO pins on the [edge connector](../edgeconnector/) are serviced by this application processor.
+All GPIO pins on the [edge connector]({{ "/hardware/edgeconnector/" | relative_url }}) are serviced by this application processor.
 
-All [bluetooth](../../bluetooth) features are provided by a SoftDevice stack loaded into this processor.
+All [bluetooth]({{ "/bluetooth" | relative_url }}) features are provided by a SoftDevice stack loaded into this processor.
 
 The nRF52<span class="v2">V2</span> features additional NFC functionality on P0.09(NFC1) and P0.10(NFC2) that is disabled by default, but can be configured using the [nRF5SDK](https://www.nordicsemi.com/Software-and-Tools/Software/nRF5-SDK).
 
@@ -164,29 +164,29 @@ The specific dimensions of the board are:
 
 ## Assembly Diagram
 
-The following image of the <span class="V2">V2</span> revision is taken from the [micro:bit V2 assembly diagram](/docs/hardware/assets/Microbit_V2_Assembly.pdf) provided by Avid.
+The following image of the <span class="V2">V2</span> revision is taken from the [micro:bit V2 assembly diagram]({{ "/docs/hardware/assets/Microbit_V2_Assembly.pdf" | relative_url }}) provided by Avid.
 
-![micro:bit assembly front](/docs/hardware/assets/microbit-v2-assembly-front.png)
+![micro:bit assembly front]({{ "/docs/hardware/assets/microbit-v2-assembly-front.png" | relative_url }})
 
 ## Test point map
 
 The rear view of the device has been adapted to highlight the test points and describe their purpose.
 
-![micro:bit assembly back](/docs/hardware/assets/microbit-v2-assembly-back.png)
+![micro:bit assembly back]({{ "/docs/hardware/assets/microbit-v2-assembly-back.png" | relative_url }})
 
 ### Exposed Test Points
 
 Test Point | Purpose
 ---------- | -------
-TP1 | U5 Bootmode - [used to enter the ROM bootloader on the KL27Z](../../software/daplink-interface/#updating-the-daplink-full-image-v200-only)
+TP1 | U5 Bootmode - [used to enter the ROM bootloader on the KL27Z]({{ "/software/daplink-interface/#updating-the-daplink-full-image-v200-only" | relative_url }})
 TP7 | USB D+
 TP8 | USB D-
 TP17 | Access to Pin 1 on Battery connector
 TP19 | Access to VBUS line on USB Connector
 TP20 | Access for debugging internal I2C bus - SCL
 TP21 | Access for debugging internal I2C bus - SDA
-TP9 | VREG - [Actually the power rounded rectangular pad](../../accessories/making-accessories/#battery-pads)
-TP10 | GND - [Actually the GND rounded rectangular pad](../../accessories/making-accessories/#battery-pads)
+TP9 | VREG - [Actually the power rounded rectangular pad]({{ "/accessories/making-accessories/#battery-pads" | relative_url }})
+TP10 | GND - [Actually the GND rounded rectangular pad]({{ "/accessories/making-accessories/#battery-pads" | relative_url }})
  
 ### Covered test points (Solder mask to be removed to access test point)
 
@@ -203,7 +203,7 @@ TP5 | VREG - additional VREG, this is connected to TP9
 
 ## Further information
 
-- [micro:bit V2 assembly diagram](/docs/hardware/assets/Microbit_V2_Assembly.pdf)
+- [micro:bit V2 assembly diagram]({{ "/docs/hardware/assets/Microbit_V2_Assembly.pdf" | relative_url }})
 
 - [KL27 datasheet](https://www.nxp.com/docs/en/data-sheet/KL27P64M48SF6.pdf)
 

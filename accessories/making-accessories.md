@@ -14,14 +14,14 @@ A [list of available accessories](https://microbit.org/buy/accessories/) is main
 
 ## Using the Edge Connector
 
-The micro:bit [card edge connector](/hardware/edgeconnector), commonly referred to as the 'edge connector' or the 'pins', is compatible with a standard 1.27mm, 2x40 edge connector socket.
+The micro:bit [card edge connector]({{ "/hardware/edgeconnector" | relative_url }}), commonly referred to as the 'edge connector' or the 'pins', is compatible with a standard 1.27mm, 2x40 edge connector socket.
 
 Where possible your accessory design should implement this socket, making it simple for your users to plug in and remove the micro:bit board.
 
-There are [limitations to the current that can be drawn from the micro:bit](/hardware/powersupply), accessories must be designed carefully to ensure they do not damage the micro:bit, or that the micro:bit cannot damage them.
+There are [limitations to the current that can be drawn from the micro:bit]({{ "/hardware/powersupply" | relative_url }}), accessories must be designed carefully to ensure they do not damage the micro:bit, or that the micro:bit cannot damage them.
 
-- [micro:bit edge connector and pinout](/hardware/edgeconnector)
-- [powering accessories from the micro:bit](/hardware/powersupply)
+- [micro:bit edge connector and pinout]({{ "/hardware/edgeconnector" | relative_url }})
+- [powering accessories from the micro:bit]({{ "/hardware/powersupply" | relative_url }})
 
 ### V2 revision
 
@@ -31,7 +31,7 @@ The edge connector on the <span class="V2">V2</span> board revision is backwards
 
 There are two rounded rectangular pads on the back of the micro:bit. These allow you to connect a battery holder via a mechanism other than the JST connector.
 
-![Picture of the two rounded rectangular pads](/docs/accessories/assets/making-accessories-d7c25.png)
+![Picture of the two rounded rectangular pads]({{ "/docs/accessories/assets/making-accessories-d7c25.png" | relative_url }})
 
 The upper pad is 0V or GND and the lower pad is 3V.
 

@@ -11,7 +11,7 @@ lang: en
 
 ## Use of the I2C bus
 
-The I2C bus for the latest revision of the micro:bit separates the I2C signals into Internal and External use. The [previous revisions share the I2C bus](../i2c-shared/) with the Edge connector and the target MCU.
+The I2C bus for the latest revision of the micro:bit separates the I2C signals into Internal and External use. The [previous revisions share the I2C bus]({{ "/hardware/i2c-shared/" | relative_url }}) with the Edge connector and the target MCU.
 
 The internal signals run to the target Nordic chip and communicate with the motion sensor and  interface chip.
 
@@ -19,7 +19,7 @@ The external lines run to the edge connector and can be used for accessories.
 
 ### I2C block diagram
 
-![I2C block](/docs/hardware/assets/i2c-diagram.png)
+![I2C block]({{ "/docs/hardware/assets/i2c-diagram.png" | relative_url }})
 
 ### Table of addresses used
 
@@ -28,7 +28,7 @@ The external lines run to the edge connector and can be used for accessories.
 | motion sensor variant 1 (LSM303AGR)  | 0x19 (0x32/0x33) | 0x1E (0x3C/0x3D) | 0x70 (0xE0/0xE1) | 0x72 (0xE4/0xE5) |
 | motion sensor variant 2 (FXOS8700CQ) | 0x1F (0x3E/0x3F) | 0x1F (0x3E/0x3F) | 0x70 (0xE0/0xE1) | 0x72 (0xE4/0xE5) |
 
-While the micro:bit <span class="v2">V2</span> has a dedicated bus for the on-board I2C peripherals, the micro:bit <span class="v1">V1</span> shares the same bus for on-board and external I2C devices. Please check the [V1 shared bus](../i2c-shared/) documentation to check the reserved I2C addresses.
+While the micro:bit <span class="v2">V2</span> has a dedicated bus for the on-board I2C peripherals, the micro:bit <span class="v1">V1</span> shares the same bus for on-board and external I2C devices. Please check the [V1 shared bus]({{ "../i2c-shared/" | relative_url }}) documentation to check the reserved I2C addresses.
 
 ### Table of address used by micro:bit accessories (please edit)
 

@@ -9,4 +9,4 @@ ref: hardware
 lang: en
 ---
 
-This page has been merged with [edge connector & micro:bit pinout](../edgeconnector)
+This page has been merged with [edge connector & micro:bit pinout]({{ "/edgeconnector" | relative_url }})

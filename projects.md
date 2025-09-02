@@ -21,7 +21,7 @@ If you’d like to see [research about the impact of micro:bit, head over to our
   {% if projects.post_filter contains 'projects' %}
   <div class="project-post">
   <h2>
-    <a href="{{ projects.permalink }}">
+    <a href="{{ projects.permalink | relative_url }}">
     {{ projects.title }}
     </a>
   </h2>
@@ -31,7 +31,7 @@ If you’d like to see [research about the impact of micro:bit, head over to our
     {% assign sortedCategories = projects.categories | sort %}
     {% for category in sortedCategories %}
         <span class="category">
-            <a href="/projects/category/{{ category }}" class="btn sm-btn">{{ category }}</a>
+            <a href="{{ "/projects/category/" | relative_url }}{{ category }}" class="btn sm-btn">{{ category }}</a>
         </span>
     {% endfor %}
   </div>

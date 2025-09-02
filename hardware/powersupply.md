@@ -16,7 +16,7 @@ Power to the micro:bit may be provided via:
 - USB connection via the interface chip (which has an on-board regulator)
 - A battery plugged into the JST connector.
 - The 3V and GND pins on the Edge Connector
-- The two [rounded rectangular pads](/docs/accessories/assets/making-accessories-d7c25.png) on the rear right of the board
+- The two [rounded rectangular pads]({{ "/docs/accessories/assets/making-accessories-d7c25.png" | relative_url }}) on the rear right of the board
 
 Power from the micro:bit can be provided by the 3V and GND pins to small external circuits.
 
@@ -89,16 +89,16 @@ Also, some USB battery packs will switch off automatically when the current draw
 When powered from a battery plugged into the top battery connector, the <span class="v1">V1</span> interface chip is not powered up, and the System LED will not be turned on. If your code does not display anything on the display, this might look like the micro:bit is not working, but it is.
 On micro:bit <span class="v2">V2</span> the battery power goes through the on-board regulator and powers the interface chip as well. If the micro:bit board is not in a sleep mode, the red LED (left of the USB connector) should be light up.
 
-Because the <span class="v1">V1</span> target chip is powered almost directly (there is only one BAT60 diode between the supply and the target nRF51 power rails), a fully charged **LiPoly battery** that is specified to reach 4.2V **will be give greater than the [3.6V maximum that the nRF51 can withstand**](#key-voltages)
+Because the <span class="v1">V1</span> target chip is powered almost directly (there is only one BAT60 diode between the supply and the target nRF51 power rails), a fully charged **LiPoly battery** that is specified to reach 4.2V **will give greater than the [3.6V maximum that the nRF51 can withstand](#key-voltages)**.
 
 There is further information about the [battery connection and use](https://support.microbit.org/solution/articles/19000013982-how-do-i-power-my-micro-bit-/en) in our knowledgebase.
 
 ### 3V Ring Powering
 
 The micro:bit may be powered from the 3V/GND rings on the edge connector.
-There are also two [rounded rectangular pads](/docs/accessories/assets/making-accessories-d7c25.png) on the far right of the back of the PCB that can be used to supply power (e.g. solderable pads for a 2xAAA holder that has wires or pins at one edge).
+There are also two [rounded rectangular pads]({{ "/docs/accessories/assets/making-accessories-d7c25.png" | relative_url }}) on the far right of the back of the PCB that can be used to supply power (e.g. solderable pads for a 2xAAA holder that has wires or pins at one edge).
 
-![Picture of the two rounded rectangular pads](/docs/accessories/assets/making-accessories-d7c25.png)
+![Picture of the two rounded rectangular pads]({{ "/docs/accessories/assets/making-accessories-d7c25.png" | relative_url }})
 
 The upper pad is 0V or GND and the lower pad is 3V.
 
@@ -110,9 +110,9 @@ When powering from the 3V ring or the rounded rectangular pads on the PCB, you s
 
 ### Power Supply Architecture V1
 
-The [schematic](/hardware/schematic/) shows the architecture of the power supply.
+The [schematic]({{ "/hardware/schematic/" | relative_url }}) shows the architecture of the power supply.
 Key points to note are that there are two BAT60A diodes, one from the 3.3V supply from the KL26/27 interface chip, and one from the external battery connector.
-Note that the 3V ring on the edge connector is V_TGT, which is the raw supply provided to all on-board chips, so this is why extra care should be taken when connecting directly to the 3V ring or the 3V [rounded rectangular pad](/docs/accessories/assets/making-accessories-d7c25.png).
+Note that the 3V ring on the edge connector is V_TGT, which is the raw supply provided to all on-board chips, so this is why extra care should be taken when connecting directly to the 3V ring or the 3V [rounded rectangular pad]({{ "/docs/accessories/assets/making-accessories-d7c25.png" | relative_url }}).
 
 The BAT60A devices have a low Vf rating, you can read about this in the [BAT60A datasheet](http://www.infineon.com/dgdl/Infineon-BAT60ASERIES-DS-v01_01-en.pdf?fileId=db3a304313d846880113def70c9304a9)
 

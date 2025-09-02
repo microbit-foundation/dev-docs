@@ -33,7 +33,7 @@ The micro:bit supports Bluetooth via a single, custom-developed, BBC micro:bit p
 
 A pre-compiled hex file is available to download for <span class="v2">V2</span> that enables all Bluetooth services. 
 
-[Bluetooth all services CODAL](/docs/bluetooth/assets/BLE_All_Services_CODAL_0-2-40-ABDLIMTU-P.hex){: .btn.sm-btn download}
+[Bluetooth all services CODAL]({{ "/docs/bluetooth/assets/BLE_All_Services_CODAL_0-2-40-ABDLIMTU-P.hex" | relative_url }}){: .btn.sm-btn download}
 
 The source for this can be found in the [microbit-v2-samples](https://github.com/lancaster-university/microbit-v2-samples/blob/master/source/samples/BLETest.cpp) repository.
 
@@ -43,9 +43,9 @@ The BBC micro:bit <span class="v1">V1</span> [Bluetooth profile is defined in th
 
 You can flash one of two pre-compiled Hex files to the micro:bit <span class="v1">V1</span> that enable bluetooth services. As Bluetooth is memory intensive, these are supplied as either 'without Magnetometer Service' or 'without DFU Service':
 
-[Without magnetometer](/docs/bluetooth/assets/BLE_All_Services_DAL_2-1-1-No-Mag.hex){: .btn.sm-btn download}
+[Without magnetometer]({{ "/docs/bluetooth/assets/BLE_All_Services_DAL_2-1-1-No-Mag.hex" | relative_url }}){: .btn.sm-btn download}
 
-[Without DFU](/docs/bluetooth/assets/BLE_All_Services_DAL_2-1-1-No-DFU.hex){: .btn.sm-btn download}
+[Without DFU]({{ "/docs/bluetooth/assets/BLE_All_Services_DAL_2-1-1-No-DFU.hex" | relative_url }}){: .btn.sm-btn download}
 
 The DAL contains the [C++ source for the BLE service files](https://github.com/lancaster-university/microbit-samples/blob/master/source/examples/bluetooth-services/main.cpp).
 
@@ -103,7 +103,7 @@ As an example, the tools at [ML Machine](https://ml-machine.org/) have been buil
 Note: on micro:bit V1, there is very limited memory available when also using the Bluetooth extension.
 
 Here is an example of how to add and use the Bluetooth extension in MakeCode:
-![adding makecode bluetooth extension](/docs/bluetooth/assets/add_bluetooth_extension.gif)
+![adding makecode bluetooth extension]({{ "/docs/bluetooth/assets/add_bluetooth_extension.gif" | relative_url }})
 
 ## Apps
 

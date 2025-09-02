@@ -32,9 +32,9 @@ This target depends on several other repositories:
 
 This has the advantage of not requiring an internet connection in order to code the micro:bit. Once the browser editor at [makecode.microbit.org](https://makecode.microbit.org) loads, it is cached on your computer.
 
-The MakeCode editors contain a copy of the micro:bit runtime [the DAL/CODAL](/software/runtime) which the blocks and javascript APIs reference.
+The MakeCode editors contain a copy of the micro:bit runtime [the DAL/CODAL]({{ "/software/runtime/" | relative_url }}) which the blocks and javascript APIs reference.
 
-When you press **Download** the compiler converts the code into a machine readable [hex file format](/software/hex-format).
+When you press **Download** the compiler converts the code into a machine readable [hex file format]({{ "/software/hex-format" | relative_url }}).
 
 When this .hex file is flashed onto the MICROBIT drive, the KL26/7 interface processor on the micro:bit copies it into the flash memory inside the nRF application processor and the code runs.
 
@@ -65,7 +65,7 @@ Users can [publish their own tutorials](https://makecode.com/writing-docs/user-t
 
 There are a variety of ways to get involved and interact:
 
-- Join the [micro:bit developer community on Slack](../../community/)
+- Join the [micro:bit developer community on Slack]({{ "/community/" | relative_url }})
 - Raise a [MakeCode issue or feature request](https://github.com/Microsoft/pxt-microbit/issues)
 - Ask the MakeCode development team on [MakeCode forum for micro:bit](https://forum.makecode.com/c/microbit/11)
 - Help [Translate MakeCode](https://makecode.com/translate) into your own language.
