@@ -10,7 +10,7 @@ lang: en
 
 A [list of available accessories](https://microbit.org/buy/accessories/) is maintained on the micro:bit website.
 
-[submit an accessory](https://form.jotformeu.com/83453273451355){: .btn.sm-btn}
+[Submit an accessory](https://form.jotformeu.com/83453273451355){: .btn.sm-btn}
 
 ## Using the Edge Connector
 

@@ -2,11 +2,11 @@
 
 # Microbit Developer Community Docs
 
-These docs form the content that is rendered into the [micro:bit Developer Commmunity site](http://tech.microbit.org)
+These docs form the content that is rendered into the [micro:bit Developer Commmunity site](https://tech.microbit.org)
 
 ## Using these docs
 
-These docs are made available under a Creative Commons license, to support the micro:bit community. Issues and Pull Requests are welcomed and encouraged. Please review the [Foundation community and brand guidelines](https://microbit.org/community/) and the [tech.microbit.org](http://tech.microbit.org) homepage for further details about contribution.
+These docs are made available under a Creative Commons license, to support the micro:bit community. Issues and Pull Requests are welcomed and encouraged. Please review the [Foundation community and brand guidelines](https://microbit.org/community/) and the [tech.microbit.org](https://tech.microbit.org) homepage for further details about contribution.
 
 ### Documentation development tools
 
