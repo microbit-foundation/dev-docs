@@ -16,11 +16,11 @@ lang: en
 * TOC
 {:toc}
 
-![Board overview 2.0](/docs/hardware/assets/microbit-overview-2.png)
+![Board overview 2.0]({{ "/docs/hardware/assets/microbit-overview-2.png" | relative_url }})
 
 ## Hardware block diagram
 
-![2.0 block](/docs/hardware/assets/v2-block.svg)
+![2.0 block]({{ "/docs/hardware/assets/v2-block.svg" | relative_url }})
 
 ## Getting Started With the micro:bit Hardware
 
@@ -30,9 +30,9 @@ An interface processor is connected to the application processor and manages com
 
 Two key pieces of information to help understand the internals of the micro:bit are:
 
-- The [schematics](../schematic), which shows the detailed component data and connectivity of the device.
+- The [schematics]({{ "/hardware/schematic/" | relative_url }}), which shows the detailed component data and connectivity of the device.
 
-- The [reference design](../reference-design), which is a complete module design of a compatible micro:bit, and is designed to be a starting point for anyone interested in understanding the micro:bit or designing their own variant.
+- The [reference design]({{ "/hardware/reference-design/" | relative_url }}), which is a complete module design of a compatible micro:bit, and is designed to be a starting point for anyone interested in understanding the micro:bit or designing their own variant.
 
 ## Hardware Description
 
@@ -51,7 +51,7 @@ There is an on-board 2.4GHz radio peripheral used to provide Bluetooth and custo
 | RAM           | 128KB
 | Speed         | 64MHz
 | Debug         | [SWD](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fps_nrf52833%2Fdif.html), [J-Link/OB](https://www.segger.com/products/debug-probes/j-link/models/j-link-lite/j-link-lite-cortex-m/)
-| More Info     | [Software](../../software), [nRF52 datasheet](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52833.html&cp=3_1)
+| More Info     | [Software]({{ "/software/" | relative_url }}), [nRF52 datasheet](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52833.html&cp=3_1)
 
 ### Bluetooth Wireless Communication
 
@@ -68,7 +68,7 @@ This allows the micro:bit to communicate with a wide range of Bluetooth devices,
 | Role          | [GAP Peripheral & GAP Central](https://bluetooth-developer.blogspot.com/2016/07/microbit-and-bluetooth-roles.html)
 | Congestion avoidance | Adaptive Frequency Hopping
 | Profiles      | [BBC micro:bit profile](https://lancaster-university.github.io/microbit-docs/ble/profile/)
-| More Info     | [Bluetooth](../../bluetooth)
+| More Info     | [Bluetooth]({{ "/bluetooth/" | relative_url }})
 
 ### Low level radio communications
 
@@ -198,7 +198,7 @@ The edge connector brings out many of the GPIO circuits of the application proce
 ||        3 may be assigned to an optional SPI communications interface
 ||        3 may be assigned for up to 3 simultaneous touch sensing inputs
 |ADC resolution | 10 bit (0..1023)
-| Edge Connector| [Edge connector](/hardware/edgeconnector/)
+| Edge Connector| [Edge connector]({{ "/hardware/edgeconnector/" | relative_url }})
 | Pitch | 1.27mm, 80 way double sided.
 | Pads| 5 pads, with 4mm holes
 
@@ -213,7 +213,7 @@ Power to the micro:bit may be provided via 5V on the USB connector, or via a 3V 
 | On-board Peripherals budget | 90mA
 | Battery connector | JST S2B-PH-SM4-TB
 | Max current provided via edge connector | 190mA
-| More Info | [Power supply](../powersupply)
+| More Info | [Power supply]({{ "/hardware/powersupply" | relative_url }})
 
 ### Interface
 
@@ -227,7 +227,7 @@ The interface chip handles the USB connection, and is used for flashing new code
 | RAM           | 16KB
 | Speed         | 48MHz
 | Debug capabilities | [SWD](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52820.html)
-| More Info | [DAPLink](/software/daplink-interface/), [KL27 reference manual (behind login)](https://www.nxp.com/webapp/Download?colCode=KL27P64M48SF6RM) [KL27 datasheet](https://www.nxp.com/docs/en/data-sheet/KL27P64M48SF6.pdf)
+| More Info | [DAPLink]({{ "/software/daplink-interface/" | relative_url }}), [KL27 reference manual (behind login)](https://www.nxp.com/webapp/Download?colCode=KL27P64M48SF6RM) [KL27 datasheet](https://www.nxp.com/docs/en/data-sheet/KL27P64M48SF6.pdf)
 
 ### USB communications
 
@@ -243,7 +243,7 @@ MICROBIT drive in order to load code into the application processor. It also all
 |    | [Communications Device Class (CDC)](https://en.wikipedia.org/wiki/USB_communications_device_class)
 |    | [CMSIS-DAP HID & WinUSB](https://arm-software.github.io/CMSIS_5/DAP/html/index.html)
 |    | [WebUSB CMSIS-DAP HID](https://wicg.github.io/webusb/)
-| More Info | [DAPLink](/software/daplink-interface/)
+| More Info | [DAPLink]({{ "/software/daplink-interface/" | relative_url }})
 
 ### Debugging
 
@@ -272,4 +272,4 @@ We have some [nice 2D and 3D CAD drawings and models of the micro:bit](https://g
 
 - [SPI 'specification'](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
 
-- [Fritzing diagram, contributed by Kok Ho Huen](/docs/hardware/assets/Microbit.fzpz.zip)
+- [Fritzing diagram, contributed by Kok Ho Huen]({{ "/docs/hardware/assets/Microbit.fzpz.zip" | relative_url }})

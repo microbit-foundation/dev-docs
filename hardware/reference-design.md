@@ -13,9 +13,9 @@ review-with: jonnya
 
 ## Reference Design
 
-As well as learning about how the micro:bit is designed from the [schematic](../../hardware/schematic/), we want to enable people to build their own hardware products and projects based on the micro:bit. This means taking all the hardware that you've connected to your micro:bit and putting down on one circuit board.
+As well as learning about how the micro:bit is designed from the [schematic]({{ "/hardware/schematic/" | relative_url }}), we want to enable people to build their own hardware products and projects based on the micro:bit. This means taking all the hardware that you've connected to your micro:bit and putting down on one circuit board.
 
-![micro:bit plant monitor](/docs/hardware/assets/referencedesign-57055.png){:width="40%"}
+![micro:bit plant monitor]({{ "/docs/hardware/assets/referencedesign-57055.png" | relative_url }}){:width="40%"}
 
 *Turn all these cables into a single board!*
 
@@ -41,14 +41,14 @@ Furthermore, the micro:bit has a built in programmer and debugger, which is impo
 
 Any code that you write for your micro:bit can be run on the reference design without modification.
 
-![micro:bit reference design back](/docs/hardware/assets/referencedesign-76a11.png){:width="40%"}
-![micro:bit reference design front](/docs/hardware/assets/referencedesign-2988d.png){:width="37%"}
+![micro:bit reference design back]({{ "/docs/hardware/assets/referencedesign-76a11.png" | relative_url }}){:width="40%"}
+![micro:bit reference design front]({{ "/docs/hardware/assets/referencedesign-2988d.png" | relative_url }}){:width="37%"}
 
 ## Modularity
 
 The reference design is laid out in a very modular way, so that someone working with it can easily customise the board to include only the parts they need.
 
-![the reference design is modular](/docs/hardware/assets/referencedesign-9cfb5.png).
+![the reference design is modular]({{ "/docs/hardware/assets/referencedesign-9cfb5.png" | relative_url }}).
 
 For example, if you want to make something really tiny that doesn't make use of all the expansion or the LEDs, you could make use of the 'bare minimum subset' section of the board, and have a separate programmer.
 
@@ -59,9 +59,9 @@ Seedstudio, and commonly used on things like Adafruit BLE boards.
 
 This design is fully open source, and we're happy to accept pull requests for variants that use other modules, or improvements.
 
-For your own projects, using a different module is as simple as wiring the right pins. The [hardware](../../hardware/) page has a detailed pinmap. Likewise, contributions to this pinmap document for other popular modules are welcome.
+For your own projects, using a different module is as simple as wiring the right pins. The [hardware]({{ "/hardware/" | relative_url }}) page has a detailed pinmap. Likewise, contributions to this pinmap document for other popular modules are welcome.
 
-There is a [list of nRF51822 modules maintained by Nordic Semiconductor](https://www.nordicsemi.com/eng/Products/3rd-Party-Bluetooth-low-energy-Modules), from which you could choose any module that has all 31 GPIOs broken out. If your design doesn't use all of the pins on the edge connector and you are able to recompile your software for your custom design ([for example using Mbed](/software/runtime/)) then you could choose a range of other modules.
+There is a [list of nRF51822 modules maintained by Nordic Semiconductor](https://www.nordicsemi.com/eng/Products/3rd-Party-Bluetooth-low-energy-Modules), from which you could choose any module that has all 31 GPIOs broken out. If your design doesn't use all of the pins on the edge connector and you are able to recompile your software for your custom design ([for example using Mbed]({{ "/software/runtime/" | relative_url }})) then you could choose a range of other modules.
 
 ## Software Bringup
 
@@ -69,17 +69,17 @@ Unlike a micro:bit, your device won't come pre-flashed! Neither of the MCUs will
 
 ### KL26 Software
 
-As described on the [interface firmware](/software/daplink-interface) page, there is a bootloader and a main interface program that needs to be flashed to the KL26.
+As described on the [interface firmware]({{ "/software/daplink-interface" | relative_url }}) page, there is a bootloader and a main interface program that needs to be flashed to the KL26.
 
-The hex file/image that contains both of these together can be found here: [hex file](/docs/hardware/assets/kl26z_bl_if_BL0233_IF0234.hex.zip)
+The hex file/image that contains both of these together can be found here: [hex file]({{ "/docs/hardware/assets/kl26z_bl_if_BL0233_IF0234.hex.zip" | relative_url }})
 
 You should flash this onto your KL26 using the header labelled MKL26 prog:
 
-![KL26 program header](/docs/hardware/assets/referencedesign-7eaaa.png)
+![KL26 program header]({{ "/docs/hardware/assets/referencedesign-7eaaa.png" | relative_url }})
 
 If you don't have a debugger, the nRF51-DK board can be used as a J-link debugger with the following configuration.
 
-![Using an nRF51-DK as a debugger](/docs/hardware/assets/referencedesign-609b1.png){:width="40%"}
+![Using an nRF51-DK as a debugger]({{ "/docs/hardware/assets/referencedesign-609b1.png" | relative_url }}){:width="40%"}
 
 Please see [this page](https://os.mbed.com/users/MarceloSalazar/notebook/programming-a-minibeacon-bluetooth-module-nordic-n/) for more information.
 
@@ -89,7 +89,7 @@ Once you have flashed the KL26 then you can use the USB interface on the referen
 
 If you have chosen not to include a KL26 circuit then you can use an external programmer and the nRF51prog header:
 
-![nRF51 prog header](/docs/hardware/assets/referencedesign-d1599.png)
+![nRF51 prog header]({{ "/docs/hardware/assets/referencedesign-d1599.png" | relative_url }})
 
 ## Design and BOM
 
@@ -97,7 +97,7 @@ The documentation of the reference design is hosted at GitHub where schematics, 
 
 [micro:bit reference design GitHub page](https://github.com/microbit-foundation/microbit-reference-design)
 
-The reference design uses the same ICs as the micro:bit itself, so to avoid duplication of documentation, please refer to the [micro:bit hardware page](../../hardware/) for further details.
+The reference design uses the same ICs as the micro:bit itself, so to avoid duplication of documentation, please refer to the [micro:bit hardware page]({{ "/hardware/" | relative_url }}) for further details.
 
 ## Design Software
 

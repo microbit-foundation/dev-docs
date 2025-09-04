@@ -19,7 +19,7 @@ The micro:bit runtime, also known as the DAL/CODAL is software that runs on a mi
 
 | V2   | V1
 | ---- | ---- 
-|![Software Architectural Diagram v1](/docs/software/assets/software-overview-v2.svg) | ![Software Architectural Diagram v2](/docs/software/assets/software-overview.svg)
+|![Software Architectural Diagram v1]({{ "/docs/software/assets/software-overview-v2.svg" | relative_url }}) | ![Software Architectural Diagram v2]({{ "/docs/software/assets/software-overview.svg" | relative_url }})
 
 There are a number of important software layers that run on the micro:bit to enable easy to use languages such as Javascript to be used. Some of these, like Arm Mbed and MicroPython existed before the BBC micro:bit project started, and others, such as the micro:bit runtime were written specifically for the micro:bit.
 
@@ -69,7 +69,7 @@ Firstly, you should get yourself into a situation where you can build the micro:
 
 If you would have a feature request, or would like to get involved in the micro:bit runtime development, visit the [list of open issues](https://github.com/lancaster-university/microbit-dal/issues) and raise a new issue if it isn't already in there.
 
-You can also join the [microbit developer community on Slack](/community) if you'd like to discuss the micro:bit runtime and its components.
+You can also join the [microbit developer community on Slack]({{ "/community" | relative_url }}) if you'd like to discuss the micro:bit runtime and its components.
 
 If you think you've found a bug in the DAL, please [log a new issue in the GitHub DAL repository](https://github.com/lancaster-university/microbit-dal/issues/new)
 
