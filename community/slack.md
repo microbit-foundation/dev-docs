@@ -25,7 +25,7 @@ In addition to our regular [Micro:bit Educational Foundation newsletter](https:/
 
 [Slack](https://slack.com) is a messaging service that allows teams and communities to connect online. It's a brilliant tool for live collaboration and the place to be for current micro:bit chatter!
 
-Note: For technical support you should use [micro:bit help & support](http://support.microbit.org), where you can search for answers and raise tickets to ask the team questions. Slack complements, but does not replace, this portal.
+Note: For technical support you should use [micro:bit help & support](https://support.microbit.org), where you can search for answers and raise tickets to ask the team questions. Slack complements, but does not replace, this portal.
 
 Slack operate their own [privacy policy](https://slack.com/privacy-policy), make sure you have read and agreed with this before signing up.
 
