@@ -13,7 +13,6 @@ lang: en
 Today we’re [announcing a new version of the BBC micro:bit](https://microbit.org/new-microbit/), adding a speaker, a microphone and the CPU power to run AI and Machine Learning workloads. With these additional capabilities, we are opening up the world of AI and ML to the same collaborative design and innovation that led to the original micro:bit’s success. 
 
 This article is a more technical companion to the [news over at microbit.org](https://microbit.org/new-microbit/). 
-"
 ![micro:bit V2 image]({{ "/docs/blog/assets/latest-revision/microbit-v2-tech-site.png" | relative_url }}){: width="600"}  
 
 Although the latest micro:bit isn’t available to buy yet, we’re talking about it now because the micro:bit isn’t about one organisation, or the official editors, or even one device.
