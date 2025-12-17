@@ -7,9 +7,9 @@
    viewBox="0 0 677.86272 546.0994"
    id="svg3347"
    version="1.1"
-   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   inkscape:version="1.2 (dc2aeda, 2022-05-15)"
    sodipodi:docname="microbit-overview-2-2.svg"
-   inkscape:export-filename="/Users/mark/Desktop/Github/dev-docs/hardware/assets/microbit-overview-2-2.png"
+   inkscape:export-filename="microbit-overview-2-2.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -1527,19 +1527,21 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="1257.1429"
+     inkscape:cx="1145.7143"
      inkscape:cy="1024.2857"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g3394"
      showgrid="false"
      units="px"
      height="2064px"
-     inkscape:window-width="1920"
-     inkscape:window-height="1027"
-     inkscape:window-x="137"
-     inkscape:window-y="36"
+     inkscape:window-width="1470"
+     inkscape:window-height="890"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
      inkscape:window-maximized="0"
-     inkscape:pagecheckerboard="0" />
+     inkscape:pagecheckerboard="0"
+     inkscape:showpageshadow="2"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata3352">
     <rdf:RDF>
@@ -3363,37 +3365,37 @@
         <text
            xml:space="preserve"
            id="text1194-9"
-           style="font-style:normal;font-weight:normal;font-size:19.3521px;line-height:0%;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1196);fill:#000000;fill-opacity:1;stroke:none"
+           style="font-style:normal;font-weight:normal;font-size:19.3521px;line-height:0%;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1196);display:inline;fill:#000000;fill-opacity:1;stroke:none"
            transform="matrix(0.60488438,0,0,0.60488438,69.202413,25.079217)"><tspan
              x="184.91211"
              y="75.819549"
-             id="tspan8696"><tspan
+             id="tspan10605"><tspan
                style="font-weight:600;line-height:0.9;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';fill:#ffffff"
-               id="tspan8694">USB
+               id="tspan10603">USB
 </tspan></tspan><tspan
              x="184.91211"
              y="93.236435"
-             id="tspan8700"><tspan
+             id="tspan10609"><tspan
                style="font-weight:600;line-height:0.9;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';fill:#ffffff"
-               id="tspan8698">BLE ANTENNA
+               id="tspan10607">BLE ANTENNA
 </tspan></tspan><tspan
              x="184.91211"
              y="110.65332"
-             id="tspan8704"><tspan
+             id="tspan10613"><tspan
                style="font-weight:600;line-height:0.9;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';fill:#ffffff"
-               id="tspan8702">MICROPHONE
+               id="tspan10611">MICROPHONE
 </tspan></tspan><tspan
              x="184.91211"
              y="128.07021"
-             id="tspan8708"><tspan
+             id="tspan10617"><tspan
                style="font-weight:600;line-height:0.9;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';fill:#ffffff"
-               id="tspan8706">RESET
+               id="tspan10615">RESET
 </tspan></tspan><tspan
              x="184.91211"
              y="145.48709"
-             id="tspan8712"><tspan
+             id="tspan10621"><tspan
                style="font-weight:600;line-height:0.9;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';fill:#ffffff"
-               id="tspan8710">BATTERY</tspan></tspan></text>
+               id="tspan10619">BATTERY</tspan></tspan></text>
         <g
            id="g13254"
            transform="matrix(0.431101,0,0,0.431101,272.516,215.404)">
@@ -3702,38 +3704,38 @@
         </g>
         <text
            transform="matrix(0.61250033,0,0,0.61250033,24.656427,190.61367)"
-           style="font-style:normal;font-weight:normal;font-size:19.3521px;line-height:0%;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1196-1);clip-rule:evenodd;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           style="font-style:normal;font-weight:normal;font-size:19.3521px;line-height:0%;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1196-1);clip-rule:evenodd;display:inline;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
            id="text1194-7-2"
            xml:space="preserve"><tspan
              x="184.91211"
              y="75.819549"
-             id="tspan8716"><tspan
+             id="tspan10625"><tspan
                style="font-weight:600;line-height:0.9;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';fill:#ffffff"
-               id="tspan8714">SPEAKER
+               id="tspan10623">SPEAKER
 </tspan></tspan><tspan
              x="184.91211"
              y="93.236435"
-             id="tspan8720"><tspan
+             id="tspan10629"><tspan
                style="font-weight:600;line-height:0.9;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';fill:#ffffff"
-               id="tspan8718">PROCESSOR
+               id="tspan10627">PROCESSOR
 </tspan></tspan><tspan
              x="184.91211"
              y="110.65332"
-             id="tspan8724"><tspan
+             id="tspan10633"><tspan
                style="font-weight:600;line-height:0.9;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';fill:#ffffff"
-               id="tspan8722">ACCELEROMETER
+               id="tspan10631">ACCELEROMETER
 </tspan></tspan><tspan
              x="184.91211"
              y="128.07021"
-             id="tspan8728"><tspan
+             id="tspan10637"><tspan
                style="font-weight:600;line-height:0.9;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';fill:#ffffff"
-               id="tspan8726">COMPASS
+               id="tspan10635">COMPASS
 </tspan></tspan><tspan
              x="184.91211"
              y="145.48709"
-             id="tspan8732"><tspan
+             id="tspan10641"><tspan
                style="font-weight:600;line-height:0.9;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';fill:#ffffff"
-               id="tspan8730">PINS</tspan></tspan></text>
+               id="tspan10639">PINS</tspan></tspan></text>
         <g
            id="g2370-7"
            transform="translate(23.548349,-28.558073)">
@@ -3773,25 +3775,25 @@
          x="383.92319"
          xml:space="preserve"
          id="text1194-7-3-4"
-         style="font-style:normal;font-weight:normal;font-size:7.20758px;line-height:0%;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1196-1-0);clip-rule:evenodd;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.372445"
+         style="font-style:normal;font-weight:normal;font-size:7.20758px;line-height:0%;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1196-1-0);clip-rule:evenodd;display:inline;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.372445"
          transform="scale(1.0301142,0.97076618)"><tspan
            x="184.91211"
            y="67.294096"
-           id="tspan8736"><tspan
+           id="tspan10645"><tspan
              style="font-weight:600;line-height:0.9;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';fill:#ffffff"
-             id="tspan8734">V2</tspan></tspan></text>
+             id="tspan10643">V2</tspan></tspan></text>
       <text
          y="235.01424"
          x="426.98193"
          transform="scale(1.0301142,0.97076618)"
-         style="font-style:normal;font-weight:normal;font-size:3.12868px;line-height:0%;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1196-1-0-7);clip-rule:evenodd;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.161671"
+         style="font-style:normal;font-weight:normal;font-size:3.12868px;line-height:0%;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1196-1-0-7);clip-rule:evenodd;display:inline;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.161671"
          id="text1194-7-3-3-0"
          xml:space="preserve"><tspan
            x="184.91211"
            y="64.430708"
-           id="tspan8740"><tspan
+           id="tspan10649"><tspan
              style="font-weight:600;line-height:0.9;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';fill:#ffffff"
-             id="tspan8738">.00</tspan></tspan></text>
+             id="tspan10647">.00</tspan></tspan></text>
       <path
          transform="matrix(0.71533155,-0.69878521,0.71533155,0.69878521,0,0)"
          sodipodi:arc-type="arc"
@@ -3821,25 +3823,14 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Tw Cen MT';-inkscape-font-specification:'Tw Cen MT, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="46.329552"
-         y="230.36671"
-         id="text3366-0-1"><tspan
-           sodipodi:role="line"
-           id="tspan3368-0-10"
-           x="46.329552"
-           y="230.36671"
-           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.7556px;line-height:0.8;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.264583px">ST LSM303AGR</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Tw Cen MT';-inkscape-font-specification:'Tw Cen MT, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="156.31027"
+         x="162.66019"
          y="54.985756"
          id="text3366-3-18"><tspan
            sodipodi:role="line"
            id="tspan3368-05-76"
-           x="156.31027"
+           x="162.66019"
            y="54.985756"
-           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.7556px;line-height:0.8;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.264583px">Power indictator</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.7556px;line-height:0.8;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.264583px">Power indicator</tspan></text>
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.33364px;line-height:0%;font-family:'Tw Cen MT';-inkscape-font-specification:'Tw Cen MT, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.205795px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -3881,17 +3872,17 @@
       <text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Tw Cen MT';-inkscape-font-specification:'Tw Cen MT, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="434.45584"
-         y="68.199043"
+         x="331.85602"
+         y="59.883564"
          id="text3366-3-2-2"><tspan
            sodipodi:role="line"
            id="tspan3368-05-25-8"
-           x="434.45584"
-           y="68.199043"
+           x="331.85602"
+           y="59.883564"
            style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:10.5833px;line-height:0.8;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.264583px">Back</tspan><tspan
            sodipodi:role="line"
-           x="434.45584"
-           y="76.66568"
+           x="331.85602"
+           y="68.350204"
            style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:10.5833px;line-height:0.8;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.264583px"
            id="tspan3486-5"> </tspan></text>
       <text
@@ -3922,7 +3913,7 @@
            x="494.09201"
            y="113.73309"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4056px;line-height:100%;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583px"
-           id="tspan3404-0">- JST connection for 3V</tspan><tspan
+           id="tspan3404-0">JST-PH connection for 3V</tspan><tspan
            sodipodi:role="line"
            x="494.09201"
            y="127.13869"
@@ -3963,7 +3954,7 @@
            x="495.10501"
            y="259.75177"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4056px;line-height:100%;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583px"
-           id="tspan3456-0">- USB interface chip</tspan><tspan
+           id="tspan3456-0">USB interface MCU</tspan><tspan
            sodipodi:role="line"
            x="495.10501"
            y="273.15738"
@@ -3979,6 +3970,62 @@
            y="299.96857"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4056px;line-height:1;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583px"
            id="tspan3406-1-5-4"> </tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Tw Cen MT';-inkscape-font-specification:'Tw Cen MT, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="106.54454"
+         y="171.4886"
+         id="text3366-0-4-0-0-4-4"
+         inkscape:transform-center-x="18.142857"
+         inkscape:transform-center-y="-63.5"><tspan
+           sodipodi:role="line"
+           x="106.54454"
+           y="171.4886"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4056px;line-height:100%;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583px"
+           id="tspan3456-0-7">Target MCU</tspan><tspan
+           sodipodi:role="line"
+           x="106.54454"
+           y="184.8942"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4056px;line-height:1;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583px"
+           id="tspan3409-2-4-1"> </tspan><tspan
+           sodipodi:role="line"
+           x="106.54454"
+           y="198.2998"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4056px;line-height:1;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583px"
+           id="tspan3402-5-6-3"> </tspan><tspan
+           sodipodi:role="line"
+           x="106.54454"
+           y="211.7054"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4056px;line-height:1;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583px"
+           id="tspan3406-1-5-4-8"> </tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Tw Cen MT';-inkscape-font-specification:'Tw Cen MT, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="4.7661152"
+         y="244.50427"
+         id="text3366-0-4-0-0-4-4-3"
+         inkscape:transform-center-x="18.142857"
+         inkscape:transform-center-y="-63.5"><tspan
+           sodipodi:role="line"
+           x="4.7661152"
+           y="244.50427"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4056px;line-height:100%;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583px"
+           id="tspan3456-0-7-6">Magnetometer &amp; Accelerometer</tspan><tspan
+           sodipodi:role="line"
+           x="4.7661152"
+           y="257.90988"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4056px;line-height:1;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583px"
+           id="tspan3409-2-4-1-5"> </tspan><tspan
+           sodipodi:role="line"
+           x="4.7661152"
+           y="271.31549"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4056px;line-height:1;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583px"
+           id="tspan3402-5-6-3-9"> </tspan><tspan
+           sodipodi:role="line"
+           x="4.7661152"
+           y="284.7211"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4056px;line-height:1;font-family:Helvetica;-inkscape-font-specification:Helvetica;stroke-width:0.264583px"
+           id="tspan3406-1-5-4-8-5"> </tspan></text>
       <path
          style="fill:none;fill-rule:evenodd;stroke:#cd0365;stroke-width:1.53306;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker6192-2);marker-end:url(#marker6192-2)"
          d="m 372.01015,53.775403 c -3.03234,28.09826 -3.03234,28.09826 -3.03234,28.09826"
@@ -4007,7 +4054,7 @@
            id="tspan3368-05-1"
            x="375.58923"
            y="56.435997"
-           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.7556px;line-height:0.8;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.264583px">USB activity indictator</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:19.7556px;line-height:0.8;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.264583px">USB activity indicator</tspan></text>
       <path
          style="fill:none;fill-rule:evenodd;stroke:#cd0365;stroke-width:1.53306;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker6192-7);marker-end:url(#marker6192-7)"
          d="m 317.29644,53.444243 c 3.03234,28.09826 3.03234,28.09826 3.03234,28.09826"
@@ -4035,6 +4082,18 @@
          d="m 254.49206,223.1195 -60.88272,0.7845"
          id="path31315"
          inkscape:connector-curvature="0" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.488px;line-height:0%;font-family:'Tw Cen MT';-inkscape-font-specification:'Tw Cen MT, Normal';font-variant-ligatures:none;font-variant-caps:normal;font-variant-numeric:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.217035px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="78.091301"
+         y="228.9191"
+         id="text5677"
+         transform="scale(0.99517479,1.0048486)"><tspan
+           sodipodi:role="line"
+           id="tspan5675"
+           x="78.091301"
+           y="228.9191"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:15.488px;line-height:0.8;font-family:'GT Walsheim', sans-serif;-inkscape-font-specification:'GT Walsheim Semi-Bold';stroke-width:0.217035px">ST LSM303AGR</tspan></text>
     </g>
   </g>
 </svg>
