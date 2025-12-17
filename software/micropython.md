@@ -32,7 +32,7 @@ It provides two services:
 - [microFS](https://microfs.readthedocs.io/en/latest/)
 A simple command line tool and module for interacting with the limited file system provided by MicroPython on the BBC micro:bit.
 
-Finally, there are great [tutorials for MicroPython on the micro:bit](https://microbit-micropython.readthedocs.io/en/latest/tutorials/introduction.html).
+Finally, there are great [tutorials for MicroPython on the micro:bit](https://microbit-micropython.readthedocs.io/en/v2-docs/tutorials/introduction.html).
 
 ## What is MicroPython?
 
@@ -120,7 +120,7 @@ Many people in the international Python community have contributed free-to-use r
 
 ### Documentation
 
-Tutorials and API documentation for developers can be [found here](https://microbit-micropython.readthedocs.io/en/latest/).
+Tutorials and API documentation for developers can be [found here](https://microbit-micropython.readthedocs.io/en/v2-docs/).
 
 ### Logging an Issue with the Development Team
 
