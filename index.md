@@ -21,7 +21,7 @@ The Micro:bit Educational Foundation aims to be a 'responsible downstream' to th
 
 ## Latest news
 
-For the latest news and community updates, join our mailing list and Slack group.
+For the latest news and community updates, join our mailing list.
 
 {% include community.html %}
 
@@ -48,4 +48,4 @@ Help us build a brilliant hardware ecosystem around micro:bit - derivative board
 ### Write
 
   * [Improve the documentation and this site](https://github.com/microbit-foundation/dev-docs), either reporting issues or adding documentation will be extremely helpful.
-  * Help build a community around micro:bit - join the [slack channel and Email list]({{ "/community/" | relative_url }}), share the things you've created on twitter, blog about them!
+  * Help build a community around micro:bit - join the [Email list]({{ "/community/" | relative_url }}), share the things you've created on twitter, blog about them!
