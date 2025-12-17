@@ -11,35 +11,34 @@ lang: en
 
 ## Overview
 
-The [Python Editor](https://python.microbit.org) is a free, browser based coding environment for creating [MicroPython]({{ "/software/micropython/" | relative_url }}) projects with the BBC micro:bit.
-
-Use common snippets of code, add/remove files and modules, and upload/download .hex or .py files.
-
-The Python editor is based upon the [Ace editor](http://ace.c9.io) and includes syntax highlighting, code folding and (semi) intelligent auto-indentation.
-
-### Source
-
-The upstream source code for the Python Editor can be found at [github.com/bbcmicrobit/PythonEditor](https://github.com/bbcmicrobit/PythonEditor)
-
-The micro:bit target depends a closed source versioning repository that facilitates releases at `/v/`, for example the beta editor [https://python.microbit.org/v/beta](https://python.microbit.org/v/beta) and previous releases.
-
-### Offline
-
-It is possible to use the Python Editor offline to generate, upload and download .hex or .py files. However, refreshing the browser resets the editor.
+The [Python Editor](https://python.microbit.org) is a free, open source, browser-based coding environment for creating [MicroPython]({{ "/software/micropython/" | relative_url }}) projects with the BBC micro:bit.
 
 ### Documentation
 
-- [MicroPython reference](https://microbit-micropython.readthedocs.io/en/v1.0.1/) provides information and examples on using the blocks
-- [Developer setup](https://github.com/bbcmicrobit/PythonEditor/blob/master/README.rst)
-- [Filesystem](https://github.com/bbcmicrobit/PythonEditor/blob/master/docs/filesystem.md)
-- [Translation strategy](https://github.com/bbcmicrobit/PythonEditor/blob/master/docs/translations.md)
-- [Embedding the editor](https://github.com/bbcmicrobit/PythonEditor/blob/master/docs/embedEditor.md)
+For using the editor:
+
+- The [Reference](https://python.microbit.org/v/3/reference), [Ideas](https://python.microbit.org/v/3/ideas) and [API](https://python.microbit.org/v/3/api) tabs in the editor itself
+- [User guide](https://microbit-micropython.readthedocs.io/en/latest/)
+- [MicroPython reference](https://microbit-micropython.readthedocs.io/en/v2-docs/) provides information and examples on using the API
+
+For developing the editor or understanding how it works:
+
+- [GitHub](https://github.com/microbit-foundation/python-editor-v3)
+- [Technical overview](https://github.com/microbit-foundation/python-editor-v3/blob/main/docs/tech-overview.md)
+
+### Reusable software components
+
+The [micro:bit MicroPython simulator](https://github.com/microbit-foundation/micropython-microbit-v2-simulator#readme) is a separate component that you can embed in your own software projects.
+
+The [micro:bit connection](https://microbit-foundation.github.io/microbit-connection/) npm package is used to connect to and flash the micro:bit over WebUSB.
+
+The MicroPython file system that stores the user's Python code can be manipulated with the [microbit-fs](https://microbit-foundation.github.io/microbit-fs/) npm package.
+
+### Previous version
+
+The micro:bit Python Editor (V2) is still available at [https://python.microbit.org/v/2](https://python.microbit.org/v/2) with source code at [https://github.com/bbcmicrobit/PythonEditor](https://github.com/bbcmicrobit/PythonEditor).
 
 ### Community
 
-There are a variety of ways to get involved and interact:
-
-- Join the [micro:bit developer community on Slack]({{ "/community/" | relative_url }})
-- Raise a [Python Editor issue or feature request](https://github.com/bbcmicrobit/PythonEditor/issues)
-- Ask a question on the [MicroPython forum for micro:bit](https://forum.micropython.org/viewforum.php?f=17&sid=de047c3e944921889becbc00f02a918f)
+- Raise a [Python Editor issue or feature request](https://github.com/microbit-foundation/python-editor-v3/issues)
 - Help [Translate the Python Editor](https://support.microbit.org/en/support/solutions/articles/19000106022-translating-the-python-editor) into your own language.
