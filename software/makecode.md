@@ -28,11 +28,11 @@ This target depends on several other repositories:
 
 ## Compiler
 
- MakeCode uses a built-in compiler to translate a project into a .hex file when you select **Download**.
+MakeCode uses a built-in compiler to translate a project into a .hex file when you select **Download**.
 
 This has the advantage of not requiring an internet connection in order to code the micro:bit. Once the browser editor at [makecode.microbit.org](https://makecode.microbit.org) loads, it is cached on your computer.
 
-The MakeCode editors contain a copy of the micro:bit runtime [the DAL/CODAL]({{ "/software/runtime/" | relative_url }}) which the blocks and javascript APIs reference.
+The MakeCode editors contain a copy of the micro:bit runtime [the DAL/CODAL]({{ "/software/runtime/" | relative_url }}) which the blocks and JavaScript APIs reference.
 
 When you press **Download** the compiler converts the code into a machine readable [hex file format]({{ "/software/hex-format" | relative_url }}).
 
@@ -40,13 +40,13 @@ When this .hex file is flashed onto the MICROBIT drive, the KL26/7 interface pro
 
 ## Other Features
 
-MakeCode supports two-way conversion of code, so you can write code as blocks and see what the generated code looks like in Javascript/MakeCode Python. You can also write Javascript/MakeCode Python code, and if possible, MakeCode will convert this back into blocks automatically.
+MakeCode supports two-way conversion of code, so you can write code as blocks and see what the generated code looks like in JavaScript/MakeCode Python. You can also write JavaScript/MakeCode Python code, and if possible, MakeCode will convert this back into blocks automatically.
 
 MakeCode also allows you to [write your own block types](https://makecode.com/extensions) and [publish them as Extensions](https://makecode.microbit.org/extensions).
 
 ## Offline
 
- An [offline version of the MakeCode editor](https://makecode.microbit.org/offline) is available for use in situations where there is limited or no internet connectivity.
+An [offline version of the MakeCode editor](https://makecode.microbit.org/offline) is available for use in situations where there is limited or no internet connectivity.
 
 ## Documentation
 
@@ -65,7 +65,6 @@ Users can [publish their own tutorials](https://makecode.com/writing-docs/user-t
 
 There are a variety of ways to get involved and interact:
 
-- Join the [micro:bit developer community on Slack]({{ "/community/" | relative_url }})
 - Raise a [MakeCode issue or feature request](https://github.com/Microsoft/pxt-microbit/issues)
 - Ask the MakeCode development team on [MakeCode forum for micro:bit](https://forum.makecode.com/c/microbit/11)
 - Help [Translate MakeCode](https://makecode.com/translate) into your own language.
