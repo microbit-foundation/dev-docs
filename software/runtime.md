@@ -74,7 +74,7 @@ The micro:bit <span class="v1">V1</span> can also be programmed using the Mbed H
 
 The [instructions for building DAL](https://lancaster-university.github.io/microbit-docs/offline-toolchains/) are located in the official documentation.
 
-Some of the Arm Mbed tooling, specifically [Yotta, has been deprecated](https://support.microbit.org/support/solutions/articles/19000123284-arm-yotta-registry-deprecation) and installing it in moderm development environments can be difficult. This [Docker image with the micro:bit C++ toolchain](https://github.com/carlosperate/docker-microbit-toolchain) provides a pre-configure build environment that can simplify the process to build DAL.
+Some of the Arm Mbed tooling, specifically [Yotta, has been deprecated](https://support.microbit.org/support/solutions/articles/19000123284-arm-yotta-registry-deprecation) and installing it in moderm development environments can be difficult. This [Docker image with the micro:bit C++ toolchain](https://github.com/carlosperate/docker-microbit-toolchain) provides a pre-configured build environment that can simplify the process to build DAL.
 
 #### DAL Source Code
 
