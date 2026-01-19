@@ -91,7 +91,7 @@ Of particular interest are the Mbed BLE projects, many of which were developed o
 
 ### Online IDE
 
-Mbed also provides an online C/C++ IDE with which you can program the micro:bit. To get started with this, please see the [micro:bit Platform Page](hhttps://os.mbed.com/platforms/Microbit/) on the Mbed site, where there's a getting started video.
+Mbed also provides an online C/C++ IDE with which you can program the micro:bit. To get started with this, please see the [micro:bit Platform Page](https://os.mbed.com/platforms/Microbit/) on the Mbed site, where there's a getting started video.
 
 ### Mbed Source Code and Versions Used
 
