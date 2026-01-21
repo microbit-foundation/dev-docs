@@ -61,6 +61,8 @@ Among the most popular are the official ones listed at https://microbit.org/code
 
 Here's a non-exhaustive list of possible code editors for use with the micro:bit: *please add any you know about that are not here*
 
+- [Keil Studio Cloud IDE](https://studio.keil.arm.com/)
+
 - [MakeCode](https://makecode.microbit.org)
 
 - [Python](https://python.microbit.org)
@@ -86,8 +88,6 @@ Here's a non-exhaustive list of possible code editors for use with the micro:bit
 - [Kodu](https://www.kodugamelab.com/resources/#microbit)
 
 - [MATLAB & Simulink](https://uk.mathworks.com/academia/courseware/microbit.html)
-
-- [Mbed Online Compiler](https://os.mbed.com/platforms/Microbit/)
 
 - [mBlock 5](https://www.makeblock.com/software/mblock5)
 
