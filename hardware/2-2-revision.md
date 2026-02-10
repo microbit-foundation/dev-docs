@@ -1,29 +1,17 @@
 ---
-title: 2.0 micro:bit revision
-description: Details of the 2.0 micro:bit revision
-slug: /hardware/2-0-revision/
+title: 2.2x micro:bit revision
+description: Details of the latest 2.2x micro:bit revision
+slug: /hardware/2-2-revision/
 ---
 
 ## Overview
 
 
-![Board overview 2.0](./assets/microbit-overview-2.png)
+![Board overview 2.2](./assets/microbit-overview-2-2.png)
 
 ## Hardware block diagram
 
-![2.0 block](./assets/v2-block.svg)
-
-## Getting started with the micro\:bit hardware
-
-The micro:bit is a Single Board Computer (SBC) that contains an application processor with a variety of on-chip peripherals. Other peripherals are connected to this chip.
-
-An interface processor is connected to the application processor and manages communications via the USB interface, including the drag-and-drop code flashing process. The interface processor does not connect to any of the micro:bit peripherals.
-
-Two key pieces of information to help understand the internals of the micro:bit are:
-
-- The [schematics](/hardware/schematic/), which shows the detailed component data and connectivity of the device.
-
-- The [reference design](/hardware/reference-design/), which is a complete module design of a compatible micro:bit, and is designed to be a starting point for anyone interested in understanding the micro:bit or designing their own variant.
+![2.2 block](./assets/v2-2-block.svg)
 
 ## Hardware description
 
@@ -41,12 +29,12 @@ There is an on-board 2.4GHz radio peripheral used to provide Bluetooth and custo
 | Flash ROM     | 512KB
 | RAM           | 128KB
 | Speed         | 64MHz
-| Debug         | [SWD](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fps_nrf52833%2Fdif.html), [J-Link/OB](https://www.segger.com/products/debug-probes/j-link/models/j-link-lite/j-link-lite-cortex-m/)
+| Debug         | [SWD](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fps_nrf52833%2Fdif.html)
 | More Info     | [Software](/software/), [nRF52 datasheet](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52833.html&cp=3_1)
 
 ### Bluetooth wireless communication
 
-The on-board 2.4GHz supports Bluetooth communications via the [Nordic S113 SoftDevice](https://www.nordicsemi.com/Software-and-Tools/Software/S113), which provides a fully qualified Bluetooth low energy stack.
+The on-board 2.4GHz antenna supports Bluetooth communications via the [Nordic S113 SoftDevice](https://www.nordicsemi.com/Software-and-Tools/Software/S113), which provides a fully qualified Bluetooth low energy stack.
 This allows the micro:bit to communicate with a wide range of Bluetooth devices, including smartphones and tablets.
 
 | item          | details
@@ -82,7 +70,7 @@ Additionally, the micro:bit runtime software adds a 'group code' to each data pa
 
 ### Buttons
 
-The two buttons on the front of the micro:bit, and the one button on the back, are tact momentary push-to-make buttons. The back button is connected to the KL27 interface processor and to the nRF52 processor for system reset purposes. This means that the application will reset regardless of if it is powered from USB or from battery.
+The two buttons on the front of the micro:bit, and the one button on the back, are tact momentary push-to-make buttons. The back button is connected to the interface processor and to the nRF52 processor for system reset purposes. This means that the application will reset regardless of if it is powered from USB or from battery.
 
 Front buttons A and B can be programmed in the user application for any purpose.
 A and B are debounced by software, which also includes short press, long press, and 'both A+B' press detection. Buttons operate in a typical inverted electrical mode, where a pull-up resistor ensures a logical '1' when the button is released, and a logical '0' when the button is pressed.
@@ -210,15 +198,29 @@ Power to the micro:bit may be provided via 5V on the USB connector, or via a 3V 
 
 The interface chip handles the USB connection, and is used for flashing new code to the micro:bit, sending and receiving serial data back and forth to your main computer.
 
+Due to parts availability there are two variants of the V2.2X devices with a different interface chip; a limited run of devices were built using the nRF52833-QDAA and further devices are built using the nRF52820-QDAA.
+
+As the two chip variants are of the same family, the same DAPLink firmware image runs on both chips and it provides the exact same functionality.
+
 | item          | details
 | ---           | ---
-| Model         | [MKL27Z256VFM4](https://www.nxp.com/part/MKL27Z256VFM4#/)
-| Core variant: | [Arm Cortex-M0+](https://www.arm.com/products/processors/cortex-m/cortex-m0plus.php)
-| Flash ROM     | 256KB (128kB reserved for non-volatile storage)
-| RAM           | 16KB
-| Speed         | 48MHz
+| Model         | [nRF52833-QDAA](https://www.nordicsemi.com/products/nrf52833)
+| Core variant: | [64 MHz Arm® Cortex®-M4F](https://developer.arm.com/Processors/Cortex-M4)
+| Flash ROM     | 512KB (128kB use for firmware, 128kB reserved for non-volatile storage, rest unused)
+| RAM           | 128KB (only 32 KB used)
+| Speed         | 64MHz
+| Debug capabilities | [SWD](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52833.html)
+| More Info | [DAPLink](/firmware/daplink-interface/), [nRF52833 datasheet](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52833.html&cp=4_1)
+
+| item          | details
+| ---           | ---
+| Model         | [nRF52820-QDAA](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52820.html)
+| Core variant: | [64 MHz Arm® Cortex®-M4](https://developer.arm.com/Processors/Cortex-M4)
+| Flash ROM     | 256KB  (128kB reserved for non-volatile storage)
+| RAM           | 32KB
+| Speed         | 64MHz
 | Debug capabilities | [SWD](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52820.html)
-| More Info | [DAPLink](/firmware/daplink-interface/), [KL27 reference manual (behind login)](https://www.nxp.com/webapp/Download?colCode=KL27P64M48SF6RM) [KL27 datasheet](https://www.nxp.com/docs/en/data-sheet/KL27P64M48SF6.pdf)
+| More Info | [DAPLink](/firmware/daplink-interface/), [nRF52820 datasheet](https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_nrf52%2Fstruct%2Fnrf52820.html)
 
 ### USB communications
 
@@ -244,7 +246,6 @@ The interface processor can be used with special host tools to debug code that i
 | ---           | ---
 | Protocol      | Serial Wire Debug (SWD)
 | Options       | DAPLink (CMSIS-DAP)
-|               | JLink/OB (via different firmware)
 
 ### Mechanical
 

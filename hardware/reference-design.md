@@ -1,29 +1,25 @@
 ---
-layout: page
-order:
-title: micro:bit Reference Design
-heading: micro:bit Reference Design
+title: micro:bit reference design
 description: the micro:bit reference design is 100% binary compatible with the micro:bit but based on an nRF51 module instead of the chip directly on the board - this means you don't need to worry about antenna tuning or radio compliance when you make your own micro:bit derived design.
-permalink: /hardware/reference-design/
-ref: hardware
-lang: en
-assigned-to: jonnya
-review-with: jonnya
+slug: /hardware/reference-design/
 ---
 
-## Reference Design
+## Reference design
 
-As well as learning about how the micro:bit is designed from the [schematic]({{ "/hardware/schematic/" | relative_url }}), we want to enable people to build their own hardware products and projects based on the micro:bit. This means taking all the hardware that you've connected to your micro:bit and putting down on one circuit board.
+As well as learning about how the micro:bit is designed from the [schematic](/hardware/schematic/), we want to enable people to build their own hardware products and projects based on the micro:bit. This means taking all the hardware that you've connected to your micro:bit and putting down on one circuit board.
 
-![micro:bit plant monitor]({{ "/docs/hardware/assets/referencedesign-57055.png" | relative_url }}){:width="40%"}
+<figure>
 
-*Turn all these cables into a single board!*
+![micro\:bit plant monitor](./assets/referencedesign-57055.png)
+
+<figcaption>Turn all these cables into a single board!</figcaption>
+</figure>
 
 Because the micro:bit has a Bluetooth radio, building your own boards just like the micro:bit is complicated - you need to tune the antenna, add the right resonance circuit and then certify the board, if you'd like to build more than just a few of them. Therefore, in order to make it easier to build things based on the micro:bit, we've made this version of the board that uses a pre-certified nRF51-based module (details in [Module Choice](#module-choice) below). This way you can take your mind off the gritty RF details and just concentrate on adding your own components to the board.
 
 Furthermore, the micro:bit has a built in programmer and debugger, which is important for a development board, but might not be worth the cost if you're just building fixed-function product. The programmer on the reference design can be easily extracted and used to program other boards - so you can make one programmer to program all your micro:bit based designs!
 
-## Reference Design Features
+## Reference design features
 
 - **100% binary compatible with the micro:bit, including all the same hardware features: 3xbuttons, 5x5 display, motion sensor)**
 
@@ -41,55 +37,55 @@ Furthermore, the micro:bit has a built in programmer and debugger, which is impo
 
 Any code that you write for your micro:bit can be run on the reference design without modification.
 
-![micro:bit reference design back]({{ "/docs/hardware/assets/referencedesign-76a11.png" | relative_url }}){:width="40%"}
-![micro:bit reference design front]({{ "/docs/hardware/assets/referencedesign-2988d.png" | relative_url }}){:width="37%"}
+![micro\:bit reference design back](./assets/referencedesign-76a11.png)
+![micro\:bit reference design front](./assets/referencedesign-2988d.png)
 
 ## Modularity
 
 The reference design is laid out in a very modular way, so that someone working with it can easily customise the board to include only the parts they need.
 
-![the reference design is modular]({{ "/docs/hardware/assets/referencedesign-9cfb5.png" | relative_url }}).
+![the reference design is modular](./assets/referencedesign-9cfb5.png).
 
 For example, if you want to make something really tiny that doesn't make use of all the expansion or the LEDs, you could make use of the 'bare minimum subset' section of the board, and have a separate programmer.
 
-## Module Choice
+## Module choice
 
 There are multiple vendors of Bluetooth pre-certified modules based on the nRF51822. But because the micro:bit uses every pin on the nRF51822, only modules that exposes all of the GPIO of the chip can be used. We have initially chosen the [Raytac MDBT40-256V3](http://www.raytac.com/product/ins.php?index_id=63), which is available from outlets like
 Seedstudio, and commonly used on things like Adafruit BLE boards.
 
 This design is fully open source, and we're happy to accept pull requests for variants that use other modules, or improvements.
 
-For your own projects, using a different module is as simple as wiring the right pins. The [hardware]({{ "/hardware/" | relative_url }}) page has a detailed pinmap. Likewise, contributions to this pinmap document for other popular modules are welcome.
+For your own projects, using a different module is as simple as wiring the right pins. The [hardware](./) page has a detailed pinmap. Likewise, contributions to this pinmap document for other popular modules are welcome.
 
-There is a [list of nRF51822 modules maintained by Nordic Semiconductor](https://www.nordicsemi.com/eng/Products/3rd-Party-Bluetooth-low-energy-Modules), from which you could choose any module that has all 31 GPIOs broken out. If your design doesn't use all of the pins on the edge connector and you are able to recompile your software for your custom design ([for example using Mbed]({{ "/software/runtime/" | relative_url }})) then you could choose a range of other modules.
+There is a [list of nRF51822 modules maintained by Nordic Semiconductor](https://www.nordicsemi.com/eng/Products/3rd-Party-Bluetooth-low-energy-Modules), from which you could choose any module that has all 31 GPIOs broken out. If your design doesn't use all of the pins on the edge connector and you are able to recompile your software for your custom design ([for example using Mbed](/software/runtime/)) then you could choose a range of other modules.
 
-## Software Bringup
+## Software bringup
 
 Unlike a micro:bit, your device won't come pre-flashed! Neither of the MCUs will have any software, so you'll need a debugger, or to ask the people manufacturing your board to flash it for you.
 
-### KL26 Software
+### KL26 software
 
-As described on the [interface firmware]({{ "/software/daplink-interface" | relative_url }}) page, there is a bootloader and a main interface program that needs to be flashed to the KL26.
+As described on the [interface firmware](/firmware/daplink-interface/) page, there is a bootloader and a main interface program that needs to be flashed to the KL26.
 
-The hex file/image that contains both of these together can be found here: [hex file]({{ "/docs/hardware/assets/kl26z_bl_if_BL0233_IF0234.hex.zip" | relative_url }})
+The hex file/image that contains both of these together can be found here: [hex file](./assets/kl26z_bl_if_BL0233_IF0234.hex.zip)
 
 You should flash this onto your KL26 using the header labelled MKL26 prog:
 
-![KL26 program header]({{ "/docs/hardware/assets/referencedesign-7eaaa.png" | relative_url }})
+![KL26 program header](./assets/referencedesign-7eaaa.png)
 
 If you don't have a debugger, the nRF51-DK board can be used as a J-link debugger with the following configuration.
 
-![Using an nRF51-DK as a debugger]({{ "/docs/hardware/assets/referencedesign-609b1.png" | relative_url }}){:width="40%"}
+![Using an nRF51-DK as a debugger](./assets/referencedesign-609b1.png)
 
 Please see [this page](https://os.mbed.com/users/MarceloSalazar/notebook/programming-a-minibeacon-bluetooth-module-nordic-n/) for more information.
 
-### nRF51 Software
+### nRF51 software
 
 Once you have flashed the KL26 then you can use the USB interface on the reference design itself in order to program any micro:bit hex file onto the device.
 
 If you have chosen not to include a KL26 circuit then you can use an external programmer and the nRF51prog header:
 
-![nRF51 prog header]({{ "/docs/hardware/assets/referencedesign-d1599.png" | relative_url }})
+![nRF51 prog header](./assets/referencedesign-d1599.png)
 
 ## Design and BOM
 
@@ -97,9 +93,9 @@ The documentation of the reference design is hosted at GitHub where schematics, 
 
 [micro:bit reference design GitHub page](https://github.com/microbit-foundation/microbit-reference-design)
 
-The reference design uses the same ICs as the micro:bit itself, so to avoid duplication of documentation, please refer to the [micro:bit hardware page]({{ "/hardware/" | relative_url }}) for further details.
+The reference design uses the same ICs as the micro:bit itself, so to avoid duplication of documentation, please refer to the [micro:bit hardware page](./) for further details.
 
-## Design Software
+## Design software
 
 The reference design is provided in formats that can be loaded and used in:
 

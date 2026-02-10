@@ -1,12 +1,7 @@
 ---
-layout: page
-order:
-title: Other Programming Languages
-heading: Other Programming Languages
+title: Other programming languages
 description: Using other programming languages that support the BBC micro:bit
-permalink: /software/other-languages/
-ref: software
-lang: en
+slug: /software/other-languages/
 ---
 
 ## Overview
@@ -17,23 +12,23 @@ This resource aims to compile a list of these programming languages with a link 
 
 ## Submissions
 
-To add a new language to the page, [edit the page on  Github](http://github.com/microbit-foundation/dev-docs/edit/master/software/other-languages.md). For a language to be accepted its implementation must be complete enough to display a heart on the display!
+To add a new language to the page, [edit the page on  Github](https://github.com/microbit-foundation/dev-docs/edit/master/software/other-languages.md). For a language to be accepted its implementation must be complete enough to display a heart on the display!
 
 Please format the addition using this template:
 
-## Language Name
+## Language name
 
 [Project Homepage](https://example.com)
 
 [Example](https://example.com)
 
-### micro:bit heart
+### micro\:bit heart
 
 ```
     example code to show a heart on the display
 ```
 
-## Alternate Languages
+## Alternate languages
 
 ## Ada
 
@@ -41,7 +36,7 @@ Please format the addition using this template:
 
 [Example](https://github.com/AdaCore/Ada_Drivers_Library/tree/master/examples/MicroBit/text_scrolling)
 
-### micro:bit heart
+### micro\:bit heart
 
 ```ada
 with MicroBit.Display;
@@ -64,7 +59,7 @@ Examples:
   * [UART: Send a Byte](https://docs.rust-embedded.org/discovery/microbit/07-uart/send-a-single-byte.html)
   * [LED Compass](https://docs.rust-embedded.org/discovery/microbit/09-led-compass/)
 
-### micro:bit heart
+### micro\:bit heart
 
 ```rust
 #![deny(unsafe_code)]

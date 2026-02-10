@@ -1,12 +1,8 @@
 ---
-layout: page
-order:
 title: MicroPython on the micro:bit
-heading: MicroPython
 description: MicroPython is a reimplementation of Python 3 that can be used with the BBC micro:bit
-permalink: /software/micropython/
-ref: software
-lang: en
+slug: /software/micropython/
+sidebar_label: MicroPython
 ---
 
 ## Overview
@@ -20,17 +16,20 @@ There are many ways to use MicroPython on the micro:bit. You can use:
 3. Your regular editor to create Python files and a suite of command line tools to interact with the device (for advanced users only).
 5. One of the [third party editors](https://microbit.org/code/#other-editors) listed on the website.
 
-## MicroPython Tools
+## MicroPython tools
 
-- [uFlash](https://uflash.readthedocs.io/en/latest/)
-A utility for flashing the BBC micro:bit with Python scripts and the MicroPython runtime. You pronounce the name of this utility “micro-flash”. ;-)
+### uFlash
+
+[uFlash](https://uflash.readthedocs.io/en/latest/) is a utility for flashing the BBC micro:bit with Python scripts and the MicroPython runtime. You pronounce the name of this utility "micro-flash". ;-)
 
 It provides two services:
-    - A library of functions to programmatically create a hex file and flash it onto a BBC micro:bit.
-    - A command line utility called uflash that will flash Python scripts onto a BBC micro:bit.
 
-- [microFS](https://microfs.readthedocs.io/en/latest/)
-A simple command line tool and module for interacting with the limited file system provided by MicroPython on the BBC micro:bit.
+- A library of functions to programmatically create a hex file and flash it onto a BBC micro:bit.
+- A command line utility called uflash that will flash Python scripts onto a BBC micro:bit.
+
+### microFS
+
+[microFS](https://microfs.readthedocs.io/en/latest/) is a simple command line tool and module for interacting with the limited file system provided by MicroPython on the BBC micro:bit.
 
 Finally, there are great [tutorials for MicroPython on the micro:bit](https://microbit-micropython.readthedocs.io/en/v2-docs/tutorials/introduction.html).
 
@@ -51,7 +50,7 @@ MicroPython is just as easy to learn as the other programming languages but diff
 Finally, and perhaps most importantly, by learning MicroPython you're learning how to use Python - one of the world's most popular professional programming languages. You inadvertently use Python *every day* when you use YouTube, Google, Facebook, Instagram, DropBox and a plethora of other online services.
 These skills are valuable: Python programmers are in demand.
 
-### The MicroPython Software
+## The MicroPython software
 
 MicroPython is itself written in C++. The MicroPython "runtime" is built using a set of offline tools. The output from this build process is a `.hex` file containing the complete MicroPython language. The editors described above combine this file with your code to generate the file you copy onto the device.
 
@@ -61,7 +60,7 @@ When MicroPython is loaded to the micro:bit in this way, it obviously doesn't ha
 
 More interesting still, if the .hex file you copied onto the device *does* contain some of your code, it's still possible to connect with the REPL and interact with your program. This is very useful for debugging purposes.
 
-### Adding a User Application to MicroPython
+## Adding a user application to MicroPython
 
 Both the web hosted and the offline editor (Mu) have a copy of this MicroPython .hex file inside them, as a plain text file.
 
@@ -77,7 +76,7 @@ As a result, Mu and the `uflash` command are able to retrieve your Python code f
 When you flash (i.e. copy) a .hex file into the micro:bit it reboots.
 MicroPython looks for your script in a special memory address. If it finds a script it'll attempt to run it. Your program will run all the while there is something to do, so it will keep going all the while your program loops around, or until an error occurs (at which time the program will stop and scroll a helpful error message on the device).
 
-### Is MicroPython Compiled or Interpreted? It's Both!
+## Is MicroPython compiled or interpreted? It's both!
 
 Compilation is when code is turned into instructions the computer understands.
 As a result, these instructions are evaluated very quickly. Interpretation is when code is run by another (interpreting) program instead of directly on the computer. Interpretation has the advantage of flexibility: it's possible to interact with the interpreter while your program is running and change things.
@@ -96,7 +95,7 @@ All of the above happens in the blink of an eye.
 The Python virtual machine built into MicroPython is itself compiled from C++ code. It reads Python bytecodes and interprets them one at a time, calling into lower level C++ functions to make each one perform its unique purpose. By using a bytecode interpreter, MicroPython implements a virtual machine with its own virtual instruction set.
 It is virtual, because these instructions are not "baked in" to the hardware, but they are implemented in software. This is what allows MicroPython to be easily 'ported' onto different computer systems with different processors.
 
-### Code Editors and Tools
+## Code editors and tools
 
 The [Python in Education](http://pyedu.io/) website contains lots of [micro:bit related resources](http://pythonineducation.org/en/microbit/) and an online editor as well as general Python in education related resources.
 
@@ -104,13 +103,13 @@ You can [download Mu](http://codewith.mu/) from its website and also get involve
 
 A couple of Python modules provide code and command line commands for [flashing your micro:bit](https://uflash.readthedocs.io/en/latest/) and [interacting with the filesystem](https://microfs.readthedocs.io/en/latest/).
 
-### Community Contributions
+## Community contributions
 
 Many people in the international Python community have contributed free-to-use resources via the [MicroPython / BBC micro:bit World Tour](https://microworldtour.github.io/).
 
 [Online python simulator](https://create.withcode.uk/)
 
-### Teaching Resources
+## Teaching resources
 
 [microbit.org](https://microbit.org/lessons/?filters=python) Provides a range of Python related curricula.
 
@@ -118,17 +117,17 @@ Many people in the international Python community have contributed free-to-use r
 
 [Grok Learning](https://groklearning.com/microbit/) provides an online MicroPython code editor, Blockly visual programming, full micro:bit simulator, curriculum-aligned teaching material and auto-marked problems.
 
-### Documentation
+## Documentation
 
 Tutorials and API documentation for developers can be [found here](https://microbit-micropython.readthedocs.io/en/v2-docs/).
 
-### Logging an Issue with the Development Team
+## Logging an issue with the development team
 
 - [Show open issues](https://github.com/bbcmicrobit/micropython/issues)
 
 - [Log a new issue](https://github.com/bbcmicrobit/micropython/issues/new)
 
-### Source Code
+## Source code
 
 - [MicroPython on the micro:bit source code](https://github.com/bbcmicrobit/micropython)
 
@@ -144,7 +143,7 @@ Tutorials and API documentation for developers can be [found here](https://micro
 
 - [microfs](https://github.com/ntoll/microfs)
 
-### Other Links
+## Other links
 
 - All development is covered by the Python Software Foundation's [code of conduct](https://www.python.org/psf/codeofconduct/).
 

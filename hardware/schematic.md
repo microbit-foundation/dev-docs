@@ -1,19 +1,11 @@
 ---
-layout: page
-order:
 title: Schematics
-heading: Schematics
 description: micro:bit Circuit Schematics, assembly and test point map
-permalink: /hardware/schematic/
-ref: hardware
-lang: en
+slug: /hardware/schematic/
 ---
 
 ## Overview
-{:notoc}
 
-* TOC
-{:toc}
 
 This page discusses the micro:bit schematic and Bill of Materials, which shows the electrical connections of the micro:bit and the components used in it.
 
@@ -21,7 +13,7 @@ The micro:bit <span class="v1">V1.3</span> and  <span class="v1">V1.5</span> sch
 
 The micro:bit  <span class="v2">V2</span> schematic is available from the Micro:bit Educational Foundation [microbit-v2-hardware repository](https://github.com/microbit-foundation/microbit-v2-hardware).
 
-If you're looking to make something of your own based on the micro:bit, you might prefer to use our ['Reference Design']({{ "/hardware/reference-design/" | relative_url }}) which is based on a radio module and has space on the layout for you to add your own components.
+If you're looking to make something of your own based on the micro:bit, you might prefer to use our ['Reference Design'](/hardware/reference-design/) which is based on a radio module and has space on the layout for you to add your own components.
 
 ## Schematics & BOM
 
@@ -39,7 +31,7 @@ If you're looking to make something of your own based on the micro:bit, you migh
 
 Below is the pinmap and allocation of the nRF52833, more information is available on the micro:bit  <span class="v2">V2</span> [schematic](https://github.com/microbit-foundation/microbit-v2-hardware/blob/main/V2.00/MicroBit_V2.0.0_S_schematic.PDF)
 
-| GPIO on nRF52833 | Allocation          | Interface (KL27 / nRF52) | Edge Connector name |
+| GPIO on nRF52833 | Allocation          | Interface (KL27 / nRF52) | Edge connector name |
 | ---------------- | ------------------- | ------------------------ | ------------------- |
 | P0.00            | SPEAKER             | KL27_DAC / IF_SPEAKER    |                     |
 | P1.05            | COL4                | N                        | P6                  |
@@ -77,11 +69,11 @@ Below is the pinmap and allocation of the nRF52833, more information is availabl
 
 `*`: These names follow the schematic's naming convention, labeled from the interface's perspective, not the target MCU's. So, UART_INT_TX corresponds to the MCU's RX pin, and UART_INT_RX to the MCU's TX pin.
 
-## Key Features
+## Key features
 
 Below, we've extracted some useful details about the hardware that anyone implementing software for the micro:bit, interfacing to it, or designing an add-on board for it should find useful.
 
-### LEDS
+### LEDs
 
 The LED matrix is physically laid out as a 5x5. On the <span class="v2">V2</span> board this is implemented as a 5x5 matrix, but in the <span class="v1">V1</span>, this is implemented as a scanned matrix of 9x3 (i.e. 9 columns by 3 rows). Row 2 Col 8, and Row 2 Col 9 are not used.
 
@@ -101,7 +93,7 @@ The interface processor does not have any connection to the GPIO pins on the mic
 
 There is one combined motion sensor IC on the micro:bit, that contains an accelerometer and a magnetometer. The accelerometer measures acceleration in 3 axes, and the magnetometer can be used as a compass, as well as a magnetic field detector.
 
-The device is connected to the application processor [I2C bus]({{ "/hardware/i2c/" | relative_url }}), and for the <span class="v1">V1</span> revision this [I2C bus is also shared]({{ "/hardware/i2c-shared/" | relative_url }}) to two pins on the edge connector. I2C pull-up resistors are pre-fitted on the board.
+The device is connected to the application processor [I2C bus](/hardware/i2c/), and for the <span class="v1">V1</span> revision this [I2C bus is also shared](/hardware/i2c/) to two pins on the edge connector. I2C pull-up resistors are pre-fitted on the board.
 
 In <span class="v2">V2</span> there is a combined open drain, active low, interrupt signal (`COMBINED_SENSOR_INT`) to the application processor for the motion sensors and the KL27. Any device can asset this signal and the application processor has to query the individual devices to locate the origin.
 
@@ -109,7 +101,7 @@ The magnetometer can generate one processor interrupt for the application proces
 
 Note, the physical orientation of this IC is important for binary compatibility with the driver code in the application processor, which assumes a particular physical orientation in its calculations.
 
-### Power Supply
+### Power supply
 
 Power to the micro:bit can be provided by 3 sources: The USB, the battery connector, and the 3V pad on the edge connector.
 
@@ -123,7 +115,7 @@ A low-Vf diode (in this case about 0.23V max) is used to switch between sources.
 
 Care should be taken if powering the micro:bit from the 3V pad on the edge connector, as the trace from that pad is connected directly to the ICs on the board. Please check the datasheets for the appropriate ICs for their maximum tolerable voltages.
 
-### Application Processor
+### Application processor
 
 The main application processor runs both the runtime code and user code, as a single binary image.
 
@@ -131,13 +123,13 @@ Code is loaded into this processor via the interface processor.
 
 Communications via USB serial is done via the interface processor.
 
-All GPIO pins on the [edge connector]({{ "/hardware/edgeconnector/" | relative_url }}) are serviced by this application processor.
+All GPIO pins on the [edge connector](/hardware/edge-connector/) are serviced by this application processor.
 
-All [bluetooth]({{ "/bluetooth" | relative_url }}) features are provided by a SoftDevice stack loaded into this processor.
+All [bluetooth](/bluetooth/) features are provided by a SoftDevice stack loaded into this processor.
 
 The nRF52<span class="v2">V2</span> features additional NFC functionality on P0.09(NFC1) and P0.10(NFC2) that is disabled by default, but can be configured using the [nRF5SDK](https://www.nordicsemi.com/Software-and-Tools/Software/nRF5-SDK).
 
-### Edge Connector
+### Edge connector
 
 The edge connector is the main interface to external components attached to the micro:bit.
 
@@ -162,33 +154,33 @@ The specific dimensions of the board are:
 - button depth to board 4.55mm
 - <span class="v2">V2</span> speaker depth to board 3.00mm
 
-## Assembly Diagram
+## Assembly diagram
 
-The following image of the <span class="V2">V2</span> revision is taken from the [micro:bit V2 assembly diagram]({{ "/docs/hardware/assets/Microbit_V2_Assembly.pdf" | relative_url }}) provided by Avid.
+The following image of the <span class="V2">V2</span> revision is taken from the [micro:bit V2 assembly diagram](./assets/Microbit_V2_Assembly.pdf) provided by Avid.
 
-![micro:bit assembly front]({{ "/docs/hardware/assets/microbit-v2-assembly-front.png" | relative_url }})
+![micro\:bit assembly front](./assets/microbit-v2-assembly-front.png)
 
 ## Test point map
 
 The rear view of the device has been adapted to highlight the test points and describe their purpose.
 
-![micro:bit assembly back]({{ "/docs/hardware/assets/microbit-v2-assembly-back.png" | relative_url }})
+![micro\:bit assembly back](./assets/microbit-v2-assembly-back.png)
 
-### Exposed Test Points
+### Exposed test points
 
 Test Point | Purpose
 ---------- | -------
-TP1 | U5 Bootmode - [used to enter the ROM bootloader on the KL27Z]({{ "/software/daplink-interface/#updating-the-daplink-full-image-v200-only" | relative_url }})
+TP1 | U5 Bootmode - [used to enter the ROM bootloader on the KL27Z](/firmware/daplink-interface/#updating-the-daplink-full-image-v200-only)
 TP7 | USB D+
 TP8 | USB D-
 TP17 | Access to Pin 1 on Battery connector
 TP19 | Access to VBUS line on USB Connector
 TP20 | Access for debugging internal I2C bus - SCL
 TP21 | Access for debugging internal I2C bus - SDA
-TP9 | VREG - [Actually the power rounded rectangular pad]({{ "/accessories/making-accessories/#battery-pads" | relative_url }})
-TP10 | GND - [Actually the GND rounded rectangular pad]({{ "/accessories/making-accessories/#battery-pads" | relative_url }})
+TP9 | VREG - [Actually the power rounded rectangular pad](/accessories/#battery-pads)
+TP10 | GND - [Actually the GND rounded rectangular pad](/accessories/#battery-pads)
  
-### Covered test points (Solder mask to be removed to access test point)
+### Covered test points (solder mask to be removed to access test point)
 
 Test Point | Purpose
 ---------- | -------
@@ -203,7 +195,7 @@ TP5 | VREG - additional VREG, this is connected to TP9
 
 ## Further information
 
-- [micro:bit V2 assembly diagram]({{ "/docs/hardware/assets/Microbit_V2_Assembly.pdf" | relative_url }})
+- [micro:bit V2 assembly diagram](./assets/Microbit_V2_Assembly.pdf)
 
 - [KL27 datasheet](https://www.nxp.com/docs/en/data-sheet/KL27P64M48SF6.pdf)
 

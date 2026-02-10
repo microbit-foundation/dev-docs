@@ -1,12 +1,7 @@
 ---
-layout: page
-order:
-title: makecode.microbit.org
-heading: makecode.microbit.org
+title: Microsoft MakeCode
 description: Information about the MakeCode editor for the BBC micro:bit
-permalink: /software/makecode/
-ref: makecode
-lang: en
+slug: /software/makecode/
 ---
 
 ## Overview
@@ -21,10 +16,10 @@ The source code for MakeCode for micro:bit target can be found at [github.com/Mi
 
 This target depends on several other repositories:
 
-- <https://github.com/Microsoft/pxt> the PXT framework
-- <https://github.com/Microsoft/pxt-common-packages> common APIs across various MakeCode editors
-- <https://github.com/lancaster-university/microbit> basic wrapper around the DAL
-- <https://github.com/lancaster-university/microbit-dal> the micro:bit DAL
+- [https://github.com/Microsoft/pxt](https://github.com/Microsoft/pxt) the PXT framework
+- [https://github.com/Microsoft/pxt-common-packages](https://github.com/Microsoft/pxt-common-packages) common APIs across various MakeCode editors
+- [https://github.com/lancaster-university/microbit](https://github.com/lancaster-university/microbit) basic wrapper around the DAL
+- [https://github.com/lancaster-university/microbit-dal](https://github.com/lancaster-university/microbit-dal) the micro:bit DAL
 
 ## Compiler
 
@@ -32,13 +27,13 @@ MakeCode uses a built-in compiler to translate a project into a .hex file when y
 
 This has the advantage of not requiring an internet connection in order to code the micro:bit. Once the browser editor at [makecode.microbit.org](https://makecode.microbit.org) loads, it is cached on your computer.
 
-The MakeCode editors contain a copy of the micro:bit runtime [the DAL/CODAL]({{ "/software/runtime/" | relative_url }}) which the blocks and JavaScript APIs reference.
+The MakeCode editors contain a copy of the micro:bit runtime [the DAL/CODAL](/software/runtime/) which the blocks and JavaScript APIs reference.
 
-When you press **Download** the compiler converts the code into a machine readable [hex file format]({{ "/software/hex-format" | relative_url }}).
+When you press **Download** the compiler converts the code into a machine readable [hex file format](/firmware/hex-format/).
 
 When this .hex file is flashed onto the MICROBIT drive, the KL26/7 interface processor on the micro:bit copies it into the flash memory inside the nRF application processor and the code runs.
 
-## Other Features
+## Other features
 
 MakeCode supports two-way conversion of code, so you can write code as blocks and see what the generated code looks like in JavaScript/MakeCode Python. You can also write JavaScript/MakeCode Python code, and if possible, MakeCode will convert this back into blocks automatically.
 

@@ -1,25 +1,19 @@
 ---
-layout: page
-order:
 title: The micro:bit runtime DAL/CODAL
-heading: The micro:bit runtime DAL/CODAL
 description: Information on developing with the micro:bit runtime, the low level C/C++ tool on which much of the software ecosystem for the micro:bit is built.
-permalink: /software/runtime/
-ref: software
-lang: en
+slug: /software/runtime/
 ---
 
-## Overview
-{:no_toc}
+The low-level C/C++ runtime on which much of the micro:bit software ecosystem is built.
 
-* TOC
-{:toc}
+## Overview
+
 
 The micro:bit runtime, also known as the DAL/CODAL is software that runs on a micro:bit to support the majority of the micro:bit programming languages. It can help you understand how the micro:bit works, and also will help you understand where to start if you want to dive deeper into the micro:bit, write support software for your own micro:bit hardware extensions, and tailor or improve something on the micro:bit.
 
 | V2   | V1
 | ---- | ---- 
-|![Software Architectural Diagram v1]({{ "/docs/software/assets/software-overview-v2.svg" | relative_url }}) | ![Software Architectural Diagram v2]({{ "/docs/software/assets/software-overview.svg" | relative_url }})
+|![Software Architectural Diagram v2](./assets/software-overview-v2.svg) | ![Software Architectural Diagram v1](./assets/software-overview.svg)
 
 There are a number of important software layers that run on the micro:bit to enable easy to use languages such as Javascript to be used. Some of these, like Arm Mbed and MicroPython existed before the BBC micro:bit project started, and others, such as the micro:bit runtime were written specifically for the micro:bit.
 
@@ -27,7 +21,7 @@ Arm Mbed provides a Hardware Abstraction Layer (HAL) for chips using Arm Cortex 
 
 When writing C/C++ code for the micro:bit, use of the micro:bit runtime is highly recommended. It provides an easy to use API for C/C++ programs, and is written in a componentised manner so that you can use only the parts you need (for example, just the MicroBitDisplay).
 
-### The micro:bit runtime Device Abstraction Layer (DAL) - V1
+### The micro\:bit runtime device abstraction layer (DAL) - V1
 
 The micro:bit runtime provides a [Device Abstraction Layer (DAL)](https://lancaster-university.github.io/microbit-docs/), that is built using Arm Mbed. Lancaster University has written this runtime for the micro:bit <span class="v1">V1</span> as part of its ongoing efforts to support the adoption of Computer Science in schools. It provides a useful set of functions for higher level languages to consume, and make programming the micro:bit in C or C++ easier. Many of the 'blocks' you use in MakeCode are directly calling functions provided by the DAL. The micro:bit runtime DAL is written in C/C++ and builds on the Arm Mbed HAL.
 
@@ -40,7 +34,7 @@ Key components of the micro:bit DAL are:
 
 The micro:bit <span class="v1">V1</span> can also be programmed using the Mbed HAL directly, for those developers seeking more low level access to the hardware.
 
-### Component Oriented Device Abstraction Layer (CODAL)- V2
+### Component oriented device abstraction layer (CODAL) - V2
 The [Component Oriented Device Abstraction Layer (CODAL)](https://lancaster-university.github.io/codal/) is an evolution of the DAL runtime that abstracts each hardware component of the micro:bit as a software component. CODAL supports a range of devices and processors, including the micro:bit <span class="v2">V2</span> device. A specific CODAL target has been written for the latest micro:bit:
 
 [CODAL target for micro:bit V2](https://github.com/lancaster-university/codal-microbit-v2)
@@ -59,7 +53,7 @@ Key components of micro:bit CODAL are:
 
 The [instructions for building CODAL](https://github.com/lancaster-university/microbit-v2-samples) are currently located in the micro:bit samples repository. You can clone this repository and build examples from the source folder. The final link is TBC and may change.
 
-### Contributing to the micro:bit Runtime
+### Contributing to the micro\:bit runtime
 
 The micro:bit runtime is an open source project, distributed under the MIT license, and contributions and collaborations are very much welcomed from the micro:bit community. There are still many things that could be merged into the micro:bit runtime, and with MakeCode moving forward and adding new features, things that go into the runtime can also be exposed to the higher level languages if they work well and prove useful for coding in education.
 
@@ -71,7 +65,7 @@ If you would have a feature request, or would like to get involved in the micro:
 
 If you think you've found a bug in the DAL, please [log a new issue in the GitHub DAL repository](https://github.com/lancaster-university/microbit-dal/issues/new)
 
-### DAL Source Code
+### DAL source code
 
 [Device Abstraction Layer, source code](https://github.com/lancaster-university/microbit-dal)
 
@@ -83,7 +77,7 @@ If you think you've found a bug in the DAL, please [log a new issue in the GitHu
 
 The information on Arm Mbed applies to <span class="v1">V1</span> only.
 
-### Hardware and Low Level Software
+### Hardware and low level software
 
 The micro:bit hardware is based on the Mbed HDK, and the software on the Mbed SDK. Any program that runs on an Mbed platform will run on the micro:bit provided the required peripherals and memory are present. This means that developers using the micro:bit already have access to a huge [library of components](https://os.mbed.com/components/) that they can use with the micro:bit. Furthermore, it means that things developed on the micro:bit can be used on other Mbed platforms.
 
@@ -91,9 +85,9 @@ Of particular interest are the Mbed BLE projects, many of which were developed o
 
 ### Online IDE
 
-Mbed also provides an online C/C++ IDE with which you can program the micro:bit. To get started with this, please see the [micro:bit Platform Page](hhttps://os.mbed.com/platforms/Microbit/) on the Mbed site, where there's a getting started video.
+Mbed also provides an online C/C++ IDE with which you can program the micro:bit. To get started with this, please see the [micro:bit Platform Page](https://os.mbed.com/platforms/Microbit/) on the Mbed site, where there's a getting started video.
 
-### Mbed Source Code and Versions Used
+### Mbed source code and versions used
 
 The Mbed repository for micro:bit is [https://github.com/lancaster-university/mbed-classic](https://github.com/lancaster-university/mbed-classic), this is a fork of Mbed OS 2 (classic) with changes and fixes needed for the micro:bit project. This is the version of Mbed used with the offline DAL toolchain, [Mbed Online Compiler](https://os.mbed.com/handbook/mbed-Compiler), and the [online editors on microbit.org](https://microbit.org/code).
 

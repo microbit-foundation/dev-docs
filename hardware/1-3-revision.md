@@ -1,27 +1,19 @@
 ---
-layout: hardware
-order:
 title: 1.3x micro:bit revision
-heading: 1.3x micro:bit revision
 description: Details of the 1.3x micro:bit revision, featuring individual accelerometer and magnetometer
-permalink: /hardware/1-3-revision/
-ref: 1-3
-lang: en
+slug: /hardware/1-3-revision/
 ---
 
 ## Overview
-{:notoc}
 
-* TOC
-{:toc}
 
-![1.3 diagram]({{ "/docs/hardware/assets/microbit-overview.png" | relative_url }})
+![1.3 diagram](./assets/microbit-overview.png)
 
 ## Hardware block diagram
 
-![1.3 block]({{ "/docs/hardware/assets/v1-block.svg" | relative_url }})
+![1.3 block](./assets/v1-block.svg)
 
-## Getting Started With the micro:bit Hardware
+## Getting started with the micro\:bit hardware
 
 The micro:bit hardware is based on the Arm-Mbed platform. It has an application processor with lots of on-chip peripherals. Some off-chip peripherals are connected to this chip.
 There is an interface processor connected to the application processor, and it is the interface processors job to manage communications over the USB and to support the drag-and-drop code-flashing process.
@@ -29,13 +21,13 @@ The interface processor does not connect to any of the micro:bit peripherals.
 
 Two key pieces of information to help understand the internals of the micro:bit are:
 
-- The [schematics]({{ "/hardware/schematic/" | relative_url }}), which shows the detailed component data and connectivity of the device.
+- The [schematics](/hardware/schematic/), which shows the detailed component data and connectivity of the device.
 
-- The [reference design]({{ "/hardware/reference-design/" | relative_url }}), which is a complete module design of a compatible micro:bit, and is designed to be a starting point for anyone interested in understanding the micro:bit or designing their own variant.
+- The [reference design](/hardware/reference-design/), which is a complete module design of a compatible micro:bit, and is designed to be a starting point for anyone interested in understanding the micro:bit or designing their own variant.
 
-## Hardware Description
+## Hardware description
 
-### nRF51 Application Processor
+### nRF51 application processor
 
 The nRF51 application processor is where user programs run. A single, complete application including user code, runtime code and bluetooth stack is loaded and run directly from on-chip flash memory. All user accessible GPIO pins are provided by this processor.
 There is an on-board 2.4GHz radio engine used to provide Bluetooth capabilities via an off-chip aerial.
@@ -48,9 +40,9 @@ There is an on-board 2.4GHz radio engine used to provide Bluetooth capabilities 
 | RAM           | 16KB
 | Speed         | 16MHz
 | Debug         | SWD, jlink/OB
-| More Info     | [here]({{ "/software" | relative_url }})
+| More Info     | [here](/software/)
 
-### Bluetooth Wireless Communication
+### Bluetooth wireless communication
 
 The on-board 2.4GHz transceiver supports Bluetooth communications via the Nordic S110 SoftDevice, which provides a fully qualified Bluetooth low energy stack.
 This allows the micro:bit to communicate with a wide range of Bluetooth devices, including smartphones and tablets.
@@ -65,9 +57,9 @@ This allows the micro:bit to communicate with a wide range of Bluetooth devices,
 | Role          | [GAP Peripheral](https://bluetooth-developer.blogspot.com/2016/07/microbit-and-bluetooth-roles.html)
 | Congestion avoidance | Adaptive Frequency Hopping
 | Profiles      | 1 [BBC micro:bit profile](https://lancaster-university.github.io/microbit-docs/ble/profile/)
-| More Info     | [here]({{ "/bluetooth" | relative_url }})
+| More Info     | [here](/bluetooth/)
 
-### Low Level Radio Communications
+### Low level radio communications
 
 The on-board 2.4GHz transciever supports a number of other radio communications standards, on which we build the microbit-radio protocol
 This protocol provides a very simple small-packet broadcast radio interface between other devices that support it, such as other micro:bit devices.
@@ -147,7 +139,7 @@ This device is connected to the application processor via the I2C bus.
 | Full Scale range | 1000uT
 | Sensitivity | 0.10uT
 
-### Temperature Sensing
+### Temperature sensing
 
 The nRF51 application processor has an on-board core temperature sensor.
 This is exposed via the standard runtime software, and provides an estimate of ambient temperature.
@@ -160,7 +152,7 @@ This is exposed via the standard runtime software, and provides an estimate of a
 | Accuracy      | +/-4C (uncalibrated)
 | More Info     | [here](https://lancaster-university.github.io/microbit-docs/ubit/thermometer/)
 
-### General Purpose Input/Output Pins
+### General purpose input/output pins
 
 The edge connector brings out many of the GPIO circuits of the application processor. Some of these circuits are shared with other functions of the micro:bit, but many of these extra circuits can be re-allocated to general purpose use if some software features are turned off. Note: the nRF51 datasheet states that GPIO pins may be in std-drive (0.5mA) and high-drive (5mA) mode, with a maximum of 3 pins in high-drive mode at any one time.
 
@@ -179,12 +171,12 @@ The edge connector brings out many of the GPIO circuits of the application proce
 ||        3 may be assigned to an optional SPI communications interface
 ||        3 may be assigned for up to 3 simultaneous touch sensing inputs
 |ADC resolution | 10 bit (0..1023)
-| Edge Connector| [Edge connector]({{ "/hardware/edgeconnector/" | relative_url }})
+| Edge connector| [Edge connector](/hardware/edge-connector/)
 | Pitch | 1.27mm, 80 way double sided.
 | Pads| 5 pads, with 4mm holes
-| More Info | [here]({{ "/hardware/edgeconnector/" | relative_url }})
+| More Info | [here](/hardware/edge-connector/)
 
-### Power Supply
+### Power supply
 
 Power to the micro:bit may be provided via the USB connection, via the interface chip (which has an on-board regulator), or via a battery plugged into the top connector. It is also possible (with care) to power the micro:bit from the 3V pad at the bottom. The 3V pad at the bottom can be used to supply a small amount of power external circuits.
 
@@ -196,7 +188,7 @@ Power to the micro:bit may be provided via the USB connection, via the interface
 | Battery connector | JST X2B-PH-SM4-TB
 | Battery current | TBC
 | Max current provided via edge connector | 90mA
-| More Info | [here]({{ "/hardware/powersupply/" | relative_url }})
+| More Info | [here](/hardware/power-supply/)
 
 ### Interface
 
@@ -210,9 +202,9 @@ The interface chip handles the USB connection, and is used for flashing new code
 | RAM           | 16KB
 | Speed         | 16MHz
 | Debug capabilities | SWD
-| More Info | [here]({{ "/software/daplink-interface/" | relative_url }})
+| More Info | [here](/firmware/daplink-interface/)
 
-### USB Communications
+### USB communications
 
 The micro:bit has an on-board USB communications stack, that is built into the firmware of the interface chip. This stack provides the ability to drag and drop files onto the MICROBIT drive in order to load code into the application processor. It also allows serial data to be streamed to and from the micro:bit application processor over USB to an external host computer, and supports the CMSIS-DAP protocol for host debugging of application programs.
 
@@ -225,7 +217,7 @@ The micro:bit has an on-board USB communications stack, that is built into the f
 |    | [Communications Device Class (CDC)](https://en.wikipedia.org/wiki/USB_communications_device_class)
 |    | [CMSIS-DAP HID & WinUSB](https://arm-software.github.io/CMSIS_5/DAP/html/index.html)
 |    | [WebUSB CMSIS-DAP HID](https://wicg.github.io/webusb/)
-| More Info | [here]({{ "/software/daplink-interface/" | relative_url }})
+| More Info | [here](/firmware/daplink-interface/)
 
 ### Debugging
 
@@ -249,9 +241,9 @@ We have some [nice 2D and 3D CAD drawings and models of the micro:bit](https://g
 
 ## Further information
 
-- [Schematic]({{ "/hardware/schematic" | relative_url }})
+- [Schematic](/hardware/schematic/)
 
-- [Reference Design]({{ "/hardware/reference-design" | relative_url }})
+- [Reference Design](/hardware/reference-design/)
 
 - [Nordic NRF51 datasheet](http://infocenter.nordicsemi.com/pdf/nRF51822_PS_v3.1.pdf)
 
@@ -275,4 +267,4 @@ We have some [nice 2D and 3D CAD drawings and models of the micro:bit](https://g
 
 - [Arm Mbed overview](https://www.mbed.com/en/about-mbed/what-mbed/)
 
-- [Fritzing diagram, contributed by Kok Ho Huen]({{ "/docs/hardware/assets/Microbit.fzpz.zip" | relative_url }})
+- [Fritzing diagram, contributed by Kok Ho Huen](./assets/Microbit.fzpz.zip)

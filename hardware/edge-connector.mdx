@@ -1,20 +1,11 @@
 ---
-layout: page
-order:
-title: Edge Connector and Pinout
-heading: Edge Connector & micro:bit pinout
+title: Edge connector and pinout
 description: The edge connector provides a set of pads and pins to allow interfacing to other circuits and components.
-tags: micro:bit pinout, edge connector
-permalink: /hardware/edgeconnector/
-ref: hardware
-lang: en
+slug: /hardware/edge-connector/
 ---
 
 ## Overview
-{:notoc}
 
-* TOC
-{:toc}
 
 The edge connector on the micro:bit is used to connect to external circuits and components.
 
@@ -25,26 +16,29 @@ There are a number of external PCB connectors for purchase with an 80w 1.27mm pi
 
 Only the pins on the front are connected to signals. The back rings are connected to the front rings, but the back small strips are unconnected.
 
-## Edge Connector Pins
+## Edge connector pins
 
-The diagrams below show the assignation of the micro:bit pins. On the <span class="v2">V2</span> board revision
+The diagrams below show the assignation of the micro:bit pins. On the <span className="v2">V2</span> board revision
 Pin 9 is no longer jointly shared with the LED display, but Pin 8 and Pin 9 can be configured for NFC (though this is disabled by default).
 
 | V2   | V1
 | ---- | ---- 
-| ![edge connector V2]({{ "/docs/hardware/assets/edge-connector-2.svg" | relative_url }}) | ![edge connector v1]({{ "/docs/hardware/assets/edge_connector.svg" | relative_url }})
+| ![edge connector V2](./assets/edge-connector-2.svg) | ![edge connector v1](./assets/edge_connector.svg)
 
 ### microbit.pinout.xyz
 
 [microbit.pinout.xyz](https://microbit.pinout.xyz) is a fantastic resource for further information on the micro:bit pins and how they are used by some popular accessories
 
-### Pins and Signals
+### Pins and signals
 
-[V2](#pins-and-signals){: #v2-button .btn.sm-btn .variation} [V1](#pins-and-signals){: #v1-button .btn.sm-btn}
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 This table shows various data about each of the pins on the micro:bit edge connector.
 
-{: #v2-pins}
+<Tabs>
+<TabItem value="v2" label="V2" default>
+
 | m:b ring | mod     | schem         | MCU              | s/w | functions                                         | dir    | pull?          |
 | -------- | ---     | -----         | ---              | --- | ---------                                         | ---    | -----          |
 |          | 21      | COLR3         | P0.31/AIN7       | P3  | (GPIO), (ANALOG), **LEDCOL(3)**, (PWM), (UART)    | O      | --             |
@@ -89,7 +83,9 @@ This table shows various data about each of the pins on the micro:bit edge conne
 |          |         | GND           |                  |     | PSU(GND)                                          |        | --             |
 
 
-{: #v1-pins .hide}
+</TabItem>
+<TabItem value="v1" label="V1">
+
 | m:b ring | mod     | schem    | MCU   | s/w | functions                                         | dir    | pull?          |
 | -------- | ---     | -----    | ---   | --- | ---------                                         | ---    | -----          |
 |          | 21      | COL1R    | P0.04 | P3  | (GPIO), (ANALOG), **LEDCOL(1)**, (PWM), (UART)    | O      | --             |
@@ -133,6 +129,8 @@ This table shows various data about each of the pins on the micro:bit edge conne
 |          |         | GND      |       |     | }                                                 |        | --             |
 |          |         | GND      |       |     | PSU(GND)                                          |        | --             |
 
+</TabItem>
+</Tabs>
 
 | column    | purpose
 | ---       | ---
@@ -157,11 +155,11 @@ This table shows various data about each of the pins on the micro:bit edge conne
 
 5. Functions in brackets should be used with caution, as other features of the device may become unstable, degraded or non operational, if their normal use is not disabled in the software first.
 
-6. The source file for [the pinout table]({{ "/docs/hardware/pinmap.csv" | relative_url }}) is held in CSV format. You can load this into a spreadsheet and sort and filter it in any way that makes sense to you. There is also a [zipped Python script]({{ "/docs/hardware/csv2md.zip" | relative_url}}) in this folder that you can download to re-generate the markdown table version of the pin map used on this page, from the .csv file.
+6. The source file for [the pinout table](./pinmap.csv) is held in CSV format. You can load this into a spreadsheet and sort and filter it in any way that makes sense to you. There is also a [zipped Python script](./csv2md.zip) in this folder that you can download to re-generate the markdown table version of the pin map used on this page, from the .csv file.
 
 7. The pin marked 'ACCESSIBILITY' is used to enable/disable an on-board accessibility mode, and should not be used for anything else (even though it can be used as a GPIO for testing). Future versions of the official micro:bit editors may remove the ability to write to this pin.
 
-## Uncoupling Default Functionality
+## Uncoupling default functionality
 
 Pins that are marked with brackets around functions, require the default functionality for that pin to be disabled, before other functions can be used.
 
@@ -187,11 +185,11 @@ It is possible to disable the DAL services that use these pins as the I2C bus, b
 
 The main reason you might choose to use these pins for other purposes would be if you were designing your own micro:bit variant without any I2C devices, and then it would free up two more pins for other purposes.
 
-## Power Supply Capabilities
+## Power supply capabilities
 
-There is a dedicated page on [power supply capabilities and parameters]({{ "/hardware/powersupply" | relative_url }}), which better defines how you can use the GND and 3V rings
+There is a dedicated page on [power supply capabilities and parameters](/hardware/power-supply/), which better defines how you can use the GND and 3V rings
 
-## GPIO Capabilities
+## GPIO capabilities
 
 ### NRF51
 
@@ -219,7 +217,7 @@ NOTE 2: A common way that the maximum pin voltages can be exceeded, is to attach
 
 NOTE 3: The pin marked 'ACCESSIBILITY' is used to enable/disable an on-board accessibility mode, and should not be used for anything else (even though it can be used as a GPIO for testing). Future versions of the official micro:bit editors may remove the ability to write to this pin.
 
-NOTE 4: The BBC suggest in the safety guide, that the maximum current you can draw from the whole edge connector at any one time is <span class="v1">V1</span>90mA. This is set based on the 30mA budget for on-board peripherals, and the fact that the on-board regulator of the KL26 when powered from USB is rated at a maximum of 120mA. On the latest board revision the maximum current is <span class="v2">V2</span>270mA, though it is possible that the on-board mic and speaker can draw more current, so this value is TBC.
+NOTE 4: The BBC suggest in the safety guide, that the maximum current you can draw from the whole edge connector at any one time is <span className="v1">V1</span>90mA. This is set based on the 30mA budget for on-board peripherals, and the fact that the on-board regulator of the KL26 when powered from USB is rated at a maximum of 120mA. On the latest board revision the maximum current is <span className="v2">V2</span>270mA, though it is possible that the on-board mic and speaker can draw more current, so this value is TBC.
 
 ### nRF52
 
@@ -249,7 +247,7 @@ These key GPIO parameters are transcribed directly from Section 6, 7 and 8 of th
 | RPU     | Pull up resistance                                          |  6.8.3  | 11K      | 16K      |
 | RPD     | Pull down resistance                                        |  6.8.3  | 11K      | 16K      |
 
-## Connectors and Breakouts
+## Connectors and breakouts
 
 There are a number of suppliers of edge connector for the BBC micro:bit, in various forms, such as a right angle through-hole, a stand-up through-hole and a stand-up surface mount.
 
@@ -261,9 +259,9 @@ There are also some nice ideas that have surfaced in the community such as using
 
 Can you help to find or design a better connection solution to the micro:bit edge connector? Share your designs and discoveries with us!
 
-## Edge Connectors for the BBC micro:bit
+## Edge connectors for the BBC micro\:bit
 
-[Add your connector to our list](http://github.com/microbit-foundation/dev-docs/edit/master/hardware/edgeconnector.md){: .btn.sm-btn}
+<a href="http://github.com/microbit-foundation/dev-docs/edit/master/hardware/edgeconnector.md" className="btn btn-cta">Add your connector to our list</a>
 
 | Supplier | Product
 | -------- | -------
@@ -272,7 +270,7 @@ Can you help to find or design a better connection solution to the micro:bit edg
 
 ## Further information
 
-- [micro:bit schematics]({{ "/hardware/schematic" | relative_url }})
+- [micro:bit schematics](/hardware/schematic/)
 
 - [micro:bit CAD resources (Kitronik)](https://www.kitronik.co.uk/blog/bbc-microbit-cad-resources/)
 
