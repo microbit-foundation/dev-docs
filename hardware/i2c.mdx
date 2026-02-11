@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 <Tabs queryString="board-version">
 <TabItem value="v2" label="V2" default>
 
-The I2C bus for the latest revision of the micro:bit separates the I2C signals into Internal and External use. The [previous revisions share the I2C bus](?board-version=v1) with the edge connector and the target MCU.
+The I2C bus for the latest revision of the micro:bit separates the I2C signals into Internal and External use. The [previous revisions share the I2C bus](/hardware/i2c/?board-version=v1) with the edge connector and the target MCU.
 
 The internal signals run to the target Nordic chip and communicate with the motion sensor and interface chip.
 
@@ -29,12 +29,12 @@ The external lines run to the edge connector and can be used for accessories.
 | motion sensor variant 1 (LSM303AGR)  | 0x19 (0x32/0x33) | 0x1E (0x3C/0x3D) | 0x70 (0xE0/0xE1) | 0x72 (0xE4/0xE5) |
 | motion sensor variant 2 (FXOS8700CQ) | 0x1F (0x3E/0x3F) | 0x1F (0x3E/0x3F) | 0x70 (0xE0/0xE1) | 0x72 (0xE4/0xE5) |
 
-The <span className="v2">V2</span> has a dedicated bus for on-board I2C peripherals. The <span className="v1">V1</span> shares the same bus for on-board and external I2C devices — see the [V1 tab](?board-version=v1) for reserved addresses.
+The <span className="v2">V2</span> has a dedicated bus for on-board I2C peripherals. The <span className="v1">V1</span> shares the same bus for on-board and external I2C devices — see the [V1 tab](/hardware/i2c/?board-version=v1) for reserved addresses.
 
 </TabItem>
 <TabItem value="v1" label="V1">
 
-The motion sensors on the board are on the same I2C bus as the edge connector I2C pins. This means that if you have an accessory that uses I2C on this bus, you need to check it won't clash with any of the possible on-board sensors. The [latest board revision does not share the I2C bus](?board-version=v2).
+The motion sensors on the board are on the same I2C bus as the edge connector I2C pins. This means that if you have an accessory that uses I2C on this bus, you need to check it won't clash with any of the possible on-board sensors. The [latest board revision does not share the I2C bus](/hardware/i2c/?board-version=v2).
 
 The V1.5 micro:bit has a footprint for two different motion sensors: one made by ST (the LSM303AGR) and one by NXP (FXOS8700CQ). The micro:bit DAL supports both of these sensors, detecting them at runtime. To date, all V1.5 boards have been manufactured with the LSM303AGR, however we may switch to the NXP part. Before doing so we will perform a round of testing and notify the [DAL and Devices mailing list.](http://eepurl.com/dyRx-v)
 
