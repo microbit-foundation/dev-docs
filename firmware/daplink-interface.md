@@ -146,9 +146,13 @@ The API is currently available in [Chrome based browsers](https://caniuse.com/#f
 
 ## Updating the DAPLink full image (V2.00 only)
 
-<div class="alert alert-danger">Please note - there is almost no situation in the normal use of the micro:bit where this step will be necessary. We have documented it here in the interests of making the the micro:bit more friendly to developers who want to experiment with the code on the <span class="v2">V2.00</span> KL27 interface MCU. If your micro:bit enumerates in MAINTENANCE or MICROBIT mode you should never need to perform these steps.</div>
+:::danger
 
-**Please only use use these steps if you are familiar with USB bootloaders and command line tools. You should never need to perform these to update a micro:bit.**
+Please note - there is almost no situation in the normal use of the micro:bit where this step will be necessary. We have documented it here in the interests of making the micro:bit more friendly to developers who want to experiment with the code on the <span class="v2">V2.00</span> KL27 interface MCU. If your micro:bit enumerates in MAINTENANCE or MICROBIT mode you should never need to perform these steps.
+
+:::
+
+**Please only use these steps if you are familiar with USB bootloaders and command line tools. You should never need to perform these to update a micro:bit.**
 
 You can also flash a full DAPLink image to the <span class="v2">V2</span> device using the KL27 internal bootloader. This will update both interface and bootloader.
 
@@ -156,7 +160,11 @@ You can also flash a full DAPLink image to the <span class="v2">V2</span> device
 
 You will need to register for and download the [**Bootloader Host Application (blhost)**](https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuboot-mcu-bootloader-for-nxp-microcontrollers:MCUBOOT?&tab=Design_Tools_Tab) from NXP. In the `/bin` folder you will find executables for your operating system.
 
-<div class="alert alert-warning">Please ensure the nRF52 flash has been erased before erasing/flashing the KL27 flash. Programmes running on the nRF52 can affect the KL27 internal boot process and stop the kinetis bootloader from running. You can flash an <a href="pathname://./assets/erase-flash.hex" download>erase-flash.hex</a> file to erase the nRF52.</div>
+:::warning
+
+Please ensure the nRF52 flash has been erased before erasing/flashing the KL27 flash. Programmes running on the nRF52 can affect the KL27 internal boot process and stop the kinetis bootloader from running. You can flash an <a href="pathname://./assets/erase-flash.hex" download>erase-flash.hex</a> file to erase the nRF52.
+
+:::
 
 ### Enter bootloader mode
 
