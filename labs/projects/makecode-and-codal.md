@@ -1,6 +1,8 @@
 ---
 title: MakeCode and CODAL - intuitive and efficient embedded systems programming for education
 slug: /labs/projects/makecode-and-codal/
+description: "In this paper we present the motivation, requirements, implementation, and evaluation of a new programming platform that enables novice users to create effective and efficient software for embedded systems."
+sidebar_position: 3
 ---
 
 Historically, embedded systems development has been a specialist skill, requiring knowledge of low-level programming languages, complex compilation toolchains, and specialist hardware, firmware, device drivers and applications. However, it has now become commonplace for a broader range of non-specialists to engage in the making (design and development) of embedded systems - including educators to motivate and excite their students in the classroom. This diversity brings its own set of unique requirements, and the complexities of existing embedded systems development platforms introduce insurmountable barriers to entry.
