@@ -31,7 +31,7 @@ The MicroPython file system that stores the user's Python code can be manipulate
 
 ## Previous version
 
-The micro:bit Python Editor (V2) is still available at [https://python.microbit.org/v/2](https://python.microbit.org/v/2) with source code at [https://github.com/bbcmicrobit/PythonEditor](https://github.com/bbcmicrobit/PythonEditor).
+The micro:bit Python Editor (V2) is still available at [https://python.microbit.org/v/2](https://python.microbit.org/v/2), and its [source code is on GitHub](https://github.com/bbcmicrobit/PythonEditor).
 
 ## Community
 

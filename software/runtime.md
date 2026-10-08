@@ -89,13 +89,13 @@ Mbed also provides an online C/C++ IDE with which you can program the micro:bit.
 
 ### Mbed source code and versions used
 
-The Mbed repository for micro:bit is [https://github.com/lancaster-university/mbed-classic](https://github.com/lancaster-university/mbed-classic), this is a fork of Mbed OS 2 (classic) with changes and fixes needed for the micro:bit project. This is the version of Mbed used with the offline DAL toolchain, [Mbed Online Compiler](https://os.mbed.com/handbook/mbed-Compiler), and the [online editors on microbit.org](https://microbit.org/code).
+The Mbed repository for micro:bit is [mbed-classic](https://github.com/lancaster-university/mbed-classic), a fork of Mbed OS 2 (classic) with changes and fixes needed for the micro:bit project. This is the version of Mbed used with the offline DAL toolchain, [Mbed Online Compiler](https://os.mbed.com/handbook/mbed-Compiler), and the [online editors on microbit.org](https://microbit.org/code).
 
 micro:bit was based on the well-established Mbed 2.0 SDK, with which Mbed 5 is compatible. Work is ongoing to [bring the micro:bit runtime onto Mbed 5](https://github.com/lancaster-university/microbit-dal/issues/224).
 
 ## Nordic nRF5 SDK
 
-The Mbed abstraction for the Nordic chip is built on top of the Nordic nRF5 SDK https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF5-SDK
+The Mbed abstraction for the Nordic chip is built on top of the [Nordic nRF5 SDK](https://www.nordicsemi.com/Products/Development-software/nRF5-SDK).
 
 Crucially, this includes Nordic's [Soft Device 110](https://www.nordicsemi.com/Software-and-Tools/Software/S110) <span class="v1">V1</span> / [Soft Device 113](https://www.nordicsemi.com/Software-and-tools/Software/S113) <span class="v2">V2</span>, a binary object that gets included into any hex file for the micro:bit that manages control of the radio to allow the micro:bit to use the industry standard Bluetooth Low Energy protocols.
 

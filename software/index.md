@@ -49,7 +49,7 @@ There is also a [port of the Javascript interpreter Espruino](http://www.espruin
 
 There are a huge number of possible coding environments that you can use to program the micro:bit.
 
-Among the most popular are the official ones listed at https://microbit.org/code as well as the offline Mu editor.
+Among the most popular are the [official micro:bit editors](https://microbit.org/code) and the offline [Mu editor](https://codewith.mu/).
 
 Here's a non-exhaustive list of possible code editors for use with the micro:bit: *please add any you know about that are not here*
 
@@ -65,9 +65,7 @@ Here's a non-exhaustive list of possible code editors for use with the micro:bit
 
 - [Bitty Software Applications](https://bittysoftware.blogspot.com/p/applications.html)
 
-- [CodeMao](https://codemao.cn/)
-
-- [https://wood.codemao.cn/?editor_mode=1](https://wood.codemao.cn/?editor_mode=1)
+- [CodeMao Turtle Editor](https://python.codemao.cn/)
 
 - [Edublocks (Python with blocks)](https://app.edublocks.org/#MicroBit)
 

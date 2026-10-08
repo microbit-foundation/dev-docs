@@ -111,7 +111,7 @@ Many people in the international Python community have contributed free-to-use r
 
 ## Teaching resources
 
-[microbit.org](https://microbit.org/lessons/?filters=python) Provides a range of Python related curricula.
+microbit.org provides a range of [Python teaching resources](https://microbit.org/lessons/?filters=python).
 
 [NCCE key-stage 3 Physical computing](https://teachcomputing.org/curriculum/key-stage-3/physical-computing) Contains KS3 level curriculum for teaching Python with the micro:bit.
 

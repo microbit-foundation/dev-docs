@@ -12,14 +12,14 @@ Connect colour-coded blocks that relate to hardware features and Computer Scienc
 
 ## Source
 
-The source code for MakeCode for micro:bit target can be found at [github.com/Microsoft/pxt-microbit](https://github.com/Microsoft/pxt-microbit)
+The source code for the MakeCode for micro:bit target is in the [pxt-microbit repository](https://github.com/Microsoft/pxt-microbit).
 
 This target depends on several other repositories:
 
-- [https://github.com/Microsoft/pxt](https://github.com/Microsoft/pxt) the PXT framework
-- [https://github.com/Microsoft/pxt-common-packages](https://github.com/Microsoft/pxt-common-packages) common APIs across various MakeCode editors
-- [https://github.com/lancaster-university/microbit](https://github.com/lancaster-university/microbit) basic wrapper around the DAL
-- [https://github.com/lancaster-university/microbit-dal](https://github.com/lancaster-university/microbit-dal) the micro:bit DAL
+- [pxt](https://github.com/Microsoft/pxt): the PXT framework
+- [pxt-common-packages](https://github.com/Microsoft/pxt-common-packages): common APIs across various MakeCode editors
+- [microbit](https://github.com/lancaster-university/microbit): basic wrapper around the DAL
+- [microbit-dal](https://github.com/lancaster-university/microbit-dal): the micro:bit DAL
 
 ## Compiler
 
