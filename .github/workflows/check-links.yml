@@ -1,0 +1,44 @@
+name: check-links
+on:
+  schedule:
+    # Mondays at 7am
+    - cron: 0 7 * * 1
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v7
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          # Root-relative links such as /hardware/ need a root to resolve against before the config skips them as internal.
+          args: --config lychee.toml --root-dir ${{ github.workspace }} --no-progress './**/*.md' './**/*.mdx'
+          output: lychee/out.md
+
+      - name: Report failure
+        if: failure() && github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          TITLE: 'Scheduled link check is failing'
+        run: |
+          {
+            echo "Latest failing run: $RUN_URL"
+            echo
+            echo "Close this issue once it's fixed; the next failure will open a new one."
+            echo
+            cat lychee/out.md
+          } > body.md
+          # The title identifies the issue, so repeated failures update it rather than opening new ones.
+          existing=$(gh issue list --state open --search "\"$TITLE\" in:title" --json number,title \
+            --jq "map(select(.title == env.TITLE)) | first | .number // empty")
+          if [ -n "$existing" ]; then
+            gh issue edit "$existing" --body-file body.md
+            gh issue comment "$existing" --body "Failed again: $RUN_URL"
+          else
+            gh issue create --title "$TITLE" --assignee microbit-matt-hillsdon --body-file body.md
+          fi
