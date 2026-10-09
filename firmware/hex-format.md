@@ -1,19 +1,12 @@
 ---
-layout: page
-order:
-title: .HEX file format
-heading: .HEX file format
+title: .hex file format
 description: What is the format of the .hex file created by the micro:bit editors?
-permalink: /software/hex-format/
-ref: hex-format
-lang: en
-assigned-to: markw
-review-with: carlospa
+slug: /firmware/hex-format/
 ---
 
 ## Hex files
 
-The .hex file is in [intel-hex format](https://en.wikipedia.org/wiki/Intel_HEX). Intel hex consists of records of data, with the address in memory to store the data at the start. All data is hex-ascii encoded. All lines start with a : character. All lines end with a checksum byte that can be used to verify the integrity of the data.
+The .hex file is in [Intel HEX format](https://en.wikipedia.org/wiki/Intel_HEX). Intel HEX consists of records of data, with the address in memory to store the data at the start. All data is hex-ascii encoded. All lines start with a : character. All lines end with a checksum byte that can be used to verify the integrity of the data.
 
 A micro:bit .hex file usually starts writing data to the same fixed location in memory, so depending on the toolchain, we might expect the first line of the file to start like this:
 
@@ -21,7 +14,7 @@ A micro:bit .hex file usually starts writing data to the same fixed location in 
 
 ## Universal Hex files
 
-The latest board revision introduces a superset of the Intel-Hex format that enables compatibility across processor variants. A Universal Hex is a file that contains the binary data for both micro:bit <span class="v1">V1</span> and micro:bit <span class="v2">V2</span>, in a format that DAPLink can process to only write to memory the data relevant to its micro:bit board.
+The latest board revision introduces a superset of the Intel HEX format that enables compatibility across processor variants. A Universal Hex is a file that contains the binary data for both micro:bit <span class="v1">V1</span> and micro:bit <span class="v2">V2</span>, in a format that DAPLink can process to only write to memory the data relevant to its micro:bit board.
 
 A **Universal Hex** hex file will work on a V1 or V2 board.
 A clear indication that you are working with this format is that a compiled .hex file will be ~1.8Mb as opposed to ~700Kb in size.
@@ -30,7 +23,7 @@ A [Universal Hex JavaScript Library](https://github.com/microbit-foundation/micr
 
 ## Universal Hex Creator
 
-We have created a [Universal Hex Creator]({{ "/software/universal-hex-creator" | relative_url }}) tool, to easily create a .hex file that will support all micro:bit variants.
+We have created a [Universal Hex Creator](/firmware/universal-hex-creator/) tool, to easily create a .hex file that will support all micro:bit variants.
 
 This tool is based on the [Universal Hex JavaScript Library](https://github.com/microbit-foundation/microbit-universal-hex).
 
@@ -40,24 +33,25 @@ The Universal Hex format has been developed to ensure the best experience for us
 
 There may be cases where it is not possible to support both boards, for example an accessory that is designed only to target the V2 board variant. In these cases, to ensure the best user experience when flashing a hex file to any board variant, the file should always include an error message to signify board incompatibility to the user.
 
-We have created a [standalone error hex]({{ "/docs/software/assets/stand-alone-error-v1.hex" | relative_url }}) that can be combined with a V2 only hex to produce a Hex that will work on a V2 board, but error if used on a V1.
+We have created a <a href="pathname://./assets/stand-alone-error-v1.hex" download>standalone error hex</a> that can be combined with a V2 only hex to produce a hex that will work on a V2 board, but error if used on a V1.
 
-[Download standalone error hex]({{ "/docs/software/assets/stand-alone-error-v1.hex" | relative_url }}){: .btn.sm-btn download}
+<a href="pathname://./assets/stand-alone-error-v1.hex" className="btn btn-cta" download>Download standalone error hex</a>
 
 This example shows the worst, best and acceptable (when support for V1 is impossible) cases for users. The best case is to provide a Universal Hex that supports all board variants.
-![Universal Hex error 1]({{ "/docs/software/assets/hex-compatibility-errors.png" | relative_url }})
+
+![Universal Hex error 1](../software/assets/hex-compatibility-errors.png)
 
 These examples show the process of creating a Universal Hex. A V1 and V2 hex can be combined to produce a Universal Hex. If you can only support a V2 board, the standalone error can be combined with a V2 hex to produce a hex that will fail with an error on a V1 board, rather than failing silently.
 
 |Universal Hex format                                                 |V2 only Hex format                               |
 |-----------------------------------------------------------|-----------------------------------------------------------|
-| ![Universal Hex error 2]({{ "/docs/software/assets/uhex2.png" | relative_url }}) | ![Universal Hex error 3]({{ "/docs/software/assets/uhex1.png" | relative_url }}) |
+| ![Universal Hex error 2](../software/assets/uhex2.png) | ![Universal Hex error 3](../software/assets/uhex1.png) |
 
-If you are building .hex files for both board variants, you will need to use the respective toolchains for the DAL<span class="v1">V1</span> and CODAL<span class="v2">V2</span>. See more information on the [micro:bit runtime]({{ "/software/runtime/" | relative_url }}).
+If you are building .hex files for both board variants, you will need to use the respective toolchains for the DAL<span class="v1">V1</span> and CODAL<span class="v2">V2</span>. See more information on the [micro:bit runtime](/software/runtime/).
 
-## Micropython
+## MicroPython
 
-See the [Micropython Hex file reference](https://microbit-micropython.readthedocs.io/en/v2-docs/devguide/hexformat.html) for up to date information.
+See the [MicroPython hex file reference](https://microbit-micropython.readthedocs.io/en/v2-docs/devguide/hexformat.html) for up to date information.
 
 MicroPython builds take a firmware.hex image (the MicroPython pre-compiled image) and appends your script to the end of it, in a fixed 8K region at a known address. When MicroPythons starts to run on the micro:bit, it looks for a signature at this fixed location, and uses that to determine whether to run the script, or drop directly to the REPL prompt.
 

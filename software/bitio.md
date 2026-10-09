@@ -1,14 +1,7 @@
 ---
-layout: page
-order:
 title: bitio
-heading: A micro:bit I/O device library for Python
 description: A micro:bit I/O device library for Python
-permalink: /software/bitio/
-ref: software
-lang: en
-assigned-to: markw
-review-with: jonnya
+slug: /software/bitio/
 ---
 
 ## Overview
@@ -19,7 +12,7 @@ bitio (pronounced bitty-o) is a micro:bit I/O library for Python. It allows you 
 
 The library is useful if you want to use the micro:bit as an input or an output device for other programs, e.g. for Minecraft. Tilt your micro:bit, and something happens in the Minecraft world. It can be used for anything though, where you want to use the input and output devices on the micro:bit inside a Python program on a bigger computer.
 
-## Getting Started
+## Getting started
 
 Follow the instructions in the project [README.md](https://github.com/whaleygeek/bitio#getting-started)
 

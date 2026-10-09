@@ -1,12 +1,7 @@
 ---
-layout: page
-order:
-title: Bluetooth Apps and Examples
-heading: Bluetooth Apps and Examples
+title: Bluetooth apps and examples
 description: There are a lot of great apps and examples that allow the micro:bit to talk to a smartphone over BLE
-permalink: /bluetooth/apps-and-examples/
-ref: bluetooth
-lang: en
+slug: /bluetooth/apps-and-examples/
 ---
 
 ## Overview

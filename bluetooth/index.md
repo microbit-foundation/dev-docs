@@ -1,12 +1,7 @@
 ---
-layout: page
-order:
 title: Bluetooth
-heading: Bluetooth
 description: Bluetooth implementation on the micro:bit
-permalink: /bluetooth/
-ref: bluetooth
-lang: en
+slug: /bluetooth/
 ---
 
 ## Overview
@@ -25,7 +20,7 @@ Using Bluetooth, you can connect to other devices and send and receive data from
 
 Bluetooth is [distinct from the micro:bit to micro:bit radio feature](https://support.microbit.org/support/solutions/articles/19000083637-using-the-micro-bit-wirelessly-), which has been built by [Lancaster University on top of the ShockBurst proprietary protocol from Nordic](https://lancaster-university.github.io/microbit-docs/ubit/radio/).
 
-## BBC micro:bit Bluetooth Profile
+## BBC micro\:bit Bluetooth profile
 
 The micro:bit supports Bluetooth via a single, custom-developed, BBC micro:bit profile. This profile allows it to communicate with other BLE capable devices.
 
@@ -33,7 +28,7 @@ The micro:bit supports Bluetooth via a single, custom-developed, BBC micro:bit p
 
 A pre-compiled hex file is available to download for <span class="v2">V2</span> that enables all Bluetooth services. 
 
-[Bluetooth all services CODAL]({{ "/docs/bluetooth/assets/BLE_All_Services_CODAL_0-2-40-ABDLIMTU-P.hex" | relative_url }}){: .btn.sm-btn download}
+<a href="pathname://./assets/BLE_All_Services_CODAL_0-2-40-ABDLIMTU-P.hex" className="btn btn-cta" download>Bluetooth all services CODAL</a>
 
 The source for this can be found in the [microbit-v2-samples](https://github.com/lancaster-university/microbit-v2-samples/blob/master/source/samples/BLETest.cpp) repository.
 
@@ -41,11 +36,11 @@ The source for this can be found in the [microbit-v2-samples](https://github.com
 
 The BBC micro:bit <span class="v1">V1</span> [Bluetooth profile is defined in the DAL](https://lancaster-university.github.io/microbit-docs/ble/profile/).
 
-You can flash one of two pre-compiled Hex files to the micro:bit <span class="v1">V1</span> that enable bluetooth services. As Bluetooth is memory intensive, these are supplied as either 'without Magnetometer Service' or 'without DFU Service':
+You can flash one of two pre-compiled hex files to the micro:bit <span class="v1">V1</span> that enable bluetooth services. As Bluetooth is memory intensive, these are supplied as either 'without Magnetometer Service' or 'without DFU Service':
 
-[Without magnetometer]({{ "/docs/bluetooth/assets/BLE_All_Services_DAL_2-1-1-No-Mag.hex" | relative_url }}){: .btn.sm-btn download}
+<a href="pathname://./assets/BLE_All_Services_DAL_2-1-1-No-Mag.hex" className="btn btn-cta" download>Without magnetometer</a>
 
-[Without DFU]({{ "/docs/bluetooth/assets/BLE_All_Services_DAL_2-1-1-No-DFU.hex" | relative_url }}){: .btn.sm-btn download}
+<a href="pathname://./assets/BLE_All_Services_DAL_2-1-1-No-DFU.hex" className="btn btn-cta" download>Without DFU</a>
 
 The DAL contains the [C++ source for the BLE service files](https://github.com/lancaster-university/microbit-samples/blob/master/source/examples/bluetooth-services/main.cpp).
 
@@ -86,7 +81,7 @@ We are seeking collaborators to help us define the new profile elements that exp
 - [micro:bit radio API documentation](https://lancaster-university.github.io/microbit-docs/ubit/radio/)
 
 
-## Bluetooth and the micro:bit software
+## Bluetooth and the micro\:bit software
 
 The [DAL/C++ reference documentation](https://lancaster-university.github.io/microbit-docs/ble/profile/#reference-documentation) lists the adopted and custom features available within the profile. 
 
@@ -103,7 +98,8 @@ As an example, the tools at [ML Machine](https://ml-machine.org/) have been buil
 Note: on micro:bit V1, there is very limited memory available when also using the Bluetooth extension.
 
 Here is an example of how to add and use the Bluetooth extension in MakeCode:
-![adding makecode bluetooth extension]({{ "/docs/bluetooth/assets/add_bluetooth_extension.gif" | relative_url }})
+
+![adding makecode bluetooth extension](./assets/add_bluetooth_extension.gif)
 
 ## Apps
 
