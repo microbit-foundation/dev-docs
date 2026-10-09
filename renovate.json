@@ -1,0 +1,16 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>microbit-foundation/renovate"
+  ],
+  "git-submodules": {
+    "enabled": true
+  },
+  "packageRules": [
+    {
+      "description": "The spec submodules are our own repos, so they skip the cooldown as our npm packages do. This is also what lets them update at all: submodule commits are looked up with git ls-remote, which gives no release timestamp, and the cooldown treats an update without one as never old enough.",
+      "matchManagers": ["git-submodules"],
+      "minimumReleaseAge": "0 days"
+    }
+  ]
+}
