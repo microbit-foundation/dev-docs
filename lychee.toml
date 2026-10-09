@@ -1,0 +1,18 @@
+# External links only. The tech site build checks internal links.
+scheme = ["https", "http"]
+
+max_concurrency = 8
+max_retries = 2
+timeout = 30
+
+# Many sites refuse automated requests with 403. A removed page rarely does.
+accept = ["200..=299", "403"]
+
+exclude = [
+  # These refuse automated requests in other ways.
+  '^https://uk\.farnell\.com/',
+  '^https://www\.sciencedirect\.com/',
+  '^https://www\.st\.com/',
+  # Returns 404 for every page, even its home page, so its links need checking by hand.
+  '^https?://www\.nxp\.com/',
+]
