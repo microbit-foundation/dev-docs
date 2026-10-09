@@ -67,7 +67,7 @@ Unlike a micro:bit, your device won't come pre-flashed! Neither of the MCUs will
 
 As described on the [interface firmware](/firmware/daplink-interface/) page, there is a bootloader and a main interface program that needs to be flashed to the KL26.
 
-The hex file/image that contains both of these together can be found here: [hex file](./assets/kl26z_bl_if_BL0233_IF0234.hex.zip)
+The hex file/image that contains both of these together can be found here: [hex file](pathname://../assets/kl26z_bl_if_BL0233_IF0234.hex.zip)
 
 You should flash this onto your KL26 using the header labelled MKL26 prog:
 

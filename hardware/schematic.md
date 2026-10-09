@@ -156,7 +156,7 @@ The specific dimensions of the board are:
 
 ## Assembly diagram
 
-The following image of the <span class="V2">V2</span> revision is taken from the [micro:bit V2 assembly diagram](./assets/Microbit_V2_Assembly.pdf) provided by Avid.
+The following image of the <span class="V2">V2</span> revision is taken from the [micro:bit V2 assembly diagram](pathname://../assets/Microbit_V2_Assembly.pdf) provided by Avid.
 
 ![micro\:bit assembly front](./assets/microbit-v2-assembly-front.png)
 
@@ -195,7 +195,7 @@ TP5 | VREG - additional VREG, this is connected to TP9
 
 ## Further information
 
-- [micro:bit V2 assembly diagram](./assets/Microbit_V2_Assembly.pdf)
+- [micro:bit V2 assembly diagram](pathname://../assets/Microbit_V2_Assembly.pdf)
 
 - [KL27 datasheet](https://www.nxp.com/docs/en/data-sheet/KL27P64M48SF6.pdf)
 

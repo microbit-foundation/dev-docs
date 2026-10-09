@@ -267,4 +267,4 @@ We have some [nice 2D and 3D CAD drawings and models of the micro:bit](https://g
 
 - [Arm Mbed overview](https://www.mbed.com/en/about-mbed/what-mbed/)
 
-- [Fritzing diagram, contributed by Kok Ho Huen](./assets/Microbit.fzpz.zip)
+- [Fritzing diagram, contributed by Kok Ho Huen](pathname://../assets/Microbit.fzpz.zip)
