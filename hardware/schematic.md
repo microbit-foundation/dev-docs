@@ -209,7 +209,7 @@ TP5 | VREG - additional VREG, this is connected to TP9
 
 - [KL26 datasheet](http://www.nxp.com/webapp/search.partparamdetail.framework?PART_NUMBER=MKL26Z128VFM4)
 
-- [nRF52833 datasheet](https://www.nordicsemi.com/Products/nRF52833)
+- [nRF52833 datasheet](https://docs.nordicsemi.com/bundle/ps_nrf52833/page/keyfeatures_html5.html)
 
 - [nRF51822 datasheet](https://www.nordicsemi.com/Products/nRF51822)
 
