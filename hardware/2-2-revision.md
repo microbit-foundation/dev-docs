@@ -156,7 +156,7 @@ The microphone has an external bias circuit of 33K:1K (power to ground) and is A
 | AOP           | 118db SPL
 | Frequency range | 100Hz ~ 80kHz
 | Polar pattern | Omnidirectional
-| More Info     | [Datsheet](https://www.knowles.com/docs/default-source/model-downloads/spu0410lr5h-qb-revh32421a731dff6ddbb37cff0000940c19.pdf?Status=Master&sfvrsn=cebd77b1_4)
+| More Info     | [Datasheet](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/384/SPU0410LR5H-QB_RevH_3-27-13.pdf)
 
 ### General purpose input/output pins
 
@@ -260,7 +260,7 @@ We have some [nice 2D and 3D CAD drawings and models of the micro:bit](https://g
 
 - [BBC Technical Specifications](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/specs)
 
-- [I2C specification (behind login)](https://www.nxp.com/webapp/Download?colCode=UM10204&location=null)
+- [I2C specification](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)
 
 - [SPI 'specification'](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
 
