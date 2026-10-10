@@ -251,9 +251,9 @@ We have some [nice 2D and 3D CAD drawings and models of the micro:bit](https://g
 
 - [Freescale KL26 datasheet](http://www.nxp.com/docs/pcn_attachments/16440_KL26P64M48SF5_Rev.4.pdf)
 
-- [Freescale MMA8652 accelerometer datasheet](http://cache.freescale.com/files/sensors/doc/data_sheet/MMA8652FC.pdf)
+- [Freescale MMA8653 accelerometer datasheet](https://www.nxp.com/docs/en/data-sheet/MMA8653FC.pdf)
 
-- [Freescale MAG3110 magnetometer datasheet](http://cache.freescale.com/files/sensors/doc/data_sheet/MAG3110.pdf)
+- [Freescale MAG3110 magnetometer datasheet](https://www.nxp.com/docs/en/data-sheet/MAG3110.pdf)
 
 - [Technical Specifications 1](http://www.bbc.co.uk/mediacentre/mediapacks/microbit/specs)
 
@@ -261,7 +261,7 @@ We have some [nice 2D and 3D CAD drawings and models of the micro:bit](https://g
 
 - [Safety Advice](https://www.microbit.org/safety-advice)
 
-- [I2C specification (behind login)](https://www.nxp.com/webapp/Download?colCode=UM10204&location=null)
+- [I2C specification](https://www.nxp.com/docs/en/user-guide/UM10204.pdf)
 
 - [SPI 'specification'](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
 
