@@ -12,8 +12,8 @@ jobs:
       contents: read
       issues: write
     steps:
-      - uses: actions/checkout@v7
-      - uses: lycheeverse/lychee-action@v2
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2
         with:
           # Root-relative links such as /hardware/ need a root to resolve against before the config skips them as internal.
           args: --config lychee.toml --root-dir ${{ github.workspace }} --no-progress './**/*.md' './**/*.mdx'
