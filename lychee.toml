@@ -15,4 +15,6 @@ exclude = [
   '^https://www\.st\.com/',
   # Returns 404 for every page, even its home page, so its links need checking by hand.
   '^https?://www\.nxp\.com/',
+  # Blogger rate limits (429) GitHub's runner IPs but not local runs.
+  '^https?://[^/]+\.blogspot\.',
 ]
