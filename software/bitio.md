@@ -18,11 +18,7 @@ Follow the instructions in the project [README.md](https://github.com/whaleygeek
 
 ## Projects
 
-There are various projects linked to in the README, but a couple of the more technical ones include:
-
-- Sean M. Tracey has written a [Node Red wrapper for bitio](https://flows.nodered.org/node/node-red-contrib-bitio-wrapper)
-
-- Giles Booth has created a [micro:bit controlled internet Radio](http://www.suppertime.co.uk/blogmywiki/2017/08/microbit-controlled-radio/)
+There are various projects linked to in the README. For a more technical one, Sean M. Tracey has written a [Node Red wrapper for bitio](https://flows.nodered.org/node/node-red-contrib-bitio-wrapper).
 
 ## Help
 

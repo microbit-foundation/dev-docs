@@ -79,8 +79,6 @@ Here's a non-exhaustive list of possible code editors for use with the micro:bit
 
 - [Mbed Online Compiler](https://os.mbed.com/platforms/Microbit/)
 
-- [mBlock 5](https://www.makeblock.com/software/mblock5)
-
 - [MicroBlocks (beta)](http://microblocks.fun/)
 
 - [Mind+](http://mindplus.cc/)

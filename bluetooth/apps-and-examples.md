@@ -24,8 +24,6 @@ Below is a curated list of some Bluetooth applications you might like to read ab
 
 - [micro:bit Blue App for Android](https://github.com/microbit-foundation/microbit-blue)
 
-- [Kitronik Move](https://play.google.com/store/apps/details?id=com.kitronik.blemove) - Android app that presents a D-Pad interface to control a micro:bit over Bluetooth LE.
-
 - [microBit.js](https://github.com/antefact/microBit.js) - JavaScript library to interact with BBC micro:bit using web bluetooth API.
 
 - [microbit-web-bluetooth](https://github.com/thegecko/microbit-web-bluetooth) - Web Bluetooth library implementing the micro:bit Bluetooth Profile.
