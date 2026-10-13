@@ -15,7 +15,7 @@ The micro:bit runtime, also known as the DAL/CODAL, is software that runs on a m
 | ---- | ---- 
 |![Software Architectural Diagram v2](./assets/software-overview-v2.svg) | ![Software Architectural Diagram v1](./assets/software-overview.svg)
 
-There are a number of important software layers that run on the micro:bit to enable easy to use languages such as Javascript to be used. Some of these, like Arm Mbed and MicroPython existed before the BBC micro:bit project started, and others, such as the micro:bit runtime were written specifically for the micro:bit.
+There are a number of important software layers that run on the micro:bit to enable easy to use languages such as JavaScript to be used. Some of these, like Arm Mbed and MicroPython existed before the BBC micro:bit project started, and others, such as the micro:bit runtime were written specifically for the micro:bit.
 
 ## The micro\:bit runtime
 
@@ -27,7 +27,7 @@ Key components of the micro:bit runtime are:
 
 - A fiber scheduler, that lets your micro:bit do more than one task at a time.
 - An eventing system called the message bus, that lets you write reactive code. It can inform your program when things happen on your micro:bit - everything from a button click to a message being received on the radio.
-- Device drivers representing the major hardware blocks on the micro:bit, including the LED display, sensors, radio and bluetooth profile.
+- Device drivers representing the major hardware blocks on the micro:bit, including the LED display, sensors, radio and Bluetooth profile.
 - Managed types that help keep your programs safe from the complexities of memory management. Originally implemented for higher level languages to exploit, they have also proven very useful for C/C++ programmers too.
 
 The initial version of the micro:bit runtime developed for micro:bit V1 was called DAL (Device Abstraction Layer), which evolved into CODAL (Component Oriented Device Abstraction Layer) for micro:bit V2.
@@ -41,7 +41,7 @@ CODAL was created to generalise and evolve the original DAL, so it could better 
 CODAL supports a range of devices and processors, including the micro:bit <span class="v2">V2</span> device:
 [CODAL target for micro:bit V2](https://github.com/lancaster-university/codal-microbit-v2)
 
-More information can be found in this paper: [MakeCode and CODAL - intuitive and efficient embedded systems programming for education](https://tech.microbit.org/projects/MakeCode-and-CODAL/))
+More information can be found in this paper: [MakeCode and CODAL - intuitive and efficient embedded systems programming for education](/labs/projects/makecode-and-codal/)
 
 #### Building CODAL
 
@@ -68,7 +68,7 @@ The micro:bit <span class="v1">V1</span> can also be programmed using the Mbed H
 
 The [instructions for building DAL](https://lancaster-university.github.io/microbit-docs/offline-toolchains/) are located in the official documentation.
 
-Some of the Arm Mbed tooling, specifically [Yotta, has been deprecated](https://support.microbit.org/support/solutions/articles/19000123284-arm-yotta-registry-deprecation) and installing it in moderm development environments can be difficult. This [Docker image with the micro:bit C++ toolchain](https://github.com/carlosperate/docker-microbit-toolchain) provides a pre-configured build environment that can simplify the process to build DAL.
+Some of the Arm Mbed tooling, specifically [Yotta, has been deprecated](https://support.microbit.org/support/solutions/articles/19000123284-arm-yotta-registry-deprecation) and installing it in modern development environments can be difficult. This [Docker image with the micro:bit C++ toolchain](https://github.com/carlosperate/docker-microbit-toolchain) provides a pre-configured build environment that can simplify the process to build DAL.
 
 #### DAL source code
 
@@ -80,7 +80,7 @@ Some of the Arm Mbed tooling, specifically [Yotta, has been deprecated](https://
 
 The micro:bit runtime is an open source project, distributed under the MIT license, and contributions and collaborations are very much welcomed from the micro:bit community. There are still many things that could be merged into the micro:bit runtime, and with MakeCode moving forward and adding new features, things that go into the runtime can also be exposed to the higher level languages if they work well and prove useful for coding in education.
 
-The micro:bit runtime work is managed via GitHub issue trackers. This is the best place to contribute, send a feature request, or report an bug.
+The micro:bit runtime work is managed via GitHub issue trackers. This is the best place to contribute, send a feature request, or report a bug.
 - [CODAL issue tracker](https://github.com/lancaster-university/codal-microbit-v2/issues) for micro:bit <span class="v2">V2</span>
 - [DAL issue tracker](https://github.com/lancaster-university/microbit-dal/issues) for micro:bit <span class="v1">V1</span>
 
@@ -98,7 +98,7 @@ Of particular interest are the Mbed BLE projects, many of which were developed o
 
 ### Online IDE
 
-Mbed useddd to provide an online C/C++ IDE which could be usedd to program the micro:bit. Unfortunately the [Mbed Online IDE has been retired](https://os.mbed.com/blog/entry/keil-studio-cloud-mbed-online-compiler/).
+Mbed used to provide an online C/C++ IDE which could be used to program the micro:bit. Unfortunately the [Mbed Online IDE has been retired](https://os.mbed.com/blog/entry/keil-studio-cloud-mbed-online-compiler/).
 
 ### Mbed source code and versions used
 
